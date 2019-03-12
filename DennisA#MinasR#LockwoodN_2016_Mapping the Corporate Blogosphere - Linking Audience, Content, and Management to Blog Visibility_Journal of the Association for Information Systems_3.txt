@@ -1,0 +1,577 @@
+J
+Research Paper
+
+ournal of the
+
+A
+
+ssociation for
+
+I
+
+nformation
+
+S
+
+ystems
+ISSN: 1536-9323
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+Alan R. Dennis
+Operations and Decision Technologies Department, Kelley School of Business, Indiana University ardennis@indiana.edu
+
+Randall K. Minas
+Department of Information Technology Management, University of Hawaii at Mānoa rminas@hawaii.edu
+
+Nicholas S. Lockwood
+Catalina Marketing nick.lockwood@catalinamarketing.com
+
+Abstract:
+Blogs have been a common part of the Web for many years. Individuals create most blogs for their own purposes, but corporations have also begun to develop corporate blogs as a means for communicating with their stakeholders (e.g., customers, partners, investors). In this paper, we extend theory by generating what Gregor (2006) would call a type I theory. Specifically, we develop a theoretical framework for classifying and analyzing corporate blogs that examines blogs’ target audience, their content (focus and function), and how one should manage them. We use this framework to analyze the impact of these characteristics on the visibility of blogs operated by a sample of Fortune 500 companies. Our results show that a blog’s target audience and how its content and management fit with this audience can have significant impacts on blog visibility. We believe this framework provides a useful foundation for studying corporate blogs in the future. Keywords: Corporate Blogs, Communication, Stakeholders, Audience, Blog Content, Blog Management, Feedback, Visibility.
+Choon-Ling Sia was the accepting senior editor. This article was submitted on August 25, 2013 and went through four revisions.
+
+Volume 17
+
+Issue 3
+
+pp. 162 – 193
+
+March
+
+2016
+
+163
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+1
+
+Introduction
+
+Blogs have been a common part of the Web for many years. Individuals create most blogs for their own purposes, but, in recent years, corporations have also begun to develop corporate blogs as a means to reach customers, employees, and other stakeholders (Cho & Huh, 2010; Lee, Hwang, & Lee, 2006; Wattal, Racherla, & Mandviwalla, 2009). Corporations can use corporate blogs to market products and services, develop a brand, build stronger relationships with customers, and obtain customer feedback (Aaserud, 2006; Carr, 2006; Vargo, 2006). In general, most corporate blogs aim to increase the corporation’s visibility with some target audience, often its customers (Hu, Liu, Tripathy, & Yao, 2011). Much recent blogging research has examined individual blogging and the role of blogs in learning environments (Tess, 2013; Top, 2012), including in corporate training (Chu, Chan, & Tiwari, 2012). Little research has examined corporate blogging intended to reach organizations’ external stakeholders. Research has focused on customer experiences (Hsu & Tsou, 2011) or on specific topic areas such as travel blogs (Mack, Blose, & Pan, 2008), building trust with customers (Dwyer, 2007), and blogs as customer relationship-management tools (Ahuja & Medury, 2010). However, at this point, we know little about the larger landscape in which corporate blogs exist and how best to use the blog as a tool to increase the corporation’s visibility with its external stakeholders. For example, research has not yet examined what target audiences are important, what content blogs should provide, how one should manage a blog, and the influence of these factors on visibility (researchers often assess visibility on the Web by counting the number of inlinks) (Vaughan & Wu, 2004). Therefore, in this paper, we develop a theoretical framework for analyzing corporate blogs that we use to examine the factors that influence blog visibility. We generate what Gregor (2006) would classify as a type I theory to analyze the current state of Fortune 500 blogs and use it to predict blog visibility, what Gregor (2006) would call a type III theory. Creating a theoretical framework that enables analysis and prediction is a common first step in a new research area (Gregor, 2006). Such research lays the foundation for future research and may benefit corporations by helping them to better understand the key factors in implementing their blogs. A blog is characterized by dated entries appearing in reverse chronological order. They are usually updated frequently and contain links to other blogs or websites (Blood, 2002). Beyond this basic structure, blogs can vary dramatically in style and content. Individuals create most blogs and use them as personal journals or to provide commentary on news, websites, and so on (Herring, Scheidt, Bonus, & Wright, 2004). Sometimes, companies sponsor blogs for internal use by their employees (Brecht, Cudreasova, & Zhou, 2010; Wattal, Racherla, & Mandviwalla, 2010). Andriole (2010) found that about half of the companies in his survey of 93 small-, medium-, and large-sized firms had established internal employee-oriented blogs. In recent years, companies also have begun to adopt blogs as channels for corporate communication with those external to the firm (Brecht et al., 2010; Gilpin, 2010; Lindic, 2006). These corporate blogs, as they are often called (Lindic, 2006), have received widespread attention in the popular press and practitioner literature but are not as common as internally focused blogs; only about 20 percent of firms in the Andriole (2010) survey had externally focused blogs. Corporations typically create externally focused corporate blogs to reach some target audience with their message (Cox, Martinez, & Quinlan, 2008; Jackson, Yates, & Orlikowski, 2007). Despite the emergence of corporate blogs, researchers have conducted few academic studies on them. An important first step is to develop a framework to classify and compare corporate blogs. In this study, we develop such a framework based on prior theory and research from management and mass communication. We then apply the framework to a sample of Fortune 500 blogs and examine how different dimensions of the framework affect one outcome—blog visibility, the extent to which the blog reaches an audience (Hu et al., 2011) as measured by the number of inlinks it has from outside the firm (Vaughan & Wu, 2004). With this study, we provide an overarching framework for corporate blogging to lay the foundation for future research and provide some initial guidance for practice (Gregor, 2006). To do so, we first develop a type I (analysis) theory (Gregor, 2006) that describes and analyzes constructs of interest in the corporate blogging landscape and provides researchers with a useful language to begin testing and expanding the theoretical framework (Gregor, 2006). Second, we provide predictions about how the elements of the framework influence one outcome (blog visibility), a type III theory. Type III theories provide predictions that do not have well-developed justificatory causal explanations (Gregor, 2006). Our theoretical framework is the first step in enabling future research to develop type IV theories on corporate blogging, which will provide predictions with causal explanations (Gregor, 2006). The corporate
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+164
+
+blog framework provides many avenues for future research; researchers can use this framework as a tool for describing different types of corporate blogs and for analyzing the relationships between blog characteristics and outcome measures. Moreover, practitioners can use it to develop insight into the role blogs play in corporate communication strategies.
+
+2
+
+Prior Research
+
+In developing a theoretical framework for corporate blogs, we first identified fundamental theory and existing frameworks that we could use to develop our type I theory. Blogs are foremost a form of mass communication (Thielst, 2007). Therefore, fundamental theory for blogs draws from theories of mass communication. Denis McQuail has conducted the seminal work on mass communication, the most recent of which is McQuail (2010). This work identifies four overarching theoretical cores. The first theoretical core is the audience who is the target of the communication: without the audience, there would be no communication, so any understanding must begin with understanding the target audience. The second theoretical core is the nature of the organization producing the communication and its policies and procedures both at the firm level and internally at the level of the department actually producing the communication (e.g., the department’s management practices). The third theoretical core is the nature of the content itself, such as the topics it focuses on and what it provides (e.g., simple information or deeper insight and analysis). The final theoretical core is the social structures that influence the behaviors of the organization and its audience, such as laws, culture, and social norms. Thus, in examining past research on blogs, one needs to consider the four theoretical cores of audience, organization policies, content, and social structures. A handful of researchers have attempted to describe and classify different types of corporate blogs. Zerfaß (2005) proposed one of the first frameworks that provide a conceptual foundation for describing corporate blogs. This framework maps several types of corporate blogs on two dimensions. The first dimension describes each blog’s communication function (e.g., information, persuasion, and argumentation), while the second dimension describes whether each blog is used for internal communication, market communication, or public relations. In this framework, Zerfaß (2005) considers two of McQuail’s (2010) four theoretical cores: audience and content. Lee et al. (2006) proposed a framework that describes five types of corporate blogs that intermix the organization producing the blog and its content (employee, group, executive, promotion, and newsletter) and five blogging strategies, which are split into bottom-up and top-down approaches. The bottom-up approach is company-wide, whereas, with the top-down approach, a specific set of individuals (either top management, designated individuals, a specific group, or no identified author) does the blogging. Using content analysis, the authors identified the types of blogs and corresponding strategies that 18 Fortune 500 companies used. Most of these companies used top-down strategies and maintained a high level of control over their blogs. Top-down blogs tended to focus on thought leadership or promotion, and bottom-up blogs tended to focus on product development or customer service. Thus, Lee et al. (2006) consider two of McQuail (2010)’s theoretical cores: organization policies and content. Ahuja and Medury (2010) examined blogs as electronic customer relationship management (e-CRM) tools and focused on McQuail’s (2010) content theoretical core. They conducted an exploratory analysis of blog posts and identified three types of content: organizational, promotional, and relational. Organizational posts contain news about company growth, achievements and awards, events, employee experiences, and corporate social responsibility. Promotional posts contain information about products, services, and promotional campaigns. Relational posts solicit feedback and address controversies or rumors about the organization. Liu and Ji (2010) focused on McQuail’s (2010) content and audience theoretical cores. They examined the blogs of 78 multinational corporations and developed a quadrant typology to categorize blogs based on their content and audience (which they term technical form). Content was either creative (e.g., social networks, process flows) or highly processed (feedback to an article posted online). Technical form was either open to a community or open only to a targeted group of users (e.g., meeting attendees). Brecht et al. (2010) examined the blogs of 250 consumer goods companies from around the world. They classified blogs based on a variety of dimensions that considered McQuail’s (2010) content theoretical core (purpose) and organizational policy core (author).
+
+Volume 17
+
+Issue 3
+
+165
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Other studies have examined subsets of McQuail’s (2010) theoretical cores; for example, the content produced using only one approach to managing blogs (i.e., employee produced). Efimova and Grudin (2007) conducted a case study of blogs started by Microsoft employees—both those hosted on official company servers and third party external servers and both work-related and personal blogs. These employee blogs primarily focused on directly communicating with others inside and outside the organization, depicted a more personable or human side of the company, and documented and organized work. Another study examined the impact of negative employee blog posts on readership and found that negative employee blog posts initially increased readership but eventually stabilized (Aggarwal, Gopal, Sankaranarayanan, & Singh, 2012). The authors conclude that the organizational policies for managing blogs are important. This summary of past research shows that most prior corporate blog research has focused on one, two, or three of McQuail’s (2010) theoretical cores: audience, content, and organization policies. We could not find past corporate blog research that has examined social structures. Thus, taken as a whole, this body of research offers a good starting point for identifying aspects of three of the four dimensions that could comprise a corporate blog framework. One other fundamental aspect of mass communication theory is the effects of these four dimensions (McQuail, 2010). We need to understand how different blog characteristics influence blog outcomes (Andriole, 2010; Brecht et al., 2010; Liu & Ji, 2010). But what outcomes are important? One primary purpose of mass communication is to provide content from the organization to its audience—to mediate the relationship between the organization and its audience (McQuail, 2010). One reason individuals develop blogs is to communicate their views to others, which is also the dominant reason corporations develop blogs (Hu et al., 2011). Thus, one particularly relevant outcome for corporate blogs is visibility; that is, the extent to which a blog reaches an audience (Hu et al., 2011).
+
+2.1
+
+Corporate Blog Framework
+
+In this section, we develop a type I theoretical framework that researchers can use to describe and compare different types of corporate blogs. According to Gregor (2006), one needs to develop a type I theory when one knows little about the phenomenon in question. Type I theories “analyze ‘what is’ as opposed to explaining causality or attempting predictive generalizations” (Gregor, 2006, p. 622). These theories describe; they identify dimensions of the phenomenon and provide a framework to classify them. A type I theory makes a contribution when it is useful in aiding analysis, its categories are meaningful and intuitive, its rules for categorization are clear, and it misses no important categories (i.e., one can place most examples of the phenomenon in a category) (Gregor, 2006). Although one could use our framework to describe many different types of work-related blogs, such as externally hosted employee blogs, we focus only on those blogs that a company officially sanctions and manages. In this way, our framework encompasses blogs that are an instrument of their companies’ communication strategy. Blogs are only one of many channels of communication between corporations and their stakeholders. Because we focus on corporate blogs, we do not include other communication channels in our framework. Blogs’ primary purpose is to communicate (Thielst, 2007). Given their widespread use as a communication medium and their enormous potential audience, researchers recognize blogs as an important form of mass communication (McQuail, 2010; Morris & Ogan, 1996). Mass communication theory argues that media serves as a mediator of social reality (McQuail, 2010). This mediation involves both the distribution of knowledge and institutions’ efforts to filter that knowledge for their own purposes. Drawing from this concept of mediation from mass communication, we propose that blogs serve as social mediators between corporations and their stakeholders. A corporation may have multiple blogs, each of which may target a different stakeholder group and serve a different purpose. Thus, blogs’ mediation activity is not limited to a single blog or a single stakeholder for each corporation but may span a portfolio of blogs collectively targeting several stakeholder groups. Our theoretical framework contains five dimensions (target audience, content focus, content function, management, and feedback) that build on McQuail’s (2010) four fundamental theoretical cores of audience, content, organization policies, and social structures. A blog’s intended audience is central to its development (Brecht et al., 2010; Liu & Ji, 2010). Target audience describes whom the blog targets. When one has chosen an audience, one needs to develop content that fits its interests. Drawing on research in mass communication, we subdivided content into to two major subcategories: content focus and content function (Kohut & Segars, 1992; McQuail, 2010; Perry & Bodkin, 2000). Content focus describes the topics covered
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+166
+
+in a blog, and content function describes the purpose the blog’s content serves. How a corporation manages its blogs (an organizational policy) is also an important consideration. Management theory identifies three fundamentally different management approaches (hierarchy, market, and community) (Adler, 2001) that researchers have used to examine how other online information systems (i.e., knowledge management systems) operate (Dennis & Vessey, 2005). Finally, feedback also defines blogs’ social structure: one can configure blogs to permit (or not permit) feedback from readers so that anyone who reads the blog may also post comments (Delio, 2005). Most blogs permit feedback because it is socially expected, although some prevent it to retain control over the comments that appear (Aaserund, 2006; Vargo, 2006). Table 1 presents these dimensions. We consider each in turn.
+Table 1. Corporate Blog Framework Target audience Customer Communities Employees Investors Partners Suppliers Unions Governments Political Groups Contents focus Market Organization Product Event Policy Individual Content function Information Insight Mobilization Culture Entertainment Management Hierarchy Market Community Feedback Enabled Disabled
+
+2.1.1
+
+Target Audience
+
+Corporations often create blogs to communicate with their stakeholders, who constitute the target audience (Argenti, Howell, & Beck, 2005; Gilpin, 2010; Lindic, 2006). Management research and practice know the stakeholder concept well (Donaldson & Preston, 1995; Mitchell, Agle, & Wood, 1997), although many authors who have published on the topic have proposed various definitions (Mitchell et al., 1997). We use Donaldson and Preston’s (1995) definition of stakeholders as “persons or groups with legitimate interests in procedural and/or substantive aspects of corporate activity” (p. 67). Stakeholder theory provides a basis for identifying entities that hold some stake in a corporation and assigning priorities to their needs (Donaldson & Preston, 1995; Mitchell et al., 1997). Several stakeholders are common to most corporations, and each is a potential target audience for a corporate blog (Argenti et al., 2005) (see Table 1). Some of these are self-explanatory, such as customers and investors. Others are less self-explanatory, such as community, which is a broad category that refers to anyone who might not have a direct interest in the company but is impacted by it. Traditional views of community tend to be based on geographic location (e.g., local residents living near the company’s offices and factories) but can include society in general (Dunham, Freeman, & Liedtka, 2006; Greenwood, 2001). For large companies with a nationwide or global presence, online media provide an opportunity to communicate with many local communities simultaneously, which collectively represents society in general. Industry partners work with the company to increase sales or produce complementary products and services, such as participants in a company’s reselling/referral affiliate program or software developers who build applications that run on a technology company’s hardware/software system. Some blogs cover public policy or government topics, and we labeled them as government-targeted blogs. Employee-targeted blogs are usually internal to a company (and, thus, not open to the public or researchers), but we found some blogs targeting potential employees. Mitchell et al. (1997) highlight the fact that not all stakeholders receive the same attention from a corporation’s management. Organizations will tend to give some stakeholder groups higher priority, so we can expect to see more blogs targeting some groups. For example, corporations may be more likely to target customers and investors because these groups contribute directly to their profitability. In contrast, non-profit organizations (not part of our study) may more likely target political groups and government organizations because these groups will more likely have been formed to address societal issues. The stakeholders that management research (e.g., Donaldson & Preston, 1995) identifies represent potential audiences but may not commonly be the focus of corporate blogs. Indeed, no blog in our sample targeted some of the stakeholder groups listed in Table 1 (e.g., unions, suppliers).
+
+Volume 17
+
+Issue 3
+
+167
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+2.1.2
+
+Content Focus
+
+Content focus describes the topics a blog covers (Ahuja & Medury, 2010; Perry & Bodkin, 2000). To develop a classification scheme for corporate blog content focus, we reviewed the corporate communication research literature. We identified relevant research that used content analysis and provided some type of content classification (Argenti et al., 2005; Clampitt, Crevcoure, & Hartel, 1986; Clarke, 1997; Kohut & Segars, 1992; Perry & Bodkin, 2000). Perry and Bodkin (2000) examined websites of Fortune 100 corporations and identified nine categories of content: company information, product information, direct marketing to customers, sales promotions for customers, public relations (about news, to investors, to community (i.e., kids), for education), website images, website help, website interactions, and website communication. Clampitt et al. (1986) studied 53 corporate newsletters and magazines and identified the 17 most common types of article content: about employees (recognition, news, motivational), the company itself (awards, leadership changes, benefits, departments, policies, future plans, safety, goodwill, financial performance, Q&A), events (social functions, sponsored events, external events), and community involvement. Kohut and Segars (1992) examined the CEO letters in annual reports of 50 corporations in the Fortune 500 and identified six common content areas: market environment, market growth, corporate philosophy, products, favorable financial outcomes, and unfavorable financial outcomes. In a similar study, Clarke (1997) analyzed the CEO letters in annual reports of 32 corporations on the London Stock Exchange and found 11 major content areas: economic environment, political environment, market environment, market competitors, financial results, investors, corporate activities, corporate events, time, emotion, and security. Argenti et al. (2005) interviewed CEOs and other C-level executives in 11 leading corporations to identify their communications strategies, which included building community relations, managing crises and events, developing employee consensus, providing financial information, improving government relations and lobbying, driving customer sales, and building product brand image. We integrated this past research on content categories to create our classification scheme, which has six major categories of content (see Table 1). Drawing from Kohut and Segars’ (1992) and Clarke’s (1997) conceptualization of market content, the market focus category relates to the industry in which the corporation operates. Market topics can include competitors, market growth, related products, or services not offered by the company itself. The organization focus category draws from Perry and Bodkin’s (2000), Clampitt et al.’s (1986), and Clarke’s (1997) classifications of topics related to the corporation. The organization focus category relates to the corporation itself, such as policies, strategic objectives, and so on. The product focus relates to the corporation’s products, services, and research and development (R&D). The product focus category relates to Perry and Bodkin’s (2000) and Argenti et al.’s (2005) focus on the products the corporation produces, including services and R&D surrounding those products. The event focus relates to specific events involving or affecting the corporation and draws from the content categories that Clampitt et al. (1986), Clarke (1997), and Argenti et al. (2005) describe. These events can be fairly short in duration and include leadership change, crisis situations, community events, or campaigns. The policy focus relates to a society as a whole and focuses on public policies for societies and draws from Perry and Bodkin (2000) and Clampitt et al. (1986). Policy can include opinions on topics of broad interest (e.g., healthcare, sustainable energy, or innovation) or can be narrow (e.g., spectrum allocations primarily of interest for telecommunications carriers). Finally, the individual focus relates to individuals in the corporation drawn from Clampitt et al. (1986), such as stories about employees’ personal or professional lives. To better illustrate content focus, one needs to closely inspect a blog or blog posts’ purpose statement. For example, Starbucks operates a “responsibility” blog, which provides information about sustainability initiatives and social responsibility in the coffee industry regardless the organization. Thus, the Starbucks blog provides insight into the market in which it operates. In contrast, Southwest Airlines’ “Nuts about Southwest” blog provides information in relation to Southwest’s mission, growth, and other initiatives, which makes the blog’s content focus the organization. Some organizations focus their blog on a specific product or collection of products in their organization. Yahoo!’s search blog focuses on products the company provides, such as its search engine or mobile application products. In other cases, blogs specifically support an upcoming event or events. Hewlett Packard provides a blog covering its upcoming involvement in the Sundance Film Festival. Policy blogs advocate for societal policy initiatives. ExxonMobil operates a policy blog that discusses the impact of the Keystone Pipeline on the environment. Finally, Intel provides a blog that allows employees to discuss personal experiences inside and outside their organization. A blog’s content focus describes what information the blog disseminates to its prospective readers.
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+168
+
+2.1.3
+
+Content Function
+
+Content function describes the purpose that the blog’s content serves (Brecht et al., 2010; McQuail, 2010; Zerfaß, 2005). Specifically, content provides some value to the audience, and the function dimension describes the nature of that value. This characteristic is separate and distinct from the focus sub-dimension described above. A blog’s focus does not necessarily indicate its function because each content focus can serve multiple functions (McQuail, 2010). To explain function more thoroughly, we draw from the functionalist theory of media, which states that mass media serves the needs of society by performing five main functions (Lasswell, 1948; McQuail, 2010; Wright, 1960) (see Table 1). The first function, information, refers to the task of “providing information about events and conditions in society and the world” (McQuail, 2010, p. 97). One can describe this function as providing news or facts about a particular topic (Wright, 1960). For corporations, this function could mean providing information about products and services, strategic objectives, leadership changes, industry trends, and so on. For example, Best Buy operates a “Best Buy Unboxed” blog that provides information regarding the products available for pre-order or current sales on their products. This information is purely factual in nature and does not provide further interpretation or context to readers. The second function, insight, refers to interpreting and explaining information (McQuail, 2010). One can describe this function as providing thoughts, insights, and opinions. It goes beyond merely presenting facts and, instead, involves integrating information and, often, making predictions for the future. Insight typically reflects the views of individuals in a corporation. These views can relate to anything from the company and its products to hobbies and personal interests. By focusing on relevant business activities, a company can use the insight function to shape stakeholders’ perspectives. Intel operates a blog that discusses its opinions or thoughts on current issues facing the IT industry. For example, one post describes the lack of incentives to improve cybersecurity. This information is not merely factual in nature but also provides the company’s position and/or normative opinions towards improving cybersecurity. The third function, mobilization, refers to using media to promote societal objectives, including political and commercial propaganda (McQuail, 2010). This function comprises activism and rallying support for societal causes. Examples of such causes may include finding cures for diseases, ending poverty and hunger, or reducing pollution. This function will likely be most important for non-profit organizations. Corporations, however, have begun to embrace social responsibility as a method of improving their reputation (Porter & Kramer, 2002). In this category, Liberty Mutual Insurance Corporation operates a blog titled “The Responsibility Project”. This blog aims to mobilize the organization and its customers to focus on doing “the right thing”. The blog’s posts relate to discussions surrounding what doing “the right thing” means and encourages individuals to make a difference in their communities. The fourth function, culture, refers to transmitting beliefs, values, and norms present in the organization (McQuail, 2010). This function can help to increase social cohesion and maintain a cultural consensus (Wright, 1960). A corporation’s employees, industry, and home country affect its culture (Gordon, 1991; Gregory, 1983), and messages in a corporate blog can transmit this culture. For example, a corporation’s blog posts can describe its work norms directly or indirectly, which employees can read. Similarly, a corporation’s blog could transmit its home country’s cultural beliefs to its foreign strategic partners and customers. The “Nuts about Southwest” blog from Southwest Airlines attempts to convey the values and norms that the organization possesses. For example, one of the entries showcases how the company celebrates Black History Month, which underscores that the organization values inclusiveness. The fifth function, entertainment, serves to amuse and relax viewers (McQuail, 2010). This function is not necessarily meant to have an instrumental effect on viewers (Wright, 1960), although some secondary effect could occur. For example, a blog that contains entertaining stories and jokes could improve the company’s image and lead potential customers to its main website. Hewlett Packard’s Sundance Film Festival blog provides pure entertainment for its audience by providing details of the upcoming festival along with short posts on films that will be premiered at the festival. The content function of the blog indicates its purpose for the organization. While one organization’s goal could be to disseminate information regarding sales, another organization might want to provide its insight into relevant topics. Other organizations wish to mobilize readers into action, showcase the values and culture the company possesses, or purely provide entertainment to its readers. In Section 2, we examine whether certain content functions paired with target audiences predict blog visibility. For example, if a corporation develops a blog targeted at employees, will the blog be more visible if it disseminates information or provides insight to those employees?
+
+Volume 17
+
+Issue 3
+
+169
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+2.1.4
+
+Management
+
+Organizational policies can shape how blogs operate and what content it delivers. One of the most fundamental policies is how the corporation manages the blog (Brecht et al., 2010; Lee et al., 2006). Adler (2001) identifies three fundamental structural forms of management: hierarchy, market, and community. One can use these structures to describe who contributes to and manages a corporate blog in the same way they researchers have used them to describe how organizations manage knowledge-management activities (Dennis & Vessey, 2005). See Table 1. A hierarchy form of management is characterized by extensive control and authority over the content of a corporate blog. Certain key employees have the formal role of contributing to or maintaining the blog. Hierarchically managed blogs represent official, sanctioned messages directed by the corporation’s management. In some cases, these blogs may not have individual authors; instead, blog postings may represent messages from the corporation itself. For example, AT&T runs a public policy blog in which their communications team posts the organization’s official statements. This blog serves a formal function of disseminating the company’s official position on public policies, such as legislation or Federal Communications Commission rulings. Since the blog provides the organization’s official position on these policies, only a small number of specific people in the organization can contribute to it. A market form of management, on the other hand, allows employees to contribute directly, and the organization regulates the blog’s content to a much smaller degree. Often, the corporate blog has no or few restrictions; employees may write about their lives, interests, work, and so on. Blogs that managed via a market structure do not represent official corporate messages, so they often contain much more diverse information than blogs managed with a hierarchy structure. Such blogs allow individual employees to communicate with others inside and outside the corporation. Dell operates a “Direct2Dell” blog that enables various employees in the organization to blog about issues that affect them personally or the organization overall. A diverse set of employees in Dell contributes to the blog, and the blog does not represent official corporate messages. Community management structures are less regulated than hierarchy structures but are usually more focused than market structures. Communities can emerge without any formal role assignments. Employees with similar jobs, skills, or interests might create a blog dedicated to a particular topic. The members of the community usually self-regulate this type of structure, and it does not generally require intervention from corporate management. Dell also operates a “DellShares” blog to which a subset of the Dell community, specifically individuals with a role in finances at Dell, contributes. The blog discusses Dell’s investor relations and provides information on Dell’s corporate debt, securities, and other financial matters in the organization. Since only a specific subset (i.e., community) of Dell employees have knowledge and insight into financial matters at Dell, only these individuals contribute to the blog. Each of these management styles have different implications for blogs. With a hierarchy style of management, a blog becomes the official voice of its organization from high-level officials. In contrast, a market style enables any employee to contribute what that individual believes to be of interest to others, which perhaps provides a less controlled and more chaotic but more authentic set of voices that have different perspectives and that may or may not always follow the official organizational viewpoint. A community style lies between these two extremes in that it often has a subset of selected employees provide specific information to an interested community of readers. Each of these three styles is likely to influence the content—and readers’ perceptions of the content—and, thus, may affect blog visibility.
+
+2.1.5
+
+Feedback
+
+Social structures, such as the unstated norms of how a medium operates, can affect the medium’s content and how its audience views it (McQuail, 2010). One important social structure associated with blogs is feedback (Carr, 2006; Delio, 2005). Many blogs enable readers to leave feedback or comments on postings. With this feature enabled, readers can engage in a conversation with the author(s) of the blog and other Internet users. With this feature disabled, the communication becomes unidirectional—from the corporation to its audience. Some corporations adopt a strategy wherein the corporation desires feedback on blog posts, while other corporate blogs solely want to provide information or insights from their bloggers to the readers without giving the readers opportunity to respond. The current social norm for individual blogs is to enable feedback, but some corporations choose to disable it to avoid critical or inappropriate comments (Aaserund, 2006; Vargo, 2006). As a result, one might ask whether the blog world penalizes corporations that do not
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+170
+
+follow the social norms of enabling feedback. Thus, our framework includes feedback as a dimension whether enabled or disabled (see Table 1).
+
+2.2
+
+Corporate Blog Visibility
+
+As a type I theory, a framework is a useful tool for describing and classifying corporate blogs (Gregor, 2006), but it becomes more useful if we can link it to an important outcome and use it in a predictive manner (type III theory). A type III theory says what will be but not why. These theories can predict outcomes from a set of explanatory factors without explaining the underlying causal connections between the dependent and independent variables in any detail (Gregor, 2006, p. 625). A type III theory uses empirical evidence and treats the causal relationships as a “black box”; a type IV theory opens this black box and develops the theory to explain these underlying relationships. Type III theories are important in new research areas because they provide useful empirical insights that researchers can later develop into type IV theories. The empirical findings that type III theories present are essential to practice and are important in aiding practitioners before type IV theories arise (Gregor, 2006). The IS field has few examples of type III theories in (Gregor, 2006), but the use of aspirin to treat pain and citrus to treat scurvy are well-known examples of type III theories that predated type IV theories. A Type III theory contributes to knowledge when it identifies a relationship between elements of a phenomenon and an outcome of interest (Gregor, 2006). Corporations use corporate blogs to communicate with stakeholders, so we believe that one important outcome is the extent to which it reaches those stakeholders. We use visibility (determined by the number of inlinks pointing to the blog from outside the company) to measure a blog’s ability to reach stakeholders (Vaughan & Wu, 2004). One could also use other measures of visibility, such as the number of unique visitors per month, but we believe that the number of inlinks is a stronger metric. When we as academics want to assess the impact of a publication, we measure the number of citations, not the number of times individuals have read it. A citation is usually a clear statement that a reader found the publication to be useful (with obvious exceptions), whereas merely reading the publication does indicate any received value. In a similar manner, number of inlinks is a stronger measure of value than number of visitors because an inlink is a similarly clear statement that someone publicly advocates that others should read it, whereas visiting (like just reading) offers no indication that the visitor found the blog to be useful. Google, Bing, and other search engines use the number of inlinks (not the number of visitors) as the dominant metric in deciding what sites to present first in response to search queries, which indicates that they believe it is the most useful metric. On a practical level, Google provides publicly available statistics on the number of inlinks to each blog, while no publicly available measures of the number of visitors to blogs exist; it is straightforward to measure the number of inlinks but difficult to measure the number of visitors. Inlinks are not only an important factor in search engine results but also represent the extent to which a website is involved in “conversations” online, which is particularly important in the blogosphere where blog authors often refer to other blogs and include links pointing to them. Indeed, researchers have examined hyperlinking as a form of interactivity in the blogosphere (Merry, 2010). If many blogs or websites reference a blog, it can greatly increase the number of people who visit the blog. Research has shown that the number of inlinks can increase traffic to a company’s website (Drèze & Zufryden, 2004) and even influence financial performance, such as revenue and profit (Vaughan & Wu, 2004). While a blog is typically only one component of a company’s overall website, increasing inlinks to the blog will increase traffic to the website as a whole. Blogs form one aspect of a corporation’s public face; corporations have many media they can use to reach their stakeholders, and they often create different content for different media because some media may be more or less appropriate for certain content or stakeholders (Gilpin, 2010; Lindic, 2006). For example, blogs may target customers, while direct mail may target government officials. Identifying what audience to target with a blog, defining what content it should offer to which stakeholders, and determining how to manage it are three of the major challenges of starting a corporate blog initiative. We argue that one should select the target audience, which should subsequently drive content (function and focus) and management and feedback. Each stakeholder group, for example, has a different interest in the organization and, thus, different expectations for corporate communication. Content (focus and function) should fit the target audience. Likewise, one has many choices in how to operate a blog. Two fundamental choices are how to manage it (should it be managed hierarchically or with the greater flexibility provided by a market or a community?) and whether it should be only broadcast (i.e., no feedback) or open to comments from the public (i.e., feedback enabled). Thus, a key question is: to what extent is one approach a better fit to the needs of the target audience?
+
+Volume 17
+
+Issue 3
+
+171
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Researchers have described the concept of “fit” in management as the ability to combine various strategy components to a given situation in a way that produces a benefit for an organization (Venkatraman, 1989). One can deal with “fit” in many ways. We use Venkatraman’s “fit as matching”, which is one type of bivariate fit in which one compares the attributes of one construct (often categorical) to attributes of another construct (again, often categorical) and uses those combinations to assess the impact on a third construct, typically a performance construct. With this perspective, one can identify fit independently of performance and examine the effect of fit on the performance construct (Venkatraman, 1989). We examine the effect of fit between the different dimensions of our framework (audience, content focus, content function, management, and feedback) on the performance construct (i.e., blog visibility) to identify what combinations increase and decrease blog visibility. As such, we investigate two research questions: RQ1: Do a corporate blog’s characteristics (target audience, content focus, content function, management, and feedback) affect its visibility? RQ2: Does the fit of corporate blog characteristics (target audience, content focus, content function, management, and feedback) affect a blog’s visibility?
+
+3
+
+Method
+
+We collected data on blogs operated by Fortune 500 companies. We coded each blog using our corporate blog framework and linked the dimensions of the framework to blog visibility.
+
+3.1
+
+Sample
+
+The sample comprised Fortune 500 companies (using the 2011 Fortune 500 list) that used blogs for communication. We identified the blogs through three search methods. First, we searched each company’s website for the term “blog”. Next, we searched Google for the term “blog” and restricted the results to each company’s domain. This method served as a backup in case the company’s website did not have search capabilities or only searched certain parts of the site. Finally, we performed another Google search for the term “[Company name] blog”. Some Fortune 500 companies hosted dozens of blogs, while others had no apparent company-sanctioned blog. As a result, our search (conducted over a one-month period in autumn 2011) yielded 246 unique blogs from 106 companies across numerous industries. Some companies had more than one company-sanctioned blog that often had different target audiences.
+
+3.2
+
+Independent Variables (Framework Coding)
+
+We categorized each blog along the framework’s dimensions (see Appendix A). One coder contentanalyzed blogs to determine their target audience, content focus, content function, management, and feedback. A second coder independently content-analyzed 20 randomly selected blogs on the five dimensions (100 total dimension codings). Overall, inter-rater reliability across all dimensions was 91 percent, which we computed by dividing the number of individual dimension codings that were the same between the two researchers by the total number of dimension codings in 100 total codings. The inter-rated reliability on each dimension was as follows: target audience (89%), content focus (86%), content function (88%), management (92%), feedback (100%). In many cases, an “about” page was available that explained the company’s intended purpose for the blog (see Appendix B). In cases with no “about” page, we examined blog entries to determine the blog’s target audience, content, and focus. In coding audience, function, and focus dimension, we used only the most salient characteristic even though some blogs covered a variety of areas. For example, many blogs provide information and insight, but, if a blog’s key purpose is to provide insight, then we coded it as an insight blog. Since we sought to identify each blog’s predominant content, coding this way not only simplified the analysis but also extracted each blog’s key characteristics. Table 2 overviews the distribution of the sample along each dimension of the corporate blog framework.
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+172
+
+Table 2. Distribution of Sample along Framework Dimensions Target audience Customers (60%) Communities (22%) Partners (6%) Employees (9%) Investors (1%) Political Groups (2%) Governments (0%) Unions (0%) Suppliers (0%)
+Note: The percentages may total more than 100% due to rounding
+
+Content focus Market (61%) Organization (23%) Product (13%) Event (2%) Policy (0%) Individual (1%)
+
+Content function Information (27%) Insight (61%) Mobilization (5%) Culture (5%) Entertainment (3%)
+
+Management Hierarchy (37%) Market (20%) Community (43%)
+
+Feedback Enabled (97%) Disabled (3%)
+
+3.3
+
+Dependent Variable
+
+We used the number of inlinks pointing to the blog from an external domain as a measure of blog visibility (Vaughan & Wu, 2004). One typically obtains inlink measures from commercial search engines, but this technique has some issues: different search engines index different websites, and the Web itself is constantly changing, so the number of inlinks reported by one search engine today may differ from the number reported by a different search engine next week (Vaughan & Wu, 2004). Other papers on blogs, however, have used inlinks, and they appear to be the best proxy for our analysis (Pant & Srinivasan, 2010). Therefore, we used Google inlinks as the dependent variable for our analysis. We collected the inlink data during the middle of our data collection.
+
+3.4
+
+Control Variables
+
+We included two control variables in our analysis: revenue and a dummy variable indicating whether the blog was part of the IT industry. We used revenue as a control variable because blogs affiliated with larger companies may have more inlinks simply due to the increased size of their stakeholder groups and/or the visibility of the company as a whole (Brecht et al., 2010). Previous IS studies have used revenue to control for firm size (see Li & Richard Ye, 1999; Raymond, 1985). In addition, the companies in the sample represent numerous different industries, and past research has shown that industry can influence corporate blogging (Liu & Ji, 2010). Companies in IT-related industries and their stakeholders would likely be more familiar with blogs than companies and stakeholders in non-IT-related industries. Due to the wide range of industries in the sample, we needed to condense them into a smaller, more analytically useful set of categories. To do so, we used the Global Industry Classification Standard (GICS) codes associated with each company. These codes describe each company’s sector and industry. We coded companies in the GICS information technology sector (code number 45) as “IT companies”. We coded all others as “non-IT companies”. Approximately 42 percent of the companies in our sample were IT companies.
+
+3.5
+
+Data Analysis
+
+Normality tests indicated significant skewness in the Google inlinks measure. Skewness is common in variables containing counts, such as the number of inlinks to a blog. Regression models assume the dependent variable can range from -∞ to +∞; however, this assumption is violated in count data because values are positive integers (Ramaswamy, Anderson, & DeSarbo, 1994). As sample sizes become larger, count variables have a tendency to become normally distributed (Long, 1997), but this was not the case for our Google inlinks data; it remained highly skewed. Regression models specifically suited for highly skewed count data have evolved over the past several decades. We used generalized linear models for our analysis (McCullagh & Nelder, 1989). One should not confuse generalized linear models should with its far more commonly used cousin called general linear models, which assumes a normally distributed dependent variable. Generalized linear models extend general linear models to the analysis of data that have a non-normally distributed dependent variable, such as the count data in our study.
+
+Volume 17
+
+Issue 3
+
+173
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+We used the SPSS generalized linear models module with a negative binomial distribution and a log link function, which researchers widely use for count data. In cases where dispersion of the count data exceeds the mean as it did in our case, the negative binomial model provides a good approximation because it includes a dispersion parameter in the model (Long, 1997). The Lagrange multiplier test of dispersion was significant ((1) = 384.09, p < 0.001), which indicates the negative binomial ancillary dispersion parameter was not equal to one, so we had SPSS estimate it (β = 3.812).
+
+4
+4.1
+
+Results
+Descriptive Analysis
+
+We began with a general descriptive analysis of the data before moving to a statistical analysis. Figure 1 shows the number of blogs in our sample that targeted the different audience categories. As the figure shows, most corporate blogs targeted customers (60.16%), followed by communities (21.95%), potential employees (8.54%), and partners (6.10%). Few corporate blogs targeted investors (1.22%) or political groups (2.03%). Thus, at this stage, we conclude that corporate blogs primarily focus on consumers, presumably to market products/services to them (see Aaserud, 2006).
+
+Figure 1. Number of Blogs in Our Sample by Audience
+
+Figures 2 to 5 provide cross-tabulations of audience with content function, content focus, management, and feedback. The patterns in these figures suggest that corporations may be trying to find fit between content, management, and feedback with the blog audience because we found different numbers of blogs for each combination. For function, the cross-tabulations show that, when they targeted customers, corporations most often designed blogs to provide insight and information but seldom deploy mobilization- or entertainment-oriented blogs for customers (Figure 2). In contrast, when they targeted communities, corporations most often designed blogs to provide insight, information, mobilization, and entertainment.
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+174
+
+Figure 2. Number of Blogs in Our Sample by Audience and Function
+
+Figure 3. Number of Blogs in Our Sample by Audience and Focus
+
+Volume 17
+
+Issue 3
+
+175
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Figure 4. Number of Blogs in Our Sample by Audience and Management
+
+Figure 5. Number of Blogs in Our Sample by Audience and Feedback
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+176
+
+For content focus, the cross-tabulations show that the corporations targeted customers with market, organization, and product blogs, not individual or event blogs (see Figure 3). Market and organization blogs were common for the other audiences as well, but not product blogs. For blogs targeted at customers, corporations equally used hierarchy, market, or community management (see Figure 4). In contrast, blogs targeted at other audiences seldom used the market style of management. Figure 5 shows that most corporations chose to enable feedback. While these cross-tabulations indicate that corporations select different content focus, content function, management, and (perhaps) feedback for different target audiences, they do not indicate which pairings result in the highest visibility of the blogs. As such, we focus on this issue in Section 4.2.
+
+4.2
+
+Effects on Visibility
+
+We began by comparing our full model against a model that contained only the two control variables to assess whether adding the variables in our blog framework provided a better fit. We did not want uncharacteristic blogs to influence our analyses, so we removed categories that had less than five blogs from the analysis. We removed the investors category of the audience factor, which had only three blogs, and the individual category of content focus, which had two blogs. The final sample comprised 241 blogs. The omnibus test comparing the full model to the controls-only model was significant ((42) = 1,369.56, p < 0.001), which indicates a better fit for the full model (see Table 3). All measures of fit (deviance, log likelihood, AIC, BIC, and CAIC) were significantly better for the full model (see Table 3). Generalized linear modeling does not provide an R2 measure, but it is possible to calculate a pseudo R2 based on inverse of the log likelihood ratios of the full model to a baseline model. Our full model had a pseudo R2 of 56 percent. Table 3 provides the results for the full model. We found significant main effects for audience ((4) = 23.54, p <.001) but not for content focus ((4) = 2.36, p = 0.670), content function ((4) = 1.38, p = 0.848), management ((4) = 1.52, p = 0.469), or feedback ((1) = 3.55, p <.060). We found significant interactions between audience and content focus ((6) = 20.79, p = 0.002), audience and content function ((6) = 15.94, p = 0.014), audience and management ((7) = 28.49, p < 0.001), but none for audience and feedback ((1) = 0.208 p = 0.649). We also found a significant interaction between content focus and management ((4) = 11.38, p = 0.023). There was insufficient variability in feedback to provide enough data to test for interactions between feedback and focus, function, and management—only 3 percent of blogs had feedback disabled, so we did not have enough blogs to test for interactions on these dimensions. Therefore, we conclude that, when it comes to visibility, audience matters. The audience with the highest visibility was customers, followed by communities and partners. Second, it is important to fit content function, content focus, and management to the different audiences; different audiences prefer different focus, function, and management, so visibility depends on picking the right combination. Finally, we found an interaction between content focus and management, which suggests that management style should follow the type of content offered to the audience. We need to further examine the significant interactions to understand where the differences lie and what combinations lead to the greatest visibility. Figure 6 shows the estimated marginal means of visibility for the audience and content focus interaction. We can see the interaction effects when we compare which focus cells have the highest estimated marginal means in each audience. Blogs targeting customers had the highest visibility when they provided a market focus or a product focus rather than an organization, individual, or event focus. Blogs targeting communities had the highest visibility when they provided a product focus, followed distantly by a market focus. Blogs targeting employees had increased visibility when they focused on the market or products. Blogs targeting partners had increased visibility they focused on the market or events. Finally, blogs targeting political groups had a slight increase in visibility when they focused on the organization. Figure 7 shows the estimated marginal means of visibility for the audience and content function interaction. Blogs targeting customers had the highest visibility when they provided information or mobilization rather than insight and culture. In contrast, blogs targeting communities and employees had the highest visibility when they provided insight. For partners, a mobilization function led to the greatest visibility. We found few differences between information and insight for blogs targeted at political groups. Figure 8 shows the audience and management interactions. Blogs targeting customers or communities had the greatest visibility when managed by the hierarchy style. In contrast, blogs targeting employees had the greatest visibility when managed by the market style, and blogs targeting partners had the greatest visibility
+
+Volume 17
+
+Issue 3
+
+177
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+when managed by the community style. We found few differences between community and hierarchy for blogs targeted at political groups. Figure 9 shows the interaction between content focus and management. Blogs focusing on products had the greatest visibility when managed by the market management style, followed by the hierarchy style. Blogs focusing on the market had the greatest visibility when managed by a hierarchical management style; such blogs managed by a community and market management style had similar visibility levels. Blogs focusing on the organization had the greatest visibility when managed by a hierarchy style. Blogs focusing on individuals or events did not have an increased visibility in any management style.
+Table 3. Negative Binomial Generalized Linear Model Results Controls-only model χ2 Intercept Revenue IT firm Audience Focus Function Management Feedback Audience x focus Audience x function Audience x management Audience x feedback Focus x function Focus x management Focus x feedback Function x management Function x feedback Management x feedback Deviance Df Value/df Log likelihood AIC BIC CAIC 1,478.73 134 11.04 -2,862.89 5,939.78 6,312.66 6,419.66 773.75 112.08 592.17 df 1 98 1 p-value < 0.001 < 0.001 < 0.001 χ2 54.81 2.50 1.74 23.54 2.36 1.38 1.52 3.55 20.79 15.94 28.49 0.208 3.23 11.38 -* 5.93 -* -* 109.171 176 1.68 -2,320.59 4,781.19 5,026.56 5,096.56 42 42 42 42 < 0.001 <0.001 <0.001 <0.001 Full model df 1 1 1 4 4 4 2 1 6 6 7 1 3 4 4 42 p-value < 0.001 0.114 0.187 < 0.001 0.670 0.848 0.469 0.060 0.002 0.014 < 0.001 0.649 0.358 0.023 0.204 <0.001
+
+* Indicates an inability to compute an interaction due to the skewed nature of the feedback dimension (only 3% of blogs had feedback disabled).
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+178
+
+Figure 6. Estimated Marginal Mean Visibility for Audience by Focus
+
+Figure 7. Estimated Marginal Mean Visibility for Audience by Function
+
+Volume 17
+
+Issue 3
+
+179
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Figure 8. Estimated Marginal Mean Visibility for Audience by Management
+
+Figure 9. Estimated Marginal Mean Visibility for Focus by Management
+
+5
+
+Discussion
+
+We began with two research questions focusing on whether a corporate blog’s design could affect its visibility. Our results show that the target audience was directly associated with different levels of blog visibility (blogs targeting customers and communities have the greatest visibility). Perhaps more interesting is that fitting content focus, content function, and management to the target audience significantly affected visibility. This study has two important conclusions.
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+180
+
+First, we developed a framework (a type I theory as per Gregor (2006)) for analyzing corporate blogs. Our framework builds on the five theoretical cores of mass communication: audience, content, organization, management, and social structures (McQuail, 2010). The first step in most new research areas is to develop a framework to describe the phenomenon of interest and enable researchers to speak a common language (Gregor (2006). Gregor (2006) argues that a type I theory contributes to knowledge when it aids analysis, its categories are meaningful and intuitive, its rules for categorization are clear, and it misses no important categories. We applied this framework to analyze almost 250 blogs from the Fortune 500 and found it to be useful and effective in categorizing these blogs. Thus, we believe this framework contributes to the research on blogs by providing a useful initial type I theory for corporate blogs. Second, we conducted an empirical study that linked the framework’s elements to an important outcome (visibility) and, thus, created what Gregor (2006) would call a type III theory (i.e., one that enables empirical prediction without a deep understanding of the underlying theoretical mechanisms that link the elements of the framework to the outcome). Gregor argues that a type III theory contributes to knowledge when it identifies correlations between a phenomenon’s elements and an outcome of interest. We believe that our analysis, which links the elements of our type I theory to one important outcome (visibility), also contributes to blog research. This analysis shows that it is important to fit a blog’s content and management style to different target audiences.
+
+5.1
+
+Fitting the Target Audience
+
+Fit refers to the ability to match strategy to the situation to produce benefits for the organization (Venkatraman, 1989). In our study, we found that fitting blog content and management to specific target audiences led to increased blog visibility. We view blogs as communication channels between a firm and its stakeholders. We found that blogs targeting customers were the most common in our sample of Fortune 500 firms and also had the highest visibility. However, corporations have many stakeholders other than their customers, which is why we found blogs targeted at communities, potential employees, investors, partners, and political groups. Different stakeholders have different interests (Clarke, 1997; Woodward, Edwards, & Birkin, 2005), which is why it is important that there is “fit” between the target audience and blog content (function and focus) and management. Woodward et al. (2005) and Clarke (1997) describe the nature of each stakeholder’s relationship with a company and how that relationship affects the stakeholders’ interests. In Sections 5.1.1 to 5.1.5, we examine each major target audience in our sample and discuss how their interests might explain the patterns of marginal means found in our results. We begin with customers because they were the largest audience in our sample.
+
+5.1.1
+
+Customers
+
+Blogs targeting customers had the greatest visibility when they provided information and mobilization (rather than insight or culture), focused on the market and products (rather than the organization itself, individuals, or events), and were managed hierarchically (rather than via a market or community). Customers expect the company to provide information about the quality and value of its products (Clarke, 1997), so it is not surprising that product information was associated with high visibility. One example of such a blog is Walmart’s “Check Out” blog, which provides information on new products and sales offered by the retailer. Interestingly, blogs providing insight (i.e., interpretation, explanation, and opinion that goes beyond information) (McQuail, 2010) which requires more effort to produce than the basic information on which insight is built, were not as visible. We speculate that customers may perceive insight-oriented blogs as providing “spin” and, thus, prefer information. The second most visible function was mobilization, which refers to using media to promote societal objectives, including political and commercial propaganda, such as social activism and rallying support for societal causes (McQuail, 2010). Likewise, a focus on the market, not the company itself, led to higher visibility. Corporations have begun to embrace social responsibility to improve their reputation with consumers (Porter & Kramer, 2002). An example is ExxonMobil’s “Perspectives” blog, which focuses on energy challenges. Sample posts include one about lessons from Earth Day and a discussion of where U.S. Government energy subsidies go. Our analysis would suggest this strategy is working because it led to high visibility blogs. The hierarchy management structure led to higher visibility for customer-oriented blogs, Dennis and Vessey (2005) highlight the “authority-based” and “purposefully created” knowledge that is typical of hierarchy management (p. 404). This deliberate and strategic approach to customer blogs may be more effective
+
+Volume 17
+
+Issue 3
+
+181
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+given the typically larger target population of customer-focused blogs than blogs targeted at other stakeholders. Market management (and, to a lesser extent, community management) tends to generate more disjointed content because multiple authors contribute to it independently. Thus, the audience often needs to integrate and validate that content, which may be of less interest to customers who often do not have a deep relationship with the firm. In many cases, the author of a hierarchy-managed blog serves as the official voice and face of a company, so postings are coordinated. For example, CEO Bill Marriott of Marriott International shares information about his company in the “Marriott on the Move” blog (Marriott 2009). The blog includes his picture and signature. Table 4 summarizes our recommendations for practice. If we contrast these recommendations with the actual design of blogs in our sample, we see an interesting pattern. The majority of customer-targeted blogs in our sample focused on the market (and the organization second), provided insight (and information second), and were fairly evenly distributed among management styles (community, hierarchy, market). Thus, there is some overlap between our recommendations and current practice in the Fortune 500, but this comparison suggests that companies are missing an opportunity to increase visibility; they should switch to providing information about products and mobilization about market issues and change to a hierarchical management style. By shifting in these ways, our results suggest they could increase visibility.
+Table 4. Recommendations for Practice Target audience Customer Communities Blog content and operations Information and mobilization, focused on the market and products, managed hierarchically Insight about products, managed hierarchically
+
+Potential employees Insight and culture about the market and products, managed by a market Partners Mobilization and insight about the market and events, managed by a community
+
+5.1.2
+
+Communities
+
+Communities were the second-largest target audience group in our sample. Community is a broad category that includes anyone who might not have a direct interest in the company but is impacted by it. Community often includes local residents living near a company but can also refer to society in general (Dunham et al., 2006; Greenwood, 2001). This audience does not necessarily have the same interests as customers, and it tends to be more interested in safety and how the firm contributes to the community (Clarke, 1997). Thus, a blog for communities should be different from one targeted at customers. Our results show that blogs providing insight about products and managed hierarchically had the greatest visibility for this target audience. This finding may be due to the interest—or lack thereof—that the community has in a company. Understanding what is behind the public information (i.e., insight) delivered by a single authoritative voice (i.e., hierarchical management) is important. Likewise, blogs for the community providing entertainment unsurprisingly led to higher visibility than those providing information and culture; communities are less interested in culture. One entertainment example is the United Parcel Service (UPS) “UPS Racing” blog, which provide entertainment content on the UPSsponsored NASCAR team. It was one of the most visible blogs in our data set. Interestingly, UPS has discontinued sponsorship of the NASCAR team, so the blog is no longer available. In contrast, the FedEx blog that provides organization culture content (e.g., “Celebrating Dr. King’s Life and Teachings with Food & Friends”, which highlights how FedEx employees contributed a day of service, and “FedEx Named Among Fortune Magazine’s 2013 Best Places to Work For”) had about 50 times less visibility. Table 4 provides our recommendations for blog content and operation designed for communities: insight about products from a single hierarchical voice. Once again, this combination is only a partial match to what the majority of Fortune 500 companies were doing when we analyzed the blogs. The majority of communitytargeted blogs provided insight about the market and were managed equally by a hierarchy or a community. Thus, we believe corporations have an opportunity to improve the visibility of their blogs targeted at communities by shifting their focus to products and managing them by hierarchies.
+
+5.1.3
+
+Potential Employees
+
+Employees constituted another target audience for blogs in our sample. Since most blogs targeting current employees are internal and private, we could not include them in our data. Thus, we focused on the small
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+182
+
+number of public blogs that targeted potential employees. Our results show that blogs providing insight and culture about the market and products managed by a market led to the greatest visibility. Current and potential employees are concerned with compensation, work conditions, and organizational culture (Clarke, 1997; Woodward et al., 2005). Thus, potential employees unsurprisingly found insight beyond formal information and views of organizational culture to be valuable. Interestingly, the highest visibility was not linked to a focus on the organization itself but rather to a focus on the company’s products and the market as a whole. Market management structures allow for a broad range of perspectives (Dennis & Vessey, 2005), which can be quite useful for potential employees seeking insight and culture about a firm. Thus, potential employees saw the wide range of voices with their different viewpoints as more valuable than the more controlled community or a single corporate voice from their hierarchy. An example of this is IBM’s “Social Business Insights” blog, which described itself as “News and thoughts on becoming a business that is engaged, transparent, and nimble. Join us in cultivating a spirit of collaboration and community.”. Recent posts when we analyzed the blog included “Fifth consecutive year: IBM named leader in social software by IDC”, “Social business jobs”, and “The product development benefits of social business”. Table 4 provides our recommendations: insight and culture about the market and products from a plethora of voices (market management). Once again, this combination is only a partial match to what the majority of Fortune 500 companies were doing when we analyzed the blogs. The majority of community-targeted blogs provide insight about the market and the organization, managed equally likely by a hierarchy or a community.
+
+5.1.4
+
+Partners
+
+Industry partners are customer-facing firms, such as value-added resellers and software developers (supply-chain partners such as manufacturers are a different audience). Blogs targeted at this audience had the greatest visibility when they provided mobilization and insight about the market and events and were managed by a community. Partners want insight that goes beyond simple product information that is widely available through other channels, so a blog that provides insight about products and the broader market is more valuable. We speculate that partners are aware that such knowledge does not always exist hierarchically and that, sometimes, insight from outside the official hierarchy is valuable, especially when it comes to problem resolution. Thus, a community of different voices leads to greater visibility. For example, a community manages the “AMD Developer Central” blog, which provides insight content about “tools, technologies, best practices, and expert guidance to optimize…performance on AMD platforms” (AMD Developer Central Blog, n.d.). Sample posts include “Bolt: GPU acceleration for your C++ application”, which describes a new template library, and “More options for accelerating compute on AMD platforms”, which explains how to use the software developer toolkit for heterogeneous computing. Once again, contrasting our recommendations in Table 4 with current practice shows an interesting pattern. The most common types of blogs that target partners provided information and insight about the market and were managed by communities and hierarchically.
+
+5.1.5
+
+Other Audiences
+
+The available data limits our sample. Unfortunately, we found too few blogs to draw strong conclusions about blogs targeting political groups. The analysis suggests that these blogs might best provide insight about the organization managed by a community because these stakeholders seek knowledge beyond simple public information and understand that decisions (even those made hierarchically) often reflect a diversity of views from in the firm. In contrast, most blogs targeting political groups provide insight about the market managed by communities or hierarchically. Likewise, our sample had too few blogs targeting investors, suppliers, unions, governments, and political groups to include them in our analysis. Because investors are primarily interested in profitability, dividends, and share price (Clarke, 1997; Woodward et al., 2005), insight about the organization itself, managed hierarchically due to legal issues, might be appropriate. Suppliers and unions are most interested in the stability and security of their relationship with the firm (Clarke, 1997; Woodward et al., 2005), so a focus on the organization would seem appropriate. Governments are primarily interested in compliance with laws, jobs, and competitiveness (Clarke, 1997; Woodward et al., 2005), all of which are broad market-wide issues, so a focus on the market would seem appropriate.
+
+Volume 17
+
+Issue 3
+
+183
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+5.2
+
+Implications for Research
+
+Our research has several implications for research based on our framework and empirical results. First, blogs are not limited to individuals—companies can strategically use them as tools for communicating with stakeholders. This fact alone raises new questions about the organizational use of blogs. Most of past research has focused on individual blogs, not corporate blogs. How much of this research will generalize to corporate blogs? There are fundamental differences between the two, so not all past research may generalize. For example, who owns the blogs and their content? Given the personal nature of blogs, many authors feel a sense of ownership over their blogs. Authors may also expect the freedom to post whatever content they want. Ultimately, though, blogs as a corporate communication tool have to fulfill their intended purpose. How should one integrate these blogs into an overall communication strategy? Second, this paper makes theoretical contribution to the literature by developing a corporate blog framework (Type I theory: Gregor, 2006), which serves as a tool for analyzing and describing different types of corporate blogs. While individuals have traditionally used blogs, companies have begun using them as vehicles for communication. The corporate use of blogs leads to potentially unique characteristics compared to the individual use of blogs in terms of audience, content (function and focus), and operations (management and feedback). Our framework provides a structure for thinking about whom these corporate blogs can target, what the focus of the content should be, what function that content should serve, how one should manage the blog, and whether it should enable feedback. Researchers can use this framework to help describe and categorize the blogs they study to better understand the nature of the blogs in their research. It can provide a language and analysis tool to help them differentiate among the blogs they study. It should also be helpful in better analyzing how blogs and their underlying characteristics relate to the various constructs of their research—not just visibility, but whatever the topic of study. This framework should also provide a language and analysis framework for comparing research across studies. When researchers examine any phenomenon, they should have a tool for explaining what they are studying so that other researchers who are also studying the phenomenon can compare and contrast their findings. We believe that our framework provides a useful tool for describing key elements of the blogs under study and enabling researchers to quickly identify commonalities and differences so that it becomes easier to understand how differences in findings can be attributed to differences in the nature of blogs studied. We hope other researchers will not only adopt and use our framework but also—and most importantly— revise the framework as they study corporate blogging. While we believe the framework is useful, there is always room for future research to elaborate and extend it. One possible way to expand this framework is to revisit McQuail’s (2010) four theoretical cores: audience, content, organization, and social structures. While our research provides a framework using these cores, there is still room for development and future research. Our findings indicate focus on fit between dimensions of our coding framework. However, more research could focus on identifying other dimensions in organizations and social structures and how these dimensions may influence blog visibility. Third, we make a second theoretical contribution to the literature by providing empirical evidence showing how the elements in this framework are linked to an important outcome (visibility)—what Gregor (2006) would call a predictive theory (type III). The results of our analysis provide predictions for which types of blog content and operations should lead to the greatest visibility for different target audiences. The results, as Table 4 summarizes, show that different content and different styles of operations best serve different audiences. We need more research on the relationship between blog characteristics and visibility to better understand how and why the patterns in our results exist. What are the theoretical mechanisms by which these characteristics interact to increase or decrease visibility? For example, why do market-focused blogs lead to greater visibility among customers and product-focused blogs among communities and not the reverse? The answers to such questions will lead to explanatory theory (type IV theory), which will more fully explain how and why different types of blogs promote greater visibility for different audiences. Fourth, our results show that generalizing the findings from research on individual blogs to corporate blogs may or may not be appropriate. One standard social structure of individual blogs is their feedback, the ability for readers to post comments that become part of the discussion (Carr, 2006; Delio, 2005). Most blogs in our sample (97%) enabled feedback, yet we found no significant increase in visibility with feedback enabled; however, the p-value approached significance (.060), so we do not feel comfortable stating conclusively that feedback did not affect visibility. Feedback is typically an important component key to blog success, yet it may add complexity for the reader and let voices other than corporate management speak. If the feedback
+Volume 17 Issue 3
+
+Journal of the Association for Information Systems
+
+184
+
+is contradictory to the corporation’s message, individuals may alter their opinion of the blog’s veracity and, thus, decrease its visibility. Research has shown that negative comments are common in feedback and create problems with trusting the organization (Pavlou & Dimoka, 2006). As a result, corporations may prefer blogs without feedback because they disseminate the corporation’s information and do not create dissonance between the corporate message and reader feedback. As an aside, we note that corporate blogs have begun to disable feedback to prevent the negative impact of comments from Internet trolls (Bergstrom, 2011). We need more research to understand if feedback matters in corporate blogging and, if so, under what conditions. Our results suggest that we need more research to understand if other generally accepted social structures from individual blogs apply to corporate blogging and the theoretical reasons for why or why not. The way a blog was managed (hierarchy, community, or market) had a significant impact on visibility. Blogs with a hierarchical management structure targeting customers had the highest visibility. This finding indicates customers prefer corporate blogs that provide information directly from high-level employees in the organization. The customer’s main goal in visiting corporate blogs might be to see a corporation’s official policy or stance on a given issue or product. In addition, blogs with an employee target audience were more visible when using a market management approach. Employees may be less interested in hierarchical blogs because they are already aware of the company’s official stance or policy; the wide range of voice from a market blog may be more interesting. Future research needs to dig more deeply into the differences in corporate blog management to better understand the fundamental differences among the three approaches and to develop the theoretical mechanisms by which management influences visibility. Fifth, the blogs that Fortune 500 firms provided to their target audiences did not always match what our research shows would lead to the greatest visibility. There are some commonalities, but there are also some sharp differences (compare the patterns in Figures 2-5 with our recommendations in Table 4). We need more research to understand this disconnect. Do firms have other goals for providing blogs with mismatched aspects of the framework, or are they simply misunderstanding what their audience wants? Sixth, our sample had few blogs that targeted investors and political groups, so we can say little about them. It would also be interesting to understand why our sample underrepresented these target audiences and other potential audiences, such as governments and unions. Perhaps Fortune 500 firms have deliberately chosen this strategy, or perhaps they have simply overlooked these stakeholders. We need more research to understand how and why firms make blog development choices that target some stakeholders and not others. We should note that our data did not include blogs developed during the U.S. 2012 election campaign and the “fiscal cliff” debates that followed. During these public debates, firms may have been more likely to develop and use blogs in an attempt to influence voters and politicians to support the firm’s interests. Finally, we need additional studies to replicate and extend our findings beyond the Fortune 500 to smaller firms and other countries. Perhaps blogs for these other firms are similar to or different than those of the Fortune 500. Not-for-profit organizations are also important, so more research needs to examine these organizations, how they employ blogs, and what content is most important to their likely quite different stakeholders. We need more research to test and validate the usefulness of this type I theory with other types of organizations and to test and extend the type III that builds on it. We also call for more research on other potential performance indicators of blogs. In this study, we focused on blog visibility as measured by inlinks. There are likely other ways to measure blog success, such as obtaining company data on visits to the blog or examining the number of comments on blog posts to measure the engagement of the readers of the blog. These outcome indicators, paired with our framework, could provide deeper insights into factors affecting overall blog success beyond blog visibility.
+
+5.3
+
+Implications for Practice
+
+Blogs can serve as a valuable tool for companies to communicate with corporate stakeholders provided those blogs are managed strategically. Delivering the wrong content with incorrect management to key stakeholders can render a communication initiative ineffective. In this paper, we discuss two important steps in creating a corporate blog. The first step is selecting the target audience, which represents a stakeholder group associated with the company. Our analysis of Fortune 500 blogs suggests that, if the goal is the greatest visibility, managers should start by focusing on the key stakeholders the firm feels are most important. Most blogs in our Fortune 500 sample targeted customers, followed by communities and potential employees. Ultimately, the choice of target audience depends on each company’s needs. For example, targeting potential employees does not seem to generate a high level of visibility, but these blogs may prove
+
+Volume 17
+
+Issue 3
+
+185
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+invaluable in industries where employees are difficult to attract. It is also important to manage blogs as a portfolio with different blogs targeted at different stakeholders. The second step is to design content (focus and function) and an operations strategy (management style and feedback). One should choose content and operations based on the target audience’s interests and expectations. Table 4 provides our recommendations for which content and operation strategy leads to the greatest visibility for four audiences commonly targeted by corporations: customers, communities, partners, and potential employees. Different content and management styles best serve each audience. These design decisions can have tangible impacts on visibility. Figure 5 shows that virtually all of the firms in our sample enabled feedback in their blogs, which is customary—it is a dominant social structure in the blog world. Our analysis in Table 3 shows that the decision to enable or disable feedback had no statistically significant effect on visibility. However, from a pragmatic perspective, a p-value of .060 comes close the critical alpha level of .05, and, given that only 3 percent of the blogs in our sample disabled feedback, we cannot comfortably state conclusively that disabling feedback has no effect on visibility. Therefore, although our analysis does not provide a definitive answer about the effects of feedback, we recommend that firms conform to the dominant social norm and enable it. We believe that our framework introduced in Table 1 provides a useful analysis tool for companies developing blogs. Table 4 provides our recommendations for commonly targeted audience groups and types of content, but the framework in Table 1 provides a much broader set of audiences and content types that are less common in practice. These less commonly targeted audiences may be less common because they are less important to Fortune 500 firms, which may or may not be the case for smaller firms or not-for-profit organizations. They also could be less common because firms have unintentionally overlooked certain stakeholders. In either case, other types of content focus or content function may better serve these other target audiences. The framework in Table 1 should help guide a firm’s strategic thinking as it approaches developing corporate blogs that target different stakeholders.
+
+6
+
+Conclusion
+
+We believe that this study is an important step in corporate blog research. Our data shows that companies have increasingly begun to use blogs as a medium of corporate communication. We develop a framework for classifying corporate blogs with which we successfully classify a sample of blogs from Fortune 500 companies. We link the dimensions of this corporate blog framework to one important outcome (visibility). Researchers can use this framework to guide future exploration of corporate blog phenomena, and practitioners can use this framework and our recommendations for best practice to help create blogs as part of their corporate communication strategies.
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+186
+
+References
+Aaserud, K. (2006). Bonding by blogging. Profit, 25(4), 119-119. Adler, P.S. (2001). Market, hierarchy, and trust: The knowledge economy and the future of capitalism. Organization Science, 12(2), 214-234 Aggarwal, R., Gopal, R., Sankaranarayanan, R., & Singh, P. V. (2012). Blog, blogger, and the firm: Can negative employee posts lead to positive outcomes? Information Systems Research, 23(2), 306-322. Ahuja, V., & Medury, Y. (2010). Corporate blogs as e-CRM tools—building consumer engagement through content management. Journal of Database Marketing & Customer Strategy Management, 17(2), 91-105. AMD Developer Central Blog. (n.d.). In http://developer.amd.com/community/blog/ AMD developer central. Retrieved from
+
+Andriole, S. J. (2010). Business impact of Web 2.0 technologies. Communications of the ACM, 53(12), 67-79. Argenti, P. A., Howell, R. A., & Beck, K. A. (2005). The strategic communication imperative. MIT Sloan Management Review, 46(3), 83-89. Bergstrom, K. (2011). “Don’t feed the troll”: Shutting down debate about community expectations on Reddit. com. First Monday, 16(8). Retrieved from http://firstmonday.org/article/view/3498/3029 Blood, R. (2002). The weblog handbook: Practical advice on creating and maintaining your blog. New York: Basic Books. Brecht, F., Cudreasova, A., & Zhou, J. (2010). Corporate blogging today—usage and characteristics. In M. L. Nelson, M. J. Shaw, & T. J. Strader (Eds.), Sustainable e-business management (pp. 87-99). Berlin, Heidelberg: Springer. Carr, N. (2006). Lessons in corporate blogging. Business Week Online. Cho, S., & Huh, J. (2010). Content analysis of corporate blogs as a relationship management tool. Corporate Communications: An International Journal, 15(1), 30-48. Chu, S. K., Chan, C. K., & Tiwari, A. F. (2012). Using blogs to support learning during internship. Computers & Education, 58(3), 989-1000. Clampitt, P. G., Crevcoure, J. M., & Hartel, R. L. (1986). Exploratory research on employee publications. Journal of Business Communication, 23(3), 5-17. Clarke, G. (1997). Messages from CEOs: A content analysis approach. Corporate Communications: An International Journal, 2(1), 31-39. Cox, J. L., Martinez, E. R., & Quinlan, K. B. (2008). Blogs and the corporation: Managing the risk, reaping the benefits. Journal of Business Strategy, 29(3), 4-12. Delio, M. (2005). Enterprise collaboration with blogs and wikis: Companies turn to new tools to foster dialog between employees, customers, and the public. InfoWorld. Dennis, A. R., & Vessey, I. (2005). Three knowledge management strategies: Knowledge hierarchies, knowledge markets, and knowledge communities. MISQ Executive, 4(4), 399-412 Donaldson, T., & Preston, L. E. (1995). The stakeholder theory of the corporation: Concepts, evidence, and implications. Academy of management Review, 20(1), 65-91. Drèze, X., & Zufryden, F. (2004). Measurement of online visibility and its impact on Internet traffic. Journal of Interactive Marketing, 18(1), 20-37. Dunham, L., Freeman, R. E., & Liedtka, J. (2006). Enhancing stakeholder practice: A particularized exploration of community. Business Ethics Quarterly, 16(1), 23-42. Dwyer, P. (2007). Building trust with corporate blogs. In Proceedings of the International Conference on Web and Social Media (pp. 1-8). Efimova, L., & Grudin, J. (2007). Crossing boundaries: A case study of employee blogging. Paper presented at the 40th Annual Hawaii International Conference on System Sciences.
+
+Volume 17
+
+Issue 3
+
+187
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Gilpin, D. (2010). Organizational image construction in a fragmented online media environment. Journal of Public Relations Research, 22(3), 265-287. Gordon, G. G. (1991). Industry determinants of organizational culture. Academy of Management Review, 16(2), 396-415. Greenwood, M. (2001). The importance of stakeholders according to business leaders. Business and Society Review, 106(1), 29-49. Gregor, S. (2006). The nature of theory in information systems. MIS Quarterly, 30(3), 611-642. Gregory, K. L. (1983). Native-view paradigms: Multiple cultures and culture conflicts in organizations. Administrative Science Quarterly, 28(3), 359-376. Herring, S. C., Scheidt, L. A., Bonus, S., & Wright, E. (2004). Bridging the gap: A genre analysis of weblogs. In Proceedings of the Annual Hawaii International Conference on System Sciences. Hsu, H. Y., & Tsou, H.-T. (2011). Understanding customer experiences in online blog environments. International Journal of Information Management, 31(6), 510-523. Hu, N., Liu, L., Tripathy, A., & Yao, L. J. (2011). Value relevance of blog visibility. Journal of Business Research, 64(12), 1361-1368. Jackson, A., Yates, J., & Orlikowski, W. (2007). Corporate Blogging: Building community through persistent digital talk. In Proceedings of the Annual Hawaii International Conference on System Sciences. Kohut, G. F., & Segars, A. H. (1992). The president’s letter to stockholders: An examination of corporate communication strategy. Journal of Business Communication, 29(1), 7-21. Lasswell, H. D. (1948). The structure and function of communication in society. ln L. Bryson (Ed.), Communication of ideas (pp. 37-51). New York: Harper & Row. Lee, S., Hwang, T., & Lee, H.-H. (2006). Corporate blogging strategies of the IT Fortune 500 companies. Management Decision, 44(3), 316-334. Li, M., & Richard Ye, L. (1999). Information technology and firm performance: Linking with environmental, strategic and managerial contexts. Information & Management, 35(1), 43-51. Lindic, J. (2006). How do corporations use Internet for public relations? In Proceedings of the BLED eConference. Liu, Y., & Ji, S. (2010). 26P. Enterprise blog categorization and business value. In Proceedings of International Conference on Information Resources Management. Long, J. S. (1997). Regression models for categorical and limited dependent variables (Vol. 7). Thousand Oaks, CA: Sage. Mack, R. W., Blose, J. E., & Pan, B. (2008). Believe it or not: Credibility of blogs in tourism. Journal of Vacation Marketing, 14(2), 133-144. McCullagh, P., & Nelder, J. A. (1989). Generalized linear models (Vol. 37). London: Chapman & Hall. McQuail, D. (2010). McQuail’s mass communication theory. Thousand Oaks, CA: Sage. Merry, M. K. (2010). Blogging and environmental advocacy: A new way to engage the public? Review of Policy Research, 27(5), 641-656. Mitchell, R. K., Agle, B. R., & Wood, D. J. (1997). Toward a theory of stakeholder identification and salience: Defining the principle of who and what really counts. Academy of Management Review, 22(4), 853-886. Morris, M., & Ogan, C. (1996). The Internet as mass medium. Journal of Computer-Mediated Communication, 1(4). Pant, G., & Srinivasan, P. (2010). Predicting web page status. Information Systems Research, 21(2), 345-364. Pavlou, P. A., & Dimoka, A. (2006). The nature and role of feedback text comments in online marketplaces: Implications for trust building, price premiums, and seller differentiation. Information Systems Research, 17(4), 392-414.
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+188
+
+Perry, M., & Bodkin, C. (2000). Content analysis of 100 company web sites. Corporate Communications: An International Journal, 5(2), 87-97. Porter, M. E., & Kramer, M. R. (2002). The competitive advantage of corporate philanthropy. Harvard Business Review, 80(12), 56-68. Ramaswamy, V., Anderson, E. W., & DeSarbo, W. S. (1994). A disaggregate negative binomial regression procedure for count data analysis. Management Science, 40(3), 405-417. Raymond, L. (1985). Organizational characteristics and MIS success in the context of small business. MIS Quarterly, 9(1), 37-52. Tess, P. A. (2013). The role of social media in higher education classes (real and virtual)—a literature review. Computers in Human Behavior, 29(5), A60-A68. Thielst, C. B. (2007). Weblogs: A communication tool. Journal of Healthcare Management, 52(5), 287-289. Top, E. (2012). Blogging as a social medium in undergraduate courses: Sense of community best predictor of perceived learning. The Internet and Higher Education, 15(1), 24-28. Vargo, A. (2006). Chatting to customers at Southwest. Strategic Communication Management, 10(4), 3. Vaughan, L., & Wu, G. (2004). Links to commercial websites as a source of business information. Scientometrics, 60(3), 487-496. Venkatraman, N. (1989). The concept of fit in strategy research: Toward verbal and statistical correspondence. Academy of management Review, 14(3), 423-444. Wattal, S., Racherla, P., & Mandviwalla, M. (2009). Employee adoption of corporate blogs: A quantitative analysis. In Proceedings of the Hawaii International Conference on System Sciences. Wattal, S., Racherla, P., & Mandviwalla, M. (2010). Network externalities and technology use: A quantitative analysis of intraorganizational blogs. Journal of Management Information Systems, 27(1), 145-174. Woodward, D. G., Edwards, P., & Birkin, F. (2005). Organizational legitimacy and stakeholder information provision. British Journal of Management, 7(4), 329-347. Wright, C. R. (1960). Functional analysis and mass communication. Public Opinion Quarterly, 24(4), 605-620. Zerfaß, A. (2005). Corporate blogs: Einsatzmöglichkeiten und herausforderungen. The Blog Initiative Germany. Retrieved from http://www.albatros-media.at/pdfs/CorporateBlogs-AZ-270105.pdf
+
+Volume 17
+
+Issue 3
+
+189
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Appendix A: Blog Classification and Coding
+Target Audience
+We categorized each blog with respect to its target audience. Two researchers analyzed blog posts to determine these categories. In many cases, an “about” page was available that explained the company’s intended purpose for the blog. Where an “about” page was not available, we examined blog entries to determine audience. We coded only the most salient characteristics for each blog even though some blogs target multiple stakeholders. For example, a blog may have provided information that investors would find useful, but, if the majority of posts focused on relaying information to customers, then we categorized the audience as for customers. • Customers: the “about” page of the blog clearly indicated that the blog focused on customers of the corporation. In addition, blog posts contained content clearly meant for the organization’s customers. Communities: the “about” page of the blog stated the blog focused on certain communities (e.g., Johnson & Johnson had a blog directed at new or expectant mothers). The community could represent a community of customers interested in a certain product offered by the organization. Partners: the “about” page or blog posts indicated the blog focused on industry partners (e.g., Caterpillar runs a blog directed toward their energy partners). Employees: the “about” page or blog posts indicated the blog was for employees to share content related to the corporation. Investors: the “about” page or blog posts indicated the blog was for financial or investment purposes. In our sample, these blogs focused on investors in financial markets (i.e., hedge funds, financial advisors, etc.) but could include blogs directed at direct investors to raise equity for the corporation. Political Groups: the “about” page or blog posts indicated the blog was political in nature. These blogs are attempting to influence a political organization, such as a political party. Governments: the “about” page or blog posts indicated the blog was attempting to lobby a government entity, such as congress or another regulatory body. These blogs could also include governments outside of the United States. Suppliers: the “about” page or blog posts indicated the blog was for a supplier of the corporation.
+
+•
+
+• • •
+
+• •
+
+•
+
+Content Focus
+We coded content focus in a similar manner to target audience. We examined blogs’ “about” page to determine their purpose. Where an “about” page was not available, we examined blog entries to determine audience. In addition, we read blog posts to obtain a clear indication on the majority of entries. • Market: the “about” page of the blog clearly indicated that it focused on the market in which the company operated. These blogs discussed issues affecting the industry, competition, or overall market growth. Organization: the “about” page of the blog indicated that it focused on the organization itself. Blog posts focused on topics in the company, such as products, policies, or research and development. Product: the “about” page or blog posts indicated that it focused on a particular product. Some large corporations had several blogs devoted to particular product lines (e.g., Newell Rubbermaid operated a separate blog for Graco, Rubbermaid, and Sharpie). Event: the “about” page or blog posts indicated that it focused on a specific upcoming event either held or sponsored by the corporation. Policy: the “about” page or blog posts indicated that it focused on the implications of a particular policy (perhaps on upcoming legislation). Individual: the “about” page or blog posts indicated that it focused on individuals in the corporation, such as stories about employees’ personal or professional lives.
+
+• •
+
+• • •
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+190
+
+Content Function
+We coded content function in a similar manner to target audience and content focus. We examined blogs’ “about” page to determine their purpose; however, the “about” page rarely indicated whether the blog was solely informative in nature or provided additional insight. Therefore, we examined the content of blog posts. We read blog posts to obtain a clear indication on the majority of entries. • • • Information: the blog posts clearly communicated factual information without normative statements or interpretations of the facts. Insight: the blog or blog posts communicated company or individual opinions or attempted to interpret or explain factual information. Mobilization: the blog posts attempted to promote societal objectives, including political and commercial propaganda. The blog posts aimed to get the reader to take action on a certain topic (e.g., corporate social responsibility). Culture: the blog posts attempted to transmit cultural beliefs, values, and norms of the corporation and its employees or its industry. Entertainment: the blog posts attempted to provide amusement and relaxation for readers (e.g., Barnes and Noble operated a blog on which individuals can create entries on a book of the month).
+
+• •
+
+Management
+We coded the management dimension by examining blog posts and taking into account the writers of the blog posts. • Hierarchical blogs are tightly managed by the company. They include official announcements of the blog on the corporate website, executive (C-suite level) contributor(s), or official messages from the company. Hierarchical blogs generally have one to two people blogging. Market blogs allow many people to blog from across the organization. They do not represent a specific subset of the corporation but rather offer an overall picture of the corporation. Many people contribute to market-oriented blogs, spanning across the organization. Community blogs represent a small group or team of people in the corporation. Community blogs have bloggers in specific topic areas in the organization. (e.g., one blog might focus on a community, such as a product line with bloggers from that product line posting or bloggers from the finance department blogging about financial aspects of the company). The community blog is specific to a topic area in the organization, whereas the market blog spans the organization.
+
+•
+
+•
+
+Feedback
+We coded the feedback dimension by going to the blog and examining its posts. If readers could provide feedback on the blog (generally in the form of comments at the end of the blog post), we classified it as feedback “enabled”. If there was no ability to comment on a post, we classified the blog as feedback “disabled”.
+
+Volume 17
+
+Issue 3
+
+191
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+Appendix B: Sample “About” Pages
+This appendix provides sample “about” pages for blogs in our sample. We highlight the information used to determine where the blog resides on each of the dimensions.
+
+Figure B1. About Section of the Disney Parks Blog
+
+The Disney Parks Blog (Figure B1) focused on customers of Disney Parks. The blog clearly stated it focused on providing information on Disney’s hotel, park, and accommodations aspect. Thus, the blog’s content focus was on a product of Disney, not the Disney organization as a whole. The blog did not have an organizational focus because it did not focus on Disney’s media aspects (i.e., Pixar, ABC, etc.). The blog indicated it was feedback enabled with the statement “we welcome comments on the Disney Parks blog”. We examined the blog entries to determine the content function. Many of these entries also included normative statements about Disney Parks, so the blog’s content function was to provide insight into the organization. For example, one entry was: Last night, we debuted our new show, “Hocus Pocus Villain Spelltacular”, during the first Mickey’s Not-So-Scary Halloween Party of the season at Magic Kingdom Park. It’s been 22 years since the wicked Sanderson Sisters last appeared, in Disney’s 1993 film “Hocus Pocus”. Now they’re back and fabulous as ever! This statement includes the normative statement “they’re back and fabulous as ever”, which indicates the blog provided insight into the information it provided as well. The blog had a community management style because bloggers were from Disney parks only, not executives (i.e., hierarchical) or spanning the organization (i.e., market). In the Marriott Blog (Figure B2) clearly focused on customers because the “about” page focused on providing customers information about the organization. The blog’s content focus was the organization because the blog focused on providing insight on the entire Marriot organization. The content function was culture because the blog focused on providing transparency on the organization’s values. The blog had a
+
+Volume 17
+
+Issue 3
+
+Journal of the Association for Information Systems
+
+192
+
+hierarchical management style because Bill Marriott tightly controlled its management. Looking at the blog posts, feedback was enabled because comments responded to his posts.
+
+Figure B2. About Section of the Marriott Blog
+
+Volume 17
+
+Issue 3
+
+193
+
+Mapping the Corporate Blogosphere: Linking Audience, Content, and Management to Blog Visibility
+
+About the Authors
+Alan Dennis is Professor of Information Systems and holds the John T. Chambers Chair of Internet Systems in the Kelley School of Business at Indiana University. He was named a Fellow of the Association for Information Systems in 2012. He has written more than 150 research papers and has won numerous awards for his theoretical and applied research. His research focuses on three main themes: team collaboration, IT for the subconscious, and digital innovation. He is Editor-in-Chief of Foundations and Trends in Information Systems, Editor-in-Chief of AIS Transactions on Replication Research, and Vice President for Conferences for the Association for Information Systems. He also has written four books (two on data communications and networking and two on systems analysis and design) and is leading an NSFfunded project to gamify information systems education. He has co-founded five start-up companies, the most recent of which was NameInsights.com. Randall Minas is an assistant professor in the Shidler College of Business at University of Hawai’i at Mānoa. His research interests include individual cognitive responses to information systems, collaboration and small group research, and neuroIS. He is co-founder of the Hawaii Interdisciplinary Neurobehavioral and Technology (HINT) Lab at University of Hawai’i. He has been published in the Journal of Management Information Systems, AIS Transactions on Human Computer Interaction, and the Journal of Applied and Preventive Psychology and several conferences including Hawaiian International Conference on System Sciences (HICSS) and WITS workshop. He also served as the managing editor of MIS Quarterly Executive from 2010-2014, a journal directed to executives with the goal of improving practice. He received his PhD in information systems from Indiana University. Nicholas Lockwood is Senior Director of Brand Marketing Analytics at Catalina Marketing, where he leverages statistical analysis and big data to uncover strategic insights for clients in the consumer packaged goods industry. He received his PhD in information systems from Indiana University and then worked as Assistant Professor at Missouri University of Science and Technology. His research has been published in Decision Sciences and a variety of conference proceedings.
+
+Copyright © 2016 by the Association for Information Systems. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and full citation on the first page. Copyright for components of this work owned by others than the Association for Information Systems must be honored. Abstracting with credit is permitted. To copy otherwise, to republish, to post on servers, or to redistribute to lists requires prior specific permission and/or fee. Request permission to publish from: AIS Administrative Office, P.O. Box 2712 Atlanta, GA, 30301-2712 Attn: Reprints or via e-mail from publications@aisnet.org.
+
+Volume 17
+
+Issue 3
+
+Copyright of Journal of the Association for Information Systems is the property of Association for Information Systems and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

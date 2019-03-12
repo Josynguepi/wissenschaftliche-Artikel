@@ -1,0 +1,456 @@
+Journal of Management Information Systems
+
+ISSN: 0742-1222 (Print) 1557-928X (Online) Journal homepage: http://www.tandfonline.com/loi/mmis20
+
+Versioning: Go Vertical in a Horizontal Market?
+Debabrata Dey & Atanu Lahiri
+To cite this article: Debabrata Dey & Atanu Lahiri (2016) Versioning: Go Vertical in a Horizontal Market?, Journal of Management Information Systems, 33:2, 546-572, DOI: 10.1080/07421222.2016.1205923 To link to this article: http://dx.doi.org/10.1080/07421222.2016.1205923
+
+View supplementary material
+
+Published online: 05 Oct 2016.
+
+Submit your article to this journal
+
+Article views: 68
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at http://www.tandfonline.com/action/journalInformation?journalCode=mmis20 Download by: [Bibliotheek TU Delft] Date: 14 February 2017, At: 09:18
+
+Versioning: Go Vertical in a Horizontal Market?
+DEBABRATA DEY AND ATANU LAHIRI
+DEBABRATA DEY (ddey@uw.edu; corresponding author) is the Marion B. Ingersoll Professor of Information Systems at the Foster School of Business, University of Washington. He received his Ph.D. from the Simon School of Business, University of Rochester. His papers have appeared in Management Science, Information Systems Research, Journal of Management Information Systems, MIS Quarterly, Operations Research, and ACM Transactions on Database Systems, among several other journals. He has served as a senior editor and associate editor for Information Systems Research, and as an associate editor for Management Science. ATANU LAHIRI (atanu.lahiri@utdallas.edu) is an assistant professor at the Jindal School of Management, University of Texas at Dallas. He received his Ph.D. from the Simon School of Business, University of Rochester. His research interests are primarily in the area of economics of information systems. His papers have appeared in Management Science, Information Systems Research, Journal of Management Information Systems, MIS Quarterly, and INFORMS Journal on Computing, among other journals. ABSTRACT: The issue of versioning of information goods has resurfaced, in part as a result of the recent popularity of downloadable contents (DLC) among video game manufacturers. The central idea behind the DLC strategy, zero-day DLCs in particular, is that consumers who find the base version of a game to be sufficiently close to their tastes would want more of its capabilities and would pay a premium to upgrade by purchasing a DLC. To better understand the implications of such a product-line strategy, in this work, we combine the literature on versioning with that on consumer learning. In doing so, we uncover an interesting economic phenomenon that, for an experience good, a manufacturer ’s desire to vertically differentiate could actually stem from its inability to otherwise elicit unobserved heterogeneity in consumers’ perceived fit. In other words, we generalize versioning to accommodate both vertical and horizontal heterogeneity. KEY WORDS AND PHRASES: consumer learning, downloadable content, experience good, information good, product sampling, versioning, vertical differentiation, video games.
+
+As a result of rapid technological innovations and consumers embracing video games as an integral part of their entertainment, the gaming industry—including gaming software, hardware, and services—has become one of the largest and most profitable technology markets. Over the past few years, the gaming market has grown
+Journal of Management Information Systems / 2016, Vol. 33, No. 2, pp. 546–572. Copyright © Taylor & Francis Group, LLC ISSN 0742–1222 (print) / ISSN 1557–928X (online) DOI: 10.1080/07421222.2016.1205923
+
+VERSIONING
+
+547
+
+substantially, from $20 billion in 2001 to over $100 billion today. Along with this tremendous growth have come innovations in marketing and product placement. One of these innovative strategies has taken the form of downloadable content, or DLC as it is popularly known—instead of including the complete set of features in the retail version of the game, a manufacturer offers only a subset of features initially, and the rest as incremental DLCs. Consider, for example, the case of Mass Effect, one of the highest rated Xbox games on the market. DLCs have been offered for every generation of this game—two for Mass Effect, and sixteen each for Mass Effect 2 and Mass Effect 3. Of the sixteen DLCs for Mass Effect 3, three popular ones are shown in Table 1. It is clear from the table that Mass Effect is not alone in offering DLCs; almost all games offer varying amounts of DLCs. In recent years, a specific type of DLC has become popular among game manufacturers [32]; they take the form of a zero-day DLC (also called day-one DLC). A zero-day DLC is one that becomes available the very day the game is released; all a gamer has to do is to pay for it, download it, and install it. In fact, some zero-day DLCs ship with the retail game itself, requiring the consumer only to pay for an unlock code to enjoy the full range of features [29]. For example, the DLC “From Ashes” was included in the original disc of Mass Effect 3, and its unlock code became available on the same day the game was released. Of course, the features
+
+Table 1. A Few Video Games and Their Popular DLC Packs Game
+Mass Effect 3
+
+Publisher
+Electronic Arts
+
+DLCs
+From Ashes* Leviathan Omega Back to Karkand* Armored Kill Exiled Prince* Legacy Mark of the Assassin Mechromancer* Pirate’s Booty Collection 3 (Chaos) Collection 4 Season Pass Maximum Pleasure Saints Purple Ops Crimson Map Majestic Map Castle Map
+
+Price
+$9.99 $9.99 $14.99 $14.99 $14.99 $6.99 $9.99 $9.99 $9.99 $9.99 $14.99 $14.99 $9.99 $3.49 $3.49 $9.99 $9.99 $9.99
+
+Battlefield 3 Dragon Age 2
+
+Electronic Arts Electronic Arts
+
+Borderlands 2 Call of Duty: Modern Warfare 3 Saints Row: The Third Halo 4
+
+2K Games DVG Activision THQ
+
+Microsoft
+
+* Indicates zero-day DLCs.
+
+548
+
+DEY AND LAHIRI
+
+included in such a DLC were all fully developed and ready for use at the time of release. Yet the manufacturer held them back just to sell them separately. Apparently, versioning of information goods—a widely studied issue in information systems and economics—has reemerged as a strategy of choice among manufacturers of video games. According to Thier [32], the notion of “you buy the game” and “see whether you like it” before seeking more is “the crux of the argument” for such DLCs. To many gamers, DLCs simply provide an opportunity to obtain “more game for games” that they want more of [36]. In other words, central to the zero-day DLC strategy is an anticipation that, when a lower version at a lower price induces more consumers to sample the good, some will have a positive experience and find themselves horizontally closer to the game than the others. When that happens, these consumers will choose to pay a premium to acquire additional content in the form of a DLC, allowing the manufacturer to make a higher profit. The objective of this research is to find out whether such a phenomenon is at all possible. Is it reasonable that personal experience with the base version allows consumers to discover the fit between their tastes and the product’s characteristics? Is it then possible for the manufacturer to extract a portion of their higher willingness to pay (WTP)? This way, can versioning using a DLC be an effective tool for marketing video games and, possibly, other information goods? If so, under what conditions, is it optimal to offer a DLC? What are the implications for a manufacturer ’s product-line decisions? And, what, if any, are the welfare implications? This study seeks to answer the questions above using a parsimonious economic model. Answering them is important from both practical and theoretical standpoints. Given the size and the rapid growth trajectory of the gaming industry, it is of much practical relevance to understand whether versioning through DLCs is indeed a viable strategy for a vendor in this market. Furthermore, recent times have witnessed a considerable level of outrage against such zero-day DLCs [19]. Many consumers demand that all features be included in the base version itself. They contend that these DLCs simply harm consumers while enriching the manufacturer. In fact, some are so opposed to it that they even call the DLC strategy “horror pricing” [23]. Thus, the question concerning welfare implications is also of practical interest. Although motivated by the use of DLCs, our research can also shed light on the immense popularity of versioning among manufacturers of other types of information goods. Consider, for example, Table 2, which lists some popular software products along with the different versions available for each. As the table shows, Dragon, a leading speech recognition software, offers two different versions, both of which are capable of converting speech to text and both allow users to compose an e-mail by simply speaking to the computer. In addition, the premium version supports features such as simple voice shortcuts (or commands) and voice control for desktop applications and peripherals. From a theoretical standpoint, it is imperative to acknowledge that an information good is also an experience good. Specifically, consumers ex ante have the same perception of quality in an expected sense, and, ex post, they reach different
+
+VERSIONING
+
+549
+
+Table 2. A Few Examples of Software Products and Their Versions Product
+Photoshop Windows
+
+Vendor
+Adobe Microsoft
+
+Versions
+Basic Extended Home Premium Professional Ultimate Express Standard Enterprise Home Premium Creator Creator Pro
+
+Oracle
+
+Oracle
+
+Dragon Creator
+
+Nuance Roxio
+
+conclusions [14, 26]—upon using the good and learning about it directly through personal experience, some find it to be closer to their tastes than originally anticipated, and some farther.1 Thus, when a consumer initially uses a lower version (i.e., the base version), he discovers his own fit, which in turn causes his valuation for the higher one (i.e., the one with additional features and enhancements) to increase or decrease. This prompts some consumers to upgrade to the higher version, while others do not. This way, the base version plays the role of a product sample, on top of its traditional role as an imperfect substitute for the higher version. In incorporating this dual role, we unearth a new economic phenomenon with practical insights, which we now discuss. Versioning of information goods can take the form of horizontal or vertical differentiation [37]. Horizontal versioning, in essence, amounts to creating different versions of the same information good, where certain features in one version act as substitutes for a set of features in another [39]. A case in point is the speech recognition software MacSpeech Dictate by Nuance; it comes in two versions, legal and medical. Based on the manufacturer ’s description, it appears that the two versions offer exactly the same set of functionalities including a common vocabulary, except that their specialized domain vocabularies are designed to cater to horizontally separated consumer segments. Indeed, there is no universally acceptable preference ordering between these two specialized vocabularies, and the preference for one over the other is related to the fit between consumers’ needs and the features of the product. The other—and also the more common—form of versioning is vertical, where there exists a universally accepted quality ordering among the versions [4]. Consider Dragon, another speech recognition software product, again from Nuance, which also comes in two versions, home and premium. The home version contains only a
+
+550
+
+DEY AND LAHIRI
+
+subset of the features available in the premium version. The additional features clearly make the premium version a superior product to every consumer, and consumers’ self-selection into these two versions is largely determined by the vertical separation among them in terms of their preference for quality. Our context—versioning to facilitate product sampling and consumer learning—is an interesting one. To be sure, it is still a case of vertical differentiation,2 but, as we find, the manufacturer ’s desire here to vertically differentiate actually originates from a horizontal separation among the consumers. The difference in the eventual fit— why some gamers like a game and others do not—is surely horizontal, as gamers are playing the same game with exactly the same feature set. Viewed another way, although the real quality of an information good is truly a vertical issue, consumers’ perception of fit is just as truly a horizontal one. Were it not so, a gamer could never develop different cravings for different games having the same intrinsic quality level (assuming, of course, that such an intrinsic quality measure could be developed and could reliably be communicated). Since a video game is very much an experience good, a perception of fit cannot be formed before playing the game. Thus, irrespective of the amount of investment in advertising or other forms of product promotions, the manufacturer is unable to fully communicate the location of the product in some arbitrary multidimensional product-attribute space (PAS) and thus reliably inform consumers about their fit [22]. Of course, had the manufacturer been able to do so up front—as in the case of the specialized vocabularies in MacSpeech Dictate—it would surely have limited itself to horizontal differentiation [39]. Doing so essentially affords the manufacturer an opportunity to make each group happy and extract a portion of that satisfaction in the form of a higher price. However, when the manufacturer cannot easily inform prospective consumers about the locations of the versions in PAS, such horizontal versioning does not make much practical sense. What is fascinating, though, is that this inability to version horizontally does not stop our manufacturer from cleverly positioning its product line vertically. This is indeed the essence of our findings. Not being able to otherwise inform consumers of the product’s location, the manufacturer chooses to offer two vertically differentiated versions, with the idea of luring more consumers to try the base product at a lower price. When they do, consumers would also want to upgrade if they find themselves relatively close to the base product. This, in turn, would allow the manufacturer to effectively extract a portion of their surplus. Therefore, as long as it can induce a significant portion of the market to like the base version, the manufacturer would choose to version vertically. To the best of our knowledge, no prior work has viewed versioning of information goods in this light.
+
+Literature Review
+Over the past couple of decades, along with the tremendous growth of the Internet and e-business, the market for information goods, such as software, video games,
+
+VERSIONING
+
+551
+
+and digital movies or music, has grown at a rapid pace. Although this market is structurally different from the market for physical goods [18], there is one common thread that connects the two—vertical differentiation is widely used in both the markets. Economists have long recognized vertical differentiation as a profitable way of serving consumers differing in their preferences for quality [25]. However, such differentiation is effective only when the marginal cost is increasing in the quality level produced [28], implying that versioning of a zero marginal-cost information good cannot be easily explained [4, 18]. Interestingly, Jing [16] finds that the enormous popularity of versioning may perhaps be attributed to the presence of positive network effects. This is because a network effect resulting from an expansion of the market to different consumer segments can also drive up their willingness to pay for the product. Wu and Chen [40] cite piracy as another possible factor making versioning desirable, because the seller of an information good may be able to reduce piracy by offering price-sensitive, piracy-prone consumers a cheaper stripped-down version. Finally, Bhargava and Choudhary [5], Chellappa and Mehra [6], and Hui et al. [15] explain why versioning can be useful when the marginal value of consuming an additional feature or unit is diminishing—the effect of a diminishing marginal value on the profit function is basically equivalent to that of an increasing marginal cost. The versioning literature above, however, does not consider the issue of consumer learning, a key feature of this work. When and how to inform uninformed consumers is, of course, a very important topic, and it has been examined from various angles. In general, informing consumers leads to a shift or a rotation, or both, of the demand distribution [17]. It has been shown that, if the movement is such that the mean does not change and only the variance (ie., consumer heterogeneity) increases, it is not in the manufacturer ’s interest to inform potential consumers [3, 17]. Broadly speaking, our results are consistent with these ideas. However, what sets our research apart is its emphasis on the interplay between vertical differentiation and product sampling, specifically the role that a lower version can play in informing consumers of their likely fit. Also new is the idea that the amount of information communicated depends directly on the feature set of the lower version—in fact, this is the main reason an interior optimum becomes possible in our model, in contrast to prior literature that shows that the maximum is attained at the boundary [17, 20]. In other words, similar to the study by Markopoulos and Clemons [22], it is not necessary in our case that the optimum is either fully informing potential consumers or not informing them at all. An important point to note here is that we examine experience goods and thus focus on learning from personal experience. Early literature on this topic deals mostly with repeat purchases. There is ample evidence that, when consumers initially have incomplete information about a product, it could be optimal for the manufacturer to first offer a promotional price, only to charge a higher price later on (e.g., [2, 12, 30]). Indeed, examples of such intertemporal price
+
+552
+
+DEY AND LAHIRI
+
+discrimination abound in markets for fast-moving consumer products such as cosmetics and toiletry. We are, however, interested in information goods, such as video games that are best described as consumer durables, with little need for frequent repeat purchases. We are thus closer to the recent line of work summarized in Table 3. All the articles in Table 3 deal with the important issue of consumer learning. For example, some argue that even a pirated version provides consumers with critical information about a product’s usefulness [7]. A similar approach has also been adopted in Wei and Nault [38], which examines versioning of an information good whose true quality is not known initially. In both cases, however, all consumers eventually reach the same conclusion about the usefulness of a product upon experiencing it. Our consumers, on the other hand, may reach different, and even opposite, conclusions about the usefulness of an experience good—upon using a lower version, some consumers find themselves close to the product, and the rest otherwise (cf. [10, 14, 22]). Thus, the unique aspect of our model is essentially the horizontal separation among our consumers. There is no agreement among them, and it all depends on the consumer himself as much as it does on the product. Another relevant stream of literature is that on free trials. The connection with feature-limited trials is particularly relevant. According to the Freemium literature, feature-limited trials are appropriate when: (1) consumers uniformly and sufficiently underestimate a product (e.g., [27]), or (2) there is a strong network effect (e.g., [8]). We assume neither. First, some of our consumers find themselves closer to the product upon using the base version, the rest find otherwise. Second, we do not consider network effects. Naturally, in our setting, offering a free feature-limited trial is suboptimal. Indeed, the question of whether or not to offer a free version is not the one we ask. On the contrary, our point is simply that, in a market where potential consumers differ primarily in their perceived fit, the manufacturer can use vertical differentiation to communicate to them critical fit information.
+
+Model
+Our manufacturer, a monopolist, considers offering two versions, V1 and V2, at prices r and p, respectively, where V1 is the base version and V2 is the full version that includes the DLC. Consumers who purchase V1 have the option of later upgrading to V2 by purchasing the DLC at an additional price of ðp À rÞ. We assume that V1 can be developed in a costless manner by “turning off” some features of V2 [18, 31]. Accordingly, we normalize the intrinsic quality of V2 to 1 and denote that of V1 by θ 2 ð0; 1Þ. Thus, θ is just a measure of the features included in V1, relative to those in V2, and consumers can observe its value from product descriptions made available by the manufacturer. Finally, following research on information goods, we consider the marginal cost of each version to be negligible [31, 35]. We next discuss how consumers react to such product offerings.
+
+Table 3. Recent, Related Literature on Consumer Learning
+Type of good (marginal cost) NE/WoM No Vertical Pirated version True fit of the product Information (zero) Consumer heterogeneity Consumer learns from What consumer learns Ex post perceived quality Same for all consumers
+
+Article
+
+Focus of the work
+
+Chellappa and Shivendu [7]
+
+Information (zero)
+
+Yes
+
+Vertical
+
+Product sample
+
+True quality of the product
+
+Same for all consumers
+
+Physical (quadratic in quality)
+
+No
+
+Vertical
+
+Costly deliberation
+
+His own type
+
+Same for all consumers
+
+Information (zero)
+
+Yes
+
+Vertical
+
+Product sample, WoM
+
+True quality of the product
+
+Same for all consumers
+
+Information (zero)
+
+No
+
+Vertical
+
+Lower-quality version
+
+True quality of the product
+
+Same for all consumers
+
+Managing piracy through effective productline design; shows that piracy is a lesser concern for an information good whose value is underestimated initially Cheng and Liu [8] Comparing time-limited and feature-limited trials; shows that the latter is more effective when the network effect is strong Guo and Zhang [13] Studying impacts of consumer deliberation on product-line design; shows that the seller may have incentives to offer multiple quality levels to induce deliberation Niculescu and Wu Comparing sampling strategies such as [27] seeding and feature-limited trials (Freemiums); shows that the latter does the best when consumers severely underestimate a product’s quality initially Wei and Nault [39] Explaining why versioning is profitable for a zero- marginal cost information good when its quality cannot be observed prior to use This work Examining effectiveness of versioning when consumers are unaware of their relative distance from the product; shows that versioning vertically can be effective even when consumers are horizontally separated Information (zero) No Horizontal, vertical Lower-quality version His own relative location
+
+Different across consumers
+
+VERSIONING
+
+Notes: NE = network effect, WoM = word-of-mouth.
+
+553
+
+554
+
+DEY AND LAHIRI
+
+Consumer Location
+Our model closely mimics the one adopted by Markopoulos and Clemons [22], where consumers are distributed along a unit circle, and there are two groups of consumers: one group of homogeneous consumers, of probability mass α, is concentrated at one point on the circle, and the other group of size ð1 À αÞ is heterogeneous and distributed uniformly along the circumference (see Figure 1). Mathematically, the consumer location can be described by the following distribution: ! 1 F ðhÞ ¼ α þ 2hð1 À αÞ; for all h 2 0; 2 According to Markopoulos and Clemons [22], markets for many products exhibit a “relatively flat distribution” of consumer preferences over the entire spectrum, with a large spike or a “sweet spot” at one or, at times, more specific locations. The existence of such sweet spots has long been recognized in marketing, both in theory and practice (cf. [1, 11]). In fact, such a model for the consumer market makes perfect sense for the gaming industry, where a concentration of enthusiasts and fans is quite common, as evidenced by the existence of dedicated online forums and fan pages. Assumption 1: Consumers are all located on a unit circle—an α fraction is located at a single point, and the rest, distributed uniformly. The manufacturer knows this distribution. The manufacturer of an information good would typically know the distribution of consumer locations—or would have a good estimate of it—since the manufacturer can obtain such information from appropriate consumer surveys and user testing, or from “gameplay” feedbacks at a show or a conference. In more recent times, when datacentric decision making has taken the center stage, a sophisticated manufacturer, in order to obtain more accurate estimates of consumers’ tastes and preferences, can also employ statistical and data mining techniques on large volumes of external data— gleaned from various bulletin boards, online forums, and social media sites—after carefully connecting that data with transactional data stored in-house.
+
+Figure 1. Consumer and Product Locations
+
+VERSIONING
+
+555
+
+Consumers, on the other hand, usually do not have access to any of the resources mentioned above. As a result, they know little about the overall distribution. Social and professional networks provide only too small, and often too biased, a sample of various tastes and preferences for them to form any concrete opinion about the distribution. This lack of knowledge stops them from either knowing or predicting the sweet spot where the manufacturer would eventually place its product.
+
+Willingness to Pay
+We assume that consumers are homogeneous vertically, that is, they all have the same taste for quality. Hence, a consumer ’s willingness to pay (WTP) is simply the quality of the product as perceived by him. Following Chellappa and Shivendu [7], we model a consumer ’s WTP as qκ, where q is the intrinsic quality of the product and κ is the perceived fit.3 This fit, in our case, should be a function of h, the distance between the consumer and the product. We use a step function: Assumption 2: Consumer h has a WTP of qκðhÞ for a product with intrinsic quality q. The fit, κðhÞ, is given by: & κ ð hÞ ¼ 1 þ δ; 1 À δ; if 0 h if 1 4 < h
+1 4;; 1 2
+
+(1)
+
+where δ 2 ð0; 1Þ. This discrete fit is illustrated in the right circle in Figure 1 by means of dark and light arcs. In Assumption 2, δ represents the relative “premium” a consumer is willing to pay when there is a fit; at the same time, it represents the relative “discount” a consumer would want otherwise [9]. Thus, δ is also the amount of uncertainty associated with the prior valuation and naturally depends on the context—the nature of the product, the “literacy level” of consumers, and even the brand name. Irrespective of how the context determines δ, its value is known to the manufacturer, perhaps acquired through appropriate market research. The value of an experience good cannot be ascertained vicariously. Therefore, initially, the consumer has little idea about the product’s location and considers a uniform prior—as depicted in the left circle in Figure 1—and he assigns equal probabilities to the event that he will be within a quarter distance from the product and to the one he will be beyond. Naturally, his initial perception of fit would be 1 E½κðhÞ ¼ 1 2 ð1 þ δÞ þ 2 ð1 À δÞ ¼ 1, and his initial WTP for a product of intrinsic quality q must also be q.4 If the manufacturer offers only one version, V2, of quality level one, every consumer will have a WTP of one and will buy it if the price is not above one. In equilibrium, this will result in a revenue of one. If, on the other hand, the manufacturer also offers a base version, V1, at a quality level and price of θ 1, every consumer would try it to learn more about the actual location of the product. We now discuss this learning process.
+
+556
+
+DEY AND LAHIRI
+
+Consumer Learning
+When a consumer experiences the good, he gets to (imperfectly) identify the location of the product relative to his own. This is because the experience with the product provides the consumer with a (noisy) signal of its location. Since a product with a larger number of features is likely to provide a stronger signal, we expect the strength of the signal to be an increasing function of θ. This sentiment is echoed by van Osselaer and Alba [34], who show that a higher number of attribute cues experienced by a consumer helps him better ascertain future consumption benefits and more accurately establish the fit with his needs. Therefore, we make use of the intrinsic quality of the product as a proxy for this signal strength: Assumption 3: When a consumer experiences a product of intrinsic quality q, he can determine its location correctly with probability q; with probability ð1 À qÞ, he misestimates this location. At this time, after the consumer has estimated the location, correctly or incorrectly, if the product is perceived to be within a one-quarter distance along the periphery, the consumer considers his experience positive, and negative otherwise (see Figure 1). Upon identifying his fit this way, the consumer revises his WTP according to Equation (1). Assumption 3 simply tells us that the experience with the base version partitions the consumers into two categories—informed and misinformed. After using V1, only a θ fraction of consumers would correctly learn the relative À Á 1 þα α location of the product; among them, a α þ 1À ¼ 2 proportion would find the 2 product to be a fit. On the other hand, a ð1 À θÞ fraction ends up misestimating. Since the misestimated location could be anywhere on the circle, half of these consumers would find the product to be a fit and another half, nonfit. Therefore, the total expected fraction of consumers finding the product to be a fit is given by: λðθÞ ¼ θ Â 1þα α 1 þ αθ þ ð1 À θÞ Â ¼ : 2 2 2 (2)
+
+Manufacturer ’s Decision and Equilibrium
+The manufacturer chooses p, r, and θ in a manner that maximizes its revenue, which is also the profit for this zero marginal-cost good. If the manufacturer decides to offer a base version of quality θ, all consumers, without the knowledge of the product’s relative location, would initially have an expected WTP of 1 E½θκðhÞ ¼ θE½κðhÞ ¼ θ, since, initially, E½κðhÞ ¼ 1 2 ð1 þ δÞ þ 2 ð1 À δÞ ¼ 1. Therefore, if the manufacturer wants the consumers to sample V1, it would be compelled to set r ¼ θ. It turns out that, for versioning to be profitable, trivially, the manufacturer must pass up the opportunity to upsell to everybody and target only the positive-experience consumers. Therefore, the manufacturer must set p ¼ r þ ð1 þ δÞð1 À θÞ, since a
+
+VERSIONING
+
+557
+
+lower price cannot attract any more of them to upgrade and a higher one would result in nobody upgrading. The total revenue can then be written as: R ¼ r Â 1 þ ðp À r Þ Â 1 þ αθ ð1 þ δÞð1 À θÞð1 þ αθÞ ¼θþ ; 2 2
+
+which is concave in θ and can be maximized easily by solving the first order condition. For V1 to be a valid base version, the optimal quality, θÃ , must be below one, and we can accordingly identify the region where versioning would be optimal. We state this as our first result: Theorem 1: Offering two versions is more profitable than offering one if and Àα only if δ > 1 1þα . The implication is clear. Even though our consumers are heterogeneous only in a horizontal sense, the manufacturer, under certain situations, does find it optimal to use a vertical versioning strategy. The base version, V1, then allows the manufacturer to convey crucial information about the product’s location. The result in Theorem 1 is better visualized in Figure 2, where the entire ðα; δÞ space is partitioned into two regions, one where versioning is optimal and the other where it is not. Both regions are interesting in their own ways. That vertical differentiation may be an optimal response to horizontal heterogeneity is, of course, interesting. However, given that versioning can happen at all, why it would not happen over the entire parameter space is interesting as well. After all, α > 0 means λ> 1 2 , and more than half the consumers would end up with a positive experience after using the product. Evidently, an overall positive experience from learning, by itself, is not sufficient for a monopolist, because offering a lower version invariably
+
+Figure 2. Partitions of the (α, δ) Space.
+
+558
+
+DEY AND LAHIRI
+
+entails some cannibalization of the higher one. Viewed differently, the existence of a sweet spot, alone, is not a reason to version; the sweet spot must be sufficiently crowded.5 And, at the same time, the mere presence of consumers’ uncertainty about the fit need not make our manufacturer eager to reduce their uncertainty by providing a sample; the level of uncertainty must be suitably large for it to play a positive role in the versioning decision. Proposition 1: In the versioning region, the optimal quality level for the base version is given by: θÃ ¼ 1 À δ þ αð1 þ δÞ : 2αð1 þ δÞ
+
+This θÃ is decreasing in both α and δ. The monotonicity of θÃ in the versioning region with respect to α and δ is intuitive. The fraction of consumers, λ, who perceive a fit with the product and are willing to upgrade, is an increasing function of α. Thus, the manufacturer is able to convince the same proportion of consumers to upgrade with a lower θ, and a lower θ also allows it to mitigate cannibalization. On the other hand, when δ increases, so does the manufacturer ’s ability to raise the price premium for the DLC, prompting it to shift certain features from the base version to the DLC.
+
+Heterogeneity in Taste for Quality
+Our analysis has so far assumed that consumers are vertically homogeneous, that is, they all have the same preference for quality. However, in reality, they are likely to be heterogeneous in that aspect too.6 Since we found that versioning can sometimes be effective, even without any vertical heterogeneity, it is tempting to conclude that versioning would not only continue to be optimal in this extended setting but that it would also expand to a wider region, making versioning a more likely occurrence in practice. This cannot, however, be a foregone conclusion without further analysis. After all, prior research has shown that vertical heterogeneity, alone, is not sufficient for versioning to be optimal [4]. Furthermore, we have found that, over a significant Àα part of the parameter space, wherever δ < 1 1þα , horizontal heterogeneity, by itself, is not strong enough to make versioning optimal. Therefore, whether these two forces can join hands and create a sufficiently strong combined incentive for the manufacturer to offer multiple versions is not necessarily clear. The purpose of this section is to verify whether this intuition—versioning is more likely in the presence of vertical heterogeneity—is indeed correct and to see if there are useful managerial insights that can be obtained about the practical context. Â Ã To that end, we now index our consumers by hh; vi, where, as before, h 2 0; 1 2 represents a consumer ’s location on the circle (see Figure 1), and v 2 ½0; 1
+
+VERSIONING
+
+559
+
+represents his preference for quality. The WTP of a consumer depends on his v as well as the perceived quality qκðhÞ: Assumption 4: Consumer hh; vi has a WTP of vqκðhÞ for a product with intrinsic quality q, where κðhÞ is his fit defined in Equation (1), and v is his preference for quality, uniformly distributed over ½0; 1; every consumer knows his v, but the manufacturer knows only the distribution. As before, E½κðhÞ ¼ 1 initially, and consumers for whom the following individual rationality constraint is satisfied buy at least V1: r vθ ! r ) v ! : θ (IR)
+
+Then, after using V1, only a λ fraction would find the product to be a fit or have a αθ positive experience, where λ ¼ 1þ 2 ; see (2). The ð1 À λÞ fraction—the negativeexperience consumers—would have never upgraded in our earlier setup. However, now, some may have a v so large that, even after a negative experience, they would prefer V2 to V1; these consumers will surely buy the DLC. For them, the following incentive compatibility constraint holds: vð1 À δÞ À ðp À rÞ ! vð1 À δÞθ ) v ! pÀr : ð1 À δ Þð1 À θ Þ (IC1)
+
+The rest of the consumers—those who satisfy (IR) but not (IC1)—will upgrade upon a positive experience only if the following incentive compatibility constraint is satisfied: vð1 þ δÞ À ðp À rÞ ! vð1 þ δÞθ ) v ! pÀr : ð1 þ δ Þð1 À θ Þ (IC2)
+
+Four configurations are thus possible; Figure 3 shows them with the following shorthand notations: r pÀr pÀr 1þδ x¼ ;y¼ ; and z ¼ ¼ y: θ ð1 þ δÞð1 À θÞ ð1 À δÞð1 À θÞ 1 À δ
+
+Figure 3. Consumers Self-Select Based on Their Relative Benefit
+
+560
+
+DEY AND LAHIRI
+
+p Àr r Since p > θ and z > 1 Àθ , it is easy to see that x; y < z. As shown in panels (a) and (c) of this figure, if z 1, consumers with v ! z purchase the DLC irrespective of their experience, and product sampling is not relevant for them. However, in panels (b) and (d), where z > 1, there are no such consumers who upgrade up front, implying that product sampling is critical to eventually selling the DLC. In (a) and (b), those satisfying x v < y purchase V1, but never upgrade, whereas those satisfying y v < minf1; zg upgrade in the event of a positive experience, which happens with a probability of λ. Similarly, in (c) and (d), consumers satisfying x v < minf1; zg upgrade in the event of a positive experience. Finally, if v < x for a consumer, he will not purchase at all—based on his incomplete information about the product, he prefers forgoing use completely. This way, our extended model allows all possible market segments one can imagine in this context: (1) a fraction x of consumers who do not buy at all, (2) a fraction ðmaxfx; yg À xÞ þ ð1 À λÞðminf1; zg À maxfx; ygÞ of consumers who buy V1 and stick with it throughout, (3) a fraction λðminf1; zg À maxfx; ygÞ of consumers who buy V1 initially and then upgrade to V2, and (4) the remaining ð1 À minf1; zgÞ fraction of consumers who buy the DLC regardless of their experience. Therefore, the total profit for the manufacturer becomes:
+
+R ¼ rð1 À xÞ þ ðp À rÞðλð1 À maxfx; ygÞ þ ð1 À λÞð1 À minf1; zgÞÞ;
+
+(3)
+
+where the first term is the revenue from the base version and the second, from the DLC. The manufacturer chooses p, r, and θ to maximize R. Lemma 1. If versioning is optimal, the manufacturer chooses p and r such that x ¼ y. Substituting x ¼ y into (3), the manufacturer ’s profit can be written as a function of only r and θ: R ¼ ðθ þ λð1 þ δÞð1 À θÞÞxð1 À xÞ þ ð1 þ δÞð1 À θÞð1 À λÞxð1 À minf1; zgÞ; (4)
+
+þδ where z ¼ 1 1Àδ x. There are two possible cases. Case 1. z > 1; R ¼ R1 ¼ ðθ þ λð1 þ δÞð1 À θÞÞxð1 À xÞ, and Case 2. z 1; R ¼ R2 ¼ ðθ þ λð1 þ δÞð1 À θÞÞxð1 À xÞ þ ð1 þ δÞð1 À λÞð1 À θÞ À Á þδ x 1À1 1Àδ x , analyzing which, first separately and then in combination, we obtain the following result:
+
+Theorem 2: Offering two versions is more profitable than offering one if and Àα α only if either δ > 1 1þα , or δ < 2Àα ; or both. The story that develops when the result in Theorem 2 is depicted in Figure 4 is quite fascinating. In Figure 4a, the entire ðα; δÞ space gets partitioned into three different regions, in two of which versioning is now optimal. As a result, there is an expansion of the versioning region when compared to Figure 2—versioning now becomes optimal in the additional region of OAD. To understand the nature of this expansion, the versioning region is further separated into two subregions by the
+
+VERSIONING
+
+561
+
+Figure 4. Expansion of the Versioning Region Over the (α, δ) Space
+
+curve AB: Regions 1 and 2 represent the subregions where versioning is optimal under Cases 1 and 2, respectively. A careful comparison of Figures 2 and 4 reveals several interesting observations. First, the curve CAD in Figure 4 is the same as the partitioning curve in Figure 2. Therefore, Region 1—to the right of CA and above AB—is quite similar to the versioning region earlier. Here, vertical heterogeneity plays little role, and versioning happens mainly as a response to horizontal heterogeneity. Second, notably, a new versioning region—Region 2 (OABD)—emerges, where both types of heterogeneity interact to make versioning a better option. This new region not only spans the additional area OAD but also subsumes the portion ABD of the original Region 1. In other words, vertical heterogeneity can play a crucial role in the versioning decision, but not uniformly for the entire parameter space. A few words are now in order about the curve AB in Figure 4 that separates the two regions of versioning. In order to see more clearly how these two regions are divided, in Figure 4b, we zoom into the shaded portion of the ðα; δÞ space from panel (a). In panel (b), the line AE, given by δ ¼ 1 3 , represents the threshold above which Case 1 is valid; it is derived from the fact that a valid solution in Case 1 must abide by z > 1. Similarly, any valid solution in Case 2 must satisfy z 1, which results in a different threshold represented by the curve AF; a valid Case 2 solution must be below this curve. Therefore, the region AEFA represents a set of ðα; δÞ values for which both cases provide a valid maximum, and the resulting profit in either case is better than the monopoly profit under no versioning. In order to verify which case is actually optimal, we compare R1 and R2 . Setting R1 ¼ R2 , we get a polynomial equation in δ of order 5, which has exactly one unique root in the region AEFA. This root provides the desired threshold and is represented by the curve AB in Figure 4. Case 1 is optimal above AB, and Case 2, below. In Figure 4(b), as well as
+
+562
+
+DEY AND LAHIRI
+
+for the subsequent discussion, we write AB as δ ¼ ηðαÞ; a closed-form expression for ηðαÞ does not exist, but a good approximation is provided by
+þ0:27316αÞ ηðαÞ % αð0:38072 . ð0:38072þαÞ2
+
+Proposition 2: The optimal quality level for the base version can be found from:
+●
+
+Versioning Region 1: When δ > θÃ ¼
+
+1 Àα 1 þα
+
+and δ > ηðαÞ, the manufacturer sets:
+
+1 À δ þ αð1 þ δÞ : 2αð1 þ δÞ
+
+In this region, θÃ is decreasing in both α and δ.
+●
+
+Versioning Region 2: When δ < θÃ ¼
+
+α 2Àα
+
+and δ
+
+ηðαÞ, the manufacturer sets:
+
+αð1 þ δÞ2 : αð1 þ δÞð2 þ δÞ À 2δ
+
+In this region, θÃ is decreasing in α but increasing in δ.
+●
+
+No-Versioning Region: In all other cases, versioning is suboptimal, which is equivalent to setting θÃ ¼ 1.
+
+The result in Proposition 2 is better visualized in Figure 5, which shows how θÃ changes with α and δ. As can be seen from this figure, θÃ no longer changes monotonically with δ. In Region 1, θÃ decreases with δ, but increases in Region 2. Recall that z<1 in Region 2, and a segment of the market always upgrades irrespective of the experience. As δ increases, so does z, and this segment shrinks. The manufacturer responds by increasing θ with the aim of providing a better learning experience, which now becomes necessary to increase the fraction of those upgrading. As δ increases beyond Region 2, however, no consumer is ready to buy the DLC until having a positive experience with the base version. Two possibilities arise. If α is small, so is λ; unable to influence a sufficient number of consumers to upgrade, the manufacturer decides against versioning altogether. For example, in Figure 5, 1 when α ¼ 1 4 , we move into the no-versioning region when δ crosses 7 . The δ 3 manufacturer offers just one version as long as 1 7 5 , and only beyond 3 δ ¼ 5 , we move into Region 1. In contrast, when α is large, the manufacturer realizes that it can positively influence a sufficiently large number of consumers, and we cross directly over to Region 1; such is the case with α ¼ 3 4. In Region 1, z > 1, and the manufacturer concentrates on upselling to consumers with a positive experience. To that end, as δ increases, the manufacturer starts reducing θ to create a wider gap between the quality levels offered. This widening
+
+VERSIONING
+
+563
+
+Figure 5. Optimal Quality, θÃ , as a Function of α and δ
+
+quality gap allows the manufacturer to charge a hefty price premium for the DLC, which is also reflected in the optimal prices in Proposition 3: Proposition 3: The optimal prices for the two versions can be found from:
+●
+Àα Versioning Region 1: When δ > 1 1þα and δ > ηðαÞ, the manufacturer sets:
+
+pÃ ¼
+
+αð1 þ δÞð2 þ δÞ À δð1 À δÞ 1 À δ þ αð1 þ δÞ and rÃ ¼ : 4α ð 1 þ δ Þ 4α ð 1 þ δ Þ
+
+In this region, pÃ is increasing, and rÃ decreasing, in both α and δ.
+●
+α Versioning Region 2: When δ < 2À α and δ
+
+ηðαÞ, the manufacturer sets:
+
+À Á 2 1 À δ2 ðα À δð1 À αÞÞ αð1 À δÞð1 þ δÞ2 p ¼ : and rÃ ¼ αð1 þ δÞð4 À αδð1 þ δÞÞ À 4δ αð1 þ δÞð4 À αδð1 þ δÞÞ À 4δ
+Ã
+
+In this region, rÃ is decreasing in α but increasing in δ, whereas pÃ is increasing in α. However, pÃ is not monotonic in δ in this region; it is pﬃﬃﬃﬃﬃﬃﬃﬃ δð 5À4δþ3Þ , and decreasing otherwise. increasing if α > ð1þδÞ2
+●
+
+No-Versioning Region: In all other cases, versioning is suboptimal, pÃ ¼ 1 2.
+
+564
+
+DEY AND LAHIRI
+
+According to Proposition 3, when α increases, pÃ increases and rÃ decreases. This widening gap between the prices of the two versions mirrors the widening gap between their quality levels (see Proposition 2 and Figure 5). This is intuitive. As α increases, so does the manufacturer ’s ability to positively influence a larger fraction of its consumer base through product sampling, which makes versioning more appealing and the extent of differentiation, greater. Propositions 2 and 3 also allow us to obtain the manufacturer ’s optimal profit, RÃ , which is plotted in Figure 6. This optimal profit is an increasing function of α, because a higher α simply means that more consumers are likely to have a positive experience and upgrade. Interestingly, the optimal profit is not monotonic in δ in Region 2. When δ is small, the manufacturer raises both θ and r as δ increases, which results in an increased profit initially, even though a rising δ means fewer consumers are now willing to upgrade after a negative experience. However, beyond a threshold, a higher r is no longer sufficient to compensate for this decline in upgrades. Consequently, the overall profit decreases. In contrast, in Region 1, where δ is large and no one buys the DLC after a negative experience, the manufacturer ’s profit increases monotonically with δ. In this region, the manufacturer concentrates on the consumers with a positive experience and, as δ increases, raises the price premium for the DLC, while, at the same time, reducing the quality and price of V1. Finally, we turn our attention to consumer welfare, which is of particular interest, given the recent consumer uproar against zero-day DLCs [19, 23].
+
+Figure 6. Profit, R*, as a Function of α and δ
+
+VERSIONING
+
+565
+
+Theorem 3: The aggregate consumer surplus, CS , can be found from:
+●
+
+Versioning Region 1: When δ >
+
+1 Àα 1 þα
+
+and δ > ηðαÞ:
+
+CS ¼
+
+  ð1 þ 7δÞ ð1 À δÞ2 þ α2 ð1 þ δÞ2 þ 2αð3 þ δð13 þ 5δð1 À δÞÞÞ 64αð1 þ δÞ2
+
+:
+
+In this region, CS is greater than the no-versioning consumer surplus of 1 8.
+●
+
+Versioning Region 2: When δ <
+
+α 2Àα
+
+and δ
+
+ηðαÞ:
+
+CS ¼
+
+νðβ; δÞ 2ðβð2 þ δÞ À 2δÞð4δ À βð4 À βδÞÞ2
+
+;
+
+where β ¼ αð1 þ δÞ and À Á νðβ; δÞ ¼ β6 δ3 À β5 δ2 ð6 À δÞ þ β4 δ 1 þ δ2 ð4 À δð4 þ δÞÞ Á À ÁÀ þ β3 2 þ δ þ δ2 4 þ 5δ2 ð1 þ δÞ À Á À 2β2 δð12 þ δð4 þ 3δð11 þ δð4 þ δÞÞÞÞ þ 4βδ2 ð6 þ δÞ 1 þ 3δ2 À Á À 8δ3 1 þ 3δ2 : In this region as well, CS is greater than the no-versioning consumer surplus of 1 8.
+●
+
+No-Versioning Region: In all other cases, CS ¼ 1 8.
+
+Figure 7 plots the consumer surplus as a function of α and δ. It can be clearly seen from the plot that, as stated in Theorem 3, the consumer surplus increases when the manufacturer uses versioning. Obviously, since both the manufacturer’s profit and consumer surplus increase with versioning, it is clear that the total social welfare would, too.
+
+Discussion
+In this section, we summarize our main results and show that they have important implications for manufacturers of information goods in their product-line design decisions. At the same time, we discuss welfare and policy implications, as well. And, in the process, we highlight our contributions to literature.
+
+Managerial Insights
+We find in Theorem 1 that horizontal heterogeneity among consumers can indeed induce a manufacturer to offer vertically differentiated versions. A manufacturer of
+
+566
+
+DEY AND LAHIRI
+
+Figure 7. Consumer Surplus, CS , as a Function of α and δ
+
+an information good, facing horizontally separated consumers, may, at times, resort to vertical versioning to reveal consumers who are closer to the product and are willing to pay more for the fit. Prior literature has demonstrated that vertical differentiation can “smoke out” consumers differing in their taste for quality (e.g., [25]). That it can “smoke out” even those differing in their distance to a product is a new insight, and it provides manufacturers of information goods with another tool to use in their product-line strategy. When we incorporate vertical and horizontal heterogeneities at the same time, we find that the versioning region expands through the emergence of a new region, Region 2 (see Figure 4). The rationales behind the two versioning regions in this figure are quite different, and the manufacturer ’s strategy changes accordingly. In Region 1, the sole driver for versioning is horizontal heterogeneity. In r this region, θ ¼1 2 , implying that there is no market expansion here. This insight is also new. Prior research has shown that vertical differentiation invariably leads to an expansion of the market (e.g., [24, 25]). What we find here is that market expansion is, in fact, not necessary for vertical differentiation to be effective. When consumers face a significant level of uncertainty about the fit, a manufacturer can use vertical differentiation with the objective of inducing product sampling alone. r In contrast, when we move to Region 2 in Figure 4, we find that θ < 1 2 , and versioning duly results in an expansion of the market. Evidently, in this region, vertical heterogeneity interacts with horizontal in making versioning effective. In other words, what is interesting is that vertical differentiation, by itself, does not
+
+VERSIONING
+
+567
+
+warrant a market expansion; for that to happen, it must be accompanied by a “potent” dose of vertical heterogeneity. In thus refining the condition for market expansion, we again augment prior literature on vertical differentiation [24, 25]. At the same time, this insight—although vertical differentiation can expand the market, it cannot do so unless it is driven, at least partially, by some heterogeneity in the taste for quality—will likely be beneficial for a manufacturer of an experience good, digital or physical. How does the manufacturer’s strategy change from one region to another? We find the answer in Figure 4. In this figure, for α less than 1 2 , interestingly, versioning is optimal only when δ is either small or large; for moderate values of δ, versioning is not optimal. This is instructive. Recall that δ indicates the extent to which a user’s valuation can be revised. At low values of δ, the potential positive impact of learning on a user’s valuation is small, as is its negative impact. Therefore, notwithstanding the negative impact, a significant portion of the market opts to upgrade. Further, the manufacturer also induces more consumers to sample its product. Then, by upselling to a fraction of them, it finds a way to overcome the adverse effect of cannibalization. In terms of its decision problem, the manufacturer finds the optimal solution in Region 2, where z < 1 and x ¼ y < 1 2. As δ starts increasing, though, there comes a time when z becomes close to one, and few are willing to upgrade after a negative experience. When that happens, versioning ceases being optimal. However, as δ increases further, beyond a threshold, the decision problem finds its optimality in Region 1, where the manufacturer stops worrying about market expansion altogether and simply increases the price of the DLC to extract a higher profit from the positive-experience users. Therefore, versioning becomes optimal once again. It is in this region that vertical differentiation is surprisingly optimal despite a lack of market expansion. Indeed, in Region 1, the optimal p is more than the monopoly price of 1 2 and also increasing in δ (Proposition 3), implying that the manufacturer makes higher profits simply by charging a premium to those seeking to upgrade than by offering one version at a flat price to all buyers. As α increases toward 1 2 , the effect of learning from product sampling becomes more and more prominent, leading to a shrinkage of the region of no versioning in Figure 4. This is because a higher concentration at the sweet spot makes both tactics—those of market expansion and price increase—more desirable than no versioning. Beyond α¼1 2 , the no-versioning region completely disappears, making versioning preferable irrespective of δ, as long as δ > 0. When δ is small, there is little uncertainty that can be removed, but the manufacturer uses versioning to expand the market coverage. In contrast, when δ is large, versioning is used solely to remove consumers’ uncertainty and charge them a higher price. The manufacturer ’s choice of tactics, therefore, still depends on δ. Finally, we note that there is a significant portion of the parameter space, where horizontal and vertical heterogeneities are not sufficiently potent—either alone or in combination—to make versioning an effective strategy. When the sweet spot is not sufficiently crowded and the uncertainty about the product is moderate, the manufacturer should offer just a single version.
+
+568
+
+DEY AND LAHIRI
+
+Welfare Implications
+In addition to strategic insights for management, there are implications for consumer and social welfare as well. Prior research has found that the impact of vertical differentiation on consumer surplus can be mixed, although social welfare always increases because of an expansion in the market coverage [33, pp. 142–152]. Our results are somewhat different. First, we find that consumers are always better off with versioning than without. This can be clearly seen from Theorem 3 and Figure 7. In essence, here, versioning allows a consumer to reduce his uncertainty about the product, which translates to a higher WTP on average, which in turn increases the total surplus. Even though a portion of this surplus is extracted by the manufacturer, limited versioning with only two versions cannot extract all the additional surplus; thus, an increase in the WTP results in an overall increase in the consumer surplus as well. Therefore, it seems that the claim by certain consumer groups—that the DLC strategy is unfair to the gamers [23]—is difficult to defend. The DLC strategy actually benefits consumers in an overall sense, even though a few may have their surplus reduced by versioning, as is always true. Second, it is not surprising that social welfare increases as a result of versioning. This is always the case when purchases increase and deadweight loss is reduced. For example, in Region 2, the gain in the total surplus is aided by an accompanying expansion of the market, which is quite similar to the findings in prior literature. What is interesting, though, is that the surplus also expands in Region 1. Recall that, in Region 1, there is no market expansion. Yet, there is now a large increase in welfare, resulting solely from mitigation of consumers’ valuation uncertainty.
+
+Conclusion
+The video game industry, which is already more than double the size of the music industry, is on a rapid growth trajectory and is currently over $100 billion. Almost every manufacturer in this market offers premium content as DLCs, and tens of millions of consumers purchase them. Prompted by this trend, and the surrounding controversy [19, 23], we examine the efficacy and welfare implications of such a versioning strategy. Specifically, we consider a monopolist manufacturer of an information good who decides whether to offer a base version of inferior quality, in addition to the full version. Unlike prior research, however, we incorporate consumer learning from personal experience. After a consumer experiences the base version, he gathers valuable private information regarding the fit between his needs and the product’s features, and revises his valuations accordingly. Thus, the base version in our model plays the role of a product sample, just as it plays its traditional role as an imperfect substitute. It is this dual role that allows us to capture the trade-off between the benefits of product sampling and the adverse effects of cannibalization. This work is among the first to examine vertical differentiation in a context where consumers are heterogeneous primarily in a horizontal manner, in terms of their distance from the product. Since consumers are not initially aware of their relative
+
+VERSIONING
+
+569
+
+locations, the manufacturer offers vertically differentiated versions with an aim to inform them about their true proximity or fit. When the uncertainty around consumers’ initial perception of fit is high, we show why a monopolist should use vertical differentiation solely for this purpose—notwithstanding a lack of market expansion, it can benefit by charging a substantial price premium to those willing to upgrade. On the other hand, when the uncertainty is low, the price premium should be too, but the manufacturer may still be able to lure a greater number of consumers to try the product, which again makes such versioning effective. This insight that a manufacturer can indeed version vertically to leverage what is essentially a horizontal separation among consumers is new, and it does provide an interesting way to look at the issue of versioning information goods. In terms of welfare implications, we find that learning from experience actually increases the social surplus. Although the manufacturer captures a part of this increase through higher prices, consumers too end up with a share. In other words, despite claims to the contrary, overall, such versioning appears to be beneficial to consumers as well. Our work is not without a few limitations. We assume that a consumer ’s fit with the product does not change from the base to the full version. In other words, we do not allow for the possibility that the full version actually fits a consumer ’s taste even though the base version does not. We also leave out factors such as network effects, piracy, and competition. If prior research is any indication (e.g., [7, 16, 40]), incorporating network effects or piracy is likely to make versioning even more attractive to the manufacturer; however, no clear inferences can be made regarding how incorporating such issues will influence our analyses. Likewise, it is also not clear how our findings would extend to a competitive setting, such as the one modeled in Ma and Kauffman [21]. Despite such limitations, we believe that our work provides a path forward for researchers interested in understanding the subtle interplay between vertical differentiation and product sampling.
+Acknowledgments: The authors would like to thank the participants of the mini-track of Society, Information, Technology, and Economics at the Forty-Ninth Hawaii International Conference on System Sciences (HICSS 2016) for their constructive comments. They also gratefully acknowledge the valuable feedback received from the referees and the guest editors. This study has greatly benefited from their efforts.
+
+Supplemental File
+Supplemental data for this article can be accessed on the publisher ’s website at http://dx.doi.org/10.1080/07421222.2016.1205923
+
+NOTES
+1. This is in stark contrast to the current literature where uncertainty about a product’s quality is resolved in a uniform manner, with all consumers reaching the same conclusion about the true quality after using the product (e.g., (7, 38]).
+
+570
+
+DEY AND LAHIRI
+
+2. It turns out that, in the context of video games, a large majority of DLCs—especially the zero-day ones—do not have horizontal substitutes and can only be viewed as vertical differentiation. Consider, for example, the zero-day DLC “From Ashes” for the game Mass Effect 3 from Electronic Arts. Among the several new features that this DLC adds to the base game are two notable ones: (1) a permanent squad member named Javik, the last surviving Prothean, and (2) a new weapon, the Prothean particle rifle. From a description of how these new features enhance the base game, it is clear that none of them actually substitute for other similar features; they only add to what was already included in the base version. 3. The motivation behind this conceptualization is as follows. For an experience good, certain aspects are readily observable from publicly available information, such as product brochures and advertisements, and do not involve any uncertainty. Our q essentially captures this observable part. The other part, in contrast, is truly a matter of personal experience and can be discerned only upon consumption or use; that part, in effect, is our κ. 4. A discerning reader may note that it is possible to construct an alternative model, where κðhÞ becomes ð1 þ δ1 Þ in the event of a fit, and ð1 À δ2 Þ otherwise, where 0 < δ1 ; δ2 < 1. ð1Àδ2 Þ þδ2 Denote  κ ¼ ð1þδ1 Þþ and  δ ¼ δ12  2 κ . Since a consumer ’s ex ante expected fit should now be  κ, this alternative formulation immediately reduces to the original one, with  δ playing the role of δ. 5. This result is consistent with the finding in [22] that the probability of a manufacturer investing in information disclosure increases with the size of the sweet spot. 6. Unlike horizontal heterogeneity that results from consumers’ idiosyncratic tastes and needs, the source of vertical heterogeneity is essentially income—consumers with higher disposable income have lower marginal utility for it and are naturally inclined to pay more for premium features.
+
+ORCID
+Debabrata Dey http://orcid.org/0000-0001-5290-0578 Atanu Lahiri http://orcid.org/0000-0003-3174-8014
+
+REFERENCES
+1. Aaker, D.A., and Joachimsthaler, E. Brand Leadership: Building Assets In an Information Economy. New York: Free Press, 2000. 2. Bergemann, D., and Välimäki, J. Dynamic pricing of new experience goods. Journal of Political Economy, 114, 4 (August 2006), 713–743. 3. Bhargava, H.K., and Chen, R.R. The benefit of information asymmetry: When to sell to informed customers? Decision Support Systems, 53, 2 (May 2012), 345–356. 4. Bhargava, H.K., and Choudhary, V. Information goods and vertical differentiation. Journal of Management Information Systems, 18, 2 (Fall 2001), 89–106. 5. Bhargava, H.K., and Choudhary, V. Research note: When is versioning optimal for information goods? Management Science, 54, 5 (May 2008), 1029–1035. 6. Chellappa, R.K., and Mehra, A. Versioning 2.0: A product line and pricing model for information goods under usage constraints and with R&D costs. INFORMS Conference on Information Systems and Technology, Minneapolis, MN, October 5–6, 2013. 7. Chellappa, R.K., and Shivendu, S. Managing digital piracy: Pricing and sampling strategies for digital experience goods in vertically segmented markets. Information Systems Research, 16, 4 (December 2005), 400–417. 8. Cheng, H.K., and Liu, S. Optimal software free trial strategy: The impact of network externalities and consumer uncertainty. Information Systems Research, 23, 2 (June 2012), 488–504.
+
+VERSIONING
+
+571
+
+9. Clemons, E.K. How information changes consumer behavior and how consumer behavior determines corporate strategy. Journal of Management Information Systems, 25, 2 (Fall 2008), 13–40. 10. Dey, D.; Lahiri, A.; and Liu, D. Consumer learning and time-locked trials of software products. Journal of Management Information Systems, 30, 2 (Fall 2013), 239–267. 11. Fortini-Campbell, L. Hitting the Sweet Spot: How Consumer Insights Can Inspire Better Marketing and Advertising. Copy Workshop, Chicago, IL, 2001. 12. Goering, P.A. Effects of product trial on consumer expectations, demand, and prices. Journal of Consumer Research, 12, 1 (June 1985), 74–82. 13. Guo, L., and Zhang, J. Consumer deliberation and product line design. Marketing Science, 31, 6 (November–December 2012), 995–1007. 14. Hong, Y.; Chen, P.-Y.; and Hitt, L.M. Measuring product type with dynamics of online review variances: Atheoretical model and empirical applications. Working Paper, 2014. http:// ssrn.com/abstract=2422686 (accessed on April 22, 2016). 15. Hui, W.; Yoo, B.; and Tam K.Y. The optimal number of versions: Why does goldilocks pricing work for information goods? Journal of Management Information Systems, 24, 3 (Winter 2007–2008), 167–191. 16. Jing, B. Network externalities and market segmentation in a monopoly. Economics Letters, 95, 1 (2007), 7–13. 17. Johnson, J.P., and Myatt, D.P. On the simple economics of advertising, marketing, and product design. American Economic Review, 96, 3 (June 2006), 756–784. 18. Jones, R., and Mendelson, H. Information goods vs. industrial goods: Cost structure and competition. Management Science, 57, 1 (January 2011), 164–176. 19. Kain, E. Why day-one DLC isn’t just bad for gamers, it’s bad for business. Forbes.com, November 2012. www.forbes.com/sites/erikkain/2012/11/14/why-day-one-dlc-isnt-just-badfor-gamers-its-bad-for-business/(accessed on April 22, 2016). 20. Lewis, T.R., and Sappington, D.E.M. Supplying information to facilitate price discrimination. International Economic Review, 35, 2 (May 1994), 309–327. 21. Ma, D., and Kauffman, R.J. Competition between Software-As-A-Service vendors. IEEE Transactions On Engineering Management, 61, 4 (November 2014), 17–24. 22. Markopoulos, P.M., and Clemons, E.K. Reducing buyers’ uncertainty about tasterelated product attributes. Journal of Management Information Systems, 30, 2 (Fall 2013), 269–299. 23. Meer, A. All the Mass Effect 3 DLC costs how much? RockPaperShotgun.com, February 2012. www.rockpapershotgun.com/2012/02/27/all-the-mass-effect-3-dlc-costs-howmuch/(accessed on April 22, 2016). 24. Moorthy, K.S. Product and price competition in a duopoly. Marketing Science, 7, 2 (Summer 1988), 141–168. 25. Mussa, M., and Rosen, S. Monopoly and product quality. Journal of Economic Theory, 18, 2 (August 1978), 301–317. 26. Nelson, P. Information and consumer behavior. Journal of Political Economy, 78, 2 (March–April 1970), 311–329. 27. Niculescu, M.F., and Wu, D.J. Economics of free under perpetual licensing: Implications for the software industry. Information Systems Research, 25, 1 (March 2014), 173–199. 28. Salant, S.W. When is inducing self-selection suboptimal for a monopolist? Quarterly Journal of Economics, 104, 2 (May 1989), 391–397. 29. Senior, T. Mass Effect 3 day one DLC files spotted on disk, Bioware respond. PCGamer.com, March 2012. www.pcgamer.com/mass-effect-3-day-one-dlc-files-spotted-ondisk-bioware-respond/(accessed on April 22, 2016). 30. Shapiro, C. Optimal pricing of experience goods. Bell Journal of Economics, 14, 2 (Autumn 1983), 497–507. 31. Shapiro, C., and H.R. Varian. Information Rules: A Strategic Guide to the Network Economy. Boston: Harvard Business School Press, 1999.
+
+572
+
+DEY AND LAHIRI
+
+32. Thier, D. More games should have day-one DLC. Forbes.com, November 2012. www. forbes.com/sites/davidthier/2012/11/13/more-games-should-have-day-one-dlc/(accessed on April 22, 2016). 33. Tirole, J. The Theory of Industrial Organization. Cambridge, MA: MIT Press, 1988. 34. van Osselaer, S.M.J., and Alba, J.W. Consumer learning and brand equity. Journal of Consumer Research, 27, 1 (June 2000), 1–16. 35. Varian, H.R. Markets for information goods. Institute for Monetary and Economic Studies, Bank of Japan, 1999. 36. Walker, J. Let’s not lose track here: DLC is a good thing. RockPaperShotgun.com, July 2012. www.rockpapershotgun.com/2012/07/23/lets-not-lose-track-here-dlc-is-a-good-thing/ (accessed on April 22, 2016). 37. Weber, T.A. Delayed multiattribute product differentiation. Decision Support Systems, 44, 2 (January 2008), 447–468. 38. Wei, X.D., and Nault, B.R. Experience information goods: “Version-to-upgrade.” Decision Support Systems, 56 (December 2013), 494–501. 39. Wei, X.D., and Nault, B.R. Monopoly versioning of information goods when consumers have group tastes. Production and Operations Management, 23, 6 (June 2014), 1067–1081. 40. Wu, S.-Y., and Chen, P.-Y. Versioning and piracy control for digital information goods. Operations Research, 56, 1 (January–February 2008), 157–172.
+
+

@@ -1,0 +1,490 @@
+SPECIAL ISSUE: ICT AND SOCIETAL CHALLENGES
+
+DOES INFORMATION AND COMMUNICATION TECHNOLOGY LEAD TO THE WELL-BEING OF NATIONS? A COUNTRYLEVEL EMPIRICAL INVESTIGATION1
+Kartik K. Ganju
+Desautels Faculty of Management, McGill University, Montreal, QC H3A 1G5 CANADA {kartik.ganju@mcgill.ca}
+
+Paul A. Pavlou, and Rajiv D. Banker
+Fox School of Business, Temple University, 210 Speakman Hall, Philadelphia, PA 19122 U.S.A. {pavlou@temple.edu} {banker@temple.edu}
+
+This paper examines the role of information and communication technology (ICT) in enhancing the well-being of nations. Extending research on the role of ICT in the productivity of nations, we posit that the effects of ICT may not be limited to productivity (e.g., GDP), and we argue that the use of ICT can also improve the wellbeing of a country by helping citizens to develop their social capital and achieve social equality, enabling access to health-related information and health services, providing education to disadvantaged communities, and facilitating commerce. Using a number of empirical specifications, specifically a fixed-effects model and an instrumental variable approach, our results show that the level of ICT use (number of fixed telephones, Internet, mobile phones) in a country predict a country’s well-being (despite accounting for GDP and several other control variables that also predict a country’s well-being). Furthermore, by using an exploratory method (biclustering) of identifying both country-specific and ICT-specific variables simultaneously, we identify clusters of countries with similar patterns in terms of their use of ICT, and we show that not all countries increase their level of well-being by using ICT in the same manner. Interestingly, we find that less developed countries increase their level of well-being with mobile phones primarily, while more developed countries increase their level of well-being with any ICT system. Contributions and implications for enhancing the wellbeing of nations with ICT are discussed. Keywords: Country well-being, ICT investments, ICT policy, ICT use, ICT adoption, effects of ICT Everything that we choose we choose for the sake of something else— expect happiness which is an end. –Aristotle2
+
+Introduction
+12
+
+Considerable research has focused on the effect of information and communication technology (ICT) use on the produc1
+
+Ann Majchrzak, M. Lynne Markus, and Jonathan Wareham were the accepting senior editors for this paper. The appendices for this paper are located in the “Online Supplements” section of the MIS Quarterly’s website (http://www.misq.org).
+
+2
+
+See Korsgaard (1986, p. 493).
+
+tivity of nations. Most studies have examined the role of ICT on enhancing the country’s productivity, typically using a country’s gross domestic product (GDP) as a metric, and they have shown that investments in ICT lead to an increase in the GDP of nations (Dedrick et al. 2011; Dewan and Kraemer 2000; Pohjola 2001; Schreyer 2000). However, the effects of ICT may not be limited to economic productivity. For example, a recent report by Deloitte (2014) for Facebook acknowledged a more comprehensive impact of ICT on both economic and social aspects of a country. The Internet allows social inclusion to groups that would otherwise would have
+
+MIS Quarterly Vol. 40 No. 2, pp. 417-430/June 2016
+
+417
+
+Ganju et al./ICT and the Well-Being of Nations
+
+been marginalized, facilitating the sharing of best practices in healthcare to disadvantaged communities, allowing access to education to communities that would otherwise not have had access, and facilitating commerce by allowing disadvantaged groups to access real-time market information (UNDP 2012). ICT was also shown to allow people to develop social capital that can lead to a greater sense of well-being (Bargh and McKenna 2004). Internet connectivity allowed sharing of best practices in healthcare to marginalized communities which led to a decrease in the infant mortality rates by 7 percent in developing countries (Deloitte 2014). Internet connectivity also allowed students access to learning tools that would otherwise have been difficult or even impossible. Universities are starting to offer undergraduate and graduate level classes online, often via massive open online courses (MOOCs). Research examined the effect of ICT on commerce. For example, Kumar (2004) found that the use of ICT in villages in India via eChaupals cut down on monopolistic middle men, offering competitive prices to farmers, lowering transaction costs and waste, and helping farmers benefit from a more efficient supply chain. Access to ICT has allowed a number of countries to position themselves as outsourcing hubs and offer jobs to their citizens that would otherwise not have been possible. In sum, we posit that ICT has a broader social impact on society that goes beyond productivity measures (e.g., GDP), and we seek to examine the role of ICT in the well-being of nations through a country-level empirical investigation. The argument for moving away from a measure of the wellbeing of a country based purely on productivity measured by GDP is not new. For example, Robert Kennedy (1968) argued that Our Gross National Product3…counts air pollution and cigarette advertising, and ambulances to clear our highways of carnage....It counts the destruction of the redwood and the loss of our natural wonder in chaotic sprawl....Yet the Gross National Product does not allow for the health of our children, the quality of their education or the joy of their play. It does not include the beauty of our poetry or the strength of our marriages, the intelligence of our public debate or the integrity of our public officials....It measures everything, in short, except that which makes life worthwhile.
+3 The difference between GDP and GNP is that GDP refers to the value of all production and services within a country defined by its geographical boundaries, and GNP refers to the value of all products and services by the nationals of a country irrespective of whether they reside in the country’s boundaries.
+
+Previous research has examined the effect of various earlier technologies on the well-being of a country. For example, Graham and Nikolova (2013) and Kavetsos and Koutroumpis (2011) studied how TV can enhance well-being. Graham and Nikolova studied technologies such as TV, while Kavetsos and Koutroumpis examined the effect of related technologies in Europe. Also, Dolan and Metcalfe (2012) studied the effect of innovation on well-being and argued that creativity and well-being are correlated. Although several studies in the economics literature have examined the effect of technologies on various metrics of well-being, to our knowledge, a countrylevel analysis of the impact of ICT on a nation’s well-being is still an unexplored topic in the IS literature. To address this void, we examine the effect of ICT on the well-being of a nation. We specifically focus on the role of ICT in the wellestablished metric of the subjective well-being at the country level. In doing so, we argue that the effect of ICT is not limited to productivity (such as GDP), but ICT has broader effects on the well-being of the country by facilitating important aspects that help a country beyond its productivity, such as improvements in social capital, health, education, employment, and commerce. In this paper, we seek to examine the relationship between the level of ICT in a country and the level of well-being in an exploratory fashion. Using a number of different empirical specifications, specifically a country fixed-effects model and an instrumental-variable approach, we show a link between ICT use and the well-being of a country (despite accounting for GDP). Also, using a novel biclustering methodology, we identify groups of countries that use ICT in a similar manner. We find that less developed countries increase their level of well-being primarily by using mobile phones, while more developed countries also use fixed-line telephones and the Internet to increase their level of well-being.
+
+Background
+Well-Being Measures
+The argument for supporting the well-being of a nation is not a new idea and can be traced as far back as Aristotle (UNDP 1990). Aristotle argued for “seeing ‘the difference between a good political arrangement and a bad one’ in terms of its success and failures in facilitating people’s ability to lead ‘flourishing lives’” (UNDP 1990, p. 9). In order for countries to be able to measure if their citizens are leading flourishing lives, a number of different measures have been developed to measure the quality of life of citizens. One popular measure is the GDP of a country (Stiglitz et al. 2009). GDP is defined
+
+418
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+as the sum of the value of all products and services produced within a country in a given period. However, GDP does not capture well-being dimensions such as quality of life, satisfaction, infant mortality, life expectancy and air quality as GDP only seeks to obtain the value of the goods produced in an economy. Although the GDP is not meant to estimate the well-being of a country, it has alas come to be widely used for measuring welfare (Kuznets 1934; Stiglitz et al. 2009). On the contrary, the destruction of forests and other natural habitats for the resources that they contain would lead to an increase in the level of GDP but would destroy the habitat and various nonmarket benefits that these habitats serve. To overcome this, different metrics have been developed in practice to estimate the well-being of citizens. For example, the United Nations Development Program (UNDP) publishes the Human Development Index (HDI), which uses various indicators across health, education, and living standards to estimate a country’s well-being (e.g., UNDP 1990). Bhutan measures the gross national happiness of its citizens in addition to its GDP. In fact, the King of Bhutan, Jigme Singye Wangchuck, stated that he was more concerned about Bhutan’s gross national happiness than its GDP (Mustafa 2005). Along the same lines, the Organization for Economic Co-operation and Development (OECD) has defined the Your Better Life index, which comprises of 11 factors, such as community, health, education, jobs, and work–life balance. Although it was not developed by any particular nation, another metric that seeks to estimate the level of well-being of a population is the subjective well-being of a population. The term subjective well-being is colloquially referred to as “happiness” (Diener and Tov 2012). In one of the first such studies, Wilson (1967, p. 294) argued that a happy person was a “young, healthy, well-educated, well-paid, extroverted, optimistic, worry-free, religious, married person with high self-esteem.” Since then, studies have shown that the vast majority of people believe happiness is important to them, and that happy people are more desirable than unhappy ones. Additionally, although there are a number of different factors that could affect a country’s level of well-being, such as people’s emotional responses, their global judgments, domain satisfaction, and global judgments of life satisfaction, studies have found a high degree of correlation between these metrics and the country’s overall level of well-being (Diener et al. 1999). Subjective well-being aims to capture the complete evaluations (both positive and negative) that people make about their lives. It includes cognitive evaluations, interest and engagement, and affective reactions to life events, joy, and sadness. The metric aims to be an umbrella term for the different valuations that people feel about their lives (Diener 2006).
+
+Although it can be argued that the well-being measure is subjective in nature, the measure has been validated using a number of objective indicators.4 Di Tella et al. (2003) showed countries with a higher well-being tend to have lower suicide rates. In a detailed review of the literature of the validity of self-reported measures of well-being, Diener and Tov (2012) argued that there is convergence between the well-being measure and biological measures of positive and negative states (such as hormone levels, immune system strength, cardiovascular system parameters), informant reports (family and friends who report on the happiness of the target), reaction time (how quickly happy people react to positive information about their lives), memory (happy people tend to remember more positive events from their lives than negative events), smiling (happy people smile more), and experience sampling.5 Diener and Tov (2012) found that the correlations between self-reported scales and alternate measures of happiness range from modest to moderate and are almost always positive—but that the moderate size of correlations is to be expected due to the fact that the measures weigh different aspects of well-being. Accordingly, there is external validity for the subjective measure of well-being with objective indicators. Finally, there is a reason for societies to want their citizens to be happy: happy citizens are more likely to be successful in their own lives, get and remain married, earn higher salaries, earn higher supervisor ratings at work. Also, they are reported to be more likely to trust others in their communities and to be involved in volunteer work, aspects that help contribute to a stable society (Diener and Tov 2012).
+
+Literature on Antecedents of Well-Being
+Economists (particularly those from the neoclassical school) argue that people make decisions based on attempts to maximize their expected utility from the decisions they make. While it is often assumed that people are fully informed about the utility outcomes of their decisions, economists and psychologists have also argued that it is not always the utility that rationally guides a person to make decisions, but that a subjective sense of well-being may also guide the manner in which people make decisions (Dixon 1997).
+
+4
+
+Appendix A presents a detailed review of the history, literature review, and description of the scales for well-being. People’s responses to the level of happiness that they experience were checked over time, and were shown to be correlated with global responses to how happy they report to be.
+
+5
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+419
+
+Ganju et al./ICT and the Well-Being of Nations
+
+The literature has tried to establish the effect of various factors on people’s well-being. Differences in the level of subjective well-being were linked to demographics, such as age, race, income, or unemployment (Dolan et al. 2008). Studies (e.g., Blanchflower and Oswald 2004) have shown a nonlinear relationship between age and well-being, specifically that people reach their lowest level of well-being between 32 and 50 years of age (Dolan et al. 2008). It was argued that well-being is “high among those who are married, on high income, women, whites, the well-educated, the selfemployed, the retired, and those looking after the home” (Oswald 1997, p. 1823). Another stream of research is the relationship between income and well-being. Studies found that within countries, wealthier people reported a higher level of well-being than poorer people, but that this effect may be significantly weaker when doing a within-country analysis (for example, Japan is not much happier than India, while Latin American countries are happier than European countries). Similarly, although the income in the United States grew dramatically between 1946 and 1978, there was no apparent change in the level of subjective well-being (Campbell 1981; Diener 1984; Easterlin 1974, 1995).6 Overall, selfreported well-being is often modeled as the sum of several factors. Specifically, a person’s level of well-being can be modeled empirically by an additive function (Dolan et al. 2008):
+
+Role of ICT in a Nation’s Well-Being
+Previous research has studied the effect of ICT on the productivity of nations. Dewan and Kraemer (2000) found that for the period 1985–1993, there was a corresponding increase in productivity (measured with GDP) of developed nations with an increase in ICT. However, the study did not find similar results for developing countries, which Dewan and Kraemer argued could perhaps be due to a lack of complementary technologies in those countries. In a follow-up study, Dedrick et al. (2011) showed an increase in productivity with investments in ICT in both developing and developed countries over the 1994–2004 period, possibly due to the availability of complementary technologies in developing countries in the more recent period. However, as noted above, the effects of the use of ICT are not limited to changes in productivity, such as GDP. ICT has a number of uses that could further increase the well-being of citizens beyond GDP, and we articulate the role of ICT in a country’s well-being in terms of (1) social capital and social equality, (2) health, (3) education, and (4) commerce, as we theorize in detail below. Social Capital and Social Equality: Research has argued that ICT allows individuals to develop their social capital, and that ICT increases a person’s level of well-being, self-esteem, and sense of satisfaction (Bargh and McKenna 2004; Helliwell and Putnam 2004). Ellison et al. (2007) showed that a person’s “Facebook intensity” (or how much a person uses Facebook) allows people to keep in touch with others who have moved away and increase their social capital. In addition, Internet connectivity can lower social inequality by allowing citizens who did not have a voice to demand their rights. Notably, ICT is increasingly being used in innovative ways to allow women to report incidents of harassment and domestic violence. For example, in the Democratic Republic of Congo, ICT is being used to collect evidence and information from women who have faced abuse and to transfer money to these women (UNDP 2012). The ability of ICT to allow citizens to report abuse, connect with loved ones and develop social capital is proposed to affect the level of well-being of citizens, albeit that would not be captured by the country’s GDP. Health: The ability to use ICT technologies to transfer information to disadvantaged communities can provide health information to these communities. Studies have argued that ICT can have an effect on the level of health in underdeveloped countries. Deloitte (2014) argue that providing Internet access in developing countries could reduce child mortality by 7 percent, potentially saving 50,000 children by extending information about best practices during pregnancy.
+
+SWBit = α + β1 X 1it + β2 X 2it +  + εit
+
+[1]
+
+In Equation 1, the dependent variable, SWB (subjective wellbeing), is the level of self-reported well-being, and X represents the number of different covariates that predict an individual’s level of well-being. These variables include social, economic, or environmental variables (besides age, income, and ethnicity). Also, ε represents individual differences that may be present in how a covariate affects the dependent variable. In sum, the literature on subjective well-being argues that measures of utility do not always fully capture the manner in which people make decisions, and that a metric based on subjective well-being may be a more appropriate measure. Although this metric may be subjective, studies have confirmed its external validity, as reviewed above. Thus, it is important to understand the role that the actual use of ICT by a nation can have for countries to appropriately leverage ICT to increase their overall level of well-being.
+
+6
+
+Among the numerous reviews of the factors that affect subjective wellbeing, readers are referred to Dolan et al. (2008), Diener (1984) and Frey and Stutzer (2002).
+
+420
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+The use of telephones as health care interventions was shown to lead to increased attendance rates at clinics (O’Brien and Lazebnik 1998) and lower rates of depression (Simon et al. 2004). Other studies found that the use of telephones was a most effective method to increase immunization rates (Kaplan 2006; Szilagyi et al. 2002), thus enhancing people’s health by using ICT. Education: The use of ICT enables the transfer of information to communities that may not have access to education. For example, MOOCs are now allowing students to get access to materials that would otherwise be difficult. Cooper and Sahami (2013) report the case of students who do not have computer science courses at high schools being able to study for and pass advanced placement classes though online videos. MOOCs enabled a 15-year-old Mongolian boy to achieve a perfect score on the Circuits and Electronics MIT MOOC (that was tailored to college sophomores) and learn scientific techniques that are not normally taught in high schools in Mongolia (Pappano 2013). In macro-level estimates, Deloitte (2014) argued that by facilitating the transfer of knowledge, 640 million children could gain access to cost effective learning tools and educational resources as a result of extended Internet connectivity. Commerce: A number of studies have also examined how ICT is changing the manner in which commerce in being enacted. Examples include the eChoupal platform in India (Kumar 2004; Upton and Fuller 2003), which gives farmers up-to-date information and connects them directly to customers and online cooperatives of traders to directly sell products to end consumers (Romero 2000). Others showed that after the introduction of ICT, growers were able to get better prices for their produce (Banker and Mitra 2007; Banker et al. 2011; Bayes 2001). These studies argued that it is possible to create an environment where producers can use ICT to get more competitive prices for their produce and improve their standard of living. Access to connectivity could lead to the creation of 140 million new jobs and lift 160 million people out of poverty (Deloitte 2014). Also, citizens of “outsourcing hubs” have the ability to trade services that are enabled by ICT (Sako 2005). In sum, ICT allows people to communicate and increase their social capital, allows disadvantaged groups to report crimes against them to achieve social justice, transfer health information to disadvantaged groups without healthcare, allows students and teachers access to educational materials, helps eliminate inefficiencies from supply chains, and allows farmers to get better rates for their produce. Taken together, ICT use is proposed to have an impact on the overall level of well-being for the country beyond GDP.
+
+Data
+Well-Being
+To measure the country level well-being, we used the Gallup World Poll which was conducted in more than 160 countries during 2006–2014. The target sample is the entire civilian, noninstitutionalized population of a country that is at least 15 years old. The sampling uses a probability-based mechanism and aims to be nationally representative. A standard set of core questions is used around the world, although in some areas, supplemental questions are asked about local issues. The questionnaire is translated into the major languages of each country. The interviews take place by telephone where there is telephone coverage of 80 percent the population, or where telephone surveys are the customary approach. This is the dominant methodology of performing surveys in countries such as the United States, Canada, Western Europe, Japan, Australia, and other developed countries. In less developed countries, the primary method of collecting data is face-toface interviews. In most countries, the sample size was about 1,000. To measure well-being, the World Poll uses a single response question based on the Cantril scale.7 The scale, developed by Hardley Cantril, asks respondents to imagine a ladder with the top of the ladder representing the best possible life for them and the bottom of the ladder representing the worst possible life (Cantril 1965). The data then divides the population into three categories based on the scores obtained: percentage of the population that is thriving (that is, the percentage of the population with responses at the highest end of the Cantril scale), the percentage of the population that is struggling (percentage of the population with well-being that is moderate or inconsistent), and the percentage of the population that is suffering (that is, the percentage of the population where the level of well-being is the lowest). Previous research has examined the effect of using the Cantril scale, reviewed in Appendix A. Notably, Diener et al. (2009) found that the use of the Cantril ladder of life scale is associated with a judgment about one’s overall life situation (as opposed to a transient daily happiness level evaluation). Although an argument can be made against the subjective well-being literature that it is a single-item construct, this is relatively standard in the subjective well-being literature.
+7
+
+In a review of the literature, Dolan et al. (2008, p. 97) note “the review strategy revealed 19 major national and cross-national data sets that included measures of subjective well-being. Many of these used only one, or sometimes two, single item measures.”
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+421
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Additionally, the Cantril scale has a high correlation with well-being that was determined using the multi-item satisfaction of life scale (Diener et al. 1985). Additionally, the two-year reliability in the Cantril scale was found to be .65 (Palmore and Kivett 1977). Although the data has only been captured for the last five years or so, the database has been used for several peer-reviewed studies (Deaton 2008; Diener et al. 2010).
+
+strategy used fixed effects to account for country-specific variation, accounted for potential omitted variable bias with control variables, and controlled for potential endogeneity using instrumental variables. Moreover, we used a number of alternative empirical specifications to show that the results are robust to these alternative models. Fixed Effects Regression: One concern that an analysis of the effect of the level of ICT can have on a country’s wellbeing is that we are unable to control for all variables that may contribute to well-being (e.g., Dolan et al. 2008). In order to overcome this concern, we adopted a two-pronged strategy. First, we used country fixed-effects to control for all country-level variables that do not vary over time. A fixedeffects model allows us to account for country-specific time invariant characteristics that may influence the results. The second strategy was to introduce multiple control variables, such as the level of inequality in the country, education level, and religiosity (Dolan et al. 2008) in our model (Table B2 in Appendix B). This would enable us to control for factors that vary over time and whose effect has been observed in the literature. A fixed-effects model that consists of introducing time invariant dummies into the model can control for country level effects that we may not be able to observe. This representation of the model allows for controlling factors that stay constant and may influence the results. This model is as follows:
+
+Actual ICT Use
+We matched the well-being data for nations to data on the level of actual use of ICT from the World Bank database. We restricted ourselves to data on the three major variables that capture the level of ICT: (1) fixed telephone lines, (2) Internet users, and (3) mobile phones (per 100 people) in a country. These variables were then aggregated to get the total level of ICT in a country. These variables were not averaged (or the highest value taken for any single variable) since the level of ICT would be substitutable across variables, that is, a country that has an extensive mobile phone penetration but a lower number of Internet users will be able to use mobile phones to carry out its communication. However, our results would not differ between aggregating and averaging these variables in our econometric specification (because the aggregate would be the average divided by three, and hence would not make a difference). The data was then merged with data on the level of well-being, while missing ICT values were imputed.8
+
+yij = β0 + β1 x1ij + β2 x2ij + ϑi + γ j + εij
+
+[2]
+
+Control Variables
+In addition, we collected data on a number of control variables. This is because that there may be a number of factors that could be correlated with the level of ICT and well-being, and thus bias our results. Table B1 in Appendix B presents the descriptive statistics. Table B2 in Appendix B overviews the control variables that are used as well as their justification on their effect on well-being from previous literature.
+
+In the above model, yij represents the level of well-being of a country i in year j. x1ij represents the use of the total ICT and x2ij represents the GDP PPP (per capita) of country i at time j. ϑi are time invariant country fixed-effects that are used to capture unobserved country-specific effects whereas γj are year fixed-effects that are used to capture time invariant fixedeffects. Since the dependent variable is a proportion, its values are bounded by 0 and 1. Therefore, we use a logit transformation of the percentage of population that is thriving.9 Table 1 shows that under a number of different specifications, the level of total ICT has a positive effect on the percentage of the population in a country that is thriving. To interpret the coefficient of Model 4, we took the exponential of the coefficient to get an effect size of .0029. This indicates that when a representative member of a country adopts any of the three ICT metrics, the proportion of the population that is thriving increases by 0.29 percent. This implies that, on average, the adoption of ICT by individuals has notable effects on the well-being of a population.
+9
+
+Model and Results
+This section outlines the econometric specifications that we have used to test the relationship between ICT use and the level of well-being in a country. Overall, our identification
+
+8
+
+Our results are robust to dropping the observations that have missing data.
+
+The regressed value is log(p/(1 – p)) where p is the proportion.
+
+422
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table 1. Role of ICT on Well-Being
+Variables Total ICT GDP per capita Gini coefficient Primary School Enrollment (%) Health Control Importance of Religion Volunteered Time Quality of Air and Water GFCF Constant Fixed Effects Observations R²
+Robust Standard Errors in parentheses ***p < 0.01, **p < 0.05, *p < 0.1
+
+(1) Thriving 0.0007*** (0.0001) 0.0054*** (0.0011) 0.0034*** (0.0006) -0.0003 (0.0003) 0.1032*** (0.0271) -0.0685** (0.0283) 0.1969*** (0.0482) 0.0980*** (0.0245) -0.0008 (0.0006) -0.3025*** (0.0552) No 717 0.6677
+
+(2) Thriving 0.0006*** (0.0002) 0.0085** (0.0037) 0.0011 (0.0012) 0.0000 (0.0005) -0.0027 (0.0289) 0.0020 (0.0620) 0.0438 (0.0725) -0.0159 (0.0274) 0.0012* (0.0007) 0.0456 (0.1137) Yes 717 0.0921
+
+(3) Logit(Thriving) 0.0067*** (0.0007) 0.0191*** (0.0053) 0.0226*** (0.0041) -0.0015 (0.0024) 0.7595*** (0.1831) -0.4001** (0.1597) 1.0103*** (0.3048) 0.5904*** (0.1631) -0.0016 (0.0040) -5.3341*** (0.4029) No 717 0.6565
+
+(4) Logit(Thriving) 0.0029** (0.0012) 0.0357* (0.0204) 0.0041 (0.0092) 0.0010 (0.0040) 0.0198 (0.2020) -0.0995 (0.3923) 0.1273 (0.6489) 0.1094 (0.1993) 0.0067 (0.0055) -2.6519*** (0.8571) Yes 717 0.0543
+
+Instrumental Variable Analysis
+A number of country-level studies have proposed different country characteristics as instruments.10 Previous studies have argued that the roll-out of Internet services is more difficult in areas that are more rugged (Kolko 2012).11 A hilly terrain, it has been argued, reduces the broadcasting range of mobile technologies (e.g., Arokiamary 2009). Additionally, it is more expensive to roll out fixed line telephones in hilly
+
+terrain due to the additional cost incurred in laying the telephone lines.12 We argue that a higher slope of terrain in areas will make it more difficult to provide ICT services in such areas, but that there is no ex ante reason to assume that the slope is correlated with the level of well-being in a country. We obtain ruggedness data from Nunn and Puga (2012). Table 2 shows that, with the inclusion of this instrument, the results are robust to a two-staged least squares (2SLS) model.
+
+An ideal instrument is one where the instrument is correlated with the independent variable x and thus to the dependent variable y, but the instrument is not directed correlated with the independent variable y (Appendix C). The instrumental variable needs to be uncorrelated with the error term u but should be correlated with regressor x.
+11 Similarly, a hilly terrain limits how far it is possible to broadcast a mobile signal with limits being roughly 5 km when the terrain is hilly versus about 50 km when the terrain is not hilly.
+
+10
+
+y1 = β0 + β1 y 2 + u1
+
+[3] [4]
+
+y2 = π 0 + π 1z1 + v
+
+Technical problems in rolling out fixed telephone lines are similar to rolling out other utilities in hilly terrains (Freeman, Sullivan & Co. 2008; Jain 2004).
+
+12
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+423
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table 2. Regressions†
+A: Instrumental Variable Regression Year Total ICT Constant Number of Observations B: First Stage Regression Year Population Adjusted Slope of Terrain Constant Number of Observations 2011 -27.9788*** (8.1012) 175.2672*** (9.7424) 120 2012 -25.2854** (12.5016) 188.1928*** (10.7430) 115 Complete Data Set -21.4869*** (4.7876) 160.0513*** (4.3666) 859 2011 .0092** (.0038) -2.7137*** (.5985) 120 2012 .01738*** (.0059) -4.1988*** (1.0164) 115 Complete Data Set .0120*** (.0045) -3.0097*** (.6865) 859
+
+Robust Standard Errors in parentheses for cross sectional years. Clustered standard errors for complete data set. ***p < 0.01, **p < 0.05, *p < 0.1 † We have used a larger sample of countries for the instrumental variable analysis to get additional power. However, the results are robust to the sample used in Table 1. Detailed results are shown in Appendix C.
+
+In the model presented in Equations 3 and 4, y1 represents the level of well-being of a country. We regressed well-being on the actual use of ICT in the country (represented by y2) and the instrument z1 which is the population adjusted slope of the terrain in the country. In order for z1 to be an appropriate instrument for the model, it should be correlated with the actual use of ICT in the country (represented by y2) but not correlated with u1. Table 2 shows the instrument variable (IV) regression for the complete data set plus recent years with the highest coverage of countries. We see that the results are consistent in this empirical specification as well. Table C1 in Appendix C details the diagnostics of the various tests (correlation, overidentification, underidentificiiton, test for weak IV) that largely support the validity of the instrument given the limited number of countries in our sample size. Overall, there is considerable evidence for the validity and appropriateness of the proposed IV.
+
+countries that have been classified by the World Bank as high-income13 (to account for level of economic development and complementary infrastructure). Second, we clustered countries by geographical location (to account for different continents). Table 3 shows that both low and high income countries benefit from the use of ICT on their well-being, but geographical differences do exist. For example, an increase in the level of ICT in South America has a higher increase on level of wellbeing whereas the adoption of ICT leads to a decrease in wellbeing in Europe (relative to the adoption of ICT by countries in North America).
+
+Biclustering
+The previous subsection did not make a distinction between the three ICT metrics used (telephone lines, Internet users, and mobile phones) across countries that differ on their economic development and geography. However, since not all countries may use these three metrics of ICT in the same manner, we used biclustering (also called block clustering,
+13
+
+Analysis by Economic Development and Geography Next, we analyzed the role of ICT in a country’s well-being for different clusters of countries. We identified geographic and economic development characteristics that can be useful for understanding which countries may have a stronger correlation between the level of ICT and well-being. First, we clustered countries by their economic status by using the
+
+See Table B5 in Appendix B for a list of countries that have been classified as high income. We have used the list provided by the World Bank that classifies countries that have a GNI per capita of greater than $12,746 as high income.
+
+424
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table 3. Role of ICT on Well-Being on Countries by Geography and Economic Development
+(1) Thriving 0.0006*** (0.0002) -0.0005 (0.0006) (2) Logit(Thriving) 0.0027*** (0.0010) -0.0035* (0.0019) (3) Thriving 0.0009*** (0.0002) (4) Logit(Thriving) 0.0035*** (0.0011)
+
+Total ICT Total ICT * Developed Dummy Total ICT * Africa Dummy Total ICT * Asia Dummy Total ICT * Europe Dummy Total ICT * Oceania Dummy Total ICT * S. America Dummy GDP per capita Fixed Effects Controls Constant Observations R²
+Robust Standard Errors in parentheses ***p < 0.01, **p < 0.05, *p < 0.1
+
+0.0092** (0.0039) Yes Yes 0.0882 (0.1162) 717 0.0976
+
+0.0404*** (0.0152) Yes Yes -2.3615*** (0.6670) 717 0.0594
+
+-0.0002 (0.0003) -0.0005* (0.0002) -0.0009*** (0.0003) -0.0019*** (0.0005) 0.0008** (0.0003) 0.0083** (0.0037) Yes Yes 0.0233 (0.1133) 717 0.1550
+
+0.0007 (0.0027) -0.0014 (0.0013) -0.0043** (0.0018) -0.0095*** (0.0030) 0.0044** (0.0020) 0.0371* (0.0208) Yes Yes -2.6257*** (0.8946) 717 0.0862
+
+direct clustering, or co-clustering), a two-way clustering method that can cluster variables and observations simultaneously (Izenman 2009). Biclustering differs from conventional algorithms, such as cluster analysis (that is useful to cluster similar observations together) and principal component analysis (PCA) (which is useful for clustering similar variables together) by allowing us to identify groups of observations that may be using a subset of variables in a similar manner. The biclustering algorithm works by combining observations and variables into layers to maximize the variance explained. Based on ICT data from 2012,14 the plaid algorithm15 was able to identify two layers with relevant loadings of observations and variables. Both layers relied on the number of telephone lines and the number of Internet
+The biclustering methodology is currently unable to cluster panel data. In order to overcome this, we selected ICT data from 2012 that provide sufficient data to run the biclustering analysis.
+15 14
+
+users as variables. The countries that were not in either of the layers were assigned to their own layer. Layer 1 consists of the 47 countries with the lowest levels of total ICT. Layer 3 consists of the 32 countries with the highest levels of total ICT. Layer 2 consists of 15 countries with modest levels of total ICT. Figure B1 in Appendix B shows the different groups of countries that were identified by the algorithm, and also the two variables that have been selected for the different groups. After running an OLS regression of the role of total ICT (all three metrics of ICT) on well-being (Table 5, Panel A), we found countries in all layers to have a positive and significant effect of their total level of ICT on their well-being. In contrast, an analysis of mobile phones on well-being (Table 5, Panel C) showed that for countries with low ICT (less developed countries), the use of mobile phones contributes to their well-being. The coefficients indicate that the adoption of mobile telephones by one additional person (on average) in a low ICT country will lead to an increase in the percentage of
+
+A detailed description of the plaid algorithm can be found in Appendix D.
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+425
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table 4. Difference in Total ICT Levels Between Identified Biclusters of Countries
+Layer 1 Countries (Low ICT) 6.6796 9.4377 30.469 87.029 Layer 2 Countries (Medium ICT) 5.2827 7.7241 17.073 122.67 Layer 3 Countries (High ICT) 30.5828 41.2472 74.5352 125.402
+
+GDP PPP Per Capita (Average) ($) Telephone Lines (per 100 citizens) Internet Users (per 100 citizens) Mobile telephones (per 100 citizens)
+
+Table 5. Role of ICT on Well-Being
+A. Role of Total ICT (All Three Dimensions) on Well-Being Low ICT 0.01324*** (0.00170) 47 0.5741 Low ICT 0.02869*** (0.00351) 47 0.5981 Low ICT 0.02148*** (0.00331) 47 .4834 Medium ICT 0.01530* (0.00753) 15 .2410 Medium ICT 0.04538*** (0.01019) 15 0.6043 Medium ICT 0.00368 (0.01075) 15 .0090 High ICT 0.01489** (0.00697) 32 .1319 High ICT 0.02578*** (0.00613) 32 .3707 High ICT -0.00782 (0.00672) 32 .0432
+
+Total ICT Number of Countries R²
+
+B. Role of ICT (Fixed Line Telephones and Internet) on Well-Being
+
+Total ICT Number of Countries R² C. Role of Mobile Phones on Well-Being
+
+Mobile Telephones Number of Countries R²
+
+the population that is thriving by 2.1 percent. However, the adoption of mobile telephones by a representative individual in a medium ICT country will lead to an increase in the percentage of the population that is thriving by .36 percent. This corroborates with the widespread use mobile phones in developing countries, such as in Africa and South Asia and we find that this could be contributing to an increasing level of well-being for these countries. On the other hand, developed countries that have high levels of ICT increase their level of well-being due to the use of all three ICT metrics.
+
+level. To overcome this, we have taken some initial first steps to analyze the relationship between the level of ICT in a country and the level of its well-being. Using a number of empirical specifications, we show empirical evidence of the role of ICT on a nation’s well-being. We notably find less developed countries with low levels of ICT to increase a higher level of well-being with the use of mobile phones, whereas developed countries with higher levels of ICT increase their well-being with the use of fixed telephones and the Internet as well. Ideally, an analysis of the impact of ICT on well-being requires three aspects that need to be shown, whether the relationship exists, how the relationship exists, and why the relationship exists. In this paper, we have conducted an initial empirical exploration whether the relationship exists between the level of ICT and well-being at the country level. Exam-
+
+Discussion
+Although prior research has validated the effect of ICT on productivity (GDP), the IS literature has still not shown the broader role of ICT in the well-being of citizens at the country
+
+426
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+ining a number of models, we find that the relationship does indeed exist and that this important finding is robust to a number of different empirical specifications, thus contributing to the literature by demonstrating the positive role of ICT in the well-being of a country.
+
+mediating role of inequality, health, education, and commerce. However, this mediated model presents exploratory results, and we hope that further research is able to refine the model as well as perhaps examine this mediating relationship for different groups of countries (similar to the biclustering approach used in this study). Additionally, although we find that, on average, the adoption of ICT may lead to an increase in the level of well-being for a country, the results in the “Biclustering” subsection showed is that not all types of ICT would be useful in pushing the level of well-being for all countries. For example, we did not find that the adoption of mobile telephones by high ICT countries has any significant effect on the level of well-being in these countries. This finding points to the phenomenon of leapfrogging, where generally poorer countries that have underdeveloped traditional ICT services in the past seem to adopt mobile technologies straightaway (without first deploying fixed telephone lines). This implies that a “onesize-fits-all” strategy for the adoption of ICT and its effects on the well-being of a country is unlikely to generalize across all countries.
+
+Implications
+Since the golden age of Greek philosophy, the pursuit of eudemonia (or well-being) has been recognized as central to people’s endeavor. Aristotle, Plato and, Socrates all argued that the pursuit of happiness was what human beings wanted more than anything else. Each of these philosophers argued that different factors are what matter in achieving this sense of well-being; for example, Aristotle argued that excellence in reasoning leads to the achievement of eudemonia. Although the pursuit of well-being has been a central tenet for philosophers for more than two millennia, the question whether ICT could be a potential factor has yet to be examined in IS research. Here, we attempt an initial exploration into the effect that the adoption of ICT has on the general sense of well-being of humans across countries. It should be noted that not all the effects of the adoption of ICT may be positive and it is entirely possible that the adoption of ICT could have negative effects on a society as well. For example, there are concerns that the adoption of ICT may increase unemployment by automating processes and reducing the demand for low-skilled jobs (Atasoy 2013; Brynjolfsson and McAfee 2012). As communication has increasingly gone digital, governments have been able to track communications and limit the privacy of their citizens. Other research has argued that the adoption of ICT has increased wage inequality (Acemoglu 2002). Still, for the role of the adoption of ICT in well-being, we find that the adoption of ICT has a positive impact on the well-being of countries, although the mechanism of this may be different across different countries. Similarly, although the adoption of ICT may be driven to achieve some intended outcomes, adoption of ICT may have unintended outcomes as well. Although ICT in countries was pushed to allow citizens to be more connected, we were able to find evidence that an unintended consequence of the adoption of ICT is that ICT may have led to an increase in the level of well-being of citizens. In an exploratory analysis we undertook on how ICT leads to an increase in the level of well-being for a country, we explored the role of our theorized variables as mediators in a model by which ICT shapes well-being (Appendix E). We found that the adoption of ICT has an impact on the well-being of a country through the
+
+Limitations and Suggestions for Future Research
+Although our results show the effect of the level of ICT on the well-being of a country, there are still a number of limitations. First, a possible drawback is that there may be unobserved variables that may be driving the results (omitted variable bias). We used a number of approaches to mitigate this bias by introducing fixed effects into the model as well as controlling for many factors that were shown to affect the level of well-being for a population (Table B2 in Appendix B), and our results are consistent. Also, our results are robust to alternative specifications, including the instrumental variable approach. Still, future research could examine additional econometric specifications. Second, our metric of the use of ICT (telephones, Internet users, mobile phones) may not be capturing all of the different dimensions of which ICT may be comprised. For example, future research could try to include data on mobile Internet access, broadband Internet, and other cutting edge ICT technologies. Also, although we have used the slope of the terrain of a country as an instrument for ICT adoption in a country, we recognize that the instrument has drawbacks. One of its major drawbacks is the fact that terrain slope does not change over time. In addition, given the small sample size of the cross-sectional analysis given the stable nature of the instrument, future research could explore other instruments that are longitudinal in nature.
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+427
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Third, although it can be argued that our dependent variable (well-being of a population) is subjective, there has been a large amount of research that has examined the correlation between this and other measures of external validity (Appendix A). Diener and Tov (2012) provide an extensive list of biological, physiological, and external reports of variables that have been found to be highly correlated with subjective well-being. Still, future research could examine additional measures to capture the well-being of a country. Finally, although we have attempted an initial analysis into how the relationship between ICT and well-being exists through proxies for our proposed mediators (Appendix E), our access to data on social capital, social justice, health, education, and commerce is limited, and we hope that this will be an opportunity for future research to verify how and why such a mediated model works. We hope that our initial evidence of how ICT enhances a nation’s well-being would entice research on the exact means by which various forms of ICT enhance well-being across nations.16 Additionally, although we have studied the country-level effect of the adoption of ICT on the well-being, a similar individual-level analysis is also possible. However, due to the exorbitant cost of these databases, we did not conduct this analysis.17
+
+healthcare services and information, providing opportunities for education, enhancing access to markets, and reducing unemployment. By showing that ICT use enhances a country’s well-being, we hope to entice future research on the macro-level effects of ICT on metrics other than GDP. We feel that the IS community is ideally positioned and has the appropriate set of knowledge on ICT to comprehensively examine these important issues, and we hope this study entices the IS community to lead research on these fundamental questions related to the broader economic and societal effects of ICT.
+
+References
+Acemoglu, D. 2002. “Technical Change, Inequality, and the Labor Market,” Journal of Economic Literature (40:1), pp. 7-72. Arokiamary, V. J. 2009. Mobile Computing, Pune, India: Technical Publications. Atasoy, H. 2013. “The Effects of Broadband Internet Expansion on Labor Market Outcomes,” Industrial and Labor Relations Review (66:2), pp. 315-345. Banker, R., and Mitra, S. 2007. “Procurement Models in the Agricultural Supply Chain: A Case Study of Online Coffee Auctions in India,” Electronic Commerce Research and Applications (6:3), pp. 309-321. Banker, R., Mitra, S., and Sambamurthy, V. 2011. “The Effects of Digital Trading Platforms on Commodity Prices in Agricultural Supply Chains,” MIS Quarterly (35:3), pp. 599-611. Bargh, J. A., and McKenna, K. Y. 2004. “The Internet and Social Life,” Annual Review of Psychology (55), pp. 573-590. Bayes, A. 2001. “Infrastructure and Rural Development: Insights from a Grameen Bank Village Phone Initiative in Bangladesh,” Agricultural Economics (25:2-3), pp. 261-272. Berry, S., Levinsohn, J., and Pakes, A. 1995. “Automobile Prices in Market Equilibrium,” Econometrica (63:4), pp. 841-890. Blanchflower, D. G., and Oswald, A. J. 2004. “Well-Being Over Time in Britain and the USA,” Journal of Public Economics (88:7-8), pp. 1359-1386. Brynjolfsson, E., and McAfee, A. 2012. Race Against the Machine: How the Digital Revolution is Accelerating Innovation, Driving Productivity, and Irreversibly Transforming Employment and the Economy, Cambridge, MA: Digital Frontier Press. Campbell, A. 1981. The Sense of Well-Being in America: Recent Patterns and Trends, New York: McGraw-Hill. Cantril, H. 1965. Pattern of Human Concerns, New Brunswick, NJ: Rutgers University Press. Cooper, S., and Sahami, M. 2013. “Reflections on Stanford’s MOOCs,” Communications of the ACM (56:2), pp. 28-30. Deaton, A. 2008. “Income, Health, and Well-Being Around the World: Evidence from the Gallup World Poll,” The Journal of Economic Perspectives (22:2), pp. 53-72. Dedrick, J., Kraemer, K. L., and Shih, E. 2011. “IT in Developed and Developing Countries,” Personal Computing Industry Center, University of California, Irvine (http://pcic.merage.uci.edu/ papers/2011/ITandProductivity.pdf).
+
+Conclusion
+The question of the nature of well-being was one that Aristotle understood to be the final goal of all human action (Spencer 2007). Understanding the role of ICT in fulfilling this goal has so far been limited, and we hope to provide initial first steps in exploring this key relationship. As ICT becomes ubiquitous, it is important that we seek to explore how countries and citizens are transformed by ICT adoption and use. Interestingly, we show that more developed countries use fixed-line telephones and the Internet to increase their well-being, while less developed countries enhance their level of well-being by using mobile phones. Moreover, research on the societal impacts of the ubiquity of ICT has been largely limited to examining the role of ICT on GDP. However, ICT has a larger role to play in society by empowering disadvantaged communities, offering access to
+
+16
+
+Further highly exploratory analysis of the three biclusters showed that less developed nations tend to increase their well-being through education, health, and GDP using mostly mobile phones, while more developed nations tend to enhance their well-being only through GDP using primarily fixed telephones and the Internet.
+
+17 Micro-level data would have allowed us to conduct an analysis at the individual level. However, the cost of obtaining this data currently stands at $145,000.
+
+428
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Deloitte. 2014. “Value of Connectivity: Economic and Social Benefits of Expanding Internet Access,” Deloitte LLP, London (https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/ t39.2365/851546_1398036020459876_1878998841_n.pdf). Dewan, S., and Kraemer, K. L. 2000. “Information Technology and Productivity: Evidence from Country-Level Data,” Management Science (46:4), pp. 548-562. Di Tella, R., MacCulloch, R. J., and Oswald, A. J. 2003. “The Macroeconomics of Happiness,” Review of Economics and Statistics (85:4), pp. 809-827. Diener, E. 1984. “Subjective Well-Being,” Psychological Bulletin (95), pp. 542-575. Diener, E. 2006. “Guidelines for National Indicators of Subjective Well-Being and Ill-Being,” Applied Research in Quality of Life (1:2), pp. 151-157. Diener, E., Emmons, R. A., Larsen, R. J., and Griffin, S. 1985. “The Satisfaction with Life Scale,” Journal of Personality Assessment (49:1), pp. 71-75. Diener, E., Kahneman, D., Arora, R., Harter, J., and Tov, W. 2009. “Income’s Differential Influence on Judgments of Life Versus AffectiveWell-Being,” in Assessing Well-Being, E. Diener (ed.), New York: Springer, pp. 233-246. Diener, E., Ng, W., Harter, J., and Arora, R. 2010. “Wealth and Happiness Across the World: Material Prosperity Predicts Life Evaluation, Whereas Psychosocial Prosperity Predicts Positive Feeling,” Journal of Personality and Social Psychology (99:1), pp. 52-61. Diener, E., Suh, E. M., Lucas, R. E., and Smith, H. L. 1999. “Subjective Well-Being: Three Decades of Progress,” Psychological Bulletin (125:2), pp. 276-302. Diener, E., and Tov, W. 2012. “National Accounts of Well-Being,” in Handbook of Social Indicators and Quality of Life Research, K. C. Land, A. C. Michalos, and M. J. Sirgy (eds.), New York: Springer, pp. 137-156. Dixon, H. D. 1997. “Economics and Happiness,” The Economic Journal (107), pp. 1812-1814. Dolan, P., and Metcalfe, R. 2012. “The Relationship Between Innovation and Subjective Wellbeing,” Research Policy (41:8), pp. 1489-1498. Dolan, P., Peasgood, T., and White, M. 2008. “Do We Really Know What Makes Us Happy? A Review of the Economic Literature on the Factors Associated with Subjective WellBeing,” Journal of Economic Psychology (29:1), pp. 94-122. Easterlin, R. A. 1974. “Does Economic Growth Improve the Human Lot? Some Empirical Evidence,” in Nations and Households in Economic Growth: Essays in Honor of Moses Abramovit, P. A. David and M. W. Reder (eds.), New York: Academic Press, pp. 89-125. Easterlin, R. A. 1995. “Will Raising the Incomes of All Increase the Happiness of All?,” Journal of Economic Behavior and Organization (27:1), pp. 35-47. Ellison, N. B., Steinfield, C., and Lampe, C. 2007. “The Benefits of Facebook ‘Friends’: Social Capital and College Students’ Use of Online Social Network Sites,” Journal of Computer-Mediated Communication (12:4), pp. 1143-1168. Fahey, T., and Smyth, E. 2004. “Do Subjective Indicators Measure Welfare? Evidence from 33 European Societies,” European Societies (6:1), pp. 5-27.
+
+Freeman, Sullivan & Co. 2008. “Benefit-Cost Analysis for Advanced Metering and Time-Based Pricing,” presentation to the Vermont Department of Public Service, January 7. Frey, B. S., and Stutzer, A. 2002. Happiness and Economics: How the Economy and Institutions Affect Human Well-being, Princeton, NJ: Princeton University Press. Graham, C., and Nikolova, M. 2013. “Does Access to Information Technology Make People Happier? Insights from Well-Being Surveys from Around the World,” The Journal of SocioEconomics (44), pp. 126-139. Helliwell, J. F., and Putnam, R. D. 2004. “The Social Context of Well-Being,” Philosophical Transactions—Royal Society of London (359), pp. 1435-1446. Izenman, A. J. 2009. Modern Multivariate Statistical Techniques, New York: Springer. Jain, R. 2004. “Connecting the North-East,” unpublished paper, Center for Telecom Policy Studies, Indian Institute of Management, Ahmedabad (http://placements.iima.ac.in/egov/documents/ connecting-the-north-east.pdf). Kaplan, W. A. 2006. “Can the Ubiquitous Power of Mobile Phones Be Used to Improve Health Outcomes in Developing Countries,” Global Health (2:9), pp. 1-14. Kavetsos, G., and Koutroumpis, P. 2011. “Technological Affluence and Subjective Well-Being,” Journal of Economic Psychology (32:5), pp. 742-753. Kennedy, R. F. 1968. “Remarks at the University of Kansas,” March 18 (http://www.jfklibrary.org/Research/Research-Aids/ Ready-Reference/RFK-Speeches/Remarks-of-Robert-FKennedy-at-the-University-of-Kansas-March-18-1968.aspx). Kolko, J. 2012. “Broadband and Local Growth,” Journal of Urban Economics (71:1), pp. 100-113. Korsgaard, C. M. 1986. “Aristotle and Kant on the Source of Value,” Ethics (96:3), pp. 486-505. Kumar, R. 2004. “eChoupals: A Study on the Financial Sustainability of Village Internet Centers in Rural Madhya Pradesh,” Information Technologies and International Development (2:1), pp. 45-74. Kuznets, S. 1934. “National Income,1929-1932,” National Bureau of Economic Research, New York. Lazzeroni, L., and Owen, A. 2002. “Plaid Models for Gene Expression Data,” Statistica Sinica (12:1), pp. 61-86. Mustafa, N. 2005. “What About Gross National Happiness? ,” Time, January 10 (http://content.time.com/time/health/article/ 0,8599,1016266,00.html). Nunn, N., and Puga, D. 2012. “Country Ruggedness and Geographical Data” (diegopuga.org/data/rugged). O’Brien, G., and Lazebnik, R. 1998. “Telephone Call Reminders and Attendance in an Adolescent Clinic,” Pediatrics (101:6), p. e6. Oswald, A. J. 1997. “Happiness and Economic Performance,” The Economic Journal (107:445), pp. 1815-1831. Palmore, E., and Kivett, V. 1977. “Change in Life Satisfaction: A Longitudinal Study of Persons Aged 46–70,” Journal of Gerontology (32:3), pp. 311-316. Pappano, L. 2013. “The Boy Genius of Ulan Bator ,” New York Times Magazine, September 13 (http://www.nytimes.com/ 2013/09/15/magazine/the- b o y - g e n i u s- o f - ul a n- ba tor. html?pagewanted=all&amp;_r=0).
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+429
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Pohjola, M. 2001. “Information Technology and Economic Growth: A Cross-Country Analysis,” in Information Technology and Economic Development, M. Pohjola (ed.), Oxford, UK: Oxford University Press. Romero, S. 2000. “Lethem Journal; Weavers Go Dot-Com, and Elders Move In,” New York Times , March 28, (http://www.nytimes.com/2000/03/28/world/lethem-journalweavers-go-dot-com-and-elders-move-in.html). Sako, M. 2005. “Outsourcing and Offshoring: Key Trends and Issues,” Emerging Markets Forum, Oxford, UK (http://dx.doi.org/10.2139/ssrn.1463480). Schreyer, P. 2000. “The Contribution of Information and Communication Technology to Output Growth: A Study of the G7 Countries” STI Working Paper 2000/2, OECD Directorate for Science, Technology and Industry, Paris (http://www.oecdilibrary.org/science-and-technology/the-contribution-ofinformation-and-communication-technology-to-outputgrowth_151634666253). Simon, G. E., Ludman, E. J., Tutty, S., Operskalski, B., and Von Korff, M. 2004. “Telephone Psychotherapy and Telephone Care Management for Primary Care Patients Starting Antidepressant Treatment: A Randomized Controlled Trial,” Journal of the American Medical Association (292:8), pp. 935-942. Spencer, M. K. 2007. “Full Human Florishing,” Proceedings of the American Catholic Philosophical Association (81), pp. 193-204. Stiglitz, J. E., Sen, A., and Fitoussi, J.-P. 2009. “Report by the Commission on the Measurement of Economic Performance and Social Progress” (http://www.stiglitz-sen-fitoussi.fr/documents/ rapport_anglais.pdf). Szilagyi, P., Vann, J., Bordley, C., Chelminski, A., Kraus, R., Margolis, P., and Rodewald, L. 2002. “Interventions Aimed at Improving Immunization Rates,” The Cochrane Database of Systematic Reviews (4). UNDP. 1990. Defining and Measuring Human Development, United Nations Development Programme, New York: Oxford University Press. UNDP. 2012. “Mobile Technologies and Empowerment: Enhancing Human Development Through Participation and Innovation,” United Nations Development Programme, New York. Upton, D. M., and Fuller, V. A. 2003. “The ITC eChoupal Initiative,” Case Study No. 0-404-16, Harvard Business School, Boston. Welsch, H. 2002. “Preferences Over Prosperity and Pollution: Environmental Valuation Based on Happiness Surveys,” Kyklos (55:4), pp. 473-494. Wilson, W. R. 1967. “Correlates of Avowed Happiness,” Psychological Bulletin (67:4), pp. 294-306.
+
+About the Authors
+Kartik K. Ganju is an assistant professor at the Desautels Faculty of Management at McGill University. He did his doctoral studies in information systems at the Fox School of Business, Temple University, and received his Master’s with distinction from the London School of Economics and Political Science. Kartik’s research focuses on the effects of the adoption of ICT on society with a particular emphasis on the unanticipated effects of the adoption of electronic medical record systems in hospitals. His research has appeared in numerous referred conference proceedings such as the International Conference on Information Systems, the European Conference on Information Systems, and the Americas Conference on Information Systems. Paul A. Pavlou is the Milton F. Stauffer Professor of Information Technology and Strategy at the Fox School of Business at Temple University. He is also the Fox School’s Chief Research Officer and Associate Dean of Research, Doctoral Programs, and Strategic Initiatives. Paul received his Ph.D. from the University of Southern California in 2004. His research appeared in MIS Quarterly, Information Systems Research, Journal of Marketing, Journal of Marketing Research, Journal of Management Information Systems, Journal of the Association of Information Systems, Journal of the Academy of Marketing Science, and Decision Sciences, among others. His research focuses on e-commerce strategy, digital business strategy, and development of research methods. Rajiv D. Banker is the Merves Chair and Director of the Center for Accounting and Information Technology at the Fox School of Business, Temple University. Rajiv received his Doctorate in Business Administration from Harvard University concentrating in Planning and Control Systems. He qualified as a Cost Accountant and as a Chartered Accountant, securing several awards including those for standing first and third respectively at national examinations of the two institutes. He has published more than 150 articles in prestigious research journals including Management Science, Accounting Review, Journal of Accounting and Economics, Journal of Accounting Research, Operations Research, MIS Quarterly, Information Systems Research, Communications of ACM, IEEE Transactions in Software Engineering, Academy of Management Journal, Strategic Management Journal, and Econometrica. Rajiv’s research interests range from analytical modeling to statistical analysis of data collected from different companies to address complex or emerging problems of importance to managers. His research on information systems explores issues of technology enabled competitive strategy, investments in information technology, software productivity and quality metrics, and management of software development and maintenance.
+
+430
+
+MIS Quarterly Vol. 40 No. 2/June 2016
+
+SPECIAL ISSUE: ICT AND SOCIAL CHALLENGES
+
+DOES INFORMATION AND COMMUNICATION TECHNOLOGY LEAD TO THE WELL-BEING OF NATIONS? A COUNTRYLEVEL EMPIRICAL INVESTIGATION
+Kartik K. Ganju
+Desautels Faculty of Management, McGill University, Montreal, QC H3A 1G5 CANADA {kartik.ganju@mcgill.ca}
+
+Paul A. Pavlou, and Rajiv D. Banker
+Fox School of Business, Temple University, 210 Speakman Hall, Philadelphia, PA 19122 U.S.A. {pavlou@temple.edu} {banker@temple.edu}
+
+Appendix A
+Overview of the Well-Being Metric
+Background
+The idea of well-being was first mentioned by philosophers, such as Aristotle, who discussed this in Nicomachean and Eudemian ethics. Aristotle (along with other Greek philosophers) pointed out a consensus on the fact that the attainment of eudemonia, or well-being, is central to people’s endeavors. Since then, there has been a rich history of philosophers who argued that the attainment of well-being is what drives human endeavor. John Stuart Mill argued that happiness is a central good and other utilitarians have built theories based on the idea of the maximization of subjective well-being (Diener et al. 1998). Economists, particularly from the neoclassical school, have argued that it is the pursuit of utility that drives human endeavor, although there are a number of issues with the measurement of utility. Ideas of the attainment of well-being can also be found in Csikszentmihalyi (1975) who argued that individuals feel the happiest when they are challenged at their level of skill and then enter a state of mind called “flow.” In modern research, the study of the antecedents and consequences of the attainment of well-being has been looked at by a number of different researchers. Dolan et al. (2008), Frey and Stutzer (2002), and Diener et al. (1999) review the extensive well-being literature, which has used an empirical framework to assess the antecedents and consequences of the attainment of well-being by individuals, groups, and societies. Rather than relying on philosophical arguments for the attainment of well-being, the majority of these studies have used empirical data to support their arguments. Overall, the idea of the attainment of well-being by man goes back to the time of the Greek philosophers and the study of this has continued through the centuries. In the last few decades, there has been a large body of research that has examined well-being in the psychology and economics literatures. However, although research in other disciplines into the study of well-being has been thriving, it has received limited attention by IS researchers. We hope that, as the attainment of well-being is also central to IS research, given the potential role of ICT, IS scholars will seek to explore how the adoption and use of ICT could play a part in the attainment of well-being. The next section describes what the subjective well-being measure seeks to capture. The third section of this appendix expands on the scales that can be used to measure the level of well-being.
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+A1
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Section 2: What Does Well-Being Capture?
+Subjective well-being refers to all the evaluations (both positive and negative) that people make about their lives (Diener 2006). The term refers to a category of phenomenon that includes peoples’ emotional responses, domain satisfactions, and global judgments about life satisfaction (Diener et al. 1999). Additionally, although these different terms may denote different aspects, they often correlate significantly and hence are often studied under the umbrella term of well-being. The term subjective well-being is often referred to simply as well-being to restrict the negative implication that the term subjective may carry. Although the term implies that the level of well-being represents a measure that is not objective, there have been a number of methods that have been used to assess the validity of the measure of well-being. On the other hand, the term happiness is usually used to represent the positive feelings that an individual may experience. However, happiness can mean a number of different things to different people with interpretations of the term referring to a global evaluation of life satisfaction, the causes that make people happy, if they are living a good life (with the manner in which the term happiness is used being useful to understand the context). Hence, scholars tend to avoid using the term happiness, and instead focus on using the term well-being. Nonetheless, it is important to note that well-being or subjective well-being is colloquially referred to as happiness (Diener 2006). Additionally, studies have found that the correlation between well-being that respondents report in social situations and when left alone is correlated to 0.92 (Diener et al. 2009), their level of well-being at work is correlated with the level of well-being when at home to 0.74, and Magnus and Diener (1991) found that, across a 4-year time period, the level of life satisfaction measure was correlated to 0.58. These studies show that there is an inherent factor that the measure of well-being captures. This has lead researchers to identify traits that would make some people naturally happy and some naturally unhappy. One study examined twins to assess if this difference in the level of happiness is genetic, or if it is due to the environment and life situations. Tellegen et al. (1988) assessed twins that were reared apart and those that were reared together and found that between 40 and 50 percent of variation in the level of happiness could be explained by genetic variations. The remaining differences could be due to environmental factors.
+
+Section 3: Scales to Measure Well-Being
+There are a number of scales to measure the level of well-being. Although individual researchers may prefer different scales, these have been shown to have a high degree of correlation between the results that different scales provide. Broadly there are two classes of scales. One class is sets of scales that are single-item measures scales, which include the Cantril Scale used in this study. The other class of scales includes a multi-item scale that includes the satisfaction with life scale. Overall, there are more than 10 scales that have been used to measure the level of well-being. Some of these are summarized below. Cantril Scale: The Cantril scale (Cantril 1965) has been used to measure the level of well-being by asking respondents to image a ladder with one end of the ladder representing a “best life for you” and the other end representing the “worst life for you.” The respondent is then asked to identify where on the ladder they would stand. Although the initial scale used 11 steps, the ladder is occasionally described with nine or sometimes ten steps. The scale was proposed by Henry Cantril and has found success with the results being “theoretically convincing and politically interesting” (Glatzer and Gulyas 2014, p. 510). In a study of the Cantril scale, researchers found that people in two developed countries (the Untied States and Germany) perceived their position on the scale above the half way mark and people in two developing countries (India and Nigeria) perceive themselves to be below the half-way mark. However, in general, people perceive their future expectations to be higher than their current state (Glatzer and Gulyas 2014). Satisfaction with Life Scale: The satisfaction with life scale was proposed by Diener et al. (1985) and focuses exclusively on measuring life satisfaction as a measure of people’s overall assessment of their satisfaction with their lives. The five items that respondents have to answer are: In most ways my life is close to my ideal; The conditionals of my life are excellent; I am satisfied with my life, so far I have gotten the important things I want in my life; If I could live my life over, I would change almost nothing. Pavot et al. (1991) use a seven-point scale for the different items on the satisfaction with life scale. Other single item scales to measure the level of well-being include the D-T scale, which asks about how happy you are, the Fordyce scale which is based upon how happy or unhappy you feel, another scale that was proposed by Fordyce that asks the respondents about the percentage of the time that they feel happy and the percentage of the time they feel unhappy, and a scale that was proposed by Gurin et al. (1960) that asks respondents to assess how they feel they are these days and select if they are “very happy,” “pretty happy,” or “not too happy.” Multi-item scales to measure the level of well-being include one proposed by Bradburn and Caplovitz (1965) that uses a 10-item scale that yields a positive affect score and a negative affect score. Campbell et al. (1976) used an eight-item scale to assess the level of life for a respondent along a
+
+A2
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+number of different dimensions. In a review of the literature, Dolan et al. (2008) found that the majority of data sets that measure the level of well-being use one (and sometimes two) single-item measures. A limited set of studies have compared the different scales. Diener et al. (1985) assessed the correlation between the satisfaction with life scale and other scales and found moderately strong correlations between the scale being assessed and other subjective well-being scales. Pavot et al. (1991) examined issues surrounding the satisfaction with life scale (SWLS) and found that the there is “considerable evidence for the reliability, unitary structure and convergent validity of the SWLS scale” (p. 158).
+
+References
+Aristotle. 2000. Nicomachean Ethics (Roger Crisp, Trans.), Cambridge, UK: Cambridge University Press. Bradburn, N. M., and Caplovitz, D. 1965. Reports on Happiness, Hawthorne, NY: Aldine Publishing Company. Campbell, A., Converse, P. E., and Rodgers, W. L. 1976. The Quality of American Life: Perceptions, Evaluations, and Satisfactions, New York: Russel Sage Foundation. Cantril, H. 1965. Pattern of human concerns, (1st ed.) Rutgers Univ. Press: New Brunswick, New Jersey. Csikszentmihalyi, M. 1975. Beyond Boredom and Anxiety: The Experience of Play in Work and Games, San Francisco: Jossey-Bass Publishers. Diener, E. 2006. “Guidelines for Mational Indicators of Subjective Well-Being and Ill-Being,” Applied Research in Quality of Life (1:2), pp. 151-157. Diener, E., Oishi, S., and Lucas, R. E. 2009. “Subjective Well-Being: The Science of Happiness and Life Satisfaction,” in The Oxford Handbook of Positive Psychology, S. J. Lopez and C. R. Snyder (eds.), Oxford, UK: Oxford University Press, pp. 63-73. Diener, E., Sapyta, J. J., and Suh, E. 1998. “Subjective Well-Being Is Essential to Well-Being,” Psychological Inquiry (9:1), pp. 33-37. Diener, E., Suh, E. M., Lucas, R. E., and Smith, H. L. 1999. “Subjective Well-Being: Three Decades of Progress,” Psychological Bulletin (125:2), pp. 276-302. Diener, E. D., Emmons, R. A., Larsen, R. J., and Griffin, S. 1985. “The Satisfaction with Life Scale,” Journal of Personality Assessment (49:1), pp. 71-75. Dolan, P., Peasgood, T., and White, M. 2008. “Do We Really Know What Makes Us Happy? A Review of the Economic Literature on the Factors Associated with Subjective Well-Being,” Journal of Economic Psychology (29:1), pp. 94-122. Frey, B. S., and Stutzer, A. 2002. Happiness and Economics: How the Economy and Institutions Affect Human Well-Being, Princeton, NJ: Princeton University Press. Glatzer, W., and Gulyas, J. 2014. “Cantril Self-Anchoring Striving Scale,” in Encyclopedia of Quality of Life and Well-Being Research, W. Glatzer and J. Gulyas (eds.), Dordrecht, The Netherlands: Springer, pp. 509-511. Gurin, G., Veroff, J., and Feld, S. 1960. Americans View Their Mental Health: A Nationwide Interview Survey, New York: Basic Books. Magnus, K. B., and Diener, E. 1991. “A Longitudinal Analysis of Personality, Life Events, and Subjective Well-Being,” in Proceedings of the 63rd Annual Meeing of the Midwestern Psychological Association, Chicago. Pavot, W., Diener, E., Colvin, C. R., and Sandvik, E. 1991. “Further Validation of the Satisfaction With Life Scale: Evidence for the CrossMethod Convergence of Well-Being Measures,” Journal of Personality Assessment (57:1), pp. 149-161. Tellegen, A., Lykken, D. T., Bouchard, T. J., Wilcox, K. J., Segal, N. L., and Rich, S. 1988. “Personality Similarity in Twins Reared Apart and Together,” Journal of Personality and Social Psychology (54:6), pp. 1031-1039.
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+A3
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Appendix B
+Additional Analyses
+Table B1. Descriptive Statistics
+Proportion of population thriving Number of telephone lines (Per 100 people) Number of mobile phones (Per 100 people) Number of internet users (Per 100 people) Total ICT Expenditure side real GDP (per capita) PPP adjusted (in ‘000s) Health Gini Primary School Enrollment Importance of Religion Volunteered Time Quality of Air and Water GFCF (% of GDP) Observations 717 717 717 717 717 717 717 717 717 717 717 717 717 Mean .2739 20.6086 88.6790 36.1625 145.45 13.7029 1.7797 38.7160 104.7043 .6830 .2107 1.4602 23.8692 St Deviation .2005 18.5749 41.5098 29.8041 79.8017 14.3854 .1993 9.2336 13.0878 .2703 0 .1104 .2476 7.2046 Min 0.01 .0449 3.2522 0 3.4997 .2456 1.24 18.9833 50.6276 0.11 0 0.51 1.6197 Max 0.83 67.2403 214.75 96.9993 292.28 81.6825 2.29 67.4 164.8584 1.2 0.52 1.9 63.9402
+
+Primary school enrollment can exceed 100% due to over-enrollment (of over aged and under aged children).
+
+Table B2. Control Variables
+Metric Income Education Inequality Health Control Variable GDP PPP Primary school enrollment Gini Health Literature Easterlin (1974) Blanchflower and Oswald (2004) Fahey and Smyth (2004) Shields and Price (2005) Data Source Penn World Tables World Bank World Bank Gallup Database • In the area you live, are you satisfied or dissatisfied with the availability of quality healthcare • Did you experience physical pain yesterday • Did you feel well-rested yesterday • Do you have any health problems that prevent you from doing anything that people your age normally do? Is religion an important part of your daily life? Have you volunteered in the last month? Are you satisfied with the quality of air and the quality of water? Question Asked Expenditure Side Real GDP at chained PPPs (in million 2005 USD)/Population in Millions School enrollment, primary (% gross)
+
+Importance of Religion Volunteered Time Quality of Air & Water GFCF
+
+Importance of Religion Volunteered Time Quality of Air and Water Gross capital formation (% of GDP)
+
+Helliwell (2006) Greenfield and Marks (2004) Welsch (2002)
+
+Gallup Database Gallup Database Gallup Database World Bank
+
+A4
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table B3. List of All Countries in Our Sample
+Angola Argentina Armenia Australia Austria Azerbaijan Bangladesh Belgium Belize Benin Botswana Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Central African Republic Chad Chile China Colombia Comoros Costa Rica Croatia Czech Republic Denmark Dominican Republic Ecuador El Salvador Estonia Finland France Gabon Germany Ghana Greece Guatemala Guinea Honduras Hungary India Indonesia Ireland Israel Italy Japan Jordan Kazakhstan Kenya Latvia Liberia Lithuania Luxembourg Madagascar Malawi Mali Mauritania Mexico Moldova Mongolia Montenegro Morocco Mozambique Namibia Nepal Netherlands New Zealand Niger Nigeria Norway Pakistan Panama Paraguay Peru Philippines Portugal Romania Rwanda Senegal Serbia Sierra Leone Slovenia South Africa Spain Sri Lanka Swaziland Sweden Switzerland Tajikistan Tanzania Thailand Togo Tunisia Turkey Uganda United Kingdom Uruguay Uzbekistan Vietnam
+
+Table B4. List of High-Income Countries
+Australia Austria Belgium Canada Chile Croatia Czech Republic Denmark Estonia Finland France Germany Greece Ireland Israel Italy Japan Latvia Lithuania Luxembourg Netherlands New Zealand Norway Portugal Slovenia Spain Sweden Switzerland United Kingdom Uruguay
+
+Table B5. Countries in Layer 1
+Angola Armenia Azerbaijan Bangladesh Burkina Faso Cameroon Chad Chile China Colombia Comoros Congo, Dem. Rep. Costa Rica Czech Republic Dominican Republic Finland Guinea Honduras India Jordan Kenya Lithuania Madagascar Malawi Mexico Moldova Morocco Nepal Niger Nigeria Pakistan Panama Paraguay Philippines Romania Rwanda Senegal Serbia Slovak Republic South Africa Sri Lanka Tajikistan Tanzania Tunisia Turkey Uganda Uzbekistan
+
+Table B6. Countries in Layer 2
+Benin Botswana Cambodia Ecuador El Salvador Gabon Ghana Guatemala Indonesia Mali Mauritania Mongolia Peru Thailand Vietnam
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+A5
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table B7. Countries in Layer 3
+Argentina Australia Austria Belgium Bulgaria Canada Croatia Denmark Estonia France Germany Greece Hungary Ireland Israel Italy Japan Kazakhstan Latvia Luxembourg Montenegro Netherlands New Zealand Norway Portugal Slovenia Spain Sweden Switzerland United Kingdom United States Uruguay
+
+Figure B1. Groupings of Countries and Variables in Different Layers
+
+References
+Blanchflower, D. G., and Oswald, A. J. 2004. “Well-Being Over Time in Britain and the USA,” Journal of Public Economics (88:7-8), pp. 1359-1386. Easterlin, R. A. 1974. “Does Economic Growth Improve the Human Lot? Some Empirical Evidence,” in Nations and Households in Economic Growth: Essays in Honor of Moses Abramovit, P. A. David and M. W. Reder (eds.), New York: Academic Press, pp. 89-125.
+
+A6
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Fahey, T., and Smyth, E. 2004. “Do Subjective Indicators Measure Welfare? Evidence from 33 European Societies,” European Societies (6:1), pp. 5-27. Greenfield, E. A., and Marks, N. F. 2004. “Formal Volunteering as a Protective Factor for Older Adults’ Psychological Well-Being,” The Journals of Gerontology (59:5), pp. S258-S264. Helliwell, J. F. 2006. “Well-Being, Social Capital and Public Policy: What’s New?,” The Economic Journal (116:510), pp. C34-C45. Shields, M. A., and Price, S. W. 2005. “Exploring the Economic and Social Determinants of Psychological Well Being and Perceived Social Support in England,” Journal of the Royal Statistical Society: Series A (Statistics in Society) (168:3), pp. 513-537. Welsch, H. 2002. “Preferences Over Prosperity and Pollution: Environmental Valuation Based on Happiness Surveys,” Kyklos (55:4), pp. 473-494.
+
+Appendix C
+Instrumental Variable Analysis
+In order to examine the effect that the level of ICT has on the level of a country’s well-being, we performed an instrumental variable analysis to control for possible endogeneity that is driving both the level of ICT in a country and the level of well-being in that country. To control for an endogenous factor that may be driving the results, we use an instrumental variable that is correlated with the dependent variable, but not correlated with the independent variable apart from through the possible correlation between x and y. For example, “costshifters” (Nevo 2000), characteristics of competing products and characteristics of different products manufactured by the same firm (Berry et al. 1995) can be used as possible instrumental variables. In this study, we made use of an instrument that is similar to the cost-shifter approach. One factor that has caught the attention of researchers in recent years is the average slope of the terrain. Researchers have argued that the slope of the terrain is correlated with the cost in rolling out broadband Internet (Kolko 2012), in addition to traditional fixed-line telephones and towers for mobile phones. There is perhaps no driving factor behind the slope of the terrain and its corresponding relationship with the level of ICT in a country. We use this variable as an instrument to control for the ease in providing ICT services to citizens. One drawback of using the slope of the terrain is that the instrument in static in nature as opposed to the longitudinal panel structure of our data. To overcome this, we used two instruments. The first instrument, provided by Nunn and Puga (2012), is cross-sectional in nature and is the slope of the terrain weighted by the country’s population. This is computed by calculating the Terrain Ruggedness Index for a country and weighting it by the proportion of the country’s population that lives in that area. In addition, to overcome the static nature of the instrumental variable, we multiplied the slope of the terrain with the population density of the country. Since we have information on the population density across the panel for our data, we are able to construct a dynamic instrument to use with our panel data. The advantage of using such a dynamic instrumental variable is the ability to control for endogeneity that may be present in the analysis.
+
+Additional Instrumental Variable Analysis
+The tables presented below provide detailed test results for the instrumental variable analysis already presented in Table 2, Panel A in the main text of the paper. Specifically, we conducted tests for overidentification, underidentification, weakness of the instrument, and the endogenity of the instrument using a number of statistical tests. However, due to the upper bound of the number of countries that we were able to include in the analysis, we are limited by the sample size that we are able to have for these tests. The exogeneity test was not conducted for the panel data due to clustering of errors that was done for the model. The results that have been provided in Table 2, Panel A (and the corresponding tests that have been provided in Table C1) are for a larger set of countries than have been included in Table 1. However, we document that our results (as shown in Table C2 and C3) are robust to the smaller set of countries presented in Table B3.
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+A7
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Table C1. Additional Tests for Instrumental Variable
+2011 Correlation with ICT - First Stage test p-value Underidentification (KleibergenPaap rk LM statistic) p-value Weak IV (Cragg Donald F Statistic) Exogenous to well-being (WuHausman test) p-value Supported .000 Supported 0.031 Partially Supported (maximal size: 20-25%) Variable is Exogenous .7928 2012 Supported .000 Not Supported .1140 Not Supported (Maximal size greater than 25%) Variable is Exogenous .3627 Complete Data Set Supported .000 Not supported .1474 Supported (Close to 10%)
+
+Table C2. Instrumental Variable Regression
+Year Total ICT Constant Number of Observations Instrumental Variable Constant Number of Observations 2011 2012 .0142*** .0203*** (.0046) (.0073) -3.4991*** -4.7024*** (.7110) (1.2347) 94 91 First Stage Regression 30.3128** -20.5516 (12.5978) (15.6210) 173.6306*** 182.9437*** (12.7280) (13.1291) 94 91 Complete Data Set .0139* (.0077) -3.2871*** (1.1654) 699 -15.0497** (6.4434) 154.6849*** (5.3699) 699
+
+Table C3. Additional Tests for Instrumental Variable
+Correlation with ICT–First Stage Test p-value Underidentification (Kleibergen-Paap rk LM statistic) p-value Weak IV Exogenous to well-being p-value 2011 Supported .000 Supported 0.0940 Not Supported Maximal IV size >25% Variable is Exogenous .4453 2012 Not statistically Supported .000 Not Supported 0.2970 Not Supported Maximal IV size > 25% Variable is Exogenous .4400 Complete Data Set Supported .000 Not supported .39 Not Supported Maximal IV size > 25%
+
+References
+Berry, S., Levinsohn, J., and Pakes, A. 1995. “Automobile Prices in Market Equilibrium,” Econometrica: Journal of the Econometric Society (63:4), pp. 841-890. Kolko, J. 2012. “Broadband and Local Growth,” Journal of Urban Economics (71:1), pp. 100-113. Nunn, N., and Puga, D. 2014. “Country Ruggedness and Geographical Data” (diegopuga.org/data/rugged).
+
+A8
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Appendix D
+Biclustering
+One of the general methods that has received attention in the field of biclustering is the plaid algorithm (Lazzeroni and Owen 2002). The plaid algorithm works by attempting to fit the data in to layers (or clusters) that contain a combination of similar variables and observations to maximize the variance explained by the model. In our case, a layer would contain a collection of countries that use the three metrics of ICT (fixed line telephone, Internet, and mobile phones) in a similar manner. The plaid algorithm adjusts the loadings onto the different layers to minimize the difference between the sum of squares between the actual data and the fitted data. In addition, the user specifies parameters that include the row release value and the column release value which are based on telling the algorithm to drop a row/column based on how heterogeneous we would like the layers to be. Additionally, the algorithm often picks up “noise” layers that have to be dropped from the model. Suppose we represent the data as
+
+xij ≈ μ0 +  μk ρik k jk
+k =1
+
+K
+
+Where xij represents the data point for the ith country (i = 1, 2, …, r) with the jth ICT variable (j = 1, 2, …, n). In addition, m0 represents the expression layer or the background later and mk represents the expression on the kth layer (k = 1, 2, …, K) and ρik and kjk are indicator variables taking either the values of 0 or 1. ρik takes the value of 1 when the ith country is in the kth layer and otherwise takes a value of 0 when it is not. On the other hand, kjk takes a value of 1 when the jth ICT variable is in the kth layer (and 0 otherwise). A more general way to represent the data point is in the form of an ANOVA expression where we have the following representation:
+
+xij ≈ μ0 +  μk + αik + β jk ρik k jk
+k =1
+
+K
+
+(
+
+)
+
+Where αik and βjk represent the effect of the ith row and the jth column respectively and ρik and kjk continue to have their indicator variable status. Now, if we represent θijk = μk + αik + βjk, the problem becomes one of minimizing the equation given below based on choosing appropriate values of ρik, kjk and θijk. The plaid algorithm is set up without enforcing any conditions on ρik and kjk. This allows countries and variables to enter multiple rows and columns and does not restrict them to a single layer. The following equation represents the squared difference between the data point and the estimated point:
+k  1 r n  Q =    xij − θij 0 −  θijk ρik k jk  2 i =1 j =1   k =1 2
+
+However, the method to optimize the objective function given above is not trivial. To obtain a detailed description of appropriate minimization methods, we refer interested readers to Lazzeroni and Owen (2002) for a description of the methodology. In addition, the user is required to specify row release values as well as column release values. Following the developers of the algorithm, these are specified to .51 for each. Additionally, we set conditions that the row and column coefficients had to have the same sign and shuffled four times. We then repeatedly run the algorithm to obtain layers of countries and observations. To run the software, we use the Plaid software that we obtained from the developers of the algorithm.
+
+Reference
+Lazzeroni, L., and Owen, A. 2002. “Plaid Models for Gene Expression Data,” Statistica Sinica (12:1), pp. 61-86.
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+A9
+
+Ganju et al./ICT and the Well-Being of Nations
+
+Appendix E
+Role of Mediating Variables Between ICT and Well-Being
+To examine whether the proposed mediating variables (social capital, social equality, health, education, commerce, and employment) do explain how and why the relationship exists, using a 2SLS model1 in an exploratory fashion using a set of proxies for the proposed mediators, we present some initial evidence on the variables that are proposed to mediate the effect of ICT on a country’s well-being. Although some of the proxies that we use to capture the mediators between the use of ICT and the level of well-being in the country may not be comprehensive, we present the analysis as initial evidence of the mechanism of how the use of ICT can affect the level of well-being. The proxies used to estimate the proposed mediating variables are presented in Table B2 in Appendix B. Figure E1 illustrates that the use of ICT increases the level of social equality in the population (measured by proxy), enhances the level of health of the population (measured by proxy), and increases the level of education (measured by tertiary education) and commerce (measured with GDP). In turn, these mediators are shown to affect the level of well-being for the country, following the literature. These findings pave the way for a theory of how and why the use of ICT shapes a nation’s well-being.
+
+Figure E1. Proposed Mediating Variables Between ICT and Well-Being
+
+1
+
+The model is a two-stage least squares (2SLS) model to control for simultaneity. The results are also robust to a seemingly unrelated regression (SUR) model (not shown for brevity).
+
+A10
+
+MIS Quarterly Vol. 40 No. 2—Appendices/June 2016
+
+Copyright of MIS Quarterly is the property of MIS Quarterly and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

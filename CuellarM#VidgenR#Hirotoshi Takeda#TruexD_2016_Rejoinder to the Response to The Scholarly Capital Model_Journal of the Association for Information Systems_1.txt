@@ -1,0 +1,98 @@
+J
+Dialog
+
+ournal of the
+
+A
+
+ssociation for
+
+I
+
+nformation
+
+S
+
+ystems
+ISSN: 1536-9323
+
+Rejoinder to the Response to “The Scholarly Capital Model”
+Michael J. Cuellar
+Information Systems, Georgia Southern University, USA mcuellar@georgiasouthern.edu
+
+Hirotoshi Takeda
+Département des systèmes d'information organisationnels, Université Laval, Quebec, Canada hirotoshi.takeda@fsa.ulaval.ca
+
+Richard Vidgen
+UNSW Business School, University of New South Wales, Australia r.vidgen@unsw.edu.au
+
+Duane Truex
+CIS, Georgia State University, USA dtruex@gsu.edu
+
+Abstract:
+Crowston (2016) makes several criticisms of “the scholarly capital model”. In sum, he argues that we fail to develop novel measures, continue the worst aspects of the current system in terms of encouraging co-authorships with old boys, reinforce journal list fetishes, and that the SCM still provides ample ways to game the system. In response to his criticisms, we reaffirm that SCM’s aims to address the question “does this scholar possess sufficient scholarly capital to enable our organization to achieve its research goals?”. We argue that examining the research capital that a scholar brings to the organization is an improvement over the current method of evaluating scholars based on their number of publications in ranked journals. The profile of measures that we propose, while not as novel as altmetrics, encourages widespread co-authorships, de-centers the journal lists, and, thus, eliminates the journal fetishism and ecological fallacy present in the current system. Keywords: Scholarly Capital Model, Ecological Fallacy, Journal Rankings, Research Evaluation.
+
+Volume 17
+
+Issue 1
+
+pp. 34 – 38
+
+January
+
+2016
+
+35
+
+Rejoinder to the Response to “The Scholarly Capital Model”
+
+1
+
+Rejoinder
+
+We thank Kevin Crowston (2016) for engaging with our work and providing trenchant criticism on the substance of our paper. Indeed, throughout the review process, Crowston raised critical issues that have motivated us to develop our ideas with greater rigor, which has greatly improved the paper. However, as one might expect, we disagree with his conclusions and make the following response. The aim of the scholarly capital model (SCM) is to address the question “does this scholar possess sufficient scholarly capital to enable our organization to achieve its research goals?”. We do not suggest that one use the SCM to judge the quality of a scholar’s research output. Rather, we use the SCM to assess a scholar’s ideational influence (the uptake of their ideas by others), connectedness (their ability to form structural relationships in their research community), and venue representation (the extent to which they publish in the venues that constitute their research field). This assessment —scholarly capital— provides an indication to P&T and hiring committees and grant-awarding organizations about what a scholar brings to the table. Crowston (2016) argues that we should have engaged with altmetrics. As we discuss in our original paper, altmetrics is indeed a promising area that deserves further study for assessing scholarly capital. However, we used the well-established metrics of the h-family indices and social network analysis, which have a long history, are well respected in the literature, and are now becoming readily available. Contrary to Crowston’s (2016) claim that the h-family of indices are simply “counting citations” , the h-index and its subsequent variants were created to assess both a scholar’s productivity and influence. In regards to connectedness and venue representation, contrary to Crowston’s (2016) claim, we mean to represent a scholar’s capital in terms of their ability to co -author with other researchers and to understand which publications publish their work. We do not evaluate the quality of the scholar’s research output. We do not claim that connectedness, as portrayed through co-authorship relationships, can capture all aspects and dimensions of scholarly collaboration and communication. Instead, we use co-authorship as a proxy for communication by arguing that it evidences the sharing of ideas and the existence of a relationship between scholars. Connectedness represents a significant and strong type of relationship between scholars and is a pragmatic choice given the challenge of collecting data on, for example, hallway conversations, private meetings, emails, conference encounters, and presentation interactions. We certainly do argue that a scholar who can co-author with many different people brings more scholarly capital (in terms of connectedness) to an organization than does a scholar who cannot or chooses not to forge co-authorship relationships. Rather than creating bias in the scholarly capital measures, we argue that connectedness measures something of importance to an academic organization: the ability to expand their influence through strong connections with other scholars. The “old boys” argument in terms of connectedness that Crowston (2016) presents holds that, somehow, the measure is flawed because the “old boys” co-author with more people than others because they are part of the “old boys” network. The respondent makes a similar argument about the supervisor -doctoral student relationship: a scholar with more doctoral students will generate more papers with more authors in the field and, therefore, be more central than one who does not. We reply that, rather than showing the measure to be flawed, it measures exactly what it is intended to measure. The “old boys” have more capital because they have these relationships, which may lead to them generating more papers, getting more grants, and, ultimately, publishing more influential papers than others scholars. Whether this is problematic depends on the viewer’s perspective. An “old boy” might say it is the way it should be, whereas a critical theorist might say it oppresses new scholars. Whichever way one views it, the SCM simply measures what is (i.e., the extent to which a scholar has connectedness capital). Crowston (2016) argues that venue representation commits an ecological fallacy in attributing the average characteristics of a journal to the papers published in it. We argue that the current system of journal quality lists is itself exactly the ecological fallacy that Crowston abhors. Although it is the journals that are ranked by various scholars and groups of scholars, it is but a small turn to then infer the “quality" of a paper on the basis of the journal in which the paper appears. In contrast, we do not assess a paper’s quality; rather, we assess the extent to which a scholar publishes in journals that are core to their field. Rather than have a panel of experts make a list of journals, we propose that we should use Mingers and Leydesdorff’s (2014) approach of analyzing cross-citations between publication venues, together with factor analysis, to define research fields. Thus, one can implement our proposed approach algorithmically rather than by relying on a group of “old boys” who predetermine a basket of desirable publication outlets.
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+36
+
+In terms of the centrality measures used to determine venue representation, the idea is to capture how well the scholar has spread their work around a field’s central journals. Using an author-publication network, we capture how central their work is to the field. We proposed using three popular measures (betweenness, closeness, degree) because each of these measures gives a different insight into the network. As regards developmental collections, such as the SPROUTS repository, these may or may not be central to the IS field depending on which scholars publish in them: the SCM approach treats all publication venues equally, and only by performing the SCM analysis can we identify which venues constitute the IS field and which of those venues are most central. However, we recognize that one can use many ways of analyzing networks and many network metrics, and we encourage further exploration of this issue. Crowston (2016) also criticizes our claim that our proposed process is fairer than the current system of counting publications in ranked journals and argues that any method is the result of arbitrary decisions as to authors, venues, and so on. We disagree with his notion that “counting publications in target journals is also entirely objective” (p. 31) because someone (or some “body”) has to select venues and, thus, predetermine what counts as relevant. Additionally, we strongly disagree that our proposed approach is based on “arbitrary decisions”. Rather, if one adopts Mingers and Leydesdorff’s (2014) approach of journal co-citation and factor analysis, then one can choose the journals that constitute the IS field based on data. Crowston (2016) summarizes his critique by indicating that we have failed to develop novel measures; that the measures that we have selected continue “citation counting” and “embody the worst evaluation practices” rewarding those who publish with “old boys” and the continuing fetishization of a list of journals. We have addressed the issues of citation counting, “old boys”, and the journal fetish above. Crowston further argues that those who learn to “game” the system will realize that they should publish with certain aut hors or in certain journals to gain high centrality scores on connectedness and venue representation and/or that there has been some systematic attempt to exclude scholars from publishing with the elites or in the central journals. We do not deny that scholars with large numbers of doctoral students will tend to have higher connectedness scores, but this outcome simply reflects reality. Fair or not, they have published with more authors and are, therefore, more highly connected, especially if their students go on to become highly influential scholars in their own right. We also contest the idea that venue representation necessarily promotes the Senior Scholar’s basket of eight journals. While it would be remarkable if the basket of eight journals was not central to the IS field, there is no reason that this has to be the case or that it will continue to be: the field will be determined in large part by where scholars choose to publish. In any event, we did not set out to create a “novel”, single measure by which to rate a scholar. Rather, we wanted to explore a set of measures that provide a composite picture of the capital that a scholar possesses. In summary, the SCM assesses the research capital that a scholar brings to an academic organization in terms of their ability to influence the field (do other scholars use their work?), connect with other scholars (to what extent are they working with others in their research community?), and publish their research in the venues that constitute their research field (are they really an IS scholar?). The three dimensions we propose in our SCM are all facets of a researcher that should be relevant to a P&T or hiring committee.
+
+Acknowledgements.
+While engaged in this research program, Duane Truex served as Professor of Industrial Economics at Mid Sweden University (Mittuniversitetet, Sundsvall Sweden).
+
+Volume 17
+
+Issue 1
+
+37
+
+Rejoinder to the Response to “The Scholarly Capital Model”
+
+References
+Crowston, K. (2016). Response to “Ideational influence, connectedness, and venue representation: Making an assessment of scholarly capital”. Journal of the Association for Information Systems, 17(1), 29-33. Mingers, J., & Leydesdorff, L. (2014). Identifying research fields within business and management: A journal cross-citation analysis. Journal of the Operational Research Society, 66, 1370-1384.
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+38
+
+About the Authors
+Michael Cuellar is an Assistant Professor in the Information Systems department of Georgia Southern University. He received his PhD in 2009 from Georgia State University. His research interests are focused on the areas of project management and organizational change, critical realism as applied to Information Systems and the nature of scholarly capital. He has published in the European Journal of Information Systems, the Journal of the Association for Information Systems, and the European Journal of Operations Management, as well as the ICIS, AMCIS, and other conferences. He is Managing Editor for the Journal of the Southern AIS and a Senior Editor for JISE and on the editorial boards of Database and BISE. He has been the secretary for the AIS SIG ITPM from 2009 to present. Hirotoshi Takeda is an Assistant Professor of Management Information Systems at Laval University in Quebec City, Canada. He has seven years of industry experience in telecommunications, semiconductor manufacturing, and IT consulting. After his career in industry, he graduated with a PhD in Computer Information Systems from Georgia State University and a PhD in Management from the University of Paris Dauphine. He has degrees in electrical engineering and computer science from UC Irvine, a Masters of Electrical Engineering from the Georgia Institute of Technology and his MBA from Southern Methodist University. His research interests include discourse analysis, mobile computing, bibliometrics, virtual communities, knowledge management, supply chain management, and green IS. His research has appeared in the Journal of the Association for Information Systems , European Journal of Information Systems, Information Systems Educators Journal, and the proceedings of the ICIS, AMCIS, SAIS, UKAIS, ISECON, and IFIP WG 8.2. Richard Vidgen is Professor of Business Analytics at the University of New South Wales Business School, Australia. Following fifteen years working in the IT industry he has held professorial positions at the University of Bath and the University of Hull in the UK. His research interests include (1) business analytics and data science, (2) the evaluation of technology and its use in supporting behavior change for pro-societal benefit, and (3) the application of complex adaptive systems theory, ideas, and models to the study of information systems and analytics. Duane Truex holds joint appointments in the Computer Information Systems Department and in the Institute of International Business of the J. Mack Robinson College of Business at the Georgia State University where he also serves as the Program Director for the GSU’s University of Nantes (France) Academic Exchange program. He has held additional academic appointments in Sweden (as Professor of Industrial Economics at the Mid Sweden University, in France (as a Research Professor at Université de Nantes) and in England as a former Leverhulme Fellow (at Salford University). In addition to his inquiries into the nature of scholarly influence, his research explores the emergent and performative properties of language as instantiated in information systems development (ISD) and in the design of enterprise systems, the effect of organizational emergence on systems architectures and post-implementation governance of enterprise-wide systems (ES), and the social impacts of information systems (IS) on society.
+
+Copyright © 2016 by the Association for Information Systems. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and full citation on the first page. Copyright for components of this work owned by others than the Association for Information Systems must be honored. Abstracting with credit is permitted. To copy otherwise, to republish, to post on servers, or to redistribute to lists requires prior specific permission and/or fee. Request permission to publish from: AIS Administrative Office, P.O. Box 2712 Atlanta, GA, 30301-2712 Attn: Reprints or via email from publications@aisnet.org.
+
+Volume 17
+
+Issue 1
+
+Copyright of Journal of the Association for Information Systems is the property of Association for Information Systems and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

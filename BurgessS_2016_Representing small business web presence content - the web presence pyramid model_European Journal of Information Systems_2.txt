@@ -1,0 +1,515 @@
+European Journal of Information Systems (2016) 25, 110–130
+© 2016 Operational Research Society Ltd. All rights reserved 0960-085X/16
+www.palgrave-journals.com/ejis/
+
+EMPIRICAL RESEARCH
+
+Representing small business web presence content: the web presence pyramid model
+Stephen Burgess
+Information Systems, College of Business, Victoria University, Melbourne, Australia Correspondence: Stephen Burgess, Information Systems, College of Business, Victoria University, PO Box 14428, Melbourne, Victoria 8001, Australia. Tel: +61 3 9919 4353; E-mail: Stephen.Burgess@vu.edu.au
+
+Abstract This article investigates ‘stage’ models that have been developed for researchers, practitioners and policymakers to explain how small businesses move from a basic to a sophisticated online presence and/or provide advice as to how they could do this. The main problem of these models is that small businesses do not necessarily develop their online presence in this manner. In addition, they do not consider that the online presence of most small businesses extends beyond their own website to the use of third party web portals, business directories and more recently social media websites. A new model, the web presence pyramid model, is thus proposed. The model represents the adoption levels of different categories of website features and does this in a non-linear manner, overcoming a limitation of stage models. A further contribution of the article is the classification of the web presence of small business industry sectors into new categories: Basic Web Presence; Added Value Websites; Online Database Websites and Payment Web Presence. A survey approach was used to conduct an online content analysis of the web presence of Australian small businesses, with the different types of web presences across industry sectors presented using the web presence pyramid model. European Journal of Information Systems (2016) 25(2), 110–130. doi:10.1057/ejis.2015.4; published online 21 April 2015
+Keywords: small business; web presence; pyramid model; stage models; website content
+
+Introduction
+Over the last decade a number of ‘stage’ models have been introduced by industry and academics to describe and/or prescribe how a small business might progress from a simple online presence to a more sophisticated one. The purpose of these models has typically been to represent the stages of development of an online presence, understand their evolution and/or provide direction for businesses to improve their operations. Such models operate under the notion that small businesses begin their web presence with a simple website and/or e-mail presence and then add complexity afterwards (Levy & Powell, 2003; Alonso Mendo & Fitzgerald, 2005). These models have been criticised as being too simplistic and not adequately representing how the online presence of small businesses develops. Also, they tend to treat small businesses as one homogeneous group, which they are not. Finally, they do not consider that the online presence of small businesses extends beyond their own business websites to their ‘web presence’. The web presence includes small businesses potentially having their own website and also a presence on third party websites such as portals, business directories and social media websites. Even with their shortcomings, stage models are still being used by academics today to attempt to represent the small business online presence – but it is possible to improve
+
+Received: 14 November 2013 Revised: 01 March 2014 2nd Revision: 16 May 2014 3rd Revision: 10 August 2014 4th Revision: 23 September 2014 5th Revision: 10 January 2015 Revised: 22 January 2015 Accepted: 06 February 2015
+
+Web presence pyramid model
+
+Stephen Burgess
+
+111
+
+on them. This article proposes a new model, the web presence pyramid model, to represent the small business web presence across industry sectors. The article commences with a discussion of stage models, including their application and limitations. The notion of the small business web presence (including third party websites) is then introduced. The web presence pyramid model is proposed to address the shortcomings of stage models and to incorporate the small business web presence. A study of the web presence of Australian small businesses is presented to illustrate the model in action and demonstrate how it could be used by academics and practitioners. The study employed a survey approach to conduct an online content analysis of the web presence of Australian small businesses. This approach allowed the existence or absence of particular website features across the web presence to be determined and the different types of web presences across industry sectors to be presented (using the new model). New categories describing the web presence are introduced to describe the different types of web presence that are evident across these sectors. Finally, the implications of the research for academics and practitioners, the limitations of the study, generalisability of the results and possibilities for further research are discussed.
+
+Background
+Information and communications technologies (ICTs) (such as the internet) can be employed to improve the operations of businesses, but their use alone does not ensure success for a business (Foley & Ram, 2002). This is particularly the case with small businesses, where ICT use and effectiveness is limited by resource scarcity when compared with larger organisations (Ghobakhloo et al, 2012). Although small businesses make an important contribution to national economies, their effective use of ICT could improve their contribution (Kapurubandara, 2009) and beneﬁts can potentially be obtained from ICT use to ‘transform’ businesses (Alonso Mendo & Fitzgerald, 2005). However, small businesses have typically not gained the value from their online presence that might have been expected (Ashurst et al, 2011). Deﬁnitions for ‘small business’ differ across regions. Although most deﬁnitions tend to focus upon the number of employees as the primary measure, some deﬁnitions use other measures such as annual turnover and/or level of assets owned. Burgess et al (2009) suggested that a small business was any business with 1–20 ‘regular’ (ongoing) employees. In their study of Australian small and medium sized businesses, Telstra Corporation (2012) considered any business with 1–19 employees to be a small business. This deﬁnition is adopted for this article.
+
+(forecasting future events) or normative (guiding users on actions to take, following ‘commonly’ accepted practices) (Bhattacherjee, 2012). Models examining and classifying the content of websites have been evident from around the turn of the century. They were generally developed to explain how businesses moved to an online presence and/ or act as a guide to how they could do this effectively (Kapurubandara, 2009). Thus, they were either descriptive or normative models. Piccoli et al (2004) discussed a ‘long’ history of stage models, which have a foundation in organisational and information systems research. The typical approach used in these models is that a business is expected to follow a logical path through distinct stages to achieve business transformation. Poeppelbuss et al (2011) suggested that these stage models fall into the category of maturity models. This article is concerned with how researchers have examined and classiﬁed small business website presence content rather than how they have evaluated website performance. For an example of studies that target website evaluation, a comprehensive discussion and summary of website evaluation studies in the tourism arena is provided by Law et al (2010). It is important to note, however, that some website evaluation studies do examine website content as part of their overall assessment. For instance, Ip et al (2011) examined website evaluation studies between 1996–2009 in the tourism and hospitality areas. The authors suggested that such studies could be categorised in three ways:
+●
+
+●
+
+●
+
+Evaluation by phases: Studies that examine how websites can be classiﬁed over different phases. The stage models described in this article would fall into this category. Evaluation by features: Studies that examine speciﬁc website features but have no overall evaluation framework. Speciﬁc areas examined are website content (of interest in this article) and website design. Evaluation by features and effectiveness: These studies use some means to evaluate the effectiveness of websites, such as evaluation by experts, consumer intentions or user satisfaction.
+
+Models to examine website content A model is a representation of a system. From a research viewpoint, models differ from theory as their role is to represent a system, not to explain it. Models can be descriptive (representing an occurrence); predictive
+
+The topic of this article ﬁts into the ﬁrst two categories, as the models examined typically consider different phases of small business website development and their associated website content. Another example of a website evaluation model that examines website content as part of its brief is the website assessment index as proposed by Miranda González & Bañegil Palacios (2004). The evaluation index allows a mark out of 100 to be ‘awarded’ to a website, based on 50 marks for the quality of content and the remainder for accessibility, speed and navigability. The marks for website content are divided into informational content (20 marks for features such as company background, product/service description ﬁnancial information and so forth), transactional content (15 marks for the ability to process online orders) and communication content (the
+
+European Journal of Information Systems
+
+112
+
+Web presence pyramid model
+
+Stephen Burgess
+
+existence of features such as e-mail address, telephone number and so forth). The authors used the index to evaluate the websites of the Top 200 businesses in Spain. Although these were obviously not small businesses, the website assessment index was later used by Sanders & Galloway (2013) to evaluate and compare the quality of small businesses in urban and rural Scotland. The importance of informational, transactional and communication content will become apparent later in the article. The discussion will now examine some of the stage models that have been targeted speciﬁcally towards small businesses. Note that although the emphasis of this article is primarily on the small business web presence, this has been described in a number of different ways (and with different emphases) by a number of authors over time. Thus, when different terms such as e-business; electronic commerce; internet commerce; web adoption; and website are used in regards to the following stage models, for the purposes of this article it is considered that these authors are generally referring to the development of small businesses websites. Different authors have outlined the importance of such models to researchers, policymakers and small businesses:
+●
+
+Figure 1 The DTI e-adoption ladder. Source: Adapted from DTI, 2002.
+
+The model is characterised by four stages that reﬂect the increasing complexity of electronic commerce over time:
+● ●
+
+●
+
+●
+
+They could represent the stages of development of an online presence in a logical sequence, each being an improvement on the previous stage (Rao et al, 2003). They could thus describe, explain, measure or understand the evolution of the online presence (Foley & Ram, 2002; Rao et al, 2003; Zhu et al, 2009). They could provide direction for businesses to improve their operations (Rao et al, 2003) or predict the evolutionary process that may occur (Zhu et al, 2009).
+
+●
+
+●
+
+Presence: This stage is a basic ‘brochure’ website (providing basic information about the business). Portals: This stage introduces ‘two way’ communication with customers via means such as allowing them to place orders via the website or provide feedback on goods and services through online surveys and so forth. Transactions Integration: This stage is typiﬁed by the ability to conduct online ﬁnancial transactions, but can also include related activities such as online auctions. Enterprises Integration: In this stage, business processes are completely integrated with the online business and involve signiﬁcant collaboration between business partners.
+
+Thus, as outlined earlier, these models were either descriptive (representing website development) or normative (providing direction for how small businesses could improve their operations). Some of these models will now be discussed. The U.K. Department of Trade and Industry (now the Department for Business, Innovation and Skills) (DTI, 2002) proposed an e-business adoption ladder (based on an earlier model proposed by Cisco) that could be used to classify small and medium sized enterprises (SMEs) based on their degree of internet use and business adaptability. The ladder (refer Figure 1) identiﬁes increasing complexity in regards to the development of an online presence. The use of e-business by small businesses and the subsequent beneﬁts derived are presented as a guide that allows a business to be classiﬁed according to the level of complexity and sophistication. The concept behind the ‘ladder’ is that there is an assumption that small businesses will move through the represented stages progressively. Note that this model also presents a stage before website adoption – that of e-mail use. The next few models that are presented do not have this preliminary stage. Rao et al (2003) proposed a model (refer Figure 2) examining electronic commerce development by SMEs.
+
+The ﬁrst three stages of the Rao et al (2003) model have some parallels with the Miranda González & Bañegil Palacios (2004) web assessment index mentioned earlier. For each stage of the model, a number of barriers and facilitators were identiﬁed to assist a small business to decide if it should progress to a later stage. Zhu et al (2009) employed and extended Rao et al’s (2003) model to examine the sophistication level of Canadian winery websites. The authors used the four stages of the initial model, but also extended it to incorporate industry clusters and supply chain partners. Another example of a stage model is that proposed by Burgess et al (2001). Their ‘3Ps web adoption’ model has been applied to various Australian industries such as tourism and metal manufacturing. The model proposes that websites have three progressive stages, with appropriate content associated with each stage. The model contains the following stages:
+●
+
+●
+
+Promotion Stage: This is an information stage that involves the website detailing business contact details and providing product and/or service information that promotes the business on the internet. Provision Stage: This stage adds functionality to a website and adds features such as a catalogue or price
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+113
+
+Figure 2 SME e-commerce development model. Source: Adapted from Rao et al, 2003.
+
+●
+
+list (not linked to a database), support for the customer in the form of frequently asked questions and website links that add value for a visitor to the site. Industryspeciﬁc information content is incorporated at this stage. Processing stage: This is the transaction phase of Website evolution and involves online ordering, processing and payment activities associated with business products or services.(Figure 3).
+
+Although the delineation between the ‘stages’ in the examples provided thus far is different, the similarity of approaches (from basic to advanced websites) is obvious in all of the models discussed. Cooper & Burgess (2000) used the Model of Internet Commerce (MICA) to study the Australian metal fabrication industry. This was a stage model that suggested SMEs commenced activities with a simple web presence and built on functionality over time with increased experience and expertise. The model was later enhanced with the realisation that ‘complexity and functionality vary greatly between applications, and even between businesses in an industry sector’ (Burgess et al, 2009, p. 522). Although the initial model introduced three stages of internet commerce adoption (promotion, provision and processing), an extended model (eMICA) added extra layers ‘functionality and innovation’ within the stages (refer Figure 4). The eMICA model was subsequently used by Lin et al (2009) to analyse the content of travel agent websites in China. The model was extended by Ting et al (2012) to incorporate website breadth (including level of interactivity, navigation features and functionality) and website enrichment (for instance, use of multimedia). IBM introduced a model of ‘stages and states of e-business’ (Stone, 2003). The stages represented how businesses
+
+Figure 3 Web adoption ‘3Ps’ model. Source: Adapted from Burgess, Parrish, Cooper and Alcock, 2009.
+
+moved from the early stage of e-business, through the integrating stage (where complexity and volume of transactions with other businesses and employees increase) until they ﬁnally reached the advanced stage (re-examination of business model and increased reliance on the internet as a platform to interact with other businesses and employees). The ﬁrst two stages included a series of ‘states’ that businesses can move through. Figure 5 outlines these stages and states. Ashurst et al (2011) used the IBM model to examine a single SME’s e-business activities over a 10-year period. Foley & Ram (2002) developed the PIT model to measure the progress of e-business in organisations. The proponents suggested that e-business could be used to (P)ublish information on a website, to (I)nteract with customers and suppliers and to (T)ransform the manner in which organisations undertake their activities. The authors suggested that a difference with this approach was that there could be different levels of these activities across different areas of an organisation. Thus, they proposed that the level of
+
+European Journal of Information Systems
+
+114
+
+Web presence pyramid model
+
+Stephen Burgess
+
+Figure 4 eMICA model. Source: Adapted from Burgess et al, 2009.
+
+Figure 5 IBM stages and states of e-business. Source: Adapted from Stone (2003); Figure 1.
+
+basically referred to stages of website development. Four stages were developed, with subsequent ‘sub stages’ also identiﬁed. These are shown in Figure 7. Oliveira & Martins (2011) examined the factors that determined the adoption of ‘Internet business solutions’ in Portuguese ﬁrms with 10 or more employees. Although the study concentrated upon these factors, the authors identiﬁed a number of website ‘outcomes’ that appear to be similar to some of the stage models that have been discussed. The authors suggested that once a website had been adopted, there could be four levels of adoption:
+Figure 6 The PIT model. Source: Adapted from Foley & Ram, 2002.
+● ● ● ●
+
+e-business activity should be assessed across the business by way of a matrix (refer Figure 6), allowing for different e-business adoption levels across different business activities. The level of complexity of e-business use increases as an activity moves from the Publish stage through to the Transform stage. Kapurubandara (2009) examined the adoption of ICT by SMEs in Sri Lanka. Part of this study employed an ‘initial eSME Roadmap for SMEs’ (adapted from the work of Ginige et al (2001), which was modiﬁed as a result of the research). Part of the roadmap examined ‘external’ processes, which
+
+Website only Customer development/e-marketing (CDE) CDE with more customer service and support (CSS) CDE and CSS with ‘digital e-commerce’.
+
+The notion of stage models is not restricted to small businesses. For instance, Piccoli et al (2004) developed a stage model based on their research of Fortune 500 companies. Their model contained ﬁve stages of website growth. The end of each of the ﬁrst four phases of growth was characterised by a particular ‘crisis’, which drove the business to the next stage of website evolution. There has been some criticism of stage models. Levy & Powell (2003) suggested that few small businesses went beyond the early stages of website development and thus
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+115
+
+Figure 7 External stages and sub stages of eSME roadmap. Source: Adapted from Kapurubandara, 2009.
+
+questioned the value of stage models. Alonso Mendo & Fitzgerald (2005) supported this assertion and suggested that many small business websites can remain in (what they referred to as) a ‘dormant’ state for months or even years. Martin & Matlay (2001) referred to the stage models as ‘linear’ models and also argued that these models were too simplistic because of the diversity that small businesses exhibited. The authors suggested that this diversity included varying business sizes and other differences related to economic activity, location (such as metropolitan vs rural), availability of resources and level of ICT adoption. Even the U.K. Department of Trade and Industry (DTI, 2002) suggested that progression through such models, when it occurred, was not always linear. In fact, a study of the changes in website content of 39 micro businesses (Burgess et al, 2007) showed little evidence of stage growth and that some businesses had actually removed features from their websites. Simmons et al (2011) suggested that subsequent to the development of stage models, ‘contingent’ models had been developed that recognise that different types of businesses will take different approaches to their online presence. The stage models presented thus far are inward looking in regards to a business website and do not consider external inﬂuences (such as the website strategy of competitors). This notion is explored later in the article by examining the online presence of different industry sectors. Alonso Mendo & Fitzgerald (2005) developed a framework for SME e-business progression that examined three major ‘dimensions of change’ (reﬁned from Levy & Merry’s (1986) suggestions of how organisational change can be viewed): the drivers (reasons) for change, the process of change (such as minor updates or major redesigns) and the content of change (alterations to website features or components). The framework was tested by examining the websites of U.K. businesses. Of particular interest to this article is the content of change aspect of the Alonso Mendo and Fitzgerald framework. This aspect alone was wide reaching and included features related to navigability, accessibility, design/aesthetics, security and maintenance of the website. In relation to speciﬁc website
+
+features, the authors included categories of content for ‘promotion and contract’, ‘identiﬁcation and image’, ‘relationship enhancement’ and ‘transactional interactivity’. Burgess et al (2007) examined the websites of 39 micro businesses using the process of change and the content of change. The authors mapped speciﬁc website features to Alonso Mendo and Fitzgerald’s content categories. Parker et al (2011) identiﬁed website features and functionality that related to the existence of corporate social responsibility content on SME websites and classiﬁed these on the basis of the dimensions employed by Alonso Mendo & Fitzgerald (2005). Simmons et al (2011), building on earlier work (Simmons et al, 2008), used an approach similar to Alonso Mendo & Fitzgerald (2005) to examine the ‘determinants and outcomes’ of website adoption by small businesses. In determining outcomes in their evaluation model, the authors examined different dimensions of website content (refer Figure 8). This approach was used with the aim of determining a path to ‘website optimization’. As such, the examples given are a mix of navigation features, website features (as per the ‘stage’ models) and judgements in regards to ambience, relevance, potential and so forth. The hunt continues for an approach to the investigation of small business websites that is relatively easy to apply, reﬂects the actual online behaviour of small businesses and provides useful information for academia and practice.
+
+Web presence vs website Small businesses are now using third party websites, such as web portals, regional or business directories and social networking websites as part of their web presence. Galloway et al (2011, p. 254) described a portal as a ‘collective activity using the internet to present businesses via a collective brand, most often industry or location-speciﬁc’. A business directory is a simpler version of a portal and typically provides basic business information and sometimes a capability for customers to post reviews. Social networking websites such as Facebook assist small businesses with
+
+European Journal of Information Systems
+
+116
+
+Web presence pyramid model
+
+Stephen Burgess
+
+Figure 8 Dimensions of website content. Source: Adapted from Simmons et al, 2011.
+
+their marketing, communications with employees, partners and customers and even recruitment (Schaupp & Bélanger, 2013). The importance of third party websites to small businesses is growing. Tourism small businesses are using third party booking engines to allow customers to book their services; small businesses are using local portals and directories (Burgess, 2011) and social media websites are allowing them to interact with customers (Telstra Corporation, 2012). Although literature related to portals is growing (Galloway et al, 2011), there is a lack of studies into small business use of these third party websites. Tatnall & Davey (2005) examined a failed horizontal portal that had been set up to support small businesses in Australia. Gengatharen (2008) examined three regional portals in rural and metropolitan Australia and found that the culture of the rural area was a key to portal success in those regions. Quinton & Khan (2009) examined the effectiveness of business directories used by SMEs, determining that there was some evidence of trafﬁc being generated back to business websites. Galloway et al (2011) found that rural small business use of internet portals in Scotland facilitated the entry of businesses into the online environment, rather than speciﬁcally expanding their access to markets.
+
+The web presence pyramid model
+When considering an alternative to stage models, the aim is to provide an alternative approach that:
+●
+
+● ●
+
+Can represent the web presence(s) of a single small business or particular small business sectors. The purpose of this is to allow greater detail in regards to the web presence(s) being investigated than was possible under previous models – such as the opportunity for industry sector level analysis. Includes reference to the complete small business web presence rather than just the small business website. Is an alternative approach that does not rely on small businesses taking a predetermined, linear path to the development of their web presence and can be used by small business practitioners as well as researchers.
+
+Summary There have been a series of stage models proposed to explain the progression of small business websites and in some instances to provide some direction as to how small businesses should expand their websites. These models have been criticised as being linear and/or too simplistic and not representing the website progression of small businesses (if, indeed there is any progression). In addition, these models generally tend to treat small businesses as one homogeneous group, which they clearly are not. Finally, they do not consider that the web presence of small businesses extends beyond their own business websites to their presence on third party websites. This article proposes a new model to address these shortcomings.
+
+Theoretical basis The web presence pyramid model inherits and amends some aspects of earlier models. These models relied on the use of the different stages to represent the linear development of small business websites. In the web presence pyramid model these stages are replaced by Angehrn’s (1997) virtual spaces. When considering the classiﬁcation of web presence content, a simple approach to apply is Angehrn’s (1997) ICDT model. Angehrn proposed different online ‘spaces’ that businesses could occupy, which would then guide them to the selection of different website features for their websites. These spaces are:
+●
+
+● ● ●
+
+Virtual information space – information is passed from business to customer. This space includes features such as business contact details, descriptions of goods offered and other company information. Virtual communication space – the business engages in communication with customers (e.g., via e-mail). Virtual distribution space – allows for automated delivery of goods (such as online music, software or digital books). Virtual transactions space – allows for automated orders and payments or access to business databases to occur via the website without human (employee) intervention.
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+117
+
+The ICDT model has been used in a number of other studies to assist in the classiﬁcation of online activities. For instance, O’Brien (1998) proposed a travel industry version of the ICDT model and identiﬁed speciﬁc examples that could fall within each space (for instance, provision of information about the business would be part of the information space and a facility to download travel guides would be in the distribution space). Later, O’Brien & Burmeister (2002) considered the types of mobile services that could be employed in the travel industry and classiﬁed these according to the four spaces. Lee (2012) used the ICDT model to compare the content of 269 mathematics websites in Taiwan and China. The author (Burgess, 2011) has previously examined the website and third party web presence of 50 Australian small businesses using the ICDT spaces to classify website features. The use of Angehrn’s virtual spaces can reﬂect the manner in which small businesses develop their web presence, a progression that does not have to be linear. That is, there is no premise that small businesses would have to develop a presence in the information space ﬁrst, then the communications space and so forth. However, it is recognised that most small businesses will have website features in the information and communication spaces and so these areas form the basis of the model. In addition, Sigala (2001) and Li & Wang (2011) noted that each space can contain different levels of technical sophistication and customisation. That is, some features are simpler to implement than others and (as discussed in the previous section) some features are used more commonly than others. The model differentiates between these types of features by locating the more common features in each space in a central area in the model (as described later). Also, while stage models such as the SME e-commerce development model (Rao et al, 2003), the Web Adoption ‘3Ps’ model (Burgess et al, 2001) and the eMICA model (adapted from Burgess et al, 2009) all provide some indication of the types of website features that are included in each model stage, the web presence pyramid model extends this list by using the website categories listed in Appendix A, which drill down to a very speciﬁc list of website features within those categories. This makes it a very simple task to relate particular website features to their associated website
+
+category and, thus, virtual space. The notion of allocating speciﬁc website features to different ‘categories’ within stages is common to many stage models (for instance, Burgess et al, 2009 and Simmons et al, 2011). Finally, one of the main differences between the web presence pyramid model and earlier stage models is that the new model includes the small business presence on third party websites. This aspect is not considered by any earlier stage model.
+
+The web presence pyramid model The idea for the ‘pyramid’ depiction of the model came from an understanding that the majority of small business websites are initially built on the provision of different types of information (as per the categories listed in Appendix A), followed by communications features. Transactions and distribution features are even less common. When considering how this might be represented, the similarity to a pyramid was noted. The main aim of the pyramid model is to present an ‘instant’, visual picture of the web presence of small businesses at a point in time. This can be presented for a single small business or for small business groupings, such as industry clusters. The model encompasses small business websites and the third party websites that they subscribe to. It does not rely on the classiﬁcation of small businesses (either individually or as a group) into particular ‘stages’. Rather, it presents the small business website and web presence features as they have been implemented. Thus, the model is descriptive rather than normative (as per Bhattacherjee, 2012). Data visualisation is used to present the Web Presence Pyramid model. Data visualisation is the graphical display of abstract information for two purposes: sense-making (also called data analysis) and communication (Few, 2014). The main goal of data visualisation is the simpliﬁcation of the understanding and interpretation of data (Bingley & Burgess, 2011). The web presence pyramid model is presented in Figure 9. The model comprises a number of cells, each of these corresponding to a particular category. The idea of the model is that its base is formed by the most common ‘space’ to be found on small business websites, the information space (represented by ‘I’ in Figure 9). The left side
+
+Figure 9
+
+Web presence pyramid model.
+
+European Journal of Information Systems
+
+118
+
+Web presence pyramid model
+
+Stephen Burgess
+
+of the model represents small business websites and the right side represents the small business presence on third party websites. The most common feature, the provision of contact details, is closest to the centre of the base. Less common features are presented further away from the centre. Moving upwards, the next most common website features are in the communication space (‘C’ in Figure 9). As with information features, less common communication features are further way from the centre. In the same manner, the transactions (‘T’) and distribution (‘D’) spaces are represented, with transactions features being positioned before distribution features as they are more common. Thus, Angehrn’s ICDT model is actually presented as ICTD in the web presence pyramid model. Another key component of the model is that the level of adoption (penetration) of website features for each feature is represented by shading in the corresponding cell. Data visualisation can be used in such a manner to represent data or information in a manner to assist in its interpretation. The idea is to more easily identify the differences or relationships that might not clearly emerge from an initial examination of the data (Bingley & Burgess, 2011). The higher the level of penetration the darker the cell is shaded. Thus, where a web presence feature did not exist the cell would be completely white. If all businesses had a feature the cell would be completely black. Various shades represent penetration levels in between 0 and 100%. Examples of how the pyramid model can be applied in such instances will be provided in the Results and Discussion section with a study examining the web presence of Australian small businesses.
+
+Web presence pyramid model examples Methodology This study involved an analysis of the content of a sample of Australian small business websites and their presence on third party websites. Alonso Mendo & Fitzgerald (2005, p. 688) described their own (similar) analysis being the use of ‘an empirical and quantitative approach’, which would adequately describe this study. As Alonso Mendo and Fitzgerald noted, this allowed for nonobtrusive collection of data without the need to interact with the speciﬁc businesses concerned. Zhu et al (2009), again performing a similar analysis of website features, claimed that they relied heavily on content analysis for their research. This study employed survey research, which sometimes involves the collection of data from an entire population, but is more typically taken from a sample of a population. For this study, the sample was taken from a population of the websites of Australian small businesses and their associated presence on third party websites. Although techniques such as questionnaires or structured interviews are typically associated with the survey approach, other data collection techniques (such as observation) can also be used to collect relevant data, such as the frequency of an occurrence (Williamson, 2002). In this instance the existence or non-existence of particular website features on different business and third party websites was determined. The other aspect of this approach is that it
+
+captured a particular phenomenon at a moment in time, which was desirable for this study. The study was conducted between late 2011 and mid2012. The third party website presences of Australian small businesses across 10 different business sectors were examined. Australian and New Zealand Standard Industrial Classiﬁcation (ANZSIC) industry classiﬁcations were used to classify businesses into industry sectors. These classiﬁcations are used by the Australian Bureau of Statistics. The classiﬁcation has 17 major divisions, of which 10 were selected by the author for this study. The intention was to match the selection of divisions as closely as possible to the Telstra Corporation (2012) study classiﬁcations. Table 1 provides a comparison of the industry sector classiﬁcations used in the Telstra Corporation (2012) study and this study. One of the purposes of this was to not only test the classiﬁcation scheme, but also to show how the model could be applied across industry sectors. Small businesses were sourced from the Yell123 Australian Business 2010 database, which provided a classiﬁcation of businesses by employee size and industry sector. The business size classiﬁcation allows business with 1–19 employees to be identiﬁed – this matches the ‘small business’ deﬁnition adopted for this study, as well as the Telstra Corporation (2012) method of identifying small businesses. The business classiﬁcations in Yell123 were not an exact match for the ANZSIC sub classiﬁcations, but Table 1 shows that they were a close match. In addition, ANZSIC sub classiﬁcations (in each classiﬁcation) were also incorporated as part of the selection process for small businesses for the study to provide a spread of businesses within each classiﬁcation. The aim was to attempt to select an even number of businesses (15) for each industry sector identiﬁed in the study (150 businesses overall). However, in the end this was not possible because of differences in the number of businesses across the industry sectors in the Yell123 database. Some sectors had less than 15 businesses.
+Table 1
+
+Comparison of industry sectors used in this study and Telstra Corporation (2012) study
+
+Industry sector in Telstra Corporation Industry sectors in this study (2012) study Communication, property and business services Accommodation, cafes and restaurants Cultural, recreational and personal services Wholesale trade Finance and insurance Retail trade Manufacturing Transport/storage Health and community services Building/construction Professional, scientific and technical services Accommodation and food services Arts and recreation services Wholesale trade Finance and insurance services Retail trade Manufacturing Transport, postal and warehousing Health care and social assistance Construction
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+119
+
+In those cases all businesses in the sector were included. Other sectors had more than the required number of businesses, so more businesses were selected from these sectors. In these instances each ‘nth’ business was selected, with n representing the overall number of businesses divided by the number required. A single research assistant carried out the sample identiﬁcation and data collection in this study. The ﬁrst step involved determining how many participating small businesses had a website. This involved a simple search for the business name using the search engine ‘Google’. Google was selected as it is the most used search engine (Vaughan & Romero-Frías, 2012; Shih et al, 2013). The search for each business website involved entering the full business name enclosed in quotation marks – for instance, “business name”. The use of quotation marks limited the search engine results to those websites that matched the text string exactly – so in this example only websites that contained the text string “business name” were found, rather than websites that contained the words business and name separately. Vaughan & Romero-Frías (2012) used a similar approach to search for business acronyms on Google. If an operational business website could not be found in the ﬁrst three ‘web search’ pages (10 search results per page) then the business was classiﬁed as not having a website. It was felt that this was a suitable approach to identifying business websites as, for the most part, where business websites were identiﬁed it was usually on the ﬁrst page of the search results and mostly amongst the ﬁrst three results. If the search had been limited to only the ﬁrst page of returns it would have made little difference to the results. The other factor that adds conﬁdence to the ﬁndings is that overall, 64% of small businesses in the study were deemed to have had a website. This compared well with the Telstra Corporation (2012) study, where 60% of businesses with 1–19 employees had a website. In addition, an industry sector comparison between the two studies also showed similarities in adoption levels. In regards to determining which third party websites were used by each small business, a similar approach was adopted to that used to ﬁnd the business name. However, after the business name was typed into Google, the research assistant also selected ‘Pages from Australia’ (to ensure local returns) then commenced the search. Many different types of search returns resulted. The research assistant ignored websites that contained a review of the business or articles about the business; other businesses that had listed the business as a client; other organisations that had used the products or services of the business and had listed this on their website; temporary listings – such as one-off events the business was involved in and anything else that did not involve the business using a third party website on an ongoing basis. What was left was typically a list of third party websites that the business had intentionally approached to be listed on their website. The research assistant then listed the details of each third party website that was identiﬁed. Again, the search was restricted to three Google pages. Initially, ﬁve Google
+
+pages were examined for the ﬁrst 20 businesses, but it quickly became evident that in the vast majority of cases the unique third party websites were identiﬁed in the ﬁrst three pages of the search. If a particular third party website showed up more than once in the search it was not counted twice for a particular small business. After the third party websites of the small businesses were identiﬁed, the research assistant then examined the actual websites of the small businesses and those employed on third party websites for the existence (or non-existence) of the particular website features that were being investigated: Information space (Contact details; Business information; Added value); Communications space (Contact the business; Reviews; Social networking); Transactions space (Online database; Payment) and Distribution space (Service distribution; e-services). During the analysis of website content, coding involved examining each website (where one existed) of small businesses in the sample, as well as the associated presences of the business on third party websites. This was to record which website features existed on each of the websites. A particular website feature could have two states for each website: it either existed or it did not. Coder reliability for website content analysis studies is veriﬁed in a number of ways. One approach is to have at least two coders assess each website, compare the results and resolve any differences that have occurred (for instance, this is an approach used in a content analysis of hotel websites conducted by Ting et al, 2012). Another approach is to have multiple coders each examine a small sample of websites, and if their results are similar then they proceed to individually code their assigned websites. For instance, Luna-Nevarez & Hyman (2012) used three coders to separately assess 262 tourist destination websites (the coders individually assessing 90, 90 and 82 websites respectively). To prepare for this, the three coders each assessed the same 30 websites to ensure consistency of their coding. Where a single coder is used for the analysis of all websites in a sample, it is important that the coder is well-trained to ensure reliability of the coding (Hashim et al, 2007). Although multiple coders analysing an entire sample are the most rigorous approach to website analysis, this approach is more justiﬁed when the analysis is subject to interpretation. For instance, Diaz & Koutra (2013) performed a complex analysis of the ‘persuasiveness’ of 229 hotel chain websites. Two coders were used as part of their analysis as the researchers were attempting to look for more abstract measures such as informativeness, usability, credibility, inspiration, involvement and reciprocity. These require much more judgement than this study and, as such, the use of multiple coders across the entire sample was necessary. As indicated, this study involved a single research assistant to code the small business websites and associated third party websites. This involved examining nearly 100 small business websites and over 2000 third party web presences. The cost of having multiple coders to code each website eliminated that as a possibility (Hashim et al. (2007, p. 537) described the coding of a website as
+
+European Journal of Information Systems
+
+120
+
+Web presence pyramid model
+
+Stephen Burgess
+
+Table 2
+Industry sector Number of participating businesses 12 16 16 12 18 18 17 14 14 16 153
+
+Summary of main study ﬁndings by industry sector
+Percentage of businesses with a website 92 81 75 75 72 67 59 50 43 31 64 Percentage of businesses with a third party web presence 92 100 100 100 94 100 100 100 100 100 99 Average number of third party websites per business 10.9 15.5 12.4 10.6 13.0 15.9 17.9 10.2 8.1 16.2 13.4
+
+Professional, scientific and technical services Accommodation and food services Arts and recreation services Wholesale trade Finance and insurance services Retail trade Manufacturing Transport, postal and warehousing Health care and social assistance Construction Total
+
+being ‘extremely time-consuming’). Thus, it was important to ensure that the research assistant was well-trained. In this instance, the research assistant had already carried out content analysis for a separate, preliminary study involving the author (see Burgess, 2011) that had examined the website and third party web presence of 50 Australian small businesses. The study has used a listing of website features similar to that identiﬁed in Appendix A, so the only extra training required for the research assistant was to classify the website features into the more generic website categories of the web presence pyramid model. As a ﬁnal form of veriﬁcation, the author examined the websites of 25 small businesses and over 100 third party websites. This was not only to assist in validating the coding exercise, but also to inform the results presented for selected, individual small businesses in the Results and Discussion section. Eventually 153 businesses were selected for the study, with the breakdown across industry sectors as shown in Table 2. The individual business details were then stored in a Microsoft Access database that had been speciﬁcally created to store the data. This data was linked to a Microsoft Excel spreadsheet to develop the graphical versions of the pyramid model. For this article, the intention is to show how these results can be presented in the web presence pyramid model rather than, for instance, statistically analysing the differences between different industry sectors (the subject of a separate publication). There was a common ‘look’ to many of the third party websites. Most were business directories that had basic address and contact details and a location map. Some of these directories allowed customers to post their own ratings and/or reviews of a business directly to the site. The majority of the third party websites allowed businesses to register with them for free, although some had
+
+subscription charges. The average number of third party websites per business was much higher than expected. There were a number of differences in regards to the number of third party websites across industry sectors. At the upper end of the scale, the number of websites per business in the manufacturing, construction and retail sectors was higher than the other industry sectors. The number of websites per business in the health care and social assistance sectors was lower than all of the other sectors. However this and the nature of the third party websites used by small businesses are not the focus of this article.
+
+Results and discussion
+The main aim of this section is to present the website presence pyramids in different contexts. As such, selected industry sectors are examined, along with examples of the web presence pyramids of individual businesses within that sector. Appendix B provides an overview of the adoption levels of website features for each of the four internet spaces for each industry sector of the study. To begin, Figure 10 shows the web presence pyramid for all small businesses in the sample. The shading of each cell represents the level of adoption (penetration) of the feature across all of the small businesses, with darker shades representing a higher level of adoption. The actual level of adoption is presented as a percentage in each cell for illustration purposes (i.e., to show how the shading reﬂects the actual adoption level). As can be seen in Figure 10, the main features on the small business websites were contact details (such as business address) and business information (information space) and details to contact the business (such as email address, in the communications space). Some features evident on small business websites were not as prominent on third party websites. The exception to this was the ‘reviews’ feature,
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+121
+
+Figure 10
+
+Web presence pyramid for all businesses.
+
+Figure 11
+
+Web presence pyramid for construction sector.
+
+Figure 12
+
+Web presence pyramid for an electrical contractor.
+
+where nearly half of the third party websites allowed visitors to place a review of the business. However, although many business directories had the review feature, there were not a lot of examples of consumers actually posting reviews on these sites. However, there were some examples of business directories that were more popular than others, such as www.startlocal.com.au and www.truelocal.com.au. Some areas of these websites were quite active with reviews. This could be a sign of potential activity in this area. Cappuccio et al (2012, p. 422) described the potential power of these reviews by discussing the notion of ‘the “social consumer”, who now has the means to share reviews and opinions about virtually every kind of product and service. As a result, the days of the one-to-one relationship between companies and their customers are over. Now companies must contend with the huge and growing social web, where customer experiences and
+
+opinions are shared on a massive scale …’. In regards to the Transactions space, the vast majority of the activity occurred on business websites, with the one exception on third party websites being accommodation businesses. Up until now there has been little use of third websites for direct sales outside of the accommodation sector. Although speciﬁc online environments such as PayPal and Amazon are alternatives as small business online sale and/or payment channels, a small business does not typically have a speciﬁc presence on these sites. Facebook are trialling online payments through advertisements and, more importantly in this context, business pages (Donnelly, 2014). This would allow a business with a Facebook page to also have activity in the Transactions space. There was only one example of a small business having a Distribution space website feature, with one ﬁnancial services business offering an option to automatically generate a personal ﬁnancial
+
+European Journal of Information Systems
+
+122
+
+Web presence pyramid model
+
+Stephen Burgess
+
+Figure 13
+
+Web presence pyramid for health and social assistance sector.
+
+Figure 14
+
+Web presence pyramid for dentist ‘A’.
+
+Figure 15
+
+Web presence pyramid for dentist ‘B’.
+
+plan being classiﬁed as ‘distribution’ of the business’ offerings. There were no examples of e-services found. The advantage of the use of data visualisation in the model is clearly evident, as a glance at Figure 10 highlights the prominent features across small business and third party websites. The attraction of the web presence pyramid as an analysis tool emerges more clearly when the pyramids of different industry sectors are examined. The following sections categorise the web presence of the sectors according to the level of adoption of the features in the small business sample. These categories have been developed upon consideration of the web presence pyramids for each industry sector and relate to sectors whose web presence pyramids have exhibited similar characteristics:
+● ●
+
+● ●
+
+Scientiﬁc and Technical Services; Art and Recreation Services; and Financial and Insurance Services sectors) Online Database Websites (Manufacturing sector) Payment Web Presence (Retail Trade; Wholesale Trade; and Accommodation and Food Services sectors).
+
+The web presence pyramid for one industry sector in each of these categories will now be presented. In addition, the web presence pyramid of individual businesses within these sectors will also be shown with some considerations as to what particular small businesses might consider when comparing their web presence to that of their sector.
+
+Basic Web Presence (Construction sector) Added Value Websites (Transport, Postal and Warehousing; Health Care and Social Assistance; Professional,
+
+Basic web presence The Construction sector web presence (refer Figure 11) was the only industry sector to have a very basic web presence across all of its businesses and was typiﬁed by the provision of basic information and basic contact details.
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+123
+
+Figure 16
+
+Web presence pyramid for manufacturing sector.
+
+Figure 17
+
+Web presence pyramid for trestle table manufacturer.
+
+Figure 18
+
+Web presence pyramid for furniture manufacturer.
+
+There was a low level of adoption of websites (31% of businesses) across the sector, but a relatively high number of third party websites per business (16.2). Although the websites of these businesses tended to be very simple, the types of features on the third party websites were similar to most small businesses in other sectors. Figure 12 shows how the web presence pyramid model can be adapted for a single business by representing the web presence of an electrical contractor. This business did not have a website, but did have a fairly typical presence on 16 different third party websites when compared with the rest of the construction sector. This business might like to consider the adoption of a website at some stage in the future.
+
+Added value websites Industry sectors in this classiﬁcation tended to match the information and communications spaces proﬁle of the
+
+overall small business average, but mostly lacked transactions capabilities (online database and payment). It should be noted that a feature of most businesses in this category is that they offered some type of service rather than sold physical products. Industry sectors in this category were Transport, Postal and Warehousing; Health care and Social Assistance; Professional, Scientiﬁc and Technical Services; Arts and Recreation Services and Finance and Insurance Services. The web presence of Health Care and Social Assistance businesses (Figure 13) was a little more sophisticated than the Construction sector, but still represented a relatively simple web presence. There were some examples of ‘added value’ on these websites, such as a dentist’s website providing information for patients on how to overcome anxiety and a cosmetic surgery business website providing detailed external reports and information related to the procedures that they offered.
+
+European Journal of Information Systems
+
+124
+
+Web presence pyramid model
+
+Stephen Burgess
+
+Figure 19
+
+Web presence pyramid for accommodation and food services sector.
+
+Figure 20
+
+Web presence pyramid for hotel ‘A’.
+
+Figure 21
+
+Web presence pyramid for hotel ‘B’.
+
+Again, the typical third party presence was relatively standard when compared with the overall small businesses sample. Adoption levels in relation to the proportion of business websites and the usage of third party websites were relatively low compared with the overall average. For this sector the web presence pyramids for two dentists are presented, Dentist ‘A’ (Figure 14) and Dentist ‘B’ (Figure 15). Note that features on the business side of the web presence pyramid for single businesses are represented as either 100% (i.e., they have the feature) or 0% (they do not have the feature). Dentist ‘A’ had a website that matched the overall sector standard, but it only had a single (simplistic) third party web presence, compared with an average of 8.1 third party presences in the sector. This business may be potentially missing out on further advertising opportunities by not taking advantage of these third party services.
+
+Along with 57% of businesses within the sector, Dentist ‘B’ did not have a business website, so implementing a website would be an obvious strategy to consider. However, the business compared well to the sector in regards to the number of third party websites where its presence was represented.
+
+Online database websites The Manufacturing sector (Figure 16) was included in a web presence category of its own because of its adoption level of transactions features (mainly online database). However, with a larger study sample the sector could potentially be classiﬁed as having an ‘Added Value’ or even ‘Payment’ web presence. For this web presence category, two businesses have been selected. One business manufactures trestle tables (Figure 17) and the other general furniture (Figure 18).
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+125
+
+Both businesses had a signiﬁcant third party presence with both exceeding the sector average for the number of third party websites. The general furniture business had an interactive catalogue on its website, which was the main difference in regards to website features between the two businesses. Both businesses might have noted that a small portion of businesses in the sector had ‘value added’ and online ordering and payment features on their websites, so this might provide an opportunity for adding extra features on their websites.
+
+Payment web presence For the most part, businesses in this category offered physical goods that could be traded, apart from one important sector that will be discussed later. For these businesses, the online order and payment option appears to be more attractive as delivery can occur after payment has been made. Industry sectors in this classiﬁcation were the wholesale trade; retail trade and accommodation and food services. The sector to be examined in this classiﬁcation is accommodation and food services. Up until now, the third party presences of the reported small business sectors have been fairly similar. This alters with consideration of the accommodation and food services sector (refer Figure 19). This sector is the only one with transactions space features on both business and third party websites. In all cases, the payment features were related to accommodation businesses. There were a number of third party websites that were dedicated to online bookings and payment. Many of these also had active review features, with customers regularly placing reviews for accommodation businesses. For this industry sector, the web presence pyramids of two small hotels are provided, Hotel ‘A’ (Figure 20) and Hotel ‘B’ (Figure 21). Both hotels had a greater third party website presence than the sector average. However, many of the third party websites that Hotel ‘A’ was listed on provided more features than those of Hotel ‘B’: speciﬁcally the ability to search for, book and pay for accommodation. In addition, the website of Hotel ‘A’ had a facility to search for available vacancies – but strangely had a link to external third party sites to actually book and pay for the accommodation. Hotel ‘B’ might consider adding extra features to its website or subscribe to third party websites that offer these services.
+
+Implications
+The examples of the web presence pyramids for sectors and individual businesses provided in the previous section have demonstrated how the web presence pyramid model can be used by small business practitioners to compare their own web presence against that of other individual businesses, groups of selected competitors or the industry sector. The importance of not treating small businesses as one large homogeneous group is also highlighted, with obvious differences
+
+identiﬁed among small businesses and industry sectors in regards to the existence of the small business website; the features available on the website; the penetration on third party websites and the features available on those websites. Earlier, the varied aims of different stage models were listed. These aims were to represent the stages of the small business online presence; to describe, explain, measure or understand the evolution of the online presence; and to provide direction for small businesses to improve their operations. The web presence pyramid model represents the stages of the small business online presence – but not in a linear fashion. Instead, these are presented using Angehrn’s virtual spaces. The aim of the model is not to describe the evolution of the small business online presence, but the examples provided in the previous section show that it can be used to provide direction for small businesses to improve their operations when compared with other small businesses or the sector as a whole. For the practitioner, collection of the data required to set up a web presence pyramid for the immediate competitors of small businesses would not be an onerous task if the number of competitors were limited (to say 5–10 businesses). Practitioners would have to be trained to search Google for the relevant business and third party websites. The results of such an analysis can be easily entered onto a spreadsheet to produce the diagrammatic version of the web presence pyramid. This would allow a small business to compare its own web presence against a particular group of businesses, such as their local competitors. Researchers are still using stage models in their analysis of small business online activities. For instance, Hassen & Svensson (2014) used the DTI adoption ladder to examine the online presence of Ethiopian small businesses. Shemi & Procter (2013) discussed both the DTI adoption model and Rao et al’s (2003) SME e-commerce development model in regards to the barriers and enablers for small businesses moving from one stage to another. Ting et al (2013) examined the websites of hotels using the eMICA model. Thus, there is still an interest in how the small business web presence is developed. Researchers now have a means by which the small business presence (including the small business website and its presence on third party websites) can be examined in a non-linear fashion. A new taxonomy has been provided by which speciﬁc website features can be classiﬁed into website categories and thus into Angehrn’s (1997) virtual spaces (refer Appendix A). Differences in the web presence of small business across (and within) industry groups can now be examined.
+
+Limitations, generalisability and further research
+It is reasonable to assume that there would be some variation in regards to the speciﬁc web presence pyramids that have been presented for Australian industry sectors if they are created for other regions. However, the author contends that differences across industry sectors will still be evident.
+
+European Journal of Information Systems
+
+126
+
+Web presence pyramid model
+
+Stephen Burgess
+
+The web presence pyramid model proposed in this article can be used by any small business. From a practical perspective, any small businesses looking to develop their own web presence pyramid for themselves, for their competitors and/or for their sector will need to take the time to analyse these websites accordingly. One current limitation of the model may develop in regards to social networking sites. During the study it became obvious that some small businesses used a social networking site almost as a default website to replace the need to have a business website. For this study, these websites have all been included as part of the third party web presence. However, it could be argued that in the future these websites could be included on the left side (business website section) of the model. Another limitation could potentially be the lack of microblogging sites, such as Twitter, that emerged in the study. These pages are treated as third party websites for the very small number of businesses where they were identiﬁed in the study. These websites could potentially become more evident if they begin to be ranked higher in search engine results. If they do, consideration will need to be given as to whether they should be treated as third party websites. Further research could include development of industry sector web presence pyramids that provide even greater granularity than the sectors provided in this study. For instance, it is quite obvious that there is considerable variety within sectors such as accommodation and food services, with ‘accommodation’ being an obvious subsector where a speciﬁc web presence pyramid could be developed. These could then be made available to small businesses in the sector to compare against their own web presence. Finally, consideration may be given to the design of an automated approach to capturing the data required to portray the web presence of a large number of small businesses in a particular sector and/or region. As
+
+mentioned earlier in the article, the task of collecting the data, when carried out by a research assistant, can be a time consuming and expensive exercise, when carried out on a large scale.
+
+Conclusion
+An examination of previous models used to represent small business website content and provide guidance for small business operators as to the potential direction of their online strategies revealed a long list of ‘stage’ and related models. Most small businesses do not evolve to the extent suggested by these models, so an alternative was proposed in this article. The web presence pyramid model not only represents the penetration levels of different categories of website features, it also allows these to be represented in a non-linear manner – while understanding that there is a ‘core’ of features that most small business and third party websites possess. The model is the ﬁrst to consider the existence of third party websites as part of the overall small business web presence. Another contribution of the article is the classiﬁcation of the web presence of small business industry sectors into different categories: Basic Web Presence; Added Value Websites; Online Database Websites and Payment Web Presence. The author contends that the model will:
+●
+
+● ●
+
+Allow small business researchers to use the model to understand the progression of the web presence of small businesses or particular small business industry sectors over time by examining the pyramid model on a longitudinal basis. This may show that the progression in some instances has indeed been non-linear. Allow industry analysts to identify online practice that is common in their speciﬁc industry sectors. Allow small businesses themselves to compare their own web presence against that of their competitors.
+
+About the Author
+Stephen Burgess is an Associate Professor in the College of Business at Victoria University, Australia. His research interests include the use of ICTs in small businesses and community based organisations, the adoption of usergenerated content in tourism and the use of the internet in local sporting bodies.
+
+References
+ALONSO MENDO F and FITZGERALD G (2005) Theoretical approaches to study SMEs e-business progression. Journal of Computing and Information Technology 13(2), 123–136. ANGEHRN A (1997) Designing mature internet business strategies: the ICDT model. European Management Journal 15(4), 361–369. ASHURST C, CRAGG P and HERRING P (2011) The role of IT competences in gaining value from e-business: an SME case study. International Small Business Journal 30(6), 640–658. BHATTACHERJEE A (2012) Social Science Research: Principles, Methods, and Practices. Jacobs Foundation (Global Text Project), Zurich, Switzerland. BINGLEY S and BURGESS S (2011) Using I-D maps to represent the adoption of internet applications by local cricket clubs. In Actor-Network Theory and Technology Innovation: Advancements and New Concepts (TATNALL A, Ed), pp 80–94, IGI Global, Hershey, PA. BURGESS L, COOPER J and ALCOCK C (2001) The adoption of the web as a marketing tool by regional tourism associations (RTAs) in Australia. In 12th Australian Conference on Information Systems (ACIS). Coffs Harbour, Australia, pp 67–72. BURGESS L, PARRISH B, COOPER J and ALCOCK C (2009) A longitudinal study of the use of the web by regional tourism organisations (RTOs) in Australia. In 22nd Bled e-Conference e-Enablement: Facilitating an Open, Effective and Representative e-Society, Bled, Slovenia, pp 14–17. BURGESS S (2011) The use of third party website providers by Australian small businesses. International Journal for Digital Society 2(1), 328–336.
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+127
+
+BURGESS S, BINGLEY S and SELLITTO C (2007) A model for website content decisions in micro businesses. Global Business & Economics Anthology 1, 474–487. BURGESS S, SELLITTO C and KARANASIOS S (2009) Effective Web Presence Solutions for Small Businesses: Strategies for Successful Implementation. Information Science Reference, Hershey, PA. CAPPUCCIO S, KULKARNI S, SOHAIL M, HAIDER M and WANG X. (2012) Social CRM for SMEs: current tools and strategy. In KHACHIDZE V, WANG T, SIDDIQU S, LIU V, CAPPUCCIO S and LIM A (eds) Contemporary Research on E-business Technology and Strategy, pp 422–435, Springer Berlin Heidelberg, Berlin, Germany. COOPER J and BURGESS L (2000) A model of internet commerce adoption (MICA). In: RAHMAN S and RAISINGHANI M (eds) Electronic Commerce: Opportunity and Challenges. Idea Group, Hershey, PA, pp 189–201. DEPARTMENT OF TRADE AND INDUSTRY (2002) Business in the Information Age – International Benchmarking Study, London, UK. DIAZ E and KOUTRA C (2013) Evaluation of the persuasive features of hotel chains websites: a latent class segmentation analysis. International Journal of Hospitality Management 34, 338–347. DONNELLY C (2014) Facebook to let users buy goods via ads & page posts, ITPRO 18 July. [WWW document] http://www.itpro.co.uk/asset-management/22729/facebook-to-let-users-buy-goods-via-ads-page-posts, (accessed 10 August 2014). FEW (2014) Data Visualization for Human Perception. In: SOEGAARD, M and DAM, R (eds) The Encyclopedia of Human-Computer Interaction, 2nd Ed. Aarhus, Denmark: The Interaction Design Foundation. [https:// www.interaction-design.org/encyclopedia/data_visualization_for_human_ perception.html], (accessed 5 March 2015). FOLEY P and RAM M (2002) The use of online technology by ethnic minority businesses: A comparative study of the West Midlands and UK, SBS Research Directorate, De Montford University, Leicester, UK. GALLOWAY L, SANDERS J and DEAKINS D (2011) Rural small firms’ use of the internet: from global to local. Journal of Rural Studies 27(3), 254–262. GENGATHAREN D (2008) Interpreting the success and failure of regional internet community portals in promoting e-commerce adoption by SMEs: a cultural perspective. Journal of Systems and Information Technology 10(1), 56–71. GHOBAKHLOO M, HONG T, SABOURI M and ZULKIFLI N (2012) Strategies for successful information technology adoption in small and medium-sized enterprises. Information 3(1), 36–67. GINIGE A, MURUGESAN S and KAZANIS P (2001) A roadmap for successfully transforming SMEs in to e-businesses. Cutter IT Journal 14(5), 39–51. HASHIM L, HASAN H and SINNAPAN S (2007) Australian online newspapers: A website content analysis approach to measuring interactivity. In 18th Australasian Conference on Information Systems (ACIS), Toowoomba, Australia, pp 533–542. HASSEN YA and SVENSSON A (2014) The role of ICT for the growth of small enterprises in Ethiopia. The Electronic Journal of Information Systems in Developing Countries 65(1), 1–20. HOFACKER CF, GOLDSMITH RE, BRIDGES E and SWILLEY E (2007) E-services: a synthesis and research agenda. Journal of Value Chain Management 1(1/2), 13–44. INDUSTRY CANADA (2008) Technology roadmaps: Geomatics technology roadmap – Appendix D: Glossary. [WWW document] http://www.ic.gc. ca/epic/site/trm-crt.nsf/en/rm00196e.html (accessed 17 September 2008). IP C, LAW R and LEE H (2011) A review of website evaluation studies in the tourism and hospitality fields from 1996 to 2009. International Journal of Tourism Research 13(3), 234–265. KAPURUBANDARA M (2009) A framework to e-transform SMEs in developing countries. The Electronic Journal of Information Systems in Developing Countries 39(3), 1–24. LAW R, QI S and BUHALIS D (2010) Progress in tourism management: a review of website evaluation in tourism research. Tourism Management 31(3), 297–313. LEE H (2012) Comparing content analysis of mathematics websites between Taiwan and China. In Advances in Control and Communication (ZENG D, Ed), pp 689–697, Springer Berlin Heidelberg, Berlin, Germany. LEVY A and MERRY U (1986) Organizational Transformation: Approaches Strategies, and Theories. Greenwood Publishing Group, New York.
+
+LEVY M and POWELL P (2003) Exploring SME internet adoption: towards a contingent model. Electronic Markets 13(2), 173–181. LI X and WANG Y (2011) Measuring the effectiveness of US official state tourism websites. Journal of Vacation Marketing 17(4), 287–302. LIN D, ZHOU Z and GUO X (2009) A study of the website performance of travel agencies based on the EMICA model. Journal of Service Science and Management 3, 181–185. LUNA-NEVAREZ C and HYMAN M (2012) Common practices in destination website design. Journal of destination marketing & management 1(1), 94–106. MARTIN LM and MATLAY H (2001) ‘Blanket’ approaches to promoting ICT in small firms: some lessons from the DTI ladder adoption model in the UK. Internet Research 11(5), 399–410. MIRANDA GONZÁLEZ F and BAÑEGIL PALACIOS B (2004) Quantitative evaluation of commercial web sites: an empirical study of Spanish firms. International Journal of Information Management 24(4), 313–328. O’BRIEN P (1998) Electronic commerce, the internet and travel cybermediaries. Australasian Journal of Information Systems 6(1), 70–78. O’BRIEN P and BURMEISTER J (2002) Ubiquitous travel service delivery. Information Technology & Tourism 5(4), 221–233. OLIVEIRA T and MARTINS MFO (2011) Understanding the determinant factors of internet business solutions adoption: the case of Portuguese firms. Applied Economics Letters 18(18), 1769–1775. PARKER C, ZUTSHI A, FRAUNHOLZ B and CROFTS M (2011) A method for examining corporate social responsibility descriptions on SME websites. In Pacific-Asia Conference on information Systems (PACIS), Brisbane, Australia, p 148. PICCOLI G, BROHMAN M, WATSON R and PARASURAMAN A (2004) Net‐based customer service systems: evolution and revolution in web site functionalities. Decision Sciences 35(3), 423–455. POEPPELBUSS J, NIEHAVES B, SIMONS A and BECKER J (2011) Maturity models in information systems research: literature search and analysis. Communications of the Association for Information Systems 29(27), 505–532. QUINTON S and KHAN M (2009) Generating web site traffic: a new model for SMEs. Direct Marketing: An International Journal 3(2), 109–123. RAO S, METTS G and MONGE C (2003) Electronic commerce development in small and medium sized enterprises: a stage model and its implications. Business Process Management Journal 9(1), 11–32. SANDERS J and GALLOWAY (2013) Rural small firms' website quality in transition and market economies. Journal of Small Business and Enterprise Development 20(4), 788–806. SCHAUPP LC and BÉLANGER F (2013) The value of social media for small business. Journal of Information Systems 28(1), 187–207. SHEMI AP and PROCTER C (2013) Explaining contextual factors affecting e-commerce adoption progression in selected SMEs: evidence from Botswana. International Journal of Management Practice 6(1), 94–109. SHIH B, CHEN C and CHEN Z (2013) An empirical study of an internet marketing strategy for search engine optimization. Human Factors and Ergonomics in Manufacturing & Service Industries 23(6), 528–540. SIGALA M (2001) Modelling e-marketing strategies: internet presence and exploitation of Greek hotels. Journal of Travel & Tourism Marketing 11(2–3), 83–103. SIMMONS G, ARMSTRONG G and DURKIN M (2008) A conceptualization of the determinants of small business website adoption setting the research agenda. International Small Business Journal 26(3), 351–389. SIMMONS G, ARMSTRONG G and DURKIN M (2011) An exploration of small business website optimization: enablers, influencers and an assessment approach. International Small Business Journal 29(5), 534–561. STONE M (2003) SME e-business and supplier-customer relations. Journal of Small Business and Enterprise Development 10(3), 345–353. TATNALL A and DAVEY B (2005) An actor network approach to informing clients through portals. Issues in Informing Science and Information Technology 2, 771–779. TELSTRA CORPORATION (2012) Sensis E:Business Report: The Online Experience of Small and Medium Enterprises, Sensis, Australia. TING P, KUO C and LI C (2012) What does hotel website content say about a property – an evaluation of upscale hotels in Taiwan and China. Journal of Travel & Tourism Marketing 29(4), 369–384. TING P, WANG S, BAU D and CHIANG M (2013) Website evaluation of the top 100 hotels using advanced content analysis and eMICA model. Cornell Hospitality Quarterly 54(3), 284–293.
+
+European Journal of Information Systems
+
+128
+
+Web presence pyramid model
+
+Stephen Burgess
+
+VAUGHAN L and ROMERO-FRÍAS E (2012) Exploring web keyword analysis as an alternative to link analysis: a multi-industry case. Scientometrics 93(1), 217–232. WILLIAMSON K (2002) Research Methods for Students, Academics and Professionals: Information Management and Systems. Centre for Information Studies, Charles Sturt University, NSW, Australia. ZHU Y, BASIL DZ and HUNTER MG (2009) The extended website stage model: a study of Canadian winery websites. Canadian Journal of Administrative Sciences/Revue Canadienne des Sciences de l’Administration 26(4), 286–300.
+
+web presence and for each category to represent a speciﬁc advancement in website development – from more common features to less common features. For instance, it is reasonable to suggest from previous studies (such as the Telstra Corporation (2012) study) that the following generally apply for a business’ own website:
+●
+
+Appendix A
+Identiﬁcation of web presence features This Appendix outlines the identiﬁcation of speciﬁc website features for the model. The list of potential business and third party website features that could ﬁll these spaces is long. Table A1 provides a list of business website and third party website features that were identiﬁed from other website content studies, such as Alonso Mendo & Fitzgerald (2005); Burgess (2011) and Burgess et al (2007) (refer the third and fourth Columns of Table A1 for the comprehensive list). These features have been classiﬁed into Angehrn’s (1997) spaces (Column 1). To avoid the complexity associated with the large number of features identiﬁed, another classiﬁcation category was added by reducing some of the speciﬁc website features that into more common categories within the ICDT model (refer Column 2). This approach was also used by Lee (2012), although that study was limited to examining a smaller number of website features. Rows with shading represent where the author identiﬁed that different versions of similar features occur for features on business websites as opposed to third party websites. The reason for doing this was to be able to concentrate upon the purpose of having a feature as part of the
+●
+
+●
+
+●
+
+In the information space, most small businesses have contact details and business information on their websites, but some will also have other ‘added value’ information as described in Table A1. In the communications space, many small businesses will provide communications facilities for customers to contact the business (such as provision of e-mail addresses and/or e-mail forms). However, fewer businesses will have advanced social networking capabilities (such as a discussion board). A simpler form of ‘social networking’, where customers are able to post reviews of businesses themselves, is also included in this space. In the transactions space, businesses can provide realtime catalogues and online ordering, as well as allowing real-time, online payments. In the distribution space, some small businesses make provision for the simple download of their goods from their websites, rather than providing complete ‘e-services’. For a discussion of e-services and how they can be distinguished from traditional services, see Hofacker et al (2007).
+
+This approach does not classify businesses according to a particular ‘stage’ in a model. Rather, businesses are classiﬁed into website categories and virtual spaces by the particular website features adopted. In addition, a snapshot of the website proﬁle of particular industry sectors can be determined by analysing multiple businesses in a sector.
+
+European Journal of Information Systems
+
+Web presence pyramid model
+
+Stephen Burgess
+
+129
+
+Table A1
+
+Website categories used in this study
+Equivalent third party website features
+
+Relevant website features Virtual space Website (Angehrn 1997) category used in this study Contact details Information Business information Business name; e-mail address; location; location map; telephone number; fax number Business activities; product/services description; static product reviews; static product catalogue; employee qualifications; policies/mission; privacy policy; client list; client testimonials; general news; press releases; newsletters; business images/videos; print order form and fax/mail it in; calendar of events FAQ; product use instructions; professional association links; industry information; useful links; financial calculators/tools E-mail form; e-mail ‘booking/order’ form; customer enquiry form; sign up for newsletter form Customers posting reviews direct to website
+
+Added value
+
+Contact the business Communication Reviews Transactions Social networking Online database Payment Distribution E-services
+
+Distribution
+
+Business name; e-mail address; location; location map; telephone number; fax number Business activities; product/services description; static product reviews; static product catalogue; employee qualifications; policies/mission; privacy policy; client list; client testimonials; general news; press releases; newsletters; business images/videos; print order form and fax/mail it in; calendar of events FAQ; product use instructions; professional association links; industry information; useful links; financial calculators/tools E-mail form; e-mail ‘booking/order’ form; customer enquiry form; sign up for newsletter form Sites that allow customers to post reviews (such as Tripadvisor) Bulletin board; blog; Social networking websites (such as Facebook and Twitter) Real-time catalogue; online ordering; online booking; Real-time catalogue; online ordering; online booking; automatically record customer preferences automatically record customer preferences Real-time credit card payment; online voucher Real-time credit card payment; online voucher redemption; PayPal redemption/services (such as Scoupon and PayPal) Online download of goods Online download of goods Automated delivery of online services Automated delivery of online services
+
+Source: Alonso Mendo & Fitzgerald (2005), Burgess et al (2007), Burgess (2011).
+
+Appendix B
+Internet space website feature adoption by industry sector
+
+Table B1
+Industry sector
+
+Small business website and third party website information space features by industry sector
+Website features (percentage of use) Third party website features (percentage of use)
+
+Contact details Business information Value added Contact details Business information Value added Professional, scientific and technical services Accommodation and food services Arts and recreation services Wholesale trade Finance and insurance services Retail trade Manufacturing Transport, postal and warehousing Health care and social assistance Construction Overall 100 100 100 100 100 92 100 100 100 100 99 100 100 92 89 100 92 90 86 100 60 93 45 46 42 56 85 50 20 43 67 0* 48 100 100 100 100 100 100 100 100 100 100 100 58 76 66 63 61 62 68 56 68 65 65 1 0 2 0 0 0 0 0 0 0 0
+
+European Journal of Information Systems
+
+130
+
+Web presence pyramid model
+
+Stephen Burgess
+
+Table B2
+Industry sector
+
+Small business website and third party website communications space features by industry sector
+Website features (percentage of use) Third party website features (percentage of use)
+
+Contact the business Reviews Social networking Contact the business Reviews Social networking Professional, scientific and technical services Accommodation and food services Arts and recreation services Wholesale trade Finance and insurance services Retail trade Manufacturing Transport, postal and warehousing Health care and social assistance Construction Overall 73 85 67 78 77 42 80 71 83 60 71 0 0 0 0 0 0 0 0 0 0 0 9 0 8 0 0 0 10 0 17 0 4 9 19 12 7 12 10 13 20 14 12 13 35 45 57 50 51 41 44 36 41 53 46 2 2 4 0 1 2 1 1 1 0 1
+
+Table B3
+
+Small business website and third party website transactions space features by industry sector
+Website features Third party website (percentage of use) features (percentage of use) Online Payment Online Payment database database
+
+Table B4
+
+Small business website and third party website distribution space features by industry sector
+Website features (percentage of use) Distribution Third party website features (percentage of use)
+
+Industry sector
+
+Industry sector
+
+EDistribution Eservices services 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Professional, scientific and technical services Accommodation and food services Arts and recreation services Wholesale trade Finance and insurance services Retail trade Manufacturing Transport, postal and warehousing Health care and social assistance Construction Overall
+
+18 15 17 33 23 50 30 0 0 0 21
+
+0 8 0 22 0 50 10 0 0 0 10
+
+0 21 1 0 0 0 0 0 4 0 3
+
+0 13 1 0 0 0 0 0 0 0 2
+
+Professional, scientific and technical services Accommodation and food services Arts and recreation services Wholesale trade Finance and insurance services Retail trade Manufacturing Transport, postal and warehousing Health care and social assistance Construction Overall
+
+0 0 0 0 8 0 0 0 0 0 1
+
+European Journal of Information Systems
+
+

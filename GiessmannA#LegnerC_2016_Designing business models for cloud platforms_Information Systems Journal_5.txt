@@ -1,0 +1,454 @@
+doi: 10.1111/isj.12107 Info Systems J (2016) 26, 551–579 551
+
+Designing business models for cloud platforms
+Andrea Giessmann* & Christine Legner
+Faculty of Business and Economics (HEC), University of Lausanne, CH-1015 Lausanne, Switzerland, email: andrea.giessmann@unil.ch; christine.legner@unil.ch
+
+Abstract. Platform as a service (PaaS) has become a strategic option for software vendors who expect to beneﬁt from value co-creation with partners by developing complementary components and applications. In reality, however, established and new software vendors are battling to redeﬁne their offering to embrace PaaS. They face the challenges of transforming, conﬁguring and calibrating their PaaS business models to align them with existing business models, customer expectations and competitive pressures. This motivates our research question: How can software providers design viable business models for PaaS? Our study develops a design theory for PaaS business models. This theory is grounded on a 12month action design research study at one of the largest global software companies (here called Alpha) with mixed PaaS experiences in the past. Our primary research contribution is a set of design principles that guide software providers to deﬁne a viable PaaS business model in order to create a ﬂourishing software ecosystem for their cloud platform. By synthesizing prescriptive knowledge related to business model design for emerging cloud platforms, our study advances PaaS research towards the existing body of research on software platforms and business models. Keywords: platform as a service, business model, design theory, cloud platform
+
+INTRODUCTION
+
+Cloud platforms, also referred to as platform as a service (PaaS) solutions, are changing the ways software is produced, distributed, consumed and priced. With PaaS, the software industry increasingly evolves into a platform business (Cusumano, 2010), as it allows external developers to deploy and run their complementary software components (Tiwana et al., 2010). In addition, PaaS enables software providers to tap into the beneﬁts of value co-creation (Sarker et al., 2012) and to harness outside expertise and ingenuity on an unprecedented scale (Ceccagnoli et al., 2012). Software providers have pursued three strategies to embrace PaaS: First, incumbent cloud providers have opened up to and extended their software as a service (SaaS) solutions with cloud platforms; for instance, the SuiteCloud platform is an extension of NetSuite, and Workday
+© 2016 Wiley Publishing Ltd
+
+552
+
+A Giessmann & C Legner
+
+has been transformed into a cloud platform. Second, established software vendors have made signiﬁcant investments in developing comprehensive PaaS solutions such as Google Cloud Platform, Microsoft Azure and IBM Bluemix. A third group has decided to acquire successful PaaS start-ups to enter the emerging PaaS market. For instance, Heroku joined Salesforce. com, and LongJump now belongs to Software AG. Regardless of the chosen option, launching a successful PaaS has proved challenging: Established vendors, such as IBM, SAP and Amazon Web Services, report mixed experiences with their PaaS solutions. Some early solutions, such as Bungee Connect and SAP Business ByDesign, are no longer advertised as PaaS. Established and new software providers thus face the challenges of transforming, conﬁguring and calibrating their PaaS business models in order to align them with existing business models, customer expectations and competitive pressures. While deﬁning a viable business model for emerging technologies is generally challenging (Hagiu, 2014), PaaS business models’ success depends not only on whether providers are able to acquire a ﬂourishing ecosystem on a platform but also on whether they can create a win-winwin situation for customers, developers and themselves. This practical problem motivates our research question: How can software providers design viable business models for PaaS? The academic discourse on PaaS is still nascent, and researchers have only begun to theorize about the different forms and characteristics of cloud platforms (e.g. Beimborn et al., 2011; Giessmann & Stanoevska, 2012a). Little is known about the design decisions and associated trade-offs of PaaS business model designs that distinguish them from other business types. Because PaaS is a speciﬁc type of multisided platform (MSP) delivered on demand, academic research related to PaaS needs to bridge two academic conversations: the research streams on software platforms and business model design. On the one hand, software platform literature informs our research on PaaS designs through insights into the platform dynamics and value creation logic (Pagani, 2013), issues related to platform designs for different MSP types (Hagiu, 2014) and into detecting effects in platform partnership mechanisms (Ceccagnoli et al., 2012; Claussen et al., 2013; Huang et al., 2013). With the exception of Cusumano & Gawer (2002) and Ghazawneh & Henfridsson (2013), very few studies take a design-oriented approach to examine software platforms. To answer our research question, these design-oriented avenues need to be further developed and extended to bridge the gap to business model design. On the other hand, business model research has begun to embrace MSP-speciﬁc challenges (Eisenmann et al., 2006) and to derive typologies (Boudreau & Lakhani, 2009) and has identiﬁed a set of crucial design parameters (Hedman & Kalling, 2003; Ballon, 2007) but has not yet addressed the speciﬁcities of cloud platforms. Our study seeks to bridge these two conversations by advancing research on software platforms towards business model design for cloud platform speciﬁcs. Our research objective is thus to develop an empirically based theory for designing business models for cloud platforms as a speciﬁc type of software platform. This theory addresses the concrete challenges of platform providers when transforming, conﬁguring and calibrating their business models. With this objective in mind, we hope to (1) extend the nascent academic discourse on cloud platforms, (2) link this discourse to the existing research streams on software platforms and business model design and (3) facilitate informed design decisions on PaaS business models.
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+553
+
+We use design theorizing as a problem-driven approach to theory development ( Gregor, 2006; Baskerville & Pries-Heje, 2010). Our goal is to develop a theory for design and action that ‘gives explicit prescriptions […] for constructing an artifact’ [Gregor, 2006, p. 620] – here, a PaaS business model – based on empirical evidence and justiﬁcatory knowledge. We developed the design theory in a 12-month action design research (ADR) study (Sein et al., 2011) at one of the largest global software companies (here called Alpha), which had gained mixed experiences with PaaS in the past and had initiated a systematic innovation process to design the future business model. In this paper, we reﬂect on what we learned from creating, discussing and reﬁning a range of business model designs for Alpha and seek to formalize our learning. This paper makes two primary contributions. First, we contribute a design theory as ‘systematic speciﬁcation of design knowledge’ [Gregor & Jones, 2007, p. 314] for PaaS business models. Following the guidelines by Gregor & Jones (2007), we outline the six core components of a design theory, which comprise (1) purpose and scope, (2) constructs, (3) principles of form and function, (4) artefact mutability, (5) testable propositions (TPs) and (6) justiﬁcatory knowledge. Second, we also shed light on the design theory’s implementation by presenting the artefact’s instantiation and mutability. Hence, our study informs software companies embracing PaaS and guides them with the transforming, conﬁguring and calibrating of their PaaS business models.
+
+C U R R E N T S TAT E O F R E S E A R C H
+
+Cloud platforms Cloud platforms are an emerging model for developing and consuming on-demand components and applications (C&A) with the potential to disrupt the prevailing business models in the information technology (IT) industry. Despite cloud computing’s increasing popularity as a research topic (Su, 2011; Chen & Wu, 2013), the academic discourse on PaaS is nascent. Based on a systematic literature review, Giessmann & Stanoevska (2012b) deﬁne PaaS as a development and execution environment in which external developers deploy and run their complementary C&A. PaaS facilitates the development, testing and management of software components, as well as knowledge exchange between developers. It thereby builds on, and also extends, the concept of platforms in the software industry, as ‘… the extensible codebase of a softwarebased system that provides core functionality shared by the modules that interoperate with it and the interfaces through which they interoperate’ [Tiwana et al., 2010, p. 676]. As depicted in Figure 1, four forms of PaaS solutions can be distinguished according to the core value proposition that they provide customers. First, development-oriented platforms such as CloudBees’ RUN@Cloud provide ‘an environment for developers to develop, test and deploy their application easily’ [Rimal et al., 2010, p. 8] as their primary value proposition. Second, application-centric platforms such as Salesforce Force.com ‘allow ISVs [independent software vendors] to develop extensions or “add-ons” for the software ﬁrm’s core application. […] The core application has to be seen as a necessary part of the platform because any third-party software running on this platform only makes sense as an add-on to the core application but
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+554
+
+A Giessmann & C Legner
+
+Figure 1. Four forms of PaaS solutions.
+
+not as a stand-alone software’ [Beimborn et al., 2011, p. 381]. The third form of PaaS focuses on the integration capabilities and complements development- and application-oriented platforms. Thus, integration-oriented PaaS such as Dell Boomi ‘must have a variety of connectivity capabilities, such as SOAP, which lets a program running in one OS communicate with a program running in another OS via HTTP and XML’ [Lawton, 2008, p. 14]. PaaS solutions that offer strong distribution capabilities form the fourth form of PaaS; these platforms ‘cultivate online user communities and marketplaces (e.g. Google Apps Marketplace) where developers can share, buy, and sell their codes, products, and services to each other’ [Yang & Tate, 2012, p. 39]. Existing research focusing on PaaS has mainly concentrated on technical rather than business model design, which comprises PaaS characteristics (Gass et al., 2014), security features (Rodero-Merino et al., 2012), multitenancy (Weissman & Bobrowski, 2009) and application design (Andrikopoulos et al., 2013). Gonçalves & Ballon (2011) investigated the concepts, beneﬁts and risks of PaaS but focused on a mobile operator perspective rather than on a software provider perspective. Eurich et al. (2011), as well as Martens et al. (2012), studied PaaS revenue models, which are considered an important building block of a business model. However, they did not provide guidance on how revenue models should be designed. In line with Beimborn et al. (2011, p. 384), we suggest that ‘the PaaS concept as an independent business model adds a new facet to the software value chain and thus implies new important questions for Information Systems research’.
+
+Software platforms When analyzing the software platform literature, we ﬁnd that PaaS, regardless of the speciﬁc form of PaaS considered, shares ‘two key characteristics of a multisided platform [MSP]: (1)
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+555
+
+each group of participants (“side”) are customers of the MSP in some meaningful way, and (2) the MSP enables a direct interaction between the sides’ [Hagiu, 2014, p. 72]. Prior studies on MSPs (listed in Table 1) can consequently inform PaaS research by delivering insights into platform-speciﬁc value creation logic, dynamics and success factors, as well as different aspects of platform design. Pagani [2013, p. 628] found that ‘bringing together two or more distinct groups of customers, building an infrastructure that creates value by reducing distribution, transaction, and search costs’ are the essence of platform value creation. Hagiu (2014) identiﬁed four strategic challenges that MSPs face (including onboarding, MSP design, pricing structures and governance rules) but provided little guidance on how to overcome them.
+
+Table 1. Platform design insights from literature Reference Ceccagnoli et al. (2012); Study focus Decisions of ISVs to enter markets complementary to an enterprise software platform Success factors of Facebook apps and their changes Interaction between rules set by the platform owner and market dynamics in complementary goods markets Practical guidelines for managing innovation, whether the innovator is a platform leader, a wannabe or a complementor Theoretical model that centres on two drivers of boundary resources’ design and use – resourcing and securing – and how these drivers interact in third-party development Strategic decisions and associated trade-offs that set MSPs apart from other business types Dynamic cycle of value creation and value capture points in digitally enabled networks Study object ISVs’ decisions to join SAP’s platform ecosystem Facebook apps usage (September 2007 to June 2008) Design insights for platforms Stronger IPRs or stronger downstream capabilities by an ISV are associated with a greater likelihood of joining Five drivers for app success: app rating, update activity, installed base effects, app age and portfolio effects Quality can be incentivized through soft (i.e. nonexcluding) rules Drivers of app success are contingent on the environment set by the platform owner Four levers of platform leadership: scope, product technology, relationships with external complementors and internal organization Resourcing as the process by which a platform’s scope and diversity is enhanced, e.g. providing SDKs, APIs and a distribution channel Securing as the process by which the control of a platform and its related services is increased, e.g. introducing an app review process Four strategic challenges: how many sides to bring on board, MSP design, MSP pricing structures and MSP governance rules Control point constellation models for MSPs: value creation logic, value capture logic, primary activity categories, main interactivity relationship logic, primary activity interdependence, key cost drivers, key value drivers, business value system structure
+
+Claussen et al. (2013)
+
+Cusumano & Gawer (2002)
+
+Case studies investigating platforms of Intel, Microsoft and Cisco.
+
+Ghazawneh & Henfridsson (2013)
+
+Case study research on Apple’s iPhone platform as an extreme case
+
+Hagiu (2014)
+
+Ten in-depth, ﬁeld-based case studies on MSPs
+
+Pagani (2013)
+
+Field study on the broadcasting industry in Europe and the USA between 2000 and 2008
+
+SDK, software development kits; API, application program interface.
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+556
+
+A Giessmann & C Legner
+
+Based on three case studies from the software and hardware industries, Cusumano & Gawer (2002) developed four levers of platform leadership to assist managers with strategy formulation and implementation. Ghazawneh & Henfridsson (2013) reﬁned their ﬁrst two levers of platform leadership by proposing a model for platform owners needing to stimulate external contributions and maintain platform control – a delicate balancing act. They showed a trade-off between resourcing – the process by which the scope and diversity of a platform are enhanced – and securing – the process by which the control of a platform and its related services is increased. Complementors’ perspectives have received attention from Ceccagnoli et al. (2012) and Huang et al. (2013), who found that intellectual property protection and downstream capabilities act as substitutes for one another when inﬂuencing partnership formation and that the effect of an ISV’s intellectual property protection on its decision to join a platform is signiﬁcantly greater in high-growth markets. In addition, Claussen et al. [2013, p. 186] show that the rules platform owners set ‘do not necessarily have to be managed through hard exclusions but can also be steered through “softer” changes in reward and incentive systems’. Drawing on studies on software platforms, PaaS designs must carefully consider stimulating external contributions and maintaining platform control by deﬁning suitable governance mechanisms to manage platform ecosystems.
+
+Business model design In recent years, several authors – including Osterwalder & Pigneur (2013), Veit et al. (2014) and Al-Debei and Avison [2010, p. 359] – ‘have highlighted the rising importance of the Business Model (BM) concept in the ﬁeld of Information Systems (IS)’. Of the eight business model research areas identiﬁed by Pateli & Giaglis (2004), much of the literature deals with the deﬁnitions, components and conceptual models of business models. Research has not addressed the methods and tools for business model design in detail, although ‘business model design is a key decision for a new ﬁrm entrepreneur and a crucial – perhaps more difﬁcult – task for managers charged with rethinking an old model’ [Zott & Amit, 2010, p. 216]. While there is a general need for design methods and theories, they are especially needed for the design of successful business models for cloud platforms. Table 2 reviews studies that have explicitly addressed platform business models and their design. Studies that address platform business models mostly elaborate on how they differ from traditional business models, derive typologies and investigate value creation for customers. Using the who-sells-to-whom question, Boudreau & Lakhani (2009) distinguish three platform business model categories: integrator, product and two-sided. In line with Boudreau & Lakhani (2009), cloud platforms fall in the two-sided business model category, because external innovators and customers are free to transact directly with one another as long as they also afﬁliate with the platform’s owner. Eisenmann et al. [2006, p. 2] noted that MSP business models differ fundamentally from traditional business models, where ‘value moves from left to right: To the left of the company is cost; to the right is revenue. In multisided business models, cost and revenue are both to the left and the right, because the platform has a distinct group of users on each side’. However, in line with Rochet & Tirole (2003), Eisenmann et al. [2006, p. 3] posited that ‘the key decision here is pricing’. Notwithstanding, the dominant focus on pricing structures of
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+Table 2. Insights for platform business model design from literature Reference Ballon (2007) Study focus Business model design parameters: value network, functional architecture, ﬁnancial model and value proposition Whether companies should organize outside innovation through collaborative markets, communities or competitive markets Key challenges for MSP providers: pricing the platform, winner-takesall dynamics and the threat of envelopment Study object Review of literature in strategic management, industrial and network economics
+
+557
+
+Design insights for platforms Customer ownerships as a business model design parameter: the relationship between the producing actor(s) and the consuming actor(s) The trade-off is characterizing customer ownership as intermediated vs direct Three critical issues: the type of innovation shifted to external innovators, these individuals and the nature of the platform business model (three categories) Two positive network effect types: same-side effect (increasing the number of users on one side makes it more valuable to users on the same side); a cross-side effect (increasing the number of users on one side makes it more valuable to the users on the other side) Longitudinal process component (number 7) covering the business model’s dynamics over time as well as the cognitive and cultural constraints; the business model must be managed and developed over time in order to bridge cognitive, cultural, and political obstacles Four interlocking elements of a business model: customer value proposition, proﬁt formula, key resources and key processes Customer value proposition includes target customers, their jobs to be done and corresponding offering as building blocks Multisided market pattern, indicating speciﬁcs on value proposition, customer segments, key resources, costs and revenue streamsFive phases of the business model design process: mobilize, understand, design, implement and manage
+
+Boudreau & Lakhani (2009)
+
+Observation of 26 market and communities platforms
+
+Eisenmann et al. (2006)
+
+Economics of two-sided networks as well as platform providers’ business models in various industries
+
+Hedman & Kalling (2003)
+
+Generic business model with seven components: customers, competitors, offering, activities and organization, resources, suppliers and a longitudinal dimension Conceptualization of business models, their elements and the main steps to reinventing a business model
+
+Development based on concepts from strategy theory and IS research; illustration for the ERP implementation of a multinational manufacturing company
+
+Johnson et al. (2008)
+
+Case studies on reinventing a business model with dozens of companies
+
+Osterwalder & Pigneur (2010)
+
+Business model canvas with nine building blocks, as well as ﬁve business model patterns. BMI techniques and tools, as well as a generic process to design innovative business models
+
+Design science approach; development and evaluation using literature research and analyses, case studies, interviews and secondary data
+
+work on MSPs to date (Hagiu, 2014), this perspective seems to be too narrow for PaaS business models, which need to be considered and designed as a whole, because ‘there are causal relations between the different components’ [Hedman & Kalling, 2003, p. 53]. In line with platform literature, Osterwalder and Pigneur [2010, p. 77] stated that business models for MSP ‘bring together two or more distinct but interdependent groups of customer’
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+558
+
+A Giessmann & C Legner
+
+and must develop their own value proposition and an associated revenue stream for each of them. The value proposition usually creates value in three primary areas: (1) attracting customer segments, (2) matchmaking between customer segments and (3) reducing costs by channelling transactions through the platform. Consistent with Hedman & Kalling (2003), Johnson et al. [2008, p. 52] believed ‘the most important to get right, by far, is the [customer value proposition]’. In other words, for each targeted customer segment, the job-to-be-done must be identiﬁed ‘to solve an important problem or fulﬁll an important need for the target customer’ [Johnson et al., 2008, p. 54]. Among other parameters, Ballon (2007) identiﬁed customer ownership as the establishment of direct relationships with end customers as a crucial business model design parameter. He distinguished several customer ownership levels that depend on: establishing a trusted reputation, on customer relationship management, marketing and branding, and customer lock-in (Ballon, 2007). Business model research informs us that PaaS business models should be designed so that they address the different sides as customer segments and have targeted value propositions for each.
+
+METHODOLOGY
+
+Using ADR to build a design theory A design theory provides ‘explicit prescriptions (e.g. methods, techniques, principles of form and function) for constructing an artifact’ [Gregor, 2006, p. 620] by synthesizing sets of prescriptive statements to guide its effective and feasible design (Walls et al., 1992; Gregor & Jones, 2007). A design theory is particularly valuable for PaaS business model design as it allows for a ‘systematic speciﬁcation of design knowledge’ [Gregor & Jones, 2007, p. 314] based on insights from the ﬁeld, as well as on theoretical justiﬁcations from prior MSP and business model literature. In line with Gregory & Muntermann (2014), we suggest that systematically developed design knowledge satisﬁes the criteria for scientiﬁc knowledge and provides a legitimate academic contribution. In our study, we follow the guidelines for building a rigorous IS design theory – i.e. ADR, following Sein et al. (2011) – and for formalizing design knowledge by documenting the core components recommended for a design theory by Gregor & Jones (2007). We use ADR as a ‘research method for generating prescriptive design knowledge through building and evaluating ensemble IT artifacts in an organizational setting’ [Sein et al., 2011, p. 40]. ADR comprises close collaboration between researchers and practitioners – in our case, the solution management team responsible for a large software vendor’s cloud platform – and provides guidelines on how to build rigorous design science artefacts. This method relies on an iterative design search process for an effective artefact, complemented by additional stages of reﬂection and the formalization of learning. It thus follows inductive processes of reﬂection and abstraction, as outlined by Gregor & Hevner (2013). Because design theorizing operates in an instance domain and an abstract domain, ADR also supports the development of design theories from instances of the artefacts by means of causal analysis (Gregory & Muntermann, 2014).
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+559
+
+In our study, we experienced all four stages of the ADR research process, as indicated in Figure 2. Our ADR project started in December 2012 with the problem formulation and continued with two building, intervention and evaluation (BIE) cycles. The project reached its ﬁrst complete state in December 2013 when we formalized our ﬁndings from existing and planned PaaS business models (artefacts) into a design theory. We documented the design theory by referring to the design theory components recommended by Gregor & Jones (2007), which provide a very structured way of specifying design knowledge. These components also enhance the focus on the meta-requirements (MRs) outlined by Walls et al.’s (1992) seminal IS design theory by emphasizing justiﬁcatory knowledge, as well as design instantiations in the form of artefacts. Action Design Research context In stages 1 and 2, we collaborated closely with the large enterprise software corporation Alpha, one of the largest global software companies. Alpha’s primary products are enterprise resource planning (ERP) and enterprise data warehouse solutions, but in recent years the company has also entered the cloud market. At the start of our study, Alpha was struggling with its PaaS solution (here labelled HCP), which fell short of expectations. When Alpha realized that its competitors were far more successful in the market, it launched a systematic business model innovation (BMI) initiative. We participated in the BMI initiative to ﬁnd a solution for the problems with HCP. HCP is a Java-based platform that provides sophisticated development and integration capabilities. By collaborating for several months with Alpha’s solution management team in charge of HCP’s commercialization, market introduction and business development, we beneﬁted from a unique and interesting research setting. We gained ﬁrst-hand insights into issues related to transforming a traditional software ﬁrm’s business models into the PaaS market. Not only did we learn from our experiences with existing (and less successful) business models, but we also could also directly discuss and test innovative business model ideas with practitioners and end users. By obtaining ﬁrst-hand market insights, as well as continuously
+
+Figure 2. Action Design Research stages (based on Sein et al., 2011). © 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+560
+
+A Giessmann & C Legner
+
+observing the PaaS market for 5 years, we believe that our learnings go beyond Alpha’s speciﬁc situation and are applicable to the broader class of PaaS business models. Our ADR study follows an organization-dominant BIE schema ‘to generate design knowledge where the primary source of innovation is organizational intervention’ [Sein et al., 2011, p. 42] and involved researchers, a large group of Alpha practitioners (responsible for the development, product management and sales of the PaaS solution) and PaaS customers. The ADR core team consisted of eight people – a moderator, two researchers, two solution managers, a sales representative, a ﬁnance representative and a platform architect – who covered the theoretical, technical and practical perspectives. The lead designer headed the HCP solutions management. The moderator focused on introducing and executing different BMI methods and techniques, while the two researchers (one senior, one junior) contributed their expertise in platform innovation and cloud platforms.
+
+Insights into the design search process Our ADR study involved an extensive and iterative design search process outlined in Table 3.
+
+Problem formulation
+Our research was driven by Alpha’s practical need to offer an innovative and effective business model for its HCP solution. At the start of our study, Alpha was struggling with its PaaS solution for the following reasons: (1) Compared to other PaaS providers, Alpha had entered the PaaS market comparatively late and timidly, especially in terms of its marketing and sales force. (2) In the course of the ﬁrst year, HCP did not meet various assumptions made in its business case. In particular, the development costs were higher than planned, and Alpha failed to meet the planned sales ﬁgures. (3) Competitors started actively approaching Alpha’s core customers by advertising their platforms’ integration capabilities with Alpha’s ERP systems. (4) Traditionally, Alpha developed and distributed licence-based software packages. Offering a software platform on which external developers deploy and run their complementary components changed its way of doing business. The company therefore found that it needed an innovative and effective business model for this new software platform type. Consequently, we complemented the problem formulation stage with an extensive analysis of existing PaaS solutions and their business models.
+
+Building, intervention, and evaluation
+In the ﬁrst BIE cycle, we analyzed the then current business model of Alpha’s HCP solution and developed the ﬁrst version of the artefact – HCP’s status quo business model – using Osterwalder & Pigneur’s (2010) business model canvas. We opted for the business model canvas as a business model representation, because most of the ADR team members were already familiar with it and we could immediately start discussing the business model. The analyses also included insights into the platform strategy and ecosystem strategy, as well as into the stakeholders and the related components and systems. In the course of these discussions, Alpha positioned its HCP solution as an integration-focused PaaS, because it was offering, as well as planning, various integration capacities for other Alpha solutions and non-Alpha
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Table 3. Action Design Research stages and contributors process (based on Sein et al. (2011) PaaS stakeholders and users Research team Artefact
+
+ADR core team
+
+Stage 1: problem formulation (December 2012 to January 2013)
+
+Preparation meetings to outline problems of HCP business model —
+
+Analysis of the PaaS market and 25 PaaS competitors’ business models
+
+Stage 2: Building, intervention, and evaluation cycles (January to April 2013)
+
+Recognition that an innovative and effective business model is needed: the HCP solution had fallen short of expectations, while competitors were addressing Alpha’s customers
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579 — Analysis of business model theories; selection of the business model canvas by Osterwalder & Pigneur (2010) as basis for PaaS business model design Study and execution of BMI methods, MSP theories and related concepts (e.g. network effects). Alpha artefact: a business model representation of HCP to document the status quo, thus making transparent the weak points Evaluation of the BMI options by 13 experts: qualitative (open questions) and quantitative evaluation (scoring model) Beta artefact: nine instances of business models for HCP; the beta artefact was synthesized from the three BMI options rated highest in the expert evaluations
+
+First ADR workshop for synthesizing and documenting HCP’s current business model
+
+Second ADR workshop on BMI, resulting in more than 200 BMI ideas Third ADR workshop to elaborate nine BMI options and deﬁne evaluation criteria Fourth ADR workshop to reﬁne the proposed BMI options based on the evaluation
+
+Designing business models for cloud platforms
+
+Stage 3: R&L (January to April 2013) — Analysis of the literature on PaaS and MPSs (theoryEmerging version and realization: ﬁrst ideas of MRs and DPs based on
+
+—
+
+561
+Continues
+
+562
+
+Table 3. Continued
+PaaS stakeholders and users engrained artefact); data triangulation based on artefacts (business model variants/versions) and their evaluation; transfer of HCPrelated learning to the broader class of problems (PaaS business models); academic discussions with other researchers Research team Artefact results emerging in the BIE cycles, as well as justiﬁcatory knowledge
+
+A Giessmann & C Legner
+
+ADR core team
+
+Stage 4: formalization of learning (May to December 2013) Evaluation of the design theory by seven experts and HCP target users: qualitative and quantitative evaluation of MRs, DPs, and TPs Formalization of design theory components and reﬁnement based on evaluation results, ﬁeld notes, artefact revisions, secondary data sources and extant literature Ensemble version: a design theory according to Gregor & Jones (2007), including four MRs as well as six DPs and their design options
+
+—
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+MSP, multisided platform.
+
+Designing business models for cloud platforms
+
+563
+
+solutions. However, HCP also shows characteristics of a development-focused PaaS and is therefore a particularly interesting. By systematically documenting HCP’s status quo business model in the ﬁrst BIE cycle, the identiﬁed weak points became transparent. For example, there was no clear deﬁnition or decision on customer segments. The second BIE cycle was dedicated to BMI and is outlined in Figure 3. During an ideation workshop, the ADR team produced more than 200 ideas to improve HCP’s business model by means of established BMI tools and techniques. In total, the ADR team applied six BMI methods, including morphological analysis (Zwicky, 1969), BMI pattern cards (Gassmann et al., 2013), logo battle, kill the company (Bodell, 2012), blue ocean strategy (Kim & Mauborgne, 2004), and learnings from existing PaaS business models. The ideas ranged from freemium offerings to advertising support and to massive open online courses (MOOC), as well as to crowdsourcing/crowdfunding features with customers bidding against problem statements for app development. The project team clustered and prioritized these ideas, developing nine ideas further. The team again modelled the resulting nine BMI options by using the business model canvas. For instance, one BMI option was to offer C&A test-drive capabilities, which would allow developers to run and test C&A before deciding to deploy and enable them in their HCP account. A total of 13 experts evaluated all nine BMI options, which covered the following positions/roles: business development cloud; product management; solution management; chief product owner; ecosystem and channels (× 2); business development; sales head of Asia–Paciﬁc, including Japan; custom development; North American cloud sales; sales management and head of cloud integration. The evaluation comprised two parts: a qualitative interview on the experts’ opinions of each BMI option and a quantitative evaluation based on eight evaluation criteria: revenue potential, customer acceptance, impact on critical mass, differentiation/thought leadership, costs, risks, conﬂicts and required time. Finally, based on a management presentation, during which the head of HCP’s solution management team presented the results of this initiative, Alpha decided to implement three of the nine proposed BMI options in its HCP solution. The management presentation, decision and commitment were decisive, because the implementation of BMIs required the release of an additional budget, as well as adaptations to Alpha’s internal structure. The selected ideas were (1) offering developers free accounts to stimulate them to use the platforms; (2) a series of free MOOCs for developers, including certiﬁcation; and (3) the idea of test-drive capabilities for C&A.
+
+Figure 3. Building, Intervention, and Evaluation cycle. © 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+564
+
+A Giessmann & C Legner
+
+The last turned out to be the most challenging idea concerning implementation. This BMI ultimately resulted in a reengineering of HCP’s marketplace capabilities, as Alpha’s existing marketplace could not sufﬁciently support a cloud platform’s requirements. The three selected BMIs complemented each other very well and form the ﬁnal business model. Thus, the second BIE cycle led to a new version of the HCP business model.
+
+Reﬂection and learning
+Similar to the ﬁrst two stages, reﬂection and learning (R&L) cycles were undertaken. We consulted all the materials, such as the minutes from the 23 meetings, the ﬁndings of the four 1-day workshops, the opinion expressed in the 13 expert interviews, the documentation, slides, reports and results in order to convert our situated learning into ﬁndings that are applicable to a broader class of problems. During this phase, we used data triangulation of the artefacts (business model variants/versions and their evaluation) and compared our ﬁndings with the results of our literature review of MSPs and business model research, which validated our ﬁndings through crossveriﬁcation with the literature. Our goal was to better understand the functioning of PaaS business models and to reconceptualize the design of a speciﬁc artefact – the business models developed in the BIE cycles – by generalizing it to a class of solutions. After discussions with other researchers, the ﬁrst set of design principles (DPs) emerged, which we presented as research in a progress paper (Giessmann & Legner, 2013) to gain feedback from other researchers.
+
+Formalization of learning
+Finally, in line with Gregor & Jones (2007), we formalized our design knowledge as design theory. We synthesized four MRs and formulated six principles of form and function in full, as well as their corresponding design options, which had emerged during the BIE and R&L cycles. We derived 13 TPs to verify our design knowledge and assure that our DPs affect the identiﬁed MRs; we also reviewed the literature to substantiate our ﬁndings. While Alpha’s HCP business model represents an expository instance of the suggested design theory, we demonstrated artefact mutability by means of business model conﬁgurations based on variants of design options. We performed a naturalistic, ex ante evaluation of the design knowledge to validate our design theory, following the evaluation framework proposed by Venable et al. (2014). The seven experts, comprising experts from internal and external stakeholder groups, had to provide feedback on the MRs, principles of form and function and the TPs. Alpha employees in different roles/positions (solutions manager, sales representative, director of the app developer centre, consultant and senior developer) were asked to evaluate our design theory viability from an internal perspective. Alpha’s sales representatives, as well as an individual developer and an ISV, allowed us to integrate the perspectives of different PaaS customer segments.
+
+A D E S I G N T H E O RY F O R PA A S B U S I N E S S M O D E L S
+
+Overview of design theory Our design theory has six core components and one additional component: the purpose and the scope (1) of a design theory specify the practice-inspired causa ﬁnalis (Gregor & Jones,
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+565
+
+2007) and constitute a set of requirements that speciﬁes the artefact that the theory facilitates. We extract this set from our insights in the early stages of the ADR project and formalize four MRs (as described in the section ‘Deﬁning Purpose and Scope by Means of Meta-Requirements’). Constructs (2) are representations of the entities of interest in the design theory, and – in our case – derived from a business model representation in extant literature (section on ‘Leveraging Business Model Canvas as Constructs’). The principles of form and function (3) are the essence of design theory. We develop six DPs that ‘capture the knowledge gained about the process of [constructing PaaS business models in the ﬁeld], and [formalize this] knowledge [to create] other instances’ [Sein et al., 2011, p. 45]. Artefact mutability (4) deﬁnes the anticipated changes or variability, which can be considered during the theory’s instantiation. We anticipate mutability by identifying the design options for each DP on the basis of insights from the BIE cycles and discussions on different variants of PaaS business models, as well as prior literature. By means of TPs (5), we develop 13 truth statements (Gregor & Jones, 2007) that relate a DP to speciﬁc MRs. Justiﬁcatory knowledge (6) represents insights from literature that inform, explain and validate our design decisions (section on ‘Principles of Form and Function’). Finally, expository instantiation exempliﬁes the design of viable PaaS business models for Alpha (section on ‘Expository Instantiation’). Figure 4 provides an overview of our design theory: on the far left of Figure 4, we present four MRs. TPs are depicted as arrows and convey the impact of DPs on MR. After each DP , cardinalities are given that describe how the PaaS DPs relate to the identiﬁed design options. Deﬁning purpose and scope by means of meta-requirements Design theory’s purpose is to provide practitioner-oriented guidance on how to design viable PaaS business models in order to establish a ﬂourishing ecosystem. ‘The act of design, thus,
+
+Figure 4. Designing PaaS business models at a glance. © 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+566
+
+A Giessmann & C Legner
+
+starts with a description of the problem stated in terms of a set requirements’ [Dasgupta, 1991, p. 13]. We generalize a set of four MRs to PaaS business model design as a result of our insights into the ADR process and summarize them in Table 4.
+
+Meta-requirement 1: Consider multisidedness
+Meta-requirement 1 (MR1) highlights the challenges related to PaaS as an MSP, which – in turn – requires a multisided business model (Boudreau & Lakhani, 2009; Hagiu, 2014). In respect of deciding on target platform customer segments, two roles are inherent to PaaS: the developers and the consumers of complementary C&A. However, these two roles are distinct from the target customer segments that the platform might address and that may simultaneously act as consuming and developing parties. Hence, MR1 addresses the key challenge to obtain and keep on board all relevant customer segments.
+
+Meta-requirement 2: Achieve critical mass
+Meta-requirement 2 (MR2) focuses on PaaS’s role in coordinating consumer needs in terms of complementary C&A, as well as the external developers’ demands for a large installed customer base (Ceccagnoli et al., 2012). One of the primary challenges in setting up PaaS is that when the platform reaches a stage in which it can be opened to customers, there are usually no, or only a few, applications and components available. Hence, MR2 seeks to achieve a critical mass of complementary C&A, as well as consumers. This requirement is well aligned with
+
+Table 4. Meta-requirements for PaaS business models PaaS business model design challenges (from ADR study) • Addressing existing partners as potential customers requires a change in mindset and in the relationship management with them. • Understanding that platform customers might develop and consume C&A at the same time. • Once the platform reaches a stage where it can be opened to customers, no or only a few applications and components are available. • Migrating/moving already existing applications to PaaS does not provide obvious added value to customers but requires much development effort. • (High‐quality) Applications and components in the store are required to gain more customers. • Guaranteeing endurance of the platform itself, as well as complementary C&A already at an early product readiness stage, is challenging. • Offering a PaaS solution requires high upfront development costs, while proﬁtability remains unclear. • Selling a platform to customers is much more difﬁcult than selling packaged software or SaaS solutions. Justiﬁcatory knowledge (from literature) Boudreau & Lakhani (2009); Hagiu (2014)
+
+Meta-requirement MR1: Consider multisidedness; obtain and keep on board all relevant customer segments.
+
+MR2: Achieve critical mass of complementary C&A as well as consumers.
+
+Boudreau (2012); Ceccagnoli et al. (2012)
+
+MR3: Leverage cross-sided as well as same-sided positive network effects.
+
+Beimborn et al. (2011); Eisenmann et al. (2006)
+
+MR4: Ensure mid-term to long-term proﬁtability.
+
+Claussen et al. (2013); Gawer & Cusumano (2008)
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+567
+
+‘the literature on platforms [that] stresses the importance of accumulating a “critical mass” of consumers and producers on a platform’ [Boudreau, 2012, p. 1411].
+
+Meta-requirement 3: Leverage positive network effects
+Meta-requirement 3 (MR3) addresses the point that positive network effects are at play in successful platform businesses, rendering the platform more attractive (Eisenmann et al., 2006). This implies that the more C&A available on the platform, the more PaaS consumers will value the platform. The platform value increases for developers with the number of consumers in the installed base. Or, as the business developer for cloud solutions suggested, ‘If we can claim certain numbers it may convince more customers and partners to join’. Thus, MR3 seeks to leverage cross-sided, as well as same-sided, positive network effects. Beimborn et al. [2011, p. 384] supported this MR by stating that ‘a key economic aspect of PaaS is the existence of network effects’.
+
+Meta-requirement 4: Proﬁtability
+Meta-requirement 4 (MR4) addresses the challenges of meeting the mid-term to long-term profitability of PaaS business models. ‘Managing a platform has the goal of maximizing its monetization opportunities’ [Claussen et al., 2013, p. 187]. However, PaaS providers also face the challenge of protecting their ‘sources of proﬁt while enabling complementors to make an adequate proﬁt’ [Gawer & Cusumano, 2008, p. 30]. Accordingly, we observed that third-party developers refuse to join platforms if they must ﬁrst sign expensive licence contracts. Because the PaaS market is still emerging, PaaS providers need to invest in platform development, as well as in developing ‘a strong ecosystem of developers and consumers around the own platform’ [Giessmann & Stanoevska, 2012b, p. 46]. Maximizing ‘short-term proﬁts […] may not encourage a global ecosystem of complementors to develop over the long term’ [Gawer & Cusumano, 2008, p. 33]. In line with Giessmann & Stanoevska (2012b), as well as Gawer & Cusumano (2008), one of Alpha’s senior sales representatives stated, ‘It is crucial to have the basics [PaaS features] in place, before we seek proﬁtability’.
+
+Leveraging business model canvas as constructs One of the practical challenges of designing PaaS business models relates to identifying suitable elements for describing how an organization creates, delivers and captures value (Osterwalder & Pigneur, 2010). Our design theory relies on existing business model representations that depict the entities of interest and act as boundary objects that mediate between different stakeholders. Several authors – such as Johnson et al. (2008) and Hedman & Kalling (2003) – have decomposed business models into their atomic elements, also referred to as building blocks or components (Pateli & Giaglis, 2004). Owing to its comprehensive coverage, we opted for the business model canvas of Osterwalder & Pigneur (2010) and its extension, the value proposition canvas (Osterwalder et al., 2014), as a business model representation. By applying the constructs based on these two canvases, we were able to comprehensively describe and discuss different PaaS business model versions and options in our design theory.
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+568
+
+A Giessmann & C Legner
+
+Principles of form and function Six principles of form and function form the crux of our theory and reﬂect our ﬁndings from the different BMI options we discussed with Alpha and the 25 alternative instantiations of existing PaaS business models. The DPs are summarized in Table 5. They describe the focal aspects of PaaS business models, as well as the design options and justiﬁcatory knowledge that support our ﬁndings. We also deduce TPs that relate each DP to the MRs.1
+
+Design principle 1: Customer segments
+Design principle 1 (DP1) addresses the identiﬁcation of at least two distinct customer segments that a PaaS provider seeks to reach and serve. Our analysis of PaaS business models shows that PaaS providers have the options to address at least ﬁve possible customer segments: (1) individual developers who have not yet built commercial solutions (such as student groups or start-ups); (2) ISVs who develop and consume C&A on the platform; (3) system integrators (SIs) such as IT consultancies, who do this for their customers; (4) platform customers as a possible customer segment that refers to enterprises that use PaaS solutions as a private cloud, i.e. they develop and run C&A for in-house utilization; and (5) the actual end user, meaning consumers of C&A. However, choosing whether to attract more or fewer customer segments involves a trade-off: More sides lead to potentially larger cross-side network effects, a larger scale and diversity but carry the risk of creating too much complexity and even conﬂicts of interest (Hagiu, 2014). If a platform addresses at least two distinct customers segments, both will ﬁnd the PaaS solution more attractive (TP1.1).
+
+Design principle 2: Segment-speciﬁc value proposition
+Design principle 2 (DP2) relates to the value proposition, which, according to business model literature, is the crucial aspect that has to be right (Hedman & Kalling, 2003; Johnson et al., 2008; Teece, 2010). Alpha’s experiences reveal that a generic value proposition is not sufﬁcient for a PaaS business model, but that a PaaS model’s core value proposition should be reﬁned for each customer segment. The latter addresses the jobs to be done in order to avoid the lowest common denominator issue (Hagiu, 2014). The head of Alpha’s solution management explained, ‘Our value propositions are not always unique and as clear and distinct as they should be. We have to ﬁnd sweet spots for the value propositions for at least some customer groups.’ To be attractive to each customer segment (TP2.1), PaaS providers need to ‘describe what a speciﬁc customer segment is trying to get done’ [Osterwalder et al., 2014, p. 33] and to identify their targeted services for selected PaaS customer segments. The value proposition may vary, depending on the four platforms types outlined by prior literature (summarized in Figure 1), resulting in different design options: a PaaS business model’s primary value proposition can be to facilitate the development of C&A (development-focused platforms). An alternative value proposition for a PaaS model can be the integration of the developed applications into an existing SaaS solution (application-based integration). The third PaaS provider group seeks to integrate any combination of on-premise and on-demand applications, while the fourth group
+1
+
+The names of the TPs follow the format TP (DP#.MR#) and describe the impact of DP# on MR#.
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Table 5. DPs and options, supported by justiﬁcatory knowledge and TPs Design options MR1: consider multisidedness. Hagiu, (2014); Johnson et al. (2008); Osterwalder & Pigneur (2010); Pagani (2013) TP1.1: if the platform addresses at least two distinct customer segments (developing and consuming), the solution will be more attractive to both. Meta-requirements Justiﬁcatory knowledge Testable propositions
+
+Design principles
+
+Individual developers; Independent software vendors; System integrators; Platform customers; Component and application consumers MR1: consider multisidedness. MR2: achieve critical mass.
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579 MR2: achieve critical mass. MR3: leverage network effects.
+
+DP1 customer segments: PaaS should serve at least two distinct customer segments (consuming and developing parties) DP2 segmentspeciﬁc value proposition: PaaS’s core value proposition should be reﬁned per customer segment and should address the jobs to be done.
+
+Development-focused platform; Application-based platform; Integration-focused platform; Distribution channel-based platform
+
+DP3 components and applications: from its launch onwards, the PaaS should offer a set of complementary C&A.
+
+Develop initial set of components and applications in-house; Hire developers; Subsidize development partners: Actively invest in developers; Lower entry and transfer barrier
+
+Designing business models for cloud platforms
+
+DP4 installed base relationships: installed base relationships should be designed to encourage and intensify PaaS usage. MR2: achieve critical mass MR3: leverage network effects.
+
+Ensure variety and quality; Custom development; Integration in roadmap planning; Matchmaking capabilities
+
+Cusumano & Gawer (2002); Hedman TP2.1: with targeted value propositions per & Kalling (2003); Johnson et al. customer segment, the platform will be (2008); Osterwalder & Pigneur (2010) more likely provide pain relievers and gain creators and will thus be more attractive to each customer segment. TP2.2: not having a designated value proposition for developing partners and individual developers will lower acceptance and will prevent the achievement of a critical mass of C&A. Boudreau (2012); Ceccagnoli et al. TP3.2: having complementary C&A (2012); Eisenmann et al. (2006); available will convince developing partners Gawer & Cusumano (2008) and individual developers to join the platform and to build more C&A.TP3.3: a PaaS solution providing a variety of highquality C&A increases the value for users and thereby creates positive network effects. Claussen et al. (2013); Hagiu (2014); TP4.2: strengthening relationships by close interactions with PaaS customers Huang et al. (2013); Johnson et al. will build trust and will help achieve critical (2008); Osterwalder & Pigneur (2010) mass. TP4.3: retaining existing customers and strengthening relationships will attract development partners to the platform and will therefore foster positive network effects.
+
+569
+Continues
+
+570
+
+Table . Continued
+Design options MR3: leverage network effects. MR4: proﬁtability. Ceccagnoli et al. (2012); Claussen et al. (2013); Cusumano & Gawer (2002); Ghazawneh & Henfridsson (2013) Meta-requirements Justiﬁcatory knowledge Testable propositions
+
+Design principles
+
+A Giessmann & C Legner
+
+DP5 platform governance: relationships with complementors rely on well-deﬁned rules, IPR regulations, and collaboration models.
+
+Exclusive rights for C&A provider; Intellectual property rights and copyrights; Integrated into roadmap planning; No binding commitments; Active search and buyout
+
+DP6 internal governance: the internal structure should be designed in a way that helps avoid conﬂicts of interest. MR1: consider multisidedness. MR4: proﬁtability. Christensen & Overdorf (2000); Cusumano & Gawer (2002)
+
+Similar goals should fall under one executive; Organizational culture and processes; Internal communication of strategy; Shielding of new business model; In-house utilization of PaaS
+
+TP5.3: collaboration models and IPR regulations with complementors enables a solid basis for collaboration and avoiding conﬂicts, fostering positive network effects. TP5.4: well-deﬁned rules between complementors and platform providers will allow partners to peruse their commercial interests and will thus foster proﬁtability for both. TP6.1: an organization’s processes and values should support the PaaS business model, especially in product positions and communication, in order to be credible to the outside and attractive to customers. TP6.4: a dedicated sales approach for PaaS ensures mid-term to long-term proﬁtability.
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+571
+
+offers a distribution channel as its most important service (e.g. Facebook developers). Hence, DP2 deﬁnes a core value proposition for each customer segment, i.e. the most important services for each of the identiﬁed customer segments that address the ‘jobs to be done’.
+
+Design principle 3: Components and applications
+Design principle 3 (DP3) relates to the insight that a platform without content (i.e. C&A) is not attractive and therefore unlikely to achieve a critical mass (TP3.2). According to Venkatraman et al. [2014, p. 4], platforms ‘become attractive to customers if they have a high degree of complements that support the innovation (complementor network effects)’. In this context, Alpha’s senior business development manager stated, ‘[This is] a new product [and] we need to show that we provide value. If we can’t show this, we won’t gain customers, if we do not gain customers, we can’t show value.’ Customers rely on existing components to work efﬁciently on cloud platforms, and consumers prefer a variety of applications (TP3.3). Consequently, DP3 suggests that, from its launch onwards, PaaS should offer a set of complementary C&A. There are several ways of achieving this, and they can be combined: either PaaS providers develop an initial set of C&A themselves or they hire third-party developers to do this. Additionally, the developing customer segments can be subsidized (Eisenmann et al., 2006; Gawer & Cusumano, 2008; Ceccagnoli et al., 2012), or the PaaS provider could invest in the developing side by offering developer conferences, summits and competitions. PaaS providers should announce their investments in the platform and keep the entry barriers low by supporting established languages and development tools.
+
+Design principle 4: Installed base relationships
+Design principle 4 (DP4) addresses another key insight from our evaluation of the BMI options during the second BIE cycle: PaaS providers need to continuously meet the needs and demands of their existing customer base, because keeping existing users active is one of the most important objectives (Claussen et al., 2013). Emphasizing the importance of the installed base relationships, Alpha’s head of cloud integration stated, ‘We have many assets within Alpha. We should therefore ﬁrst focus on these. For example, we have good knowledge of and connections with the automotive industry. We have to use this’. Strengthening the relationships by means of close interactions with existing customers will build trust and will help achieve a critical mass (TP4.2); it will also attract more development partners to the platform, thereby fostering positive network effects (TP4.3). Hence, DP4 postulates that the installed base relationships should be designed to encourage and intensify PaaS usage. This can be achieved by, for example, custom development and maintenance, customer integration into road map planning and offering matchmaking capabilities where consumers are linked to developers and vice versa.
+
+Design principle 5: Platform governance
+Design principle 5 (DP5) clariﬁes that relationships with complementors rely on well-deﬁned rules, intellectual property right (IPR) regulations and collaboration models. As one of the ﬁrst insights from problem formulation stage, and conﬁrmed during the evaluation, DP5 recommends actively managing relationships with complementors and that the business model
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+572
+
+A Giessmann & C Legner
+
+design should reﬂect this. Collaboration models and IPR regulations with complementors provide a solid basis for collaboration and avoiding conﬂicts, thereby encouraging positive network effects (TP5.3). In addition, well-deﬁned rules for complementors and platform providers will allow partners to pursue their commercial interests and to foster the proﬁtability of both (TP5.4). Alpha’s ecosystem and channels manager for HCP conﬁrms, ‘Enabling partners to access the ecosystem, understand the gaps, and to do something about them is very helpful to get the ecosystem started’. The design forms a continuum: at one end of the continuum, platforms grant complementors exclusive rights; i.e. the PaaS provider does not authorize competing C&A, ‘so that those who are licensed are able to make a sufﬁcient return on their investments’ [Hagiu, 2014, p. 78]. At the other end of the continuum, platforms do not commit to complementors but actively search for and imitate, or buy, promising C&A. However, such selective vertical integration might be a disincentive for third-party players to join the platform. PaaS providers have to make a trade-off by either leaving enough room for complementors or providing a comprehensive cloud platform.
+
+Design principle 6: Internal governance
+Design principle 6 (DP6) formalizes another crucial ﬁnding of our ADR study: the internal structure should be designed in a way that helps avoid conﬂicts of interest. An organization’s processes and values should support the PaaS business model, especially with product positioning and communication, in order to be credible to the outside, as well as be attractive to customers (TP6.1). The head of a regional Alpha cloud sales team summarizes, ‘Only if Alpha can communicates a consistent message will people trust and invest in the product’. Cusumano & Gawer (2002) identiﬁed three design options: (1) keeping groups with similar goals under one executive’s business area, (2) addressing organizational culture and processes and (3) improving internal communication of corporate strategy. Our research revealed two additional options: (4) providers who have already established business models for other solutions must protect their new PaaS business model (see also Christensen & Overdorf, 2000). A dedicated PaaS sales approach ensures mid-term to long-term proﬁtability (TP6.4). (5) Already established software ﬁrms should enforce the continuous internal use of their PaaS solution. ‘This will also prove that we are using our own technology in standard software development, because customers and partners often ask if we use what we produce’ (chief product owner). Table 5 summarizes the DPs and options, and their support, as justiﬁcatory knowledge and TPs. While the DPs provide a general and abstract blueprint for PaaS business models, the corresponding instantiation in a concrete environment may vary. In our ADR study, we studied the mutability of viable PaaS business model conﬁgurations by analyzing existing PaaS business models, as well as the business model options identiﬁed and evaluated in the second BIE cycle. Based on these insights, we anticipate that the introduced design options demonstrate the mutability of PaaS business models. Expository instantiation As an expository instantiation, we illustrate how we apply the DPs ‘for the purpose of theory representation or exposition’ [Gregor & Jones, 2007, p. 329] to Alpha’s HCP business
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+573
+
+model. Although we generated several versions of the HCP business model during our ADR study, we report only on the business model after the completed BMI initiative. Table 6 summarizes how the six DPs have been applied; the related design options are highlighted in grey in Figure 4. Insights from evaluation For evaluation, we undertook semistructured interviews on three core components of our design theory, i.e. the MRs, principles of form and function and TPs. The experts’ feedback converges towards strong agreement on the MRs and DPs, which is indicated in Figure 5. Moreover, the experts considered our design theory adequate and relevant.
+Table 6. Applying Design principles to the HCP business model Design principle DP1 customer segments HCP business model Alpha’s HCP business model addresses all ﬁve identiﬁed customer segments: individual developer / start-ups, ISVs, SIs, platform customers and C&A consumers. ISVs and SIs evolved from being referred to as partners (in the past) into separated customer segments. HCP’s core value proposition for the four later customer segments is an integration platform with strong integration capabilities to software solutions provided by Alpha as well as to external solutions. The head of solution management proudly stated, ‘The integration functionality is provided by [Alpha] – no third player or man-in-themiddle required – it’s part of the platform’. For individual developers, HCP’s core value proposition is a development-focused platform with strong capabilities in Java, HTML5 and structured storage and user management. To ﬁll the platform with an initial set of complementary C&A, Alpha initiated a bundle of actions: • lower prices for developers (subsidize development partners) as well as its revenue share (now 15%, instead of 30% before); • free trial accounts, MOOCs, developer competitions and events at universities (actively invest in developers); • (re)launch of a dedicated marketplace for HCP that also provides test‐drive capabilities and thus facilitates distribution of C&A; • quality assurance and certiﬁcation processes (lower entry and transfer barrier). Alpha has begun to integrate complementors into its road map planning for HCP and offers custom development on HCP for existing customers. Analyses revealed that, while development partners would appreciate ‘white space protection’ (exclusive rights for C&A providers), they do not expect this from Alpha. The ﬁnal decision on the strategy regarding IPRs and copyrights is still outstanding. Because Alpha is a large software company, establishing an internal organization that supports a multisided business model for HCP is fairly challenging. Alpha has taken several actions. • Reorganization to consolidate all teams working on HCP (similar goals should fall under one executive). However, there are still conﬂicts of interest concerning sales and partner management teams, because these teams prefer to promote solutions that have already proven to be successful, rather than a new software platform. • Alpha is exploring ways to shield the new HCP business model. • Enforcing the use of HCP for extending cloud offerings as well as custom development projects (in‐house utilization of PaaS).
+
+DP2 segment-speciﬁc value proposition
+
+DP3 C&A
+
+DP4 installed base relationships DP5 platform governance
+
+DP6 internal governance
+
+HTML5, hypertext markup language revision 5.
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+574
+
+A Giessmann & C Legner
+
+Despite this general agreement, our qualitative data reveal three essential insights that almost all the interview partners mentioned: (1) customer ownership, (2) demarcation of C&A and (3) sales organization.
+
+Customer ownership
+In the context of customer segments (DP2), customer ownership was a controversial point. We refer to customer ownership as the extent to which a PaaS provider’s business model should directly address C&A’s end consumers. Our evaluation showed that this issue may be the source of channel conﬂicts with development partners. The chief executive of ﬁcer of an ISV stated, ‘Consuming parties, who are customers-of-customers, should only be addressed in respect of marketing. In particular, [Alpha] should not address them with its own solutions or applications, as this is a question of investment protection’. On the other hand, cloud platform providers have to ensure operation and support, which one of Alpha’s senior sales representatives also highlighted, ‘Most important: Who’s doing the support? Contact persons have to be deﬁned for each component. Know-how has to be available, for example, during release upgrades and so on. The cloud solutions on our platform
+
+Figure 5. Evaluation of MRs and DPs. © 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+575
+
+mustn’t be a black box. Close collaboration is required’. Summarizing, there is consensus that PaaS providers must address consuming customer segments, especially in terms of marketing and support. But who the customer owner is and who maintains the customer relationship remain an open issue.
+
+Demarcation of components and applications
+The second point returns to how complementary C&A are understood. On the one hand, we learned that C&A are not always clearly separable from platform services. For instance, document services may be offered via complementary components, or directly by the PaaS solution itself. On the other hand, C&A can be quite diverse. The chief executive ofﬁcer of an ISV suggests, ‘Components have to be differentiated: There are infrastructure components, and truly complementary components, with which I am perfectly ﬁne, but I am not with competing applications’. The conﬂicting interests between platform providers and developing roles result in relatively controversial views on DP3 (cf. Figure 5).
+
+Sales organization
+Third, almost all our interview partners – except the individual developer – mentioned PaaS sales as critical issue when discussing internal governance (DP6). There seems to be consensus that ‘[t]his is tricky. PaaS is very different from selling SaaS. A technology sale is very different kind of sale’ (Alpha’s regional cloud sales representative). While the consultant believes that Alpha has to ‘enable the sales team to the show business value of the platform, as well as the technology’, a senior sales Alpha representative states, ‘A PaaS business model can only be realized via a detached sales force’.
+
+CONCLUSION
+
+Contribution and discussion Our research objective was to develop an empirically based theory for designing business models in the context of cloud platforms as a speciﬁc type of software platform and given the challenge that platform providers face with transforming, conﬁguring and calibrating their business models. With this objective in mind, this study presents three important contributions: First, our theory allows informed design decisions on PaaS business models. Second, our DPs extend earlier work on cloud platforms. Third, we link and extend existing design knowledge of software platforms and business models. In the following, we elaborate on our contributions in detail. In order to allow for informed design decision-making on PaaS business models, our study contributes explicit prescriptions for designing viable PaaS business models based on our ﬁrst-hand experiences during an extensive 12-month ADR project with a large software vendor (Alpha) and on justiﬁcatory knowledge from software platform research. Our design theory for PaaS business models comprises the purpose and scope of PaaS business models as deﬁned by a set of four MRs. Six principles of form and function, together with the derived design options, form the crux of our theory and describe how these MRs could be achieved. Based on
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+576
+
+A Giessmann & C Legner
+
+the insights we gained from working with Alpha’s solution management team, we not only achieved a better understanding of critical design decisions on PaaS business models but also shed light on the design theory’s implementation by presenting the artefact’s instantiation and mutability. Hence, our study informs existing software companies that are embracing PaaS – regardless of the speciﬁc strategy that they apply to enter the cloud market (opening, development, acquisition) – and guides them to transform, conﬁgure and calibrate their PaaS business models. As a second contribution, our DPs extend earlier work on cloud platforms. Building on Beimborn et al. (2011), who identiﬁed ISVs and SaaS customers as potential PaaS customer segments, and Gass et al. (2014), who focused on individual developers, we identify two more potential customer segments: SIs and platform customers (see DP1 customer segments). While prior work on PaaS shares the view that cloud platforms vary in form (Lawton, 2008; Rimal et al., 2010; Beimborn et al., 2011; Yang & Tate, 2012), we elaborate on speciﬁc forms and formulate four core value propositions for cloud platforms that might vary in the addressed customer segment (see DP2 segment-speciﬁc value proposition). Finally, we link and extend existing design knowledge of software platforms and business models to the PaaS domain. In line with prior literature, our ﬁndings conﬁrm customer ownership (Ballon, 2007) and internal structure (Cusumano & Gawer, 2002) as crucial aspects of PaaS business model design. While our design theory explicitly addresses the latter (see DP6 on internal governance), we ﬁnd that customer ownership becomes a crucial business model design parameter when addressing the developing side. In this regard, our study calls for future research on designing business models to ﬁnd a way to manage the trade-off between intermediate and direct customer relations as discussed by Ballon (2007). Moreover, our evaluation conﬁrms the criticality of fruitful complementor relationships for successful PaaS business model design, in that ‘external innovators prefer autonomy, discretion in design and direct customer access so that their distributed knowledge, entrepreneurial energy and initiative can be applied in ways that they deem best’ [Boudreau & Lakhani, 2009, p. 74]. On the other hand, complementors seek to bene ﬁt from PaaS providers’ trusted brand, marketing and support capabilities.
+
+Limitations Our research has certain limitations. Among them is that our design theory was developed and evaluated in collaboration with just one company (Alpha) and this company’s ecosystem. Consequently, the involved experts’ market knowledge and culture are similar. Although we integrated our insights by analyzing the PaaS market and other PaaS business models, we cannot guarantee that our ﬁndings are exhaustive, or fully independent of our speciﬁc research setting. Our theory is built in, and for, the emerging PaaS market, with a particular focus on existing software providers embracing PaaS. It thereby addresses the challenges faced by the large
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+577
+
+majority of PaaS providers, which need to transform, conﬁgure and calibrate their established business models. At the same time, it does not necessarily cover the speciﬁc challenges start-ups may face that, for example, cannot leverage their existing customer base and ecosystem.
+
+Implications for research As an implication of our research, we see two promising avenues for future research: ﬁrst, we are convinced that more research is needed to study the complex relationships in software ecosystems and their implications for business model design. Our study has shown that customer ownership is a crucial business model design parameter for cloud platforms. Future research could be dedicated to studying the dependences, tensions and sustainability of governance mechanisms and other enabling factors (Sarker et al., 2012) for ﬂourishing software ecosystems. Second, the PaaS market is still growing swiftly but is largely fragmented and might be consolidated in the future. Current PaaS offerings have reached different maturity levels, which offers opportunities to study the dynamics and evolution of PaaS business models. As an example, future research could address the longitudinal process component introduced by Hedman & Kalling (2003) to examine the dynamics and evolution of business models over time.
+
+Implications for practice Our ﬁndings can help software vendors transform their business models to cope with the disruptions brought about by cloud platforms. Software ﬁrms can beneﬁt from the DPs in their BMI initiatives by deriving different instantiations of PaaS business models to address speciﬁc settings, or contingencies, as well as by evaluating their emerging ideas against these. In addition, software vendors can use the design options to shape the crucial aspects of their business models. In addition, our ﬁndings highlight the importance of carefully considering PaaS customer segments that extend beyond producing and consuming parties’ typical logic. The ﬁndings also draw attention to deﬁning a convincing value proposition for each segment with development-, application-, integration- and distribution-focused platforms as design options. Finally, practitioners may be inspired by Alpha’s experience and approach to undertake a BMI initiative and rethink their cloud platform approach.
+
+AC K N OW L E D G E M E N T S
+
+Our heartfelt thanks to the senior editor, the associate editor and two reviewers of the Information Systems Journal for their invaluable theoretical assistance and editorial advice. In particular, the associate editor was extraordinarily engaged in the process of helping craft the ﬁnal version of this paper.
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+578
+
+A Giessmann & C Legner
+
+REFERENCES
+Al-Debei, M.M. & Avison, D. (2010) Developing a uniﬁed framework of the business model concept. European Journal of Information Systems, 19Nature Publishing Group,, 359–376. Andrikopoulos, V., Binz, T., Leymann, F. & Strauch, S. (2013) How to adapt applications for the cloud environment. Computing, 95, 493–535. Ballon, P. (2007) Business modelling revisited: the conﬁguration of control and value. Info, 9, 6–19. Baskerville, R. & Pries-Heje, J. (2010) Explanatory design theory. Business & Information Systems Engineering, 2, 271–282. Beimborn, D., Miletzki, T. & Wenzel, S. (2011) Platform as a service (PaaS). Business & Information Systems Engineering, 3, 381–384. Bodell, L. (2012) Kill the Company: End the Status Quo. Start an Innovation Revolution, Bibliomotion Inc. Boudreau, K.J. (2012) Let a Thousand ﬂowers bloom? An early look at large numbers of software app developers and patterns of innovation. Organization Science, 23, 1409–1427. Boudreau, K.J. & Lakhani, K.R. (2009) How to manage outside innovation. Sloan Management Review, 50, 69–76. Ceccagnoli, M., Forman, C., Huang, P. & Wu, D.J. (2012) Cocreation of value in a platform ecosystem: the case of enterprise software. MIS Quarterly, 36, 263–290. Chen, P. & Wu, S. (2013) The impact and implications of on-demand services on market structure. Information Systems Research, 24, 750–767. Christensen, C.M. & Overdorf, M. (2000) Meeting the challenge of disruptive change. Harvard Business Review (March-April), 78, 1–10. Claussen, J., Kretschmer, T. & Mayrhofer, P. (2013) The effects of rewarding user engagement : the case of Facebook apps. Information Systems Research, 24, 186–200. Cusumano, M. (2010) The evolution of platform thinking. Communications of the ACM, 53, 32–34. Cusumano, M.A. & Gawer, A. (2002) The elements of platform leadership. MIT Sloan Management Review, 43, 51–58. Dasgupta, S. (1991) Design Theory and Computer Science. Cambridge University Press, Cambridge, UK. Eisenmann, T., Parker, G.G. & van Alstyne, M.W. (2006) Strategies for two-sided markets. Havard Business Review (October 10), 92–101. Eurich, M., Giessmann, A., Mettler, T. & Stanoevska, K. (2011) Revenue streams of cloud-based platforms: current state and future directions, In: 17th Americas Conference on Information Systems (AMCIS), pp. 302. AIS, Detroit, Michigan, USA. Gass, O., Meth, H. & Maedche, A. (2014) PaaS characteristics for productive software development. IEEE Internet Computing, 18, 56–64. Gassmann, O., Frankenberger, K. & Csik, M. (2013) BMI Pattern Cards: Revolutionize Your Industry by Building on 55 Basic Business Model Patterns as a Powerful Approach for Executives and Strategic Innovators. BMI Lab AG, St. Gallen, Switzerland. Gawer, A. & Cusumano, M.A. (2008) How companies become platform leaders. MIT Sloan Management Review, 49, 28–35. Ghazawneh, A. & Henfridsson, O. (2013) Balancing platform control and external contribution in third-party development: the boundary resources model. Information Systems Journal, 23, 173–192. Giessmann, A., Kyas, P., Tyrväinen, P. & Stanoevska, K. (2014) Towards a better understanding of the dynamics of platform as a service business models, In: 47th Hawaii International Conference on System Sciences (HICSS), pp. 965–974. IEEE Computer Society, Big Island, Hawaii. Giessmann, A. & Legner, C. (2013) Designing business models for platform as a service: towards a design theory, In: 34th International Conference on Information Systems (ICIS), pp. 1132. Milan, Italy, AIS. Giessmann, A. & Stanoevska, K. (2012a) Platform as a service – a conjoint study on consumers’ preferences, In: 33rd International Conference on Information Systems (ICIS), pp. 1064. AIS, Orlando, Florida, USA. Giessmann, A. & Stanoevska, K. (2012b) Business models of platform as a service (PaaS) providers: current state and future directions. Journal of Information Technology Theory and Application (JITTA), 13, 31–55. Gonçalves, V. & Ballon, P. (2011) Adding value to the network: mobile operators’ experiments with software-asa-service and platform-as-a-service models. Telematics and Informatics, 28, 12–21. Gregor, S. (2006) The nature of theory in information systems. MIS Quarterly, 30, 611–642. Gregor, S. & Hevner, A.R. (2013) Positioning and presenting design science research for maximum impact. MIS Quarterly, 37, 337–355. Gregor, S. & Jones, D. (2007) The anatomy of a design theory. Journal of the Association for Information Systems, 8, 312–335. Gregory, R.W. & Muntermann, J. (2014) Heuristic theorizing : proactively generating design theories. Information Systems Research, 25, 639–653.
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+Designing business models for cloud platforms
+
+579
+
+Hagiu, A. (2014) Strategic decisions for multisided platforms. MIT Sloan Management Review, 55, 71–80. Hedman, J. & Kalling, T. (2003) The business model concept: theoretical underpinnings and empirical illustrations. European Journal of Information Systems, 12, 49–59. Huang, P., Ceccagnoli, M., Forman, C. & Wu, D.J. (2013) Appropriability mechanisms and the platform partnership decision: evidence from enterprise software. Management Science, 59, 102–121. Johnson, M.W., Christensen, C.M. & Kagermann, H. (2008) Reinventing your business model. Harvard Business Review, 86, 51–59. Kim, W.C. & Mauborgne, R. (2004) Blue ocean strategy. Harvard Business Review, 82, 76–84. Lawton, G. (2008) Developing software online with platformas-a-service technology. Computer, 41, 13–15. Liu, F., Tong, J., Mao, J., et al. (2011) NIST Cloud Computing Reference Architecture – recommendations of the National Institute of Standards and Technology. Gaithersburg, MD, 20899–8930. Martens, B., Walterbusch, M. & Teuteberg, F. (2012) Costing of cloud computing services: a total cost of ownership approach, In: 45th Hawaii International Conference on System Sciences (HICSS), pp. 1563–1572. IEEE, January, Maui, Hawaii USA. Osterwalder, A. & Pigneur, Y. (2010) Business model generation: a handbook for visionaries, game changers, and challengers, 1st edn. John Wiley & Sons, Inc, Amsterdam, Netherlands. Osterwalder, A. & Pigneur, Y. (2013) Designing business models and similar strategic objects: the contribution of IS. Journal of the Association for Information Systems, 14, 237–244. Osterwalder, A., Pigneur, Y., Bernarda, G. & Smith, A. (2014) Value proposition design. John Wiley & Sons, Amsterdam, Netherlands. Pagani, M. (2013) Digital business strategy and value creation: framing the dynamic cycle of control points. MIS Quarterly, 37, 617–632. Pateli, A.G. & Giaglis, G.M. (2004) A research framework for analysing eBusiness models. European Journal of Information Systems, 13, 302–314. Rimal, B.P., Jukan, A., Katsaros, D. & Goeleven, Y. (2010) Architectural requirements for cloud computing systems: an enterprise cloud approach. Journal of Grid Computing, 9, 3–26. Rochet, J.-C. & Tirole, J. (2003) Platform competition in two-sided markets. Journal of the European Economic Association, 1, 990–1029. Rodero-Merino, L., Vaquero, L.M., Caron, E., Muresan, A. & Desprez, F. (2012) Building safe PaaS clouds: a
+
+survey on security in multitenant software platforms. Computers & Security, 31, 96–108. Sarker, S., Sarker, S., Sahaym, A. & Bjørn-Andersen, N. (2012) Exploring value cocreation in relationships between an erp vendor and its partners: a revelatory case study. MIS Quarterly, 36, 317–338. Sein, M.K., Henfridsson, O., Purao, S., Rossi, M. & Lindgren, R. (2011) Action design research. MIS Quarterly, 35, 37–56. Su, N. (2011) Emergence of cloud computing: an institutional innovation perspective, In: 32nd International Conference on Information Systems (ICIS), pp. 11. AIS, Shanghai, China. Teece, D.J. (2010) Business models, business strategy and innovation. Long Range Planning, 43, 172–194. Tiwana, A., Konsynski, B. & Bush, A.A. (2010) Platform evolution: coevolution of platform architecture, governance, and environmental dynamics. Information Systems Research, 21, 675–687. Veit, D., Clemons, E., Benlian, A., et al. (2014) Business models – an information systems research agenda. Business & Information Systems Engineering, 6, 45–53. Venable, J., Pries-Heje, J. & Baskerville, R. (2014) FEDS: a framework for evaluation in design science research. European Journal of Information Systems (November), 25, 1–13. Venkatraman, N.V., El Sawy, O.A., Pavlou, P.A. & Bharadwaj, A. (2014) Theorizing digital business innovation: platforms and capabilities in ecosystems. Available at SSRN: http://ssrn.com/abstract=2510111 or http://dx. doi.org/10.2139/ssrn.2510111 Walls, J.G., Widmeyer, G.R. & El Sawy, O.A. (1992) Building an information system design theory for vigilant EIS. Information Systems Research, 3, 36–60. Weinhardt, C., Anandasivam, A., Blau, B., et al. (2009) Cloud computing – a classiﬁcation, business models, and research directions. Business & Information Systems Engineering, 1, 391–399. Weissman, C.D. & Bobrowski, S. (2009) The design of the Force.com multitenant Internet application development platform, In: ACM SIGMOD International Conference on Management of data, pp. 889–896. ACM, Providence, Rhode Island, USA. Yang, H. & Tate, M. (2012) A descriptive literature review and classiﬁcation of cloud computing research. Communications of the Association for Information Systems, 31, 2. Zott, C. & Amit, R. (2010) Business model design: an activity system perspective. Long Range Planning, 43, 216–226. Zwicky, F. (1969) Discovery, invention, research – through the morphological approach. Macmillan, Wisconsin.
+
+© 2016 Wiley Publishing Ltd, Information Systems Journal 26, 551–579
+
+

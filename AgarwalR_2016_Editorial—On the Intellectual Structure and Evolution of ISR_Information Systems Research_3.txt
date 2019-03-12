@@ -1,0 +1,511 @@
+This article was downloaded by: [130.89.97.167] On: 17 February 2017, At: 07:02 Publisher: Institute for Operations Research and the Management Sciences (INFORMS) INFORMS is located in Maryland, USA
+
+Information Systems Research
+Publication details, including instructions for authors and subscription information: http://pubsonline.informs.org
+
+Editorial—On the Intellectual Structure and Evolution of ISR
+Ritu Agarwal
+
+To cite this article: Ritu Agarwal (2016) Editorial—On the Intellectual Structure and Evolution of ISR. Information Systems Research 27(3):471-477. http://dx.doi.org/10.1287/isre.2016.0670 Full terms and conditions of use: http://pubsonline.informs.org/page/terms-and-conditions This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval, unless otherwise noted. For more information, contact permissions@informs.org. The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support of claims made of that product, publication, or service. Copyright © 2016, INFORMS Please scroll down for article—it is on subsequent pages
+
+INFORMS is the largest professional society in the world for professionals in the fields of operations research, management science, and analytics. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Information Systems Research
+Vol. 27, No. 3, September 2016, pp. 471–477 ISSN 1047-7047 (print) ISSN 1526-5536 (online) http://dx.doi.org/10.1287/isre.2016.0670 © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Editorial On the Intellectual Structure and Evolution of ISR
+Ritu Agarwal
+Center for Health Information and Decision Systems, Robert H. Smith School of Business, University of Maryland, College Park, Maryland 20742, ragarwal@rhsmith.umd.edu
+
+cholars within ﬁelds frequently introspect about the evolution of their research disciplines, asking if the discipline is developing a cumulative research tradition, inﬂuencing scholarly work in other ﬁelds, and expanding its boundaries. In this spirit, I examine the intellectual structure and evolution of one disciplinary journal, ISR, over the most recent four-year period (2012–2015). I use a census of citation data and classify journals citing ISR and cited by ISR into the disciplines they represent. Analyzing 12,833 citations to ISR from 100 journals, and 7,731 citations from ISR to papers published in 67 journals I ﬁnd that, consistent with prior studies, ISR reﬂects the multidisciplinarity of the information systems (IS) discipline, its boundaries are expanding to include new disciplines, and the journal draws extensively on other IS journals. I raise some questions for further introspection about the impact and visibility of IS research. Keywords : IS discipline boundary; IS discipline evolution; multidisciplinarity; citation analysis
+
+S
+
+Introduction
+Communities of scholars are often interested in the evolution and development of their disciplines or “ﬁelds” of inquiry and the information systems (IS) discipline is no exception. In the past three decades, a number of papers have sought to examine various aspects of this evolutionary process, including mapping the relationship between the focal discipline (IS) and multiple reference disciplines (Culnan 1986, Culnan and Swanson 1986, Grover et al. 2006, Pratt et al. 2012) and seeking to isolate the temporal change in this relationship. To the degree that IS has been characterized as a multidisciplinary ﬁeld and the existence and uniqueness of its “identity” has been vigorously debated in the community’s discourse (Benbasat and Zmud 2003, Agarwal and Lucas 2005), studying the relationship between IS and other disciplines might offer some insights into the question of whether the IS discipline has been successful in developing a cumulative research tradition (Grover et al. 2006). Studies in this genre have typically relied on cross-citation data across journals selected as exemplar representatives of a discipline (based on selection criteria such as the relative ranking or prestige of the journal and/or with an objective of replicating prior work), and applied a variety of analytical methods to draw conclusions. In this editorial, following the tradition of prior work in IS, I pose a related but modestly different and narrower question: How has the intellectual structure of ISR evolved in recent years? In contrast to prior work, I focus exclusively on one single journal and its relative position within a network of scholarship. My analysis uses the most recent data available, thereby
+471
+
+providing a window into contemporary trends. It is based on a complete census of all citations produced and received by ISR for the four-year period 2012– 2015. I ﬁnd some interesting patterns that are illustrative of shifts in the network of reference disciplines within which the journal is situated, and draw a few tentative conclusions. However, while the analysis reveals some intriguing relationships, it also raises questions that warrant further work.
+
+Methodology
+I obtained data from the proprietary InCites analytic service provided by Thomson Reuters that extracts citation data from the Web of Science Core Collection Indexes. First, a broad look at the data. Across the four-year period, ISR received 17,415 citations, of which 16,428 were associated with 670 unique outlets in the Core Collection Indexes.1 In the same period, ISR produced 15,630 citations, of which 11,285 were linked to 751 distinct sources. Prior to analyzing the data, I performed the following data reduction activities. First, I removed all sources for which the total citations received or produced across the fouryear period was less than 25.2 This yielded a data
+1
+
+Journals that produce only one citation for any year are not individually identiﬁed for that year.
+2
+
+The choice of 25 as a cut-off was made after examining the distribution of the citation data which, unsurprisingly, was highly skewed. For aggregated four-year data, median and mean for citations produced by ISR and associated with journals were 3 and 15, respectively, and the median and mean for citations received by ISR and associated with journals were 5 and 25, respectively.
+
+472 set with 12,833 citations to ISR from 100 journals, and 7,731 citations from ISR to papers published in 67 journals. Then, I classiﬁed each journal into its major disciplinary focus (see Tables 1 and 2). In performing the journal classiﬁcation, I sought to be consistent with prior research but also further examined the current focus of the journals. I acknowledge that others may classify journals differently (particularly those from computer science (CS) where an argument could be made for classifying some as information systems (IS)). Although I do not believe my ﬁndings will change substantially, it is important to draw the reader’s attention to this point. As the tables show, citations to ISR come from 10 distinct disciplines, several of which (e.g., economics, marketing, organization science) have been featured in past investigations (Grover et al. 2006, Culnan and Swanson 1986). Three additional disciplines are represented in the citations from ISR: ﬁnance, sociology, and statistics. As might be expected, journals classiﬁed as IS constitute the largest single category in both citing and cited data. Interestingly, while IS journals represent only approximately 20% of the citations made by ISR papers (14 of the total 67 cited journals are classiﬁed as IS), IS journals citing papers in ISR constituted a substantially larger proportion of the total set of journals providing citations (55%).
+Table 1
+
+Agarwal: On the Intellectual Structure and Evolution of ISR
+Information Systems Research 27(3), pp. 471–477, © 2016 INFORMS
+
+Disciplines Cited by ISR Publications Journal name
+
+Discipline Computer science (CS)
+
+ISR’s Citation Network
+To discern patterns in the data, I provide visual representations using a variety of different graphs. Figure 1 depicts the annual proportion of citations to (left panel) and from (right panel) ISR for the various disciplines.3 Several patterns are reﬂected in these graphs. It appears that cross-time variation in the volume of citations that ISR receives from or makes to any discipline is fairly constant across the four-year period (the largest difference is 4.1% for economics for years 2012 and 2014). Computer science publications tend to cite ISR papers more frequently as compared to other disciplines, and papers in ISR cite literature in economics, general business,4 marketing, and organization science more often, followed by psychology. Note that unlike the previous pan-discipline studies where psychology was not included as a separate discipline, for the purposes of this narrower analysis for a single journal, I speciﬁcally cull out the journals in this category.
+3
+
+I use proportions consistently to avoid introducing bias in the data caused by variation in the number of papers published each year. Thus, using CS (computer science) as an example, each bar represents the proportion of all citations for that year that go to or come from CS journals.
+4
+
+In prior studies journals that I include in this category (Management Science and Decision Sciences) were labeled “Management science.”
+
+Comm. ACM Comput. Human Behav. Lecture Notes Comput. Sci. IEEE Trans. Knowledge Data Engrg, Economics (EC) Amer. Econom. Rev. Econometrica Quart. J. Econom. RAND J. Econom. J. Political Econom. Res. Policy Rev. Econom. Stud. Rev. Econom. Statist. J. Econom. Perspect. J. Indust. Econom. J. Econometrics J. Econom. Theory Finance (FI) J. Finance General business (GB) Management Sci. Harvard Bus. Rev. Decision Sci. Wall Street Journal Sloan Management Rev. New York Times Health applications (HA) Health Affairs Information systems (IS) MIS Quart. Inform. Systems Res. J. Management Inform. Systems Decision Support Systems J. Assoc. Inform. Systems Eur. J. Inform. Systems J. Strategic Inform. Systems Inform. Management J. Comput.-Mediated Comm. Inform. Systems J. Internat. J. Electronic Comm. J. Inform. Tech. MIS Quart. Executive J. Amer. Soc. Inform. Sci. Tech. Marketing (MK) Marketing Sci. J. Marketing Res. J. Marketing J. Consumer Res. J. Acad. Marketing Sci. J. Retailing J. Interactive Marketing Operations research/ Oper. Res. Operations management (OR) Production Oper. Management Organization science (OS) Organ. Sci. Acad. Management Rev. Acad. Management J. Strategic Management J. Admin. Sci. Quart. J. Management Psychology (PY) J. Personality Soc. Psych. J. Appl. Psych. Organ. Behav. Human Decision Processes Psych. Bull. Personality Soc. Psych. Bull. J. Experiment. Soc. Psych. Annual Rev. Psych. General science (SC) Science Proc. Natl. Acad. Sci. USA Sociology (SO) Amer. Sociol. Rev. Annual Rev. Sociol. Amer. J. Sociol. Statistics (ST) J. Amer. Statist. Assoc.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Agarwal: On the Intellectual Structure and Evolution of ISR
+Information Systems Research 27(3), pp. 471–477, © 2016 INFORMS
+
+473
+Table 2 (Continued) Journal J. Amer. Soc. Inform. Sci. Tech. J. Knowledge Management J. Systems Software Inform. Development Electronic Comm. Res. J. Global Inform. Tech. Management Inform. Software Tech. Comm. Comput. Inform. Sci. Internat. J. Inform. Tech. Decision Making Electronic Library J. Engrg. Tech. Management Inform. Systems Inform. Res. J. Enterprise Inform. Management Internat. J. Tech. Management J. Database Management Indust. Marketing Management Marketing Sci. J. Interactive Marketing J. Service Res. J. Travel Tour Marketing Psych. Marketing J. Bus. Indust. Marketing J. Marketing Res. Operations research/ J. Oper. Management Operations management (OR) Internat. J. Production Econom. Production Oper. Management Internat. J. Production Res. Total Quality Management Bus. Internat. J. Oper. Production Management Management Decision Telecomm. Policy Eur. J. Oper. Res. Organization science (OS) Organ. Sci. Psychology (PY) Cyberpsych. Behavior Soc. Networking Group Decision Negotiation General science (SC) Tech. Forecasting Soc. Change Marketing (MK)
+
+Table 2 Discipline
+
+Disciplines Citing ISR Publications Journal Comput. Human Behav. Lecture Notes Comput. Sci. IEEE Trans. Engrg. Management Telematics Informatics Internat. J. Human-Comput. Interaction Internat. J. Human-Comput. Stud. IEEE Trans. Professional Comm. 2013 IEEE 10 Internat. Conf. Comput. Indust. Comput. Security IEEE Trans. Software Engrg. J. Systems Sci. Systems Engrg. J. Product Innovation Management Service Indust. J. Management Sci. J. Bus. Res. Internat. J. Project Management Service Bus. J. Bus. Ethics Internat. J. Medical Informatics J. Medical Systems J. Medical Internet Res. BMC Medical Informatics Decision Making MIS Quart. Inform. Systems Res. Proc. Ann. HICSS Decision Support Systems Inform. Management Eur. J. Inform. Systems J. Assoc. Inform. Systems J. Management Inform. Systems Behav. Inform. Tech. Internat. J. Inform. Management J. Inform. Tech. Inform. Systems J. J. Strategic Inform. Systems Indust. Management Data Systems Inform. Systems Frontiers J. Comput. Inform. Systems J. Organ. Comput. Electronic Commerce Electronic Commerce Res. Appl. Inform. Systems Management J. Electronic Commerce Res. Internet Res. J. Global Inform. Management Inform. Organ. Inform. Tech. People J. Organ. End User Comput. Decision Sci. Comput. Ed. Bus. Inform. Systems Engrg. Lecture Notes Bus. Inform. Processing Database Adv. Inform. Systems Electronic Markets Internat. J. Electronic Comm. Expert Systems Appl. Inform. Tech. Management Inform. Systems E-Bus. Management Internat. J. Mobile Comm. Online Inform. Rev. Internat. J. Accounting Inform. Systems J. Assoc. Inform. Sci. Tech.
+
+Discipline
+
+Computer science (CS)
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Economics (EC) General business (GB)
+
+Health applications (HA)
+
+Information systems (IS)
+
+Also clearly evident in these data is a dominant “within discipline” network: ISR receives more than 75% of its citations from other IS journals and, on average, approximately 37.5% of the total citations made in ISR are to IS publications. Further noteworthy is the difference in the magnitude of IS citations across the two panels, with the citations to ISR at twice the level of citations from ISR. One possible inference that can be drawn from these data, consistent with what has been reported elsewhere for the discipline as a whole, is that the IS ﬁeld is multidisciplinary and while IS research draws extensively on a greater variety of disciplines (reﬂected also in the larger number of disciplines constituting the citations made in ISR papers), it contributes less to these other disciplines. A second inference supports the notion of a cumulative research tradition (Hamilton and Ives 1982, Grover et al. 2006) where research within the IS discipline increasingly builds on prior work.
+
+474
+Figure 1 Citations Received and Produced by ISR
+Disciplines citing ISR
+90.00 80.00 2012 2013 2014 2015
+
+Agarwal: On the Intellectual Structure and Evolution of ISR
+Information Systems Research 27(3), pp. 471–477, © 2016 INFORMS
+
+Disciplines cited by ISR
+45.00 40.00
+
+Proportion of citations (%)
+
+Proportion of citations (%)
+GB HA IS MK OR OS PY SC
+
+70.00 60.00 50.00 40.00 30.00 20.00 10.00 0
+
+35.00 30.00 25.00 20.00 15.00 10.00 5.00 0
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+CS
+
+EC
+
+CS EC FI GB HA IS MK OR OS PY SC SO ST
+
+Note. For each year, bars represent proportion of total citations for that year associated with the discipline.
+
+In Figures 2 and 3, I use the same data to explore time-based variation in ISR’s citation network. The trend for both citing and cited is stable across years (the line graph for each year is almost identical to that for other years), and again illustrates the dominance
+Figure 2 Proportion of Citations Across Disciplines Over Time
+Disciplines citing ISR
+90.00 80.00
+
+of the intradisciplinary network. These charts further underscore the unequal relationship between contributions to other disciplines and dependence on other disciplines by the papers published in ISR. When the IS discipline is included, there is a strong and stable
+
+Disciplines cited by ISR
+45.00 40.00
+
+Proportion of citations (%)
+
+Proportion of citations (%)
+
+70.00 60.00 50.00 40.00 30.00 20.00 10.00 0 CS
+
+2012 2013 2014 2015
+
+35.00 30.00 25.00 20.00 15.00 10.00 5.00 0
+
+EC
+
+GB
+
+HA
+
+IS
+
+MK
+
+OR
+
+OS
+
+PY
+
+SC
+
+CS EC FI GB HA IS MK OR OS PY SC SO ST
+
+Figure 3
+
+Proportion of Citations Across Disciplines Over Time
+Disciplines citing ISR
+100.00 90.00 100.00 90.00
+
+Disciplines cited by ISR
+
+Proportion of citations (%)
+
+Proportion of citations (%)
+
+80.00 70.00 60.00 50.00 40.00 30.00 20.00 10.00 0 2012 2013 CS EC GB HA IS MK 2014 OR OS PY SC 2015
+
+80.00 70.00 60.00 50.00 40.00 30.00 20.00 10.00 0 2012 CS EC FI GB 2013 HA IS MK OR 2014 OS PY SC SO 2015 ST
+
+Agarwal: On the Intellectual Structure and Evolution of ISR
+Information Systems Research 27(3), pp. 471–477, © 2016 INFORMS
+
+475 for GB journals that include publications such as Management Science, Decision Sciences, and Harvard Business Review. It is interesting to note that general science (SC) journals such as Science and Proceedings of the National Academy of Sciences (PNAS) saw a sharp increase in citations to ISR papers in 2015. Recall that since the data are normalized by the total citations emanating from a discipline, the proportions across years are directly comparable. Furthermore, we can observe a sharp increase in citations from ISR papers to health applications (HA) journals, consistent with the growing interest of IS researchers to explore the intersection of information technology and healthcare. Finally, in Figure 6, I plot raw citation data for each discipline. While this graph should be interpreted with caution as it does not account for publication volume, it is nevertheless revealing to see that while ISR is being increasingly cited by journals in the IS discipline, its own citations to this set of journals exhibits a modestly declining trend.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+intradisciplinary concentration over time for citations received, while the disciplines cited by ISR have a modestly higher variation across years. This variation is plausibly the result of a deﬁning characteristic of the IS discipline, where technological innovation and a concomitant shift and expansion in research questions tends to be the norm rather than the exception. As new technologies and opportunities emerge (e.g., from e-commerce to mobile platforms to digital health to big data) IS researchers are increasingly turning to an expanded set of disciplines to inform their research using diverse theoretical lenses. I now turn to looking for patterns across disciplines. Figures 4 and 5 document trends across years within each discipline. We can observe that some disciplines appear to experience opposing trends in regard to citations to ISR papers and citations from ISR papers. For example, while CS increases its citations to ISR over time, ISR papers show a tendency to reduce the number of CS papers cited. A similar pattern is apparent
+
+Figure 4
+
+Relative Change Within Discipline Over Time
+
+Disciplines citing ISR
+80.0 70.0 70.0 60.0 50.0 40.0 30.0 20.0 10.0 0 CS EC GB HA IS MK OR OS PY SC 2012 2013 2014 2015
+
+Disciplines cited by ISR
+
+Proportion of citations (%)
+
+Proportion of citations (%)
+
+60.0 50.0 40.0 30.0 20.0 10.0 0 CS EC FI GB HA IS MK OR OS PY SC SO ST
+
+Figure 5
+
+Relative Change Within Discipline Over Time
+
+Disciplines citing ISR
+100.0 90.0 100.0 90.0
+
+Disciplines cited by ISR
+
+Proportion of citations (%)
+
+70.0 60.0 50.0 40.0 30.0 20.0 10.0 0 CS EC GB HA IS MK OR OS PY SC 2015
+
+Proportion of citations (%)
+
+80.0
+
+80.0 70.0 60.0 50.0 40.0 30.0 20.0 10.0 0 CS EC FI GB HA IS MK OR OS PY SC SO ST
+
+2014
+
+2013
+
+2012
+
+476
+Figure 6 Changes in Raw Citation Volume Over Time
+
+Agarwal: On the Intellectual Structure and Evolution of ISR
+Information Systems Research 27(3), pp. 471–477, © 2016 INFORMS
+
+Disciplines citing ISR
+3,500 3,000 800 600 400 200 0 2012 2013 CS EC GB HA 2014 IS MK OR 2015 2012
+
+Disciplines cited by ISR
+
+Total citations
+
+2,500 2,000 1,500 1,000 500 0
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Total citations
+
+2013 CS EC FI GB
+
+2014 HA IS MK
+
+2015
+
+Figure 7
+20.00 18.00 16.00 14.00 12.00 % 10.00 8.00 6.00 4.00 2.00 0
+
+ISR’s Knowledge Exchange Within the IS Discipline
+IS journals citing ISR
+45.00 40.00 35.00 30.00 % 25.00 20.00 15.00 10.00 5.00 0
+UA RT
+
+IS journals cited by ISR
+
+IN
+
+IN F
+
+PU
+
+PP
+
+AS S
+
+IN
+
+D
+
+2012
+
+2013
+
+D
+
+EC
+
+CO
+
+J
+
+J
+
+IS
+
+J
+
+EC
+
+T
+
+2014
+
+2015
+
+ISR within the IS Discipline’s Network
+The previous analyses revealed that although ISR is situated with a reasonably dense network of disciplines in regards to citations received and made, not surprisingly, the exchange of knowledge still occurs predominantly within the disciplinary boundary. To understand this exchange further, I plot the citations made and received to the “top 10” IS journals over the four-year period in Figure 7. The journals were selected for inclusion based on the raw number of citations to and from ISR. Turning ﬁrst to the IS journals cited by ISR, it is striking that the exchange of knowledge as reﬂected in scholars drawing on each other’s work is sharply higher with the two journals typically included together with ISR as among the top 3 in the ﬁeld: MIS Quarterly and Journal of MIS (see Grover et al. 2006 and references therein), as compared to other outlets in the top 10. MIS Quarterly accounted for between 34% and 38% of all citations to IS journals generated by ISR across time, while for Journal of MIS this ranged between 9% and 12%. The differences in citations coming to ISR papers from other IS journals are less striking. While MIS Quarterly dominates (excluding self-citations to ISR)
+
+as the source of citations accounting for 15% of the annual citations on average, Decision Support Systems and Proceedings of the Annual HICSS contribute 11% and 12%, respectively.
+
+Conclusion
+In this editorial note I sought to examine the evolution and intellectual development of ISR in its relationship with other disciplines, as indicated by the exchange of citations over the most recent four-year period. I found that ISR both receives citations from multiple disciplines (reﬂecting the journal’s contributions) as well as draws on a variety of disciplines, with intradisciplinary exchange dominating in citations received and made. Given the limited set of data used in this editorial, I did not conduct statistical tests to determine signiﬁcance but rather chose to document the “story” that patterns in the data were telling. I note that my analysis is both similar in spirit as well as distinct from prior IS studies on this topic. First, my focus is exclusively on one journal as the source and recipient of citations. Second, I did not constrain my analysis to a select set of disciplines and/or speciﬁc journals within these disciplines as has been done by Culnan and Swanson (1986), Grover
+
+J
+
+M
+
+EU
+
+IN
+
+IN
+
+J
+
+IS
+
+C
+
+PU
+
+SU
+
+R
+
+IN
+
+M
+
+O
+
+J
+
+FO
+
+BE
+
+FO
+
+SU
+
+FO
+
+M
+
+R
+
+AS SO
+
+T
+
+IN
+
+R
+
+H
+
+R
+
+AN
+
+O
+
+M
+
+M
+
+AG
+
+PP O
+
+M HU
+
+FO
+
+AV
+
+O
+
+M
+
+M
+
+C
+
+P
+
+M
+
+C
+
+IS
+
+M
+
+SY
+
+E
+
+AN
+
+TM
+
+M
+
+IN
+
+IS
+
+R
+
+N
+
+R
+
+Q
+
+T
+
+V HA BE
+
+AG
+
+FO
+
+RM
+
+AN
+
+ST
+
+AN
+
+I
+
+F
+
+Q
+
+T
+
+H
+
+ED
+
+UA
+
+SY
+
+SY
+
+SY
+
+R
+
+O NF
+
+IC
+
+SY S
+
+AG
+
+SY S
+
+IA T
+
+ST
+
+R M
+
+ST
+
+RT
+
+E-
+
+ES
+
+RM
+
+SS
+
+J EST ES ST R AG SY T N SY S M A R M M SY R M FO M R FO IN R O J O IN F F R IN IN EU
+
+ST RM SY FO F IN N I E IC AG EG AN T M RA J ST J
+
+ST
+
+E
+
+T
+
+T
+
+Agarwal: On the Intellectual Structure and Evolution of ISR
+Information Systems Research 27(3), pp. 471–477, © 2016 INFORMS
+
+477 it appears that there is work to be done to expand the visibility and impact of IS scholarship in other disciplines. Acknowledgments
+The author is grateful to Matthew Walls, Publications Director of INFORMS, for providing the data used here.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+et al. (2006), and Pratt et al. (2012), but rather used the complete set of citation data. Third, I did not restrict my choice of speciﬁc articles in disciplines citing ISR to only those characterized as belonging to the IS discipline. Finally, my methodology is considerably less sophisticated: I use descriptive methods to discern patterns and not statistical analyses. Given these differences across studies, it would not be appropriate to directly compare my ﬁndings with those of prior research. Nonetheless, it is encouraging to see that three trends are broadly consistent across all studies: the growing multidisciplinarity of the IS discipline, the expansion of the discipline’s boundaries exhibited in citations to new disciplines such as health applications and ﬁnance (reinforcing Banville and Landry’s 1989 characterization almost three decades ago of an "essentially pluralistic scientiﬁc ﬁeld," p. 58), and the robust relationship between journals within the IS ﬁeld, indicating a growing cumulative research tradition. There is still much to learn about the structure and identity of the IS discipline. As I have noted elsewhere (Agarwal and Dhar 2014), to the extent that information technology and systems are inextricably linked to changes in societal, organizational, and individual activities, processes, and value creation endeavors, IS scholars are uniquely positioned at the vanguard of creating new knowledge. How much of this new knowledge persists as a foundation for continued scientiﬁc inquiry and to the extent to which our inﬂuence extends to other ﬁelds remain questions worthy of further investigation. From this limited analysis
+
+References
+Agarwal R, Dhar V (2014) Editorial—Big data, data science, and analytics: The opportunity and challenge for IS research. Inform. Systems Res. 25(3):443–448. Agarwal R, Lucas HC Jr (2005) The information systems identity crisis: Focusing on high-visibility and high-impact research. MIS Quart. 29(3):381–398. Banville C, Landry M (1989) Can the ﬁeld of MIS be disciplined? Comm. ACM 32(1):48–60. Benbasat I, Zmud RW (2003) The identity crisis within the IS discipline: Deﬁning and communicating the discipline’s core properties. MIS Quart. 27(2):183–194. Culnan MJ (1986) The intellectual development of management information systems, 1972–1982: A co-citation analysis. Management Sci. 32(2):156–172. Culnan MJ, Swanson EB (1986) Research in management information systems 1980–1984: Points of work and reference. MIS Quart. 10(3):289–302. Grover V, Ayyagari R, Gokhale R, Lim J, Coffey J (2006) A citation analysis of the evolution and state of information systems within a constellation of reference disciplines. J. Assoc. Inform. Systems 7(5):270–324. Hamilton S, Ives B (1982) Knowledge utilization among MIS researchers. MIS Quart. 6(4):61–77. Pratt JA, Hauser K, Sugimoto CR (2012) Deﬁning the intellectual structure of information systems and related college of business disciplines: A bibliometric analysis. Scientometrics 93(2): 279–304.
+
+

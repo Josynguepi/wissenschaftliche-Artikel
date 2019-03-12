@@ -1,0 +1,816 @@
+This article was downloaded by: [130.89.97.167] On: 17 February 2017, At: 07:02 Publisher: Institute for Operations Research and the Management Sciences (INFORMS) INFORMS is located in Maryland, USA
+
+Information Systems Research
+Publication details, including instructions for authors and subscription information: http://pubsonline.informs.org
+
+Should Online Content Providers Be Allowed To Subsidize Content?—An Economic Analysis
+Soohyun Cho, Liangfei Qiu, Subhajyoti Bandyopadhyay
+
+To cite this article: Soohyun Cho, Liangfei Qiu, Subhajyoti Bandyopadhyay (2016) Should Online Content Providers Be Allowed To Subsidize Content?—An Economic Analysis. Information Systems Research 27(3):580-595. http://dx.doi.org/10.1287/isre.2016.0641 Full terms and conditions of use: http://pubsonline.informs.org/page/terms-and-conditions This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval, unless otherwise noted. For more information, contact permissions@informs.org. The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support of claims made of that product, publication, or service. Copyright © 2016, INFORMS Please scroll down for article—it is on subsequent pages
+
+INFORMS is the largest professional society in the world for professionals in the fields of operations research, management science, and analytics. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Information Systems Research
+Vol. 27, No. 3, September 2016, pp. 580–595 ISSN 1047-7047 (print) ISSN 1526-5536 (online) http://dx.doi.org/10.1287/isre.2016.0641 © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Should Online Content Providers Be Allowed To Subsidize Content?—An Economic Analysis
+Soohyun Cho
+Rutgers, The State University of New Jersey, Newark, New Jersey 07102; and Department of Information Systems and Operations Management, Warrington College of Business Administration, University of Florida, Gainesville, Florida 32611, soohyun.cho@warrington.uﬂ.edu
+
+Liangfei Qiu, Subhajyoti Bandyopadhyay
+Department of Information Systems and Operations Management, Warrington College of Business Administration, University of Florida, Gainesville, Florida 32611 {liangfei.qiu@warrington.uﬂ.edu, shubho.bandyopadhyay@warrington.uﬂ.edu}
+
+I
+
+nternet service providers (ISPs) are experimenting with a business model that allows content providers (CPs) to subsidize Internet access for end consumers. In this study, we develop a game-theoretical model to analyze the effects of this sponsorship of consumer data usage. We ﬁnd that the ISP’s optimal network management choice of data sponsorship crucially depends on market conditions, such as the revenue rates of CPs and the ﬁt cost of consumers. If the ﬁt cost is low, the ISP will either allow both CPs to subsidize consumers’ Internet access, or will allow only the more competitive CP to subsidize, depending on the per-consumer revenue generation rates of CPs. If the ﬁt cost is high, it is in the ISPs interest not to allow any subsidization. We also identify conditions under which the ISP’s network management choices of data sponsorship deviate from social optimum. These results should be of interest to the telecom industry as it searches additional revenue models, and to online CPs competing for customer loyalty. It should also be of interest to policymakers investigating into this issue. Keywords : Internet service provider; online content provider; usage subsidization; consumer surplus; social welfare History : Vijay Mookerjee, Senior Editor; Subodha Kumar, Associate Editor. This paper was received on March 12, 2015, and was with the authors 2 months for 2 revisions. Published online in Articles in Advance July 18, 2016.
+
+1.
+
+Introduction
+
+Consumers are increasingly migrating online to procure different types of digitized content. According to Cisco’s visual networking index, mobile Internet trafﬁc has increased from 820 petabytes to 1.5 exabytes per month from 2012 to 2013 as consumers gained access to faster networks and created or downloaded richer media such as high-deﬁnition videos and video conferencing (Cisco 2014). In response to this growing trafﬁc, several Internet service providers (ISPs) have proposed a plan to charge content providers (CPs) for prioritizing the latter’s content to consumers. CPs who pay a fee would have their content prioritized over that of rival CPs, thus ensuring a smoother online experience for consumers of their content. Given the relative lack of competition among ISPs in local geographies, ISPs would have both the incentive and the ability to discriminate among online content from different CPs. This has become a highly controversial issue in the past decade, bringing to the fore the ongoing debate on net neutrality (Choi and Kim 2010). Recently, ISPs have come up with a different payment scheme for online CPs and end users. Online consumers in the United States usually subscribe to data plans with a cap on the amount of data they can
+580
+
+use during a payment plan period. This is encountered more often on mobile broadband networks, but increasingly, ISPs on ﬁxed broadband networks are also instituting such caps. Sensing an opportunity, AT&T developed a plan (which was quickly imitated by its competitors) whereby a particular CP could effectively subsidize the consumption of their own content: when subscribers from the ISP consume content from that particular CP, the downloaded content (up to a certain amount negotiated between the ISP and the CP) would not count toward the consumer’s ISP subscription cap (Sharma et al. 2013). Under this arrangement, eligible data usage charges are billed directly to the sponsoring company. Data sessions are identiﬁed by a “sponsored data” icon on the end user’s device, and the usage is itemized separately on the end user’s monthly invoice.1 This new scheme allows CPs to pay for the bandwidth that end users consume. For example, a Seattle-area startup, Syntonic Wireless, is a subsidizing CP. Under the data subsidization plan, any content from Syntonic
+1
+
+In Online Appendix E (available as supplemental material at http://dx.doi.org/10.1287/isre.2016.0641), we describe the institutional details of AT&T’s sponsored data plans.
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+581
+
+Wireless that a consumer watches on her smartphone through a cellular connection would not count toward her monthly data cap. Some other sponsored data CPs listed in AT&T’s program include Aquto, 5 Screen Media, DataMi, and others (Sharma et al. 2013). This arrangement is beneﬁcial to the CP because a consumer who consumes its content precludes herself from consuming a rival provider’s content. CPs can generate revenue from such consumers both directly through subscription or on-demand fees, and indirectly through advertising. CPs that are effective in generating revenue are in a better ﬁnancial position to subsidize consumption of their content than CPs who generate less revenue (e.g., startups without an established consumer base). All major mobile carriers are involved in data subsidization plans (or zero rating plans). For example, AT&T ﬁrst announced sponsored data plans in January 2014, and Verizon announced a similar “FreeBee Data 360” in January 2016. These sponsorship programs allow CPs to pay for the bandwidth that consumers use while accessing their content (Brodkin 2016). In late 2015, T-Mobile’s Binge On program allows subscribers to stream all the Netﬂix or Amazon Video (or videos from 40 other sites) they want on their phones without worrying about using up their data plans. StreamTV from Comcast allows subscribers to watch online videos for free through its own new streaming service, but would count streaming on Netﬂix, for instance, toward monthly data limits (Hong 2016). Supporters of net neutrality have argued that such arrangements contradict the spirit of net neutrality, which holds that all content that is transmitted over the Internet should be treated equally (i.e., the Internet should be neutral down to every data packet, regardless of its origin, destination, or content). They argue that subsidization plans treat the subsidized packets preferentially, since consumers have more incentive to consume “free” packets over unsubsidized ones (Knutason and Gryta 2014, Kravets 2014). The telecom companies, however, have argued that these plans do not violate the principle of net neutrality since the sponsored data will be delivered at the same speed and performance as nonsponsored data (Reardon 2014). They point out that the plan affects only the CP paying for the sponsored trafﬁc; it does not prioritize that trafﬁc, nor does it throttle usage of nonsponsored content (Knutason and Gryta 2014). However, some CPs are contesting that view. YouTube, which is not a member of T-Mobile’s Binge On program, recently complained that its videos were not being streamed at HD quality, which is a requirement of T-Mobile for its Binge On partners (Kastrenakes 2015). Sponsorship of content is not only a U.S.-centric phenomenon. In Australia, when Netﬂix began its streaming services during March 2015, it came into
+
+an agreement with iiNet, Australia’s second largest ISP, that Netﬂix content will not count toward the data caps that the ISP enforces among its customers (Brodkin 2015a). This practice is actually common in Australia, so much so that Netﬂix defended its decision as being a result of what their competitors did. Facebook’s Internet.org platform provides free access to consumers to a limited number of websites in countries like India, Kenya, Colombia, and elsewhere: when consumers visit these sites through Internet.org, they will not be billed for their data usage (Nichols 2015).2 To achieve this goal, Facebook has teamed up with local ISPs—for example, in India, it has teamed up with Reliance Communications in February 2015 (Facebook 2015). However, in 2016, India’s main telecommunications regulatory agency has banned Free Basics, the data sponsorship plan proposed by Facebook. The biggest objection to Facebook’s Free Basics is that it offers only a few CPs chosen and controlled by Facebook, which may have a negative impact on digital content innovation (Greenstein et al. 2016). Facebook’s CEO Mark Zuckerberg has publicly defended the program against critics, which makes the practice of data subsidization a frontline debate in Internet policy (Hong 2016). U.S. regulators are exploring the welfare implications of the new data subsidization plans. In letters to AT&T and T-Mobile, the Federal Communications Commission (FCC) wrote, “We want to ensure that we have all the facts to understand how these services (data subsidization) relate to the commission’s goal of maintaining a free and open Internet while incentivizing innovation and investment from all sources” (Kang 2015, p. 84). While FCC Chairman Tom Wheeler has said the commission would be “keeping an eye on” the data subsidization programs, he has praised them as “highly innovative and highly competitive” (Melendez 2015). From a policy perspective, it is vitally important to provide a framework to analyze the impact of the new data subsidization plans on social welfare and understand its policy implications. Without broaching the issue of whether such plans violate the principle of net neutrality, our research analyzes the subsidization plans within an economic framework. We identify the incentives of the different players (the ISP, CPs, and consumers) to analyze the dominating equilibrium outcomes. We compare the consumer surplus and social welfare under such equilibria with the baseline scenario in which the ISP does not implement a subsidization plan. The rest of this paper is arranged as follows. In Section 2, we review the literature that motivated
+2
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+For example, in India, the program offers free Web searches using Microsoft’s Bing service but Google searches incur a charge (Goel 2015).
+
+582
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+our research. We then explain our model, analyze it under four subsidization scenarios, and discuss our results. Finally, in the conclusion section, we analyze the results, share their policy implications, and provide some possible directions for future research.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+2.
+
+Literature Review
+
+Our research draws on the general analysis framework for network management with three types of players. There are two streams of existing literature on network management. The ﬁrst focuses on the economic analysis of net neutrality within a two-sided market framework and discusses the impact of access fees from CPs for the preferential delivery of digital content to consumers (Choi and Kim 2010, Cheng et al. 2011). The second stream looks at subsidization plans in communication technology, which includes both hardware and software products. One of the reasons subsidization plans have drawn recent research and media attention is that the household budget for cell phone service has been growing over the past decade. Speciﬁcally, after the introduction of Apple’s iPhone, from 2007 to 2011, the average annual household expenditure on cell phone service has jumped by 10%, and this trend is predicted to continue for a few years (Troianovski 2012). According to Chaudhury and Rooke (2014), mobile carriers are aware of this trend, and are subsidizing their consumers’ smartphone purchase as a trade-off for long-term service contracts, with the goal of increasing their revenue from customers. However, as handset prices increase, this model becomes less attractive to mobile carriers, since they are forced to subsidize a larger fraction of the cost of the device. In addition, Inoue et al. (2011) found that when deciding between mobile carriers, customers care more about the monthly cost of their service contract than they do about the discount price offered on the phone itself. In other words, consumers focus most on the subsidization of content when choosing their cell phone service provider. Marcus (2011) analyzed whether the increasing cost of online trafﬁc would be borne by ISPs or CPs. His research suggested that ISPs can improve earnings without sacriﬁcing revenue by proposing strategies in which CPs subsidize a portion of the monthly online trafﬁc cost for their consumers. Economides and Hermalin (2015) used online trafﬁc congestion to examine the effect of CPs’ subsidies on their users. Ma (2014) examined competition among CPs to subsidize data usage costs. The analysis assumed that an ISP does not charge CPs, and that any CPs voluntarily subsidize their users’ cost for Internet connectivity, which in turn affected the users’ choice of data plan. To our knowledge, none of the existing literature addresses the issues raised
+
+by the recently announced ISP plans to deliver sponsored (subsidized) data at the same speed as nonsponsored data, thereby allowing CPs to subsidize their users’ monthly costs through payments to ISPs without affecting the speed of delivery of their content. In this research, we consider this phenomenon: a contract between ISPs and CPs that does not discriminate in terms of online trafﬁc speed but nonetheless affects consumers’ choice of CPs. Hande et al. (2009) investigated a similar pricing structure with a price per unit data rate. In addition, they presented a price allocation subsidization plan in which CPs share the cost of connectivity with end users; in this model, the price charged by the ISP for connectivity is split between CPs and end users. The ISP chooses the delivery speed based on the usage of end users. In the competitive ISP market, CPs will set price q, which is paid to an ISP for sponsoring their consumers and maximizing their proﬁts. In a monopoly ISP market, the ISP controls all three variables to maximize its proﬁts (i.e., the price p it charges to the consumers, the price q it charges the CPs, and the delivery speed between CPs and end users). However, even though the monopoly ISP controls the price to deliver online trafﬁc in the monopoly market, a controlled delivery speed based on price would violate the net neutrality principles and contradict the current sponsored data offerings of ISPs. Therefore, unlike Hande et al. (2009), we examine a subsidization plan that complies with the principle of delivering both sponsored and nonsponsored content at the same speed. In addition, we model the CPs to participate in sponsored-data allocation by deciding on the amount of sponsored data, which also mirrors reality. In Section 3, we present our model. We investigate various ways for an ISP to allow CPs to sponsor consumer data usage for the end users. We then analyze how these proposals affect ISP and CP proﬁts, consumer surplus, and social welfare.
+
+3.
+
+A Model of Data Sponsorship
+
+Our model to analyze the subsidization plan assumes three types of players engaged with the delivery of digital content: a monopolist ISP, two competing CPs, and a unit mass of consumers. We assume the monopolist ISP has complete market coverage, and delivers content from the CPs by providing Internet access and charging a usage-based per-packet price p to end consumers. In reality, we see some ISPs offer data plans with caps: subscribers pay a monthly fee, which provides them a monthly data allowance. If they exceed the allowance (cap) they pay a price per Gigabyte (GB). For analytical tractability, a pricing structure without data usage caps has been a dominant modeling assumption in prior studies on the economics of net neutrality (Choi and Kim 2010,
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+583
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Cheng et al. 2011, Krämer and Wiewiorra 2012, Economides and Tåg 2012, Economides and Hermalin 2012, Choi et al. 2015, Bourreau et al. 2015, Kourandi et al. 2016). More speciﬁcally, Economides and Hermalin (2012) compared the ﬁxed fee case (end users pay a ﬂat fee without data caps) with the linear per-packet fee case (linear usage pricing without data caps) and showed that the results are robust no matter which assumption is adopted: the analysis carries through with one parameter replacing another in the relevant expressions. In our main model, we adopt the assumption of a linear per-packet fee like Hande et al. (2009),3 but we also present the results under a ﬁxed subscription fee in Online Appendix C. The analytical insights remain the same. Recently, linear per-packet pricing is becoming more widely adopted in reality as the data trafﬁc has grown explosively. Per-packet pricing allows consumers who use less data to pay accordingly and helps manage congested networks. For instance, Google’s Project Fi plan does not have an annual contract: The $20 ﬁxed fee of Project Fi is for voice calls and messages (not related to data consumption), “then it’s $10 per GB for data. $10 for 1 GB, $20 for 2 GB, $30 for 3 GB and so on. That’s it. With no annual contract required.”4 Therefore, there are no data caps in Google’s Project Fi plan at all, and linear per-packet pricing of data is used. In our model, the two CPs, L and H , compete to reach the end consumers. The end consumers pay the ISP for Internet access to consume digital content from CPs, and we also assume that these consumers are heterogeneous in their CP preference. For a uniform distribution of consumer preference on a line segment 0 1 , we set the preference for L at 0 and the preference for H at 1. 3.1. Internet Service Provider As mentioned above, the monopolist ISP charges usage-based price p per packet to consumers who want to have Internet connectivity. For ease of exposition, we assume that if CPs wish to subsidize their users’ data usage, they are also charged the same usage-based price p. We will relax this assumption in Online Appendix D, where ISPs can charge the CPs a different price for subsidization, and we ﬁnd that the basic contours of our ﬁndings still hold true. Consumption is measured in packets of content ( and the ISP is assumed to have zero marginal cost. Accordingly, the ISP’s proﬁt is written as ISP = p · and the ISP’s proﬁt is directly related to the amount of content consumed. Table 1 provides a list of the notations used in our model.
+3
+
+Table 1 Notation p t
+
+List of Notations Description Usage-based price charged to consumers and CPs L and H Fit cost parameter for an end consumer away from the content that is perfectly ﬁtted with her preference Poisson arrival rate of content requested from each consumer in packets per unit of time Poisson arrival rate of content from CPs L and H , respectively, subsidized for each consumer in packets per unit of time CP L and CP H ’s revenue rate per packet request, respectively, for content An arbitrary consumer on 0 1 Marginal consumer who is indifferent between CP L and H in equilibrium Gross value function of retrieving content for each consumer Functions to indicate whether ISP allows CP L or H , respectively, to subsidize the usage of their consumers Consumers’ utility function of subscribing to L and H , respectively ISP proﬁt CP L and H ’s proﬁt, respectively, with a certain subsidy plan i Consumer surplus Social welfare
+
+s L
+
+,
+
+s H
+
+rL , rH x x∗ V IL , IH UL , UH
+ISP L
+
+,
+
+H
+
+CS SW
+
+3.2. Content Provider We use an indicator function to track whether the ISP allows CPs to subsidize consumers’ usage. The indicator function is set to 1 if the ISP allows subsidization, and 0 otherwise. The indicators, IL and IH , are endogenous variables decided by the ISP according to its proﬁt maximization process. We assume that the CPs provide consumers with content for free, and that they earn revenue through advertising (Choi and Kim 2010, Cheng et al. 2011). The amount of revenue that a CP earns from a consumer through advertising is directly related to the amount of data the latter consumes. Without loss of generality, we assume that CP H has a better ability to attract the right consumers for its advertisers, and consequently it can charge higher fees to advertisers and has a greater revenuegeneration rate than L, rH ≥ rL . If CPs are allowed to subsidize consumers’ usage, the ISP charges usagebased price p per packet per consumer to CPs, and the proﬁt equations are as follows:
+L H
+
+= rL DL − IL · p = rH D H − IH · p
+
+s L DL s H DH
+
+(1) (2)
+
+Hande et al. (2009) argued that the assumption of linear data cost reﬂects the fact that users can choose one of several data plans that charge different amounts for various monthly data caps.
+4
+
+where DL and DH are the demand for CP H and L, respectively, measured by their market shares, and s L and s H are the amount of data the CPs want to subsidize. The CPs in our paper are modeled as being horizontally differentiated. They produce their content on their own but have exclusive rights to their content.5
+5
+
+See https://ﬁ.google.com/about/plan/.
+
+It is true that in real life some consumers might “multihome” for content—in other words, there might be consumers who visit
+
+584
+Figure 1 Timeline of the Game
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+Case 2. CP L: Yes; CP H: No The ISP chooses network management options
+
+The ISP announces the Internet access fee The ISP announces the Internet access fee The ISP announces the Internet access fee
+
+CP L decides the subsidization
+
+Consumers choose either CP H or CP L
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Allow CPs to subsidize?
+
+Case 3. CP L: No; CP H: Yes
+
+CP H decides the subsidization
+
+Consumers choose either CP H or CP L
+
+Case 1. CP L: No; CP H: No
+
+Case 4. CP L: Yes; CP H: Yes
+
+Both CPs decide their subsidization
+
+Consumers choose either CP H or CP L
+
+The ISP announces the Internet access fee
+
+Consumers choose either CP H or CP L
+
+3.3. Consumers In this model, we consider a unit mass of consumers who access broadband content. The consumers have a gross valuation for the content, V , and they decide whether to purchase content based on their net utility. The net utility consists of three parts— the aforementioned gross value function, the disutility cost incurred from the difference between the consumer’s preferred and consumed content (i.e., the ﬁt cost), and the cost of broadband access. To illustrate the deviation from the consumer’s ideal content, we introduce a ﬁt cost t from the Hotelling framework (Hotelling 1929). When a consumer accesses the Internet to acquire content, they pay usage-based price p per packet to the ISP. If L or H subsidize s L or s H packets (respectively) for their consumers, a consumer’s cost decreases by p s L or p s H . Therefore the utility function for an arbitrary consumer x ∈ 0 1 is UL x = V − tx − p + IL · p s L if the consumer consumes the content from L, or UH x = V − 1−x t − p + IH · p s H if the consumer consumes the content from H .
+rival content providers. To simplify the modeling, we assume that consumers are horizontally differentiated, and therefore have an intrinsic preference for content from one CP. Thus, a consumer in our model will always prefer one CP over another, and given a choice to consume content, will always choose one CP over another. (Even so, a consumer who splits her time between the two CPs can be thought of as a fractional consumer in our model—one fraction opts for one CP, the remainder opts for the other—and the market shares of the two CPs would be modiﬁed accordingly.)
+
+3.4. The Sequence of Events in the Game In this model, the three types of players—the ISP, CPs (CP L and CP H ), and consumers—make decisions to maximize their utility or proﬁts though the sequence of events. The sequence of decisions is illustrated in Figure 1. In stage 1, the ISP decides whether or not to allow CPs to subsidize data (deciding the value of IL and IH and announces the per-packet price p to end users. To analyze all of the potential network management options of the ISP, we consider the four possible outcomes: the ISP does not allow either CP to subsidize packets (Case 1); the ISP allows only L to subsidize packets (Case 2); the ISP allows only H to subsidize packets (Case 3); and the ISP allows both L and H to subsidize packets (Case 4). Table 2 presents these four network management options. In stage 2, CPs L and H , which have contract(s) with the ISP, decide how much content they will subsidize for their users. In stage 3, consumers choose a CP. We use backward induction to deduce the subgame perfect Nash equilibrium (SPNE) of the players’ actions in each stage. In stage 3, consumers choose their preferred CP, after factoring in the ISP’s usage-based price p per packet, the CPs’ plan to subsidize their users with the amount of packets S L and S H , and their intrinsic preference for L and H . The consumers’ decisions can be demonstrated by the marginal consumer x∗ who is indifferent between L and H . That is, the consumers located in 0 x∗ choose L and the consumers located in x∗ 1 choose H . In an equilibrium, the demand for each CP is DL = x∗ , and DH = 1 − x∗ .
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+585
+
+Table 2
+
+ISP’s Network Management Options Case 2 ISP allows only L to subsidize packets. Case 4 ISP allows both L and H to subsidize packets.
+
+Case 1 ISP does not allow either CP to subsidize. Case 3 ISP allows only H to subsidize packets.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Moving back to stage 2, let us examine the CPs’ decisions. Given the consumer information from stage 3, the CPs will decide on the number of packets to subsidize for their users to maximize their proﬁts. We use the ﬁrst-order condition to solve the proﬁt maximization problem for the CPs. Finally, we analyze the ISP’s decision in stage 1. The ISP decides whether to contract with L or H to maximize its proﬁt and sets a usage-based price p. Because of the full market coverage assumption and the participation constraints, the ISP will set its prices so that both the consumers’ utility and the CPs’ proﬁt are nonnegative. Taking these constraints into consideration, the ISP’s proﬁt maximization problem is as follows: max
+p ISP
+
+s.t. UH x∗ ≥ 0
+L ∗ s L ∗
+
+UL x∗ ≥ 0
+H ∗ s H
+
+(3) ≥0 (4) (5)
+
+≥0
+
+0≤x ≤1 0≤
+∗ s L
+
+have the same gross valuation, V , for the content from different CPs. That is why the equilib, which implies rium marginal consumer is x∗ = 1 2 equal market share for the two CPs. The model can be extended to the vertical differentiation case with VL and VH for each CP, but the analytical insights remain the same. We discuss this more in Online Appendix B. From Lemma 2, the optimal per-packet price set by the ISP increases with consumers’ gross valuation V and decreases with the ﬁt cost t . Because of the full market coverage assumption, the ISP’s ability to extract consumer surplus is constrained by the marginal consumer. Among all consumers, the marginal consumer is the one who has the lowest level of utility because of the ﬁt cost t . Therefore, the optimal price set by the ISP should let the marginal consumer’s utility be zero. Next, we describe the results when the ISP can maximize its proﬁts by choosing one of the network management options described in Table 2. As outlined in the previous section, we use backward induction to ﬁnd the equilibrium amount of subsidized data, ∗ s L ∗ and ∗ s H , and the usage-based price p in each case, and the results are summarized in Tables 3–5. Given the values of the exogenous parameters and V , Tables 3–5 show that the equilibrium values of ∗ s L, ∗ ∗ s H , and p are dependent on the revenue-generation rates of the CPs, rL and rH , and consumers’ ﬁt cost, t . In Case 1, the ISP does allow either CP to subsidize trafﬁc, so it is equivalent to the benchmark case in the absence of data subsidization. Lemma 2 (Data Subsidization). Depending on the values of the different parameters, there are several possible cases. When data subsidization is not allowed by the
+Table 3 Conditions rL < t t 4 V +t
+2
+
+≤
+
+0≤
+
+∗ s H
+
+≤
+
+(6)
+
+Constraints (3) and (4) specify the participation constraints of the marginal consumer and the two CPs. Constraint (5) is self-explanatory, while (6) speciﬁes the fact that the CPs will at most subsidize the entire content consumed by a consumer.
+
+Equilibrium in Case 2
+∗ s L
+
+p∗ 2V 2 V + 2V rL − 3t 4 −t −t
+
+4.
+
+Results
+
+0 + 2 −3 t −1 + 2 −2 2 rL − t − 3t + rL
+
+In Lemma 2, we characterize the benchmark equilibrium (no data subsidization), in which the ISP does not have an option to allow data sponsorship. In this equilibrium, the CPs have no decision variables: the ISP sets the price, and the end consumers choose one CP according to their preferences. All proofs are relegated to Online Appendix A. Lemma 1 (Equilibrium Without Data Subsidization). In the equilibrium without data subsidization, the 1 , and the optimal equilibrium marginal consumer is x∗ = 2 price set by the ISP is p = 2V −t / 2 . In this study, we mainly focus on the horizontal product differentiation of CPs instead of the vertical product differentiation, so we assume consumers
+
+≤ rL < 4V
+
+4V
+
+rL ≥
+
+Table 4 Conditions rH < t t
+
+Equilibrium in Case 3
+∗ s H
+
+p∗ 2V 2 V + 2V rH − 3t 4 −t −t
+
+0 4 V +t
+2
+
+≤ rH < 4V
+
++ 2 −3 t −1 + 2 −2
+
+4V
+
+2 rH − t − 3t + rH
+
+rH ≥
+
+586
+Table 5 Conditions rL ≤ t 3t t rH ≤ < rH ≤ 4V t −t Equilibrium in Case 4
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+∗ s L
+
+∗ s H
+
+p∗ 2V 2 4V 2V − 3t + rH 4 −t −t
+
+0 0 0 2 −3t + rH + 2rL 3 2V − 3t + rH + rL 2V − 2t + rL −3t + 4V + rL
+
+0 2 − t + rH 2 4V − 3t + rH
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+rH + 2r L ≤ −2V 3t
+
+4V
+
++ 2t
+
+≥ rL
+
+−t 6V 6V
+
+< rH − 3t − 3t
+
+< 2rL + rH + 2t < rL
+
+rH − rL ≤ rH − rL >
+
+2 −3t + 2rH + rL 3 2V − 3t + rH + rL
+
+2V 4V
+
+− 3t + rH + rL 2 − 3t + rL
+
+−2V
+
+ISP (Case 1), the price is given by p∗ = 2V −t / 2 . There are three possible subcases under Case 2, depending on the value of rL . These are summarized in Table 3. Under Case 3, there are three possible subcases, depending on the value of rH . The results are shown in Table 4. Finally, under Case 4, there are ﬁve possible subcases, depending on the values of both rL and rH . These are summarized in Table 5. As can be observed from these results, whether the CPs sponsor (subsidize) the consumption of content by their consumers depends crucially on the amount of revenue they generate from their consumers. When the revenue generation rate is below a threshold, CPs do not have an incentive to sponsor any trafﬁc. However, when the revenue-generation rate is higher than that threshold, the CPs begin sponsoring the connectivity to content. Finally, when the revenue-generation rate reaches a second threshold, the CPs have the incentive to fully sponsor their consumers’ trafﬁc. We further explain the intuitions of the subsidized amount in the following propositions. A descriptive summary of all equilibrium cases of subsidization can be found in Table 6. In the current practice of data subsidization, some CPs choose to fully subsidize their consumers, i.e., the subsidized amount is . For instance, by cooperating with music steaming services, T-Mobile waived data
+Table 6
+
+fees for Spotify, Pandora, iTunes radio, etc. (Kumparak 2014). Some other CPs subsidize their consumers partially, i.e., the subsidized amount is less than . For instance, in its sponsored data service, AT&T enables CPs to sponsor the data usage for speciﬁc content, and CPs are able to put a limit on the amount of sponsored data content they are responsible for (partial subsidization): A CP may choose to subsidize some speciﬁc videos within its application, and a consumer will see the sponsored data icon, identifying that the videos are sponsored. When the customer clicks the icon to play the video, the data usage incurred while watching the video does not count toward her cap. In the next proposition, we examine the conditions under which partial or full subsidization occurs. Proposition 1 (Full Subsidization versus Partial Subsidization). The CPs are more likely to fully subsidize their consumers when their revenue-generation rates rL and rH are higher. The underlying intuition of this proposition is that the CPs’ incentives to subsidize data depends on the impact of its market share on its proﬁts. When its revenue-generation rate is higher, an increase in its market share can bring more proﬁts to a CP. Therefore, a CP is more likely to fully subsidize its consumers when its revenue-generation rate is higher.
+
+A Descriptive Summary of All Equilibrium Cases Conditions
+∗ s L ∗ s H
+
+Case 2
+
+Case 3
+
+Case 4
+
+Low rL Moderate rL High rL Low rH Moderate rH High rH Low rL and rH Low rL , moderate rH Low rL , high rH Moderate rL and rH High rL and rH
+
+No data subsidization Partial data subsidization Full data subsidization N.A. N.A. N.A. No data subsidization No data subsidization No data subsidization Partial data subsidization Partial data subsidization
+
+N.A. N.A. N.A. No data subsidization Partial data subsidization Full data subsidization No data subsidization Partial data subsidization Full data subsidization Partial data subsidization Full data subsidization
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+587
+
+Proposition 2. If both content providers are allowed to subsidize consumer data consumption, CP H has a higher ∗ incentive to subsidize data than CP L, i.e., ∗ s H ≥ s L. As stated previously, the CPs’ incentives to subsidize data depends on the impact of its market share on its proﬁts. CP H ’s revenue-generation rate is higher than CP L’s, so an increase in the market share will bring more proﬁts to CP H . Therefore, CP H has a greater incentive to subsidize data than CP L. In the next proposition, we compare the benchmark equilibrium (no data subsidization) when the option of allowing data subsidization is not available to the ISP with the results when the ISP can choose one of the network management options described in Table 2 to maximize its proﬁts, and thereby examine the impact of data subsidization. Proposition 3. Compared with the benchmark equilibrium, when the ISP can choose one of the network management options to maximize its proﬁts, (1) the perpacket price p weakly increases, (2) the ISP’s proﬁt weakly increases, and (3) the change of the market share of CP L or H depends on the cases described in Table 2: (i) in Case 1 (no CPs are allowed to subsidize), the market share of CP L or H remains the same, (ii) in Case 2 (only CP L is allowed to subsidize), the market share of CP L weakly increases, and that of H weakly decreases, (iii) in Case 3 (only CP H is allowed to subsidize), the market share of CP L weakly decreases, and that of H weakly increases, and (iv) in Case 4 (both CPs are allowed to subsidize), the market share of CP L weakly decreases, and that of H weakly increases. The intuition behind these results is as follows. When the ISP can choose one of the network management options according to its proﬁt, Case 1 in Table 2 is always available: the ISP does not allow either CP to subsidize the data. In other words, the ISP’s proﬁt in Case 1 is equal to the proﬁt when the option of allowing data subsidization is not available. Therefore, the ISP’s proﬁt should be at least equal to its proﬁt in the benchmark equilibrium when it can choose one of the network management options. Under some market conditions, the ISP’s proﬁts should be strictly greater when the network managing options are available because it can extract the CPs’ proﬁts as well as consumer surplus in the presence of data subsidization. The same logic applies to the per-packet price p. The change of CPs’ market shares depends on which CP is allowed to subsidize data. When data subsidization is not allowed, 1 x∗ = 2 . If only CP H or L is allowed to subsidize data, the market share of CP H or L will weakly increase because data subsidization allows the CP to attract more consumers from its competitor. If both CPs are allowed to subsidize data, the market
+
+share of CP H will weakly increase and the market share of CP L will weakly decrease because, as compared with CP L, CP H has a greater incentive to subsidize data. For a given set of parameter values, the ISP determines (a) whether to enter into a contract with one of the CPs, both CPs, or neither CP (in other words, Case 1, 2, 3, or 4); and (b) the equilibrium price that maximizes its proﬁts in each scenario. Unfortunately, the surfeit of parameters makes it impossible to analytically derive the dominating equilibrium in many cases, which is why we employ numerical analyses. We present analytical results as formal propositions, while all of the conclusions we draw from the numerical analyses are stated as results. Based on the equilibrium results, we present the preferred cases in terms of ISP’s proﬁts, consumer surplus, and social welfare with different parameter values. Consumer choice depends on the ﬁt cost t , which is used to model horizontal product/service differentiation between CPs (Choi and Kim 2010). If the ﬁt cost t is high, it means that the horizontal product differentiation is high, and it is more difﬁcult to transfer service from one CP to another in our context. If the ﬁt cost is low, then the horizontal product differentiation is low. In an extreme case, t = 0. It implies no horizontal product differentiation, and two CPs provide homogenous products/services (the degree of competition is the highest). Therefore, the ﬁt cost t measures the degree of competition between the two CPs caused by product differentiation (Kourandi et al. 2016). Another important parameter is the ratio of the revenue-generation rate of the two CPs rL /rH . When the revenue-generation rates are comparable, the ISP will ﬁnd it preferable to have similar policies with regards to both CPs (since either one of them will react similarly to any proposed contract of subsidizing content for their consumers). However, if the revenue-generation rates are considerably different, the two CPs might ﬁnd it advantageous to react differently to a contract proposed by the ISP. In our numerical analyses, the second factor that we examine is therefore the effect of changing the ratio of the revenue generation rates of the two CPs, i.e., rL /rH . To conduct the numerical analysis, we need to choose the values of three exogenous parameters , V , and rH . To satisfy all of the necessary conditions that are required for the existence of the equilibrium in Cases 2–4 (these are detailed within the proofs in the online appendix), we choose = 1, V = 10, and rH = 2. Our results below are derived using these parameter values. To test the validity of our numerical analyses, we tried other combinations of , V , and rH under the feasible regions of equilibrium results in all of the cases, and the results and propositions that follow hold for all those other values of the parameters.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+588
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+Result 1 shows the interplay between the two main factors that drive the equilibrium results, the ﬁt cost t and ratio of the revenue-generation rates of the two CPs, rL /rH . Result 1 (ISP’s Network Management Choices). If the ﬁt cost is low, the ISP will choose one of the equilibria under Case 3 (only H is allowed to subsidize its packets) or one of those under Case 4 (H and L are allowed to subsidize their packets) depending on the ratio of the revenue-generation rate of the two CPs. However, if the ﬁt cost is high, the ISP will not enter into any contract that allows subsidization of content by the CPs. Figure 2 illustrates the ISP’s network management choices under various parameter values. The ISP’s proﬁt is always maximized under either Case 3 or Case 4 if the ﬁt cost is low. However, if the ﬁt cost is high, the ISP allows no subsidization (Case 1). The following observations offer some intuitions for Result 1. First, we observe that for small values of rL , CP L will not participate in any subsidization plan because it cannot afford to pay the connectivity cost for its users. Second, if the ﬁt cost is low, consumers may switch from one CP to another to take advantage of the subsidization. As rL increases and subsidization becomes more affordable, CP L will also begin to subsidize its content to attract more consumers, but it can never happen that CP L prefers to subsidize while H does not, which is why the possible equilibria under Case 2 is always dominated (in other words, if the ISP allows data subsidization, either only H will subsidize its content or both CPs will subsidize their content). If the ISP allows both L and H to subsidize the consumers’ usage, both CPs would rather pay the ISP
+Figure 2 Internet Service Provider’s Network Management Choices, V = 10, = 1, rH = 2
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+than lose their consumers to their rivals, allowing the ISP to charge a higher p. In effect, the CPs are in a classic “prisoner’s dilemma,” which the monopolist ISP can exploit to its advantage. Accordingly, the ISP has the largest proﬁt under Case 4 when rL is not too low as compared to rH . In practical terms, a low ﬁt cost t can be interpreted as a market condition in which the horizontal product differentiation is not too high. Therefore, the implication of our result is that the ISP will enter into a subsidization contract only if the horizontal product differentiation is not too high. In our context, the revenue of each CP comes from the advertising income based on its market share. To gain a larger market share, both CPs have incentives to subsidize data trafﬁc. When horizontal product differentiation is low, the CPs will conduct a ﬁercer “price war” by subsidizing consumers with a larger amount of data. The reason is that a CP is able to obtain a large increase in its market share by increasing its subsidization amount when the ﬁt cost t is small. Therefore, the CPs might be trapped in a prisoner’s dilemma with regards to their decision to subsidize consumers when the ﬁt cost t is low. The ISP will beneﬁt from the CPs’ ﬁerce competition and more effectively extract the CP’s proﬁts by allowing the data sponsorship. To highlight the importance of the ﬁt cost t , we complement Result 1 with the following analytical proposition. Proposition 4. If the ﬁt cost t ≥ rH , the ISP will choose not to allow either CP to subsidize data. The intuition of this proposition is that when the ﬁt cost is high, the competition between the CPs is less ﬁerce, and the ISP cannot beneﬁt from data subsidization. It is important to note that the ISP may allow only CP H to subsidize data (Case 3) under some market conditions shown in Figure 2. An interesting observation is that before the introduction of data spon1 . sorship, CP L earns a positive market share, x∗ = 2 However, under some market conditions, data subsidization may let CP H become the monopoly in the market and drive CP L out of the market, i.e., x∗ = 0, in Case 3. It raises an important anticompetitive concern: In the presence of data subsidization, a big CP may leverage its advantage in revenuegeneration capability to expand its market share and gain market power in digital content markets. For startups and entrepreneurs hoping to have their content spread naturally or virally, they are suddenly at a disadvantage after the introduction of data sponsorship. The following proposition characterizes the market conditions under which CP L is driven out of the market in Case 3. Proposition 5. When only CP H is allowed to subsidize data, the market share of CP L, x∗ = 0, if rH ≥ 3t/ and V ≥ t.
+
+ISP profit
+1.0 0.9 0.8 0.7 0.6 Case 1 Case 3 Case 4
+
+rL /rH
+
+0.5 0.4 0.3 0.2 0.1 0 1.0 1.2 1.4 1.6 1.8 2.0 2.2
+
+t
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+589
+
+Figure 3
+
+Network Management Options That Maximize Consumer Surplus, V = 10, = 1, rH = 2
+
+Consumer surplus
+1.0 0.9 Case 1 Case 2 Case 4
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+0.8 0.7 0.6
+
+0.5 0.4 0.3 0.2 0.1 0 1.0 1.2 1.4 1.6 1.8 2.0 2.2
+
+t
+
+This proposition tells policymakers when they should pay special attention to the ISP’s network management decisions with regard to data subsidization. If the product differentiation is low (the ﬁt cost t is low) and the revenue-generation rate of CP H is high, allowing only CP H to subsidize data may drive CP L out of the market. The intuition behind this proposition is that when the product differentiation is low, the data subsidization of CP H will cause a larger increase in its market share. When rH is high, an increase in CP H ’s market share will yield a relatively larger increase in its revenue. Therefore, if the ﬁt cost t is low and the revenue-generation rate rH is high, CP H will provide a high level of data subsidization, and hence CP L will be more likely to be driven out of the market. This analytical result helps policymakers understand the impact of data subsidization on the CPs’ competition and sheds some light on when the introduction of sponsored data is
+Figure 4 (Color online) Usage-Based Price p in Terms of rL /rH and t , V
+(a) Cases 1 and 2
+
+more likely to be anticompetitive. Van Schewick (2016, p. 5) argued that data subsidization will end the era of “innovation without permission”—an important principle that has allowed innovation to ﬂourish on the Internet. The reason is that in the presence of data subsidization/zero rating, more and more ISPs will tend to become gatekeepers that pick winners and losers, and CPs will need to work with ISPs to join their data subsidization programs. In particular, small CPs and start-ups without the resources to engage ISPs will be left behind. Next, we consider the conditions under which consumer surplus and social welfare are maximized. Result 1 establishes the fact that, depending on parameter values, the ISP might prefer outcomes under cases 1, 3, or 4. From a policymaker’s perspective, however, it is not only the ISP’s proﬁt that matters. For example, policymakers might want to take into consideration other factors like consumer surplus and social welfare. Results 2 and 3 consider those factors. Consumer surplus is the sum of consumers’ utility and is calculated as follows:
+x∗ 1
+
+rL /rH
+
+Consumer Surplus =
+0
+
+UL x dx +
+
+x∗
+
+UH x dx (7)
+
+Result 2 (Consumer Surplus). Consumer surplus is maximized under Case 2 or Case 4 when the ﬁt cost is low. However, if the ﬁt cost is high, the case without subsidization (Case 1) yields the highest consumer surplus. Figure 3 illustrates the result graphically. It is instructive to analyze why such a result holds. As Figure 4 illustrates, the ISP charges the lowest usage-based price p under Case 1 (i.e., no subsidization). One might therefore expect that Case 1 would maximize consumer utility. However consider Case 2, in which the ISP charges the second lowest price to consumers and CPs. In this case, if consumers choose their content from CP L, they will enjoy the lowest net cost to get online (thanks to CP L’s subsidization).
+= 10, = 1, rH = 2
+(b) Cases 3 and 4
+
+9.8 9.6 Case 1 Case 2
+
+11.0 10.5
+
+Case 3 Case 4
+
+Price P
+
+9.2 9.0 8.8 1.0 2.5 0.8 0.6 0.4
+
+Price P
+
+9.4
+
+10.0 9.5 9.0 8.5 1.0 2.5
+
+rL /rH
+
+0.2
+
+0 1.0
+
+1.5
+
+2.0
+
+t
+
+0.8 0.6
+
+2.0 0.4 0.2 0 1.0 1.5
+
+rL /rH
+
+t
+
+590
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Next, consider the ﬁt cost. A small ﬁt cost implies that consumers will easily switch from their preferred CP to the rival CP. In the process, they incur a low disutility cost but they can lower their connectivity costs (from CPs’ subsidization), which increases their overall utility. Yet if consumers have a strong preference for their CP (high ﬁt cost), they will not switch providers; they would rather pay a little more to continue using their preferred CP. Under such a scenario, they would prefer Case 4, which results in both a lower cost of connectivity (due to CP subsidization) and the opportunity to continue enjoying content from their preferred CP. However, when ﬁt cost is really very high, the CPs balk at paying the high price required to switch the marginal consumers from their rival. Thus, for really high ﬁt costs, consumer surplus is maximized under Case 1. Along with the ISP proﬁt maximization and consumer satisfaction, we examine which subsidization plan options are socially optimal. We deﬁne social welfare to be the sum of the ISP’s proﬁt, the CPs’ proﬁts, and the consumer surplus. Result 3 (Social Welfare). Social welfare is maximized under Case 1 or Case 4. Figure 5 illustrates the proposition graphically. When the ﬁt cost is high, the proﬁts of the ISP and the CPs, as well as consumer surplus are maximized under Case 1, and so it is clear that social welfare under high ﬁt cost is maximized under Case 1. Cumulatively, the overall welfare is highest under Case 4 when the ﬁt cost is low. We will discuss the components of social welfare further in Section 5. Result 3 may guide policymakers who are interested
+Figure 5 Social Welfare Maximizing Network Management Options, V = 10, = 1, rH = 2
+
+in maximizing social welfare. The ISP should treat CPs equally according to the criterion of social welfare: When horizontal product differentiation is high (the ﬁt cost t is high), neither CPs should be allowed to sponsor data (Case 1); when horizontal product differentiation is low (the ﬁt cost t is low), both CPs should be allowed to subsidize data (Case 4). However, the choice of the policymakers with regards to network management options might be at odds with that of the ISP, since social welfare comprises not only the ISP’s proﬁt but also the proﬁts of the CPs’ proﬁts as well as the consumers’ surplus. According to Result 1, we know that when t is low, the ISP may have an incentive to deviate from the social optimum and allow only the more efﬁcient CP H to sponsor data. Why is no subsidization or allowing both CPs to subsidize preferred from a social planner’s perspective? From a social planner’s perspective, the ISP’s pricing policy p is purely “wealth transfer” rather than “wealth creation.” In other words, end consumers’ payments to the ISP for the Internet service and CPs’ payments to the ISP for data subsidization are essentially internal transfers within the system. As far as the calculation of the social welfare is concerned, the social planner cares only about the factors that can affect net “wealth creation” (more precisely, the social planner is concerned about the net increase in social welfare). There are two factors that can impact social welfare creation in our model. The ﬁrst is the total ﬁt cost of all end consumers along 0 1 , which is given by the following equation:
+x∗ 1
+
+tx dx +
+0
+
+x∗
+
+t 1 − x dx = t x∗ −
+
+1 2
+
+2
+
++
+
+t 4
+
+Social welfare
+1.0 0.9 0.8 0.7 0.6 Case 1 Case 4
+
+0.5 0.4 0.3 0.2 0.1 0 1.0 1.2 1.4 1.6 1.8 2.0 2.2
+
+t
+
+The total ﬁt cost is minimized when the marginal consumer is located at 1/2. The other factor that impacts the social welfare is the CPs’ revenue generation capability. Without considering the ﬁt cost, the social planner would like to see the market share of CP H to be high because the advertising revenue rate of CP H , rH , is greater than that of CP L, rL . These two factors together make no subsidization or allowing both CPs to subsidize the preferred outcomes from a social planner’s perspective. More speciﬁcally, there is a trade-off between these two factors. If the social planner considers only the ﬁrst factor, the marginal 1 as possiconsumer should be located as close to 2 ble (equal market shares). However, if only the second factor is considered, the social planner wants the marginal consumer to be as close to 0 as possible (the market share of CP H is high). Recall that in the no subsidization case (Case 1), the marginal consumer is 1 located at 2 , so Case 1 minimizes the total ﬁt cost of all end consumers. On the other hand, the market share of CP H is high under Case 4. Therefore, Case 1 or
+
+rL /rH
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+591
+= 10, = 1, rH = 2
+
+Figure 6
+
+The Impact of the Fit Cost and the CPs’ Revenue-Generation Rates on the ISP’s Equilibrium Proﬁt, V
+
+(a) ISP profit
+10 10.2
+
+(b) ISP profit
+10.4 9
+
+9.6
+
+0.9
+
+9.8
+
+9.4
+
+9.2
+
+10.2
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+10.5
+
+0.8 0.7 0.6 10.0
+
+10.0
+
+10
+
+9.6
+
+9.8 9
+
+9.4
+
+9.2
+
+rL /rH
+
+ISP
+
+0.5 0.4
+
+9.8
+
+9.5
+
+9.0
+
+9.6
+
+8.5 1 0.8 0.6 0.4 0.2 1.5 0 1.0 2.0 2.5
+
+0.3 0.2 0.1
+
+9.4
+
+9.6
+
+9.4
+
+9.2 9.2 9
+
+t
+1.0 1.5 2.0
+
+rL /rH
+
+9.0
+
+t
+
+Case 4 is preferred by the social planner, depending on t . If we compare Figures 3 and 5, the network management options to maximize consumer surplus are different from the options to maximize social welfare. According to Figure 3, we know that when the revenue-generation rates of two CPs are close, Case 2 (only CP L is allowed to subsidize) can generate a higher level of consumer surplus. However, when we consider the choice that can maximize social welfare, Case 2 is never optimal. Once again, the CPs’ revenuegeneration capability is a “wealth creation” factor, and the choice that can maximize social welfare will never allow CP L to subsidize the data because the revenue-generation rate of CP L is lower than that of CP H . Policymakers need to think about their objectives (maximizing social welfare versus maximizing consumer surplus) when they regulate the ISP’s network management choices. Under some market conditions, the choice of network management that can maximize social welfare might be at odds with the choice that maximizes consumer surplus. We also perform some sensitivity analyses to illustrate the effect of the key model parameters on the ISP’s proﬁt, consumer surplus, and social welfare. Figure 6 shows how the ﬁt cost and the ratio of the CPs’ revenue-generation rate affect the ISP’s equilibrium proﬁt. Figure 6(a) displays the ISP’s equilibrium proﬁt under different market conditions. Figure 6(b) depicts the contour lines of the ISP’s proﬁt. In general, if the ﬁt cost is high t > 2 , the CPs’ revenue-generation rates will have no impact on the ISP’s proﬁt because
+
+the ISP will prefer no data subsidization when t is high (recall our Result 1). Similarly, Figures 7 and 8 demonstrate the impact of the ﬁt cost and the ratio of the CPs’ revenue-generation rate on the equilibrium consumer surplus and social welfare, respectively. It is worth noting that the equilibrium consumer surplus increases with the ﬁt cost. At ﬁrst glance, it seems counterintuitive because a higher t tends to reduce consumers’ utility directly. However, the ISP’s ability to extract consumer surplus depends on t endogenously. When t is high, the ISP will charge a low price otherwise the marginal consumer’s utility becomes negative and the full market coverage is violated (in Figure 6, the ISP’s equilibrium proﬁt decreases with the ﬁt cost). Therefore, in general, the equilibrium consumer surplus increases with the ﬁt cost.
+
+5.
+
+Discussion
+
+The results in the previous section are useful in determining the equilibrium scenarios, but a policymaker would presumably want to get a sense of the distribution of the social surplus—for example, a scenario where social surplus is not maximized (but nonetheless is close to the maximum) but the surplus is more equitably distributed among the various actors would perhaps be considered better than a welfare-maximizing option where the surplus is mostly directed toward just one actor (or an option where, say, the consumer surplus is minimal). We consider such scenarios in this section. We choose four potential scenarios to discuss how the ISP’s decisions
+
+592
+Figure 7
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+The Impact of the Fit Cost and the CPs’ Revenue-Generation Rates on Equilibrium Consumer Surplus, V
+
+= 10, = 1, rH = 2
+
+(a) Consumer surplus
+0.3
+
+(b) Consumer surplus
+0.55 0.45 0.9 0.4 0.55 0.5
+
+0.35
+
+0.50 0.45 0.40 0.5 0.45 0.35 0.30 0.35 0.25 0.20 0.45 0.15 0.10
+
+0.8
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+0.8 0.7 0.4 0.6
+
+0.6
+
+CS
+
+rL /rH
+
+0.4 0.3 2.5 0.5 2.0 1.5 0 1.0 0.1 0.2
+0.2
+
+0 1.0
+
+0.2
+
+0.2
+
+5
+
+0.3
+
+0.5
+
+0.3
+
+0.3
+
+0.1 0.15 0.2
+
+0.5
+
+rL /rH
+
+t
+
+1.0
+
+1.5
+
+2.0
+
+t
+Figure 8 The Impact of the Fit Cost and the CPs’ Revenue-Generation Rates on Equilibrium Social Welfare, V = 10, = 1, rH = 2
+
+(a) Social welfare
+0.9 12.0 0.8 0.7 11.5 0.6
+.4 11
+
+(b) Social welfare
+11.6
+11 .6
+
+.4 11
+11.4
+
+2 11.
+
+0.55
+
+0.55
+
+0.4
+
+5
+
+0.4
+
+0.3
+
+0.25
+
+11.2
+
+SW
+
+rL /rH
+
+11.0
+
+0.5
+11
+
+11
+11 .2
+
+11.0
+
+10.5
+
+0.4 0.3 0.2 0.1 1.0
+10
+
+.8
+
+10.8
+
+10.0 1.0 2.5 0.5 2.0 1.5 0 1.0
+
+10
+
+.8
+
+10.6
+
+10
+1.5 2.0
+
+.6
+10.4
+
+rL /rH
+
+t
+
+t
+
+inﬂuence its proﬁt, the consumer surplus, social welfare, and the CPs’ proﬁts. In this analysis, we exclude the case with very high ﬁt cost because then, as we mentioned earlier, Case 1 (no subsidization) is the most preferred scenario for all three types of players. The four scenarios are as follows: (1) t is small and rL /rH is small (Figure 9); (2) t is small and rL /rH is large (Figure 10); (3) t is large and rL /rH is small (Figure 11); and (4) t is large and rL /rH is large (Figure 12). The stacked bars in Figures 9 through 12 represent the
+
+social welfare as the sum of the proﬁt of CP H , the proﬁt of CP L, the consumer surplus, and the ISP’s proﬁt. Expectedly, if CP H is much more efﬁcient than CP L in generating revenue (i.e., rL /rH is small, Figures 9 and 11), the two large components of the social welfare are the proﬁts of H and the ISP. However, when the CPs are relatively comparable with each other (in terms of their revenue-generation rates), we see that the ISP proﬁt makes the biggest contribution
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+593
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+to social welfare (Figures 10 and 12): that is, if the CPs are more or less equally competitive, their profits are mostly extracted by the ISP. At the same time, consumer surplus also suffers, as compared to that under scenarios 1 and 3. In addition, in most conditions (except when the ﬁt cost is very high), social welfare is maximized under Case 4, which is consistent with the results discussed in Section 4. As a
+Figure 9 Scenario 1 (t Is Small and rL /rH Is Small)
+
+general rule, consumer surplus is greater when the ﬁt cost is higher. We show this statement is true in Case 1, and the same logic follows in other cases. In Case 1, consumer surplus is given by the following equation:
+1/2 1
+
+Consumer Surplus =
+0
+
+UL x dx +
+
+1/ 2
+
+1 t UH x dx = 4
+
+Scenario 1: The components of social welfare
+
+CP H CP L CS ISP
+
+Case 1
+
+Case 2
+
+Case 3
+
+Case 4
+
+Figure 10
+
+Scenario 2 (t Is Small and rL /rH Is Large)
+
+Scenario 2: The components of social welfare
+
+CP H CP L CS ISP
+
+Case 1
+
+Case 2
+
+Case 3
+
+Case 4
+
+Figure 11
+
+Scenario 3 (t Is Large and rL /rH Is Small)
+
+Scenario 3: The components of social welfare
+
+CP H CP L CS ISP
+
+Therefore, consumer surplus is an increasing function of ﬁt cost t . The intuition is that the ISP’s ability to extract consumer surplus is constrained by the marginal consumer because of the full market coverage assumption. In Case 1, the ISP can set a price such that the marginal consumer’s net utility is 0 while other consumers have positive net utility. That is the highest price that the ISP can charge, because otherwise the full market coverage assumption will be violated. Therefore, when the ﬁt cost is low (the horizontal product differentiation is low), the ISP can more effectively extract the consumer surplus. An extreme example is when t = 0. When t = 0, there is no product differentiation. In Case 1, every consumer has exactly the same utility function V − p , and the ISP can charge the price p = V / such that every consumer’s net utility is 0. It implies that when t = 0, the consumer surplus is 0. By contrast, when the ﬁt cost is high, it is more difﬁcult for the ISP to fully extract consumer surplus. That is why consumer surplus increases with the ﬁt cost t . If the equitable distribution of the cumulative surplus is a concern, these guidelines should provide a basis for deciding whether there is a need for intervention in the market if the ISP decides to propose a data subsidization plan to the CPs. So far, we have assumed that the ISP charges the CPs the same per-packet price when the CPs are allowed to sponsor data trafﬁc. However, to maximize its proﬁt, the ISP can implement price discrimination by charging consumers p per packet and CPs c per packet. We discuss the ISP’s possibility of adopting price discrimination and present the results in Online Appendix D.
+
+Case 1
+
+Case 2
+
+Case 3
+
+Case 4
+
+6.
+
+Conclusion
+
+Figure 12
+
+Scenario 4 (t Is Large and rL /rH Is Large)
+
+Scenario 4: The components of social welfare
+
+CP H CP L CS ISP
+
+Case 1
+
+Case 2
+
+Case 3
+
+Case 4
+
+Subsidizing consumers for broadband usage is quickly becoming a way for CPs to get a leg up on competition. In this paper, we examine the strategy that a monopolist ISP chooses to maximize its proﬁt if it considers allowing CPs to subsidize consumers’ data usage. As smartphones become bigger and more powerful, consumers are increasingly using them to watch videos, listen to streaming music, and for other bandwidth-hungry applications. ISPs therefore have to rapidly upgrade their broadband infrastructures to meet this exploding demand for bandwidth (Fung 2014). For many households, the cost of Internet
+
+594
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+access is already a signiﬁcant portion of their budget (Troianovski 2012). ISPs are therefore trying to solve the challenge of effectively monetizing broadband trafﬁc while increasing infrastructure capital expenditures and without passing that cost onto their consumers (Cisco 2014). Getting the CPs to subsidize bandwidth access seems to be one part of solving the challenge without running afoul of the principles of net neutrality (which, as we point out below, has been contested by some proponents of the law). It is this phenomenon that motivated our research, and we examine which method of subsidization will maximize an ISP’s proﬁt when there are two competing CPs. Our analysis should serve as a guide for policymakers as they analyze this phenomenon. Our research has several managerial implications. For an ISP, the best subsidization plan will involve inducing the dominant CP to pay for subsidizing its content, if the revenue-generation rate of the latter is much higher compared to its competition and the consumers are easily persuaded to switch their loyalties for content. However, in a content market dominated by two relatively comparable competitors (in terms of their per-consumer revenue-generation capability), the ISP would prefer a subsidization plan that induces both CPs to retain their customers, and subsidize them for the consumption of their content. The current practice of data subsidization is also related to the policy debate on net neutrality. Van Schewick (2016) argued that data subsidization violates key net neutrality principles and harms user choice, innovation, and competition. Critics have argued that data subsidization may undermine the core vision of net neutrality: ISPs should not act as gatekeepers that pick winners and losers online by favoring some CPs over others. Our analysis provides the analytical backbone in this debate. There are several possible extensions to our research. In our study, the monopoly assumption for the ISP makes our model analytically tractable. As a future research direction, it would be interesting to examine the competition between multiple ISPs. When only one ISP exists in the market, it can effectively extract CPs’ proﬁts by the introduction of data subsidization. The existence of multiple competing ISPs should make CPs better off. However, the impact of data subsidization on consumer surplus and social welfare is unclear and needs to be further examined. Second, Guo et al. (2013) considered heavy consumers and light consumers to capture heterogeneous data usage of consumers. In the future, we intend to extend our research to explore consumers who have different data usage patterns. Curien and Moreau (2007) researched the complementary strategies between ISPs and CPs, in which access providers
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+participate in the production and distribution of digital content. They found that these strategies beneﬁt both access providers and CPs. Access providers acquire additional proﬁts from coproducing content and thus generate more data consumption, and CPs take advantage of the relatively larger market size of the access providers and reduce the illegal consumption of their digital content. Our model could be extended to incorporate this setting in which the ISP is merged with a CP and thus provides both the Internet connectivity as well as the digital content. Prominent examples of such mergers can be found in the United States: Comcast, for example, has a majority stake in NBC Universal, while Google is slowly getting into the ISP market with Google Fiber (Brodkin 2015b, Nicolas and François 2007, Snider et al. 2015). The implications of subsidization in such contexts should provide additional insights, and give us a better understanding of the issues surrounding production and delivery of digital content. Additionally, our model assumes that the ISP charges both CPs the same price for data subsidization when both of them are allowed to subsidize. In the future, it would be interesting to examine the impact of differential pricing of the CPs based on the competition intensity of CPs. Our paper models the content subsidization issue as a short-term problem, and therefore the capacity of the ISP is assumed to be ﬁxed. However, in a longer time horizon, as the consumption levels of the consumers increase, the ISP’s capacity, and the investment in its broadband infrastructure, will become a decision variable. The unlimited capacity in the current model setup is a limitation of our study, and capacity constraints could be another potential avenue for further research. Supplemental Material
+Supplemental material to this paper is available at http://dx .doi.org/10.1287/isre.2016.0641.
+
+Acknowledgments
+The authors thank the senior editor, the associate editor, and three anonymous reviewers for their detailed and constructive comments. The authors also thank Barrie Nault, Haldun Aytug, Hong Guo, Arunava Banerjee, and seminar participants at the University of Calgary for their helpful feedback.
+
+References
+Bourreau M, Kourandi F, Valletti T (2015) Net neutrality with competing Internet platforms. J. Indust. Econom. 63(1):30–73. Brodkin J (2015a) Google Fiber conﬁrmed for four new metro areas, 18 cities. arstechnica (January 27), http://arstechnica .com/business/2015/01/google-ﬁber-conﬁrmed-for-four-new -metro-areas-18-cities/.
+
+Cho, Qiu, and Bandyopadhyay: Should Online CPs Be Allowed To Subsidize Content?
+Information Systems Research 27(3), pp. 580–595, © 2016 INFORMS
+
+595
+
+Brodkin J (2015b) Netﬂix opposes data cap exemptions, except when it beneﬁts from them. arstechnica (March 4), http:// arstechnica.com/business/2015/03/netﬂix-opposes-data-cap -exemptions-except-when-it-beneﬁts-from-them/. Brodkin J (2016) Verizon Wireless selling data cap exemptions to content providers. arstechnica (January 19), http://arstechnica .com/business/2016/01/verizon-wireless-selling-data-cap -exemptions-to-content-providers/. Chaudhury R, Rooke J (2014) Wrestling the subsidy challenge in telecom. AT Kearney, http://www.atkearney.com/en/paper/-/ asset_publisher/dVxv4Hz2h8bS/content/wrestling-the-subsidy -challenge/10192. Cheng HK, Bandyopadhyay S, Guo H (2011) The debate on net neutrality: A policy perspective. Inform. Systems Res. 22(1):60–82. Choi JP, Kim B (2010) Net neutrality and investment incentives. RAND J. Econom. 41(3):446–471. Choi JP, Jeon DS, Kim BC (2015) Net neutrality, business models, and Internet interconnection. Amer. Econom. J.: Microeconomics 7(3):104–141. Cisco (2014) Cisco visual networking index: Global mobile data trafﬁc forecast update, 2014–2019. White paper, http://www .cisco.com/c/en/us/solutions/collateral/service-provider/ visual-networking-index-vni/white_paper_c11-520862.pdf. Curien N, Moreau F (2007) The convergence between contents and access: Internalizing the market complementarity. Rev. Network Econom. 6(2):161–174. Economides N, Hermalin BE (2012) The economics of network neutrality. RAND J. Econom. 43(4):602–629. Economides N, Hermalin BE (2015) The strategic user of download limits by a monopoly platform. RAND J. Econom. 46(2):297–327. Economides N, Tåg J (2012) Network neutrality on the Internet: A two-sided market analysis. Inform. Econom. Policy 24(2):91–104. Facebook (2015) Internet.org app now available in India. (February 10), http://newsroom.fb.com/news/2015/02/internet-org -app-now-available-in-india/. Fung B (2014) AT&T complains it needs more money for infrastructure upgrade. No, it doesn’t. Washington Post (March 25), http://www.washingtonpost.com/blogs/the-switch/wp/2014/ 03/25/att-complains-it-needs-more-money-for-infrastructure -upgrades-no-it-doesnt/. Goel V (2015) Indian regulators suspend Facebook’s free basic services. New York Times (December 23), http://bits.blogs.nytimes .com/2015/12/23/indian-regulators-suspend-facebooks-free -basic-services/?_r=0. Greenstein S, Peitz M, Valletti T (2016) Net neutrality: A fast lane to understanding the trade-offs. J. Econom. Perspectives 30(2): 127–150. Guo H, Cheng HK, Bandyopadhyay S (2013) Broadband network management and the net neutrality debate. Production Oper. Management 22(3):1287–1298. Hande P, Chiang M, Calderbank AR, Rangan S (2009) Network pricing and rate allocation with content provider participation. Proc. IEEE Infocom, 990–998. Hong E (2016) Zero-rating, explained. New York Times (February 8), http://www.slate.com/articles/technology/future_tense/2016/ 02/why_activists_are_ﬁghting_facebook_t_mobile_over_zero _rating.html. Hotelling H (1929) Stability in competition. Econom. J. 39(153): 41–57. Inoue A, Kurosawa T, Takano Y, Iwashita M, Nishimatsu K (2011) Mobile-carrier choice modeling under competitive conditions. 1st ACIS/JNU Internat. Conf. Comput., Networks, Systems, Indust. Engrg. CNSI 2011 , Jeju Island, South Korea, 164–169.
+
+Kang C (2015) F.C.C. asks Comcast, AT&T and T-Mobile about “zero-rating” services. New York Times (December 17), http:// bits.blogs.nytimes.com/2015/12/17/f-c-c-asks-comcast-att -and-t-mobile-about-zero-rating-services/?_r=0. Kastrenakes J (2015) YouTube doesn’t like T-Mobile’s lowquality video scheme. The Verge (December 22), http://www .theverge.com/2015/12/22/10654730youtube-criticizes-tmobile -binge-on-video-quality-throttling. Knutason R, Gryta T (2014) AT&T to let content companies subsidize users’ data costs. Wall Street Journal (January 6), http:// online.wsj.com/news/articles/SB1000142405270230488710457 9304451794540152. Kourandi F, Krämer J, Valletti T (2016) Net neutrality, exclusivity contracts, and Internet fragmentation. Inform. Systems Res. Forthcoming. Krämer J, Wiewiorra L (2012) Network neutrality and congestion sensitive content providers: Implications for content variety, broadband investment, and regulation. Inform. Systems Res. 23(4):1303–1321. Kravets D (2014) AT&T thumbs nose at net neutrality with “sponsored” bandwidth scheme. Wired (January 6), http://www .wired.com/2014/01/att-sponsored-data/. Kumparak G (2014) T-Mobile stops counting data used with Spotify, Pandora, and certain other music services. TechCrunch (June 18), http://techcrunch.com/2014/06/18/t-mobile-stops -counting-data-used-with-spotify-pandora-itunes-radio-and -certain-other-music-services/. Ma RTB (2014) Subsidization competition: Vitalizing the neutral Internet. Proc. 10th ACM Internat. Conf. Emerging Networking Experiments Tech. (ACM, New York), 283–294. Marcus JS (2011) Network operators and content providers: Who bears the cost? Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste, Bad Honnef, Germany, http://ssrn.com/abstract=1926768. Melendez S (2015) T-Mobile “binge on” video streaming program accused of throttling trafﬁc to YouTube. FastCompany (December 23), http://www.fastcompany.com/3054977/fast-feed/t -mobile-binge-on-video-streaming-program-accused-of-throttling -trafﬁc-to-youtube?partner=rss. Nichols S (2015) Zuck’ed up: Facebook opens up free Internet in India—But bans HTTPS. The Register (May 4), http://www .theregister.co.uk/2015/05/04/internet_org_facebook/. Nicolas C, François M (2007) The convergence between content and access: Internalizing the market complementarity. Rev. Network Econom. 6(2):161–173. Reardon M (2014) AT&T says “sponsored data” does not violate net neutrality. cnet (January 9), http://www.cnet.com/news/ at-t-says-sponsored-data-does-not-violate-net-neutrality/. Sharma A, Ante SE, Troianovski A (2013) ESPN eyes subsidizing wireless-data plans. Wall Street Journal (May 9), http://online .wsj.com/news/articles/SB1000142412788732405970457847340 0083982568. Snider M, Yu R, Brown E (2015) What is net neutrality and what does it mean for me? USA Today (February 27), http://www .usatoday.com/story/tech/2015/02/24/net-neutrality-what-is -it-guide/23237737/. Troianovski A (2012) Cellphones are eating the family budget. Wall Street Journal (September 28), http://www.wsj.com/articles/ SB10000872396390444083304578018731890309450. Van Schewick B (2016) T-mobile’s binge on violates key net neutrality principles. Working paper, Stanford University, Stanford, CA. https://cyberlaw.stanford.edu/downloads/van Schewick-2016-Binge-On-Report.pdf.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+

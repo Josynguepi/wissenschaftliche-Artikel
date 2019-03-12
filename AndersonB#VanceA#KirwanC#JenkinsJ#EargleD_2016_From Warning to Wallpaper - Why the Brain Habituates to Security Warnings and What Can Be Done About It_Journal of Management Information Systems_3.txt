@@ -1,0 +1,480 @@
+Journal of Management Information Systems
+
+ISSN: 0742-1222 (Print) 1557-928X (Online) Journal homepage: http://www.tandfonline.com/loi/mmis20
+
+From Warning to Wallpaper: Why the Brain Habituates to Security Warnings and What Can Be Done About It
+Bonnie Brinton Anderson, Anthony Vance, C. Brock Kirwan, Jeffrey L. Jenkins & David Eargle
+To cite this article: Bonnie Brinton Anderson, Anthony Vance, C. Brock Kirwan, Jeffrey L. Jenkins & David Eargle (2016) From Warning to Wallpaper: Why the Brain Habituates to Security Warnings and What Can Be Done About It, Journal of Management Information Systems, 33:3, 713-743, DOI: 10.1080/07421222.2016.1243947 To link to this article: http://dx.doi.org/10.1080/07421222.2016.1243947
+
+View supplementary material
+
+Published online: 07 Dec 2016.
+
+Submit your article to this journal
+
+Article views: 30
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at http://www.tandfonline.com/action/journalInformation?journalCode=mmis20 Download by: [Bibliotheek TU Delft] Date: 14 February 2017, At: 09:21
+
+From Warning to Wallpaper: Why the Brain Habituates to Security Warnings and What Can Be Done About It
+BONNIE BRINTON ANDERSON, ANTHONY VANCE, C. BROCK KIRWAN, JEFFREY L. JENKINS, AND DAVID EARGLE
+BONNIE BRINTON ANDERSON (bonnie_anderson@byu.edu) is an associate professor of information systems and director of the Master of Information Systems Management Program at the Marriott School of Management, Brigham Young University. She received her Ph.D. from Carnegie Mellon University. She researches the intersection of decision neuroscience and behavioral information security. Her work has been published or accepted in Information Systems Research, Journal of Management Information Systems, Journal of the Association for Information Systems, European Journal of Information Systems, and other venues. ANTHONY VANCE (anthony@vance.name) is as an associate professor of information systems at the Marriott School of Management, Brigham Young University. He has earned Ph.D. degrees in information systems from Georgia State University, the University of Paris–Dauphine, and the University of Oulu, Finland. His research focuses on behavioral and neuroscience applications to information security. His work has been published in Information Systems Research, Journal of Management Information Systems, MIS Quarterly, Journal of the Association for Information Systems (JAIS), European Journal of Information Systems, and others. He is an associate editor at MIS Quarterly and serves on the editorial board of JAIS. C. BROCK KIRWAN (kirwan@byu.edu) is an associate professor of psychology and neuroscience at Brigham Young University. He received his Ph.D. in psychological and brain sciences from Johns Hopkins University. He has a decade of experience conducting functional magnetic resonance imaging (fMRI) scans with patient populations. He has published numerous papers reporting fMRI and neuropsychological results in Science, Proceedings of the National Academy of Sciences, Neuron, and the Journal of Neuroscience, as well as Information Systems Research, Journal of Management Information Systems, Journal of the Association for Information Systems, and European Journal of Information Systems. JEFFREY L. JENKINS (jeffrey_jenkins@byu.edu) is an assistant professor of information systems at the Marriott School of Management, Brigham Young University. He graduated with a Ph.D. in management information systems from the University of Arizona. His research focuses on human–computer interaction and behavioral information security. His work has been published in Information Systems Research, Journal of Management Information Systems, MIS Quarterly, European Journal of Information Systems, and others.
+
+Journal of Management Information Systems / 2016, Vol. 33, No. 3, pp. 713–743. Copyright © Taylor & Francis Group, LLC ISSN 0742–1222 (print) / ISSN 1557–928X (online) DOI: 10.1080/07421222.2016.1243947
+
+714
+
+ANDERSON ET AL.
+
+DAVID EARGLE (dave@daveeargle.com; corresponding author) is a doctoral candidate in the Information Systems and Technology Management Area at the Katz Graduate School of Business, University of Pittsburgh. He is a National Science Foundation Graduate Research Fellow. His research interests include human–computer interaction and information security. He has published in Information Systems Research, Journal of Management Information Systems, Journal of the Association for Information Systems, European Journal of Information Systems, and others. ABSTRACT: Warning messages are fundamental to users’ security interactions. Unfortunately, they are largely ineffective, as shown by prior research. A key contributor to this failure is habituation: decreased response to a repeated warning. Previous research has only inferred the occurrence of habituation to warnings, or measured it indirectly, such as through the proxy of a related behavior. Therefore, there is a gap in our understanding of how habituation to security warnings develops in the brain. Without direct measures of habituation, we are limited in designing warnings that can mitigate its effects. In this study, we use neurophysiological measures to directly observe habituation as it occurs in the brain and behaviorally. We also design a polymorphic warning artifact that repeatedly changes its appearance in order to resist the effects of habituation. In an experiment using functional magnetic resonance imaging (fMRI; n = 25), we found that our polymorphic warning was significantly more resistant to habituation than were conventional warnings in regions of the brain related to attention. In a second experiment (n = 80), we implemented the four most resistant polymorphic warnings in a realistic setting. Using mouse cursor tracking as a surrogate for attention to unobtrusively measure habituation on participants’ personal computers, we found that polymorphic warnings reduced habituation compared to conventional warnings. Together, our findings reveal the substantial influence of neurobiology on users’ habituation to security warnings and security behavior in general, and we offer our polymorphic warning design as an effective solution to practice KEY WORDS AND PHRASES: behavioral information systems security, cybersecurity, fMRI, functional magnetic resonance imaging, habituation, mouse cursor tracking, neurobiology, NeuroIS, polymorphic warnings, security warnings.
+
+Warning messages are one of the last lines of defense in computer security and are fundamental to users’ security interactions with technology. Unfortunately, experimental research has consistently shown that they are largely ineffective [27, 76]. This is problematic, as users are increasingly targeted by attackers seeking to gain access to the information resources of organizations. Consequently, researchers have actively sought to understand how users interact with security warnings and why warnings are so pervasively ignored [10]. A key contributor to the disregard of security warnings is habituation, which is “decreased response to repeated stimulation” [39, p. 419]. Through this phenomenon, warnings that were once salient become virtually unnoticeable, like familiar wallpaper. Although habituation has been inferred as a factor in many securitywarning studies (e.g., [31, 70]), little research has specifically investigated
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+715
+
+habituation in the context of warnings. Further, because habituation is difficult to directly observe using conventional methods, research that does investigate habituation has done so indirectly by observing its influence on security-related behaviors rather than by measuring habituation itself (e.g., [11, 13]). Therefore, there is a gap in our understanding of how habituation to security warnings occurs in the brain, in addition to behavioral habituation. Without direct measures of habituation, researchers are limited in their efforts to design warnings that can mitigate its effects. This study addresses this gap by using NeuroIS—the use of neurophysiological tools to explore how the functioning of the brain affects information systems-related behaviors—to open the “black box” of the brain [28] in order to observe habituation as it develops in response to security warnings. In doing so, we respond to the call of Crossler et al. [20] for the application of NeuroIS methods to yield fresh insights into information-security behaviors. Specifically, we point to the repetition suppression effect, the reduction of neural responses to stimuli that are viewed repeatedly [38], as the neural manifestation of habituation to stimuli [47]. We also draw on mouse cursor movement indicators of attention as a behavioral–attentional manifestation of habituation to stimuli. By investigating behavioral–attentional indicators of habituation and how repetition suppression occurs in the brain, we can take a more precise approach to the design of security warnings that are resistant to the effects of habituation. This is one of the ultimate goals of neurosecurity, which is the application of neuroscience to behavioral information security to “better understand and improve users’ security behaviors” [2, p. 2884; 15]. Accordingly, the research objective of this paper is twofold: (1) to directly observe habituation as it occurs in the brain and is manifested in behavioral–attentional indicators using neurophysiological tools, and, using these measures, (2) to design a security-warning artifact that is substantially more resistant to habituation than were the conventional warnings. Our research questions to pursue these objectives are: Research Question 1: How does habituation occur in the brain in response to security warnings? Research Question 2: How can security warnings be designed to be more resistant to habituation? We investigated these questions in two laboratory experiments using complementary neurophysiological measures: functional magnetic resonance imaging (fMRI; Experiment 1) and mouse cursor tracking (Experiment 2). This follows the guidance of Dimoka et al. that “no single neurophysiological measure is usually sufficient on its own, and it is advisable to use many data sources to triangulate across measures” [30, p. 694]. In Experiment 1, we designed a polymorphic warning artifact that repeatedly changes its appearance as a means of sustaining attention. In doing so, we made twelve graphical variations to the warning derived from findings in the warning science literature [88]. Next, we performed an fMRI experiment to evaluate our polymorphic warning design and found that it was substantially more resistant to
+
+716
+
+ANDERSON ET AL.
+
+habituation than were conventional warnings. Further, we used the fMRI results to identify the graphical variations most resistant to habituation. In Experiment 2, we implemented our polymorphic warning artifact in the Google Chrome browser as part of a realistic task to enhance the ecological validity of our results. This study explored how participants responded to Google Chrome permission warnings on their personal laptops. In addition, we used mouse cursor tracking to measure changes in attention over time due to habituation. We found that our polymorphic warning resulted in reduced habituation when compared with the standard permission warning, corroborating the fMRI results of Experiment 1.
+
+Literature Review
+Given its strong security implications, habituation is frequently cited as a key contributor to users’ failure to heed warnings [40, 63]. However, most studies infer the presence of habituation, rather than empirically examine it. For example, Egelman et al. [31] found a correlation between user disregard for warnings and user recognition of warnings as previously viewed, and attributed this correlation to habituation. Akhawe and Felt found that the most common browser SSL (secure sockets layer) error had the lowest adherence rate and the shortest response time, and noted that this result was “indicative of warning fatigue” [4, p. 268], in other words, habituation. Those few studies that do empirically examine habituation to security warnings have done so indirectly. For example, Brustoloni and Villamarín-Salomón [13] found that compared to conventional warnings, a security warning that randomized the position of its option buttons resulted in users ignoring the message less frequently in risky situations. Bravo-Lillo et al. [11] measured habituation in terms of the percentage of users who immediately recognized that the contents of a dialogue message had changed after a rapid habituation period. Only 14 percent of the users in their study immediately recognized the change in the dialogue message. From the studies reviewed above, it is clear that despite habituation to security warnings being widely acknowledged as a problem, little empirical research has specifically examined this area of information security. Moreover, the lack of direct measures of habituation limits our ability to design security warnings that are resistant to habituation. Therefore, measuring the occurrence of habituation in the brain presents an opportunity to quantify the antecedents and onset of habituation and its impacts on security-warning behavior. This is consistent with the recommendation of vom Brocke and Liang [84], who emphasize the importance of selecting NeuroIS research questions that, first and foremost, answer problems of importance to the information systems (IS) community, and, second, benefit from studies using neurophysiological measures. With this objective in mind, we next review the application of NeuroIS to the study of behavioral information security. In the brain, a diminished neural response to a repeated stimulus is called “repetition suppression,” a robust manifestation of habituation, and has been
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+717
+
+observed in humans across a variety of brain regions and experimental situations (for review, see [38, 71]). The exact cause of repetition suppression may vary according to brain region. In the visual processing system—a brain network highly relevant to the processing of visual warnings1—repetition suppression appears to be related to repetition priming and may reflect the facilitation of stimulus processing with repeated exposures [26]. This type of response is highly influenced by the similarity of the repeated stimuli, where a more robust suppression is associated with stimuli that share a greater number of similarities [55]. Interestingly, research has found that neural measures of repetition suppression can be more sensitive to habituation than behavioral measures are. For example, Motley and Kirwan [61] demonstrated that the hippocampus differentiates subtle changes to stimuli (in this case, stimuli rotated by 15 degrees) even when participants’ behavioral responses indicate that they are unaware of the changes. Therefore, research shows that the repetition suppression effect is an effective and sensitive way to assess the underlying neural computational processes of behavior (e.g., [50, 88]). In this study, we map the sensitivity of different brain regions to stimulus repetition of security warnings.
+
+Mouse Cursor Tracking: A Behavioral–Attentional View of Habituation
+Mouse cursor tracking has been proposed as a cost-effective and unobtrusive instrument to measure users’ attention in a human–computer interaction (HCI) context (e.g., [33, 62]). Mouse cursor movements can be used to “infer user attention in complex web pages containing images, text and varied content” [62, p. 2963]. For example, research has shown that eye-gaze and cursor movement patterns are highly correlated [22, 48]. Freeman et al. suggested that the movements of the hand “offer continuous streams of output that can reveal ongoing dynamics of processing, potentially capturing the mind in motion with fine-grained temporal sensitivity” [33, p. 1]. Accordingly, hundreds of recent studies have chosen mouse cursor tracking as a methodology for studying various cognitive and emotional processes. See Appendix C for examples of how mouse cursor tracking has been used to measure attention. Importantly, mouse cursor tracking can measure changes in attention [62, 67] and therefore can be used to measure diminished attention in response to repeated warnings, the form of habituation relevant to our context [44]. Because mouse cursor tracking can be measured unbeknownst to users on their own laptops (through JavaScript embedded in a website), it offers a superior method for unobtrusively measuring habituation in users’ natural environments compared to other methodologies (e.g., fMRI, eye tracking, EEG [electroencephalogram], etc.). In this study, we use both fMRI and mouse cursor tracking to provide a more holistic view of habituation to security warnings.
+
+718
+
+ANDERSON ET AL.
+
+Theory and Hypothesis Development Overview of Habituation Theory
+Two prominent complementary theories explain the process of habituation: the stimulus-model comparator theory (SMCT) [75], and the dual-process theory (DPT) [39]. SMCT [75] claims that when people see a repeated stimulus, they form a mental model of the stimulus. As a new stimulus is observed, people compare the incoming stimulus with the mental model. If the model and stimulus are similar, the brain’s amplifying system inhibits the behavioral response, resulting in a response decrement—an attenuation of the response. However, if the incoming stimulus does not match the model, an orienting reflex occurs [6]. In this situation, the brain’s amplifying system will release the inhibition and the response strength will increase. DPT proposes that when people see a stimulus, one of two processes will occur: habituation or sensitization [65]. When people encounter a stimulus, the brain compares the stimulus to any existing mental representations of the stimulus. If the stimulus and a model are similar, the habituation process occurs, resulting in a response decrement. However, if the stimulus is novel, sensitization occurs, which counterbalances habituation and increases one’s response to the stimuli. We draw on the common theoretical elements of the mental model comparisons to support our hypotheses [82].
+
+Polymorphic Warning Design
+One of our research objectives was to design a security-warning artifact substantially more resistant to habituation than conventional warnings. Several approaches have been suggested to increase attention to security warnings and thus reduce habituation. For example, following design guidelines found in the warning literature, Bravo-Lillo et al. [11, 12] designed and tested a variety of warning attractors, which are graphical elements that draw attention to salient information in warning dialogues. These studies demonstrated that habituation could be reduced through user-interface (UI) design. In a different approach, Wogalter stated that “habituation can occur even with well-designed warnings, but better designed warnings with salient features can slow the habituation process. Where feasible, changing the warning’s appearance may be useful in reinvigorating attention switch previously lost because of habituation” [87, p. 55]. In line with this reasoning, Brustoloni and VillamarínSalomón [13] proposed polymorphic warnings, which change appearance to reduce habituation. In contrast, warnings are typically static, meaning they do not change appearance on repeated exposures. However, they only tested changing the order of options on the warning dialogue, acknowledging that “the design space for polymorphic dialogs is vast” [13, p. 79]. In addition, it is not clear whether polymorphic warnings actually reduce habituation, as they did not measure
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+719
+
+habituation directly. Thus, our research objectives are to (1) use fMRI to determine whether a polymorphic warning design is able to reduce habituation in the brain in response to repeated warning exposures, and (2) identify the polymorphic variations that are most successful at reducing habituation.
+
+Development We relied on the warning science literature to develop twelve graphical variations expected to capture attention. Our polymorphic warning artifact rotated through the graphical variations on each subsequent exposure. These variations are described in Table 1 and depicted in Figure 1.
+
+Experiment 1. Hypotheses
+According to theory on habituation (see the section “Overview of Habituation Theory”), when users repeatedly see a warning, they will generate a robust mental model of the warning across exposures. On each successive exposure to the warning, users will rely more on the mental model of the warning as opposed to the actual warning presented, resulting in a response decrement to the actual warning [39, 75]. Accordingly, our first objective is to examine the nature of the repetition suppression effect in neural responses when users view repeated presentations of security warning stimuli. Once we establish the neural signature of habituation to security
+
+Table 1. Polymorphic Variations and Their Support from the Literature Variations
+Text appearance Color of text Highlighting of text Message content Pictorial symbols (e.g., an exclamation point) Signal word (e.g., “warning” or “danger”) Warning appearance Color Contrast (e.g., white on black) Ordering of options Size Animation Jiggle, Scale/Zoom, Twirl/Spin
+
+Support
+Braun et al. [8]; Laughery et al. [51] Strawbridge [79]; Young and Wogalter [90] Kalsher et al. [46]; Sojourner and Wogalter [74] Kalsher et al. [45]; Silver and Wogalter [73]
+
+Braun and Silver [9]; Rudin-Brown et al. [68] Sanders and McCormick [69]; Young [91] Brustoloni and Villamarín-Salomón [13]; De Keukelaere et al. [24] Vigilante and Wogalter [83]; Wogalter and Vigilante [86] Bravo-Lillo et al. [11]; Furnell [32]; Leung [52]
+
+720
+
+ANDERSON ET AL.
+
+(a) Original Warning Screenshot
+
+(b) Color of Text Variation
+
+(c) Highlight of Text Variation
+
+(d) Signal Word Variation
+
+(e) Pictorial Signals Variation
+
+(f) Ordering of Options Variation
+
+(g) Color Variation
+
+(h) Size Variation (3X Larger)
+
+(i) Contrast Variation
+
+(j) Border Variation
+
+(k) Twirl Animation Variation
+
+(l) Scale/Zoom Animation Variation
+
+(m) Jiggle Animation Variation
+
+Figure 1. Polymorphic Warning Design Variants
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+721
+
+warnings in general, we will be able to determine if polymorphic warnings deviate from the normal repetition suppression effect. In a previous study [5], researchers observed robust repetition suppression across a number of brain regions, most prominently in the visual processing system in response to repeated viewings of static computer warning stimuli. Accordingly, in the present study we hypothesize: Hypothesis 1: For static and polymorphic warnings, attention will decrease in terms of neural activation across repeated exposures. In the current study, we expect that the polymorphic warnings will maintain high levels of attention across repetitions while static images will be associated with decreases in attentional processing. This will be evident in a number of ways. First, we predict that polymorphic warnings will be more resistant to repetition suppression than static images, especially in regions associated with visual spatial attention (e.g., regions in the frontoparietal attention network) [18]. Second, we predict that regions associated with inattention will be more active with repeated exposures to static warnings when compared to polymorphic warnings. The default-mode network is a network of brain regions that is more active when participants are allowed to rest and let their thoughts wander [14].2 The default-mode network has been shown to be more active when participants are not attending to the presented stimulus [57]. If polymorphic stimuli are effective at maintaining participants’ attention, then default-mode network activity should be relatively low compared to activity for static stimuli with repeated exposures. Accordingly, we expect that polymorphic warnings will be associated with increased activity in attention networks and decrease activity in the default-mode network, but static warning images will be associated with the opposite effect. The presence of an interaction between stimulus repetition and stimulus type would indicate that polymorphic warnings are more resistant to the repetition suppression effect than static warning images. Our hypothesis is therefore: Hypothesis 2: Attention will decrease in terms of neural activation less for polymorphic than for static warnings across repeated exposures. This will be evident in two ways: first, repeated presentations of static warnings will result in greater decreases in activation in regions associated with attention compared to presentations of polymorphic warnings. Second, repeated presentations of static warnings will result in greater increases in activation in regions associated with inattention compared to presentations of polymorphic warnings. Finally, we expect that animated polymorphic warnings will exhibit a differential neural response relative to still (nonanimated) polymorphic warnings and will be more resistant to habituation. This is because animation should activate regions of the brain associated with visual motion processing, such as the human motion complex (hMT+) area [37],3 in addition to brain regions that process the content of still images. In addition, early visual processing areas, such as the primary visual
+
+722
+
+ANDERSON ET AL.
+
+cortex, are responsive to motion [80]. Thus, animated polymorphic warnings should exhibit an additive effect over that of still polymorphic warnings. Hypothesis 3: Attention will be greater in terms of neural activation for animated polymorphic warnings than for nonanimated polymorphic warnings. In other words, there will be a higher neural response upon successive viewings for animated polymorphic warnings as compared with nonanimated polymorphic warnings in regions that demonstrate repetition suppression, in addition to greater neural activation in motion-sensitive regions, such as the hMT+.
+
+Experiment 2. Hypotheses
+The purpose of Experiment 2 is to test the findings of Experiment 1 in a more realistic context, enhancing the ecological validity of the study as a whole using mouse cursor movements to measure habituation. Mouse cursor movements can be used as an unobtrusive surrogate of users’ attention. For example, mouse cursor movements are highly sensitive to stimuli and information that, even briefly, capture users’ attention [62]. Attention can be measured through various movement statistics including greater area under the curve, slower average speed, and slower initial acceleration (see the methodology section for a description of these statistics). This relationship between attention and mouse cursor movements has been validated in various settings (e.g., [22, 85]). With repeated exposures to security warnings, users will rely more on the mental model of the warning as opposed to the actual warning presented, resulting in a decreased response [39, 75]. This response decrement includes paying less attention to the warning, and responding to the warnings more reactively and automatically, which will influence mouse cursor movements in several ways. First, as information on the warning captures users’ attention less, mouse cursor movements will deviate less toward that information [62], moving more directly to execute a learned movement response—a predetermined movement response to the warning (e.g., dismissing the warning) [72]. Further, when users rely on the mental model more as opposed to giving attention to the warning, movements will reactively begin to execute the learned response, which results in faster acceleration and speed of movements [56, 72]. These mouse-movement indicators of lower attention will amplify over repeated exposures to the warning—an indicator of habituation. In summary, we hypothesize: Hypothesis 4: For both static and polymorphic warnings, attention will decrease in terms of mouse cursor movements (greater area under the curve, slower average speed, and slower initial acceleration) across repeated exposures. However, polymorphic warnings should garner more attention than static warnings in general, resulting in higher mouse cursor movement indicators of attention for polymorphic warnings. When a warning’s appearance is updated, this causes the
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+723
+
+warning to differ from the existing mental model of warnings in general. As a result, users will experience an orientation reflex that will cause them to pay more attention to the warning [75]. In other words, the novelty of the warning causes sensitization that draws users’ attention to the warning [65]. This will result in greater deviation of mouse cursor movements from directly responding to the warning as users examine the different parts of the warning to determine what is new and view the warning’s message [62]. Further, as users examine the warning, their movements will not reactively respond to the warning as much, neither accelerating nor moving as quickly [56, 72]. In summary, we predict: Hypothesis 5: Attention will be greater in terms of mouse cursor movements (greater area under the curve, slower average speed, and slower initial acceleration) for polymorphic warnings than for static warnings. As users continue to see polymorphic warnings, they will also begin to habituate to them (see H4) [86]. However, we hypothesize that this habituation will occur more slowly for polymorphic warnings than for static warnings. By continually changing the appearance of the warning, the mental model of the polymorphic warning will be less stable compared to the mental models of seeing repeated static warnings. Thus, when users see a subsequent polymorphic warning, it is less likely to match its mental model, resulting in novelty and less habituation over time [75]. Further, as it continues to change its appearance, the polymorphic warning will further conflict with its mental model, causing sensitization that counters or slows habituation over time [65]. In summary, in addition to polymorphic warnings garnering more attention in general (H5), we predict that the decrease in attention due to habituation over time will be less for polymorphic warnings than for static warnings: Hypothesis 6: Attention will decrease less in terms of mouse cursor movements (greater area under the curve, slower average speed, and slower initial acceleration) for polymorphic warnings than for static warnings across repeated exposures.
+
+Methodology
+To test our hypotheses, we conducted two experiments. Experiment 1 tested the fMRI-related hypotheses (H1–H3). Experiment 2 tested the mouse-tracking-related hypotheses (H4–H6). We will now describe the methodology for each experiment.
+
+Experiment 1: fMRI
+Measures Functional MRI is a method of choice in decision neuroscience because of its superior ability to identify areas of the brain that are activated during decision
+
+724
+
+ANDERSON ET AL.
+
+making and other behavioral tasks [29, 66]. Although certain neurophysiological tools, such as EEG [23, 49, 53] or eye-tracking [59], offer greater temporal resolution for examining habituation, these methods cannot examine activity in specific brain regions as fMRI can. Functional MRI measures neural activity indirectly by tracking changes in the level of blood oxygenation, which are driven by changes in the metabolic demands of active neural populations. This phenomenon is known as the blood oxygen level dependent (BOLD) effect, and its magnitude is proportional to the degree of underlying neural activation [54]. By measuring the BOLD effect, researchers can both identify distinct regions of the brain where activity is correlated with specific emotions (e.g., fear or uncertainty) and cognitive processes (e.g., perception or memory retrieval), and evaluate the degree of activation in these regions. Thus, fMRI is well-suited to the investigation of the neural underpinnings of how habituation to security warnings occurs in the brain.
+
+Experimental Design We used an event-related, within-subject experimental design in which we compared the response to polymorphic warning images with the response to static warning images. Our experimental design is graphically depicted in online Appendix A and consists of four steps for each participant. In Step 1, we randomly split a pool of forty warnings between a polymorphic and static warning treatment. In Step 2, the warnings in the static treatment were repeated thirteen times. For the polymorphic treatment, warnings were also repeated thirteen times, although, with each repeated exposure, a different polymorphic variation was displayed in random order. For example, the first exposure of a polymorphic warning might have featured a red background, the second exposure might have included a yellow-and-black striped border, and so on. The number 13 was chosen by calculating the maximum number of polymorphic stimuli that we could show to participants while not extending total scan time beyond estimated subject toleration limits of approximately thirty minutes. To be parallel, we included thirteen repetitions for static warnings as well. In Step 3, forty images of general software applications were randomly intermixed with the warning images and displayed one time each. Trials in which these images were presented served as a baseline in the fMRI model. Accordingly, deviations from baseline, or “0,” in our fMRI parameter estimates represent deviations from an active task condition (i.e., viewing images) rather than a passive rest condition. We chose this condition as a baseline in order to keep participants engaged in the task and to avoid unconstrained mental activity in the task (see [77]). There were a total of 560 images (20 polymorphic warnings × 13 variations [for each of the polymorphic warnings] + 20 static warnings × 13 repetitions [identical, with no variation] + 40 software images × 1 exposure each) to be displayed in the experiment. Finally, in Step 4, the 560 images were randomized for each participant across five blocks of 6.5 minutes each (with a two-minute break in between) in order to relieve participants’ fatigue during the tasks. This randomization ensured that any effects observed
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+725
+
+would be due to the polymorphic treatment, rather than the appearance of the warnings themselves. Further, it ensured an effective jitter between stimuli of similar types and avoided autocorrelation in the experimental design (see [21]). For each stimulus, participants were shown images for three seconds each with a 0.5-second interstimulus interval (ISI). Technical details of the fMRI scanner, experimental procedures, and analyses are documented in online Appendix A.
+
+Experimental Task For each visually presented stimulus, participants used a keypad to indicate if the image shown was (1) identical to one seen before the task, (2) similar yet different from one seen previously in the task, or (3) new, never seen before in the task. This question was used to provide behavioral performance data that ensured that participants were appropriately engaged in the task. Our subsequent analysis of the responses (“identical,” “similar,” and “new”) to each stimulus type (novel, static, and polymorphic manipulations) revealed that participants performed the task as expected. At the conclusion of the fMRI scan, each participant was led to an adjoining room to complete a brief post-test feedback survey. In addition, to ensure manipulation validity [78], the post-test survey included a manipulation check question that displayed a polymorphic warning as it rotated through its variations. Each participant was asked whether he or she noticed the treatment during the task. All but one of the participants reported that they had noticed the experimental treatment, which indicated successful overall manipulation. Following Straub et al., we elected to retain the participant who reported that he was not manipulated to provide “a more robust testing of the hypotheses” [78, p. 408].
+
+Participants Twenty-five participants were recruited from the university community and were screened for MRI compatibility. In addition, we screened participants to require native English speakers, corrected-normal visual acuity, and right-handedness and excluded those taking psychotropic medications or with color blindness. Each participant signed an informed consent form in accordance with the IRB (Institutional Review Board) protocol. Of the twenty-five participants, twenty-one were male and four were female. Participants were age twenty to twenty-seven, with a mean of 23.68. We conducted a pilot study that revealed a large estimated effect size for the repetition effect (partial eta2 = 0.7). Using this estimated effect size, an a priori power analysis indicated that we would need four subjects to achieve power greater than 0.8, indicating that a sample size of twenty-five is more than adequate [5].
+
+Data Analysis Our first research question centered on the effect of repetition on measures of neural activation. Accordingly, we performed a repeated-measures ANOVA on the whole-
+
+726
+
+ANDERSON ET AL.
+
+brain fMRI data with repetition number and stimulus type (polymorphic, static) as factors. This allowed us to identify those brain regions that (1) had differential responses to subsequent repetitions (i.e., that displayed a main effect of repetition number in their neural responses as we hypothesized in H1), and (2) had differential responses to subsequent repetitions that were modulated by stimulus type (i.e., that displayed an interaction between repetition number and stimulus type as we hypothesized in H2). Accordingly, for each brain region that displayed a main effect or an interaction (i.e., the regions of interest, or ROIs), we extracted mean parameter estimates for all the voxels in the ROI to perform follow-up repeated-measures analyses, such as examining the direction and strength of any linear trends with repeated presentations. In our first analysis, we identified ten regions where there was a significant main effect of repetition number (thresholded with a voxel-wise p < 0.001 and spatial extent > 40 contiguous voxels; overall p < 0.001). These regions are listed in Table 2. Since these regions were defined as merely demonstrating a main effect of repetition (i.e., activity during at least two different repetitions differed significantly from each other), we extracted mean parameter estimates from each region to further characterize the nature of the neural responses over repeated stimulus presentations. As noted in Table 2, each region demonstrated a significant linear trend, and in all but one region this linear trend was negative. As an example, Figure 2 depicts the activations in the left and right middle occipital gyrus and the change in activation on the right as a function of repeated stimulus exposures. In regions associated with visual-spatial attention (i.e., left and right occipital lobe and superior parietal lobule), there was a main effect of stimulus type, but no stimulus type by repetition interaction. These findings are consistent with H1, which was that for both polymorphic and static warning images, measures of neural activity would indicate decreased attention with repeated exposures. Our next hypothesis concerned the interaction between stimulus repetition and warning type (H2). Accordingly, we first performed a repeated-measures analysis of variance (ANOVA) on the whole-brain fMRI data with stimulus type (polymorphic, static) and repetition number as factors. We then performed repeated-measures analyses of activations from each region of interest to test our hypotheses. In the whole-brain analysis, we found four regions where there was a stimulus type × repetition number interaction (Table 3), indicating that these regions reacted differently to repeated exposures to static and polymorphic warnings. Two regions, the left and right superior parietal cortex (Figure 3, upper panels), have been implicated in attentional processing [17]. We extracted mean parameter estimates (betas) for these functionally defined regions of interest to further characterize the nature of the interaction between warning type and repetition number using two-way repeatedmeasures ANOVAs with warning type (static, polymorphic) and repetition number as factors. In these regions, activation was significantly higher for polymorphic warnings than for static warnings, consistent with sustained attentional processing and reduced repetition suppression for the polymorphic warnings (main effect of stimulus type, left: F[1, 22] = 19.10, p < 0.001; right: F[1, 22] = 22.69, p < 0.001).
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+727
+
+Table 2. Regions Demonstrating a Main Effect of Repetition and Associated Inferential Statistics Coordinates Region
+L. Dorsolateral Prefrontal Cortex R. Middle Occipital Gyrus B. Medial Frontal Gyrus L. Middle Occipital Gyrus R. Fusiform Gyrus L. Superior Parietal Lobule R. Superior Parietal Lobule L. Fusiform Gyrus R. Postcentral Gyrus (ventral)
+
+Main effect stimulus F(1,22)
+9.56
+
+Linear trend repetition Direction F(1,22)
+42.63
+
+#Voxels
+512
+
+x
+50
+
+y
+–8
+
+z
+33
+
+p
+
+p
+< .001
+
+.005 Negative
+
+352
+
+–29
+
+89
+
+12
+
+53.60
+
+< .001 Negative
+
+23.26
+
+< .001
+
+250 241
+
+2 –17 29 89
+
+48 18
+
+10.62 26.57
+
+.004 Negative < .001 Negative
+
+37.75 32.68
+
+< .001 < .001
+
+190 153
+
+–26 35
+
+56 59
+
+–4 54
+
+27.62 24.99
+
+< .001 Negative < .001 Negative
+
+25.90 24.23
+
+< .001 < .001
+
+98
+
+–32
+
+68
+
+48
+
+31.07
+
+< .001 Negative
+
+22.34
+
+< .001
+
+71 54
+
+32 –56
+
+50 –10 26 15
+
+25.99 3.59
+
+< .001 Negative .071 Positive
+
+18.69 27.44
+
+< .001 < .001
+
+Figure 2. Example Regions with fMRI Activation Changes with Subsequent Presentations of Polymorphic and Static Warning Images. Error bars represent standard error of the mean
+
+728
+
+ANDERSON ET AL.
+
+Table 3. Analysis Results for Warning Type x Repetition Interaction #Voxels
+Ventral Medial Prefrontal Left Retrosplenial Left Superior Parietal Right Superior Parietal 248 51 45 42
+
+X
+2 8 29 –38
+
+Y
+–59 53 62 50
+
+Z
+12 18 54 51
+
+Figure 3. fMRI Activation Changes with Subsequent Presentations of Polymorphic and Static Warning images. Error Bars Represent Standard Error of the Mean
+
+Consistent with H2, there was sustained attentional processing for the polymorphic warnings with later repetitions as evidenced by a significant repetition by stimulus type interaction on the left (F(12, 264) = 3.07, p < 0.001) and on the right (F(12, 264) = 3.37, p < 0.001). The two other significant regions, the bilateral medial prefrontal cortex (MPFC) and the left retrosplenial cortex (Figure 3, lower panels), have both been shown to be major nodes in the default-mode network [14]. In both regions, activation was higher for static images than for polymorphic images (main effect of stimulus type, MPFC: F(1, 22) = 21.54, p < 0.001; retrosplenial cortex: F(1, 22) = 5.10, p < 0.001). Critically, this difference in activation emerged in later repetitions, consistent with H2, predicting that there would be a significant interaction between stimulus type and repetition number in the default-mode network (interaction, MPFC: F(12, 264) = 3.92, p < 0.001; retrosplenial cortex: F(12, 264) = 3.39, p < 0.001). Thus, H2 was supported. An alternate interpretation of these activations is that they reflect changes in risk perception (e.g., [60]) and value processing (e.g., [7]) rather than changes in attentional processing. This interpretation is especially compelling in the decreasing
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+729
+
+activation patterns in the superior parietal cortex as habituation might make warnings appear less severe and thus less risky. If this interpretation is correct, then the reduction in risk perception may be overcome by polymorphisms. We offer this interpretation cautiously, however, as we did not explicitly manipulate risk nor did we measure subjective risk or value perceptions. We next performed an analysis to identify regions that exhibited BOLD activation differences between animated and nonanimated warnings across all voxels in the brain by performing a t-test. Ten clusters were identified where activity significantly differed between these conditions (see Table B1 in online Appendix B). Importantly, and consistent with our third hypothesis (H3), we observed greater activation for animated warnings in the right area hMT+ (Figure B1 in online Appendix B), an area involved in visual motion processing (t[23] = 5.54, p < 0.001). Finally, we examined the specific polymorphic warnings collapsing across presentation order to determine which polymorphic variations were most resistant to the repetition suppression effect. To quantify the most resistant variations for use in Experiment 2, we performed a t-test contrasting polymorphic and static warning images. Resulting statistical parameter maps were thresholded using a false-discovery rate of 0.05 and a spatial extent threshold of 1,080 mm3. The largest cluster of activation comprised the bilateral visual processing system (including the occipital, dorsal parietal, and inferior temporal lobes). The mean fMRI activations in this region of interest for each polymorphic variation were then ranked (see Figure 4). The highest scoring variations (“jiggle,” “scale,” “window color,” and “symbol”) were included in Experiment 2.
+
+Summary of Results As expected, we found a decrease in neural activation in regions associated with visual-spatial attention with repeated exposures to the warning stimuli (H1). Further,
+
+Figure 4. Mean fMRI Activation Difference for Each Polymorphic Warning Variation vs. the Mean Activation for the Static Warnings in the Region That Displayed the Greatest Difference Between Polymorphic and Static Warning Images. Error Bars Represent Standard Error of the Mean
+
+730
+
+ANDERSON ET AL.
+
+we found an interaction in portions of the frontoparietal attention network where fMRI activation remained relatively consistent for polymorphic warning images across repetitions while the activation for static warning images decreased (H2). We also found regions in the medial prefrontal cortex and retrosplenial cortex where activation was higher for later repetitions of static images than for polymorphic images. These additional regions have been commonly observed in the default-mode network, a network of regions that are activated when participants are allowed to engage in nondirected mental activity [36]. Accordingly, this increased activation for later repetitions of the static images but not the polymorphic images may indicate less inattention for the polymorphic images than for the static images (H2). The animated polymorphic warnings showed the greatest effect. By using animations such as a slight jiggle or zoom upon the appearance of the warning, more brain regions were activated. This was true not only in the traditional bilateral visual system associated with still images but also in the hMT+ region associated with moving images (H3). In summary, brain activity generally remained higher across repetitions for the polymorphic warnings, supporting the efficacy of our polymorphic warning artifact.
+
+Experiment 2: Mouse Cursor Tracking
+To improve the ecological validity beyond the limitations of fMRI, we designed a behavioral laboratory experiment in which participants responded to security warnings in the natural course of completing a task on their personal laptops. While users responded to security warnings, mouse cursor movement data (i.e., how a person responded using the laptop touchpad) were collected through embedded JavaScript and stored in an online database (see online Appendix C for a review of mouse cursor tracking). Mouse tracking was used because of its completely unobtrusive nature to enhance ecological validity— that is, mouse activity can be captured on users’ personal computers without additional hardware, software, or configuration [42]. These data were analyzed to explore whether users paid greater attention to the polymorphic warnings over time compared to the static warnings. By using a second neurophysiological methodology, we triangulated the results of the fMRI experiment in Experiment 1 [30].
+
+Measures We collected mouse cursor movements when the warning was displayed via embedded JavaScript to calculate three indicators of attention: area-under-thecurve (AUC), initial acceleration, and average speed. These measures are detailed in online Appendix E, and summarized in Table 4.
+
+Experimental Design To test the hypotheses, we conducted an experiment wherein participants responded to security warnings in the natural course of completing a task on their personal
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+731
+
+Table 4. Summary of Mouse Cursor Indicators of Attention/Habituation Indication of attention /Habituation
+AUC Initial acceleration Average speed Greater AUC = Greater attention Lower Initial acceleration = Greater attention Lower Average speed = Greater attention
+
+laptops. We selected Google Chrome extension permission warnings as the warning type. Extensions, also referred to as “add-ons” or “plug-ins,” add functionality to the web browser but often require access to data on the computer to perform their functions. For this reason, whenever an extension is installed by a user, Chrome displays a warning that alerts the user to the specific access that the extension requires [35]. For example, an extension that accesses an application-programming interface (API) to detect the browser ’s physical location must first raise the permission warning, “Add X (extension)? It can: Detect your physical location.” During the course of the experiment, participants were required to search for and install twenty simulated weather extensions and then evaluate them for usability and aesthetics. Because a permission warning is displayed whenever a Google extension is installed, the participants also received twenty permission warnings. In this way, participants were naturally habituated while completing the task. We implemented a repeated-measure (participants evaluated twenty simulated weather extensions), between-subject experimental design. Participants were randomly assigned to the polymorphic warning treatment or the static warning treatment (a between-subject manipulation) group. The polymorphic treatment group received polymorphic warnings that changed appearance from one exposure to the next. The control group received conventional Google Chrome permission warnings that were static, meaning they did not change appearance. The warnings are shown in online Appendix D.
+
+Experimental Task The experiment took place in a behavioral laboratory. To heighten perceived risk, participants were asked to use their personal laptop and were required to read the following disclaimer: “The researchers have not tested all possible weather extensions that you may encounter. The university is not responsible for any potential malicious software that may be installed as a result of this study. Each participant has the responsibility to use good judgment in deciding which extensions to install and evaluate.” Furthermore, to motivate users to read the warnings, we randomly varied which permissions were being requested in each warning. Next, participants were asked to use Chrome and to search Google.com to find twenty different weather extensions and evaluate them for (1) ease of use, (2) visual appeal, (3) relevancy of content, and (4) their intention to use the extension in the future. However, we performed a man-in-the-middle attack to manipulate the Google
+
+732
+
+ANDERSON ET AL.
+
+search results. If a query related to Chrome weather extensions was shown, the search returned our spoofed results. Each of the links in the spoofed results pointed to sites under our control with legitimate URLs. Our Chrome extension transparently redirected HTTPS traffic to HTTP to avoid SSLcertificate errors. Finally, we caused traffic to the Chrome Web Store to redirect to a “down for maintenance” page. Consequently, participants were required to use the in-line Chrome extension installation process on individual websites (for technical details of Experiment 2, see online Appendix F). The manipulated Google search results included more than forty different weather extensions. Participants were required to evaluate only twenty of these. If a participant received a permission warning requesting unreasonable permissions, the participant was free not to install the extension. Participants had ample time to go back to the Google search results to find an alternative extension. While responding to each warning, an embedded JavaScript library in the warning captured the users’ cursor movements (the timestamp and x-, y-coordinate of each movement at a millisecond precision rate). These raw cursor movement data were sent to an online database through the Asynchronous JavaScript and eXtensible markup language (AJAX) call and were later used to calculate the dependent variables for each observation: AUC, initial acceleration, and average speed (calculations are discussed in the Analysis section). After evaluating twenty extensions and finishing the experiment, each participant completed a post-test survey. The survey captured information about the participant’s gender, age, operating system, the browser normally used, and the usual frequency of extension installations. It also asked whether the participant noticed anything unusual about the Domain Name Server (DNS) (a result of our manipulated search results) and queried the participant’s perceived risk of ignoring security warnings, perceived severity of being infected by malware, and perceived susceptibility to malware infection for inclusion as control variables in the analysis. Per the approved IRB protocol, all participants were then debriefed, notified of the true purpose of the experiment (exploring the influence of security warnings and habituation on behavior), and told that all of the extensions were sanctioned and did not gather any personal information.
+
+Participants Eighty subjects participated in the final version of the study. The participants were allowed to visit and revisit a website during the course of the experiment to view the warning for that website’s browser extension again. The system recorded whether a person tried to reinstall an extension for inclusion in the analysis. As a result, each participant on average encountered slightly more than twenty warnings (exactly 21.2). For the analysis, data were limited to the first twenty warnings for each participant because the number of observations per repetition beyond twenty was too small for reliable analysis (per the instructions, most participants stopped at twenty).
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+733
+
+Because participants were required to use their own laptops, technical limitations on a few of the laptops inhibited data collection through JavaScript. As a result, we had analyzable data from seventy-six participants across 1,466 warnings (forty in the treatment group and thirty-six in the control group). An a priori power analysis calculated with G*Power 3.1.7 suggested that a sample size of 1,073 observations was adequate for a small effect size and that 111 was adequate for a medium effect size. Thus, our sample size was more than adequate. Approximately 63 percent of the participants were male, and the average age was 22.35.
+
+Data Analysis The Lowess curve [16] for the resulting statistics (AUC, initial acceleration, and average speed) was plotted for each treatment across time (see Figure 5). The descriptive statistics for each mouse-movement are displayed in Table 5. We first performed a check for manipulation validity. To explore whether the polymorphic warnings were perceived, we asked participants, “During the experiment, did you notice that some of the warnings changed their appearance like the above image?” (The polymorphic warning rotating through its variations was shown). None of the
+
+Figure 5. Lowess Curve of AUC, Average Speed, and Initial Acceleration by Order (Solid Line = Polymorphic Warning, Dotted Line = Static Warning)
+
+Table 5. Descriptive Statistics for AUC, Average Speed, and Initial Acceleration (Raw Data Was Rescaled and Transformed) Mean
+AUC Polymorphic Static Initial acceleration Polymorphic Static Average speed Polymorphic Static 1.556 0.511 4.017e-05 8.048e-05 8.620e-04 1.524e-03
+
+SD
+4.714 0.514 3.698e-05 8.802e-05 1.049e-03 1.589e-03
+
+Min
+0.488 0.134 1.740e-07 3.800e-07 7.430e-05 6.610e-05
+
+Max
+10.000 6.410 2.330e-04 6.370e-04 1.670e-02 1.729e-02
+
+734
+
+ANDERSON ET AL.
+
+participants in the control group reported “yes,” and 95 percent of the participants in the treatment group reported “yes.” This difference was significant in an independent sample t-test: t(74) = 25.807, p < 0.001. After preparing the data and conducting the manipulation checks, we specified a multivariate general linear model to test the hypotheses. The model featured three dependent variables: AUC, acceleration, and speed for each observation (n = 1,466). Based on the Lowess curves, we log-transformed these dependent variables to form linear relationships. We included several independent variables. First, we included the warning order number to model habituation across multiple warning exposures, and we included the treatment group to represent polymorphic (coded as 1) and static (coded as 0) conditions. To explore the interaction between habituation and treatments, we included an interaction term for treatment × order. Next, we controlled for the participant identifier to allow variability across participants. This accounts for other individual differences that may influence mouse cursor movements. Finally, we controlled for whether the warning was being reinstalled (coded as 1) or being installed for the first time (coded as 0).4 The results are shown in Table 6. The r2 for AUC was 0.095, for initial acceleration it was 0.224, and for average speed it was 0.132.
+
+Table 6. Experiment 2 Results Dependent Variables
+AUC AUC AUC AUC AUC AUC Initial Acceleration Initial Acceleration Initial Acceleration Initial Acceleration Initial Acceleration Initial Acceleration Average Speed Average Speed Average Speed Average Speed Average Speed Average Speed
+a
+
+Independent Variables
+(Intercept) Treatment Order isReinstalled Treatment*Order Participant (Intercept) Treatment Order isReinstalled Treatment*Order Participant (Intercept) Treatment Order isReinstalled Treatment*Order Participant
+
+Parameter Estimate
+0.001 0.967 –0.053 0.689 0.028 a 3.512e-05 –3.782e-6 4.882e-06 5.364e-05 –3.782e-06 a 0.001 –0.001 7.528e-05 0.001 –4.064e-05 a 300.434 64.728 14.474 7.991 32.133 1.041 1354.441 156.188 136.552 59.235 9.289 1.746 1275.828 93.289 83.262 25.129 18.072 1.450
+
+F
+(1, 1,362) (1, 1,362) (1,1,362) (1, 1,362) (1, 1,362) (79, 1,362) (1, 1,362) (1, 1,362) (1, 1,362) (1, 1,362) (1, 1,362) (79, 1,362) (1, 1,362) (1, 1,362) (1, 1,362) (1, 1,362) (1, 1362) (79, 1,362) < < < < < < < < < < < < < < < < < >
+
+p
+0.001 0.001 0.001 0.01 0.001 0.01 0.001 0.001 0.001 0.001 0.01 0.001 0.001 0.001 0.001 0.001 0.001 0.05
+
+Each participant identifier has its own parameter estimate, adjusting for natural individual differences in mouse movement between participants
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+735
+
+As a supplemental analysis, we performed a graded motor response analysis [22] in the time course of participants responding to security warnings (see online Appendix G). In summary, this analysis allows us to explore how much users deviated from the idealized response trajectory throughout their response, rather than just an aggregated measure of total deviation at the end, which is the case with AUC. Thus, this supplemental analysis lends understanding in terms of whether warning information sustains greater attention throughout the movement for polymorphic warnings than for static warnings. For brevity, the analysis and results are described in online Appendix E. In summary, corroborating the findings described above regarding AUC, the results of the supplementary analysis provide strong support that deviation was greater for participants in the polymorphic treatment than for participants in the static warning treatment almost throughout the entire movement interaction.
+
+Summary of Results
+The results of the analyses support the hypotheses. The warning order number had a strong negative correlation with AUC (p < 0.001), positive correlation with initial acceleration (p < 0.001), and positive correlation with average speed (p < 0.001). As habituation increased with subsequent exposures (i.e., with warning order number), H4 was supported for all three indicators. The results also indicated that the use of polymorphic warnings increases AUC (p < 0.001), decreases initial acceleration (p < 0.001), and decreases average speed (p < 0.001), suggesting that users habituate less when polymorphic warnings are shown (H5 supported for all three indicators). In addition, the results suggest that users habituate at a slower rate when polymorphic warnings are shown. The interactions between treatment and order were significant for AUC (p < 0.001), initial acceleration (p < 0.01), and average speed (p < 0.001) (H5 is supported for all three indicators).
+
+Discussion
+This research makes several contributions, which we summarize below.
+
+Contributions of Experiment 1: fMRI experiment—Polymorphic vs. Static Warnings
+First, in Experiment 1, we extended previous research on habituation by using neuroscience methods to observe the neural correlates of habituation as it occurs. While previous research has understood habituation as an automatic response, our research is the first to show empirically how habituation to security warnings occurs in the brain. In doing so, we identified the phenomenon of repetition suppression as a neurobiological explanation for why habituation to security warnings occurs.
+
+736
+
+ANDERSON ET AL.
+
+In addition, this study demonstrated an application of measuring the repetition suppression in the brain using fMRI. Whereas previous research measured habituation indirectly by observing its effects, such as inattentive behaviors [11], this study measured neural correlates of habituation directly as it occurs in the brain. Specifically, we showed how using a simple, repeated-exposure experimental design can permit researchers to detect the existence and size of the repetition suppression effect using the BOLD response. Using this method, we illustrated the continued drop in activation in the frontoparietal attention network for static images, but sustained activation for polymorphic images over thirteen exposures. These results can provide researchers with a useful baseline of the repetition suppression effect in response to security warnings for future research. Further, these measures may be used to guide the development and testing of security warnings that are resistant to habituation and, thus, lead to safer behavior. Second, we made an artifactual contribution by designing (in Experiment 1) and implementing (in Experiment 2) a polymorphic warning as a UI artifact. We used the warning science literature to derive twelve polymorphic variations that can be generically applied to a wide variety of security warnings. Whereas scholars have criticized IS research for the frequent absence of the information technology (IT) artifact [5, 64], our polymorphic warning UI design artifact is central to our contribution. Importantly, we analyzed the fMRI data to improve the UI artifact by identifying the polymorphic variations that were most effective in reducing repetition suppression. In this way, we followed the guidance of Dimoka et al., who suggested that “rather than relying on perceptual evaluations of IT artifacts, the brain areas associated with the desired effects can be used as an objective dependent variable in which the IT artifacts will be designed to affect” [28, p. 700]. By using repetition suppression in the brain as our objective dependent variable, we were able to simplify the polymorphic warning to include only the top four most effective variations, including animated and nonanimated forms, making our polymorphic warning more practical to implement. Third, we demonstrated in Experiment 1 that polymorphic warnings are more resistant to repetition suppression than are static warnings. We theorized that this is because animated warnings activate areas of the brain that perceive motion (hMT+), providing an additive effect over and above the visual processing of nonanimated images. Unsurprisingly, of our twelve polymorphic warnings, the two most resistant to repetition suppression were animated (“jiggle” and “scale”).
+
+Contributions of Experiment 2: Mouse Cursor-Tracking Behavioral Experiment—Polymorphic vs. Static Warnings
+In Experiment 2, we made a methodological contribution by providing three mouse cursor-tracking indicators of decreasing attention and therefore habituation: AUC, initial acceleration, and average speed. Whereas fMRI is considered costly and labor
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+737
+
+intensive and requires a high level of specialized expertise [30], our mouse cursortracking measures are inexpensive to implement and can be mass deployed. Moreover, fMRI necessarily introduces artificiality into an experimental task because of the requirements of the technology (e.g., the fMRI machine is loud, and participants must perform the task lying down). In contrast, the mouse cursortracking measures are unobtrusive to the user and may be deployed in web-based tasks simply by including a JavaScript file within standard web pages. Further, it can be deployed without any special hardware or processes (e.g., an eye tracker and a configuration process) that may induce artificiality. Thus, our mouse cursor-tracking measures provide behavioral security researchers with a powerful technique to assess user habituation. Second, the results of the mouse cursor-tracking behavioral experiment corroborated the fMRI findings of Experiment 1. Specifically, we found that polymorphic warnings resulted in both lower habituation (as evidenced by the main effect) and reduced habituation (as indicated by the interaction effect of the polymorphic treatment and the warning display order) than did static warnings. Using two complementary neurophysiological measures allowed us to validate the results of both techniques, as well as to compensate for weaknesses inherent in each method.
+
+Overall Contributions
+Finally, our findings highlight the usefulness of applying NeuroIS to the domain of behavioral information security. Because automatic or unconscious mental processes underlie much of human cognition and decision making [28], they likely play an important role in a number of other security behaviors. Therefore, our research points to promising new research directions for behavioral information security in general.
+
+Implications for Theory and Practice
+Although users are frequently cited by security researchers as careless and inattentive [41], our results show that at least part of this behavior is obligatory and unconscious as a natural consequence of how the brain works. Our findings thus add to the chorus that users are not the enemy [1]. These results also illustrate that users, in addition to having to defend against malicious actors and software, must battle their own biology. Future research should investigate other obligatory, unconscious, or automatic behaviors that undermine the information security of individuals and organizations. NeuroIS methods are uniquely qualified to examine such behaviors because of their ability to observe phenomena beneath the cognition of the user [30]. Our findings have important implications for practice in the development of interventions to reduce habituation to security warnings. Rather than relying only on interventions such as SETA (security education, training, and awareness) programs, which encourage greater attention and vigilance [48], our results suggest that
+
+738
+
+ANDERSON ET AL.
+
+an effective complementary measure is to develop UI design artifacts that target repetition suppression in the brain, such as the polymorphic warning tested in this study. Rather than requiring explanations and training that can require hours, our polymorphic artifact elicits positive effects in milliseconds. Importantly, in providing this benefit, the polymorphic warning artifact presented in this study is unobtrusive and imposes no additional cost on the user. In contrast, other techniques for curbing habituation, such as imposing a time delay on security warnings before they can be dismissed [11, 13], impose a cost on the user that can be considerable over time and when aggregated over a large workforce or populace [41]. Further, our polymorphic warning artifact is simple and cost-effective to implement and can be implemented in virtually any kind of system.
+
+Limitations and Future Research
+This research is subject to a number of limitations. First, both experiments used laboratory experiments that necessarily introduced artificiality into their tasks. In particular, current technology limits the flexibility and realism of experimental tasks. Fortunately, these problems in the fMRI Experiment 1 were at least partially compensated for by Experiment 2, wherein participants conducted a more ecologically valid task. In addition, the object of laboratory experimentation is to maximize precision and control, not external validity [25, 58]. We therefore leave it for future research to apply field methodologies that can achieve greater levels of external validity. Second, both experiments in this study were cross-sectional. Although we observed that our polymorphic warning was more resistant to habituation than static warnings in our experiment, it is possible that the effectiveness of the polymorphic warning may decline overtime. Further research is needed to test the effectiveness of the polymorphic warning longitudinally. Third, although frequently cited as a problem [19], habituation is not the only factor influencing the failure of users to heed security warnings. Other factors worthy of examination include the urgency of the task at hand [43], lack of comprehension of the warning message [87], or conscientious decisions to ignore the warnings for a variety of reasons [32, 39]. We welcome further research on the multifaceted problem of security-warning disregard.
+
+Conclusion
+User habituation to security warnings has long been a point of concern in the area of information security [10]. In past research, habituation has been attributed to user carelessness, inattention, and ineptitude [41]. In contrast, we demonstrate in this study that habituation is largely obligatory, as a result of the way the brain processes familiar visual stimuli. A chief implication of our results is that, because habituation occurs unconsciously at the neurobiological level, interventions designed to encourage greater attention and vigilance on the part of users, such as SETA programs, are
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+739
+
+incomplete on their own. Our findings suggest that a complementary solution is to develop UI designs that are less susceptible to habituation. The polymorphic warning artifact developed in this study is one such effective design. Accordingly, our study supports the development of more complete theories of security behavior that take into account the biology of the user and provide useful neurophysiological measures to guide the design of habituation-resistant warnings.
+
+Supplemental File
+Supplemental data for this article can be accessed on the publisher's website at http:// dx.doi.org/10.1080/07421222.2016.1243947
+
+NOTES
+1. See http://neurosynth.org/analyses/terms/visual; https://wikipedia.org/wiki/Visual_ cortex. 2. http://neurosynth.org/analyses/terms/default; https://wikipedia.org/wiki/Default_mode_ network. 3. hMT+ or human middle temporal complex; http://neurosynth.org/analyses/terms/ motion; https://en.wikipedia.org/wiki/Visual_modularity. 4. As participants were allowed to complete the task naturally for ecological validity, they could potentially revisit websites, reinstall extensions, and see the warning for those extensions again.
+
+REFERENCES
+1. Adams, A., and Sasse, M.A. Users are not the enemy. Communications of the ACM, 42, 12 (1999), 40–46. 2. Akhawe, D., and Felt, A.P. Alice in warningland: A large-scale field study of browser security warning effectiveness. In Proceedings of the Twenty-Second USENIX Conference on Security, Washington, DC: USENIX Association, 2013, pp. 257–272. 3. Akhlaghpour, S.; Wu, J.; Lapointe, L.; and Pinsonneault, A. The ongoing quest for the IT artifact: Looking back, moving forward. Journal of Information Technology, 28, 2 (2013), 150–166. 4. Anderson, B.; Kirwan, B.; Eargle, D.; Jenkins, J.; Howard, S.; and Vance, A. How Polymorphic Warnings Reduce Habituation in the Brain— Insights from an fMRI Study. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI). Seoul, Korea, 2015, pp. 2883–2892. 5. Anderson, B.; Vance, A.; Kirwan, B.; Eargle, D.; and Howard, S. Users aren’t (necessarily) lazy: Using NeuroIS to explain habituation to security warnings. In International Conference on Information Systems. Auckland: AIS, 2014. pp. 1–15. 6. Barry, R.J. Habituation of the orienting reflex and the development of preliminary process theory. Neurobiology of Learning and Memory, 92, 2 (2009), 235–242. 7. Bartra, O.; McGuire, J.T.; and Kable, J.W. The valuation system: A coordinate-based meta-analysis of bold fMRI experiments examining neural correlates of subjective value. NeuroImage, 76 (2013), 412–427. 8. Braun, C.C.; Greeno, B.; and Silver, N.C. Differences in behavioral compliance as a function of warning color. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting. Nashville, TN: Sage, 1994, pp. 379–383.
+
+740
+
+ANDERSON ET AL.
+
+9. Braun, C.C. and Silver, N.C. Interaction of signal word and colour on warning labels: Differences in perceived hazard and behavioural compliance. Ergonomics, 38, 11 (1995), 2207–2220. 10. Bravo-Lillo, C.; Cranor, L.F.; Downs, J.; Komanduri, S.; and Sleeper, M. Improving computer security dialogs. In Proceedings of the Thirteenth IFIP TC 13 International Conference on Human-Computer Interaction, Volume 6949 Part IV. Lisbon: SpringerVerlag, 2011, pp. 18–35. 11. Bravo-Lillo, C.; Komanduri, S.; Cranor, L.F.; Reeder, R.W.; Sleeper, M.; Downs, J.; and Schechter, S. Your attention please: Designing security-decision UIs to make genuine risks harder to ignore. In Proceedings of the Ninth Symposium on Usable Privacy and Security. Newcastle: ACM, 2013, pp. 1–12. 12. Bravo-Lillo, C.; Cranor, L.; Komanduri, S.; Schechter, S.; and Sleeper, M. Harder to ignore? Revisiting pop-up fatigue and approaches to prevent it. In Tenth Symposium on Usable Privacy and Security (SOUPS 2014). USENIX Association, Ottawa, Canada, 2014, pp. 105–111. 13. Brustoloni, J.C., and Villamarín-Salomón, R. Improving security decisions with polymorphic and audited dialogs. In SOUPS ’07: Proceedings of the Third Symposium on Usable Privacy and Security. New York: ACM, 2007, pp. 76–85. 14. Buckner, R.L.; Andrews-Hanna, J.R.; and Schacter, D.L. The brain’s default network. Annals of the New York Academy of Sciences, 1124, 1 (2008), 1–38. 15. BYU Neurosecurity Lab. 2016. http://neurosecurity.byu.edu. Accessed 11/3/2016. 16. Cleveland, W.S. Lowess: A program for smoothing scatterplots by robust locally weighted regression. American Statistician, 35, 1 (1981), 54. 17. Corbetta, M.; Kincade, J.M.; Ollinger, J.M.; McAvoy, M.P.; and Shulman, G.L. Voluntary orienting is dissociated from target detection in human posterior parietal cortex. Nature Neuroscience, 3, 3 (2000), 292–297. 18. Corbetta, M., and Shulman, G.L. Control of goal-directed and stimulus-driven attention in the brain. Nature Reviews Neuroscience, 3, 3 (2002), 201–215. 19. Cranor, L.F. A framework for reasoning about the human in the loop. In UPSEC’08 Proceedings of the First Conference on Usability, Psychology, and Security. San Francisco: USENIX Association, 2008, pp. 1–15. 20. Crossler, R.E.; Johnston, A.C.; Lowry, P.B.; Hu, Q.; Warkentin, M.; and Baskerville, R. Future directions for behavioral information security research. Computers and Security, 32, 1 (2013), 90–101. 21. Dale, A.M. Optimal experimental design for event-related fMRI. Human Brain Mapping, 8, 2–3 (1999), 109–114. 22. Dale, R.; Kehoe, C.; and Spivey, M.J. Graded motor responses in the time course of categorizing atypical exemplars. Memory and Cognition, 35, 1 (2007), 15–28. 23. de Guinea, A.O.; Titah, R.; and Léger, P.-M. Explicit and implicit antecedents of users’ behavioral beliefs in information systems: A neuropsychological investigation. Journal of Management Information Systems, 30, 4 (2014), 179–210. 24. De Keukelaere, F.; Yoshihama, S.; Trent, S.; Zhang, Y.; Luo, L.; and Zurko, M.E. Adaptive security dialogs for improved security behavior of users. In Proceedings of the Twelfth IFIP TC 13 International Conference on Human-Computer Interaction: Part I. Uppsala: Springer-Verlag, 2009, pp. 510–523. 25. Dennis, A.R., and Valacich, J.S. Conducting experimental research in information systems. Communications of the Association for Information Systems, 7, 5 (2001), 1–41. 26. Desimone, R. Neural mechanisms for visual memory and their role in attention. Proceedings of the National Academy of Sciences, 93, 24 (1996), 13494–13499. 27. Dhamija, R.; Tygar, J.D.; and Hearst, M. Why phishing works. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. Montreal: ACM, 2006, pp. 581–590. 28. Dimoka, A.; Pavlou, P.A.; and Davis, F.D. Research commentary-NeuroIS: The potential of cognitive neuroscience for information systems research. Information Systems Research, 22, 4 (2011), 687–702. 29. Dimoka, A. How to conduct a functional magnetic resonance (fMRI) study in social science research. MIS Quarterly, 36, 3 (2012), 811–840.
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+741
+
+30. Dimoka, A.; Banker, R.D.; Benbasat, I.; Davis, F.D.; Dennis, A.R.; Gefen, D.; Gupta, A.; Lschebeck, A.; Kenning, P.H.; Pavlou, P.A.; Muller-Putz, G.; Riedl, R.; vom Brocke, J.; and Weber, B. On the use of neurophysiological tools in IS research: Developing a research agenda for NeuroIS. MIS Quarterly, 36, 3 (2012), 679–702. 31. Egelman, S.; Cranor, L.F.; and Hong, J. You’ve been warned: An empirical study of the effectiveness of web browser phishing warnings. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. Florence: ACM, 2008, pp. 1065–1074. 32. Egelman, S., and Schechter, S. The importance of being earnest [in security warnings]. In A.-R. Sadeghi (ed.), Financial Cryptography and Data Security: Berlin-Heidelberg: Springer, 2013, pp. 52–59. 33. Freeman, J.B.; Dale, R.; and Farmer, T.A. Hand in motion reveals mind in motion. Frontiers in Psychology, 2, 59 (2011), 1–6. 34. Furnell, S. Usability versus complexity: Striking the balance in end-user security. Network Security, 2010, 12 (2010), 13–17. 35. Google. Permission warnings—Google Chrome. https://developer.chrome.com/exten sions/permission_warnings (accessed on January 26, 2015). 36. Greicius, M.D.; Krasnow, B.; Reiss, A.L.; and Menon, V. Functional connectivity in the resting brain: A network analysis of the default mode hypothesis. Proceedings of the National Academy of Sciences, 100, 1 (2003), 253–258. 37. Grill-Spector, K., and Malach, R. The human visual cortex. Annual Review of Neuroscience, 27 (2004), 649–677. 38. Grill-Spector, K.; Henson, R.; and Martin, A. Repetition and the brain: Neural models of stimulus-specific effects. Trends in Cognitive Sciences, 10, 1 (2006), 14–23. 39. Groves, P.M., and Thompson, R.F. Habituation: A dual-process theory. Psychological Review, 77 (1970), 419–450. 40. Harbach, M.; Hettig, M.; Weber, S.; and Smith, M. Using personal examples to improve risk communication for security and privacy decisions. In Proceedings of the Thirty-Second Annual ACM conference on Human Factors in Computing Systems. Toronto: ACM, 2014, pp. 2647–2656. 41. Herley, C. So long, and no thanks for the externalities: The rational rejection of security advice by users. In Proceedings of the 2009 Workshop on New Security Paradigms Workshop. ACM, Queen’s College, Oxford, UK, 2009, pp. 133–144. 42. Hibbeln, M.; Jenkins, J.L.; Schneider, C.; Valacich, J.S.; and Weinmann, M. How is your user feeling? Inferring emotion through human-computer interaction devices. MIS Quarterly http://misq.org/how-is-your-user-feeling-inferring-emotion-through-human-compu ter-interaction-devices.html?SID=2rovcqgig28nt7n9k3g71v9u13 43. Jenkins, J.L., and Durcikova, A. What, I shouldn’t have done that? The influence of training and just-in-time reminders on secure behavior. In International Conference for Information Systems (ICIS). Milan: AIS, 2013, pp. 1–18. 44. Kalsher, M., and Williams, K. Behavioral compliance: Theory, methodology, and result. In M. Wogalter (ed.), Handbook of Warnings. Mahwah, NJ: Erlbaum, 2006, pp. 313–331. 45. Kalsher, M.J.; Brewster, B.M.; Wogalter, M.S.; and Spunar, M.E. Hazard level perceptions of current and proposed warning sign and label panels. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 39, 5 (1995), 351–355. 46. Kalsher, M.J.; Wogalter, M.S.; and Racicot, B.M. Pharmaceutical container labels: Enhancing preference perceptions with alternative designs and pictorials. International Journal of Industrial Ergonomics, 18, 1 (1996), 83–90. 47. Kandel, E.R. The molecular biology of memory storage: A dialogue between genes and synapses. Science, 294, 5544 (2001), 1030–1038. 48. Karjalainen, M., and Siponen, M. Toward a new meta-theory for designing information systems (IS) security training approaches. Journal of the Association for Information Systems, 12, 8 (2011), 518–555. 49. Kuan, K.K.Y.; Zhong, Y.; and Chau, P.Y.K. Informational and normative social influence in group-buying: Evidence from self-reported and EEG data. Journal of Management Information Systems, 30, 4 (2014), 151–178.
+
+742
+
+ANDERSON ET AL.
+
+50. Lacy, J.W.; Yassa, M.A.; Stark, S.M.; Muftuler, L.T.; and Stark, C.E. Distinct pattern separation related transfer functions in human CA3/dentate and ca1 revealed using high-resolution fMRI and variable mnemonic similarity. Learning and Memory, 18, 1 (2011), 15–18. 51. Laughery, K.R.; Young, S.L.; Vaubel, K.P.; and Brelsford, J.W. Jr. The noticeability of warnings on alcoholic beverage containers. Journal of Public Policy and Marketing, 12, 1 (1993), 38–56. 52. Leung, C.-M. Depress phishing by CAPTCHA with OTP. In Third International Conference on Anti-counterfeiting, Security, and Identification in Communication, 2009. ASID 2009. Hong Kong: IEEE, 2009, pp. 187–192. 53. Li, M.; Jiang, Q.; Tan, C.-H.; and Wei, K.-K. Enhancing user–game engagement through software gaming elements. Journal of Management Information Systems, 30, 4 (2014), 115–150. 54. Logothetis, N.K.; Pauls, J.; Augath, M.; Trinath, T.; and Oeltermann, A. Neurophysiological investigation of the basis of the fMRI signal. Nature, 412, 6843 (2001), 150–157. 55. Lueschow, A.; Miller, E.K.; and Desimone, R. Inferior temporal mechanisms for invariant object recognition. Cerebral Cortex, 4, 5 (1994), 523–531. 56. MacKay, D.M. Cerebral organization and the conscious control of action. In J. Eccles (ed.), Brain and Conscious Experience. Berlin-Heidelberg: Springer, 1965, pp. 422–445. 57. Mason, M.F.; Norton, M.I.; Van Horn, J.D.; Wegner, D.M.; Grafton, S.T.; and Macrae, C.N. Wandering minds: The default network and stimulus-independent thought. Science, 315, 5810 (2007), 393–395. 58. McGrath, J.E. Dilemmatics: The study of research choices and dilemmas. American Behavioral Scientist, 25, 2 (1981), 179–210. 59. Meservy, T.O.; Jensen, M.L.; and Fadel, K.J. Evaluation of competing candidate solutions in electronic networks of practice. Information Systems Research, 25, 1 (2014), 15–34. 60. Mohr, P.N.; Biele, G.; and Heekeren, H.R. Neural processing of risk. Journal of Neuroscience, 30, 19 (2010), 6613–6619. 61. Motley, S.E., and Kirwan, C.B. A parametric investigation of pattern separation processes in the medial temporal lobe. Journal of Neuroscience, 32, 38 (2012), 13076–13084. 62. Navalpakkam, V., and Churchill, E. Mouse tracking: Measuring and predicting users’ experience of web-based content. In 2012 ACM Annual Conference on Human Factors in Computing Systems. Austin, TX: ACM, 2012, pp. 2963–2972. 63. Neupane, A.; Saxena, N.; Kuruvilla, K.; Georgescu, M.; and Kana, R. Neural signatures of user-centered security: An fMRI study of phishing, and malware warnings. In The Network and Distributed System Security Symposium (NDSS). San Diego, 2014, pp. 1–16. 64. Orlikowski, W.J., and Iacono, C.S. Research commentary: Desperately seeking the “IT” in IT research—a call to theorizing the IT artifact. Information Systems Research, 12, 2 (2001), 121–134. 65. Rankin, C.H.; Abrams, T.; Barry, R.J.; Bhatnagar, S.; Clayton, D.F.; Colombo, J.; Coppola, G.; Geyer, M.A.; Glanzman, D.L.; Marsland, S.; McSweeney, F.K.; Wilson, D.A.; Wu, C.-F.; and Thompson, R.F. Habituation revisited: An updated and revised description of the behavioral characteristics of habituation. Neurobiology of Learning and Memory, 92, 2 (2009), 135–138. 66. Riedl, R.; Mohr, P.N.C.; Kenning, P.H.; Davis, F.D.; and Heekeren, H.R. Trusting humans and avatars: A brain imaging study based on evolution theory. Journal of Management Information Systems, 30, 4 (2014), 83–114. 67. Rodden, K.; Fu, X.; Aula, A.; and Spiro, I. Eye-mouse coordination patterns on web search results pages. In CHI ‘08 Extended Abstracts on Human Factors in Computing Systems. Florence: ACM, 2008, pp. 2997–3002. 68. Rudin-Brown, C.M.; Greenley, M.P.; Barone, A.; Armstrong, J.; Salway, A.F.; and Norris, B.J. The design of child restraint system (CRS) labels and warnings affects overall CRS usability. Traffic Injury Prevention, 5, 1 (2004), 8–17.
+
+WHY THE BRAIN HABITUATES TO SECURITY WARNINGS
+
+743
+
+69. Sanders, M.S., and McCormick, E.J. Human Factors in Engineering and Design. New York: McGraw-Hill, 1987. 70. Schechter, S.E.; Dhamija, R.; Ozment, A.; and Fischer, I. The emperor ’s new security indicators. In Security and Privacy, 2007. SP’07. IEEE Symposium. Berkeley, CA: IEEE, 2007, pp. 51–65. 71. Segaert, K.; Weber, K.; de Lange, F.P.; Petersson, K.M.; and Hagoort, P. The suppression of repetition enhancement: A review of fMRI studies. Neuropsychologia, 51, 1 (2013), 59–66. 72. Seidler, R.; Noll, D.; and Thiers, G. Feedforward and feedback processes in motor control. NeuroImage, 22, 4 (2004), 1775–1783. 73. Silver, N.C., and Wogalter, M.S. Broadening the range of signal words. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting. Denver: Sage, 1989, pp. 555–559. 74. Sojourner, R.J., and Wogalter, M.S. The influence of pictorials on evaluations of prescription medication instructions. Drug Information Journal, 31, 3 (1997), 963–972. 75. Sokolov, E. Higher nervous functions: The orienting reflex. Annual Review of Physiology, 25 (1963), 545–580. 76. Sotirakopoulos, A.; Hawkey, K.; and Beznosov, K. On the challenges in usable security lab studies: Lessons learned from replicating a study on SSL warnings. In Proceedings of the Seventh Symposium on Usable Privacy and Security. Menlo Park, CA: ACM, 2011, pp. 3:1–3:18. 77. Stark, C.E.L., and Squire, L.R. When zero is not zero: The problem of ambiguous baseline conditions in fMRI. Proceedings of the National Academy of Sciences, 98, 22 (2001), 12760–12766. 78. Straub, D.; Boudreau, M.-C.; and Gefen, D. Validation guidelines for IS positivist research. Communications of the Association for Information Systems, 13, 24 (2004), 380–427. 79. Strawbridge, J.A. The influence of position, highlighting, and imbedding on warning effectiveness. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting. Dayton, OH: Sage, 1986, pp. 716–720. 80. Sunaert, S.; Van Hecke, P.; Marchal, G.; and Orban, G.A. Motion-responsive regions of the human brain. Experimental Brain Research, 127, 4 (1999), 355–370. 81. Thompson, R.F., and Spencer, W.A. Habituation: A model phenomenon for the study of neuronal substrates of behavior. Psychological Review, 73, 1 (1966), 16–43. 82. Thompson, R.F. Habituation: A history. Neurobiology of Learning and Memory, 92, 2 (2009), 127–134. 83. Vigilante, W.J., and Wogalter, M. Effects of label format on knowledge acquisition and perceived readability by younger and older adults. Ergonomics, 46, 4 (2003), 327–344. 84. vom Brocke, J., and Liang, T.-P. Guidelines for neuroscience studies in information systems research. Journal of Management Information Systems, 30, 4 (2014), 211–234. 85. Welsh, T.N., and Elliott, D. Movement trajectories in the presence of a distracting stimulus: Evidence for a response activation model of selective reaching. Quarterly Journal of Experimental Psychology Section A, 57, 6 (2004), 1031–1057. 86. Wogalter, M., and Vigilante, W.J. Jr. Attention switch and maintenance. In M.S. Wogalter (ed.), Handbook of Warnings. Mahwah, NJ: Erlbaum, 2006, pp. 245–266. 87. Wogalter, M.S. Communication-human information processing (C-HIP) model. In M.S. Wogalter (ed.), Handbook of Warnings. Mahwah, NJ: Erlbaum, 2006, pp. 51–61. 88. Wogalter, M.S. Purposes and scope of warnings. In M.S. Wogalter (ed.), Handbook of Warnings. Mahwah, NJ: Erlbaum, 2006, pp. 3–9. 89. Yassa, M.A.; Stark, S.M.; Bakker, A.; Albert, M.S.; Gallagher, M.; and Stark, C.E. High-resolution structural and functional MRI of hippocampal CA3 and dentate gyrus in patients with amnestic mild cognitive impairment. NeuroImage, 51, 3 (2010), 1242–1252. 90. Young, S.L., and Wogalter, M. Effects of conspicuous print and pictorial icons on comprehension and memory of instruction manual warnings. Human Factors, 32 (1990), 637–649. 91. Young, S.L. Increasing the noticeability of warnings: Effects of pictorial, color, signal icon and border. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting. San Francisco: Sage, 1991, pp. 580–584.
+
+

@@ -1,0 +1,603 @@
+doi: 10.1111/isj.12059 Info Systems J (2016) 26, 195–226
+
+Hitting a moving target: a process model of information systems control change
+W. Alec Cram,* M. Kathryn Brohman† & R. Brent Gallupe†
+*Bentley University, Waltham, MA, USA, email: wcram@bentley.edu, and †Queen’s University, Kingston, ON, USA, email: kbrohman@business.queensu.ca; bgallupe@business.queensu.ca
+
+Abstract. Controls are widely regarded as a key factor in driving high performing organisational processes. However, because of ongoing changes within information systems (IS) processes, control modiﬁcations are commonly required in order to maintain performance levels. Although past research recognises the ongoing beneﬁts derived from successful control changes, there is a limited understanding of the actual steps taken by organisations, particularly with regard to avoiding negative performance implications such as process delays or employee resistance. This research draws on empirical data from six case studies to propose a new process model that depicts the interconnected steps involved in control changes. Our ﬁndings suggest that the sources of IS control change may be more diverse than most past research suggests and that control changes within non-project-oriented processes (e.g. enterprise architecture) present additional challenges in comparison to project-oriented processes (e.g. systems development). Insights from this research can aid practitioners in streamlining control changes as a means to improve effectiveness, whilst also contributing to research by uncovering an enhanced understanding of why and how control changes are made in IS processes. Keywords: control, information systems, technology change, systems development, enterprise architecture
+
+INTRODUCTION
+
+A common characteristic of high performing organisational processes is the existence of a collection of customised, comprehensive and closely monitored controls that aid management in carefully directing the behaviour of employees (Ouchi, 1979; Eisenhardt, 1985; Henderson & Lee, 1992). Examples of such controls include a documented procedure to guide an employee activity, management oversight of a project team or empowering staff to be responsible for the quality of their deliverables. Where little change occurs to a process over time, these controls may remain relatively static; however, in processes that are subject to changing factors such as task characteristics, stakeholder relationships and inconsistent performance, controls are commonly altered on an ongoing basis (Choudhury & Sabherwal, 2003; Kirsch, 2004).
+© 2015 Wiley Publishing Ltd
+
+196
+
+W A Cram et al.
+
+Such demands for control changes can cause signiﬁcant challenges for practitioners as they attempt to stay abreast of the organisational events associated with the need for additional or amended controls. Depending on variables such as process performance, regulatory directives and the strength of controller–controlee relationships, IS controls are typically adjusted, and new controls are added (Mahring, 2002; Choudhury & Sabherwal, 2003; Kirsch, 2004; Kohli & Kettinger, 2004; Spears & Barki, 2010). Practitioner-focused literature points to the ongoing challenges that managers face in overseeing these evolving processes, including the underlying controls that they are responsible for designing and monitoring (Wallace et al., 2011; Cong & Romero, 2013). Failure to maintain a comprehensive and effective control system can result in the impairment of process performance (Henry et al., 2007; Khansa & Liginlal, 2009), including examples such as the system implementation project failure at Avon (Fitzgerald, 2013) or the data security breach at Target (Riley et al., 2014). Poor controls can also contribute to broad business failures, such as the high-proﬁle examples of Enron and WorldCom (Carcello et al., 2005). However, despite the importance placed on making changes to controls over time, little research has focused on the actual steps taken within IS departments to design, implement, and reﬁne controls, including identifying and remediating problems. Our research seeks to provide insights to both practitioners and researchers to aid in better understanding what drives control change and how organisations can oversee the change of controls more effectively. This study poses the research question: why and how are control changes made within IS processes? A qualitative case study approach is adopted to examine the events relating to control changes within six IS processes at four organisations. Using the cross-case analysis technique of temporal bracketing (Langley, 1999), patterns of control change activities are uncovered and presented in a six-stage process model.1 For practitioners, our ﬁndings uncover key drivers of control changes, which can encourage more timely managerial decision making and provide insights to stakeholders on avoiding situations that prevent progression through the model’s stages. The model provides a common framework that can be employed by practitioners to periodically evaluate, compare and report on the current control stage corresponding to a variety of IS processes, which can improve stakeholder understanding, transparency and accountability. From a research perspective, this work seeks to extend past research on IS control change by conducting a granular examination of change activities in a range of processes and organisations. The resulting process model provides insights on why and how control changes are made in IS processes, which enhances our understanding of complex IS control environments. The remainder of the paper is organised as follows. The next section provides an overview of IS control and past research related to IS control changes. This is followed by a
+1
+
+We use the term ‘process model’ and ‘process theory’ in a manner that is distinct from an ‘organizational process’ or an ‘IS process’. Whereas organizational and IS processes refer to a collection of practices that take inputs, which are manipulated to produce outputs (ISACA, 2012), process theory refers to the logical structure of a theoretical argument that considers factors including a longitudinal time period and discrete outcomes (an alternative logical structure is variance theory, which assumes static time and variable elements) (Markus & Robey, 1988). Process models are derived from process theory and are used to represent a sequence of events or activities (Sabherwal & Robey, 1995). For example, the ‘managing enterprise architecture’ IS process could be examined using a process theory approach to produce a process model that depicts the events leading to a successful outcome.
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+197
+
+description of the research approach, including data collection and analysis. The ﬁndings are then noted, followed by a discussion and presentation of the process model. Finally, the implications of the study are discussed, including a series of future research opportunities.
+
+I N F O R M AT I O N S Y S T E M S C O N T R O L C H A N G E S
+
+Control is deﬁned as the attempt to affect the behaviour of others as a means to achieve goals (Davis, 1940; Tannenbaum, 1962; Flamholtz et al., 1985). Although control phenomena are studied in a variety of disciplines, including philosophy, sociology and military studies, work on control in the ﬁeld of management commonly draws on works by Ouchi (1978, 1979, 1980), Eisenhardt (1985) and Flamholtz et al. (1985). Such studies are used as a shared foundation for research in IS control. We deﬁne IS control as the attempt to affect the behaviour of others as a means to achieve objectives related to the development, operation and use of information systems. The phenomenon of IS control considers a variety of related dimensions, including the control environment (i.e. organisational factors that inﬂuence the choice of IS control), control outcomes (i.e. the desired objectives that IS controls are implemented to achieve), socio-emotional consequences (i.e. the social and emotional responses of employees to control), and control execution (i.e. the operation and evolution of controls over time) (Cram, 2011; Cram & Brohman, 2013). A range of research literature touching on these dimensions has contributed to enhancing our understanding of IS controls in organisations, particularly in relation to IS controls at a point in time. A key discovery from these studies is that under particular circumstances (e.g. project, organisational and strategic), some types of controls result in better process performance than others (Henderson & Lee, 1992; Kirsch, 1996; Gopal & Gosain, 2009; Harris et al., 2009). That is, by understanding the antecedents of control choice (e.g. behaviour observability and requirements certainty), managers can make more effective control choices to drive better performance, in terms of speed, quality, or cost reduction (Nidumolu, 1996; Kirsch et al., 2002; Rustagi et al., 2008). Past IS control literature examines a range of organisational processes, ranging from security, (Boss et al., 2009; Spears & Barki, 2010), to outsourcing (Choudhury & Sabherwal, 2003; Rustagi et al., 2008), to systems development (Kirsch et al., 2002, 2010; Tiwana & Keil, 2009; Tiwana, 2010). As the focus of this research is on the study of controls that are in a state of change within IS processes, a summary of this subset of the broader literature is discussed (Table 1). Two key themes emerge from these studies. First, the literature on IS control change focuses almost exclusively on project environments characterised by a discrete beginning and end, principally focusing around the systems development and deployment process. IS controls are selected based on factors such as task characteristics, participant knowledge, role expectations and pre-existing mechanisms, which are then supplemented by additional or modiﬁed controls as time passes (Kirsch, 1997; Choudhury & Sabherwal, 2003). Control is viewed as being exercised differently depending on the project phase, based on the inﬂuencing factors of the project (e.g. task characteristics), stakeholder (e.g. stakeholder relationship), and global contexts (e.g. cultural differences) (Kirsch, 2004).
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+198
+
+W A Cram et al.
+
+Table 1. IS control change literature Literature theme 1 Non project-focus Literature theme 2 Control changes driven by environmental factors X X X X X X X X Control changes driven by other factors
+
+Publication Choudhury & Sabherwal, 2003 Kirsch, 1997 Kirsch, 2004 Mahring, 2002 Kohli & Kettinger, 2004 Harris et al., 2009 Maruping et al., 2009 Orlikowski, 1991
+
+Project-focus X X X X X X X
+
+X
+
+A second theme in the IS control change literature is the focus on the relationship between evolving environmental conditions and the resulting changes that are made to the control mechanisms. Where changes to variables such as technology embeddedness (Orlikowski, 1991), user requirements (Maruping et al., 2009) and market velocity (Harris et al., 2009) are seen to occur, past research identiﬁes resulting impacts on IS controls. These changes are most commonly described using the terminology of control modes, which describe four categories of control types (i.e. behaviour, outcome, clan and self). Only a few studies consider alternative causes of control mechanism changes, such as those brought on as a direct result of employee relationships (Mahring, 2002) or performance problems (Kohli & Kettinger, 2004). Based on these identiﬁed patterns, this research aims to build on past studies by expanding the IS control focus to include both project and non-project based IS processes. COBIT is an industry-standard framework used by managers and auditors to design and evaluate IS processes (ISACA, 2012); of the 37 processes deﬁned in COBIT, 30 (81%) of them are non-project based, highlighting the importance of considering controls in both categories. More details of the processes selected for examination are noted in the methodology section, in the succeeding text. As well, this research seeks to consider all possible causes of IS control change and remains open to inﬂuences resulting from changing process objectives or employee perspectives, as well as environmental changes. In summary, past research has contributed considerably to developing our understanding of IS control changes, particularly in a project context and in relation to evolving environmental characteristics. This research is designed to complement and build on these ﬁndings by expanding our focus to consider non-project environments, as well as a broad range of possible IS control change causes.
+
+R E S E A R C H A P P R OAC H
+
+Theoretical approaches are commonly categorised in terms of either variance theory or process theory (Shaw & Jarvenpaa, 1997). Variance theory provides explanations for phenomena in terms of relationships amongst variables at a single point in time (Langley, 1999)
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+199
+
+and assumes that social reality is a system of interrelated variables that describes the state of different constructs, where predictors of speciﬁc phenomena can be identiﬁed (Sabherwal & Robey, 1995). Independent variables are viewed as being necessary for a deﬁned outcome, which will inevitably occur when sufﬁcient conditions are present (Markus & Robey, 1988). In contrast, process theory is concerned with understanding how and why phenomena evolve over time and seeks to explain outcome states resulting from a preceding sequence of events (Sabherwal & Robey, 1995; Langley, 1999). This approach assumes that social reality is eventbased, but recognises that an outcome may not occur even when necessary conditions are present (Markus & Robey, 1988; Sabherwal & Robey, 1995). Whereas constructs in variance theories are conceptualised to occur in varying degrees, events in process theory are more binary in nature; they either occur or they do not (Shaw & Jarvenpaa, 1997). Process theory is thought to provide richer explanations of how and why the outcomes occur, as well as enabling researchers to ﬁnd patterns in empirical data that variance theories might miss (Markus & Robey, 1988). Process theory is also seen as having greater explanatory and predictive power than variance theory (Mackenzie, 2000). Although process theory is seen as being underrepresented in the information systems literature in comparison to variance theory (Shaw & Jarvenpaa, 1997), research adopting such models should not be considered to be less scientiﬁc or rigorous (Newman & Robey, 1992). A process approach is adopted in this research on the basis that it is viewed as a more appropriate ﬁt with the research question under investigation. The data collection activities were conducted on a retrospective basis in order to determine control changes occurring over the preceding years, leading up to the present day. A set of six case studies at four organisations are utilised in order to identify the control-related events occurring within IS processes. The case sites were selected using a purposeful sampling strategy, and participating organisations were selected on the basis of varying characteristics such as industry, size, technical architecture, and systems development approach. From a total of seven organisations that were approached, four were selected to participate. Table 2 summarises details on the participating organisations. The unit of analysis for this research is set at the process level, where an IS process is deﬁned as ‘a collection of practices inﬂuenced by the enterprise’s policies and procedures that takes inputs from a number of sources, manipulates the inputs and produces outputs’ (ISACA, 2012, p.19). Two speciﬁc IS processes were selected for examination: managing systems development and managing enterprise architecture. Systems development is deﬁned as ‘establishing and maintaining solutions in line with enterprise requirements covering design, development, procurement/sourcing and partnering with suppliers and vendors’ (ISACA, 2012, p. 132) and was selected due to its inherent risks and signiﬁcant cost within IS departments (The Canadian Institute of Chartered Accountants, 2007). Enterprise architecture refers to ‘establishing a common architecture consisting of business process, information, data, application and technology architecture layers for effectively and efﬁciently realizing enterprise and IT strategies by creating key models and practices that describe the baseline and target architectures’ (ISACA, 2012, p.63) and was selected on the basis of its growing interest and importance in organisations (Bradley et al., 2012; Kappelman & Zachman, 2013).
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+200
+
+W A Cram et al.
+
+Table 2. Summary of the case studies Characteristic Case studies conducted Industry Approximate total number of employees Approximate total number of IS staff Nature of IS environment (e.g. legacy and non-legacy) Systems development methodology CanBank Systems development, enterprise architecture Financial Services 40 000 InsureCorp Systems development, enterprise architecture Insurance 750 HeathOrg LargeMan
+
+Systems development Systems development Health care Manufacturing 10 000 75 000
+
+3000 Hundreds of applications made up of a mix of legacy and non-legacy environments Waterfall
+
+120 Core mainframe environment, supplemented by a collection of non-legacy (e.g. web-based) systems Waterfall, some pilot agile projects
+
+80 Mix of best-of-breed applications
+
+2500 Mix of legacy and non-legacy environments Agile
+
+Waterfall, some pilot agile projects
+
+For two of the participating organisations, CanBank2 and InsureCorp, case studies were completed for both the systems development and enterprise architecture processes. For the remaining participating organisations, HealthOrg and LargeMan, case studies were completed for the systems development process only. In total, six case studies were completed. Case study data were collected using semi-structured interviews and organisational documents during the period of June 2011 to November 2011. A total of 29 interviews were conducted, consisting of over 20 h of discussion and comprising 619 pages of transcribed notes. Interviewee positions included executives (e.g. CIO), middle managers (e.g. business analysis manager) and staff (e.g. developer). A total of 31 company documents were also collected, totaling 269 pages. The documents were used as a data source to corroborate the control-related data collected via interviews, as well as contribute to the additional identiﬁcation of IS control changes.
+
+Data analysis and model development Cross-case analysis is an analytic technique that identiﬁes, interprets and makes assertions about commonalities, themes and patterns across a series of individual case studies (Miles & Huberman, 1994; Stake, 2006; Myers, 2009; Yin, 2009). It is used as a method of deepening understanding and explanation about a phenomenon, as well as enhancing the generalisability of the ﬁndings (Miles & Huberman, 1994). Stake (2006) argues that cross-case analysis is conducted by arranging case studies in terms of their unique issues, interpreting patterns within each case, then making assertions about commonalities, themes, and patterns across the cases. The approach can help to deepen the understanding of the phenomenon by identifying the speciﬁc conditions when an event may occur and how conditions are related to one another. It also enhances the generalisability of a study by demonstrating the relevance and applicability of a phenomenon to similar settings in other organisations (Miles & Huberman, 1994). A variety
+2
+
+Names are disguised at the request of the participating organizations.
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+201
+
+of techniques can be used to enable this cross-case evaluation, including comparative analysis, analytic induction, word tables and pattern clariﬁcation (Stake, 2006). The cross-case analysis approach used in this study is a temporal bracketing strategy (Langley, 1999), which is a method that structures a description of events into a set of successive periods as a means to identify common patterns. The approach is consistent with Miles & Huberman’s (1984) event listing approach to establish a chronology of case study events in order to better understand organisational processes. Langley (1999) argues that temporal bracketing allows process data, such as events, choices or activities, to be structured into connected blocks that can be used to describe how contextual factors inﬂuence the process and its outcomes. This theorising strategy is seen to be appropriate for analysing organisational processes, including eclectic collections of data such as events, variables and interactions. Temporal bracketing has been used as a theory development technique in past studies including Bartlett et al. (2007), Langley & Truax (1994), and Kirsch (2004). To employ this approach, the collected data were ﬁrst coded according to control-related events that took place within each case study. Miles & Huberman’s (1984) conceptualization of an event as being associated with some underlying variable that changes over time was adhered to. For example, if a researcher is interested in understanding how an innovation is diffused within an organisation, changes in personnel or training could be identiﬁed as events that inﬂuence such changes over time (Miles & Huberman, 1984, p. 130). In this research, events that are of interest relate to changes in the ﬁve IS control dimensions identiﬁed by Cram (2011): control environment, control mechanisms, socio-emotional consequences, control execution and control outcomes. Refer to Table 3 for a summary of each dimension, as well as the corresponding number of identiﬁed events. Where either interviewees or collected documents note that changes occurred in relation to these dimensions, the related event that corresponded with this change was coded. Such events include changes in staff, departmental strategy or process design, as well as the addition or removal or controls. Consistent with Miles & Huberman’s (1984) approach to event analysis, the approach used in this research also includes ‘states’ in its deﬁnition of events, where those states relate to changes in some underlying variable. Because of the inclusion of variables such as socio-emotional consequences and control execution that commonly represent an employee’s state of mind (e.g. controls are perceived to be effective, employees are dissatisﬁed with a control) rather than an externally visible event, where a control change is associated with a particular employee state, it was coded as an event for the purpose of this analysis. For example, if interviewees indicated that after a few months of getting used to a new information security policy, they began to perceive it as working very effectively, an event could be coded that corresponded with the increased perception of effective execution of the control. Appendix A lists events coded for each case study. In total, 88 events were identiﬁed across all case studies, resulting in an average of 14.7 events per case. Next, drawing on Langley’s (1999) temporal bracketing approach, distinct stages of the events were identiﬁed using an iterative technique. Where patterns of similar events were noted across the case studies (e.g. similar types of control issues are identiﬁed, commonalities in control issue resolutions are noted and comparable employee responses to control changes are highlighted), the beginning and end of the emerging stages were increasingly reﬁned.
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+202
+
+W A Cram et al.
+
+Table 3. Summary of IS control dimensions (adapted from Cram, 2011) and coding results Number of events identiﬁed 14
+
+Control dimensions Control environment
+
+Control dimension description
+
+The range of organisational and contextual factors that can inﬂuence the choice of a particular IS control. Includes the company’s strategic direction, the organisational structure, process characteristics, culture and employee traits. Control mechanisms The tools, activities and initiatives utilised within an IS process that attempt to inﬂuence the behaviour of individuals or groups. Includes policies, procedures, methodologies, audits and management supervision. Control execution The operation and evolution of IS controls over time. Includes the perceived effectiveness of IS controls by employees and the extent of IS controls are modiﬁed over time. Socio-emotional consequences Control outcomes The social and emotional responses by employees to IS controls. Includes employee motivation, enthusiasm, satisfaction, independence, stress, discomfort, trust, communication quality and team expectations. The desired objectives of an IS process for which the IS controls were implemented. Includes quality, proﬁt/cost, speed/schedule, innovation, risk reduction and compliance.
+
+18
+
+21
+
+19
+
+16
+
+TOTAL
+
+88
+
+Choudhury & Sabherwal’s (2003) examination of changing controls over time adopted a comparable approach by studying how a series of episodes and encounters inﬂuenced the controls employed in software development projects. During the model development, provisional labels were assigned to the stages, which were iteratively reﬁned. Where a provisional label referring to a stage that existed in one case did not appear to ﬁt a stage in another case, the events were re-analysed, and alternative event groupings were considered. Throughout the analysis, the ﬁrst and second author met to discuss the evolving groupings and event coding, as a means to enhance the reliability and validity of the identiﬁed model components. Where different interpretations were raised, each perspective was discussed, and a reﬁnement of the coding was agreed upon. During the temporal bracketing approach, the fundamental elements of control theory were also considered as a guide to help ﬁne-tune the identiﬁed stages and boundaries. The analysis and model development was considered complete when the deﬁned stages were consistent with the event data in each case study.
+R E S U LT S
+
+On the basis of the approach described earlier, a process model referred to as the Control Revision and Adjustment Model (CRAM) is proposed. The model consists of six distinct stages that are noted in Table 4. Each row of the table lists an indicator that describes a characteristic control event that corresponds to a particular stage, as observed from patterns within the empirical data. As well, an event referred to as a causal driver is noted on each row of the table; this event is necessary to advance an IS process from its current model stage to the following stage. The model draws on past work related to organisational change, such as Lewin’s (1947) model of unfreezing, changing and refreezing, as well as past conceptualizations of maturity and stage models, such as those by Sledgianowski et al. (2006), Khaiata & Zualkernan (2009) and De Haes & Van Grembergen (2009).
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+Table 4. Control revision and adjustment model stages Causal drivers to progress to the next CRAM stage
+
+203
+
+Process model stage Stage 1
+
+CRAM stage description Control issue identiﬁcation
+
+CRAM stage characteristic indicators •IS controls are perceived to not be working as intended by IS managers and staff •Detailed planning of control changes is conducted, including identifying absent or improperly operating controls •Initial familiarisation period for IS management and staff following the implementation of new or modiﬁed controls. Reactions may be variable, ranging from positive (e.g. enthusiasm) to negative (e.g. resistance). •A period of control reﬁnement and acclimatisation (e.g. updates to a new IS policy), following the initial changes. •Widespread acceptance of new or modiﬁed controls by managers and staff, evidenced by little ongoing change to IS process controls •Highly efﬁcient IS controls that consistently achieve IS process objectives
+
+Stage 2
+
+Conceptualization of control remedies
+
+Stage 3
+
+Realisation of control changes
+
+•Managers and staff initiate the design of potential solutions to the identiﬁed control issues (move to Stage 2). •New or modiﬁed controls are implemented within an IS process in response to the identiﬁed issues (move to Stage 3). •Following the initial reactions to the altered IS controls, additional adjustments and adaptations are initiated (move to Stage 4).
+
+Stage 4
+
+Control change acclimatisation
+
+Stage 5
+
+Control change acceptance
+
+•Management and staff reactions to the controls stabilise and begin to establish an overall positive perception (move to Stage 5). •Consolidation of similar, overlapping controls to improve efﬁciency (move to Stage 6).
+
+Stage 6
+
+Control optimization
+
+•N/A (end of model)
+
+CRAM, control revision and adjustment model
+
+The model traces the events that take place within an IS process from the point that a control issue is identiﬁed, through to the optimization of controls within an IS process. A series of six sequential stages are proposed and at any point in time, an IS process is considered to be operating within one of the stages. As new IS control-related events occur, the IS process may progress linearly through the ensuing stages. As a result, belonging to any stage in the model is considered to be a temporary state and is subject to change, based on ﬂuctuating control characteristics within the process. To that end, all IS processes are not expected to move fully from stage 1 to stage 6. Although the model assumes sequential progress through the stages (i.e. stages cannot be skipped), events may occur that obstruct the ongoing control activities and result in a process being halted at a particular stage. Likewise, a signiﬁcant IS process and control event (e.g. a complete rejection by staff of proposed control changes) could return an IS process from an advanced stage back to an earlier stage of the model. In such cases, an IS process may iteratively cycle through a subset of the model’s stages until such
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+204
+
+W A Cram et al.
+
+point that the obstruction can be overcome. To aid practitioners in applying the model in practice, Appendix B proposes a series of preliminary questions that can be posed to IS process stakeholders. Based on the responses received, practitioners can more easily evaluate the current stage that an IS process may be operating in and gauge the recommended next steps. Stage 1 of the CRAM represents the identiﬁcation of a control issue by IS managers or staff. In general, the model is based on the premise that the need for an IS control change could stem from an event occurring within the control environment, socio-emotional consequences, control execution, and/or control outcome dimensions. For example, when an event occurs such as an IS leadership change (control environment), broad resistance to an IS policy (socio-emotional consequences), perceptions that a control is not working as intended (control execution), or increasing demands for higher quality software (control outcome), the existing set of controls may no longer be suited to maximise performance within the process. When an organisation recognises that changing IS circumstances require a control adjustment, the organisation is operating in Stage 1 of the model. Each of our case studies, which are described in more detail in the succeeding text, progressed beyond Stage 1. In one example, employees at LargeMan became disillusioned with the systems development process when they learned that their applications were not meeting the expectations of end users. By identifying that the current systems development controls were insufﬁcient in achieving the desired control outcome of delivering valuable software to users, LargeMan employees initiated the ﬁrst stage of the model. The Conceptualization of Control Remedies (Stage 2) addresses the planning, but not implementation, of control changes associated with the identiﬁed issue. Events taking place in this stage relate to the identiﬁcation of the control issue from Stage 1 and consist of managers and staff identifying the speciﬁc controls that are absent from a process, controls that are not performing as designed, or existing controls that need adjustments due to new process characteristics. The control dimensions most relevant to these remedies are the control environment and control mechanisms, as their characteristics can be modiﬁed by managerial decision making. The changes conceptualised in Stage 2 are intended to map out how controls can work more effectively together towards the achievement of the desired control outcomes. From our case studies, an example of Stage 2 occurred within InsureCorp’s enterprise architecture process, following the realisation by managers that the process was widely viewed in the organisation as not delivering value (Stage 1). Management were in the process of reviewing the process and developing a strategy for repositioning enterprise architecture within the company by obtaining stronger executive support and more effectively training staff (Stage 2). The realisation of control Changes (Stage 3) is composed of the actual implementation of control changes to address a control issue. This stage typically focuses on events such as the alteration of control mechanisms (e.g. policies and procedures) or attempts to inﬂuence the control environment characteristics (e.g. hiring staff with expertise in a required area, altering strategy and changing process structure). Events related to the initial socio-emotional consequences to employees of the new controls are also considered to be part of this stage. In some cases, initial habitual reactions such as resistance or enthusiasm may exist in connection with the new or modiﬁed controls. For example, some developers may be philosophically opposed to formal, documented systems development methodologies. If such a methodology were to be introduced in their process, they would respond with an automatic resistance to
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+205
+
+the new control, regardless of how beneﬁcial or well-designed it is. In general, where control dimensions are modiﬁed in line with the plan conceptualised in Stage 2, an IS process is considered to be in Stage 3. An example of this stage from our case studies occurred within CanBank’s system development process. Following complaints that the process was overly restrictive and did not appropriately scale to the range of projects at the organisation (Stage 1), a new development methodology was developed (Stage 2) and implemented (Stage 3). The control change acclimatisation (Stage 4) represents the subsequent acclimatisation and adjustments to new controls that are facilitated by management and staff following control changes. When controls are added or modiﬁed within an IS process, a period of adjustment and familiarisation with the new activity takes place. This can consist of events such as trial and error evaluation of the new controls or additional adaptations to policies and procedures. Such events allow staff to acclimatise to the socio-emotional adjustments associated with new job responsibilities or expectations. In cases where employees might have been initially opposed to a control in Stage 3, this stage provides a period of time for employees to take a more considered view of the adjusted process. Where new controls have been put into place, but have yet to become stabilised and broadly accepted by managers and staff, the process is considered to be in Stage 4. From our case studies, an example of this stage occurred at CanBank’s enterprise architecture process. After designing (Stage 2) and implementing a new approach to guiding how the company invests in certain technologies (Stage 3), initial employee resistance occurred. However, as the new controls began to take hold, a greater level of consistency across the systems was viewed as a performance improvement, and employees began to view the initiative more positively (Stage 4). The control change acceptance (Stage 5) consists of a widespread acceptance of controls by management and staff. Where controls are no longer experiencing signiﬁcant change and are perceived by stakeholders as appropriately contributing to the achievement of organisational objectives, the process is considered to be in Stage 5. The socio-emotional consequences dimension plays a signiﬁcant role in this stage, as processes have reached a level of maturity that demonstrates limited resistance from employees. Stage 5 processes utilise controls in a manner that aligns with the expectations and desires of both managers and staff. From a control execution perspective, controls in Stage 5 processes are largely viewed as working effectively. An example of this stage took place at InsureCorp’s systems development process, where a restructuring of the development team had been enacted. After an initial period of employee resistance (Stage 3) and some corresponding control reﬁnements (Stage 4), the change was widely viewed as effective amongst employees (Stage 5). The control optimization (Stage 6) represents events related to a high degree of reﬁnement and efﬁciency within the IS process and its controls. IS processes operating within this stage demonstrate an exceptional level of control maturity, characterised by a highly efﬁcient set of controls that contribute to the achievement of objectives in a manner that is fully consistent across all control dimensions. Events such as control rationalisation, which consists of the consolidation and reﬁnement of similar, partially overlapping controls, enables increased process efﬁciency by decreasing the quantity of controls without impacting their effectiveness, are characteristic of processes in Stage 6. From our case studies, an example of this stage took place at LargeMan, where the system development process successfully adopted an agile development approach. After a period of resistance (Stage 3), reﬁnement (Stage 4) and
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+206
+
+W A Cram et al.
+
+widespread acceptance (Stage 5), controls within the process were further optimised through additional reﬁnements focusing on driving efﬁciency through fewer controls whilst still maintaining a high level of performance and process oversight (Stage 6). Control revision and adjustment model: empirical support Although the model described earlier is constructed based on patterns across the empirical data, each stage can be more fully understood by examining the context provided by the individual case studies. For each case study, a brief overview of the organisation and process is provided. Following this, the case study’s current stage in the proposed model is described (see Table 5 summary),
+
+Table 5. Process model stage by case study Case study InsureCorp Enterprise Architecture CRAM stage Stage 2 Justiﬁcation for CRAM Classiﬁcation InsureCorp’s EA process is undergoing a reconceptualization of its controls due to ongoing struggles in expanding its reach beyond the IT department. EA leaders have struggled to convince business stakeholders of the importance of following their guidance, which has largely undermined the value provided by the group. The process is currently undergoing a strategic and policy renewal in an attempt to reestablish the role of the process in the organisation. HealthOrg was challenged by growing technical demands and an evolving regulatory environment. The current waterfall approach was viewed as not meeting expectations. Managers planned the establishment of a risk management ofﬁce and project management ofﬁce, as well as piloting a project using an alternative development approach. Following the implementation of the new controls, initial employee resistance was experienced related to the initiatives. CanBank’s SD process was noted as being overly restrictive and did not have the ﬂexibility to be used on the variety of development projects at the organisation. A new set of methodologies was developed that was seen to be more appropriate in its scalability, and then was implemented across the organisation. Initial employee resistance was noted following the methodology rollout. Due to concerns about the quantity of applications and infrastructure elements in place at CanBank, the EA process was adopted to set standards and maintain the technology that was invested in by the organisation. Initially, a large number of standards were implemented and were only sporadically complied with. A series of subsequent reﬁnements have improved the effectiveness of the EA process, which is still building support at CanBank. InsureCorp’s decentralised SD process was viewed as ineffective for the company’s increasingly technology-centric view. The structure and underlying development processes were redesigned and implemented using an increasingly centralised, structured approach. Though initial employee resistance was noted, over time, the new SD process has come to be widely accepted in the organisation. LargeMan’s SD process was perceived as slow and lacked the ability to provide quality applications to users. Initiated by a developer-led campaign to replace the traditional waterfall approach, the company adopted an agile approach on a select group of systems. Navigating through a period of manager and staff resistance, a series of control reﬁnements were made and the approach is widely viewed as performing at a very high level. Ongoing initiatives focus on continuing to improve the efﬁciency of the development process.
+
+HealthOrg systems development
+
+Stage 3
+
+CanBank systems development
+
+Stage 3
+
+CanBank enterprise architecture
+
+Stage 4
+
+InsureCorp systems development
+
+Stage 5
+
+LargeMan systems development
+
+Stage 6
+
+CRAM, control revision and adjustment model
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+207
+
+including the contextual factors that led to this conclusion. This determination is based on a review of current control-related events taking place within each IS process and then comparing them to the events belonging to each stage of the process model. Where ongoing events within a process correspond to those noted within a speciﬁc stage of the model, the process is determined to be operating in that stage. The cases are discussed in ascending order of the observed model stage.
+
+InsureCorp enterprise architecture
+InsureCorp is a medium-sized insurance and ﬁnancial services company that provides a range of products and services, including life insurance, investments and group beneﬁts. InsureCorp employs approximately 750 staff members and services nearly half a million customers. The current CEO was appointed in 2008, leading to changes in the company’s strategic plan, which includes a notable commitment to IS. The IS department at InsureCorp numbers approximately 120 staff. About half of the department is focused on operational support including help desk, infrastructure maintenance, security and general operations. The remaining 60 staff members are primarily involved in IS project work. Historically, InsureCorp has relied on a mainframe-based IS environment, but has begun to transition into client server and cloud-based architecture. The enterprise architecture process at InsureCorp includes both strategic and operational initiatives within the organisation related to the overall design and integration of technology, people, and processes. The enterprise architecture group is primarily involved in the planning of IS-related projects by evaluating the extent that proposed systems and processes will integrate and complement the existing architecture. The enterprise architecture initiative has evolved over the past 10–15 years and has primarily developed from an IS base, where it remains focused today. There is work underway to expand the technical, application and information architecture activities to include more business architecture (i.e. business people and process) components. The InsureCorp enterprise architecture process was found to be operating in Stage 2 of the CRAM. Interviewees noted a lack of clarity around enterprise architecture governance, and controls were perceived as being inconsistently adhered to. Many employees also failed to see the organisational beneﬁts intended to be delivered by the process. These characteristics correspond to the identiﬁcation of a control issue (Stage 1). The following quote illustrates the lack of traction that the process has within the organisation: There is usually resistance [to enterprise architecture input]. It is not fully recognized within the infrastructure teams that are tasked with fulﬁlling the infrastructure mandate of a project. We need to get systems A, B, and C up and running for that initiative. Getting this extra infrastructure and these extra processes and training up extra staff for the next project, they want to defer it to the next project and they will always get [it] deferred. (Director, InsureCorp) The IS process then moved into Stage 2 as enterprise architecture managers conceptualised possible control adjustments to remedy the identiﬁed issues. They are currently struggling with a disconnection between the departmental view of enterprise architecture and the view of others in the organisation (e.g. project leaders, business managers and senior leadership).
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+208
+
+W A Cram et al.
+
+The challenge of designing an appropriate collection of new controls to address the issue is preventing further advancement through the model into Stage 3. The following quote notes the planning that is being conceptualised in the redeﬁned view of controlling the EA process: So now, [the] broad thinking around where we are going [focuses] around application consolidation and decommission of outdated systems… A lot of the ground work…is just putting some basic capabilities in place around master data management and around data integration tools and approaches that can then be leveraged by a lot of different projects. And then really step up our technical and project delivery capabilities substantially to be able to satisfy the demands of these projects that are coming down the pipe. (Vice President, InsureCorp) These future plans to revise controls for the enterprise architecture process are still being ﬁnalised. On that basis, the process is viewed as currently operating in Stage 2.
+
+HealthOrg systems development
+HealthOrg is a large teaching and research hospital that employs approximately 10 000 staff, including approximately 80 in the IS department. Responsibilities for the corporate IS group include the network, email, helpdesk, infrastructure, phones and paging. Approximately 60 applications are used by clinical staff for patient care, including the patient record system, patient registration system and patient scheduling system. A second set of systems are used by administrative staff for back ofﬁce activities such as accounting and ﬁnance. A mix of mainframe and non-mainframe (e.g. client-server, web-based) systems are employed. There is a signiﬁcant data component across the organisation’s systems environment; millions of patient records exist, residing in a range of data warehouses and feeding decision support applications. The systems development process is comprised of four main groups. The patient records team (e.g. developers, analysts and a database administrator) is responsible for maintaining the patient records systems. The web development team is responsible for conducting in-house development to link legacy and non-legacy systems to a web-based user interface. A third team is responsible for maintaining dashboards and performance management around systems development initiatives. The ﬁnal team provides database administration and other systems administrative services to a range of business and IS stakeholders. HealthOrg has a lengthy history of waterfall development; however, driven by an interest from some key stakeholders, the IS organisation is beginning to experiment on a limited number of projects with an agile approach. The HealthOrg systems development process was found to be operating in Stage 3 of the CRAM. Staff clearly identiﬁed the need for control improvements, driven by dissatisfaction with the existing development approach and overall IS governance situation (Stage 1). The following quote illustrates the challenges faced: Our setting is so complex with security, communication, wireless and all the plumbing stuff alone, that it became clear that we needed to have fairly rigorous tools about when something went into production. (IT Manager, HealthOrg) Bold changes in controls were conceptualised in the form of alternative systems development methodologies and the creation of a risk management ofﬁce (Stage 2). These controls were
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+209
+
+then implemented (Stage 3) by HealthOrg management through a trial evaluation of agile development techniques and the installation of a risk management ofﬁce. However, some initial employee resistance and confusion has surrounded the control changes that have not yet been addressed. The following quote highlights the recognition of the new controls by staff, alongside their reluctance to fully participate in the changes at an operational level: In the beginning, there may have been some push back. “Yeah, I hear you and thank you very much”. And “if [an incident] happens, well when it comes to the CIO…so he takes care of that too”. (IT Manager, HealthOrg) During the interviews, it was noted that some employees were reluctant to embrace the control changes, yet no plans to adjust the new controls have yet been completed to minimise such concerns. On that basis, the process is viewed as currently operating in Stage 3.
+
+CanBank systems development
+CanBank is a large bank that provides a variety of ﬁnancial services including personal banking, wealth management and investment banking. The organisation’s technology services are currently provided by a centralised IS department, consisting of a large team of project managers, business analysts, developers and testers. The bank uses a loosely federated model of project management, with a central, Finance department-based project management ofﬁce that tracks the ﬁnancial aspects of projects over a set dollar threshold. As well, a series of 20-30 business line project management ofﬁces are scattered throughout the organisation, managing their own portfolios and staff. The CanBank systems development process was determined to be operating at Stage 3 of the CRAM. Staff noted a control issue (Stage 1) related to the need for improvements related to consistency and ﬂexibility in the systems development process. The following quote highlights this challenge: Within the [previous methodology] environment, [it was] extremely prescriptive. They didn’t have a lot of ﬂexibility as far as what templates they used or anything else. (Director, CanBank) A new framework was conceptualised (Stage 2) and implemented (Stage 3) but met with employee resistance and unanticipated confusion in its use; the framework was still viewed as too formal and standardised for the variety of development initiatives in the organisation. Managers designed the framework to be used in a ﬂexible way, but controlees are struggling to employ it as intended. The following quote illustrates the ongoing issues with the new controls, including an example of an obstruction (i.e. top executive resistance), which may restrict the process to progress through future stages of the model: I think we are currently in the, I’ll call it the very frothy stage, with people recognizing [challenges with the project methodology] and recognizing who these people are and what level of the organization they are and what can they do about it? It’s not like you can easily make changes with executives, right? People tend to be scared of executives within this organization. (Director, CanBank)
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+210
+
+W A Cram et al.
+
+This has resulted in ongoing considerations for substantive adjustments to the new controls, but these changes have yet to be implemented. On that basis, the process is viewed as currently operating in Stage 3.
+
+CanBank enterprise architecture
+The enterprise architecture process at CanBank is led by four Senior Directors who report to the Senior VP of Architecture. These directors are responsible for infrastructure, retail markets technology, wholesale markets technology and corporate services. Beginning in 2006, concerns about inconsistent technology standards led to the creation of a number of organisational initiatives related to the architecture process at CanBank. One of these initiatives relates to the creation and implementation of a comprehensive collection of IT policies, standards and guidelines. Additionally, a managed application portfolio and technology acquisitions guide were put in place to list all company-approved applications and infrastructure assets (e.g. applications, PCs, servers, databases and middleware). The CanBank enterprise architecture process was found to be operating in Stage 4 of the CRAM. Interviewees noted a variety of control issues (Stage 1) related to inconsistent guidelines and adherence to architectural standards, as well as an increasingly difﬁcult to manage quantity of business applications. The following quote highlights this initial challenge: We could not continue to operate at the level that we were. So if you look at the number of applications that we were running in the bank, it was steadily increasing…So you can imagine if you have a hundred applications versus a thousand applications and now you want to do ﬁnancial reporting…So part of it was really, I think, a realization at the senior management levels that we just could not continue to operate the way that we did and continue to deploy new solutions every time someone wanted one, just because they wanted one. (Senior Director, CanBank) The conceptualization (Stage 2) and creation (Stage 3) of a centralised enterprise architecture group to monitor and enforce adherence to a formalised set of enterprise architecture principles and technology standards was subsequently put into place. Some initial resistance from controlees was experienced, but over time, the beneﬁts of the controls were demonstrated to most employees. Ongoing process adjustments continue to be facilitated in order to further ﬁne-tune the controls. On that basis, the process is viewed as currently operating in Stage 4. The following quote notes the realisation in the organisation that ongoing control reﬁnements are required: The downside [of establishing standards] is that you still have to manage that standard and it is living and breathing. It is not like Ten Commandments....they are not shifting tablets. They do have to change over time because the market changes over time and because we change over time. And it is that thing, that balance, that is always painful for companies. (Senior Director, CanBank)
+
+InsureCorp systems development
+The systems development process at InsureCorp is responsible for approximately 30 to 40 ongoing projects. The process was reorganised in June, 2009, at which time four primary
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+211
+
+development competencies were established: business analysis, systems design, systems development and quality assurance. The methodology utilised for systems development initiatives has traditionally been a waterfall approach. In 2005/2006, the organisation attempted to adopt an agile approach for a sample project, but the attempt was unsuccessful and the organisation reverted back to waterfall. Another attempt at an agile-style project is currently underway. The InsureCorp systems development process was found to be operating at Stage 5 of the CRAM. Staff highlighted a need for control improvements due to suboptimal development speed and efﬁciency within the systems development process (Stage 1). Subsequent conceptualization (Stage 2) and implementation (Stage 3) of a restructured development approach, with specialists operating in deﬁned groupings, was subsequently conducted. The initial control structure surrounding the restructuring was deemed by the employees as requiring some adjustments. The following quote illustrates the employee response to the controls and the resulting changes made by management: I was not the one that said to the team that we should have a peer review done…I had sort of left it as a kind of an optional good idea. The team came to me in one of our weekly meetings and said, “we think that we should take a stronger stance on this and we think that we should require it for everything”. So I could have gone in and [mandated peer reviews]…but that was a grassroots buy-in championing of a control process that they felt was useful from the point of view of just making sure that the deliverables were in good shape and that the quality went up and that they had the chance to manage their risk and their accountability on the quality of those documents by asking if somebody could take another look at it with some additional expertise. (Manager, InsureCorp) As a result, the organisation reﬁned the new controls (Stage 4) to employ a hybrid approach that merged the concepts of structured (e.g. waterfall) or ﬂexible (e.g. agile) controls depending on the nature of the project, objectives, staff, etc. This was followed by broad employee acceptance of the approach and strong perceptions of control effectiveness. On that basis, the process is viewed as currently operating in Stage 5.
+
+LargeMan systems development
+LargeMan is a large manufacturing company that produces a range of consumer and industrial products. The organisation has approximately 75 000 employees worldwide and has a presence in 60 countries. The data collection for this study was conducted within a subsidiary, which conducts a range of systems development activities not only for its own region, but for other worldwide activities as well. Until February 2011, LargeMan employed a strict waterfall systems development methodology. However, in the preceding period, some members of the development team had been lobbying management to consider altering the development approach to one that was more agile and iterative in nature. Some pilot work had been carried out to evaluate how agile might be able to help the department and beginning in February 2011, the development team was provided the opportunity to pilot a fully agile approach based on the Scrum methodology. Wider adoption of the agile methodology is planned in the near future to expand to other ongoing projects.
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+212
+
+W A Cram et al.
+
+The LargeMan systems development process was found to be operating at Stage 6 of the CRAM. Staff noted the need for control improvements due to perceived ineffectiveness of the waterfall approach (Stage 1). The following quote highlights the challenge that the developers were faced with: We…went and sat down with the users and watched them use the system and completely saw how our designs were absolutely failing them. They were using the system in ways that we would have never, ever expected. Their needs were just not articulated to us, so we had come up with designs out of requests that actually made it worse. (Development Lead, LargeMan) The conceptualization of control changes was largely initiated from the bottom-up, via developer-led lobbying for managerial buy-in to an agile development approach (Stage 2). At this point, despite the solution advocated by the development team, management were unwilling to change from the waterfall development approach that had historically been in place at the company. This represented an obstruction that temporarily restricted the process controls from advancing through the model’s stages. This obstruction existed for an extended duration, until it was overcome by a management change, as illustrated in the quote in the succeeding text: The model that we had was waterfall and I had been pushing for agile for about 5 years in the company with little traction. And at about the same time the managers of both [an associated] group and our development group left for other projects. And at the exact same time China was taking over a lot of our contract resources and we were missing [expectations] signiﬁcantly. So we were really starting to hit a crisis mode. With new management came new perspectives and the ability to wipe the slate clean and say, “how can we look at this again and do it in a different way?” And we got some really early wins…with just doing iterative development, so we just were able to gain some traction. (Development Lead, LargeMan) After the leadership change occurred, a trial of agile development techniques was approved by the new manager and was widely viewed as successful. Following the pilot, broader employment of the approach was rolled out throughout the process (Stage 3). Due to instances of initial employee resistance from some managers and developers who were unfamiliar with the new methodology, a series of supplementary control adjustments took place around the new methodology (Stage 4). For example, employees were given a choice to participate in some of the activities that characterised the new methodology, such as pair programming or having their workstations located in open ofﬁce areas. Broad acceptance of the approach soon followed, and incremental maturity of the controls has been demonstrated (Stage 5). Despite initial management reluctance, they, too, saw the beneﬁts of the new approach, as illustrated in the following quote: I have [developers] do time reporting. It is high level time reporting because I don’t want them bogged down with processes. But it allows me to analyze their time. How much time are you able to spend on project work and how much time are you getting hit with on support? There were people on this team that had no idea that they were 65% support and with two small
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+213
+
+changes now they are 11% support. It is just…I have just seen so many positive things out of this, it is amazing. (Development Manager, LargeMan) As the team has become increasingly comfortable with the new approach, ongoing optimization and reﬁnement of the controls through retrospective reviews and reﬁnements is currently underway. As a result, the process has become increasingly efﬁcient and is viewed as very highly performing by managers and staff. On that basis, the process is viewed as currently operating in Stage 6.
+
+DISCUSSION
+
+This research set out to answer the research question why and how are control changes made in IS processes? Based on our results, a summary of key research ﬁndings are noted in Table 6, organised by each stage of the proposed process model. We note both research-oriented explanations for the control changes, as well as practitioner-related suggestions that can aid managers in overseeing control changes. On the basis that each of our case studies includes a Stage 1 event within the control environment dimension (Appendix A), our results are consistent with the dominant view from past research that suggests the control environment dimension is a key driver of IS control changes (Kirsch, 2004; Harris et al., 2009; Maruping et al., 2009). However, each of our case studies also notes control outcome and socio-emotional events within Stage 1 of our model, which also supports the less frequently recognised perspective that control changes can also be driven by IS process performance issues and developing controller–controlee relationships (Mahring, 2002). By integrating these distinct types of control-related events together, our ﬁndings consolidate concepts of point-in-time control selection based on static environmental elements (Kirsch, 1997), longitudinal control adjustments based on changing environmental elements (Choudhury & Sabherwal, 2003), control selection based on social and outcome-based factors (Kohli & Kettinger, 2004) and controls used outside of a project context (Orlikowski, 1991). The resulting process model considers how events occurring within any of the identiﬁed dimensions (i.e. control environment, socio-emotional consequences, control mechanisms, control execution and control outcomes) can inﬂuence the life cycle of IS controls, from initial conceptualization to ﬁnal reﬁnement. One objective of this study was to consider IS control changes in the context of non-projectoriented IS processes (i.e. enterprise architecture), as well as project-oriented processes (i.e. systems development). Although the six stages of the proposed model were found to be consistent for both types of processes, we noted that the enterprise architecture processes faced greater challenges in progressing through the control change model than systems development processes did. One explanation for this difference is the relative immaturity of less established processes, including uncertainty about how control issues can be resolved (Cram et al., 2015). By re-examining the collected data, we noted that where inter-departmental stakeholders and inter-process dependencies were more substantial, like they were in the enterprise architecture cases, the path towards an advanced IS control stage was met with more obstacles. For both the CanBank and InsureCorp enterprise architecture processes, strong links were noted with other organisational
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+214
+
+W A Cram et al.
+
+Table 6. Research question insights Process model stage Stage 1: control issue identiﬁcation Key ﬁndings Control mechanism changes are initiated due to the identiﬁcation of issues caused by changes or conﬂicts within the control environment, socio-emotional consequences, control execution or control outcomes dimensions. Insights for practitioners Where changes are made to IS processes, practitioners should be diligent in monitoring any issues that might require control mechanism changes. Formal processes to facilitate the identiﬁcation and communication of such issues can minimise delays so action can be taken quickly. In many cases, a variety of possible options are available in conceptualising a new or reﬁned control mechanism. Practitioners should consider drawing on standardised frameworks (e.g. COBIT) and subject matter experts (e.g. IS auditors), as well as consulting with staff, when designing controls to ensure they adequately address the identiﬁed issues. Manager-staff communication is key during the implementation of new controls in order to minimise employee resistance. Following the implementation of new controls, staff feedback should be actively sought by managers to identify opportunities for control reﬁnements. Where controls are rigidly mandated, employees may be more likely to resist the changes and seek alternative work-arounds. Broad acceptance of control changes can take time in many organisations and requires diligence from leadership to elicit and act on continuing feedback from managers and staff in order to fully embed the controls within the operating practices of the organisation. Already operating highly effectively, controls within Stage 6 processes are evaluated by practitioners for opportunities to increase efﬁciency. This exercise may leverage control commonalities across multiple processes or opportunities for increased control automation.
+
+Stage 2: conceptualization of control remedies
+
+In response to a control issue, changes are ﬁrst conceptualised by designing a new or reﬁned control mechanism that is perceived to address the identiﬁed problem.
+
+Stage 3: realisation of control changes
+
+Following the control conceptualization, the new control is implemented into the IS process and is put into operation. Due to initial resistance or feedback on the control implementation, an acclimatisation period takes place to make further revisions and reﬁnements to the control.
+
+Stage 4: control change acclimatisation
+
+Stage 5: control change acceptance
+
+Following the completion of control reﬁnements required to address any persistent resistance or performance issues, the controls gain a broad state of acceptance as they become embedded in the daily operation of the IS process. As a collection of controls becomes increasingly integrated and stable within the process, opportunities exist to further optimise the controls through techniques such as rationalisation that reduce duplication and overlap in controls to generate increased efﬁciency.
+
+Stage 6: control optimization
+
+processes, including strategy development, project management and business operations. Decisions within the enterprise architecture processes were made by a multidisciplinary collection of stakeholders and were seen to have far-reaching implications for both IS staff and business staff. The basic design of a new system for a business initiative is heavily inﬂuenced by the controls in place within the enterprise architecture process (Boh & Yellin, 2007). Architecture directives are also seen to take much longer term views, with implications reaching years into the future and
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+215
+
+across a range of projects and organisational activities (Kappelman & Zachman, 2013). The data suggest that enterprise architecture beneﬁts were commonly viewed as ambiguous and competing stakeholder interests were often at stake. This ﬁnding is consistent with past enterprise architecture research (Tamm et al., 2011) and represents a future challenge to improving controls within the process. In one speciﬁc example, an interviewee from CanBank noted the inherent conﬂicts that the objectives of the enterprise architecture process have with other organisational processes and their stakeholders: Well nobody likes transparency, right? I mean I always like to say that enterprise architecture is here to create a little bit of friction. So we are here to create a little bit of friction ....projects are always going to take the quickest path to the end, right? A project manager’s job is to deliver the project and not to think about what is the right thing long term for the bank to do. So we are kind of the counter balance to that. To say, “hold on a second, we should not be doing it this way, we should be thinking about not only the immediate needs of the project but the long term view of the asset and it’s intended use” and “how do we build things so that they are reusable for the next project that needs to use that capability?”. (Senior Director, CanBank) We suggest that this ‘friction’ with other processes and stakeholders can restrict the widespread support that controls need to process through the proposed model. As such, gaining a positive socio-emotional response to a new control or agreeing upon a control mechanism’s design proved to be more challenging in situations where stakeholders were more diverse and processes were interlinked. This is not to say that control changes are not possible in these circumstances (i.e. the CanBank enterprise architecture process was found to be at Stage 4 in the proposed model); however, such processes face increased complexity in navigating the potential pitfalls of the control change process compared with those with fewer stakeholders and process links, such as those in systems development processes. This characteristic of our model is consistent with the overall assumptions of process theory, which suggests that causation consists of a set of necessary conditions, but that other events can inﬂuence if deﬁned outcomes will actually occur (Markus & Robey, 1988). In contrast, the systems development processes that we examined tended to be characterised by control environments that were more insular and detached from other organisational processes and stakeholders. Although systems are typically being developed for use by non-IS users who have a substantial ability to inﬂuence the broad direction of a new system (e.g. general objectives and user interface), IS management and staff are commonly tasked with making the bulk of the key decisions (e.g. system structure, design approach and testing approach) (Markus & Mao, 2004). These decisions are not typically of substantial interest to stakeholders outside of the department as they do not generally impact the actual operation of the product after delivery. Across each of the four case studies that examined systems development processes, each Stage 1 contained an event associated with dissatisfaction with the current process and its underlying controls, which were subsequently redesigned and implemented in Stages 2 and 3. Although there were varying periods of time that elapsed between the Stage 1 identiﬁcation of the issue and the Stage 3 implementation of new controls, the obstructions that needed to be overcome to advance to each subsequent stage were largely conﬁned to the
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+216
+
+W A Cram et al.
+
+development process itself (e.g. development manager approval), rather than any inﬂuences outside the department. Although these obstructions can also be difﬁcult to overcome, as evidenced by the extended period that developers unsuccessfully lobbied CanBank management to change development approaches (see interviewee quote above), the inherent ‘friction’ between controllers and controlees was markedly less evident within the data. Although our comparisons of project and non-project circumstances are based on a limited sample, it highlights the unique nature of controls within each IS process, as well as the potential challenges associated with IS control change. Based on the role that effective controls have been shown to play in driving IS performance and regulatory compliance (Henry et al., 2007; Khansa & Liginlal, 2009; Wallace et al., 2011; Cong & Romero, 2013), it is important for management to avoid unnecessary delays in resolving control issues that arise. By better understanding the factors that drive IS control changes, as well as the steps needed to transition from an identiﬁed control issue to an optimised IS process, the model outlined in this research can aid in streamlining how organisations resolve identiﬁed control issues and drive positive outcomes from their controls.
+
+CONCLUSION
+
+This research was motivated by the organisational challenges of overseeing the ongoing control changes that are required within IS processes. Although past research suggests that a variety of factors drive IS process control change, it was unclear how some companies are able to quickly adapt to the necessary controls, whilst others are slow to make changes. Without understanding how and why control changes occur within IS processes, organisations with lagging controls leave themselves exposed to the risk of poor performance and broader business failures, such as the examples noted at Avon, Target, Enron and WorldCom. Our ﬁndings establish an integrated, six-stage process model that describes the pattern of events that take place in organisations as they move from the identiﬁcation of a control issue to conceptualising and implementing a remedy to acclimatising, accepting and optimising the new controls. This CRAM suggests that changing IS controls is a complex activity involving factors not only from the control environment, but also related to socio-emotional consequences, control mechanisms, control execution and control outcomes. For researchers, our ﬁndings extend past studies by examining IS control changes in both project-based and non-project environments over a period of time. Although our ﬁndings are consistent with past research, such as Kirsch (1997), which ﬁnds environmental factors important in driving control selection, the results should also encourage researchers to increasingly consider how aspects of the other dimensions also contribute to selecting, implementing and reﬁning IS controls. Furthermore, the ﬁndings suggest that moving beyond project-focused examinations of control may be an important step in understanding how controls interact with one another. Although systems development initiatives are a core element of many organisations, emerging IS processes such as the management of enterprise architecture are of rising importance. Our research shows that differences may exist between these processes, which represents an important opportunity for future examination.
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+217
+
+For practitioners, our research departs from many standardised frameworks that rely on control environment characteristics to drive IS control choice. By suggesting that IS control change is a holistic phenomenon, driven by events occurring within all ﬁve control dimensions, this study encourages practitioners to more broadly consider the factors at play in resolving control issues. By utilising the questions provided in Appendix B, as well as considering the guidance noted in Table 6, managers can evaluate the current stage of their IS processes and consider what steps can be taken to continue advancing through the model. Using these tools also provides practitioners with an opportunity to rapidly identify if an obstruction has occurred that is preventing progress to a subsequent stage and plan an alternative approach. As a result, we see an opportunity for organisations to employ our six-stage model in practice by periodically evaluating a selection of their IS processes, similar to the capability maturity model for software development (Paulk et al., 1993), and chart progress over time. For example, as part of the annual IS audit, an evaluation of the controls within key IS processes (e.g. systems development, enterprise architecture, IS strategy, security and disaster recovery) could be evaluated, compared with prior periods and reported to stakeholders. Where control obstructions are identiﬁed (e.g. signiﬁcant resistance to a new policy), management could meet to plan actions to remedy the issues in order to advance IS process controls through the model (or accept the current stage if the anticipated cost to remove the obstruction is greater than the expected beneﬁt). This practical application of our research could contribute to improved transparency and accountability of IS process controls for all stakeholders, as well as enabling a standardised approach to improving the effectiveness of controls that can drive IS process performance. Like any study, this research has limitations. First, our ﬁndings are based on six case studies and two IS processes, which may be seen to limit the generalisability. Although an effort was made to draw on organisations and processes from a variety of industries, sizes and technical complexity, further validation of the model is necessary to conﬁrm if the ﬁndings remain valid in a variety of settings. Second, our study adopts a retrospective approach, which some past commentators have noted is subject to potential shortcomings related to informants providing reliable and valid accounts of events that have occurred in the past (Golden, 1992). In response, we adhered to guidance for improving reliability and validity in retrospective studies (Golden, 1992, 1997; Miller et al., 1997), such as utilising interview questions that focus on facts and events rather than abstract concepts or intentions. In addition, company documents were collected for each case study in order to corroborate the information received via the interviews. Finally, past research suggests that the use of process models can potentially mask the sequence of events that occur within each stage (Mohr, 1987). Because process theory research is evaluated on the basis of its simplicity (Langley, 1999), the approach can lead to excessively tidy and abbreviated results. Although the control results alignment model aims to be understandable and straightforward, its construction is based on a detailed collection of controlrelated events identiﬁed from the empirical data. In describing each stage of the model, detailed explanations are provided so as to not mask the actual IS process complexity. Future research opportunities also result from this work. First, an extension of this research into other IS processes (e.g. security management), as well as business processes (e.g. inventory management), could serve to further reﬁne the model. Although the stages were developed on the basis of empirical data from the systems development and enterprise architecture
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+218
+
+W A Cram et al.
+
+processes, it is conceptualised as potentially applying to other IS and non-IS processes as well. Further evaluation of the model in IS processes with unique control characteristics, such as a high proportion of automated, software-based controls, would be of particular interest. A second area for future research could seek to establish a quantitative link between the progress of IS control changes through the proposed model’s stages and IS process performance. Although control theory suggests that delays in designing and implementing any required controls will have a negative impact on the achievement of objectives, future research could develop a measurement instrument to conﬁrm if organisations that rapidly complete control changes are indeed more likely to achieve strong performance than those organisations that alter their controls more slowly. The objective of this study was to better understand why and how control changes are made in IS processes. Using a case study approach examining systems development and enterprise architecture processes in four organisations, this research employs a temporal bracketing strategy to identify patterns in the control-related events taking place during IS control changes. The resulting six-stage process model can aid practitioners in understanding what drives control change and how to more effectively manage control transitions whilst also contributing to research by uncovering an enhanced theoretical understanding of how and why IS control changes are made.
+
+REFERENCES
+Bartlett, J., Tywoniak, S. & Hatcher, C. (2007) Public relations professional practice and the institutionalization of CSR. Journal of Communication Management, 11, 281–299. Boh, W.F. & Yellin, D. (2007) Using enterprise architecture standards in managing information technology. Journal of Management Information Systems, 23, 163–207. Boss, S.R., Kirsch, L.J., Angermeier, I., Shingler, R.A. & Boss, R.W. (2009) If someone is watching, I’ll do what I’m asked: mandatoriness, control, and information security. European Journal of Information Systems, 18, 151–164. Bradley, R.V., Pratt, R.M.E., Byrd, T.A., Outlay, C.N. & Wynn Jr., D.E. (2012) Enterprise architecture, IT effectiveness and the mediating role of IT alignment in US hospitals. Information Systems Journal, 22, 97–127. Carcello, J.V., Hermanson, D.R. & Raghunandan, K. (2005) Changes in internal auditing during the time of the major US accounting scandals. International Journal of Auditing, 9, 117–127. Choudhury, V. & Sabherwal, R. (2003) Portfolios of control in outsourced software development projects. Information Systems Research, 14, 291–314. Cong, Y. & Romero, J. (2013) On information systems complexity and vulnerability. Journal of Information Systems, 27, 51–64. Cram, W.A. (2011). Information systems control: A review and synthesis of the literature. Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, MI. Paper 197. Cram, W.A. & Brohman, M.K. (2013) Controlling systems development: A new typology for an evolving ﬁeld. Information Systems Journal, 23, 137–154. Cram, W.A., Brohman, M.K. & Gallupe, R.B. (2015) Addressing the control challenges of the enterprise architecture process. Journal of Information Systems, Forthcoming. doi: 10.2308/isys-50913 Davis, R.C. (1940) Industrial Organization and Management. Harper, New York. De Haes, S. & Van Grembergen, W. (2009) An exploratory study into IT governance implementations and its impact on business/IT alignment. Information Systems Management, 26, 123–137. Eisenhardt, K.M. (1985) Control: Organizational and economic approaches. Management Science, 31, 134–149. Fitzgerald, D. (2013, December 12). Avon scraps $125 million troubled software overhaul, The Wall Street Journal, p. B3. Flamholtz, E.G., Das, T.K. & Tsui, A. S. (1985) Toward and integrative framework of organizational control. Accounting, Organizations and Society, 10, 35–50.
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+219
+
+Golden, B.R. (1992) The past is the past - or is It? The use of retrospective accounts as indicators of past strategy. Academy of Management Journal, 35, 848–860. Golden, B.R. (1997) Further remarks on retrospective accounts in organizational and strategic management research. Academy of Management Journal, 40, 1243–1252. Gopal, A. & Gosain, S. (2009) The role of organizational controls and boundary spanning in software development outsourcing: Implications for project performance. Information Systems Research, Articles in Advance, 21: 1–23. Harris, M.L., Collins, R.W. & Hevner, A. R. (2009) Control of ﬂexible software development under uncertainty. Information Systems Research, 20, 400–419. Henderson, J.C. & Lee, S. (1992) Managing I/S design teams: A control theories perspective. Management Science, 38, 757–777. Henry, R.M., McCray, G.E., Purvis, R. L. & Roberts, T. L. (2007) Exploiting organizational knowledge in developing IS project cost and schedule estimates: An empirical study. Information & Management, 44: 598–612. ISACA. (2012) COBIT 5. ISACA, Rolling Meadows. Kappelman, L.A., & Zachman, J.A. (2013) The enterprise and its architecture: Ontology & challenges. Journal of Computer Information Systems, 53: 87–95. Khaiata, M. & Zualkernan, I.A. (2009) A simple instrument to measure IT-business alignment maturity. Information Systems Management, 26, 138–152. Khansa, L. & Liginlal, D. (2009) Quantifying the beneﬁts of investigating information security. Communications of the ACM, 52, 113–117. Kirsch, L.J. (1996) The management of complex tasks in organizations: Controlling the systems development process. Organization Science, 7, 1–21. Kirsch, L.J. (1997) Portfolios of control modes and IS project management. Information Systems Research, 8, 215–239. Kirsch, L.J. (2004) Deploying common systems globally: The dynamics of control. Information Systems Research, 15, 374–395. Kirsch, L.J., Ko, D.G. & Haney, M. H. (2010) Investigating the antecedents of team-based clan control: Adding social capital as a predictor. Organization Science, 21, 469–489. Kirsch, L.J., Sambamurthy, V., Ko, D.G. & Purvis, R.L. (2002) Controlling information systems development projects: The view from the client. Management Science, 48, 484–498.
+
+Kohli, R. & Kettinger, W.J. (2004) Informating the clan: Controlling Physicians’ costs and outcomes. MIS Quarterly, 28, 363–394. Langley, A. (1999) Strategies for theorizing from process data. Academy of Management Review, 24, 691–710. Langley, A. & Truax, J. (1994) A process study of new technology adoption in smaller manufacturing ﬁrms. Journal of Management Studies, 31, 619–652. Lewin, K. (1947) Frontiers in group dynamics: Concept, method and reality in social science; social equilibria and social change. Human Relations, 1, 5–41. Mackenzie, K.D. (2000) Processes and their frameworks. Management Science, 46, 110–125. Mahring, M. (2002) IT project governance: Stockholm school of economics, Doctor of Philosophy Dissertation. Markus, M.L. & Mao, J.Y. (2004) Participation in development and implementation – Updating an old, tired concept for Today’s IS contexts. Journal of the Association for Information Systems, 5, 514–544. Markus, M.L. & Robey, D. (1988) Information technology and organizational change: Causal structure in theory and research. Management Science, 34, 583–598. Maruping, L.M., Venkatesh, V. & Agarwal, R. (2009) A control theory perspective on agile methodology use and changing user requirements. Information Systems Research, 20, 377–399. Miles, M.B. & Huberman, A.M. (1984) Qualitative Data Analysis: A Sourcebook of New Methods. Sage Publications, Thousand Oaks. Miles, M.B. & Huberman, A.M. (1994) Qualitative Data Analysis. Sage Publications, Thousand Oaks. Miller, C.C., Cardinal, L.B. & Glick, W. H. (1997) Retrospective reports in organizational research: A reexamination of recent evidence. Academy of Management Journal, 40, 189–204. Mohr, L.B. (1987) Innovation Theory: An Assessment From the Vantage Point of the New Electronic Technology in Organizations. Ballinger, Cambridge. Myers, M.D. (2009) Qualitative Research in Business & Management. SAGE Publications, Thousand Oaks, CA. Newman, M. & Robey, D. (1992) A social process model of user-analyst relationships. MIS Quarterly, 16, 249–266. Nidumolu, S.R. (1996) A comparison of the structural contingency and risk-based perspectives on coordination in software-development projects. Journal of Management Information Systems, 13, 77–113. Orlikowski, W.J. (1991) Integrated information environment or matrix of control? the contradictory implications of information technology. Accounting, Management & Information Technology, 1, 9–42.
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+220
+
+W A Cram et al.
+
+Ouchi, W.G. (1978) The transmission of control through organizational hierarchy. Academy of Management Journal, 21, 173–192. Ouchi, W.G. (1979) A conceptual framework for the design of organizational control mechanisms. Management Science, 25, 833–848. Ouchi, W.G. (1980) Markets, bureacracies, and clans. Administrative Science Quarterly, 25, 129–141. Paulk, M., Curtis, B., Chrissis, M. & Weber, C. (1993) Capability maturity model version 1.1. IEEE Software, 10, 18–27. Riley, M., Elgin, B., Lawrence, D., & Matlack, C. (2014, March 13) Missed alarms and 40 million stolen credit card numbers: How target blew It. Business Week. Rustagi, S., King, W.R. & Kirsch, L.J. (2008) Predictors of formal control usage in IT outsourcing partnerships. Information Systems Research, 19, 126–143. Sabherwal, R. & Robey, D. (1995) Reconciling variance and process strategies for studying information systems development. Information Systems Research, 6, 303–327. Shaw, T. & Jarvenpaa, S. (1997) Process models in information systems. In: Information Systems and Qualitative Research, Lee, A.S., Liebenau, J. & DeGross, J.I. (eds), pp. 70–100. Chapman & Hall, London. Sledgianowski, D., Luftman, J. N. & Reilly, R.R. (2006) Development and validation of an instrument to measure maturity of IT business strategic alignment mechanisms. Information Resources Management Journal, 19, 18–33. Spears, J.L. & Barki, H. (2010) User participation in information systems security risk management. MIS Quarterly, 34, 503–522. Stake, R.E. (2006) Multiple Case Study Analysis. The Guildford Press, New York, NY. Tamm, T., Seddon, P.B., Shanks, G. & Reynolds, P. (2011) How does enterprise architecture add value to organisations? Communications of the Association for Information Systems, 28, 141–168. Tannenbaum, A.S. (1962) Control in organizations: Individual adjustment and organizational performance. Administrative Science Quarterly, 7, 236–257. The Canadian Institute of Chartered Accountants (2007) 20 Questions Directors Should Ask about IT Projects. The Canadian Institute of Chartered Accountants, Toronto.
+
+Tiwana, A. (2010) Systems development ambidexterity: Explaining the complementary and substitutive roles of formal and informal controls. Journal of Management Information Systems, 27, 87–126. Tiwana, A. & Keil, M. (2009) Control in internal and outsourced software projects. Journal of Management Information Systems, 26, 9–44. Wallace, L., Lin, H. & Cefaratti, M.A. (2011) Information security and Sarbanes-Oxley compliance: An exploratory study. Journal of Information Systems, 25, 185–211. Yin, R.K. (2009) Case Study Research: Design and Methods. SAGE, Thousand Oaks.
+
+Biographies
+W. Alec Cram is an Assistant Professor of Information and Process Management at Bentley University. His research focuses on how information systems governance and control initiatives can contribute to improving the performance of organizational processes. His work has been published or is forthcoming in a variety of outlets, including the Information Systems Journal and the Journal of Information Systems. Alec received his PhD from Queen’s University in 2013 and previously worked as a manager of IT governance at Deloitte. M. Kathryn Brohman is an Associate Professor of MIS at the Queen’s School of Business. She is co-author of Project Leadership: Creating Value with an Adaptive Project Organization. Her leading edge research explores the impact of technology on strategy execution, project leadership and service innovation and has been published in premier journals including Decision Sciences, Harvard Business Review, MIS Quarterly Executive, and Communications of the ACM. Dr. Brohman entered academia after working with Sun Microsystems of Canada. R. Brent Gallupe is a Professor of MIS at the Queen’s School of Business. He is the Director of the Queen’s Executive Decision Centre. He is a proliﬁc author of dozens of research papers, articles, presentations and papers published in respected business and academic journals, including Management Science, MIS Quarterly, Academy of Management Journal, Information Systems Research, Journal of Applied Psychology, and Sloan Management Review.
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+221
+
+APPENDIX A: EVENT DETAILS
+The following tables note the events identiﬁed within each case study. The table for each IS process represents a consolidated view of all identiﬁed control-related events, drawn from both interview data and company documents. InsureCorp enterprise architecture event listing (Stage 2):
+
+CRAM stage Stage 1 – control issue identiﬁcation
+
+Control environment -Perceived ‘advisory’ role of enterprise architecture group —
+
+Control mechanisms -Limited strategic inﬂuence of enterprise architecture process -Creation of enterprise architecture ‘road maps’
+
+Socio-emotional consequences - Management and staff resistance to enterprise architecture initiatives —
+
+Control execution -Increasing role of infrastructural changes to technology (e.g. cloud) -Increasing focus on integrating business and IS architecture
+
+Control Outcomes -Lack of clarity of enterprise architecture deliverables to staff and management -Ongoing initiatives to demonstrate enterprise architecture value to project teams
+
+Stage 2 – conceptualization of control remedies Stages 3–6
+
+Not applicable – process is at Stage 2
+
+HealthOrg systems development event listing (Stage 3):
+
+CRAM stage Stage 1 – control issue identiﬁcation
+
+Control environment -Changing legislation regarding access to information -Increasing attention paid by senior executives and board to IT risk issues -Increasing utilization of webbased tools
+
+Control mechanisms —
+
+Socio-emotional consequences -Dissatisfaction with waterfall systems development approach -Increasing collaboration stemming from the agile development pilot -Employee resistance to new risk management policies and procedures
+
+Control execution —
+
+Control outcomes -Identiﬁed issues in delivering systems within timelines desired by users -Renewed focus on data quality and privacy in light of changing legislation —
+
+Stage 2 – conceptualization of control remedies Stage 3 – realisation of control changes
+
+-Trial evaluation of an agile development approach -Initiation of formal risk management ofﬁce and PMO
+
+—
+
+-Increasing rigour in evaluating IT control effectiveness and remediation
+
+Stages 4 – 6
+
+-Initiation of formalised policy and procedure documentation Not applicable – process is at Stage 3
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+222
+
+W A Cram et al.
+
+CanBank systems development event listing (Stage 3):
+Control environment -Systems development projects are principally managed by business units Control mechanisms -Technology delivery framework used to manage technology-related project initiatives Socio-emotional consequences -Friction between technology and the business organisation -Employee sense of being ‘over governed’ following Sarbanes-Oxley legislation Control execution -Recognition that projects require more transparency for effective management -Project delivery framework is viewed by the business as technology-speciﬁc and not applicable to business unit initiatives -Projects management is seen as a potential area for improvement Control outcomes -Focus on delivering systems within the parameters of the business unit
+
+CRAM stage Stage 1 – control issue identiﬁcation
+
+Stage 2 – conceptualization of control remedies
+
+-Move towards centralised governance of projects
+
+—
+
+Stage 3 – realisation of control changes
+
+-Enhanced strategic direction provided through technology committees
+
+-Enterprise-wide rollout of project management methodology
+
+-Creation of Strategic Project Ofﬁce
+
+-Initiative to move from a prescriptive development methodology to one with more ﬂexibility -Initiative underway to create an enterprise-wide project management ofﬁce -Some business — sponsor, employee, and manager resistance to following all project methodology components -Increased autonomy and ﬂexibility for operational teams
+
+—
+
+-Increasing importance of compliance and risk reduction
+
+-Focus on standardising procedures to enable central governance and focus on a variety of project outcomes
+
+Stages 4–6
+
+Not applicable – process is at Stage 3
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+A process model of information systems control change
+
+223
+
+CanBank enterprise architecture event listing (Stage 4):
+
+CRAM stage Stage 1 – control issue identiﬁcation
+
+Control environment -Technology group becomes increasingly centralised and staff are removed from business unit reporting -Security incident generates turbulence related to technology processes
+
+Control mechanisms -Decentralised management of technology standards
+
+Socio-emotional consequences -Employee sense of being ‘over governed’ following Sarbanes-Oxley legislation
+
+Control execution -Conﬂicts and inconsistency between standards are highlighted as a concern -Quantity of applications is recognised as becoming unmanageable
+
+Control outcomes -Meeting the technology needs of individual business units is paramount.
+
+-Overall compliance and risk reduction are not primary concerns. —
+
+Stage 2 – conceptualization of control remedies
+
+—
+
+-Listing of technology applications & capabilities, as well as technologyrelated processes
+
+—
+
+Stage 3 – realisation of control changes
+
+—
+
+-Rollout of technology standards -Rollout of managed application portfolio (MAP) and technology acquisition guide (TAG) —
+
+-Employee resistance to MAP and TAG controls
+
+-Initiative to develop centrally managed technology standards -Initiative to create rules around what technology assets can be used —
+
+—
+
+Stage 4 – control change acclimatisation
+
+—
+
+Stages 5–6
+
+-Public reporting — of employees whose applications are non-compliant -Increasing levels of trust between business and technology Not applicable – process is at Stage 4
+
+-High degree of sharing and reuse of applications and infrastructure across business units
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+224
+
+W A Cram et al.
+
+InsureCorp systems development event listing (Stage 5):
+Control environment -Decentralised systems development group — Control mechanisms -Pilot agile development approach -Planned restructuring of systems development group -Increasingly structured and deﬁned development processes -Re-attempt at piloting an agile development approach Socio-emotional consequences - Employee disillusionment with current controls — Control execution — Control outcomes -Signiﬁcant failure in agile development project -Rising desire for increased speed of development project delivery —
+
+CRAM stage Stage 1 – control issue identiﬁcation Stage 2 – conceptualization of control remedies
+
+—
+
+Stage 3 – realisation of control changes
+
+—
+
+-Employee resistance to changing processes
+
+-Modiﬁcation of decision-making authority and accountability for systems development
+
+Stage 4 – control change acclimatisation
+
+-New website rollout
+
+Stage 5 – control change acceptance Stage 6 – control optimization
+
+—
+
+-Reduction of formality in systems development processes — — -Increased employee autonomy and empowerment Not applicable – process is at Stage 5
+
+—
+
+—
+
+—
+
+LargeMan systems development event listing (Stage 6):
+
+CRAM stage Stage 1 – control issue identiﬁcation
+
+Control environment -Stable systems and customer base
+
+Control mechanisms -Highly structured waterfall development methodology
+
+Socio-emotional consequences -Dissatisfaction with waterfall development approach
+
+Control execution -Recognition by management, users, and developers about inadequate development controls -Staff-management conﬂict around appropriate development approach
+
+Control outcomes -Signiﬁcant backlog of development changes contributes to scheduling and quality issues —
+
+Stage 2 – conceptualization of control remedies
+
+-Anticipated workforce changes and systems strategy changes
+
+—
+
+-Increasing attraction to the autonomy and ﬂexibility of agile controls by some employees, as well as uncertainty and resistance by others
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+Continues
+
+A process model of information systems control change Continued
+Control environment -Management change Control mechanisms Socio-emotional consequences Control execution -Change of development approach to agile
+
+225
+
+CRAM stage Stage 3 – realisation of control changes Stage 4 – control change acclimatisation
+
+Control outcomes -Recognition of increased speed of development
+
+-Initial pilot -Initial manager initiatives with and employee agile-style controls resistance to new approach -Transition to agile -Improved development acceptance of approach process once results are demonstrated — -High degree of satisfaction with agile development methodology — —
+
+—
+
+-Adaption of agile, -Recognition of based on identiﬁed increased speed challenges of development
+
+Stage 5 – control change acceptance Stage 6 – control optimization
+
+—
+
+—
+
+-Ongoing — reﬁnements of SD controls, but on a minor basis only -Control -Improved process reﬁnements efﬁciency from primarily focusing control reﬁnements on efﬁciency
+
+APPENDIX B: CRAM PRACTITIONER QUESTIONS
+The following questions are intended to be used in conjunction with Table 4 to aid practitioners in determining the CRAM stage that an IS process is currently operating in. For each stage, sample questions are provided that, if responded to positively by IS process stakeholders, suggest that an IS process is operating in (or has recently advanced from) that stage. An additional question referred to as a ‘progress indicator’, is also suggested for each stage. Where this question is answered afﬁrmatively by IS process stakeholders, it suggests that a key event has taken place that would cause the IS process to advance to the following model stage. Beginning with the questions in Stage 1 and continuing forward, practitioners can determine the CRAM stage by asking questions until stakeholders answer negatively; the stage containing the questions associated with the negative responses will correspond with expected stage of the model. As the questions in the succeeding text are not exhaustive, practitioners should also consult Tables 4 and 6 for additional guidance. Stage 1 questions: 1 Have there been any signiﬁcant IS process or organisational changes recently (e.g. leadership change, regulatory change, new product or service introduction)? 2 Have management or staff highlighted concerns about how effectively a particular IS process is running (e.g. speed, quality and cost)? 3 Progress indicator: Have management or staff begun considering how IS controls might be altered to better suit the IS process? Stage 2 questions:
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+226
+
+W A Cram et al.
+
+1 Are plans and discussions underway that consider options to ﬁx the current IS control deﬁciencies? 2 Are alternative options for new or modiﬁed controls being evaluated for the IS process? 3 Progress indictor: Have new or modiﬁed IS controls been implemented in the IS process as a response to the identiﬁed deﬁciency? Stage 3 questions: 1 Are managers and staff aware of the new or modiﬁed controls? 2 Have managers and staff begun to provide feedback and form opinions on the new or modiﬁed controls? 3 Progress indicator: Have any adaptations and adjustments to the updated IS controls been made based on feedback by managers and/or staff? Stage 4 questions: 1 Have the managers and staff improved their opinions of the controls as a result of the adaptations and adjustments? 2 Have the control adjustments and reﬁnements impacted how managers and staff perceive the effectiveness of the IS process? 3 Progress indicator: Would management and staff generally agree that the new controls are operating effectively within the IS process? Stage 5 questions: 1 Have IS controls reached a ‘steady state’ due to the IS process being perceived as working effectively? 2 Is there evidence that any employees or staff have concerns about the IS process or its controls? 3 Progress indicator: Have any control rationalisation exercises been undertaken, such as the consolidation or reﬁnement of IS controls across multiple IS processes, in order to improve the overall efﬁciency of controls used across the organisation? Stage 6 questions: 1 Do you perceive IS controls in the organisation to be at an industry-leading level? 2 Do discussions of IS controls go beyond focusing on a speciﬁc IS process to more broadly consider the holistic integration of controls across processes? 3 Has the organisation taken steps to improve the overall, interprocess efﬁciency and complementarity of controls?
+
+© 2015 Wiley Publishing Ltd, Information Systems Journal 26, 195–226
+
+

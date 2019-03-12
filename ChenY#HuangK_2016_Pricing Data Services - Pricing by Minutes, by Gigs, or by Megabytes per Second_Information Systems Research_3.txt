@@ -1,0 +1,1207 @@
+This article was downloaded by: [130.89.97.167] On: 17 February 2017, At: 07:02 Publisher: Institute for Operations Research and the Management Sciences (INFORMS) INFORMS is located in Maryland, USA
+
+Information Systems Research
+Publication details, including instructions for authors and subscription information: http://pubsonline.informs.org
+
+Pricing Data Services: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Ying-Ju Chen, Ke-Wei Huang
+
+To cite this article: Ying-Ju Chen, Ke-Wei Huang (2016) Pricing Data Services: Pricing by Minutes, by Gigs, or by Megabytes per Second?. Information Systems Research 27(3):596-617. http://dx.doi.org/10.1287/isre.2016.0651 Full terms and conditions of use: http://pubsonline.informs.org/page/terms-and-conditions This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval, unless otherwise noted. For more information, contact permissions@informs.org. The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support of claims made of that product, publication, or service. Copyright © 2016, INFORMS Please scroll down for article—it is on subsequent pages
+
+INFORMS is the largest professional society in the world for professionals in the fields of operations research, management science, and analytics. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Information Systems Research
+Vol. 27, No. 3, September 2016, pp. 596–617 ISSN 1047-7047 (print) ISSN 1526-5536 (online) http://dx.doi.org/10.1287/isre.2016.0651 © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Pricing Data Services: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Ying-Ju Chen
+School of Business and Management and School of Engineering, Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong, imchen@ust.hk
+
+Ke-Wei Huang
+Department of Information Systems, National University of Singapore, Singapore 117417, huangkw@comp.nus.edu.sg
+
+M
+
+otivated by the pervasive discrepancy among the pricing schemes of data services, this paper investigates the selection of pricing metrics (variables) and the corresponding pricing plans. We construct a stylized model in which a monopoly data services seller faces heterogeneous consumers whose utilities depend on the usage and the connection speed. We examine three options for the seller to conduct the second-degree (indirect) price discrimination: by minutes, by gigabytes (Gigs), and by megabytes per second (Mbps). We show that the after-sales self-selection behaviors have a signiﬁcant impact on the seller’s proﬁtability, and it leads to a ﬁrstorder inﬂuence on the pricing metric selection. We prove that either pricing by Gigs or Mbps can be optimal. Pricing by Gigs can dominate pricing by Mbps even if the consumer’s utility is more sensitive in changes in the connection speed. We also ﬁnd that when incorporating the bandwidth costs or congestion costs, pricing by Mbps becomes more attractive as it allows the seller to directly control the congestion effect. These ﬁndings may help practitioners to develop their own pricing plans and pricing metrics selection. Keywords : service pricing; price discrimination; versioning; game theory History : Anitesh Barua, Senior Editor; Xianjun Geng, Associate Editor. This paper was received on March 21, 2010, and was with the authors 27 months for 4 revisions. Published online in Articles in Advance August 29, 2016.
+
+1.
+
+Introduction
+
+Since 2000, the explosion of data traveling on the Web has brought in tremendous revenues for Internet service providers (ISPs) and telecommunication companies. Recently, the same trend has propagated to the cell phone industry. While the percentage of cellular carriers’ revenue from data plans remains relatively low in 2010 (less than 20%, even including lucrative text messaging services), the expected year-over-year growth rate is high. Primary drivers for this trend include higher data throughput around 1 megabytes per second (Mbps), availability in most major metropolitan areas, multiple device options (including smartphones, laptops, netbooks, iPads, and eBook readers such as Kindle), and an increasing selection of mobile applications and middleware (Rysavy 2008). In 2008, based on WiMax, the next generation’s wireless technology, Sprint–Nextel started offering data services promising average download/upload of 4/2 Mbps. Typical industry analysts see no roadblocks of the long-term adoption of cellular broadband, particularly after iPhone 3G offered consumers an addictive taste for mobility of computing. Being aware of such a rising trend, how can a data services provider capitalize on the opportunity? Anecdotal evidence from various ISPs and cell phone
+596
+
+companies seems to imply pricing is the key. An intuitive approach for marketing managers is probably to learn from the history of pricing ISP technologies in the past. However, the historical pricing plans are quite different, particularly on how the ISPs choose their “pricing metrics”—the basis or units for price discrimination. Historically, 56 K modem dialup and ISDN ISP services were charged based on per-hour pricing.1 Nowadays, most of the residential ADSL (asymmetric digital subscriber line) services or cable-modem-based ISPs charge consumers based on download/upload speeds.2 As we move toward the era of mobile commerce, leading mobile companies offer wireless broadband 3G services with pricing plans based on the total data usage limit (gigabytes, Gigs, or GB).3 While most of the mobile broadband
+1
+
+For instance, before 1996, the 56 K dial-up pricing plan from AOL (and most ISPs in the 1990s) is $9.95 for the ﬁrst ﬁve hours of online time per month and $2.95 for each extra hour (Baig 1997). In 1998, the ISDN age, PacBell’s pricing plan is a monthly rate of $21.95 for up to 150 hours with additional usage charged at $1.80 per hour (NewsBytes 1998).
+2
+
+Verizon charges consumers $19.99, $29.99, and $39.99 per month for ADSL high speed Internet at 1, 3, and 7.1 Mbps, respectively (data collected from Verizon’s ofﬁcial site as of December 2009).
+3
+
+Speciﬁcally, Sprint offers only one version of a mobile broadband plan (5 gigabytes data allowance at the cost of USD$60 per month),
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+597
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+service providers charge consumers by Gigs, pricing plans based on download/upload speeds (e.g., in Singapore and Malaysia) or time usage (e.g., the per-hour pricing in Taiwan and the per-day pricing in New Zealand) are also adopted contemporarily. The same paradoxical phenomenon exists in the pricing for ﬁxed-line or wireless backhaul data networks in which a large telecommunication vendor charges small ISPs by data usage or by bandwidth. Recent evidence strengthens our conjecture that practitioners do not have scientiﬁc methods to choose pricing metrics for data services, as ﬁxed-line residential ISPs realized that the prevalent pricing by Mbps may not be proﬁt maximizing. For example, in 2008, Time Warner ﬁrst experimented in Texas a trial of “consumption-based billing” or called “metered pricing,” which is essentially one form of pricing by Gigs. They claimed that this strategic move was made to boost the revenue by avoiding the consequences of unfairness pricing (Pegoraro 2009).4 Time Warner’s experiment soon ignited the interests of ISPs all over the world: major ISPs either announced or rolled out testing volume-based plans even at the risks of offending consumers (Chua 2008 and Hartley 2009). Some of these experiments were halted by regulators who believe that they may go against the consumers’ beneﬁts. Nevertheless, this does not preclude the possibility that meticulous design of pricing plans could enhance the ISPs’ proﬁtability, since regulatory concerns and the ISPs’ intrinsic incentives are typically misaligned.5 As another example, during an interview with the Wall Street Journal in November 2010, Verizon’s Chief Financial Ofﬁcer revealed that they were considering a tiered pricing structure for wireless data connection, a pricing method similar to home wired Internet service. However, a few months later, Verizon decided to use pricing by Gigs that is common for 3G plans (Cheng and Raice 2010). This provides a piece of evidence that the pricing metric selection is challenging even for the world’s largest telecommunication company. Motivated by the pervasive discrepancy regarding the pricing scheme and the lack of consensus, this
+Verizon offers two options (5 gigabytes at $59.99 and 50 megabytes at $39.99), whereas AT&T offers three options (5 gigabytes at $60, 50 megabytes at $40, and 10 megabytes at $20). These data were collected from their ofﬁcial websites as of March 2010.
+4
+
+It is reported that some consumers unfairly pile up Gigs of goodies on their digital plates. According to Time Warner’s spokesman, “[a]s few as 5 percent of our consumers use 50 percent of the network.” Furthermore, these bandwidth hogs are commonly denizens of seamy peer-to-peer ﬁle-sharing networks. As a snapshot, one of these gluttons downloaded the equivalent of 1,500 high-deﬁnition movies in a month (Levy 2008).
+5
+
+paper attempts to investigate the selection of pricing metrics and the corresponding ISP pricing plans. In pursuit of this goal, we construct a model in which a monopoly data service provider (seller hereafter) intends to provide heterogeneous consumers data services under second-degree price discrimination plans (also called nonlinear pricing or indirect price discrimination in the literature). Different from utility functions used in the literature, consumers’ utilities comprise three core components: time usage, connection speed, and data usage (which is the product of the ﬁrst two components). On the other hand, consumers are heterogeneous with regard to their willingness-to-pay per unit data usage and/or per connection speed. These unique characteristics suggest that in addition to pricing plans, the seller also has three options of pricing metrics: by time usage (per minute or per hour), by connection speed (per Mbps), and by data usage (per Gigs). In essence, our model adds the ﬁrst-stage metrics selection problem on top of the standard nonlinear pricing model in which it typically takes one pricing metric as exogenously given (e.g., Maskin and Riley 1984 and Mussa and Rosen 1978).6 Without a rigorous analysis, an intelligent guess by marketing professionals could be using the pricing metric that “plays the most important role in the consumers’ utility” or the pricing metric that is most correlated to the heterogeneity in demand. The problem of pricing metrics selection turns out to be more sophisticated. We show that the key criterion for the pricing metric selection is not simply the a priori consumer sensitivities to each pricing metric or demand characteristics; rather, what could matter more is the ﬂexibility left to the consumers to adjust the remaining pricing metrics that are not speciﬁed in the pricing plan. The reason is that ﬂexibility leads to overconsumption relative to the proﬁt-maximizing level, aggravating the conﬂict of interests between the seller and the consumers. To explain this concept, we take ADSL pricing as an example. When the seller prices by Mbps, the consumers are left with ﬂexibility in choosing the data usage, and clearly they will choose the level of usage to maximize their utilities because usage is free. It is intuitive to infer that consumers’ data usage will become too high in the ISPs’ eyes. The intertwining effect between pricing metric and consumers’ after-sales action, to our knowledge, has never been documented in the existing literature on nonlinear pricing or digital goods pricing.
+6
+
+Similarly, in various situations, ISPs are prohibited to exert monopoly power to set a high price at the cost of consumer welfare, but monopoly pricing remains in the best interest of ISPs.
+
+It is worth mentioning that the selection of pricing metrics for ISP seems to be strategic rather than an artifact of technological limitations. In 2010, when Verizon and AT&T were considering pricing plans for 4G, they both stated in the media that pricing by Gigs, by Mbps, or by both are their options. In the end, they still chose per-Gigs pricing for their 4G plans (Cheng and Raice 2010).
+
+598
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Building on this observation, we set up our baseline model in Section 3 to analytically demonstrate these phenomena in a mathematically rigorous manner. We show that proﬁtability of pricing metrics critically depends on how a pricing metric balances the proﬁt from price discrimination and the ﬂexibility left for consumers to adjust after the transaction. In our baseline model, we assume that the utility function is additive of two concave functions in data usage and speed, respectively. Under this assumption, pricing by time usage is suboptimal and interestingly the proﬁt-maximizing pricing strategy based on time is uniform pricing. The reason is that in our baseline model, consumers obtain utilities from the time usage only through the total data usage. Thus, under pricing by minutes, consumers still have the discretion of selecting data usage. The after-sales overconsumption (relative to the proﬁt-maximizing level) is so overwhelming that it forces the seller to abandon the use of multitiered pricing plans. On the contrary, under pricing by Gigs or Mbps, the seller can effectively suppress the after-sales selfselection of the consumers; thus, the optimal pricing strategy is to use multitiered pricing plans. To choose between these two pricing options, the seller needs to gauge complicated cost-beneﬁt analysis. The seller’s ﬁnal revenue can be decomposed into three parts. In addition to the revenue derived from the classical second-degree price discrimination, we identify two novel effects that emerge from the after-sales selfselection behaviors. First, after-sales self-selection can maximize part of the consumer’s utility function and increase the consumer’s overall utility (e.g., buffetstyle pricing can increase consumption and utility). Second, after-sales behaviors could lead to “overconsumption,” especially for heavy-usage consumers. As a result, consumers become more heterogeneous in their preference. This aggravated information asymmetry makes it more challenging for the seller to facilitate price discrimination, thereby leading to the undesirable revenue reduction. We then extend our analysis in several directions. In particular, we incorporate the supply side constraint in two different ways. First, we introduce a waiting cost in the consumer’s utility function. This waiting cost captures the time opportunity cost when the Internet service is too slow. We allow each individual consumer’s waiting cost to depend on the aggregate level of bandwidth usage of the entire population. We ﬁnd that “disutility toward waiting” makes pricing by Mbps more proﬁtable. In addition, when the seller is confronted with the total bandwidth constraint, a similar prediction is established. The underlying reason is that pricing by Mbps allows the seller to directly control the congestion effect. By contrast, under other
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+pricing metrics, the connection speed is at the consumers’ discretion and they do not internalize the negative externality brought to others. The remainder of this paper is organized as follows. Section 2 reviews some relevant literature. In Section 3, we introduce the model. Section 4 characterizes the seller’s optimal pricing scheme. In Section 5, we investigate the impacts of some crucial components of our model setup and discuss the possible consequences. Section 6 concludes and provides several directions for extensions. All proofs are relegated to the appendix.
+
+2.
+
+Literature Review
+
+Our research is built on the nonlinear pricing literature and adds to a growing literature on digital goods pricing using a similar model setup. Previous research has studied nonlinear pricing of digital goods in the contexts of search-based and subscription-fee pricing for online information services (Jain and Kannan 2002), the impacts of menu costs (Sundararajan 2004b), pricing to deter piracy with digital rights management (Sundararajan 2004a), customized bundling (Hitt and Chen 2005), three-part tariff (ﬁxed-up-to (FUT) pricing plan) in the telecommunication industry (Masuda and Whang 2006), versioning with outside options (Chen and Seshadri 2007), personalization with privacy concerns and disposal costs (Chellappa and Shivendu 2010), upgrading pricing strategy (Mehra et al. 2012), and pricing with infrastructure costs (Huang and Sundararajan 2011). However, all of the aforementioned papers do not discuss pricing metrics selection, which is the central issue in this paper. The typical weakness of the aforementioned literature is to assume that all information technology (IT) costs are ﬁxed and irrelevant; thus, the supply side properties of the IT infrastructure are neglected. On the other hand, another well-developed line of analytical pricing research focuses on the supply side explanations for pricing IT services. The seminal study by Mendelson (1985) highlights the optimal transfer pricing for IT services whose supply is subject to capacity constraints, resulting in a fundamental trade-off between the utilization rate and consumers’ delay costs. Many subsequent papers have extended Mendelson’s model, including Mendelson and Whang (1990), Dewan and Mendelson (1990), Gupta et al. (1997, 2000), and Konana et al. (2000). In a related vein, some researchers abstract away from queueing effects and examine other important properties of IT infrastructure. MacKie-Mason and Varian (1995) provides one pioneering stylized model. In the early Internet age, Odlyzko (1998) provides a detailed conceptual summary of related economics
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+599
+
+and business practice about pricing telecommunication services. In a series of papers (Fishburn and Odlyzko 2000, Fishburn et al. 2000), the authors untangle the complicated relationship among infrastructure utilization, infrastructure topology, quality of services (delay), and costing and pricing of the infrastructure capacity or IT services. Along this line of studies, Du et al. (2008a) conceptualize a model of the Internetbased storage provisioning network. They propose a novel “discount factor,” which can be calculated from the service delay and the topology of service providers. This discount factor is examined empirically and serves as an accurate index for the service providers’ incentive to trade excessive storage capacity (see also Du et al. 2008b). Das et al. (2011) investigate the optimal pricing for storage services with demand uncertainty and show that the forward contracts can reduce risk and enhance the service provider’s revenue. Our paper is built on the nonlinear pricing literature; unlike the prior studies, we jointly investigate the speciﬁcations of utility function, information asymmetry, and pricing metrics selection. We further examine how supply side factors (such as congestion costs) interact with the above demand-side effects. Recently, researchers in the information systems (IS) ﬁeld have started to discuss pricing problems similar to our metrics selection problem. Choudhary (2010) provides a pioneering model to study the proﬁtability of different types of price schemes, a concept similar to the pricing metrics in the present paper. The pricing metrics selection is ﬁrst investigated in Huang (2009), where he focuses on the direct (third-degree) price discrimination. Unlike Huang (2009), we incorporate the after-sales behaviors of the consumers and investigate the indirect (second-degree) price discrimination. Lahiri et al. (2008) investigate multiapplication pricing versus data usage pricing. While their primary focus is on the comparison between these two pricing plans and their relation to net-neutrality (i.e., the regulation that ISP vendors should not price discriminate consumers based on the applications), we study the optimal pricing metric for “usage” pricing. It is also worth mentioning that in our baseline model, under pricing by time usage, the seller’s price discrimination power is completely offset by the aftersales consumer behaviors, i.e., uniform pricing is optimal. This ﬁnding is similar to the optimality of “no versioning” in the IS literature. Notably, the profitability of versioning digital goods has been examined in a number of papers, including Bhargava and Choudhary (2001, 2004), Jing (2007), and Jones and Mendelson (2011); see also Bhargava and Choudhary (2008) for a thorough investigation of when and why versioning is optimal in various contexts. This
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+research stream documents that “no versioning,” or equivalently uniform pricing, is optimal when the utility function has a separable form: U q =A q × B − p (Bhargava and Choudhary 2008). Our result may provide a new rationale for the suboptimality of versioning. Since our original speciﬁcation of utility function is increasing and concave in all three pricing metrics, it falls outside the documented regime wherein no versioning is shown to be optimal (e.g., Bhargava and Choudhary 2008). However, the consumer’s after-sales overconsumption could be so strong that it transforms the utility function from a concave function into a multiplicative function of ; this makes it unproﬁtable for the seller to conduct price discrimination. Although the conclusion is the same as that in the versioning literature, the underlying driving force is completely different.
+
+3.
+
+Model
+
+In this section, we introduce our baseline model. Before proceeding, we would like to highlight that our analysis shows that the proﬁt-maximizing pricing metric critically depends on the functional form of the utility function. Various speciﬁcations of utility functions may lead to very different equilibrium outcomes. The utility function proposed in this section serves as an example that is applicable to selected real-world applications. Similar to other complicated economics models, more realistic utility functions are numerically but not analytically tractable. Therefore, based on our exploration efforts so far, it is challenging to devise a perfect functional form for all realistic applications. General properties of the equilibrium will be discussed in Section 5. The main purposes of this section are to explain the distinguishing features of this new pricing problem and to demonstrate how one can analytically solve this problem. Pricing Metrics. We build on the standard nonlinear pricing model (or equivalently second-degree price discrimination model) by Mussa and Rosen (1978). A risk-neutral seller (he) intends to provide data services to heterogeneous consumers indexed by type , and the seller does not know the exact type for each consumer (she). Throughout this paper, we use B , M , and B × M ≡ Q to denote the three pricing metrics. Speciﬁcally, B is the average connection speed per unit time, Q is the total data usage, and M represents the total time usage. Each of these pricing metrics has been adopted in the ISP pricing practice. We will use pricing by B , M , and Q to refer to the pricing plan based on speed, time usage, and data usage.7
+7
+
+In reality, when an ISP prices by B , it is typically by the “best effort delivery” but not by the quality-of-service (QoS) approach in which the ISP promised an average speed. In other words, the
+
+600
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+This study attempts to investigate the pricing metrics selection problem of three cases: two pricing metrics B M and one multiplicative pricing metric Q = B × M . This setup does not perfectly ﬁt all applications because of this simpliﬁed multiplicative property, but it is rich enough to demonstrate the complexity in the metrics selection problem and hopefully provide some practical guidelines. This problem is also scientiﬁcally interesting since it has not been studied in the vast number of nonlinear pricing papers. Consumers’ Utility Function. To provide the simplest model for studying the pricing metrics selection problem, we start our analysis with the following functional form for the consumer’s utility: = UQ Q +UB B  1   BM − BM 2 if BM < Q 2 U Q =  1 2 2 if BM ≥ (1) 2  1 2   B− B if B < B 2 U B =  1 2 if B ≥ 2 Parameters , , and are positive parameters and are identical across consumers. The variables B , M , and Q are assumed to be nonnegative. In other words, we assume the utility function consists of two weakly increasing quadratic functions with satiation points. The ﬁrst term of (1) represents an increasing and concave function of data usage Q. Similarly, the second term is a quadratic function in connection speed B . We impose the two inequalities to ensure that the utility function is always weakly increasing. Once BM > or B > , we assume these two quadratic functions 1 2 2 2 equal 2 or 1 , respectively. 2 The quadratic utility function of one abstract metric in pricing models was ﬁrst adopted by Singh and Vives (1984), and it has been widely used as the microfoundation of linear demand function in applied economics papers. This quadratic functional form is appropriate in our pricing context also for the following reasons. First, it satisﬁes all of the regularity conditions required in the nonlinear pricing literature, as uB M
+nominal Mbps speciﬁed in the real-world pricing plans is neither average speed nor cap of speed. It is an abstract representation of speed and is conceptually similar to the average speed modeled by B in our setup. On the contrary, under pricing by M or Q, ISPs prescribe the exact usages in the prepaid contracts. In practice, most postpaid monthly contracts specify a cap on data usage. In a standard nonlinear pricing model, consumers will consume all usage under the cap and therefore pricing-by-exact-usage or pricing-bycap is equivalent in this kind of model (Masuda and Whang 2006). In theory, using a nonlinear pricing plan is more proﬁtable than using the prevalent FUT pricing plans. We will focus exclusively on nonlinear pricing plans and leave FUT aside to keep our analysis simple and concordant with the majority of the pricing literature.
+
+it is increasing and concave in each pricing variable. Intuitively, this implies that the consumer always prefers more data usage, time usage, and faster connection when the unused pricing metrics are ﬁxed, but it exhibits a diminishing marginal rate of preference for each metric. Second, this functional form has been applied because of its tractability to derive transparent closedform solutions. Hence, it appears frequently as the baseline model or as the main numerical example in the nonlinear pricing literature (Grubb 2009, Hitt and Chen 2005, Huang and Sundararajan 2011, Sundararajan 2004b). This utility assumption is mathematically equivalent to models with u Q = Q 1 2 Q in the vertical and a constant variable cost at 2 differentiation literature (Mussa and Rosen 1978) or Q2 and a zero variable models with u Q = Q− 1 2 cost in the versioning or pricing for digital goods literature (e.g., Chellappa and Shivendu 2007, 2010, and Sundararajan 2004a). Our results can therefore be compared with the existing literature using these assumptions. Tractability requirement is also higher in our analysis because we tackle a problem with more than one potential pricing metric. We defer the discussion about the concavity of B when we explain why consumers can self-select speed at the end of this section. There are two additive, separable quadratic utility functions in (1) for the following reasons. First, this model is connected to the vast empirical literature that examines the utility function or determinants of the value of an Internet connection, ranging from the dialup era in the late 1990s to the modern mobile broadband era. Researchers either use discrete choice models with random utility functions (Ida and Kuroda 2006, Satitsamitpong et al. 2012, Savage and Waldman 2004) or hedonic pricing regression (Deligiorgi et al. 2007, Wallsten and Riso 2014, Stranger and Greenstein 2007, Yu and Prud’Homme 2010). In either case, almost all papers use simple linear regressions with B , M , or Q speciﬁed as explanatory variables.8 Second, the separable form allows us to isolate the two effects a priori in the consumers’ utilities; their interplay is then crystalized after we incorporate the after-sales self-selection. Third, it is arguably the simplest functional form that delivers analytical results. In (1), we include only two (but not three) quadratic components because in reality, it seems that modern ISP consumers do not derive utilities from the time
+8
+
+For example, using linear regression, Yu and Prud’Homme (2010) investigate how pricing of an Internet connection depends on B and Q during 1993 to 2000. Using a discrete choice model to investigate ISP pricing in 2007, Satitsamitpong et al. (2012) assumes U = 0 + 1 × p + 3 × B + (other demographic variables).
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+601
+
+usage alone. The value of time usage seems to be highly correlated with the data usage in most scenarios of ISP pricing. By contrast, some may even argue that u B M should be decreasing in time usage because of the disutility of waiting time. We choose (1) for ease of exposition to explain the complex effects among pricing metrics. We provide an alternative setup with the waiting time disutility in Section 5.2.2. Another justiﬁcation is that earlier empirical studies mostly include time usage in the regression, whereas most recent studies about broadband pricing do not include time usage at all. This hints to the trend that nowadays time usage does not directly affect consumers’ utilities (as opposed to the 1990s). Consumers’ Type and Heterogeneity. In (1), the parameter summarizes the individual consumer’s heterogeneous preference about usage. In the literature, is interpreted as the marginal willingness-to-pay of Q when the utility function is speciﬁed as u Q = 1 2 Q− 2 Q . That is, one unit increase in Q may lead to unit increase in the utility function. The parameter also represents the heterogeneity in preference because the utility-maximizing level of Q critically depends on the value of . In this simplest example, Q∗ = . The relative importance of the preference on B and Q is moderated by three parameters: , , and . The coefﬁcient of the ﬁrst-order term, BM or B , in (1) is versus 1. When ≥ 1, there are two effects: the consumers become more sensitive to changes in Q than in B and the ﬁrst utility function is relatively more valuable than the second one. Therefore, one interpretation of is that it can moderate consumer heterogeneity. To see this, in (1), the local maxima of the ﬁrst quadratic function is , implying larger values of maps to a more diverse utility-maximizing usage level. Parameters and are used to model the concavity of these two quadratic functions.9 The larger or is, the less diminishing return connection speed will be. Take connection speed, B , as an example. In the dialup age, all consumers use the Internet for basic Web browsing and emailing, and they are not much better off when given a higher connection speed and they do not have heterogeneous preference in B . Earlier empirical studies about dialup pricing also show that connection speed is only marginally signiﬁcant in the utility function (Yu and Prud’Homme 2010). The analogy in our setup is that is larger than 1. At
+9 We use the reciprocal of and so that the expressions of solutions are cleaner. Moreover, since scaling up (or down) the consumers’ utility function does not qualitatively change the results, we can conveniently use only three parameters instead of four to simplify notation and interpretations.
+
+the same time, the marginal beneﬁt in getting faster speed could decrease sharply and the satiation speed is relatively low, which in our setting corresponds to having a smaller sensitivity parameter . By contrast, for the modern residential ADSL case, consumers can use a wide variety of applications, such as online games, peer-to-peer applications, Skype, and streaming music or videos. Different consumers may have distinct preferences about which application to use. Also, larger bandwidth is critical in the effectiveness of some applications, which translates to a larger . Information Structure. The functional form (1) is common knowledge in this model. The variables B , M , or B × M are observable pricing metrics. Consistent with the literature, the parameter is privately observed by the consumer but is unknown to the seller. From the seller’s perspective, is a random variable, and for simplicity we assume that it is uniformly distributed over 0 1 . This distributional assumption is relaxed in Section 5. This information asymmetry between the seller and the consumers leads to a single-dimensional screening problem, and it allows us to partially follow the systematic approach developed by Maskin and Riley (1984) (it is only partial as there are multiple pricing metrics). Implicitly, we assume that consumers who have a stronger preference for Q also have a stronger preference for B in this model. Timing. The sequence of events proceeds as follows. Stage 1. The seller determines the pricing metrics out of three options: time usage, data usage, or connection speed. Stage 2. The seller announces a pricing menu as a function of the selected pricing metric: P M M , P B B , or P Q Q , where the superscripts indicate the different scenarios. Stage 3. Each consumer self-selects one pricing option from the pricing menu. Stage 4. Each consumer adjusts the variable(s) not explicitly speciﬁed in the pricing menu to maximize her utility. For example, under pricing by M , the consumer can adjust the speed (B ) or equivalently data usage (Q = BM ) to maximize her utility. Under pricing by B , the data usage (Q) or equivalently the time usage (M ) can be self-selected in this stage. Finally, under pricing by Q, the consumer determines the speed or equivalently the time usage. The majority of the existing literature solves the pricing problem in Stages 2 and 3. Thus, the unique feature here is that we add two additional stages, Stages 1 and 4, to account for the pricing metrics choice of the seller and the after-sales self-selection of the consumers. By backward induction, we ﬁrst take the pricing metrics as given and derive the optimal pricing plans under three different scenarios (Stage 2’s solutions) in Sections 4.1–4.3. Following this, we compare the seller’s maximum expected
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+602
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+proﬁts and determine the optimal pricing metric in Stage 1 in Section 4.4. Notably, in Stage 4 we allow the consumers to adjust the total data usage, time, or speed. In reality, it is natural to assume that ISP subscribers can choose data or time usage. The interpretation of the self-selection of speed includes the following scenarios. First, consumers can select the speed because they can choose from a list of speed-demanding software applications. Using these applications means the consumer chooses a faster speed. Second, some applications allow consumers to specify the speed. For example, most peer-to-peer (P2P) software applications allow consumers to ﬁne-tune the speed as a continuous variable, a scenario that perfectly ﬁts our setup. For streaming video sites, consumers can choose the resolution of videos, which indirectly affects the speed usage. The third possibility is that families or small/medium companies may need to share one broadband connection among several PCs, smart TVs, or mobile devices. Consumers can decide the number of devices to share that connection, which indirectly affects the total speed usage. This list of options also leads to potential concavity in the utility function in B for the following reasons. First, when the faster speed is used for sharing among several users and devices in a large family or smallmedium companies, as B increases, ultimately it can meet the demand of all users in the same local network. Therefore, the utility function is concave when B is large enough. Second, for Skype or streaming videos, when the connection is fast enough, the difference in the quality of the service becomes negligible to consumers. This implies that the utility function could be concave in B . For P2P software or other applications, the beneﬁt of faster connection has decreasing marginal beneﬁts to customers because the disutility of waiting becomes smaller when the duration of waiting becomes smaller. Last, given a ﬁxed limit on speed, we can imagine that consumers will ﬁrst use the application that is more important to them. As the speed increases, consumers start adopting less useful applications. This results in a smaller utility gain and therefore, the utility function in B could be concave. Optimal Pricing Plan. The seller cannot observe the consumer’s type and a nonlinear pricing plan is implemented to maximize expected proﬁts. As an example, the objective function under pricing by M in Stage 2 is given by = max Ɛ P M M
+PM M
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+In general, the (second-stage) problem of designing the pricing plan is fairly complicated since it requires the seller to characterize the entire function. Fortunately, researchers have made signiﬁcant progress in this area and we can greatly simplify the analysis and proofs in this study. Speciﬁcally, as a ﬁrst step, we can invoke the revelation principle to replace the pricing plan (i.e., P M M ) by a menu of type-dependent contracts (i.e., M PM ); see similar arguments in Maskin and Riley (1984) and Sundararajan (2004b). The remaining solution procedure is standard and well established in the literature. Having introduced the consumers’ utility, information structure, and the seller’s objective, we characterize the optimal pricing plans for the three different metrics in Section 4.
+
+4.
+
+Analysis
+
+In this section, we ﬁrst characterize the seller’s optimal pricing scheme in three pricing metrics, respectively. Comparing the proﬁtability of three metrics is reported in Section 4.4. A numerical example is provided in Section 4.5. 4.1. Pricing by Minutes We start with the simplest case in which the seller charges by time usage M in Stage 1. In Stage 2, the seller offers a menu M PM for the consumers to self-select. As a type- consumer chooses an arbitrary contract M ˆ P M ˆ from the menu in ˆ , can Stage 3, her net utility, denoted by U M B be expressed as UM B ˆ = 1 BM ˆ − BM ˆ 2 + B− 1 2 B − PM ˆ 2
+2
+
+(2)
+
+Note that M does not appear in the argument of the left-hand side because it is speciﬁed in the contract and has been ﬁxed in Stage 4. This is also the only difference between (1) and (2). Because the equality Q = BM always holds, the consumer’s problem in Stage 4 is to choose B , or equivalently Q, that maximizes her utility.10 Since (2) is a quadratic function of B , it is straightforward to verify that the optimal solution is one of the local maximal points of two quadratic functions B∗ ˆ = max M ˆ
+
+Given this solution, we next derive the “effective utility function” for the seller to conduct price
+10
+
+and likewise for the other two pricing metrics B and Q. We do not assume any cost function in the objective function. Discussions about the impacts of cost functions are in Section 5.
+
+In our model, the consumer can equivalently choose data usage Q By replacing all B by Q/M , we can derive a quadratic function of Q for maximization. Since the algebra is more complex in this case, we report the results of maximization with respect to B in the main text.
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+603
+M
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+discrimination in Stage 2 and Stage 3. We denote this ˆ ≡ U M B∗ ˆ effective utility function by U M ˆ , where ˆ means consumer type and means the per-M contract designed for type ˆ. Therefore, ˆ is the utility function of type when she UM chooses the contract designed for type ˆ. Furthermore, we let U M ≡ UM to save notation. ∗ ˆ into (2) yields Substituting B UM ˆ =
+2
+
+The seller’s corresponding expected proﬁt is 2 +
+
+= 2/27 ×
+
+Y M ˆ − PM ˆ
+
+(3)
+
+in which Y M ˆ is a complicated function of M ˆ but not . The exact expression of Y M ˆ is given ˆ is also in the appendix. The utility function U M used for calculating the optimal nonlinear pricing in the literature. Notably, the existing literature typically starts with assumptions of the functional form ˆ as a function of M and . Given U M ˆ, of U M researchers derive the optimal pricing plan following the solution procedure in the literature. The seller’s optimization problem in Stage 2 can be formulated as follows:
+M
+
+This lemma highlights the importance of consumers’ self-selection in Stage 4. Given (1), pricing by M seems to be one plausible choice of pricing (at least it shall be more proﬁtable than uniform pricing), because pricing by M captures part of the consumer’s heterogeneity. However, our analysis shows that the ﬂexibility left to the consumers is so strong that the monopoly price discrimination power is completely deprived. An implication of Lemma 1 is that a poorly chosen metric for price discrimination may not generate more proﬁt than the uniform pricing strategy. Recall that this result is derived under the assumption of (1). If (1) indeed characterizes the preference of ISP consumers, our ﬁnding is consistent with the current practice: ISP vendors mostly consider between nonlinear pricing by Q or pricing by B . If (1) contains additional terms in M , Lemma 1 may not hold. Sections 4.2 and 4.3 show that when the pricing metric is different, the seller can still conduct nonlinear pricing and proﬁtability improves. 4.2. Pricing by Mbps Let us now switch to the case in which the seller charges the consumers by connection speed in the ﬁrst stage. The solution procedure is the same as that in Section 4.1. In this scenario, the seller offers a menu B PB to the consumers and each consumer then selects a contract from the menu. As a typeconsumer selects a contract B ˆ P B ˆ , her net utility becomes UB M ˆ = B ˆM − 1 B ˆM 2 +B ˆ −
+2
+
+=
+M
+
+max
+PM
+
+Ɛ PM
+M
+
+s.t.
+
+(IC-M) U
+
+≥U ≥0
+
+M
+
+ˆ ∀
+
+∀
+
+ˆ
+
+(4)
+
+(IR-M) U M
+
+where the incentive compatibility constraint (IC-M) induces the consumer to select the contract designed for her, and the individual rationality constraint (IR-M) guarantees that the consumer is willing to participate. The truth telling is induced without loss of generality given the revelation principle. All of these conditions are exactly the same as those in the literaˆ is derived after we incorpoture, except that U M rate a stage of additional self-selection as illustrated in this section. Solving this seemingly complicated problem turns out to be an easy task. In the versioning literature, the standard assumption is U q = q−p with zero variable cost. It has been well documented that “no versioning,” equivalently uniform pricing, is optimal when the utility function has a separable form: U q =Aq ×B − p (Bhargava and Choudhary 2008). Equation (3) obviously satisﬁes this separable property. As a consequence, the optimal pricing is uniform pricing and the corresponding seller’s proﬁt can be obtained from solving standard monopoly pricing. The results are summarized in the next lemma. Lemma 1. When the utility function is (1), under pricing by M , the optimal pricing plan is uniform pricing M ∗ = Q∗ /B ∗ = PM 2 = 9
+2
+
+1 B ˆ 2 − PB ˆ 2
+
+(5)
+
+/
+
+Similar to Section 4.1, here the consumer has the discretion of deciding how long she spends in using the service (or equivalently Q because Q = BM ). Mathematically, the role of B or M is the same in the ﬁrst two terms, whereas only B appears in the last two terms. Intuitively, this means that in our setup, consumers care about the connection speed, in addition to the preference about data usage, but do not care about the time usage beyond its correlation with data usage. This could be more applicable when pricing residential broadband in recent years but less applicable when pricing dialup services before 2000. From (5), we observe that the consumer’s utility function is again quadratic and concave in M . Thus, the optimal time usage selected by the consumer, ˆ , is an interior solution characterdenoted by M ∗ ized by the ﬁrst-order condition M∗ ˆ = B ˆ (6)
+
++
+
+604
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Note that M ∗ is chosen to maximize the ﬁrst quadratic function, whereas when pricing by M , B is chosen to maximize both quadratic functions. Because both functions are increasing and concave, more ﬂexibility left for consumers in Stage 4 leads to more severe overconsumption. Given the optimal time usage selection, we can then ˆ ≡ U B M∗ ˆ ˆ as the typedeﬁne U B consumer’s maximum net utility if she chooses the contract B ˆ P B ˆ ; furthermore, we let U B ≡ UB to save notation. Substituting (6) into (5), ˆ, we can derive the closed-form expression of U B which becomes the input of the seller’s optimization problem in Stage 2 as follows: U
+B
+
+4.3. Pricing by Gigs Now suppose that the seller charges the consumers by data usage. In this case, the contract only speciﬁes the data usage Q and the corresponding price P Q . Accordingly, a type- consumer has the discretion to select the composition of connection speed and minutes that collectively make her total data usage cap equal to Q ˆ . Given the pricing plan, essentially the consumer can choose B or M to maximize her net utility in Stage 4 UQ B ˆ = 1 Q ˆ Q ˆ − 2 +B − Q =B ×M
+2
+
+ˆ =B ˆ
+B B PB
+
+1 B ˆ − 2
+B
+
+1 2 + 2
+
+2 2
+
+−P
+
+B
+
+ˆ
+
+(7) (8)
+
+1 2 B − PQ ˆ 2 ∀
+
+(12)
+
+= max Ɛ P s.t. U
+B
+
+≥U ≥0
+
+B
+
+ˆ ∀
+
+∀
+
+ˆ
+
+(9) (10)
+
+UB
+
+with the corresponding (IC) and (IR) constraints (9) and (10), respectively. We observe one critical differˆ ence between pricing by B and pricing by M U B is qualitatively the same as the original quadratic function and those utility functions speciﬁed in the 1 2 2 literature with an additional term 2 , whereas M ˆ U is not a simple quadratic function anymore. Lemma 2. When the utility function is (1), under pricing by B , the optimal pricing plan is B P
+B ∗
+
+Compared with (5) in Section 4.2, these two equations are qualitatively the same because of symmetry. Similar to the other two cases, the consumer maximizes (13) by choosing B . It is straightforward to derive B ∗ = . Substituting this term back to (13) leads to the following effective utility function in Stage 3: UQ ˆ = 1 1 Q ˆ − Q ˆ 2+ 2 2
+2
+
+− PQ ˆ
+
+(13)
+
+In Stage 2, the seller’s optimization problem in this case becomes
+Q
+
+=
+Q
+
+max Ɛ P Q
+PQ
+
+(14) ˆ ∀ ∀ ˆ (15) (16)
+
+=
+2
+
+2 −1 + 2 2−6 +3 2 3 −2
+Fixed Fee
+
+=
+
+1 2 − − 2
+
+s.t. (11)
+
+UQ U
+Q
+
+≥ UQ ≥0
+
+1 = 4 +3
+
+2
+
+2 +
+
+2
+
++
+
+2
+
++
+
+4
+
+2
+
+The optimal solution to the above optimization problem is summarized below. Lemma 3. When the utility function is (1), under pricing by Q, the optimal pricing plan is Q∗ PQ = =
+2
+
+The seller’s corresponding maximum expected proﬁt is B = 1 2 +1 − 2 −4 − 2 and is the lowest-type 6 3 2 customer served by the seller. All of these results are qualitatively similar to those in the nonlinear pricing literature. For example, the highest-type consumer (with = 1) receives the welfare-maximizing connection speed, whereas all other types select degraded connection speeds. Although P B looks complicated at ﬁrst sight, it includes a constant term that corresponds to a ﬁxed access fee to the data service (i.e., it does not depend on ). It can be veriﬁed that P B is a concave function of furthermore, once we substitute by B ∗ , P B B is indeed a concave function. Thus, the seller provides discounts to consumers who subscribe to more expensive plans with faster speed.
+
+=
+2
+
+2 −1
+2
+
+1 2 − − 2
+2
+
++
+2
+
+2 2 −6 +3 2 3 −2
+2+ 2
+
+(17)
+
+1 3 +4
+
++2
+
++
+
+The seller’s corresponding maximum expected proﬁt is 1 Q 2 2 =6 − 2 1 − + 2 −4 . 2 3 Solutions in Lemmas 2 and 3 are the same when 2 we replace by . Having characterized the optimal pricing plans under different pricing metrics, we proceed to compare the seller’s expected proﬁts in Section 4.4.
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+605
+
+4.4. Comparison We are now ready to derive the optimal pricing metric(s) in Stage 1. Our ﬁndings are summarized in the following proposition. Proposition 1. Suppose (1) approximates the consumers’ utility. We ﬁnd the following: 1. Under pricing by M , the seller offers uniform pricing, whereas in the other two scenarios, the seller offers multitiered pricing plans at optimality. 2. Pricing by M is suboptimal. 3. Comparing pricing by Q and B , pricing by B is proﬁt maximizing if and only if ≥ 2 . The ﬁrst implication of Proposition 1 is that pricing by M is inferior to the other two options. The main reason is that the after-sales selection by consumers provides too much leeway for consumers. Thus, pricing by M is relatively ineffective in screening among heterogeneous consumers. Our result suggests that when the consumer preference is perfectly characterized in (1), pricing by Q or pricing by B is optimal. Although the equilibrium proﬁt functions are complicated, the comparison result is neat. Pricing by B is more proﬁtable than pricing by Q when ≥ 2 . In the current setting, the (ﬁrst-order) parameters of Q ˆ and B ˆ in (1) are and 1, respectively. When < 1, the ﬁrst concave function in Q is smaller than the second concave function in B . Therefore, pricing by B seems to be more attractive in this case. Regarding the secondorder parameters in (1), we can make a similar conjecture: when ≥ , the second concave function in B is generally larger. Formally, if we give the consumer full ﬂexibility to self-select both Q and B , the maxi1 2 2 mal utilities of these two concave functions are 2 1 2 2 and 2 , respectively. Therefore, ≥ implies the potential proﬁt from the second function is larger. We summarize the procedure to select the pricing metrics as follows. Observation 1. 1. We eliminate the options of metrics that leave too much ﬂexibility to consumers, especially the metric that is always a multiplicative component of a more inﬂuential metric, such as M is part of Q in our baseline setup. 2. Among the remaining metrics, our additivity assumption allows us to consider the proﬁt from two metrics separately. The seller then compares the price discrimination beneﬁt from the chosen metric and the proﬁt loss from the consumers’ overconsumption relative to the proﬁtmaximizing level. Our model provides one potential explanation regarding why residential ADSL is priced by Mbps, whereas 3G cellular ISPs use pricing by Q. At the same time, ISPs hesitate to move from pricing by Q to pricing by B in the 4G age. As we explained earlier,
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+residential ADSL consumers are more heterogeneous in speed because of bandwidth sharing and heterogeneity in the applications they prefer (with a relatively smaller ). By contrast, users of 3G mainly use email or browsing, and they rarely share 3G bandwidth. Both suggest that 3G users are less heterogeneous in speed. Similarly, the utility derived directly from speed is less important than the utility derived from data usage. Therefore, ADSL should be priced by Mbps than by Gigs. The 4G services could provide the speed as fast as earlier ADSL did. However, U.S. operators unambiguously choose pricing by Q. This could result from the fact that there is no bandwidth sharing among multiple users or devices, and few consumers have developed the habit to use speed-demanding applications over their cell phones. Comparing the ADSL pricing versus 4G pricing suggests the explanation is more of demand side than of supply side, because 4G may have more bandwidth in its nascent stage with few adopters. The discussion about the general applicability of this observation is in Section 5.1. Next, we will numerically investigate how three pricing metrics may affect consumer surplus, welfare, and a seller’s proﬁt. 4.5. Numerical Example This section reports the results of a numerical example to shed more light on our ﬁndings. The utility function solved in this example is given by 1 1 BM 2 + B − B 2 2 2 In other words, = 2, = = 1. This implies that consumers value data usage more than connection speed. For ease of exposition, we provide graphic illustrations in Figures 1–3. In these ﬁgures, the solid line is the result from pricing by M , the dashed line is the result from pricing by B , and the dotted line is the result from pricing by Q. Proﬁt Comparisons. As in other price discrimination cases, under pricing by B or Q, consumers with high valuations are charged higher prices than in the single price scenario, whereas consumers with low valuations are charged lower prices; furthermore, the market coverage becomes larger. In our model, the seller’s proﬁt of pricing either by B or by Q is higher than that in the single price case. A surprising result is that pricing by B is slightly more proﬁtable than pricing by M (with uniform pricing). The seller’s proﬁts under these three pricing metrics are 0.403 (by Q) > 0.377 (by B ) > 0.370 (by M ); the proﬁt improvement using pricing by B over uniform pricing is 1.89%. By sharp contrast, the improvement is 8.92% from the optimal pricing metric Q over the second best metric B . This illustrates the importance of pricing metrics selection. A poorly chosen metric can be as ineffective as surrendering most price discrimination power. uB M = 2BM −
+
+606
+Figure 1
+1.4 1.2 1.0
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Seller’s Proﬁts Under Three Pricing Metrics
+
+optimal connection speed and data usages. We denote the solutions by superscript e. From the consumers’ utility functions in (1) and the fact that the seller incurs no variable cost of providing services, the socially optimal solutions should be11 Be = and Qe = (18)
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Profit
+
+0.8 0.6 0.4 0.2 0 0.5 0.6 0.7 0.8 0.9 1.0
+
+where superscript e indicates the efﬁcient levels. For ease of exposition, deﬁne x + = max x 0 as the positive part for any x. Comparing (18) to Lemmas 2 and 3, we observe a downward distortion B∗ = 2 −1
++
+
+and Q∗
+
+=
+
+2 −1
+
++
+
+Type
+Figure 2
+3
+
+Social Welfare Under Three Pricing Metrics
+
+2
+
+1
+
+0 0.5 0.6 0.7 0.8 0.9 1.0
+
+Type
+Figure 3
+1.4 1.2 1.0
+
+Consumer Surplus Under Three Pricing Metrics
+
+0.8 0.6 0.4 0.2 0 0.5 0.6 0.7 0.8 0.9 1.0
+
+Type
+
+Welfare Implications. So far, we mainly focus on the revenue maximization from the seller’s perspective. Nevertheless, these pricing metrics also have strong implications on the consumer surplus and social welfare. To this end, we shall ﬁrst characterize the socially
+
+This is the standard distortion result from information asymmetry in the literature, and we provide a graphic illustration in Figure 2. Under pricing by M , the seller offers an unlimited usage plan. Accordingly, consumers will self-select the efﬁcient usage and the welfare is therefore the highest. However, a welfare loss arises from the seller’s revenue maximization incentive because fewer consumers are served. Under the optimal pricing plan by Q, much more consumers with low valuations are served by low usage plans. The total welfare in the numerical example is 0.616 (by Q) > 0.593 (by B ) > 0.586 (by M ). In other words, price discrimination is beneﬁcial to society in this example. Consumer Surplus. Consumer surplus can be derived by substituting the solutions in each case into uB M in (1). Numerical results are shown in Figure 3. Consistent with the ﬁndings in the pricing literature, consumers with high valuations are worse off under price discrimination, whereas consumers with low valuations beneﬁt. The total consumer surplus is 0.213 (by Q) < 0.2159 (by B ) < 0.2161 (by M ). In this example, the aggregate consumer surplus is lower under price discrimination, suggesting that the seller becomes the primary beneﬁciary of the increased welfare. Proﬁt Sensitivity in and . We also numerically analyze how three parameters may affect the profitability of pricing metrics. First, we consider the case with = = 1 while is a variable. Now we can draw three curves to illustrate how proﬁt may change with respect to . Our example suggests that pricing by M is indeed suboptimal while the proﬁtability of the other two depends on the value of . The larger is, the more proﬁtable pricing by B . Moreover, our ﬁgure shows that when has extreme values, selecting the right metric becomes more critical to the ﬁrm’s proﬁt.
+11
+
+Surplus
+
+Welfare
+
+Maximizing (1) with respect to B , M , or Q, respectively, yields the welfare-maximizing results.
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+607
+
+Figure 4
+0.19 0.18 0.17
+
+(Color online) Seller’s Proﬁts versus
+Price by B
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Profit
+
+0.16 0.15 0.14 0.13 0.12 0.11 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 Price by Q Price by M
+
+to investigate under what general conditions our ﬁndings in the baseline model are still valid and also how the utility’s functional form may affect our results. We ﬁrst start with a special case of utility function that illustrates the intrinsic reason that pricing by M is dominated by the other two pricing metrics in Section 5.1.1. In Section 5.2, we present a general formulation and highlight the underlying forces that lead to the differences in proﬁtability from pricing by B or Q. 5.1.1. General Utility Function with Multiplicative Pricing Metrics. Suppose that the consumer’s utility function depends only on Q but is independent of M and B , i.e., U B M ≡ U Q , where Q = BM . In such a scenario, this model degenerates to the standard nonlinear pricing model. We can show that the seller should simply choose Q as the pricing metric. Proposition 2. If U B M ≡ U Q , then pricing by Q weakly outperforms pricing by M and by B .
+
+Figure 5
+0.26 0.24 0.22 0.20
+
+(Color online) Seller’s Proﬁts versus
+
+Price by B
+
+Profit
+
+0.18 0.16 Price by M 0.14 0.12 0.10 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 Price by Q
+
+To explain the rationale behind this proposition, it is helpful to review the optimality condition (ﬁrstorder condition) for deriving optimal pricing plans from the literature. Assuming U Q satisﬁes several general assumptions developed in the literature,12 the following has been well documented. Lemma 4. Suppose U B M ≡U Q 1. The seller’s proﬁt can be expressed as
+1
+
+.
+
+P =
+
+d
+1
+
+U Q
+
+−
+
+U Q
+
+1−F f
+
++
+
+d
+
+(19)
+
+We next consider the case in which = = 1 while is a variable. In Figures 4 and 5, the three profitability curves are qualitatively similar to the previous example. The major difference is that in Figure 5, the curves are more concave than their counterparts in Figure 4. Although we have three parameters, the ﬁgure by varying is qualitatively the same as Figure 5 when = 1. Therefore, this case is omitted for brevity.
+
+where is the lowest-type consumer who is served. 2. The optimal quantity plan Q∗ is determined by maximizing the integrand of (19) pointwise. Speciﬁcally, if the integrand is increasing in Q, then the optimal solution of Q is the upper bound of Q. If the integrand is a concave function, the optimal solution of Q is determined by the ﬁrst-order condition. 3. Given Q∗ , the optimal pricing plan P for type is determined by the following formula: P = U Q∗ − U Q t dt t
+
+5.
+
+Discussions and Extensions
+
+In this section, we consider two variants of our model characteristics to evaluate the robustness of the results from our baseline model. We will investigate how variations in the utility functions and supply constraints affect the implications from our baseline model. 5.1. General Utility and Type Distribution In the ﬁrst extension, we accommodate the general utility function form and type distribution. The goal is
+
+Please refer to Grubb (2009), Maskin and Riley (1984), and Sundararajan (2004b) for the detailed assumptions and proofs. All of our baseline results can be derived by this lemma. This result allows us to better explain the proof of Proposition 2 in a succinct
+This list of assumptions includes U Q is increasing and concave in Q, U Q is increasing in and the single-crossing condition that 2 U Q / Q > 0.
+12
+
+608
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+way. The optimal data usage plan is determined by the following equation as stated in the lemma: max U Q
+Q
+
+−
+
+U Q
+
+×
+
+1−F f
+
++
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+This is weakly larger than max U BM − U BM × 1−F f
++
+
+Next, we investigate the proﬁtability between pricing by Q or B . Take the pricing by B as an example. In Stage 4, each consumer self-selects Q to maximize her own utility U Q Q and the solution is the efﬁcient usage Qe = arg max U Q Q . Substituting it back to the seller’s proﬁt function, we obtain the following expression: max
+B B 1
+
+B or M
+
+=
+0
+
+U Q Qe
+1st Effect
+
+−
+
+U Q Qe
+
+1−F f 1−F f
++
+
+irrespective of what the consumers choose for M or B in Stage 4. Intuitively, under pricing by Q, although consumers can still choose the values of either M or B , they cannot effectively affect the utility function. This is because Q is the only variable that affects the utility function, and it is also the only term speciﬁed by the seller in the pricing contract. By contrast, if the seller prices by B or M , the self-selection in Stage 4 can only adversely affect the seller’s proﬁt maximization. Therefore, in this case, Q is the optimal pricing metric. 5.1.2. General Formulation to Quantify the SelfSelection Effects. We now generalize the utility function to the following one: U = UQ Q +UB B (20)
+
+2nd Effect
+
++U B B
+
+−
+
+UB B
+3rd Effect
+
+×
+
+d
+
+(21)
+
+where each utility function is increasingly concave and it satisﬁes other regularity conditions in the nonlinear pricing literature. Applying Lemma 4, the seller’s proﬁt function is given by
+1
+
+UQ Q
+
++UB B 1−F f
++
+
+Consumer Surplus
+
+−
+
+UQ Q
+
++UB B
+Information Rent
+
+×
+
+d
+
+In this equation, the ﬁrst two terms in the integrand are simply the consumer’s utility function. If the seller can identify each consumer’s type and conduct ﬁrstdegree price discrimination, his proﬁt is simply the sum of the ﬁrst two terms. Information asymmetry inevitably reduces the seller’s proﬁt and forces him to leave some surplus to consumers; this is labeled as the information rent in the literature and is captured by the last two terms (Maskin and Riley 1984). Equation (20) is a generalized form of (1) in our baseline setup. Similar to Proposition 4, we can still show that pricing by M is suboptimal, because M is a multiplicative component of Q in the utility function. Proposition 3. If U B M ≡ U Q Q +U B B then pricing by M is weakly worse than pricing by Q. ,
+
+This expression succinctly summarizes three effects in this model. Note that the seller can only choose B and can directly inﬂuence only the third effect, whereas the ﬁrst two effects are “decided” by the consumers. First, when a pricing metric is not speciﬁed in the contract, the consumer will self-select it at the welfare-maximizing (ﬁrst-best) level. This exceeds the proﬁt-maximizing (second-best) level as various researchers have shown. Second, consumers’ self-selection in Stage 4 makes the resulting utility function more sensitive to (i.e., U Q / is larger because Q is larger than the second-best level). This exacerbated heterogeneity among consumers makes it more costly for the seller to conduct second-degree price discrimination, and consequently the seller has to pay more information rent. The third effect is the traditional price discrimination effect. It coincides with the seller’s proﬁt function in Lemma 4, and can be interpreted as the isolated effect wherein the seller ignores the consumer’s after-sales self-selection. For ease of exposition, let us denote the proﬁtmaximizing level by Q and B . Equation (21) vividly summarizes the conﬂict between the seller and the consumers. The seller can use the pricing plan to induce consumers to choose the proﬁt-maximizing B and leave the ﬂexibility for the consumers to choose Qe , which can be shown to be larger than and the overconsumption leads to a lower Q proﬁt level. If the seller prices by Q, the situation reverses: the seller chooses Q and the consumer chooses B e which is again larger than B . In general, the seller needs to balance the gain and loss of three effects to decide the total proﬁt between B Qe versus B e Q . Our baseline criterion in Proposition 1 may be applicable only to quadratic utility functions. In general, the seller has to balance the loss in the ﬁrst two terms and the gain from the last two terms to decide the optimal pricing metric. Decomposing the total proﬁt into three terms in (21) also produces a valuable by-product. When
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+609
+
+U B B / or U Q Qe / is zero, pricing by Q or B is optimal, respectively. This result can be deduced without proof because (21) already shows that when U Q Qe / = 0 the integrand is already optimized; there is no downside to let the consumers selfselect Q.
+
+assume the seller incurs a ﬁxed cost for improving its infrastructure to provide bandwidth capacity. The new proﬁt function is therefore = max
+B PB 1
+
+Ɛ PB
+
+−C T
+
+(22)
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Proposition 4. If U B M ≡ UQ Q + UB B , then pricing by Q is more proﬁtable than pricing by B . Similarly, if U B M ≡ UQ B + U B Q , then pricing by B is more proﬁtable than pricing by Q. A number of real-world pricing problems that do not meet the assumptions of our baseline model could be solved by Proposition 4. Note that in (20), our speciﬁcation of utility function only comprises two pricing metrics. Therefore, our analysis can be applied to those applications with only two natural pricing metrics. For example, ﬁxed-line telephone services could be priced by the number of phone calls or the total minutes of phone calls. To decide the proﬁtmaximizing metric, the telecommunication company can evaluate the gain from price discrimination by one metric and the loss from overconsumption (relative to the proﬁt-maximizing level) by the other metric using the methodology provided in this section. Long-distance ﬁxed-line telephones are mostly priced by time usage because consumers’ utility function may have a larger proportion in total time usage than in the number of phone calls. By contrast, local ﬁxed-line phone pricing provides a good contrasting example. When consumers place local phone calls, the number of phone calls is relatively more important than total time usage. As another interesting example, hotels typically charge ISP services by time usage, not by speed or even data usage. This is in sharp contrast to residential ISP and our analysis provides one possible reason. Most hotel guests need the Internet primarily for emails and browsing (so speed becomes secondary) and they may need to check emails daily. Therefore, consumers are more concerned about time usage and they care less about data usage in this context. This leads to the phenomenon that pricing by time usage such as “number of days” becomes more proﬁtable than pricing by data usage. 5.2. Supply Side Constraints In this section, we incorporate the supply side constraints into our setup. 5.2.1. Aggregated Bandwidth Costs. In our basic framework, we focus exclusively on the demand side concerns, leaving the supply side issues unaddressed. A notable issue is the presence of aggregate bandwidth capacity constraint, which is particularly crucial for dial-up or 3G wireless broadband connections. To incorporate the bandwidth capacity concern, we
+
+where T = B d represents the seller’s total bandwidth capacity. In this scenario, the selection of pricing metrics and the design of pricing plans must take into account this supply constraint. In the nonlinear pricing literature, it has been documented that the convex cost function C T gives rise to an endogenously determined constant variable cost (Huang and Sundararajan 2011). This variable cost corresponds to the “shadow price,” i.e., the incremental beneﬁt that the seller obtains while marginally increasing the bandwidth capacity. Equation (22) is equivalent to a pricing problem with a constant variable cost on B as follows: = max Ɛ P B
+B PB
+
+− B
+
+(23)
+
+where is the Lagrange multiplier associated with the total bandwidth constraint. In other words, this setup also covers the extensions in which there is a constant variable cost associated with the pricing metric. It can be veriﬁed that the solution procedures in Stages 3 and 4 are entirely the same. Even in Stage 2, the solutions about pricing by M and Q are still the same because the seller cannot choose B , which is chosen by the consumers in Stage 4 to maximize the utility function. Therefore, pricing by M is still suboptimal and only the solution of pricing by B is different. As a result, the relative proﬁtability between pricing by Q and pricing by B is different from that in the baseline case. Our main ﬁnding is summarized in the following proposition. Proposition 5. Suppose that the utility function is given by (1), and the seller incurs a ﬁxed cost function in the total bandwidth. Pricing by M is still the least profitable pricing option. Pricing by B becomes relatively more proﬁtable than pricing by Q, relative to Proposition 1. The intuition is as follows. Under pricing by B , the seller can set higher prices per Mbps to balance the marginal revenue and the marginal cost that results from C T . However, under other pricing metrics, B is not controlled by the seller but is chosen by the consumers. Thus, the equilibrium choice of B maximizes the consumer’s utility but does not internalize the infrastructure cost C T . Proposition 5 suggests the following. As long as there is a ﬁxed cost that is a function of the sum of one particular pricing metric, the seller’s incentive to use that pricing metric is strengthened. Because Huang and Sundararajan (2011) show that (22) is equivalent to a pricing
+
+610
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+problem with a constant variable cost on B , a variable cost in pricing metric also increases the seller’s proﬁt from using that pricing metric. In the ISP context, it seems that only the connection speed B contributes to the operating cost; this subsequently provides one more incentive for the seller to choose pricing by B . In different kinds of service pricing, costs may be a function of the total amount or the number of transactions, leading to the possibility of optimal pricing plans using different metrics. At ﬁrst glance, Proposition 5 may look inconsistent with the residential ADSL pricing: the total bandwidth is quite sufﬁcient but ISPs price by B , whereas bandwidth constrained mobile service providers price by Q. One possibility is that the ADSL service over a ﬁber optic network is more expensive than the mobile ISP infrastructure. The other conjecture is that the demand-side effects may have dominated this supply side effect. In practice, as data communication technology advances, the bandwidth limitation for each consumer will be relaxed. The number of applications available in the market also increases sharply. Therefore, the shape of the utility function becomes quite different in speed and data usage. Take the residential ADSL in 2012 as an example. According to Forrester (Anderson 2010), more and more consumers may need connection speeds faster than a threshold to use streaming videos, Skype, virtual world, P2P applications, real-time gambling, or multiplayer online games. Some families or small companies may need to share the bandwidth with more than ﬁve members. These emerging applications make consumers more heterogeneous in their preferences over connection speed, because some consumers may still use ADSL for emails and basic browsing. As a result, pricing by Q could be less proﬁtable for ADSL. In sharp contrast, by dialup or 3G data services, consumers mostly use emails and basic browsing features. In the dialup age, consumers may not have heterogeneous preference over speed at all because no speed-demanding applications are available. Pushing this idea further, we note that in the utility function, consumers are more heterogeneous about the data usage than speed ( is larger); therefore, pricing by Q is more proﬁtable.13 In recent years, ISPs attempted to move to pricing by Q because if all consumers have already adopted speed demanding
+13
+
+applications, their preference could become more heterogeneous in Gigs than in Mbps. Therefore, residential ISPs may realize that if approved by regulators, it will be more proﬁtable to price by Gigs. 5.2.2. Disutility of Waiting. In reality, the usage of a consumer may impose negative externality on others. For example, in the ISP pricing application, consumers may have to wait for a long time when there are many consumers due to the limited bandwidth. This creates the disutility of waiting and shall be incorporated in our model. To this end, we follow the approach of Masuda and Whang (2006) to incorporate the disutility of waiting via the modiﬁed utility function 1 1 BM 2 + B − B 2 − Q × C T 2 2 (24) 1 where T = B d is the total connection speed and C is a continuously increasing, convex cost function. The addition of the last term represents the disutility of waiting. There are two main differences between (22) and (24). First, (22) includes an additional cost term, whereas (24) includes an additional disutility, relative to the baseline model. Second, (22) includes a ﬁxed cost that is theoretically equivalent to a constant variable cost. By contrast, disutility in (24) is proportional to data usage. Notably, while Masuda and Whang (2006) focus on the two-type case to show the equivalence between FUT pricing and the optimal pricing plan, we allow for a continuum of consumer types. Given this setup, we can show the following: uB M = BM − Proposition 6. Suppose the utility function is given by (24). Pricing by M is still the least proﬁtable pricing option. Pricing by B becomes relatively more proﬁtable than pricing by Q, relative to Proposition 1. The intuition behind this proposition is as follows: when pricing by M or Q, consumers self-select B in the last stage. This self-selection is qualitatively the same as that in our baseline model: a consumer’s selection of B will not affect T because she is inﬁnitesimal (Masuda and Whang 2006). Returning to Stage 2, the seller’s price discrimination problem is qualitatively the same as that in the baseline case. Therefore, single pricing is still optimal under pricing by M because the self-selection is too strong. When the seller prices by Q, the results are qualitatively similar after we incorporate the terms associated with Q × C T . The optimal pricing by B becomes more complicated. First, in Stage 4, consumers will choose a smaller data usage because of −Q × C T . This then leads to a different stage 2, because C T depends on 1 B d and B can be manipulated by the seller directly. Despite this difﬁculty, we are able to show
+
+In the dialup age, the utility function could be better described by uB M = 1 1 Q − Q2 + B 2
+
+where B is smaller than a technology constraint K (such as 56 kbps). In this case, consumers are not heterogeneous in B . Pricing by Q or M becomes the optimal choice. This observation supports the business practice in the dialup era. Details are available on request.
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+611
+
+Table 1 Case 1 2 3 4 5 6 U UQ UQ UQ UQ UQ
+Q
+
+Summary of Results Utility function Q Q Q Q Q Q + UB + UB + UB + UB + UB B B B B B Cost function n.a. n.a. n.a. 1 C B C ×B n.a. Optimal metric selection Q is more proﬁtable than B and M . M is suboptimal. Either Q or B could be optimal. Q is more proﬁtable than B and M . M is suboptimal. B is more proﬁtable than case 2. M is suboptimal. B is more proﬁtable than case 2. M is suboptimal. B is more proﬁtable than case 2.
+
+d
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+− QC
+
+1
+
+B
+
+d
+
+that the proﬁt in this case becomes relatively larger than that from pricing by Q. Since the disutility term depends on both Q and B , one may conjecture that the dominance of pricing by B or Q requires very different conditions from those in 1. Nevertheless, this conjecture is not true because of the important role of the consumers’ Stage 4 self-selection. First, the new term Q × C T does not depend on directly and therefore it does not affect the cannibalization problem under price discrimination (no second effect in (21)). Rather, Q × C T affects the ﬁrst and third effects identiﬁed in Section 5.1.2. Under pricing by Q, consumers self-select the connection speed B , leading to a more serious congestion problem. The beneﬁt of this pricing plan is that the seller can directly balance the cost and beneﬁt of Q × C T in the third effect. At the same time, the shortcoming is that the seller can only indirectly alleviate the delay cost C T by charging higher prices on Q. By contrast, underpricing by B , he directly adjusts the pricing plans to mitigate the congestion problem, whereas the impact of Q × C T is controlled by consumers in Stage 4 (effect 1). Because Q × C T does not depend on , there is no conﬂict of interests between the seller and consumers, as they both intend to maximize the consumers’ beneﬁt in either effect 1 or effect 3. Consequently, the beneﬁt of pricing by Q disappears, leading to the dominance of pricing by B .
+
+6.
+
+Conclusions
+
+In this paper, we investigate the selection of pricing metrics and the design of pricing plans for the sellers of data services. We observe that the pricing metric selection crucially depends on the role of pricing metrics in the utility function, and the after-sales consumer behavior is inﬂuential in the seller’s profitability. Please refer to Table 1 for the summary of results. The after-sales selection allows the consumers to maximize their own utility functions by choosing pricing metrics not speciﬁed in the pricing contract. Typically, consumers will consume much more than the proﬁt-maximizing level, adversely impacting the seller’s proﬁt. We show that in the extreme case, a pricing metric, such as time usage in the baseline
+
+case (case 2 in Table 1), may not provide any additional proﬁts from price discrimination. This conclusion is reached under the utility assumption speciﬁed in Table 1. In some applications, such as Skype pricing or ISP pricing during hotel stays, time usage may play a more important role in the utility function. For example, we can replace B by M in cases 1, 2, and 3 of Table 1 and pricing by time usage may become the proﬁt-maximizing choice. One shall be cautious when applying these results for a practical pricing problem. At a higher level, our analysis suggests that when considering among the options of pricing metrics, the seller should balance three effects. The ﬁrst effect is traditional price discrimination. The second effect is aftersales self-selection. It can increase the willingness-topay for data services, similar to an “all-you-can-eat” option in other pricing contexts. For any unspeciﬁed metrics, consumers will self-select to maximize their own utility. Third, however, the associated increase in utility aggravates information asymmetry because higher-type consumers with heavier usage will gain much more than lower-type users. This increases heterogeneity among consumers and reduces proﬁt from second-degree price discrimination. Our model may be extended in a couple of ways. First, for simplicity, we do not impose an upper bound on the pricing metrics in our current analysis. Instead, consumers will consume at the satiation level of a pricing metric that is not speciﬁed in the pricing contract. In the ISP practice, even if a metric is not speciﬁed as the pricing basis in the contract, that metric may face an artiﬁcial or technological upper limit when the user self-selects after sales. For example, when pricing by data usage, speed may be capped artiﬁcially by the ISP or there is a technical limit of speed. Our conjecture is as follows. If the limit is smaller than the proﬁt-maximizing level, then the seller may not choose this metric because leaving it for consumers to self-select does not create conﬂict with the seller. If the limit is between the proﬁt-maximizing level and the satiation level (the level solved in the current paper), then this upper limit alleviates the conﬂict between the seller and the consumer. In other words, when being left unused this metric becomes less harmful.
+
+612
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Second, we assume that consumers can perfectly predict how much they will use the services. In some scenarios, it is possible that while signing the contract, consumers face future uncertainties and consequently ex post usages may be different from their ex ante estimates (see Grubb 2009 and Jain and Kannan 2002). Conceivably, consumers are more inclined to pay more for the pricing plans that lead to a lower variance of future payment. Hence, the seller should price by the metric that leads to a smaller variance in future payments. At the same time, as illustrated in our paper, the after-sales consumer behavior may have signiﬁcant impacts on the effective utility function. Therefore, the seller should also consider which metric can mitigate the consumer risk because of their after-sales self-selection behavior. Third, we shall also acknowledge that in the literature there is another way to explicitly incorporate the queuing feature in the nonlinear pricing setup to model bandwidth congestion costs, e.g., Afèche and Mendelson (2004). However, in this line of study, the majority of the authors’ effort is devoted to characterizing the performance evaluation of the underlying queuing problem, because this signiﬁcantly inﬂuences what kind of quality of service guarantee the seller can provide, and what portion of consumers will endogenously join the system in equilibrium. Including queuing features is certainly interesting, and it shall generate novel and nonoverlapping insights to the metrics selection problem. Fourth, consumers may be heterogeneous along different dimensions (such as sensitivities to total usage, speed, and time), and these sensitivities may not be perfectly correlated. For example, among consumers who only use basic browsing and email services (not sensitive in speed), some may be more sensitive in usage than others. This case is ruled out in the single-dimensional setup. Despite its generality, multidimensional setup is rarely adopted in the overwhelming majority of the literature because of the tractability concern (Rochet and Stole 2003, Armstrong and Rochet 1999, Armstrong 2000, and Asker and Cantillon 2008). At the same time, to our knowledge, no contemporary pricing plan of data services simultaneously speciﬁes more than one pricing metric. Extending along this direction is challenging. Finally, it is also intriguing to evaluate the consumers’ psychological reactions to the pricing metrics. For example, consumers prefer “simple” pricing plans. However, analytical modeling studies seem to lack consensus regarding how to quantify the simplicity of pricing plans, or how to incorporate bounded rationality of consumers into mainstream economics models. Also, consumers may perceive different levels of fairness attached to distinctive pricing metrics. In practice, it is perceived as unfair for airlines to price
+
+by volume or by weight of a passenger but it is perceived as fair to price air freight cargos by volume or by weight. Incorporating behavioral issues into pricing is an important future research direction for pricing analytical studies. Acknowledgments
+The authors thank the review team for their detailed comments and many valuable suggestions that have signiﬁcantly improved the quality of the paper. The ﬁrst author is partially supported by Hong Kong Research Grants Council [Grants 616613, 16206814, and 16502815]. The second author is partially sponsored by the Singapore Ministry of Education [Grant R253-000-103-112]. Authorship is in alphabetical order. The second author is the corresponding author. All the remaining errors are those of the authors.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Appendix. Proofs
+Proof of Lemma 1. The consumer’s problem in Stage 4 is to choose a connection speed B that maximizes her utility. Because both quadratic functions in the utility function are always increasing and concave when M ˆ is ﬁxed, we ˆ / B = 0. cannot derive the maximizer directly by U M B The reason is that the derivatives of BM ˆ − 1/ 2 · BM ˆ 2 and the derivative of B − 1/ 2 B 2 are always greater than or equal to zero. The maximizer is determined ˆ that makes both derivatives zero. Othby ﬁnding the B ∗ erwise, a larger B always increases the objective function. The maximizer of BM ˆ − 1/ 2 BM ˆ 2 is B = ˆ /M and the maximizer of B − 1/ 2 B 2 is B = . ˆ / B is As a result, the overall maximizer of U M B given by B∗ ˆ = max M ˆ
+∗
+
+ˆ will lead to the same In fact, all values greater than B value of the objective function. For simplicity, we choose the smallest value as the optimal solution. The maximal value of the objective function is the sum of the maximal values of two quadratic functions because after the satiation value of B , both objective functions’ values are the same. Therefore U M B∗ ˆ =1 2
+2 2
+
++
+
+1 2
+
+2
+
+− PM
+
+To simplify our expression, we now deﬁne a constant Y ≡ 1 1 2 +2 . The effective utility function is transformed to 2 UM M = 2 Y . By the versioning literature, uniform pricing is optimal because the consumers cannot be separated by screening by M . Next, we will solve the optimal uniform pricing P M . The marginal consumer who feels indifferent between buying or not is determined by U M B∗ ˆ =0 ⇔
+2 2
+
+2
+
++
+
+− PM = 0
+
+Therefore, the marginal consumer type is given by = 2+ 2P M / . The objective function for proﬁt maximiz2+ ing becomes maxP M P M × 1 − 2P M / . The optimal solution for P M and the seller’s proﬁt are stated in Lemma 1 in Section 4.1
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+613
+
+Proof of Lemma 2. The proof is the same as that in Lemma 1. We again start with Stage 4 in which the consumer decides the optimal M given the value of B chosen in Stage 3. The problem is easier than that in Lemma 1 because we only need to maximize one, not two, quadratic functions. The necessary condition to characterize the optimal M is given by
+
+self-select a connection speed that maximizes their utilities: B ∗ = . As a result, the effective utility function is given by UQ ˆ = 1 1 Q ˆ − Q ˆ 2+ 2 2
+2
+
+− PQ ˆ
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+UB M M
+
+ˆ
+
+= B ˆ
+
+−
+
+1
+
+We can follow the same approach in the preceding proofs. By Lemma 4 in Section 5.1.1, the seller’s expected proﬁt is expressed as follows: The seller’s expected proﬁt is given by Ɛ PQ
+1
+
+B ˆ 2M =
+0
+
+Q − Q
+
+−
+
+which suggests that the optimal solution is an interior ˆ = solution M /B ˆ . Substituting this solution into (5), it follows that UB ˆ = B ˆ +B ˆ B ˆ − 1 B ˆ 2 B ˆ
+2
+
+1 Q 2 +
+
+2
+
++
+
+1 2
++
+
+2
+
+1−
+
+d
+
+(27)
+
+which can be simpliﬁed to Ɛ PQ
+1
+
+1 − B ˆ 2 − PB ˆ 2
+
+=
+0
+
+3 −1 + 2
+
+2 −1 Q
+
+−
+
+which equals to (7) and is the effective consumer’s utility function for the seller’s maximization problem in Stage 2. Note that in this case, the effective utility function is qualitatively a quadratic function of B ˆ and is qualitatively the same as stylized nonlinear pricing models with quadratic utility functions. It can be veriﬁed that this effective utility function satisﬁes all assumptions requested by the nonlinear pricing literature and we can directly apply the theorems (results) of the literature. As a result, by Lemma 4 in Section 5.1.1, the seller’s expected proﬁt is given by Ɛ P
+B 1
+
+The integrand is a concave function of Q maximized at Q∗ = 2 −1 . Substituting back to the proﬁt function yields
+1 2 3 −1 + 2 −1 2 2 + 2
+
+(28) . Therefore, it is
+
+1 Q 2
+
++ 2
+
+d
+
+d
+
+(29)
+
+The cutoff level is determined by equating the integrand 2+ 2 to zero: = 1/ 3 + 4 2 +2 2 + . The indeﬁnite integral is given by
+2 3 −1 + 2 −1 2 2 2
+
+=
+0
+
+1 2 −
+
+2 2
+
++B +B
+
+1 − B 2
++
+
+2
+
+d
+2
+
+2
+
+= d
+
+1−
+
+1 6
+
+3
+
+2
+
+−3
+
++3
+
+2
+
+−6
+
++4
+
+2 2
+
+which can be rewritten as Ɛ PB
+1
+
+2 which equals to /6 at 4 2 2 + −3 .
+
+= 1. At
+
+= , it equals
+
+2 1 2
+
+−
+
+=
+0
+
+2
+
+3 −1 + 2 −1 B 2
+
+−
+
+1 B 2
+
++ 2
+
+d
+
+The integrand is still a concave function of B wise maximization, the interior solution is B∗ = 2 −1
+
+(25) . By point-
+
+which is positive if and only if ≥ 1/2. The cutoff level (marginal, lowest-type customer served by the seller) is determined by equating the integrand to zero
+2
+
+3 −1 + 2 −1 2 =0 2 2
+
+The seller’s expected proﬁt is derived by
+1 2
+
+3 −1 + 2 −1 2 2
+
+2
+
+d
+
+(26)
+
+1 and the indeﬁnite integral is given by 6 3 −6 +4 2 − 1 3 2 + 3 2 2 . When = 1, this term simpliﬁes to 6 . When = , this expression does not have a neat expression. We report the simplest expression in Lemma 2.
+
+Proof of Proposition 1. Part 1 follows from Lemma 1. Part 2 follows immediately from our proﬁt-maximization problem. The uniform pricing is one of the feasible pricing plans when the ISP prices by Q or B . Therefore, the optimal nonlinear pricing by Q or B must lead to a higher proﬁt. Part 3 can be shown as follows. Subtracting the integrands of (26) by the integrands of (29) yields 1 1− 2 − 2 2 which is positive if and only if ≥ 2 . Therefore P B is greater than P Q for all if and only if ≥ 2 . Since the lower bounds B and Q are determined by equating the integrands to zero (P B or P Q = 0), when ≥ 2 , B ≤ Q . The reason is that P B Q > P Q Q because P B > PQ ∀ . So P B B = 0, implies B < Q . Therefore, pricing by B also leads to larger market coverage. As a consequence, Ɛ PB ≥ Ɛ PQ if and only if ≥ 2 . Proof of Proposition 2. To prove the proposition, let us formulate the seller’s optimization problem. Under pricing by Q, the contract only speciﬁes the data usage Q and the corresponding price P Q . In Stage 4, as the consumer’s utility u B M depends only on Q, the problem
+
+Proof of Lemma 3. This case is qualitatively very similar to the pricing by B case. In Stage 4, the consumers will
+
+614
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+degenerates. Thus, we can formulate the seller’s optimization problem in Stage 2 as
+Q
+
+max
+PQ
+
+Ɛ PQ − PQ − PQ ˆ − PQ ≥0 ∀ ∀ ˆ
+
+(30)
+
+s.t. U Q
+
+it is feasible to problem (30). As the seller’s expected payoff is Ɛ P Q = Ɛ PM the value of problem (30) is weakly higher than that of problem (33). A similar argument can be applied to show the dominance over pricing by Mbps. Proof of Proposition 3. When the seller prices by M , the objective function is given by max
+M M 1
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+≥U Q ˆ U Q
+
+(31) (32)
+
+where the constraints are the corresponding (IC) and (IR) conditions. Now let us consider instead the case with pricing by minutes. In this case, the seller speciﬁes a menu M PM for the consumers. As a type- consumer chooses an arbitrary contract M ˆ P M ˆ from the menu in Stage 3, her net utility can be expressed as UM B ˆ = U BM ˆ − PM ˆ
+
+=
+0
+
+U Q MB M · 1−F f −
+
++ U B BM U B BM
+
+− 1−F f
+
+UQ Q
++
+
+d
+
+(38)
+
+where B M = arg maxB U Q MB M + U B BM . When the seller prices by Q, the objective function is given by max
+Q Q 1
+
+=
+0
+
+UQ Q −
+
++ U B Be 1−F f
+
+−
++
+
+UQ Q
+
+1−F f (39)
+
+Thus, in Stage 4 the consumer should choose the optimal ˆ that maximizes U M B , ˆ . Given connection speed B this, the seller’s optimization problem in Stage 2 can be formulated as
+M
+
+U B Be
+
+d
+
+max
+
+PM
+
+Ɛ PM M ˆM ˆ M
+B
+
+(33) − PM − PM ˆ − PM ≥0 ∀ ∀ −P
+M
+
+s.t. U B ≥U B U B B
+
+ˆ
+
+(34) (35)
+
+ˆ = arg max U BM ˆ
+
+ˆ
+
+(36)
+
+where the last constraint indicates the consumer’s Stage 4 decision. We shall argue that the value of problem (30) is weakly higher than that of problem (33). To see this, suppose that there exists a solution M PM and the induced conˆ for (33). We now show nection speed selection B that we can construct a solution Q PQ based on M ˆ M P and B that is feasible to problem (30). Consider the following menu: Q =B M and P Q = PM ∀ (37)
+
+Under this menu, we can verify that U Q =U B − PQ M − PM ≥0 ∀
+
+where B e = argmaxB U B B e . We will show that (39) is larger than (38). First, note that in (39), only U Q Q − UQ Q / 1−F /f depends on Q, and therefore, these two terms together are larger than the counterpart in (38) because the objective function is maximized over these two terms in (39), conditional on any value of M . Second, this proposition will be established if we can show that the remaining two terms in (39) are greater than the counterpart in (38). The remaining two terms, U B B e − U B Be / × 1 − F /f , are actually the objective function of a standard nonlinear pricing problem with only one metric in Equation (19). It has been established that B e is the welfare-maximizing solution and its value is larger than the proﬁt-maximizing solution B ∗ = argmaxB U B B − U B B / 1−F /f . It has also been established in the literature that U B B − UB B / 1−F /f is a concave function (Maskin and Riley 1984 and Sundararajan 2004b). Therefore, the concavity implies that U B B − U B B / 1−F /f is decreasing for B > B ∗ . Since B M = argmaxB U Q MB M + U B BM and both U Q M × B M and U B B M have weakly positive ﬁrst derivatives, B M is larger than B e . Therefore, U B B − U B B / 1−F /f is larger in (39) at value B e . Proof of Proposition 5. Let us start with the exogenous bandwidth capacity. When the seller charges consumers by Mbps, the pricing problem is equivalent to
+B
+
+where the inequality follows from (35). Furthermore, we obtain that U Q ˆ − PQ ˆ − PM ˆ − PM ˆ − PM
+
+=
+B
+
+max Ɛ P B
+PB 1
+
+=U B ˆ ˆ M ˆ ≤U B ≤U B ˆM ˆ M
+
+s.t.
+
+(9), (10) and
+0
+
+B
+
+d ≤T
+
+where the ﬁrst inequality follows from the deﬁnition of ˆ , and in the second inequality we apply (34). Thus, B under the menu in (37), both (31) and (32) are satisﬁed, i.e.,
+
+Let denote the Lagrange multiplier associated with the capacity constraint. We can then write down the Lagrangian of this optimization problem as L=Ɛ PB
+1 1
+
++
+
+T−
+0
+
+B
+
+d
+
+=
+0
+
+PB
+
+− B
+
+d + T
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+615
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+As the constant T does not affect the optimization problem, this problem is equivalent to a pricing problem in which the seller faces no capacity constraint but instead incurs a constant per unit bandwidth cost . Given the above, we can then incorporate the bandwidth capacity constraint through an endogenous marginal cost, C T . We can deﬁne the endogenous shadow price as T = dC T /dT and transform the problem to a new problem in which the seller faces no capacity constraint but incurs a constant variable cost. This shows (23) in Section 5.2.1. Next, we discuss the solution of the metrics selection problem with constant variable cost. Under pricing by M or by Q, adding a constant variable cost in B does not lead to a material change of the proofs of Lemmas 1 and 3. Since the additional cost is not part of the utility function, Stage 4 is always the same. Back to Stages 2 and 3, when pricing by M or by Q, the additional cost in B becomes a ﬁxed cost because it is not a function of M or Q. Therefore, all solutions are essentially the same. As a consequence, pricing by M still leads to nondiscriminatory pricing and is suboptimal. The only difference is when pricing by B , the Stage 2’s proﬁt maximizing becomes different. We list the proﬁtmaximizing problem when pricing by Q and pricing by B for comparison. Similar to (25) and (28), the proﬁt functions are given by Ɛ PB
+1
+
+optimal solution back in the integrand (the objective function) yields
+1 0
+
+1 2
+
+2
+
+− −C T
+
+2
+
++
+
+1 2
+
++
+
+3 −2
+
+d
+
+(40)
+
+Again, when C T is set at 0, this expression is the same as that in the baseline case. Pricing by M can be shown following the same procedure. Next, we turn to the pricing by B case. The Stage 4 solution now is different because of the additional −Q × C T in the utility function. The optimal solution of Q in Stage 4 is − C T . Therefore, the effective utility function is given by UB ˆ =B ˆ − 1 B ˆ 2
+2
+
++
+
+2
+
+−C T
+
+2
+
+− PB ˆ
+
+which differs from (7) only in C T The revised proﬁt function is given by Ɛ PB
+1
+
+=
+0
+
+2 −
+
+−C T
+
+2
+
++B +B
+
+−
+
+1 B 2 1−
+
+2
+
++
+
+−C T
+
+d
+
+= max
+B
+
+2
+
+B
+
+3 −1 + 2 −1 B 2 1 B 2
+2
+
+− and Ɛ PQ
+1
+
+− B
+
+d
+
+= max
+Q
+
+Q
+
+3 −1 + 2 − 1 Q 2
+2
+
+2 −1 Q d − 1 B 2
+2
+
+− Be B
+
+where B e
+
+= arg max U Q B
+B
+
+ˆ =
+
+The only additional term is B . Without B , Proposition 1 shows that Ɛ P B ≥ Ɛ PQ if and only if ≥ 2 . In the new optimization problems, when pricing by B , the seller can adjust B to maximize Ɛ P B , whereas when pricing by Q, the seller leaves the money on the table to let the consumers set this cost term at B e . Therefore, the pricing by B becomes more proﬁtable than pricing by Q, compared with the baseline model. Proof of Proposition 6. When the seller prices by Q, the revised proﬁt function is given by
+1
+
+which is the counterpart of (27) in the baseline case. Deriving the optimal pricing plan turns out to be challenging even if we assume a linear cost function. This is because T depends on B and T inﬂuences the result through a general function C T . Nonetheless, in what follows, we are able to show that pricing by B becomes relatively more profitable than pricing by Q without characterizing the optimal plan. Our strategy is as follows. First, we assume that when the seller chooses B , he ignores its inﬂuence on C T and simply takes C T as given. This naïve approach leads to a suboptimal pricing plan, and allows us to derive the best pricing solution B within this restricted class. We then show that given the inequality condition in Proposition 1, the seller’s proﬁt using this naïve approach is weakly higher than that under the optimal pricing by Q. This subsequently establishes that the optimal pricing by B dominates pricing by Q. The optimal solution of B when we treat C T as a constant is the same as that in the baseline case: B∗ = 2 − 1 . Therefore, the “optimized” proﬁt function within this restricted class is given by
+1 0 2
+
+Q
+0
+
+− Q
+
+1 Q 2 +
+
+2
+
+−Q
++
+
+×C T + d
+
+1 2
+
+2
+
+(41) which is the counterpart of (26) in the baseline case and the second term is the additional term. Subtracting the integrand of (40) by (41), we obtain 1 1 − 2 2 − , which is 2 exactly the same as the condition in the baseline case. This establishes our result.
+
+3 −1 + C T 2
+
+C T + −2 2
+
++
+
++
+
+2
+
+2 −1
+
+2
+
+d
+
+−
+
+1−
+
+References
+which differs from the baseline Equation (27) only in −Q × C T . Maximizing the integrand, we can derive the optimal solution of Q as 2 − 1 − C T . Substituting this
+Afèche P, Mendelson H (2004) Pricing and priority auctions in queueing systems with a generalized delay cost structure. Management Sci. 50(7):869–882.
+
+616
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+Anderson J (2010) Understanding the changing needs of the U.S. online consumer. Forrester Res. https://www.forrester.com/ report/Understanding+The+Changing+Needs+Of+The+US +Online+Consumer+2010/-/E-RES57861. Armstrong M (2000) Optimal multi-object auctions. Rev. Econom. Stud. 67(3):455–481. Armstrong M, Rochet J (1999) Multi-dimensional screening: A user’s guide. Eur. Econom. Rev. 43(4):959–979. Asker J, Cantillon E (2008) Properties of scoring auctions. RAND J. Econom. 39(1):69–85. Baig E (1997) AOL isn’t the only connection in town. BusinessWeek, 144. http://www.bloomberg.com/news/articles/1997-02 -23/aol-isnt-the-only-connection-in-town. Bhargava HK, Choudhary V (2001) Information goods and vertical differentiation. J. Management Inform. Systems 18(2):89–106. Bhargava H, Choudhary V (2004) Economics of an information intermediary with aggregation beneﬁts. Inform. Systems Res. 15(1):22–36. Bhargava H, Choudhary V (2008) Research note—When is versioning optimal for information goods? Management Sci. 54(5): 1029–1035. Chellappa R, Shivendu S (2007) An economic model of privacy: A property rights approach to regulatory choices for online personalization. J. Management Inform. Systems 24(3):193–225. Chellappa R, Shivendu S (2010) Mechanism design for free but no free disposal services: The economics of personalization under privacy concerns. Management Sci. 56(10):1766–1780. Chen Y-J, Seshadri S (2007) Product development and pricing strategy for information goods under heterogeneous outside opportunities. Inform. Systems Res. 18(2):150–172. Cheng R, Raice S (2010) Verizon rethinks pricing. Wall Street Journal (November 17). http://www.wsj.com/articles/SB10001424052 748704648604575620963722752820. Choudhary V (2010) Use of pricing schemes for differentiating information goods. Inform. Systems Res. 21(1):78–92. Chua HH (2008) Bandwidth hogs may force ISPs to adopt volume-based charges. The Straits Times (August 4). http://web .international.ucla.edu/institute/article/95551. Das S, Du AY, Gopal R, Ramesh R (2011) Risk management and optimal pricing in online storage grids. Inform. Systems Res. 22(4):756–773. Deligiorgi C, Michalakelis C, Vavoulas A, Varoutas D (2007) Nonparametric estimation of a hedonic price index for ADSL connections in the European market using the Akaike information criterion. Telecomm. Systems 36(4):173–179. Dewan S, Mendelson H (1990) User delay costs and internal pricing for a service facility. Management Sci. 36(12):1502–1517. Du A, Geng X, Gopal R, Ramesh R, Whinston A (2008a) Capacity provision networks: Foundations of markets for sharable resources in distributed computational economies. Inform. Systems Res. 19(2):144–160. Du A, Geng X, Gopal R, Ramesh R, Whinston A (2008b) Topographically discounted Internet infrastructure resources: A panel study and econometric analysis. Inform. Tech. Management 9(2):135–146. Fishburn P, Odlyzko A (2000) Dynamic behavior of differential pricing and quality of service options for the Internet. Decision Support Systems 28(1-2):123–136. Fishburn P, Odlyzko A, Siders R (2000) Fixed fee versus unit pricing for information goods: competition, equilibria, and price wars. Kahin B, Varian HR, eds. Internet Publishing and Beyond: The Economics of Digital Information and Intellectual Property (MIT Press, Cambridge, MA), 167–189. Grubb M (2009) Selling to overconﬁdent consumers. Amer. Econom. Rev. 99(5):1770–1807. Gupta A, Stahl D, Whinston A (1997) A stochastic equilibrium model of Internet pricing. J. Econom. Dynam. Control 21(4-5): 697–722. Gupta A, Jukic B, Stahl D, Whinston A (2000) Extracting consumers’ private information for implementing incentive-compatible Internet trafﬁc pricing. J. Management Inform. Systems 17(1): 9–29.
+
+Hartley M (2009) Internet providers fear Bell’s billing change threatens services. Canwest News Service (August 13). Hitt L, Chen P (2005) Bundling with customer self-selection: A simple approach to bundling low-marginal-cost goods. Management Sci. 51(10):1481–1493. Huang K-W (2009) Optimal criteria for selecting price discrimination metrics when buyers have log-normally distributed willingness-to-pay. Quant. Marketing Econom. 7(3):321–341. Huang K-W, Sundararajan A (2011) Pricing digital goods: Discontinuous costs and shared infrastructure. Inform. Systems Res. 22(4):721–738. Ida T, Kuroda T (2006) Discrete choice analysis of demand for broadband in Japan. J. Regulatory Econom. 29(1):5–22. Jain S, Kannan P (2002) Pricing of information products on online servers: Issues, models, and analysis. Management Sci. 48(9):1123–1142. Jing B (2007) Network externalities and market segmentation in a monopoly. Econom. Lett. 95(1):7–13. Jones R, Mendelson H (2011) Information goods vs. industrial goods: Cost structure and competition. Management Sci. 57(1): 164–176. Konana P, Gupta A, Whinston A (2000) Integrating user preferences and real-time workload in information services. Inform. Systems Res. 11(2):177–196. Lahiri A, Dewan R, Freimer M (2008) Pricing of wireless services: Application pricing vs. trafﬁc pricing. Workshop Inform. Systems Econom. Levy S (2008) Pay per gig. Washington Post (January 30). http:// www.washingtonpost.com/wp-dyn/content/article/2008/01/29/ AR2008012903205.html. MacKie-Mason J, Varian H (1995) Pricing congestible network resources. IEEE J. Selected Areas Comm. 13(7):1141–1149. Maskin E, Riley J (1984) Monopoly with incomplete information. RAND J. Econom. 15(2):171–196. Masuda Y, Whang S (2006) On the optimality of ﬁxed-up-to tariff for telecommunications service. Inform. Systems Res. 17(3): 247–253. Mehra A, Bala R, Sankaranarayanan R (2012) Competitive behavior-based price discrimination for software upgrades. Inform. Systems Res. 23(1):60–74. Mendelson H (1985) Pricing computer services: Queueing effects. Comm. ACM 28(3):312–321. Mendelson H, Whang S (1990) Optimal incentive-compatible priority pricing for the m/m/1 queue. Oper. Res. 38(5):870–883. Mussa M, Rosen S (1978) Monopoly and product quality. J. Econom. Theory 18(2):301–317. NewsBytes (1998) PacBell intros new dialup and ISDN services. NewsBytes (June 11). Odlyzko A (1998) The economics of the Internet: Utility, utilization, pricing, and quality of service. AT&T Research. http://ftp .unpad.ac.id/orari/library/library-ref-eng/ref-eng-1/physical/ the-economics-of-the-internet.pdf. Pegoraro R (2009) Broadband caps can cost you. Washington Post (May 3). http://www.washingtonpost.com/wp-dyn/content/ article/2009/05/02/AR2009050200123.html. Rochet J, Stole L (2003) Optimal dynamic auctions. The economics of multidimensional screening. Dewatripont M, Hansen L, Turnovsky S, eds. Advances in Economics and Econometrics: Theory and Applications—Eighth World Congress (Cambridge University Press, New York), 150–197. Rysavy P (2008) Figuring out the 3G and 4G mobile broadband market is tough. InformationWeek (May 12). www.rysavy.com/ Articles/2008_05_global_Mobile.pdf. Satitsamitpong M, Otsuka T, Jitsuzumi T, Mitomo H (2012) An analysis of demand-based factors for broadband migration. Appl. Econom. J. 19(2):1–17. Savage SJ, Waldman DM (2004) United States demand for Internet access. Rev. Network Econom. 3(3):228–246. Singh N, Vives X (1984) Price and quantity competition in a differentiated duopoly. RAND J. Econom. 15(4):546–554.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Chen and Huang: Pricing by Minutes, by Gigs, or by Megabytes per Second?
+Information Systems Research 27(3), pp. 596–617, © 2016 INFORMS
+
+617
+
+Stranger G, Greenstein S (2007) Pricing in the shadow of ﬁrm turnover: ISPs in the 1990s. Internat. J. Indust. Organ. 26(3): 625–642. Sundararajan A (2004a) Managing digital piracy: Pricing and protection. Inform. Systems Res. 15(3):287–308. Sundararajan A (2004b) Nonlinear pricing of information goods. Management Sci. 50(12):1660–1673.
+
+Wallsten SJ, Riso J (2014) Residential and business broadband prices. Part 1: An empirical analysis of metering and other price determinants. Technology Policy Institute Working paper, Washington, DC. Yu K, Prud’Homme M (2010) Econometric issues in hedonic price indices: The case of Internet service providers. Appl. Econom. 42(15):1973–1994.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+

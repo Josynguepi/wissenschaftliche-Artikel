@@ -1,0 +1,41 @@
+Journal of Management Information Systems
+
+ISSN: 0742-1222 (Print) 1557-928X (Online) Journal homepage: http://www.tandfonline.com/loi/mmis20
+
+Editorial Introduction
+Vladimir Zwass Editor-in-Chief
+To cite this article: Vladimir Zwass Editor-in-Chief (2016) Editorial Introduction, Journal of Management Information Systems, 33:4, 935-937, DOI: 10.1080/07421222.2016.1267511 To link to this article: http://dx.doi.org/10.1080/07421222.2016.1267511
+
+Published online: 10 Feb 2017.
+
+Submit your article to this journal
+
+Article views: 8
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at http://www.tandfonline.com/action/journalInformation?journalCode=mmis20 Download by: [Bibliotheek TU Delft] Date: 14 February 2017, At: 09:24
+
+Editorial Introduction
+Well-posed great research questions have significant value to a scholarly discipline or field. They focus and stimulate thinking, tacitly or explicitly coordinate research programs, attract the best minds, and set high goalposts that, however movable in the future, are the pointers to that future. The exemplar set of twenty-three problems posed by David Hilbert at the dawn of the twentieth century strongly influenced the century’s work in mathematics. With all due modesty in invoking this analogy, it is important for our field of information systems to set such goalposts and to keep orienting ourselves toward them and resetting them. Our field is uniquely positioned to combine the technological and behavioral approaches. Indeed, this differentiates us from our sister discipline, computer science. The understanding of information technology (IT) in a reciprocal relationship with our lives, our organizations, and our societies is what our discipline brings to the world of scholarship and practice. This also makes our goalposts movable by necessity: new information technologies emerge, and in fastpaced research, entrepreneurship, and intrapreneurship they continue pointing toward entirely new possibilities. But even in the precise and circumscribed world of mathematics, some of Hilbert’s problems needed interpretation and redefinition. And new sets of great problems in mathematics have been setting new goalposts. The Special Issue that opens this issue of Journal of Management Information Systems (JMIS), guest edited by Justin Scott Giboney, Robert O. Briggs, and Jay F. Nunamaker Jr., is titled “Designing Tools to Answer Great Information Systems Research Questions.” The title and content of the Special Issue point to a broad path we as a discipline are breaking out to the goalposts: We can design the IT-based tools that help us answer great questions within the realm of the “sciences of the artificial” [3]. It is remarkable that 25 years ago this broad research program, later defined as design science, was articulated in a JMIS study whose lead author is a well-known guest editor of the present Special Issue [2]. The first article in the general section of the journal addresses the very timely issue of the problematic use of social networking sites (SNS). The authors, Ofir Turel and Hamed Qahri-Saremi, take an interesting perspective in their empirical analysis, namely, Daniel Kahneman’s theory of “thinking, fast and slow” [1]. This dual systems theory proposes that our thinking can be channeled into the more facile and fast intuitive and emotional mode (System 1) or the more effortful, deliberate, and analytical one (System 2). The authors implicate an improper balance between these two modes of thinking in the improper use of SNS (with Facebook as the exemplar), which, in turn, leads to the negative outcome of poor
+
+Journal of Management Information Systems / 2016, Vol. 33, No. 4, pp. 935–937. Copyright © Taylor & Francis Group, LLC ISSN 0742–1222 (print) / ISSN 1557–928X (online) DOI: 10.1080/07421222.2016.1267511
+
+936
+
+VLADIMIR ZWASS
+
+academic performance. The model the authors propose finds empirical confirmation, and two significant outcomes result. First, the work is generative, in that future research can broaden the consequences analyzed here. Second, we have gained an important analytical lens. Trust has increasingly been seen as a foundational societal good, associated, among other beneficial outcomes, with the accumulation of social capital and stronger economic performance. Our field has contributed meaningfully to the understanding of this construct as the antecedent of success in electronically mediated business relationships. Consumer trust is needed for the successful operation of consumer-oriented e-commerce, such as B2C (business to consumer) and C2C (consumer to consumer) relationships and transactions. In different countries, different levels and sources of trust have emerged. Here, a multiauthored article reflects the broad international scope of the authors’ work, in presenting an empirically based analysis of differences among the factors leading to online trust in four different national marketplaces: China, Germany, Singapore, and the United States, Eric K. Clemons, Josh Wilson, Christian Matt, Thomas Hess, Fei Ren, Fujie Jin, and Noi Sian Koh show that trust-based consumer attitudes toward online shopping vary, sometimes in surprising ways, among these countries. Aside from the implications for the national markets, weighty conclusions can be drawn for the still nascent—after more than two decades—international consumer-oriented e-commerce. The ever greater number of companies adopts comprehensive environmentally conscious IT practices. What drives these firms to such commitments? The next study presents a comprehensive hierarchical view of the key drivers of green IT practices and the effects of these drivers on the adopting firms. Paul Jen-Hwa Hu, Han-fen Hu, Chih-Ping Wei, and Pei-Fang Hsu consider factors that fall into three groups: the general business environment, the industry context, and the firm. The results of their model tests point to the importance of contextual factors extant in the business environment. The authors offer theoretically based and empirically validated recommendations for firms that intend to enhance their green IT practices. We hope this includes all firms. The next article presents a novel theoretical lens and pragmatic model for IT governance in the public sector. Authored by Gregory S. Dawson, James S. Denford, Clay K. Williams, David Preston, and Kevin C. Desouza, the work extends the application of agency theory—beyond private companies that are overseen by boards of directors—to public sector organizations, where the IT steering committee and the office of the chief information officer can play comparable roles. The work extends our understanding of the legal agency theory and shows how certain private sector practices can be beneficially deployed in the public sector. It is well-known that the infusion of enterprise resource planning (ERP) systems has been rife with minefields and vast cost and time overruns—and this when adoption attempts did not fail altogether. Most of what we know about these
+
+JOURNAL OF MANAGEMENT INFORMATION SYSTEMS
+
+937
+
+processes comes from Western countries. There is much to be learned from the analysis of ERP implementation and infusion in the setting of a different major IT marketplace and ERP adopter—China. Here, Vincent Siuking Lai, Fujun Lai, and Paul Benjamin Lowry present such an analysis in the context of industrial processes prevalent in this globally leading manufacturing center. The context is roughly that of traditional imitation practices that come under multisourced pressures to innovate. Much can be learned here for application in other contexts. Vladimir Zwass Editor-in-Chief
+
+REFERENCES
+1. Kahneman, D. Thinking, Fast and Slow. New York: Farrar, Starus, and Giroux, 2011. 2. Nunamaker, J.F. Jr.; Chen, M.; and Purdin, T.D. Systems development in information systems research. Journal of Management Information Systems, 7, 3 (Winter 1990–91), 89–106. 3. Simon, H.A. The Sciences of the Artificial. 2nd ed. Cambridge, MA: MIT Press, 1981.
+
+

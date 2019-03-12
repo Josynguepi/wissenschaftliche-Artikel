@@ -1,0 +1,23 @@
+This article was downloaded by: [130.89.97.167] On: 17 February 2017, At: 11:22 Publisher: Institute for Operations Research and the Management Sciences (INFORMS) INFORMS is located in Maryland, USA
+
+Information Systems Research
+Publication details, including instructions for authors and subscription information: http://pubsonline.informs.org
+
+Editorial Board
+
+To cite this article: (2016) Editorial Board. Information Systems Research 27(1):ii-ii. http://dx.doi.org/10.1287/isre.2016.eb.v271 Full terms and conditions of use: http://pubsonline.informs.org/page/terms-and-conditions This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval, unless otherwise noted. For more information, contact permissions@informs.org. The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support of claims made of that product, publication, or service. Copyright © 2016, INFORMS Please scroll down for article—it is on subsequent pages
+
+INFORMS is the largest professional society in the world for professionals in the fields of operations research, management science, and analytics. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Ofﬁce of the Editor
+Editor-in-Chief Ritu Agarwal Robert H. Smith School of Business University of Maryland College Park, MD 20742 tel. (301) 405-3121 fax (517) 405-8655 ragarwal@rhsmith.umd.edu Senior Editors Alessandro Acquisti Carnegie Mellon University Gedas Adomavicius University of Minnesota Jonathon N. Cummings Duke University Fred Davis University of Arkansas Sanjeev Dewan University of California, Irvine Rob Fichman Boston College Anindya Ghose New York University Ola Henfridsson University of Warwick Kartik Hosangar University of Pennsylvania Kai-Lung Hui Hong Kong University of Science and Technology Dorothy Leidner Baylor University Sabyasachi Mitra Georgia Institute of Technology Vijay Mookerjee University of Texas at Dallas Paul Pavlou Temple University Radhika Santhanam University of Oklahoma Yong Tan University of Washington Giri Tayi University at Albany Hock-Hai Teo National University of Singapore
+Vol. 27, No. 1, March 2016, p. ii ISSN 1047-7047 (print) ISSN 1526-5536 (online)
+
+Amrit Tiwana University of Georgia Emmanuelle Vaast McGill University Managing Editor Kathleen Luckey INFORMS 5521 Research Park Drive, Suite 200 Catonsville, MD 21228 kathleen.luckey@informs.org tel. (443) 757-3583 Production Editor Sandor Roberts INFORMS 5521 Research Park Drive, Suite 200 Catonsville, MD 21228 tel. (443) 757-3595 fax (443) 757-3515 sandor.roberts@informs.org Associate Editors Ahmed Abbasi University of Virginia Animesh Animesh University of Maryland Xue Bai University of Connecticut Nicholas Berente University of Georgia Jesse Bockstedt University of Arizona Jianqing Chen University of Texas at Dallas Wendy Duan George Washington University Yulin Fang City University of Hong Kong Walter Fernandez University of New South Wales Bin Gu Arizona State University Jungpil Hahn National University of Singapore Yu (Jeffrey) Hu Georgia Institute of Technology
+
+Atreyi Kankanhalli National University of Singapore Wolfgang Ketter Erasmus University Subodha Kumar Texas A&M University De Liu University of Kentucky Deepa Mani Indian School of Business Amit Mehra Indian School of Business Sunil Mithas University of Maryland Marius Niculescu Georgia Institute of Technology Gal Oestreicher-Singer Tel Aviv University Wonseok Oh KAIST College of Business Carsten Osterlund Syracuse University Gautam Pant University of Iowa Mohammad Rahman Purdue University Sam Ransbotham Boston College Nilesh Saraf Simon Fraser University Param Vir Singh Carnegie Mellon University Sanjukta Das Smith University at Buffalo Anjana Susarla Michigan State University Paul Tallon Loyola University Prasanna Tambe New York University Jason Thatcher Clemson University Michael X. Zhang Hong Kong University of Science and Technology
+Information Systems Research © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+

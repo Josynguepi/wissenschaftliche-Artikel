@@ -1,0 +1,1101 @@
+RESEARCH ARTICLE
+
+ADVERTISING VERSUS BROKERAGE MODEL FOR ONLINE TRADING PLATFORMS1
+Jianqing Chen
+Jindal School of Management, The University of Texas at Dallas, Richardson, TX 75080 U.S.A. {chenjq@utdallas.edu}
+
+Ming Fan
+Foster School of Business, University of Washington, Seattle, WA 98195 U.S.A. {mfan@uw.edu}
+
+Mingzhi Li
+Research Center for Contemporary Management, School of Economics and Management, Tsinghua University, Beijing , 100084 CHINA {imzh@sem.tsinghua.edu.cn}
+
+The two leading online consumer-to-consumer platforms use very different revenue models: eBay.com in the United States uses a brokerage model in which sellers pay eBay on a transaction basis, whereas Taobao.com in China uses an advertising model in which sellers can use the basic platform service for free and pay Taobao for advertising services to increase their exposure. This paper studies how the chosen revenue model affects the revenue of a platform, buyers’ payoffs, sellers’ payoffs, and social welfare. We find that when little space can be dedicated to advertising under the advertising model, the brokerage model generates more revenue for the platform than the advertising model. When a significant proportion of space is dedicated to advertising under the advertising model, matching probability on a platform plays a critical role in determining which revenue model can generate more revenue: If the matching probability is high, the brokerage model generates more revenue; otherwise, the advertising model generates more revenue. Buyers are always better off under the advertising model because of larger participation by the sellers in the platform’s free service. Sellers are better off under the advertising model in most scenarios. The only exception is when the matching probability is low and the platform dedicates considerable space to advertising. Under these conditions, the sellers with payoffs similar to the marginal advertiser who is indifferent about advertising can be worse off under the advertising model. Finally, the advertising model generates more social welfare than the brokerage model.
+1
+
+Keywords: Online platforms, two-sided markets, business model, revenue model, advertising, commission, customer to customer, Taobao, eBay, analytical modeling, economic modeling
+
+1
+
+Sulin Ba was the accepting senior editor for this paper. Xiaoquan (Michael) Zhang served as the associate editor.
+
+The appendices for this paper are located in the “Online Supplements” section of the MIS Quarterly’s website (http://www.misq.org).
+
+MIS Quarterly Vol. 40 No. 3, pp. 575-596/September 2016
+
+575
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Introduction
+eBay.com, the leading online consumer-to-consumer platform in the United States, has been establishing its business for two decades. Individual buyers can shop on the eBay platform without any fee, and sellers pay eBay on a transaction basis. Arguably, eBay was one of the biggest innovations and successes in the early e-commerce period. In contrast, Taobao.com, the leading online consumer-to-consumer platform in China, started its business in 2003. While Taobao and eBay share many similar design features, Taobao adopted a radically different revenue model. In addition to providing free service to individual buyers, Taobao offers the basic platform service to sellers for free as well. Meanwhile, Taobao offers an advertising/promotion service to monetize the traffic, and sellers can pay to participate. In other words, in a manner different from eBay but similar to Google search result pages, Taobao provides two lists: One is an “organic” listing, typically on the left of each page, in which sellers are listed for free, and the other is a “paid” listing, typically on the right of each page, in which sellers pay Taobao to increase their exposure to potential buyers. The differences between the revenue models associated with the two largest and most successful online marketplaces raise several questions: Which revenue model is more suitable for an online platform? How should a platform choose and design a revenue model? How does the revenue model affect buyers’ and sellers’ payoffs? This paper aims to answer these questions. Founded in 1995, eBay’s total transaction volume, or gross merchandise volume, was nearly $62 billion in 2010, according to its annual report. eBay’s marketplace charges sellers insertion fees and final value fees. The insertion fee ranges from $0.10 to $2 for auction-style listings at eBay and is $0.50 for fixed-price listings. Depending on the sale format and product category, the final value fees at eBay can range from 7 percent to 13 percent of the total buyer cost, including price and shipping costs.2 Taobao was launched by Alibaba Group in 2003 and has grown remarkably since then. Its sales volume was about $61 billion in 2010.3 Taobao offers basic market services for free to both buyers and sellers. Its main source of revenue is the advertising paid for by the sellers. Despite the success of Taobao, no formal analysis of its revenue model has been conducted. This study fills this gap and sheds some light on the choice and design of revenue models for a platform.
+
+To do so, we develop a game-theoretic model in which a platform faces a group of potential buyers on the one side and a group of potential sellers on the other. We assume the platform can choose either the brokerage model or the advertising model. Under the brokerage model, the platform charges sellers a transaction fee for each sale. Under the advertising model, the platform offers the basic service for free and, meanwhile, provides paid advertising service in which sellers can participate to increase their exposure. The choice of the revenue model for a platform affects potential sellers’ participation decisions. Potential buyers pay nothing to participate but have different opportunity costs in using the platform. Buyers’ participation decisions are affected by the number of participating sellers and the matching probability. The number of participating sellers indicates the likelihood that a buyer’s trading partner is on the platform: As more sellers participate in the platform, that likelihood increases. The matching probability measures the likelihood of a buyer actually finding his or her trading partner (given the partner being on the platform). Using this framework, we compare the revenues of the platform, sellers’ payoffs, buyers’ payoffs, and social welfare under the two revenue models. We identify both the space dedicated to advertising and the matching probability as key factors in comparing the two revenue models. Not surprisingly, when little space can be dedicated to advertising under the advertising model, the brokerage model generates more revenue for the platform than the advertising model. When a significant proportion of space is dedicated to advertising under the advertising model, matching probability on a platform plays a critical role in determining which revenue model can generate more revenue: If the matching probability is high, the brokerage model generates more revenue; otherwise, the advertising model generates more revenue. In the presence of a free basic platform service, when the matching probability is low, the advertising space becomes more valuable, which allows the platform to charge a higher price and potentially to make more revenue under the advertising model. Buyers are always better off under the advertising model because of greater participation by sellers in the platform’s free service. Sellers are better off under the advertising model in most scenarios. The only exception is that, when the matching probability is low and the platform dedicates a large space to advertising, the sellers having payoffs similar to the marginal advertiser (i.e., the advertiser who is indifferent about advertising) can be worse off under the advertising model. Finally, the advertising model generates more social welfare than the brokerage model because of the increased number of trading pairs. Our study is mainly related to two streams of research. The first related stream looks at different business and revenue
+
+2
+
+http://pages.ebay.com/help/sell/fees.html. http://www.techweb.com.cn/internet/2011-01-20/778349.shtml.
+
+3
+
+576
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+models. A number of papers focus on one type of revenue model and study the optimal strategies under that model (Anderson and Coate 2005; Casadesus-Masanell and Zhu 2013; Cheng and Liu 2012; Niculescu and Wu 2014). For example, Anderson and Coate (2005) examine equilibrium advertising levels in broadcasting, and Niculescu and Wu (2014) investigate when software firms should commercialize new products via freemium business models. Other papers compare different revenue models. For instance, CasadesusMasanell and Zhu (2010) analyze the optimal business model choice for a high-quality incumbent facing a low-quality, adsponsored competitor in a product market. Among the four business models considered—a subscription-based model, an ad-sponsored model, a mixed model incorporating both subscriptions and advertising, and a dual model in which one product uses the ad-sponsored model and the other uses the mixed model—they find the incumbent prefers the subscription-based or the ad-sponsored model. Lin et al. (2012) consider settings in which online service providers might offer an ad-free service, an ad-supported service, or a combination of these services. They find that in a monopoly case, offering both ad-free and ad-supported services is optimal, and in a duopoly case, exactly one firm offers both services when the ad revenue rate is sufficiently high. Our study differs from theirs in that we compare the advertising model and the brokerage model for online trading platforms. In addition, in our setting, the basic platform service and the advertising service serve the same purpose of presenting relevant sellers to potential buyers and, by their nature, are substitutes; thus, our analysis and insights depart from theirs. The second related stream involves the studies on two-sided markets (Bhargava and Choudhary 2004; Economides and Katsamakas 2006; Gallaugher and Wang 2002; Hagiu 2009; Jullien 2006; Parker and Alstyne 2005; Rochet and Tirole 2003). Two-sided markets refer to the situations where “platforms” provide services to facilitate interactions and the operation of exchanges between two types of trading partners (Jullien 2006). Examples of two-sided markets include credit card systems (cardholders and merchants), health maintenance organizations (patients and doctors), shopping malls (buyers and merchants), travel reservation services (travelers and airlines), video game consoles (gamers and game developers), and online trading platforms (buyers and sellers). In a typical two-sided market, the users’ benefit from joining the platform on one side is increasing in the number of users adopting the platform on the other side. For example, in an online trading platform that provides services to enable interactions between buyers and sellers (a two-sided market), users on one side (e.g., sellers) are more likely to find their trading partners if more users join the platform on the other side (e.g., buyers). Rochet and Tirole (2003) study platform competition and optimal price allocation between buyers and sellers. They
+
+consider a brokerage intermediary that charges prices or registration fees from market participants to be on a marketplace. The market has (indirect) network externalities, and the demand on one side of the market depends on the demand from the other side. Bhargava and Choudhary (2004) study the optimal quality and pricing strategies for information intermediaries with aggregation benefits (positive indirect network externalities) and find that intermediaries have strong incentives to provide quality-differentiated versions of their services. Gallaugher and Wang (2002) empirically investigate the effects on software price of different factors, including network externalities, in the context of the twosided market for web server software. In contrast to these papers, we compare two different revenue models for an online trading platform and examine the effect of the revenue model choice of the platform on the players. Our research is also loosely related to the growing literature on design science and mechanism design (e.g., Chellappa and Shivendu 2010; Hevner et al. 2004; March and Storey 2008) in information systems. Researchers in information systems not only design and evaluate new systems in a business context (e.g., Chen et al. 2013; Nault and Dexter 2006), but also develop new ways to conduct business to leverage the advancement of information technologies. For example, studies have examined new trading mechanisms for distributed resource allocation (Guo et al. 2012), new business models for the software industry (Niculescu and Wu 2014), and different mechanisms for online personalization services (Chellappa and Shivendu 2010). The focus of this work is on understanding the effect on the individual users, platform, and society of different revenue model designs for an online trading platform. Similar to other papers on design science, our paper is “aimed at improving the performance of business organizations” (March and Storey 2008, p. 725), but we focus on the revenue model of an online trading platform. The rest of the paper is organized as follows. In the next section, we set forth our baseline model. We then provide an equilibrium analysis, after which we compare the publisher’s revenue, buyers’ payoffs, sellers’ payoffs, and social welfare under the two revenue models. We subsequently extend the baseline model in various directions, showing that the qualitative results derived from the baseline model stay the same when buyers have heterogeneous search skills, when the total exposure level under the advertising model is slightly different from that under the brokerage model, when buyers are averse to advertising, and when sellers compete with each other. In addition, we provide some discussion about platform competition and dynamics. In the final section we present our conclusions.
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+577
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+The Baseline Model
+We consider an online platform with multiple sellers on one side and multiple buyers on the other. The platform provides matching as well as other necessary services to facilitate transactions between sellers and buyers. Consistent with popular online platform practices, such as in eBay and in Taobao, buyers can participate without any cost. We consider two different revenue/business models for sellers: a brokerage model and an advertising model. Under the brokerage model, sellers pay a transaction fee τ for each sale. Under the advertising model, sellers can participate in the basic platform service for free, and, in addition, they can pay θ to participate in an advertising or promotion service provided by the platform to increase their exposure to potential buyers. The brokerage model resembles eBay’s practice, and the advertising model resembles Taobao’s practice. A mass of sellers with measure 1 may sell their products through the platform. Consistent with the many existing studies on two-sided markets (e.g., Jullien 2006), each seller is seen as selling a different product, and thus the competition among sellers is not considered in the baseline model. Sellers have different fixed costs, k, of providing their products through the platform. A mass of buyers with measure 1 may buy products through the platform. As in Jullien (2006), we assume that accessing the platform involves different opportunity costs, c, for the buyers. The opportunity cost can be viewed as, for example, the value that a buyer derives from using an alternative channel. Generally, the opportunity cost measures the relative attractiveness of this platform to buyers, compared to the alternative channel that they may use. We assume that both k and c satisfy uniform distributions with support [0, 1]. Depending on their costs and the revenue model of the platform, some buyers and sellers participate in the platform and others do not. We denote m as the mass of buyers and n as the mass of sellers participating in the platform. Notice that both m and n are endogenously determined based on users’ self-section behavior, and their values vary under the two revenue models. A buyer’s probability of finding her trading partner on the platform depends on whether her selling partner is on the platform, and, if so, whether the buyer can find the selling partner. In general, as the number of sellers participating in the platform increases, so does the likelihood that a buyer’s trading partner is on the platform. We assume that the probability that a buyer’s trading partner is on the platform is equal to the mass of participating sellers, n. This assumption simplifies the mathematical expressions while capturing the essential idea that a buyer’s trading partner is more likely to be on the platform if more sellers participate in the platform, as has been used often in the existing literature
+
+(e.g., Jullien 2006). This assumption can also be understood as each buyer has one unique trading partner in the seller pool and the trading partners’ costs are independent. Therefore, the probability of a buyer’s trading partner being on the platform is the proportion of participating sellers out of the seller pool: n. Under the brokerage model, we assume that sellers are listed without differentiation, and each seller receives the same exposure level p, which determines the likelihood that her product is noticed by buyers. In other words, a buyer can find her trading partner or the ideal product that meets her need with probability p, p ∈ (0, 1), conditional on the partner’s being on the platform. For ease of exposition, we simply assume that the trade occurs when a potential buyer finds her trading partner or ideal product. Introducing a trading probability or a conversion rate adds an additional parameter without changing the results. We call p the buyer’s base probability of finding the ideal product, or the matching probability. The base probability depends on the quality of the search function provided by the platform and buyers’ overall online skill and experience, among other factors. Notice that even with a powerful platform search function, buyers may not be able to find their ideal products. As in a typical product “discovery” process, buyers are often not sure what product ideally meets their needs. Therefore, when buyers explore products on the platform, even if their ideal products are on the platform, they might not be able to locate them, because of the limited number of searches they conduct (Johnson et al. 2004) due to positive search cost (Stahl 1989). In the extension, we also consider the case in which buyers have heterogeneous search skills. Under the advertising model, advertised sellers get more exposure than unadvertised ones and their products are more likely to be noticed by potential buyers. If we denote p1 as the exposure that an unadvertised seller receives and p2 as the exposure that an advertised seller receives, we generally have p1 < p2. We denote n' as the mass of sellers who participate in the advertising service. For the purpose of a fair comparison, we assume that, were the numbers of participating sellers under the two revenue models the same, the total exposure under the advertising model (i.e., (n – n')p1 + n'p2) should equal the total exposure under the brokerage model (i.e., np): (n – n')p1 + n'p2 = np (1)
+
+In other words, if the numbers of participating sellers under the two revenue model were the same, compared with the brokerage model, the advertising model would not increase or reduce the overall exposure. In a sense, advertising acts as an exposure reallocation device: The advertising shifts the exposure toward the advertised sellers from the unadvertised
+
+578
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+sellers. As a result, the products from advertised sellers are more likely to be noticed by buyers than the products from unadvertised sellers. In the extension, we also consider the case in which the total exposure under the advertising model is not equal to that under the brokerage model. Because p1 < p2, by Equation (1), we have p1 < p, and, without loss of generality, we can let p1 = (1 – a)p, where a ∈ [0, 1] reflects the proportion of space dedicated to advertising. For example, when a = 0, we have p1 = p2 = p, which indicates all sellers receive the same exposure and are equally likely to be noticed by potential buyers with the base matching probability p. Thus, this case is equivalent to the one in which no advertising space is offered. By simple algebra, from Equation (1), we can derive
+p2 − p1 = apn n′
+
+Under the brokerage model, a buyer’s expected payoff from participating in the platform is nps – c (3)
+
+and a seller’s expected payoff from participating in the platform is mp(π – k – τ) (4)
+
+where k is the seller’s fixed cost and τ is the transaction fee paid to the platform. Under the advertising model, a buyer’s expected payoff from participating in the platform is [(n – n')p1 + n'min{p2, 1}]s – c (5)
+
+(2)
+
+which measures the additional exposure gained from advertising. Clearly, a larger space dedicated to advertising (i.e., a larger a) increases the additional exposure, given the number of sellers who participate in the advertising service. By substi tuting in p1, we have p2 = (1 – a)p + (apn)/n'. When considerable space is dedicated to advertising (i.e., a is large) or when a relatively small number of sellers participates in the advertising service (i.e., n'/n is small), p2, as previously defined, may technically go above 1. In this case, the advertised sellers are “overexposed” to buyers—they are noticed by potential buyers with probability 1, and in fact are exposed more than is necessary for them to be noticed by potential buyers with probability 1. We call this case excessive advertising. Therefore, while an unadvertised seller is noticed by buyers with probability p1, an advertised seller is noticed by buyers with probability min{p2, 1}. We call the case with p2 < 1 regular advertising. In the regular advertising case, Equation (1) can also be interpreted to mean that the (weighted) average matching probability is the same under the two revenue models. In the excessive advertising case, some attention from buyers is wasted, and the (weighted) average matching probability in this case is lower than that under regular advertising. We denote s as the expected surplus that a buyer derives from finding her trading partner and π as the expected revenue that a seller derives from finding her trading partner. We assume s < 1 and π < 1 to exclude some less interesting cases. For instance, if π > 1, under the advertising model, all sellers participate in the basic platform service (because their fixed costs, being in the range [0, 1], are less than π) and the mass of participating sellers is simply 1.
+
+where [(n – n')p1 + n'min{p2, 1}] is the probability that the buyer can find her trading partner—the probability of finding the partner among the unadvertised sellers plus the probability of finding the partner among the advertised sellers. Notice that when p2 < 1, the above equation is simply (nps – c) because of Equation (1). A seller’s expected payoff from participating in the platform is m[p1 + I(min{p2, 1} – p1)](π –k) – Iθ (6)
+
+where I ∈ {0, 1} indicates whether the seller participates in the advertising service. When the seller chooses not to participate in the advertising service (i.e., I = 0), the seller’s expected payoff from participating in the platform is m p1(π – k). When the seller chooses to participate in the advertising service (i.e., I = 1), the seller’s expected payoff from participating in the platform is [mmin{p2, 1}(π – k) – θ]. The benefit of participating in the advertising service is the additional exposure (min{p2, 1} – p1), at the cost of θ. The sequence of events in the game is as follows. First, the platform owner announces its revenue model and fee structure (i.e., transaction fee τ under the brokerage model or advertising fee θ under the advertising model). Then, the potential sellers and buyers decide whether to participate in the platform simultaneously (which determines n and m, respectively). Under the advertising model, at the same time the participating sellers decide whether to participate in the advertising service (which determines n'). Finally, transactions take place between sellers and buyers. Table 1 summarizes the main notations used in the paper.
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+579
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Table 1. Summary of Notations
+Notation τ θ k c m n p p1 p2 n' a s π Definition and Comments transaction fee for each sale under the brokerage model advertising fee under the advertising model seller’s cost of providing a product buyer’s opportunity cost mass of participating buyers mass of participating sellers exposure that each participating seller receives under the brokerage model, also called “matching probability” exposure that each participating but unadvertised seller receives under the advertising model exposure that each advertised seller receives under the advertising model mass of sellers who participate in the advertising service under the advertising model proportion of space dedicated to advertising under the advertising model buyers’ expected surplus from trading sellers’ expected revenue from trading
+
+We next derive and compare the equilibrium outcome under the brokerage and advertising models, considering the complete parameter space of advertising space a and matching probability p.
+
+Equilibrium Analysis
+In this section, we examine the participation decisions of the potential buyers and sellers in equilibrium, and we derive the equilibrium payoffs of both participating players and the platform under the brokerage model and under the advertising model.
+
+in the platform and those with costs higher than cB do not participate. Because we assume that the opportunity costs of buyers are uniformly distributed over [0, 1], the mass of participating buyers is m = cB. Similarly, we denote kB as the cost of the marginal seller who is indifferent about participating; that is, mp(π – kB – τ) = 0, based on the payoff in Equation (4). The sellers who have costs lower than kB participate in the platform, and thus the mass of participating sellers is n = kB. From these observations, we can derive kB = π – τ cB = kBps = (π – τ)ps (7) (8)
+
+Equilibrium Under the Brokerage Model
+Given the structure of the problem, we can expect monotonicity in both the sellers’ and the buyers’ participation decisions because the players with lower costs generally derive higher payoff than their counterparts with higher costs. Specifically, if a buyer (seller) with a certain cost participates in the platform, the buyers (sellers) with lower costs also participate. We summarize this observation in Lemma 1 with the proof in the appendix. Based on this monotonicity, we next can characterize the marginal buyer who is indifferent about participating. We denote cB as the cost of the marginal buyer, which satisfies nps – cB = 0, based on the payoff in Equation (3). By the monotonicity, the buyers with costs lower than cB participate
+
+Clearly, τ should be less than π; otherwise, no sellers participate. Notice that the total number of transactions is the probability that each buyer can find her trading partner times the number of participating buyers; that is, the total number of transactions is mnp = cBkBp. The owner of the platform maximizes its revenue, ΠB, by optimally choosing its transaction fee:
+0< τ < π
+
+max cB k B pτ = max p 2 sτ (π − τ ) 2
+0< τ < π
+
+By the first-order condition, we conclude the optimal solution as follows: Proposition 1. The optimal transaction fee that the platform should charge is τ* = π/3, and the maximum revenue is 4 p sπ ∏ = 27 .
+* 2 3 B
+
+580
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Proof. All proofs are in the appendix, unless indicated otherwise. The above results are derived in a fashion similar to the balance between price and demand. If the transaction fee τ (i.e., price) is high, the participating players and thus the number of transactions (i.e., demand) is low. The optimal value as derived is the result of the balance. Note that if the number of participating buyers was fixed (such that m was not a function of τ), the optimal transaction fee would be π/2 by maximizing the revenue of the platform mp(π – τ)τ. In contrast, considering the effect of τ on the number of participating buyers via the number of participating sellers, or considering the two-sided market effect, the optimal transaction fee π/3 is lower than when considering the effect of τ on the number of sellers only. The lower transaction fee in the two-sided market occurs because lowering the transaction fee not only increases the number of participating sellers, but also increases the number of participating buyers. This additional benefit induces the platform to lower the transaction fee. Based on the optimal transaction fee and Equation (7), the mass of participating sellers in equilibrium is
+2 * * nB = kB = π 3
+
+lower costs also participate in the advertising service. The latter is because the advertising fee is the same to all sellers and the sellers with lower costs have higher profit margins and benefit more from the additional exposure provided by advertising. We summarize this observation in Lemma 2 with the proof in the appendix. Similar to our approach under the brokerage model, we denote cA as the cost of the marginal buyer who is indifferent about participating. The buyers with costs lower than cA participate in the platform, and the mass of participating buyers thus is m = cA. We denote kA as the cost of the marginal seller ' who is indifferent about participating in the platform, and kA as the cost of the marginal advertiser who is indifferent about participating in the advertising service. By Equation (6), if a seller derives a positive payoff from participating in the advertising service (paying advertising cost θ), her payoff from participating in the basic platform service without cost ' < kA. Therefore, the should be positive, which implies kA sellers with costs lower than kA participate in the platform, and the mass of participating sellers is n = kA. Among these parti' participate in cipating sellers, those with costs lower than kA the advertising service, and the mass of advertised sellers, ' . thus, is n' = kA In settings similar to a two-sided market, a pessimistic equilibrium exists in which neither side participates. Because such an equilibrium can be easily excluded, we next focus on the equilibrium with positive participation. For internal solutions, we derive three relationships among these marginal users:
+
+(9)
+
+By Equation (8), the mass of participating buyers in equilibrium is
+* * mB = cB =
+
+2 psπ 3
+
+(10)
+
+Thus, we can conclude the participation of sellers and buyers as follows: Corollary 1. Under the brokerage model, the sellers who * ] and the buyers who have opportunity have costs in [0, kB * costs in [0, cB] participate in the platform in equilibrium. By substituting n , m , and τ into Equations (3) and (4), we can formulate the payoffs of the participating buyers and the payoffs of the participating sellers in equilibrium.
+* B * B *
+
+[(k
+
+A
+
+− kA ′ ) p1 + k A ′ min{ p2 ,1} s − cA = 0
+c A p1 (π − k A ) = 0
+
+]
+
+(11) (12) (13)
+
+c A min{ p2 ,1}(π − k A ′ ) − θ = cA p1 (π − k A ′)
+
+Equilibrium Under the Advertising Model
+Similar to the brokerage model, in the advertising model, we have monotonicity in both sellers’ and buyers’ participation decisions. In particular, if a buyer (seller) with a certain cost participates in the platform, the buyers (sellers) with lower costs also participate. In addition, if a seller with a certain cost participates in the advertising service, the sellers with
+
+Equation (11) is the condition for the marginal buyer who is indifferent about participating in the platform, derived by ' substituting n = kA and n = kA into Equation (5). Equation (12) is the condition for the marginal seller who is indifferent about participating in the platform, derived by letting I = 0 and m = cA in Equation (6). Equation (13) is the condition for the marginal advertiser who is indifferent about participating in the advertising service: The left-hand side is her payoff for using advertising (by letting I = 1 and m = cA in Equation (6)), and the right-hand side is her payoff for not using advertising (by letting I = 1 and m = cA in Equation (6)). From Equation (12), we derive kA= π, and, therefore, only sellers with fixed costs less than π participate. When the advertising is mild, such that p2 < 1, from Equation (11), we
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+581
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+have cA = kAps = πps, where the first equality is because of Equation (1) and the second equality is because of kA = π. In addition, min{p2, 1} – p1 = apkA/k'A by Equation (2). From Equation (13), we can then derive θk'A =π2p2sa(π – k'A). First, we notice that k'A is monotonically decreasing in θ, which makes intuitive sense in that a higher advertising cost leads to participation by fewer sellers in advertising. Second, the equation implies that the advertising revenue of the platform θk'A is simply p²π²sa(π – k'A). To increase its revenue, the platform has incentive to lower k'A by charging a higher advertising price. Notice that, by Equation (2), p2 = p1 + (apn)/n' = p1 + (apπ)/k'A. Lowering k'A increases the exposure level for advertised sellers and ultimately ensures, with probability 1, that buyers notice the advertised sellers; that is, min{p2, 1} = 1. In other words, p2 < 1 cannot be the optimal choice for the platform. We next analyze the case with p2 > 1. We define
+
+Solving the above optimization problem, we can derive the optimal advertising fee and the maximum revenue that the platform can generate as follows:
+ (a ) ≡ Proposition 2. Define p 1+ a . Given a, a 1 + 2a
+
+∈ (0,1), the
+
+optimal advertising fee that the platform should charge is
+ 1 + 2δ − 2δ 2 + (2δ − 1) 1 − δ + δ 2 2  sπ  θ = 9    p p 1 −  ( )sπ 2 
+*
+
+  (a )  if p > p    (a ) if p ≤ p
+
+(19)
+
+The maximum revenue of the platform is
+ sπ 3  −2 + 3δ + 3δ 2 − 2δ 3 + 2 1 − δ + δ 2   27δ   Π* =  A (1 − p)a p 2 sπ 3   δ 
+
+(
+
+)
+
+3 2
+
+  (a )  if p > p   (a ) if p ≤ p
+
+δ ≡ 1 − (1 − a ) p
+
+(14)
+
+which is the (maximum) increase in the probability of a seller being noticed by potential buyers through advertising (because (1 – a)p = p1). By substituting in p1 = (1 – a)p and min{p2, 1} = 1, Equations (11) and (13) change to
+c A = (1 − a ) p(π − k A ′ ) + kA ′ s = (1 − δ )π + δ k A ′ s
+
+[
+
+] [
+
+]
+
+(15) (16)
+
+θ = cA [1 − (1 − a ) p](π − k A ′ ) = c Aδ (π − k A ′)
+
+where the second equality in each equation comes from the definition of δ. By the monotonicity of their participation (summarized in Lemma 2 in the appendix), all sellers with cost lower than k'A participate in the advertising service, so k'A measures the mass of sellers who advertise, or the demand for the platform advertising service given the advertising price, θ. Equations (15) and (16) define the relationship between the demand, k'A, and advertising price, θ. By substituting cA in Equation (15) into Equation (16), we can derive the inverse demand function as θ = δπs(π – k'A) – δ²s(π – k'A)². The platform maximizes its revenue ΠA = θk'A by choosing the advertising fee θ (i.e., price) or, equivalently, by choosing the marginal seller who is indifferent about participation in the advertising service (i.e., demand):
+0< k ′ A <π
+
+Similar to the effects of fee increases under the brokerage model, increasing the advertising fee decreases the number of participating advertisers, which in turn affects the number of participating buyers. The optimal advertising fee derived above is the result of the balance between the price and the number of participating players, including both the buyers and the sellers. Depending on the relative value between p and a, we have two scenarios with different results that are seg^ ^ mented by p (a). Figure 1 depicts the curve p (a) in the (a, p) space. When the matching probability, p, is large (i.e., p > ^ p (a)), from the proof of the proposition, the constraint in Inequality (18) does not bind, and the equilibrium p2 thus is above 1, which indicates excessive advertising. When p is ^ small (i.e., p < p (a)), the constraint binds, and in equilibrium p2 =1, which indicates nonexcessive advertising. Notice that what distinguishes excessive and nonexcessive advertising is whether advertised sellers are overexposed. In the excessive advertising case, the advertised sellers are overexposed to buyers—the advertised sellers are exposed more than is needed for them to be noticed by potential buyers with probability 1; therefore, some exposure is wasted. In the nonexcessive advertising case, no exposure is wasted, although advertised sellers are also noticed by potential buyers with probability 1.
+^ Corollary 2. When p > p (a), the equilibrium advertising is * ^ excessive (i.e., p2 > 1); when p < p (a), the equilibrium advertising is nonexcessive.
+
+max δ s π (π − k A ′ ) − δ (π − k A ′ ) kA ′
+2
+
+[
+
+]
+
+(17) (18)
+
+apπ s.t. p2 = (1 − a ) p + ≥1 kA ′
+
+Notice that a seller’s benefit from advertising is δ(π – k), the additional exposure multiplied by the profit margin from each sale. Clearly, the benefit is decreasing in sellers’ costs. Given any a, when p is large—which means the exposure from
+
+582
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Figure 1. Excessive Versus Regular Advertising
+
+the free listing is large—the additional exposure, by Equation (14), is small and the benefit from advertising thus is small. As a result, only those with very low fixed costs participate in the advertising service, and the advertising might be excessive. Figure 1 shows the scenarios in which equilibrium advertising is excessive and the scenarios in which advertising is regular. The two scenarios are segmented by the cut-off ^ (a), above which the advertising is excessive. Note curve p ^ (a), decreases in a. Intuitively, with that the cut-off curve, p a larger a, or with more space dedicated to advertising, the platform has more exposure to be allocated to advertised sellers and the advertising is therefore more likely to be excessive (even though more sellers are induced to participate in the advertising service). Based on the optimal advertising fee, the masses of the participating sellers and advertisers in equilibrium are n = k = π and n' = k'
+* A * A * A * A * A
+
+Based on the monotonicity of their participation (summarized in Lemma 2 in the appendix), we can conclude the participation of sellers and buyers as follows: Corollary 3. Under the advertising model, the sellers with * costs in [0, kA ] and the buyers with opportunity costs in * [0, cA] participate in the platform in equilibrium. Among the * participating sellers, the ones with costs in [0, k'A ] participate * * in the advertising service, and the ones with costs in [k'A , kA ] do not participate in the advertising service.
+* * * By substituting nA , n'A , mA , and θ* into Equations (5) and (6), we can formulate the payoffs of the participating buyers and the payoffs of the participating sellers (with advertising and without advertising) in equilibrium.
+
+Equilibrium Comparison
+In this section, we compare the revenues of the platform under the two revenue models and study the conditions under which the advertising model can generate more revenue than the brokerage model. We also examine the sellers’ and buyers’ payoffs and the social welfare under the two revenue models.
+
+(20)
+
+where k' , the marginal advertiser’s cost in equilibrium, is
+ (2δ − 1) + 1 − δ + δ 2  (a )  π if p > p  3δ kA ′* =  apπ   (a ) if p ≤ p  δ 
+
+(21)
+
+The Revenue of the Platform
+We first consider the revenues of the platform under the two revenue models. The following proposition summarizes the results of comparing the equilibrium revenues derived in Propositions 1 and 2. Proposition 3. When p > ¯ p(a), the brokerage model generates more revenue for the platform than the advertising
+
+* (The derivation of k'A can be found in the proof of Proposition 2.) By Equation (15), the equilibrium mass of the participating buyers is * * * = cA = [(1 – δ)π + δk'A ]s mA
+
+(22)
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+583
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+(a) Platform’s Revenue
+
+(b) Seller’s Payoffs
+
+(c) Social Welfare
+
+Figure 2. Equilibrium Comparison Under the Two Revenue Models
+
+model; when p < ¯ p(a), the advertising model generates more revenue. The cutoff curve ¯ p(a) is defined as
+ 0   27a − 4 p (a ) =  −4  31a *   p (a )
+4 if a ∈[0, 27 ]
+
+4 8 , 23 if a ∈[ 27 ]
+
+(23)
+
+if a ∈[ ,1]
+8 23
+
+in which p*(a) is determined by
+3  2 3 2 2 2 − 2 + 3 δ + 3 δ − 2 δ + 2 1 − δ + δ   = 4δ p   and δ is defined in Equation (14).
+
+(
+
+)
+
+Figure 2(a) shows the curve p ¯(a) and illustrates the comparison results. When the space dedicated to advertising, a, is very small, the brokerage model always generates more revenue than the advertising model. The reason is that, under the advertising model, the revenue of the platform comes from the advertising space, and the organic space is offered for free. When the space dedicated to advertising is very small, the revenue generated from advertising is limited. As a result, the advertising model generates less revenue than the brokerage model in which each transaction is charged by the platform. This finding indicates that when a significant proportion of space is dedicated to advertising, the matching probability with which buyers find sellers plays a critical role in determining which revenue model is better. If the matching probability is high, the brokerage model generates more revenue than the advertising model; otherwise, the advertising model generates more revenue. The intuition is as follows: Under the brokerage model, when the matching probability that buyers will find their trading partner is low, buyers’ payoffs are low, and a small number of buyers participate. In addi-
+
+tion, even if a trading pair is on the platform, a low matching probability indicates that the likelihood of a trade is low. Therefore, the matching probability that trading partners will find one another monotonically affects the revenue of the platform: The higher the probability is, the greater the revenue of the platform. Under the advertising model, the probability on the buyer side has a similar effect—high matching probability tends to induce more buyers to participate in the platform. However, in sharp contrast to the brokerage model, when the seller’s probability of being noticed by buyers is low, the advertising service is highly valuable to sellers; the platform thus can charge a high price and earn high revenue. This difference—the change in the revenue of the platform that occurs with the change in probability that the sellers are noticed by buyers—explains the existence of the cutoff: Once the matching probability falls below a certain threshold, the advertising model generates more revenue than the brokerage model. This finding might also be used to explain the different business practices established by Taobao in China and by eBay in the United States. When Taobao started its business in 2003, its matching function, enabled by the underlying search function and categorizations, was in a less advanced stage than eBay’s. Of greater importance, e-commerce was a relatively new phenomenon, and consumers were less experienced and less skillful in shopping online. These factors all contribute to a lower probability that buyers can find trading partners on the platform. Therefore, Taobao’s use of the advertising model made—and makes—economic sense.
+
+Sellers’ Payoffs
+We next examine the sellers’ payoffs under the two revenue models. Under the brokerage model, the sellers with costs in
+
+584
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+* [0, kB ] participate in the platform. By Equation (4), we can formulate the equilibrium payoff of a participating seller with cost k as
+* 2 2 mB p π − k −τ* = 2 3 p sπ ( 3 π − k )
+
+* * , kA ) are better Proposition 4. (a) The sellers with costs in (kB off under the advertising model. * (b) For sellers with costs in [0, kB ], if p > p ˜ (a), all these sellers are better off under the advertising model; if p < p ˜ (a),
+
+(
+
+)
+
+(24)
+
+where the equality is achieved by substituting in both the optimal transaction fee τ* derived in Proposition 1 and the equilibrium mass of participating buyers outlined in Equation (10).
+* * , kA ] Under the advertising model, the sellers with costs in [k'A participate in the platform for the basic service only (without * ] participate in advertising), and the sellers with costs in [0, k'A the advertising service in addition to the basic service. By letting I = 0 in Equation (6), we can formulate the equilibrium * * , kA ] as payoff of a participating seller with cost k in [k'A * mA (1 – a)p(π – k)
+
+the sellers with cost k ∈
+
+under the advertising model, and other sellers are better off, where
+5  0 if a ∈[0, 9 ]  ~ p (a ) =  9 a − 5 5 if a ∈[ 9 ,1]  11a − 5
+
+((
+
+5π p 3 3− 2 p )
+
+* 9a −5 ,9 a − 3 π ⊂ 0, k B are worse off
+
+) [ ]
+
+(27)
+
+(25)
+
+where the equilibrium mass of participating buyers is outlined in Equation (22). By letting I = 1 in Equation (6), we can formulate the equilibrium payoff of a participating advertiser * ] as with cost k in [0, k'A
+* mA (π – k) – θ*
+
+(26)
+
+where the optimal advertising fee θ* is outlined in Equation (19). One important feature of the advertising model is that it offers a two-tiered service: the free basic service and the paid advertising service. Because of the free basic service, the advertising model generally attracts more sellers to participate in the platform than the brokerage model attracts. In particu2 * * lar, k B = π < π = k A by Equations (9) and (20). Meanwhile, 3 we can verify that the number of sellers who opt to advertise under the advertising model is less than the number of partici* * < kB . pating sellers under the brokerage model; that is, k'A
+* * The sellers with costs in (kB , kA ) are all better off under the advertising model. These sellers do not participate in the platform under the brokerage model because their low profit margins (resulting from high costs) cannot compensate for the transaction fee charged by the platform. In contrast, under the advertising model, they have an incentive to participate because the basic service is free and they can reap their profit from sales on the platform. Therefore, they are better off under the advertising model. * ], we need to compare their For the sellers with costs in [0, kB payoffs under the two revenue models to determine who is better off under which model.
+
+Figure 2(b) shows the p ˜ (a) curve and illustrates the results. The intuition for (b) is as follows: First, the seller with cost * is better off under the advertising model because, under the kB brokerage model, she is the marginal seller who is indifferent about participating in the market and who earns zero payoff. In contrast, under the advertising model, she earns positive payoff (by participating in the basic platform service for free). Because of the continuity in their payoff functions, the sellers * are also better off under the advertising with costs close to kB model. Second, the sellers with costs close to zero are also better off under the advertising model. Compared to the brokerage model, advertised sellers under the advertising model benefit from the increased exposure. Under the brokerage model, all the sellers get the same exposure. Under the advertising model, advertised sellers receive more exposure than they would under the brokerage model because advertising essentially shifts buyers’ attention toward the advertised sellers from the unadvertised sellers. The sellers with very low fixed costs who participate in the advertising service (by Lemma 2) benefit more than their high-cost counterpart advertisers because of their different profit margins. As the optimal advertising fee is established on the basis of the average benefit from advertising for different sellers, the advertisers with very low costs benefit more than average and are better off under the advertising model. Sellers with intermediate costs might be worse off under the advertising model when the space left for organic listing is limited and matching probability is low. First, when the organic space is small (and advertising space is large), the value of the free organic listing is low because of the limited exposure. As a result, the payoff for sellers under the free organic service might not be as good as their payoff under the brokerage model, even though sellers pay transaction fees for each sale. Second, when the matching probability is low, the advertising service is very valuable, and in equilibrium the advertising fee is not proportionally low and could even be high. As a result, when sellers with intermediate costs participate in the advertising service, they might not benefit much
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+585
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+due to relatively high advertising fees. Thus, their payoff from advertising might not be as good as their payoff under the brokerage model. It is worth noting that when the advertising space is small, leaving significant space for the organic listing, all sellers are better offer under the advertising model, including the sellers with intermediate costs (by Figure 2(b)). This is because the significant organic listing presents all sellers a valuable option by its nature of being free. Some sellers with intermediate costs continue to pay to be listed in the advertising space in equilibrium. Different from the case with limited organic listing space, their choice to pay the advertising fee comes after considering the valuable organic listing. These days, being free, or being free to some extent, has become a popular practice in the digital world. For example, software firms often use freemium business models (Niculescu and Wu 2014), in which software firms offer basic versions for free and charge for advanced versions. The advertising model adopted by online C2C platforms shares a similar spirit and has shown promise. For instance, based on free basic service and paid advertising service, Taobao has attracted more than 500 million users in China. Canada’s most popular local classifieds site, www.kijiji.ca (owned by eBay), uses a similar model: It offers a free online listing service for people in the same city to trade and help each other out in areas such as goods, services, housing, and jobs. Meanwhile, Kijiji also provides an advertising service to sellers who are willing to pay Kijiji to be listed in prominent positions for a certain period. The essential idea of the advertising model for a C2C trading platform is that sellers can self-select to use only the free service or to participate in the advertising service. With a valuable free service (e.g., organic space being not too small), sellers embrace the platform regardless of whether they choose to pay for advertising, because all of them have the option to use the basic service for free.
+
+participate the platform. By Equation (5), we can formulate the equilibrium payoff of a participating buyer with cost c as
+
+[(n
+
+* A
+
+ 2 − δ + 1−δ + δ 2 πs − c if p > p  (a )  * * 3 − n′ (29) A p1 + n ′ A s−c =   (a ) pπs − c if p ≤ p  
+
+)
+
+]
+
+where the equality is achieved by substituting in δ = 1 – p1 and the equilibrium mass of participating sellers outlined in Equation (20). Because consumers have the same opportunity cost under the two revenue models, whether they are better off under one model simply depends on their probability of finding their trading partners (i.e., the mass of participating sellers times the matching probability). Under regular advertising (when ^ (a)), buyers derive a greater benefit from the advertising p<p model because more sellers participate in the advertising * 2 platform (i.e., n* A = π > nB = 3 π ), while the average matching probability is the same under the two revenue models. Under excessive advertising, the average matching probability under the advertising model is lower than the probability under the brokerage model (but the number of participating sellers is larger in the former). With an arbitrarily high advertising fee (such that only a few sellers participate in the advertising service), buyers might be worse off because of a significant decrease in the average matching probability resulting from excessive advertising. However, in choosing the optimal advertising fee, the platform considers not only the direct effect of the advertising fee on the number of participating advertisers, but also the indirect effect on buyers’ participation, driven by the benefit that buyers derive from the platform. As a result, we can verify that even with excessive advertising in equilibrium, buyers are better off under the advertising model. Proposition 5. Buyers are better off under the advertising model. Also, because the benefits for buyers under the advertising model are higher than they are under the brokerage model, more buyers participate in the platform under the advertising model in equilibrium.
+
+Buyers’ Payoffs
+We can similarly examine buyers’ payoffs under the two revenue models. Under the brokerage model, the buyers with * costs in [0, cB ] participate in the platform. By Equation (3), we can formulate the equilibrium payoff of a participating buyer with cost c as
+* nB ps − c = 2 3 pπs − c
+
+Social Welfare
+We next examine social welfare under the two revenue models. In our setting, social welfare is the value created by the platform, as measured by the total value realized by the transactions on the platform net of both the sellers’ and the buyers’ costs.
+
+(28)
+
+where the equality is achieved by substituting in the in equilibrium mass of participating sellers outlined in Equation (9). * ] Under the advertising model, the sellers with costs in [0, cA
+
+586
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Under the brokerage model, the number of transactions is * * nBp, and the value created from each transaction is s + π. mB * /2, and the average The average cost on the seller side is kB * /2. Therefore, the opportunity cost on the buyer side is cB social welfare under the brokerage model is
+* * * WB = mB nB p s + π − k2B − mB
+
+π 2 2 =2 3 psπ 3 π p( s + π − 3 ) − 9 ( psπ )
+
+(
+
+*
+
+)
+
+c* B 2 2
+
+(30)
+
+Proposition 3, when p < p ¯(a), the platform is better off under the advertising model, and by Proposition 4, when p > p ˜ (a), all participating sellers are better off as well. Meanwhile, by Proposition 5, buyers are always better off under the advertising model. Therefore, when both conditions p < p ¯(a) and p>p ˜ (a) are satisfied, the win–win–win outcome occurs. The win–win–win result is possible because the advertising model generates more social welfare, so that the total “pie” is bigger under the advertising model. We summarize this result in the following corollary: Corollary 4. When p ˜ (a) < p < p ¯(a), the platform, the sellers, and the buyers are all (weakly) better off under the advertising model at the same time, where p ˜ (a) and ¯ p(a) are defined in Equations (23) and (27), respectively. It is worth highlighting that being free under the advertising model plays a critical role in driving the above result. Because of its free basic platform service under the advertising model, compared to the brokerage model, the platform is able to induce more sellers (i.e., the sellers with low profit margins) to participate, which in turn induces more buyers to participate due to the nature of the two-sided market. The increased participation increases the number of transactions, which, in turn, makes it possible for each involved player to gain from the advertising model.
+
+* * where the equality is achieved by substituting in (nB , kB ) and * * (mB, cB) from Equations (9) and (10). Similarly, we can formulate social welfare under the advertising model as
+kA +k′ * * A WA = m* A n A − n′ A p1 s + π − 2 * + n′ A s+π −
+
+[(
+
+)
+
+(
+
+kA ′* 2
+
+)]
+
+(
+
+*
+
+*
+
+)
+
+− m* A
+
+c* A 2
+
+(31)
+
+* * * * * * where (nA , kA ), (n'A , k'A ), and (mA , cA ) are specified in Equations (20), (21), and (22), respectively. Comparing the social welfare under the two revenue models as derived leads to the following conclusion:
+
+Proposition 6. The advertising model generates more social welfare than the brokerage model. The intuition is as follows: First, compared with the brokerage model, more buyers participate in the trading platform under the advertising model, as explained in the previous section, because the probability (i.e., the mass of participating sellers times the matching probabilities) that they find their trading partners is higher under the advertising model. As a result of the greater participation by buyers and the higher trading probability, more transactions take place under the advertising model. Second, the lower-cost sellers participate in the advertising service and receive more attention from buyers. Therefore, a product from a lower-cost seller is more likely to be sold than a product of a high-cost counterpart under the advertising model, and lower-cost products are sold more often under the advertising model than under the brokerage model. Both the increased volume of transactions and the increased transactions of low-cost products under the advertising model increase social welfare, compared to the brokerage model. Note that, compared to the brokerage model, the advertising model may lead to a win–win–win result in equilibrium; that is, the platform, the (participating) sellers, and the (participating) buyers might all be better off under the advertising model at the same time. Figure 2(c) depicts the win–win–win area in the (a, p) space; that is, p ˜ (a) < p < p ¯(a). By
+
+Extensions and Discussion
+In this section, we extend the baseline model by considering cases when buyers have heterogeneous search skills, when the total exposures under the two revenue models are unequal, when buyers are averse to advertising, and when sellers compete with each other. Finally, we also discuss platform competition.
+
+Buyers with Heterogeneous Search Skills
+In the baseline model, we assume that if a buyer’s trading partner is on the platform, the buyer can find her partner with probability p, and this probability is the same across different buyers. In general, the probability that a buyer can find her partner can be affected by both the search and categorization technologies of the platform and buyers’ online search skills. While the technologies of the platform are the same for all buyers, buyers might have different search skills in general. In this section, we extend the baseline model to the case in which buyers have heterogeneous search skills.
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+587
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+We here assume that the probability of a buyer finding her trading partner (given her partner being on the platform) is determined by the technologies of the platform and her own search skill. In particular, we assume the probability is equal to μp, where μ measures each buyer’s own search skill and p, as in the baseline model, is the same for all buyers and here measures the technologies of the platform. We assume that at the aggregate level μ follows a distribution f(μ) over support [0, 1] and is independent of buyers’ opportunity cost. Everything else follows the baseline model. Under this setting, the marginal buyers defined in Equations (8) and (11), cB for the brokerage model and cA for the advertising model, are the marginal buyers with search skill 1 (the highest search skill). As in the baseline model, the buyers with opportunity costs higher than ci, i ∈ {A, B}, do not participate. Different from the baseline model, some buyers with opportunity costs less than ci do not participate either, because of their low search skills. Among the buyers with a certain level of search skill μ, we can similarly define the marginal buyer ci(μ) who is indifferent about participating in the platform. The buyers with opportunity costs less than ci(μ) participate in the platform and the buyers with higher cost do not. Under the brokerage model, for example, similar to Equation (8), the marginal buyer is defined by cB(μ) = kBμps = (π – τ)μps (32)
+
+Considering that buyers have different search skills, we can reformulate the condition for the marginal advertiser in Equation (13) under the advertising model as
+
+θ =
+
+1
+
+0 0
+
+
+
+cA ( μ )
+
+ c A min{ p2 ,1} − p1 (π − k A =μ ′)
+
+[
+
+μ[ min{ p2 ,1} − p1 ](π − k A ′ ) f ( μ )dcdμ
+
+]
+
+(34)
+
+Notice that θk'A is the revenue of the platform. As under the brokerage model, the revenue of the platform in this case differs from the revenue in the baseline case only in the  . Based on an optimization problem similar to constant μ Equation (19), we can verify that the optimal marginal advertiser chosen is the same as in the baseline model, and the optimal advertising fee and maximum revenue of the platform  times that in the baseline mode. is μ Based on this framework, we can verify that the main results in the baseline model carry over to this extension and the insights derived in the baseline model continue to hold. For example, Proposition 3 about the revenue comparison of the platform stays the same because, as illustrated in Equations (33) and (34), the revenues in this extension are simply scaled  from the baseline model. We can by the same constant μ also show that Proposition 4, about the sellers’ payoffs, remains the same because, similar to what is shown in Equations (24), (25), and (26), we can derive sellers’ payoffs under the brokerage and advertising models and verify they  from the baseline are also scaled by the same constant μ model. Similarly, we can verify that the results in Propositions 5 and 6 remain valid.
+
+Combining with Equation (8), we can derive cB(μ) = μcB. Similarly, under the advertising model we have cA(μ) = μcA. These marginal buyers segment the buyer group and define the participating buyers. The line ci(μ) in Figure 3 illustrates the marginal buyers and the gray area shows the participating buyers. Based on these redefined marginal users, we can duplicate the results in the baseline model. For example, we can derive the revenue of the platform under the brokerage model as
+
+When the Total Exposure Is Unequal
+In the baseline model, we assume that, given the same number of participating sellers, the total exposure under the advertising model is equal to the total exposure under the brokerage model. Such an assumption is for fair comparison purposes and the results under this assumption serve as a baseline. When the total exposure is unequal, the comparison might tip toward the revenue model that can more effectively expose participating sellers to buyers. The total exposure might differ because the platform under the two revenue models, for example, might have different designs of web pages displaying sellers. While the brokerage model displays all the sellers in one place, the advertising model has to distinguish advertised sellers and unadvertised sellers and thus typically displays sellers in two differentiated blocks (e.g., two columns on Taobao, with the left side column displaying unadvertised sellers and right side displaying advertised sellers).
+
+
+=
+
+1
+
+cB ( μ ) 1
+
+0 0
+
+(π − τ )μpτ f (μ )dcdμ
+2 2
+
+ (π − τ ) μ
+0
+
+ p 2 sτ (π − τ ) 2 p 2 sτ f ( μ )dcdμ = μ
+
+(33)
+
+where (π – τ) on the left-hand side is the mass of the participating sellers, the first equality is because of Equation (32),
+≡ and the second equality is by defining μ
+
+
+
+1
+
+0
+
+μ 2 f ( μ )dμ . As
+
+we can see, the revenue of the platform in this case differs . from the revenue in the baseline case only in the constant μ Therefore, the optimal transaction fee is the same as in the baseline model and the maximum revenue of the platform is  times the revenue in the baseline mode. μ
+
+588
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Figure 3. Marginal Buyers and Participating Buyers
+
+We next illustrate that when the total exposure is unequal, we can duplicate the analysis. As long as the exposure levels under the two revenue models are comparable, all the results continue to hold qualitatively, and the insights delivered by the baseline model carry over. In this extension, we use the case with the total exposure under the advertising model less than that under the brokerage model to illustrate; that is, (n – n')p1 + n'p2 < np. The other case can be similarly analyzed. Given the same number of participating sellers, we define an exposure ratio of the total exposure under the advertising and brokerage models γ, γ ∈ (0, 1], such that (n – n')p1 + n'p2 = γnp. The case with γ = 1 corresponds to the baseline model. Noticing that the equilibrium under the brokerage model remains the same as in the baseline model, we next analyze the equilibrium under the advertising model. Similar to the baseline model, we let p1 = γ(1 – a)p, in which a reflects the space dedicated to advertising. As in Equation (2), we can derive the additional exposure gained from advertising: p2 – p1 = γapn/n'. Similarly, we define the maximum increase in the probability of a seller being noticed by potential buyers: δ / 1 – γ(1 –a)p. Based on this newly defined δ, after reasoning similar to that in the baseline model, we can formulate the optimization problem of the platform:
+max δ s π (π − k A ′ ) − δ (π − k A ′ ) kA ′
+2
+
+^ ^ (a) becomes p (a) = (1 + a)/[γ(1 + 2a)] (compared to curve p ^ ^ (a), p(a) = (1 + a)/(1+2a) in the baseline model). When p > p * * θ and Π take the same form as in Proposition 2. When p < ^ p (a),
+
+θ * = γ p(1 − γ p)sπ 2 and Π * =
+
+(1 − γ p)a γ 2 p 2 sπ 3
+δ
+
+which, again, are similar to those in Proposition 2, but adjusted by γ. Based on the equilibrium outcome, we can similarly compare the two revenue models in terms of the revenue of the platform, sellers’ and buyers’ payoffs, and social welfare. We can show, as long as γ is close to 1, all the results continue to hold qualitatively, and the insights are the same. For example, as in Proposition 3, we can derive the cutoff curve above which the brokerage model generates more revenue for the platform owner than the advertising model. The cutoff curve p ¯(a) now becomes a function of γ:
+ 0   27aγ 2 − 4  p (a ) =  2  γ 27aγ + 4a − 4  p * (a )  
+
+(
+
+)
+
+0< k ′ A <π
+
+[
+
+]
+
+(35)
+
+[ if a ∈[ if a ∈[
+
+if a ∈ 0, 274γ 2
+4 27γ 2
+
+] ]
+
+, 27γ82 − 4 ,1
+
+]
+
+8 27γ 2 − 4
+
+s.t. p2 = γ (1 − a ) p +
+
+γapπ
+kA ′
+
+≥1
+
+(36)
+
+Note that the objective function (35) takes the same form as in the baseline model, Equation (17), with the difference in the definitions of δ. Constraint (36) is similar to the constraint in the baseline model, Equation (18), but adjusted by γ. Solving this optimization problem, we can derive the optimal advertising fee (θ*) and the maximum revenue of the platform (Π*) as in Proposition 2. We can show that now the cutoff
+
+where p*(a) is as defined in Proposition 3. As in the baseline model, when the space dedicated to advertising is small, the brokerage model outperforms the advertising model for the platform owner. When the advertising space is significant, which revenue model generates more revenue depends on the matching probability p: if the matching probability is low, the advertising model can generate more revenue; otherwise, the brokerage model generates more revenue. Therefore, the pattern of the cutoff curve is the same as in the baseline model and the insights continue to be valid. The main difference from the baseline model is that the cutoff curve now depends on γ. In the extreme, when γ is very small (i.e., when
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+589
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+γ² < 4/27), the brokerage model always generates more revenue than the advertising model for the platform owner. Such an effect is intuitive: If the advertising model is ineffective at exposing the participating sellers to the buyers (compared to the brokerage model), the revenue of the platform is hurt because, after all, the exposure is the revenue source of the platform.
+
+The main difference from the baseline model is that now even if a participating buyer finds his trading partner from the advertising list, the buyer does not necessarily purchase from the seller because of advertising aversion. With the same reasoning as in the baseline model, we can simplify the above conditions to cA = [(1 – δ)π + ρδk'A]s and θ = cAρδ(π – k'A), and we can formulate the optimization problem of the platform as
+0< k A ′ <π
+
+Buyers’ Advertising Aversion
+In the baseline model, we assume that advertising increases an advertised seller’s exposure and advertising has no negative effects on buyers. This assumption is sensible in our setting because of the particular medium in question. Unlike in traditional media such as magazines or TV, where advertising could be intrusive or distractive and thus negatively affect the audience, the platform in our setting is a dedicated C2C trading platform and buyers come to this platform to seek sellers. Advertising on this platform is simply to give the sellers who participate in the advertising service more exposure and to make them more likely to be noticed by potential buyers. We next illustrate that even if buyers are indeed averse to advertising for some reason, we can still duplicate the analysis. As long as the aversion is mild, all the results continue to hold qualitatively and the insights delivered by the baseline model carry over. We model this negative effect of advertising by introducing different conversion rates for the organic listing and the advertising list. In particular, we normalize the conversion rate from the organic listing to 1 (as in the baseline model), but now we consider the conversion rate from the advertising list is not necessarily the same as that from the organic listing. We denote ρ as the conversion rate from the advertising list, ρ ∈ (0, 1]. Notice that given the conversion rate for the organic listing being normalized to 1, ρ measures buyers’ aversion to advertising. The case with ρ = 1 corresponds to the baseline model in which buyers are not averse to advertising. Noticing that the equilibrium under the brokerage model remains the same as in the baseline model, we next analyze the equilibrium under the advertising model. Similar to Equations (11), (12), and (13) in the baseline model, we can characterize buyers’ and sellers’ participation conditions with
+
+max ρδ s (1 − δ + ρδ )π (π − k A ′ )− ρδ (π − k A ′ ) kA ′
+2
+
+[
+
+]
+
+(40) (41)
+
+s.t. p2 = (1 − a ) p +
+
+apπ ≥1 kA ′
+
+Note that the objective function (40) takes a form similar to that in the baseline model, Equation (17), except that now the coefficients contain ρ. Solving this optimization problem, we can derive the optimal advertising fee (θ*) and the maximum revenue of the platform (Π*) as in Proposition 2. We can show ^ ^ (a) becomes p (a) = [1 + a – that now the cutoff curve p ^ (a) = (1 + 2a(1 – ρ)]/[1 + 2a – a(2 + a)(1 – ρ)] (compared to p a)/(1 + 2a) in the baseline model). Based on the equilibrium outcome, we can similarly compare the two revenue models in terms of the revenue of the platform, sellers’ and buyers’ payoffs, and social welfare. We can show that, as long as ρ is close to 1, all the results continue of hold qualitatively and the insights are the same. For example, as in Proposition 3, we can derive the cutoff curve above which the brokerage model generates more revenue for the platform owner than the advertising model. The cutoff curve p ¯(a) now becomes a function of ρ:
+ 0   2  27 a ρ ρ −1 + 27 aρ − 4 p(a ) =  27 a 2 ρ ( ρ (−1) + ()27 ρ + 4 ) a − 4  p * (a )     8 if a ∈ 0, 2   27 ρ + 3 81ρ + 48 ρ ( ρ −1)   * 8 if a ∈  a , 2    27 ρ + 3 81ρ + 48 ρ ( ρ −1)  if a ∈ a * ,1
+
+[ ]
+
+where a* is determined by
+
+27 a 2 ρ ( ρ − 1) + ( 27 ρ + 4 ) a − 4
+
+27 a 2 ρ ( ρ − 1) + 27 aρ − 4
+
+( ) = 1+ 2 aρ + , a 2 ( ρ − 1)
+1+ a 2 ρ − 1
+
+[k
+
+A
+
+p1 + ρk A ′ ( min{ p2 ,1} − p1 ) s − c A = 0
+
+]
+
+(37) (38) (39)
+
+c A p1 (π − k A ) = 0
+c A ρ( min{ p2 ,1} − p1 )(π − k A ′ )−θ = 0
+
+and p*(a) is similarly defined as in Proposition 3 by equating the revenues under the two revenue models. As in the baseline model, when the space dedicated to advertising is small, the brokerage model outperforms the advertising model for the platform owner. When the advertising space is significant, which revenue model generates more revenue depends on the matching probability p: if the matching probability is low, the advertising model can generate more revenue; otherwise, the brokerage model generates more revenue. Therefore, the pattern of the cutoff curve is the same as in the baseline model and the insights remain valid. The main difference from the baseline is that the cutoff curve now
+
+590
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+depends on ρ . For instance, as ρ goes down, the range
+
+0,   27 ρ + 3
+
+8 81ρ 2 + 48 ρ ( ρ −1)
+
+  
+
+expands, in which the brokerage
+
+model always generates more revenue than the advertising model for the platform owner. Such an effect is intuitive: if the buyers are very averse to advertising, the value of advertising to sellers is very limited and so is the revenue of the platform under the advertising model, and therefore the brokerage model outperforms the advertising model.
+
+Seller Competition
+In our baseline model we assume that each seller is seen as selling a different product, and thus the competition among sellers is not considered. This assumption is sensible for C2C platforms, because most sellers are either individuals or small business that typically sell no-brand products which could be very different from each other and unique. For example, on Taobao a large number of sellers sell apparel and most apparel items are unbranded. Some other platforms are even dedicated to trading unique products. For example, Etsy is a marketplace focusing on handmade or vintage items and supplies, as well as unique factory-manufactured items. Etsy highlights the uniqueness of products in its statement: “Etsy is a marketplace where people around the world connect to buy and sell unique goods” (https://www.etsy.com/about). Similar to Etsy, DaWanda, a German marketplace “where you can buy unique, customized and handmade products made by talented people, and sell your own creations” (http://en.dawanda.com/info/show/faq_general#dawanda1), also emphasizes the uniqueness of products on its platform. In addition, when considering two-sided markets (particularly C2C markets) and users’ participation in the two-sided markets, the first-order consideration for each seller should be the likelihood that she can sell the product (and for each buyer should be the likelihood that he can find the product he needs). It is true that the number of sellers who sell substitute products could affect the competition and sellers’ profitabilities, but this should be their second-order consideration. In a general sense, however, different products are substitutes to some extent and sellers necessarily compete with each other to some degree. When the number of sellers is higher on a platform, the competition among them is higher. Although it is difficult to make a comprehensive and rigorous analysis for the general seller competition case, we believe the insights we deliver in this paper are robust. Intuitively, compared to the brokerage, under the advertising model, because
+
+of its free basic service, the platform is able to attract more sellers (even if they consider the competition), and sellers with relatively high profit margins are more likely to participate in the advertising service. The increased number of sellers in turn attracts more buyers. As in our base model, the social welfare should be increased because of the increased number of transactions and because the transactions are shifted toward sellers with lower costs. Buyers are better off because of the large number of sellers on the platform. Sellers with high costs are again better off under the advertising model, because now they benefit from the free basic service, whereas they would have either not participated or made little profit under the brokerage model. Sellers with medium costs might be worse off, for the same reason as in the base model—the free service is not attractive, but the advertising is too costly. The same insight for the platform should also remain the same as long as the same-side competition is not devastating. We next use a native model to illustrate the points explained above. As in the baseline model, we denote π as the seller’s expected profit from finding her trading partner under the brokerage model, which can also be viewed as a seller’s expected profit under the equilibrium number of sellers under * ). Contrary to the baseline model, we the brokerage model (nB assume under the advertising model that a seller’s expected profit is linearly decreasing in the additional participating * , because of the presumed increased compesellers beyond nB tition resulting from the increased number of participating sellers. That is, we assume that the expected profit is π[1 – * )], where β is positive and captures the competition β(nA – nB effect. Similar to the baseline model, we can characterize buyers’ and sellers’ participation conditions under the advertising model:
+
+[k
+
+A 1
+
+p + kA ′ ( min{ p2 ,1} − p1 ) s − c A = 0
+
+]
+
+(42) (43)
+
+* c A p1 π 1 − β n A − nB − kA = 0
+* c A ( min{ p2 ,1} − p1 ) π 1 − β n A − n B − kA ′ −θ = 0
+
+[[
+
+(
+
+)]
+
+[[
+
+]
+
+(
+
+)]
+
+]
+
+(44)
+
+Notice that when β = 0, this case reduces to the baseline case. From the seller’s participation condition, we can derive that
+* π (1 + β nB )
+
+nA = k A =
+
+1 + βπ
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+591
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+We define
+* π ′ ≡ π 1 − β (n A − n B ) = π 1 − β
+
+[
+
+]
+
+ 
+
+* *   1 + β nB  π − nB  = π  + 1 + βπ  1 βπ  
+
+With the same reasoning as in the baseline model, we can simplify the above conditions to cA = [(1 – δ)π' + δk'A]s and θ = cAδ(π' – k'A), and we can formulate the optimization problem of the platform as
+0< k ′ A <π
+
+brokerage model outperforms the advertising model for the platform owner. When the advertising space is significant, which revenue model generates greater revenue depends on the matching probability p: if the matching probability is low, the advertising model can generate more revenue; otherwise, the brokerage model generates more revenue. Therefore, the pattern of the cutoff curve is the same as in the baseline model and the insights remain valid. The main difference from the baseline is that the cutoff curve now depends on β. For instance, increasing β expands the range 0,
+3 4(3 + 3βπ )  3  , in which the brokerage model always   27(3 + 2βπ )  
+
+max δ s π ′(π ′ − k A ′ ) − δ (π ′ − k A ′ ) kA ′
+2
+
+[
+
+]
+
+(45) (46)
+
+
+
+s.t. p2 = (1 − a ) p +
+
+apπ ′ ≥1 kA ′
+
+Note that the above objective function takes the same form as in the baseline model except that we now have π' instead of π because of the same-side competition effect. Similarly, we can derive the optimal advertising fee of the platform:
+sπ 2  θ =  
+*
+
+( ) 
+1+ β n* B 1+ βπ 2
+
+1+ 2δ − 2δ 2 + ( 2δ − 1) 1− δ + δ 2 9
+
+p(1 − p)sπ 2
+
+( )
+1+ β n * B 1+ βπ
+3
+
+ if p > p  (a )    (a ) if p ≤ p
+
+generates more revenue than the advertising model for the platform owner. Such an effect is intuitive: if the sellers’ payoffs are very sensitive to an increase in the number of participating sellers, the sellers’ payoffs are significantly lower under the advertising model than under the brokerage model. Therefore, their incentive to participate in the advertising service under the advertising model are low and the resulting revenue for the platform owner is low, which explains why the brokerage model outperforms the advertising model.
+
+and the maximum revenue of the platform is
+ sπ 3  27δ * ΠA =   
+
+Platform Competition and Dynamics
+
+( ) − 2 + 3δ + 3δ
+1+ β n * B 1+ βπ 3
+
+2
+
+− 2δ + 2 1 − δ + δ
+
+(1− p ) a
+δ
+
+p 2 sπ 3
+
+( )
+1+ β n* B 1+ βπ
+
+(
+
+2
+
+)
+
+3 2
+
+3
+
+ if p > p  (a )    (a ) if p ≤ p
+
+Based on the equilibrium outcome, we can similarly compare the two revenue models in terms of the revenue of the platform, sellers’ and buyers’ payoffs, and social welfare. We can show that as long as β is mild, all of the results continue to hold qualitatively and the insights remain the same. For example, as in Proposition 3, we can derive the cutoff curve above which the brokerage model generates greater revenue for the platform owner than the advertising model. The cutoff curve p ¯(a) now becomes a function of β:
+ 0    3+ 2 βπ  3   a−4  27  3+ 3βπ  p (a ) =   3   3+ 2 βπ  27   +4a−4     3+ 3βπ      p * (a )  if a ∈ 0, 27( 3+ 2 βπ) 3
+4 3+ 3βπ
+3
+
+So far, we have considered the platform as a monopolist choosing its revenue model and have studied the implications of that choice. Next, we use the example of eBay and Taobao to illustrate competition between platforms. eBay entered China in 2003 and was the first mover in the Chinese C2C sector. Taobao was founded in 2003 and appeared as a new entrant to this sector then. eBay China lost its market leader position to Taobao in 2006 as the result of competition, and ever since Taobao has played a dominant role in the Chinese C2C sector. When it entered the Chinese market in 2003, eBay adopted the same brokerage revenue model it used in the U.S. market, which by then had already been well established and successful in the United States. When Taobao launched its platform, it offered its service totally free to both buyers and sellers. (It later added the advertising service in addition to the free organic listing.) We next consider an incumbent platform with the brokerage model and an entrant platform employing the advertising model. We focus on the competition when the entrant platform enters the market. For illustrative purposes, we assume that the incumbent platform does not price strategically to deter potential entry; that is, the incumbent simply charges the optimal monopoly transaction fee, as discussed in the “Equilibrium Under the Brokerage Model” section. The
+
+[ if a ∈[ if a ∈[
+
+(
+
+)
+
+]
+(
+8 3+ 3βπ )
+3
+
+27 ( 3+ 2 βπ )
+
+4 ( 3+ 3βπ )
+
+3 3
+
+( , 27 3+ 2 βπ
+3 3
+
+) 3 − 4 ( 3+ 3βπ ) 3
+
+]
+
+27 ( 3+ 2 βπ ) − 4 ( 3+ 3βπ )
+3
+
+8( 3+ 3βπ )
+
+,1
+
+]
+
+where p*(a) is defined as in Proposition 3 by equating the revenues under the two revenue models. As in the baseline model, when the space dedicated to advertising is small, the
+
+592
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+incumbent platform might act like this, because, for example, it mistakenly assumes there are no strong potential competitors, as in the case of eBay in China. Thus, before the entry, the incumbent platform charges the optimal transaction fee τ* = π/3, as outlined in the “Equilibrium Under the Brokerage Model” section. In equilibrium, the sellers who have costs in * * [0, kB ] and the buyers who have opportunity costs in [0, cB ] * * participate in the platform, where kB and cB are defined as in Equations (9) and (10). When the entrant platform comes to the market, consistent with the case of Taobao and for ease of exposition, we consider the case in which the entrant dedicates mild space to advertising (e.g., α < 1/2). We next show that, even if the entrant simply employs its monopoly pricing strategy as outlined in the “Equilibrium Under the Advertising Model” section, the entrant could win over the incumbent’s installed sellers and buyers in the competition. We explain the dynamics from both sides, seller and buyer. From the seller side, first, because of its free service, the entrant can attract the sellers with medium costs (i.e., the sellers with costs in * , π]) to its platform, which are additional sellers beyond [ kB those using the incumbent platform. These sellers do not participate in the incumbent’s platform because their expected benefit from participating in its platform is lower than the transaction fee charged due to their intermediate costs. Second, as shown in Proposition 4(b), when the advertising ~ (a) = 0), all installed sellers on the space is mild (such that p incumbent’s platform could be better off by switching to the entrant’s platform. From the buyer side, first, expecting the increased seller base on the entrant’s platform, the installed buyers would be better off by switching to the new platform, which can also be seen from the comparison of their payoffs under the two revenue models in Proposition 5. Second, because of the expanded seller base on it, the entrant platform could attract additional buyers to its platform as well. As a result, the equilibrium described in Corollary 3 can be sustained as the outcome of the competition, which implies that the entrant could win the competition against the incumbent and the typical winner-takes-all outcome in the competition for two-sided markets can also occur in our setting. The above analysis illustrates that even if the entrant simply adopts the monopoly pricing strategy, it can win the competition and leave the incumbent with no market share. When the entrant prices strategically, the entrant can undoubtedly win the competition. What happened in the competition between eBay China and Taobao for the first couple of years was that Taobao opened its platform totally for free (i.e., a = 0), which is a special case of the above analysis. Under this special case, it is intuitive to see that, on one side, the installed sellers on eBay had incentive to switch to Taobao
+
+and meanwhile Taobao attracted additional sellers because of being free. On the other side, installed buyers on eBay had incentive to switch to Taobao because of the shift on the seller side, and meanwhile Taobao also attracted additional buyers because of the expanded seller base.
+
+Conclusion
+In this paper, we study how the choice of revenue model— between the brokerage model and the advertising model— affects the revenue of the platform, sellers’ and buyers’ payoffs, and social welfare. We find that both the size of the advertising space and matching probability play critical roles in the comparison. We also find that when a significant proportion of space is dedicated to advertising, if the matching probability is low, the advertising model generates more revenue; otherwise, the brokerage model generates more. Sellers are better off under the advertising model in most scenarios. The only exception is that when a limited space is left for organic listing and matching probability is low, some sellers with intermediate costs might be worse off under the advertising model. Buyers are always better off and social welfare is always higher under the advertising model.
+
+Managerial Implications
+Our research has several implications. First, we underscore the importance of platform owners’ tailoring their revenue models according to the platform design and technologies and user experience with online platform shopping. The rule of thumb for choosing a C2C revenue model for a platform is that it should consider the space that can be dedicated to advertising and the matching probability of the platform. Our analysis illustrates that the choice of revenue model should be assessed in line with technology development and user experience. When the space that can be dedicated to advertising is small, the advertising model cannot beat the brokerage model and the platform should adopt the brokerage model. The space that can be dedicated to advertising should be determined based on various factors. For example, with a commonly used two-column page structure, if the space dedicated to advertising (typically in one column, such as in the case of Taobao) is too big and not balanced with the organic listing (typically in another column), the platform should investigate whether the resulting structure affects readability and the efficiency of displaying the information. If consumer experience is seriously affected, the platform should not risk
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+593
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+dedicating much space to advertising and, generally, should not risk using the advertising model. In addition, consumers’ attitudes toward advertising also critically affect the desirability of the advertising model, because, after all, the revenue under the advertising model is solely from advertising. If the advertising model is used, the platform should minimize any possible negative effect of advertising on consumers by, for example, displaying equally relevant sellers in the both listings and by educating consumers that the advertising provides relevant information. If consumers are very averse to advertising and cannot be convinced of the value of advertising, the platform is better off using the brokerage model. When a significant space can be dedicated to advertising, the matching probability, or how likely buyers can locate what they seek on the platform, plays a key role in determining which model can generate more revenue. If the platform has solid platform technologies (e.g., search and categorization technologies) and consumers have good search skills in general such that it is easy for buyers to locate the products, the platform should consider the brokerage model; otherwise, the platform should consider the advertising model instead. In mature markets such as in the United States, where products and product descriptions are standardized, platform search and categorization technologies are advanced, and users have rich experience with online shopping, it is easy for buyers to find their purchase matches and complete the transactions and thus the brokerage model is more desirable. In contrast, matching probability could be lower in China, especially in the early days of the e-commerce era, where products and product descriptions were highly heterogeneous, platform technologies were relatively rudimentary, and users were less experienced. In this case, the advertising model could outperform the brokerage model. Our result thus sheds light on why the two revenue models, represented by eBay in the United States and Taobao in China, are successful in their respective markets. This result is also consistent with the fact that the brokerage model has become a popular practice in mature markets. For example, in the United States, besides eBay, another popular platform, Etsy.com, uses the brokerage model as well. Etsy is a marketplace focusing on handmade or vintage items and supplies, as well as unique factorymanufactured items. Etsy charges a 3.5 percent fee on the sale price. We also highlight the different effects of matching probability on the platform owners under the advertising and brokerage models. Under the brokerage model, the platform should always strive to improve the matching technology, for example, by making the platform easy to navigate and providing necessary help for users to locate products, because increased matching technologies mean an increased number of transactions and hence increased revenue. In contrast,
+
+under the advertising model, the platform does not necessarily reap much benefit from improving technologies. One caveat of the above discussion on revenue model choice is the cost associated with each model. The cost of running an online trading platform includes a one-time setup cost for hardware and software, as well as the ongoing costs of providing matching and other services. Incorporating such costs, which we do not consider in this paper, will tip the balance further in favor of the revenue model with a lower cost. Second, our analysis indicates that the advertising model generally benefits the users and increases user participation. With the basic service being free, the advertising model is able to attract a large number of sellers, which benefits the buyers and in turn induces more buyers to participate. Buyers should welcome the advertising model, as long as they are convinced that the advertising/promotion service delivers seller information as relevant as the organic listing and thus have the same receptiveness toward the sellers displayed in the organic listing and in the advertising list. Sellers generally embrace the advertising model because the sellers with low profit margins enjoy the free basic service and the sellers with high profit margins benefit from the additional exposure gained by advertising. The only exception is when the space left for organic listings is limited and matching probability is low. In this case, as indicated by our analysis, sellers with intermediate costs might be worse off under the advertising model and the platform should expect them to resist it. To prevent those sellers from leaving the platform (e.g., by establishing their own direct-sell websites), the platform could consider offering some special terms for their business on its platform. Finally, our research also has implications for social planners. As we illustrated in the analysis, the advertising model could generate more social welfare than the brokerage model. When the platform voluntarily adopts the advertising model, allocation efficiency is naturally achieved. Of greater importance, in many cases, all the involved players, including the platform itself, the sellers, and the buyers, are better off, which leads to a win–win–win outcome. Of course, the platform owner’s choice is not always aligned with that of the social planner. When misalignment occurs, social planners might need to subsidize platform owners to induce socially advantageous revenue model choices. Again, another concern with the advertising model is the cost of implementation. In calibrating the net benefit from the advertising model, such costs should be considered. When the cost becomes negligible compared to the benefit realized as the technology advances, the advertising model should be promoted, and social planners may even consider subsidizing or facilitating the switch to the advertising model.
+
+594
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Limitations and Future Research
+This paper has several limitations that suggest directions for future research. As a future research direction, we can consider the competition between the two platforms using different revenue models. In the extension, we discuss the competition between eBay China and Taobao and illustrate how Taobao won the competition over eBay China. It will be interesting to consider a full-fledged competition model, systematically studying the equilibrium outcome of such a competition. After all, the dominant role that Taobao holds in China can be viewed as the result of the competition. Also, although Google does not offer a trading platform, the competition between eBay and Google for certain sellers bears a similar flavor as the competition between eBay and Taobao because Google, similar to Taobao, offers a basic search service for free and a sponsored search service for sellers to purchase. Competitive positioning has long been discussed in the literature (e.g., Adner et al. 2014). We believe that a study of the competition between platforms would reveal additional insights beyond the extant literature. In addition, in the baseline model, we assume sellers offer different products and do not compete with each other. In the extension, we only consider a simple model of seller competition for illustrative purposes. Further systematic investigation of competition among sellers in this two-sided market framework may generate more insights. Finally, we do not examine the optimal advertising space that should be offered by the platform under the current framework. We believe that the optimal advertising space should be determined based on various factors, including factors not considered in this paper. A systematic investigation of the optimal advertising space will complement our study.
+
+References
+Adner, R., Csaszar, F. A., and Zemsky, P. B. 2014. “Positioning on a Multiattribute Landscape,” Management Science (60:11), pp. 2794-2815. Anderson, S. P., and Coate, S. 2005. “Market Provision of Broadcasting: A Welfare Analysis,” The Review of Economic Studies (72:4), pp. 947-972. Bhargava, H. K., and Choudhary, V. 2004. “Economics of an Information Intermediary with Aggregation Benefits,” Information Systems Research (15:1), pp. 22-36. Casadesus-Masanell, R., and Zhu, F. 2010. “Strategies to Fight AdSponsored Rivals,” Management Science (56:9), pp. 1484-1499. Casadesus-Masanell, R., and Zhu, F. 2013. “Business Model Innovation and Competitive Imitation: The Case of SponsorBased Business Models,” Strategic Management Journal (34:4), pp. 464-482. Chellappa, R. K., and K., Shivendu, S. 2010. “Mechanism Design for ‘Free’ But ‘No Free Disposal Services’: The Economics of Personalization Under Privacy Concerns,” Management Science (56:10), pp. 1766-1780. Chen, R., Sharman, R., Rao, R., and Upadhyaya, S. J. 2013. “Data Model Development for Fire Related Extreme Events: An Activity Theory Approach,” MIS Quarterly (37:1), pp. 125-147. Cheng, H. K., and Liu, Y. 2012. “Optimal Software Free Trial Strategy: The Impact of Network Externalities and Consumer Uncertainty,” Information Systems Research (23:2), pp. 488-504. Economides, N., and Katsamakas, E. 2006. “Two-Sided Competition of Proprietary vs. Open Source Technology Platforms and the Implications for the Software Industry,” Management Science (52:7), pp. 1057-1071. Gallaugher, J. M., and Wang, Y-M. 2002. “Understanding Network Effects in Software Markets: Evidence from Web Server Pricing,” MIS Quarterly (26:4), pp. 303-327. Guo, Z., Koehler, G. J., and Whinston, A. B. 2012. “A Computational Analysis of Bundle Trading Markets Design for Distributed Resource Allocation,” Information Systems Research (23:3), pp. 823-843. Hagiu, A. 2009. “Two-Sided Platforms: Product Variety and Pricing Structures,” Journal of Economics & Management Strategy (18:4), pp. 1011-1043. Hevner, A. R., March, S. T., Park, J., and Ram. S. 2004. “Design Science in Information Systems Research,” MIS Quarterly (28:1), pp. 75-105. Johnson, E. J., Moe, W. W., Fader, P. S., Bellman, S., and Lohse, G. L. 2004. “On the Depth and Dynamics of Online Search Behavior,” Management Science (50:3), pp. 299-308. Jullien, B. 2006. “Two-Sided Markets and Electronic Intermediaries,” in Industrial Organization and the Digital Economy, G. Illing and M. Peitz (eds.), Cambridge, MA: The MIT Press, pp. 273-302. Lin, M., Ke, X., and Whinston, A. B. 2012. “Vertical Differentiation and a Comparison of Online Advertising Models,” Journal of Management Information Systems (29:1), pp. 195-236.
+
+Acknowledgments
+We thank the review team for their detailed and constructive comments. We thank participants at the Workshop on Information Systems and Economics (2011), INFORMS International (2012), the Sixth China Summer Workshop on Information Management (2011), INFORMS Conference on Information Systems and Technology (2012), and Theory in Economics of Information Systems workshop (2013), as well as seminar participants at Dalian University of Technology, Renmin University, and University of Connecticut for their helpful feedback. We also thank R. Preston McAfee from Microsoft and Zhenzhong Sheng from Alibaba for their insightful input. We gratefully acknowledge the financial support from the National Science Foundation of China (NSFC 71273151) and the NET Institute (www.NETinst.org). Jianqing Chen also acknowledges financial support from the National Science Foundation of China (NSFC 71431002).
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+595
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+March, S. T., and Storey, V. C. 2008. “Design Science in the Information Systems Discipline: An Introduction to the Special Issue on Design Science Research,” MIS Quarterly (32:4), pp. 725-730. Nault, B. R., and Dexterr, A. S. 2006. “Agent-Intermediated Electronic Markets in International Freight Transportation,” Decision Support Systems (41:4), pp. 787-802. Niculescu, M. F., and Wu, D. J. 2014. “Economics of Free Under Perpetual Licensing: Implications for the Software Industry,” Information Systems Research (25:1), pp. 173-199. Parker, G. G., and Van Alstyne, M. W. 2005. “Two-Sided Network Effects: A Theory of Information Product Design,” Management Science (51:10), pp. 1494-1504. Rochet, J-C., and Tirole, J. 2003. “Platform Competition in TwoSided Markets,” Journal of the European Economic Association (1:4), pp. 990-1029. Stahl II, D. O. 1989. “Oligopolistic Pricing with Sequential Consumer Search,” American Economic Review (79:4), pp. 700-712.
+
+Quarterly, and Production and Operations Management. He was the co-recipient of the Best Paper award for the Fifteenth Conference on Information Systems and Technology in 2010 and of the Best Paper award for the First, Sixth, and Ninth China Summer Workshop on Information Management in 2007, 2012, and 2015, among others. Ming Fan is an associate professor in information systems at Foster School of Business, University of Washington. He received his Ph.D. in information systems management from the University of Texas at Austin. His research interests are in the area of electronic commerce, use of IT in the financial services industry, and reputation systems in online markets. He is a coauthor of the book Electronic Commerce and the Revolution in Financial Markets. The Chinese translation of the book was published by Peking University Press. He has published in Information Systems Research, MIS Quarterly, IEEE Transactions on Knowledge and Data Engineering, Journal of Management Information Systems, and other journals. He served as an associate editor of Information Systems Research, and is a senior editor of Decision Support Systems and Information Systems and e-Business Management. Mingzhi Li is an associate professor of Economics at the School of Economics and Management, Tsinghua University, China. Mingzhi received his Ph.D. in Economics from the University of Texas at Austin in 1999. He focuses his formal academic work on industrial organization and electronic commerce. Mingzhi has served as the principal investigator in several research projects exploring the economic aspects of electronic commerce and the evolution of China’s information and communications industry. His research has led to publications in academic journals, including Computational Economics, Information Economics and Policy, Electronic Markets, Information Systems Journal, and Journal of Information Technology, among others.
+
+About the Authors
+Jianqing Chen is an associate professor in information systems at the Naveen Jindal School of Management at the University of Texas at Dallas and was previously an assistant professor at the Haskayne School of Business at the University of Calgary. He received his Ph.D. from McCombs School of Business at the University of Texas at Austin in 2008. His general research interests are in social media and user-generated content, search engine advertising, economics of information systems, and supply chain risk management. His papers have been published in academic journals, including Decision Analysis, Decision Support Systems, Economics Letters, Information Systems Research, Journal of Management Information Systems, Journal of Marketing, Journal of Marketing Research, MIS
+
+596
+
+MIS Quarterly Vol. 40 No. 3/September 2016
+
+RESEARCH ARTICLE
+
+ADVERTISING VERSUS BROKERAGE MODEL FOR ONLINE TRADING PLATFORMS
+Jianqing Chen
+Jindal School of Management, The University of Texas at Dallas, Richardson, TX 75080 U.S.A. {chenjq@utdallas.edu}
+
+Ming Fan
+Foster School of Business, University of Washington, Seattle, WA 98195 U.S.A. {mfan@uw.edu}
+
+Mingzhi Li
+Research Center for Contemporary Management, School of Economics and Management, Tsinghua University, Beijing, 100084 CHINA {imzh@sem.tsinghua.edu.cn}
+
+Appendix
+Monotonicity in Buyers’ and Sellers’ Participation Decisions
+Lemma 1. Let c < c' and k < k'. Under the brokerage model, if a buyer with cost c' participates in the platform, the buyer with cost c also participates in the platform. If a seller with cost k' participates in the platform, the seller with cost k also participates in the platform. Proof. The buyer with c' participates if her payoff, specified in Equation (3), is positive (i.e., if nps – c' > 0). Because c < c', we have nps – c > 0, which indicates that the buyer with c also has an incentive to participate. Similar reasoning applies to the sellers’ participation decisions. Lemma 2. Let c < c' and k < k'. Under the advertising model, if a buyer with cost c' participates in the platform, the buyer with cost c also participates in the platform. If a seller with cost k' participates in the platform, the seller with cost k also participates in the platform. Moreover, if the seller with k' participates in the advertising service, the seller with k also participates in the advertising service. Proof. The proof of buyers’ and sellers’ decisions of participating in the platform is the same as that of Lemma 1. We next show sellers’ decisions about participating in the advertising service. The seller with cost k' participates in the advertising service if her payoff with advertising is greater than her payoff without advertising; that is, if mmin{p2,1}(π – k') – θ > mp1(π – k') by Equation (6). Because k < k', if the above inequality is true, mmin{p2, 1}(π – k) – θ > mp1(π – k) must be true because min{p2, 1} > p1, which indicates that the seller with c also has incentive to participate in the advertising service.
+
+MIS Quarterly Vol. 40 No. 3— Appendix/September 2016
+
+A1
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Proof of Proposition 1
+Proof. Notice that the objective function p2sτ(π – τ)2 crosses zero at τ = 0 and τ = π, and it is positive over [0, π]. Its first-order derivative, p2s[(π – τ)2 – 2τ(π – τ)] = p2s(π – τ)(π – 3τ), is positive over (0, π/3) and is negative over (π/3, π). Therefore, the objective function reaches the maximum at τ* = π/3. Substituting τ* into the objective function results in the maximum revenue.
+
+Proof of Proposition 2
+2 Proof. Notice that the objective function, δs[π(π – k' A) – δ(π –k' A) ]k' A crosses zero three times at k' A = π – π/δ, k' A = 0, and k' A = π. We can verify that the objective function is positive over [0, π].
+
+By letting the first-order derivative of the objective function be zero, we have (after removing the constant term δs)
+2 [π(π – k' A) – δ(π – k' A) ] + [–π + 2δ(π – k' A)]k' A = 0
+
+which can be reorganized as
+2 2 –3δk' A – 2(1 – 2δ)πk' A + (1 – δ)π = 0
+
+Because
+
+(1−δ )π 2
+− 3δ
+
+< 0 , one root of the above equation is negative and the other is positive. The positive one is
+kA ′+ = 2(1 − 2δ )π − 4(1 − 2δ ) π 2 + 12δ (1 − δ )π 2
+2
+
+− 6δ
+
+=
+
+(2δ − 1) +
+
+1− δ + δ 2
+
+3δ
+
+π
+
++ which can be verified to be less than π because 1 − δ + δ 2 < 1 + δ . Therefore, its first-order derivative is positive over (0, k' A ) and is negative + + + over (k' A , π), which indicates that the objective function is increasing over (0, k' A ) and decreasing over (k' A , π). + Notice that the constraint in Inequality (18) is equivalent to k' A # apπ/δ. Therefore, if apπ/δ $ k' A , the objective function reaches the maximum * + * + at k' A = k' A ; otherwise, it reaches the maximum at k' A = apπ/δ (when the constraint binds). The condition apπ/δ $ k' A can be rewritten as
+
+apπ
+
+δ
+
+>
+
+(2δ − 1) +
+
+1− δ + δ 2
+
+3δ
+
+π
+
++a  which is equivalent to (δ − 2 + 3 p) > 1 − δ + δ 2 . By substituting in δ = 1 – (1 – a)p, the above condition can be simplified to p > 11 + 2 a = p(a ) .
+* * Therefore, if p < p ˆ (a), substituting k' A = apπ/δ into θ , we have
+
+θ * = δπs(π − k A ′ ) − δ 2 s(π − k A ′ ) = sπ 2 (δ − ap) − (δ − ap) = p(1 − p)sπ 2
+2 2
+* ′* = and thus Π * A = θ kA a δ
+
+[
+
+]
+
+p 2 (1 − p)sπ 3 .
+
+* * + If p > p ˆ (a), substituting k' A = k' A into θ , we have
+2   1 + 2δ − 2δ 2 + (2δ − 1) 1 − δ + δ 2  −(1 − 2δ ) + 1 − δ + δ 2   − (1 − 2δ ) + 1 − δ + δ 2     − δ −  = sπ 2  θ = sπ  δ −       3 3 9          * 2
+
+and thus
+
+1 + 2δ − 2δ 2 + (2δ − 1) 1 − δ + δ 2  (2δ − 1) + 1 − δ + δ 2 * Π*  π ′ * = sπ 2  A = θ kA 9 3δ    
+which can be simplified to the value in the proposition.
+
+A2
+
+MIS Quarterly Vol. 40 No. 3— Appendix/September 2016
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+Proof of Corollary 2
+Proof. From the proof of Proposition 2, if p > p ˆ (a), the constraint in Inequality (18) does not bind, and therefore p* 2 > 1; otherwise, the constraint binds and p* = 1. 2
+
+Proof of Proposition 3
+* * Proof. We define Δ / ΠB – ΠA . When p < p ˆ (a) (in which p ˆ (a) is as defined in Proposition 2),
+
+Δ=
+
+4 p 2 sπ 3 27
+
+−(
+
+1− p ) a δ
+
+p2 sπ 3 = p 2 sπ 3
+
+(
+
+4 27
+
+−(
+
+1− p ) a δ
+
+)=
+
+p 2 sπ 3 27δ
+
+[ p(31a − 4) − (27a − 4)]
+
+(47)
+
+For any a ∈ [0, 4/27], Δ > 0 because when a < 4/31, 4 – 27a > 4 – 31a, and when a > 4/31 in that range, 31a – 4 > 0 and 27a – 4 < 0. When a ∈ [4/27, 1], Δ > 0 defines a curve, p(a) = (27a – 4)/(31a – 4), on the (a, p) space, which intersects with p ˆ (a) at a* = 8/23. When a < a*, we can verify (27a – 4)/(31a – 4) < p ˆ (a) and, therefore, if p > (27a –4)/(31a – 4), Δ > 0; otherwise, Δ < 0. When a > a*, (27a – 4)/(31a – 4) >p ˆ (a) and therefore within p < p ˆ (a), Δ < 0. When p > p ˆ (a),
+
+Δ=
+
+sπ 3 27δ
+
+3 4 p 2δ −   − 2 + 3δ + 3δ 2 − 2δ 3 + 2 1 − δ + δ 2 2       
+
+(
+
+)
+
+Notice that Δ = 0 defines a curve p*(a) on the (a, p) space, which intersects with p ˆ (a) at a* = 8/23. When a < a*, we can verify p*(a) < p ˆ (a), and, therefore, within p > p ˆ (a), Δ > 0. When a > a*, p*(a) < p ˆ (a), and, therefore, if p > p ˆ (a), Δ > 0; otherwise, Δ < 0. To summarize, for a ∈ [0, 4/27], we have Δ > 0. For a ∈ [4/27, 8/23], if and only if p > (27a – 4)/(31a – 4), Δ > 0. For a and only if p > p*(a), Δ > 0. Then p ¯(a) in the proposition follows.
+
+∈ [8/23, 1], if
+
+Proof of Proposition 4
+* Proof. (a) The payoffs of these sellers under the advertising model, by Equation (25), are positive because the marginal seller with kA derives zero payoff, and these sellers have lower costs than that marginal seller. These sellers do not participate under the brokerage model and derive zero payoff. Therefore, they are all better off under the advertising model. * * , kB ], when p > p ˆ (a) (in which p ˆ (a) is defined as in Proposition 2), sellers are better off under the advertising model if (b) For sellers in [k'A
+
+2 − δ + 1− δ + δ 2 2 2 πs(1 − a ) p(π − k ) > 2 3 p sπ ( 3 π − k ) 3
+
+(48)
+
+* where the term in the left-hand side is the sellers’ payoffs under the advertising model by substituting mA from Equation (22) into Equation (25), and the term in the right-hand side is the sellers’ payoff under the brokerage model from Equation (24). We can verify that Inequality (48) is true for all p > p ˆ (a) and that these sellers are better off under the advertising model.
+
+Similarly, when p < p ˆ (a), sellers are better off under the advertising model if
+
+psπ (1 − a ) p(π − k ) >
+
+2 2 2  p sπ  π − k  3  3
+
+* The condition can be simplified to k(a – 1/3) > (a – 5/9)π. For a ∈ [0, 1/3], the condition is satisfied because k < 2π/3 = kB . For a ∈ [1/3, 5/9], the condition is satisfied because the right-hand side is non-positive. When a > 5/9, the inequality condition reduces to
+
+k > (9a – 5)π/(9a – 3)
+
+(49)
+
+MIS Quarterly Vol. 40 No. 3— Appendix/September 2016
+
+A3
+
+Chen et al./Advertising vs. Brokerage Model for Online Trading Platforms
+
+* We next examine the condition for (9a – 5)π/(9a –3) > k'A = apπ/δ. Substituting δ in, by simple algebra, the condition is equivalent to p < (9a * , and all k ∈ k A – 5)/(11a – 5). Therefore, if p > (9a – 5)/(11a – 5), (9a – 5)π/(9a – 3) < k'A ′ , kB ′
+
+off; otherwise, sellers with k > (9a – 5)π/(9a – 3) are better off under the advertising model and other sellers are worse off.
+* For sellers with costs in [0, k'A ], when p > p ˆ (a), sellers are better off under the advertising model if
+
+[
+
+*
+
+*
+
+] satisfy Equation (49) and sellers are better
+
+1 + 2δ − 2δ 2 + (2δ − 1) 1 − δ + δ 2  2 2 − δ + 1− δ + δ 2  2 πs(π − k ) − sπ 2   > p 2 sπ  π − k    3 9 3 3    
+
+(50)
+
+* where the term in the left-hand side is sellers’ payoffs under the advertising model by substituting mA from Equation (22) and θ* from Equation (19) into Equation (26), and the term in the right-hand side is sellers’ payoff under the brokerage model from Equation (24). We can verify that Inequality (50) is true for all p > p ˆ (a) and these sellers are better off under the advertising model.
+
+Similarly, when p < p ˆ (a), sellers are better off under the advertising model if
+
+psπ (π − k ) − p(1 − p)sπ 2 >
+By simple algebra, the condition can be reduced to  1 − the condition for
+
+2 2 2  p sπ  π − k  3  3
+
+ 
+
+5 pπ apπ < kA . Substituting δ in, by simple algebra, the condition is equivalent to p < (9a – 5)/(11a – 5). Therefore, ′* = δ 3(3 − 2 p)
+
+2  5 5 pπ p k < pπ . Therefore, any k < satisfies the condition. We next check 3  9 3(3 − 2 p)
+
+if p > (9a – 5)/(11a –5),
+
+k<
+
+5 pπ are better off under the advertising model and other sellers are worse off. 3(3 − 2 p)
+
+5 pπ 5 pπ * > kA ] satisfy k < and sellers are better off; otherwise, sellers with ′ * and all k ∈ [0, k'A 3(3 − 2 p) 3(3 − 2 p)
+
+All together, we can summarize the results using function p ˜ (a) as specified in the proposition.
+
+Proof of Proposition 5
+Proof. When p < p ˆ (a), the result follows because pπ s − c > established if
+
+2 pπ s − c by Equations (28) and (29). When p > p ˆ (a), the result can be 3
+
+2 − δ + 1− δ + δ 2 2 πs − c > pπs − c 3 3
+or, equivalently, if 2 − δ + 1 − δ + δ 2 > 2 p . Furthermore, the condition is equivalent to 1 – δ + δ² > (2p – 2 + δ)², which reduces to 3 + a – 4ap > 0 by substituting in δ. Because a and p are in [0,1], the inequality 3 + a – 4ap > 0 is true.
+
+Proof of Proposition 6
+Proof. When p < p ˆ (a), the average matching probability under the advertising model is the same as under the brokerage model; that is, * * * * * * * * – n'A )p1 + n'A ] = pnA (which can also be seen from Equation (29)). Notice that mB < mA and nB < nA . We check the social welfare under [(nA * * * * the brokerage model generated by the low-cost buyers with a mass mB (among mA ) and the low-cost sellers with a mass nB (among nA ). These * * segments of buyers and sellers under the advertising model generate the same total value mBnBp(s + π) as under the brokerage model. The total * fixed cost on the seller side is lower than the fixed cost under the brokerage model because, among mB , the lower-cost sellers participate in the advertising and sell their products more often. The total opportunity costs on the buyer side are the same under the two models. Therefore, these segments of buyers and sellers under the advertising model generate more social welfare than that under the brokerage model. Other participating buyers and sellers generate additional social welfare because their decisions to participate means that the expected benefits are greater than their costs. When p > p ˆ (a), we can also verify that the advertising model generates more social welfare than the brokerage model.
+
+A4
+
+MIS Quarterly Vol. 40 No. 3— Appendix/September 2016
+
+Copyright of MIS Quarterly is the property of MIS Quarterly and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

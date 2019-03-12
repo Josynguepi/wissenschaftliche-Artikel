@@ -1,0 +1,638 @@
+Journal of Strategic Information Systems 25 (2016) 104–126
+
+Contents lists available at ScienceDirect
+
+Journal of Strategic Information Systems
+journal homepage: www.elsevier.com/locate/jsis
+
+Does mutuality matter? Examining the bilateral nature and effects of CEO–CIO mutual understanding
+Alexander Benlian ⇑, Ingmar Haffke
+Darmstadt University of Technology – TU Darmstadt, Chair of Information Systems and Electronic Services, Hochschulstr. 1, 64289 Darmstadt, Germany
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+Despite the criticality of a healthy partnership between CEOs and CIOs in organizations for effective business–IT alignment, we still know little about how crucial yet underresearched facets of mutual understanding compare between CEOs and CIOs and how their ability of mutual perspective-taking affects the quality of collaboration in their partnership. Drawing on two established theoretical models in social and personal relationship research, the perceptual congruence model (PCM) and the actor–partner interdependence model (APIM), our study examines 102 matched-pair survey responses of CEOs and CIOs using dyadic data analysis. Our ﬁndings show that both executives’ actual opinions on important business and IT topics are more similar than both perceive them to be. Accordingly, perceptions of each other’s opinions are negatively biased away from their real opinions. Moreover, our study demonstrates that CIOs’ understanding of their CEO plays a more pivotal role in predicting the quality of CEO–CIO collaboration than CEOs’ understanding of their CIO; this highlights the disparate importance of an active and passive role of understanding in the CEO–CIO partnership. Implications for research and practice are discussed. Ó 2016 Elsevier B.V. All rights reserved.
+
+Article history: Received 17 March 2015 Received in revised form 8 January 2016 Accepted 8 January 2016 Available online 21 January 2016 Keywords: CIO–CEO partnership Social alignment Mutual understanding Perspective-taking Perceptual congruence model Actor–partner interdependence model
+
+Introduction Fostering the business–IT partnership is a perennial challenge for corporate executives. In fact, the latest Society for Information Management’s (SIM) IT Key Issues and Trends survey reported that strategic alignment of IS with the business was regarded as the topmost priority in eight out of the last 12 years and among the top two in all but one year (Kappelman et al., 2014; Luftman et al., 2005). Alignment clearly remains a persistent and pervasive managerial issue, particularly as organizations, markets, and technologies are constantly evolving (Coltman et al., 2015). A good working relationship between the chief executive ofﬁcer (CEO) and the chief information ofﬁcer (CIO) is central to a healthy business–IT partnership. This, in turn, facilitates the process of blending IT assets and complementary business capabilities to derive strategic value from IS (Preston and Karahanna, 2009b; Bassellier and Benbasat, 2004). Regardless of its importance, however, this relationship is frequently observed as bumpy, which contributes to the ineffectual use of information systems (IS) and to poor IS strategic alignment (Karahanna and Preston, 2013). Several factors have been found to account for poor relationships between CIOs and CEOs, and a key recurring theme has been that the CIO is perceived by the CEO as someone who operates in a service delivery capacity or in a support function
+⇑ Corresponding author. Tel.: +49 6151 16 4309.
+E-mail addresses: benlian@ise.tu-darmstadt.de (A. Benlian), haffke@ise.tu-darmstadt.de (I. Haffke). http://dx.doi.org/10.1016/j.jsis.2016.01.001 0963-8687/Ó 2016 Elsevier B.V. All rights reserved.
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+105
+
+rather than in a strategic advisory role (Fell, 2013). All too often, and as an expression of a lopsided relationship, there has been little IT recognition on the part of the business with few opportunities for CIOs to engage in regular strategic conversations with their CEO (Luftman and Kempaiah, 2007). Even worse, both IS and business leaders are often ‘‘unaware of their respective assumptions and ﬁnd it difﬁcult—or even controversial—to discuss them” (Hansen et al., 2011, p. 175). Overall, extant academic and practitioner research has long recognized this gap in mutual understanding as a major obstacle to IS strategic alignment (Reich and Benbasat, 2000). However, as IT-driven business topics proliferate and digital technologies fundamentally reshape traditional business strategies and models, the CIO as a strategic partner to the CEO has become more prevalent (Matt et al., 2015; Weill and Woerner, 2013; Hansen et al., 2011). Regular and frequent strategic conversations between CEOs and CIOs are no longer unusual, and the necessity of CEOs to understand the business value of IT becomes increasingly important for business success (Coltman et al., 2015). In recent years, extensive evidence has accumulated that senior executives (including business and IT executives) are cognitively limited and subject to different biases such as conﬁrmation, overconﬁdence, availability, anchoring, and self-preservation (Coltman et al., 2015; Kahneman et al., 2011; Vetter et al., 2011). Given the potential that cognitive biases may lead to perceptual blindness or distortion and given the pivotal role of mutual understanding for the health of the business–IT partnership, it is critical to fathom whether executives’ subjective perceptions of each other’s priorities, preferences, and opinions—as represented in implicit, intrapersonal assumptions—are in line with or depart from their actual perceptions (Benlian, 2013; Hansen et al., 2011; Preston and Karahanna, 2009b). In the same vein, gaining deeper insights into the question of who needs to understand whom in the CEO–CIO partnership and thus into bidirectional understanding, which we deﬁne as the ability of mutual perspective-taking, becomes more vital for positively affecting business–IT collaboration quality. Neglecting bidirectional differences in perceptions and understanding may otherwise not only impede the partnership between the two executives (e.g., by undermining each other’s credibility or trustworthiness), but may also have farreaching and profound effects (e.g., unnecessary delays or diverging priorities in IT investment decisions). Those can by far transcend the CEO–CIO partnership and trickle down to many other areas of the ﬁrm (Johnson and Lederer, 2013; Tallon, 2011). Previous studies on social alignment have primarily focused on the pivotal role of ‘‘mutual” or ‘‘shared” understanding between business and IT executives (e.g., Tan and Gallupe, 2006; Reich and Benbasat, 1996), its antecedents (e.g., Preston and Karahanna, 2009b; Reich and Benbasat, 2000), and its effects on IS strategic alignment or the business value of IT (e.g., Gerow et al., 2014; Tallon et al., 2000). These insights are very valuable because they shed light on how CEO–CIO social alignment is formed and how it affects important alignment and performance outcomes. However, previous studies have thus far treated CEO–CIO mutual understanding largely as a unitary and undifferentiated concept (e.g., Johnson and Lederer, 2010), neglecting to distinguish between intra- (i.e., self) and interpersonal (i.e., other) perceptions and to consider the bidirectional nature of understanding, or have limited their focus to only one side of the ‘‘understanding equation” (such as ‘‘business understanding of IT”) altogether (e.g., Wagner et al., 2014). This comes as a surprise, given that previous IS scholars have pointed to the importance of examining a more nuanced and ﬁne-grained conceptualization of CEO–CIO understanding, rather than studying it from an aggregated or lopsided perspective (Coltman et al., 2015; Preston and Karahanna, 2009b). In light of these limitations and calls for further research, our study addresses the following research questions: (1) How do reciprocal perceptions of key business and IT topics compare in the CEO–CIO partnership? (2) Is there an imbalance between CEOs and CIOs in understanding one another’s perspectives? (3) How do the two directions of understanding (i.e., CIOs understand CEOs vs. CEOs understand CIOs) differentially affect the collaboration quality between CEOs and CIOs? Gaining deeper insights into CEO–CIO understanding1 and exploring its effects can help organizations carefully diagnose and shape the relationship between business and IT leaders (e.g., in terms of communication, collaboration, and coordination practices) in order to promote a healthy and successful business–IT partnership. Besides these practical implications, our study also offers several research and theoretical contributions. First, while previous social business–IT alignment research has often limited its focus on just one single direction of understanding or has largely treated mutual understanding as a unitary and aggregated concept, obscuring intra- and interpersonal distinctions and the bidirectional nature of understanding, our study proposes and ﬂeshes out a novel perspective on CEO–CIO understanding which allows differentiation between bidirectional effects on their relationship. In doing so, we particularly shed light on the crucial concept of mutual perspective-taking—the cognitive process of changing the viewpoint and putting oneself into the shoes of the other person (Grant and Berry, 2011)—that has thus far received only scant attention in social alignment research. Second, social alignment research to date has not distinguished between an active and a passive role of CEO–CIO understanding (i.e., understanding vs. being understood) and their effects on important relational outcomes. By
+
+1 We conceptualize CEO–CIO understanding as a facet of the broader umbrella concept of ‘perceptual congruence’ that we introduce and explain in more detail in the Theoretical Background section (see Fig. 1 and Table 1).
+
+106
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+zooming in on the two directions of understanding and their differential effects, our study shows that it is the CIO’s understanding of the CEO—not the CEO’s understanding of the CIO—that matters for improving and strengthening collaboration quality. As such, our study is the ﬁrst to highlight the relevance of the conceptual distinction into an active and passive form of understanding and its crucial implications for effective social alignment. Third, and more generally, our study contributes to interpersonal relations research by combining two hitherto largely separately applied theoretical models of intra-/ interpersonal perceptions and interdependence. In so doing, we are able to gain a more comprehensive picture of the bilateral nature and effects of CEO–CIO understanding, which would not be possible by focusing on either model in isolation. We begin this paper by providing a review of the relevant business–IT alignment literature. We then establish the theoretical foundations of the two models integral to this study along with the development of the hypotheses to be tested. Subsequently, our research methodology is described and the results of our study are presented. Lastly, this paper is concluded with a discussion of the ﬁndings and the implications thereof.
+
+Theoretical background Literature review Research on business–IT alignment has become increasingly popular over the past two decades. Building upon seminal research and literature reviews on IT alignment (e.g., Chan and Reich, 2007a, 2007b; Avison et al., 2004; Henderson and Venkatraman, 1993), Gerow et al. (2014) give a comprehensive overview of business–IT alignment studies between 1996 and 2014 and, inter alia, reveal an underrepresentation of research concerned with the social dimension of alignment, also referred to as ‘social alignment’. Social alignment is commonly deﬁned as the ‘‘the state in which business and IS executives within an organizational unit understand and are committed to each other’s mission, objectives, and plans” (Reich and Benbasat, 1996, p. 57). This underrepresentation goes hand in hand with calls in the literature for a stronger focus on social relations in the context of business–IT alignment (e.g., Wu et al., 2015; Preston and Karahanna, 2009b; Reich and Benbasat, 2000). In Table A1 of Appendix A, we present a summary of prior studies on social alignment indicating study context, social alignment constructs and the operationalization thereof, key antecedents and consequents examined, and principal ﬁndings. The literature review clearly identiﬁes mutual understanding between business and IT as a pivotal element, either as a key antecedent to business–IT alignment (e.g., Luftman et al., 1999) or as part of the alignment construct itself (e.g., Li et al., 2006). Although the number of research studies on this topic is relatively small (Chan et al., 2006), unfortunately, researchers do not follow a general deﬁnition of or a common terminology around the concept of ‘mutual understanding’ (Bittner and Leimeister, 2014). Authors in this ﬁeld use the terms ‘‘mutual”, ‘‘shared”, or ‘‘common understanding” (e.g., Preston and Karahanna, 2009a), ‘‘mutual” or ‘‘shared knowledge” (e.g., Nelson and Cooprider, 1996), ‘‘mutual” or ‘‘shared vision” (e.g., Reich and Benbasat, 1996), ‘‘mutual” or ‘‘shared cognition” (e.g., Tan and Gallupe, 2006), ‘‘perceptual congruence” (e.g., Huisman and Iivari, 2006), ‘‘consensus” (e.g., Tallon, 2014), ‘‘convergence” (e.g., Johnson and Lederer, 2005), and ‘‘agreement” (e.g., Johnson and Lederer, 2013) nearly interchangeably to indicate the state where involved individuals express similar views on certain topics (Johnson and Lederer, 2005). The few distinctions noticeable throughout are that the term ‘‘vision” is primarily used to refer to ‘‘understanding” on future as opposed to present or past issues and the term ‘‘knowledge” embodies ‘‘understanding” on more objective rather than subjective topics. Besides employing different terminology, the 22 references listed in our literature overview also operationalize their measurements of ‘mutual understanding’ in different ways. Whereas few authors deploy their own unique measures (e.g., Tallon, 2014; Tan and Gallupe, 2006), the most common operationalization of measuring ‘mutual understanding’ in prior studies are: (1) reversed absolute (or sum of squared) differences between individuals’ responses to the same set of questions (e.g., Johnson and Lederer, 2005); (2) average of the individuals’ self-assessment of their level of ‘mutual understanding’ (e.g., Preston and Karahanna, 2009a); and (3) individuals’ reciprocal rating of counterparty’s understanding of the individual’s own domain (e.g., Armstrong and Sambamurthy, 1999). All three measures refer to the congruence (i.e., similarity) of views between individuals, which White (1985) suggests to conceptualize as agreement under the umbrella concept of perceptual congruence.2 The similarity of intrapersonal perceptions, on the other hand, and the ability of mutual perspective-taking have not been addressed empirically in prior alignment research. Only Feeny et al. (1992) state to have measured agreement (i.e., similarity of CEO and CIO response) separately from understanding (i.e., ability to predict the other individual’s response). In their study, CIOs were asked to predict their CEO’s responses to IT-related questions and their predictions were compared for accuracy. Alas, numerical results of this analysis are not provided in their paper and the opposite direction (CEOs’ prediction of their CIO’s responses) is not considered. Taken together, a distinction between actual and perceived similarity of viewpoints, which accounts for mutual perspective-taking and thereby yields a multi-faceted perspective on perceptual congruence between CEOs and CIOs, has not been advanced in any prior study.
+
+2 To avoid conceptual obscurity, our study consistently draws on the terms as deﬁned in the perceptual congruence model that we introduce in the next section (see also Table 1).
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+107
+
+Furthermore, only few studies have operationalized ‘mutual understanding’ between business and IT representatives as a bidirectional measure; those that do, fail to test their differentiated effects on social alignment. Of the 22 references listed in our literature overview, 14 studies neglect to account for the bidirectionality of business–IT understanding altogether, while eight studies consider it to some, yet limited, extent. In ﬁve studies (Stoel, 2006; Li et al., 2006; Reich and Benbasat, 2000, 1996; Boynton et al., 1994), ‘mutual understanding’3 is measured separately as ‘‘business’ understanding of IT” and ‘‘IT’s understanding of business”, but subsequently lumped together into a single, unitary ‘mutual understanding’ construct, either as a latent variable or as the mathematical average of the two directional measures. Two studies (Wagner et al., 2014; Feeny et al., 1992) measure and consequently analyze only the direction of ‘‘IT’s understanding of business”. In only one study (Armstrong and Sambamurthy, 1999), bidirectionality is accounted for in the context of ‘‘shared knowledge”, but its differential effects are neither reﬂected in the research model nor in the hypotheses tested. Finally, the most commonly found consequents of ‘mutual understanding’ in social alignment literature is either the level of alignment itself or some performance or success characteristics such as ﬁnancial contribution of IS (Johnson and Lederer, 2005), successful utilization of IT capabilities (Armstrong and Sambamurthy, 1999), or IT utilization (Wagner et al., 2014). Albeit providing empirical evidence of these positive effects on business value of IT has fundamentally contributed to social alignment research, previous research has thus far overlooked the more direct and proximal consequences of ‘mutual understanding’ on the CEO–CIO partnership itself, such as collaboration quality. In summary, we can conclude that ‘mutual understanding’ in social alignment research is still under-theorized. Although congruence of views between business and IT executives is widely considered the key aspect of social alignment, previous research is far from providing a nuanced and ﬁne-grained picture of the full concept of intra- and interpersonal congruence of perceptions and of the differentiated directionality effects of understanding as suggested in extant literature (Kenny, 1996; White, 1985). Hypotheses development In this study, we draw on two widely established models from social and personal relationship research to examine interpersonal relations between CEOs and CIOs: White’s perceptual congruence model (PCM: White, 1985) and Kenny’s actor– partner interdependence model (APIM: Kenny, 1996). To develop our hypotheses, we will ﬁrst draw on the PCM to offer a comprehensive conceptualization of perceptual congruence and second identify the effects of a key aspect of this congruence, CEO–CIO mutual understanding (or bidirectional understanding), on their collaboration quality. The measures of the two directions of understanding form the link between the two models, whereby the PCM feeds these constructs into the APIM that relates them to their consequents. As such, both models work together by providing more comprehensive insights into the bilateral nature and effects of CEO–CIO mutual understanding, which would not be possible by using either model in isolation. Perceptual congruence in the CEO–CIO partnership White’s model of perceptual congruence is based on a dyadic setting where self- and other-perception of both dyad members are compared interpersonally as well as intrapersonally. This approach of measuring reciprocal perceptions has been widely used in social psychology (e.g., Acitelli et al., 1993; White, 1985; Larson, 1974; Laing et al., 1966) to assess, for example, the relationship between husbands and wives or parents and their children and has inspired business-related studies to examine, for example, the congruence of co-workers’ perceptions (Bakker and Leiter, 2010; Morgan, 1993). Though not always applied in its full form, IS research has drawn on this model to assess perceptual congruence between, for example, IS user and IS staff (Jiang et al., 2000), system developers and system users (Jiang et al., 1998), business planners and IS executives (Teo and King, 1997), developers and customers (Finlay and Mitchell, 1994), and IS personnel and end-user personnel (Nelson, 1991). Applied to the social alignment context, we examine the individual opinions of both members of a dyadic CEO–CIO pair and their perceived opinions of the other person, respectively (see Fig. 1). Comparing these four variables allows measuring the actual similarity of their opinions (actual agreement), the level of perceived similarity of their opinions (perceived agreement), and their ability to accurately predict the other person’s opinion and thus to take the other person’s perspective (understanding) (see Table 1 for the PCM terminology as consistently used in this study). The PCM’s differentiation between actual agreement, perceived agreement, and understanding makes it attractive to apply this model to CEO–CIO partnerships, where prior alignment literature has mostly looked at only one of those three dimensions at a time. The PCM thus helps us better understand the nature of mutual understanding from these various angles. Later, we will narrow the focus on the effects of the two directions of understanding, when we employ the APIM. Many personal relations researchers (Byrne and Blaylock, 1963; Sillars, 1985) have found that individuals tend to perceive other people’s perspectives signiﬁcantly more similar to their own perspectives than they actually are. Multiple studies on husbands and wives have found empirical evidence of this phenomenon (e.g., Acitelli et al., 1993; Levinger and Breedlove, 1966) which Ross et al. (1977) call the ‘‘false consensus effect”. This effect is described as an inclination
+
+3
+
+We regard also synonymously used terms in the IS literature whenever we refer to ‘mutual understanding’.
+
+108
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+CEO Actual Agreement CEO’s Opinion Perceived Agreement CEO’s PercepƟon of CIO’s Opinion Understanding
+[Ability of mutual perspecƟve taking]
+
+CI O CIO’s Opinion Perceived Agreement CIO’s PercepƟon of CEO’s Opinion
+
+Fig. 1. CEO–CIO perceptual congruence model.
+
+Table 1 Perceptual congruence terminology as used in this study. Term Perceptual congruence (also: congruence of perceptions) Deﬁnition/explanation (based on White, 1985) General similarity of a dyad’s self- and other-perceptions, referring collectively to the three facets of perceptual congruence (i.e., actual agreement, perceived agreement, and understanding) Similarity of two individuals’ actual opinions Similarity of one individual’s actual opinion and his or her perceived opinion of the other individual Similarity of one individual’s actual opinion and the other individual’s perceived opinion of the ﬁrst individual. Understanding is bidirectional by nature and can be divided into an active (i.e., understanding) and passive (i.e., being understood) form of understanding. It can also be expressed on an aggregate, dyadic level (i.e., mutual understanding)
+
+Actual agreement (also: agreement) Perceived agreement Understanding (also: ability of mutual perspective-taking or ability to accurately perceive/predict the other person’s opinion)
+
+to overestimate the degree to which one’s own behaviors, attitudes, and beliefs are shared by other individuals because of an inner need to believe one ﬁts in with the people around oneself, which boosts his or her self-esteem. The CEO–CIO partnership, just like any other closer social relationship, is expected to be subject to the same illusion. Both executives are part of a top management team and regular interactions are the basis of their professional relationship (Karahanna and Preston, 2013; Collins and Clark, 2003). Despite obvious limitations, professional relationships with mutual dependencies can be viewed as similar to marriages in a way that they both require alignment between the involved parties. Husbands and wives need to align on their ﬁnancial planning, family planning or career planning much like CEOs and CIOs need to align on strategic directions, objectives or business planning. They often have to legitimize common decisions in front of internal and external stakeholders and are expected to speak with one voice in their daily business. Based upon this reasoning, we hypothesize that Hypothesis H1. In the CEO–CIO partnership, perceived agreement is greater than actual agreement.
+
+White (1985) validates in his study of married couples that wives’ understanding of their husbands is greater than the husbands’ understanding of their wives. He explains this ﬁnding with power differentials in their relationships. Albeit this view is certainly outdated in most Western countries today, the wives’ more accurate perception of their husbands’ opinions in White’s study is argued to stem from the fact that ‘‘it has always been more important for those of lesser power to understand those with greater power and control” (White, 1985, p. 56). Other social relations researchers have found similar differences in understanding where one dyadic partner is thought to possess more power than the other (e.g., Acitelli et al., 1993; Allen and Thompson, 1984). We argue that, by the very nature of the organizational hierarchy, the same holds true for CIOs and their more powerful CEOs. The CIO’s understanding of his or her CEO is an important medium to be effective in supporting the business with adequate IT solutions. In this regard, CIOs have to be good listeners, as the CEO’s strategic business decisions usually have a great impact on IT budgets and plans (Tallon, 2014). Ignoring or misinterpreting the priorities and opinions of the CEO may otherwise have severe and long-lasting detrimental effects for the entire company. As such, we expect that this imbalance of role power also reﬂects in how CEOs and CIOs will understand each other and accordingly propose that
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+109
+
+Hypothesis H2. The CIO’s understanding of the CEO is greater than the CEO’s understanding of the CIO. Bidirectional effects of CEO–CIO mutual understanding on collaboration quality Building upon the PCM’s concept of bidirectional understanding, we investigate the effects of the same by linking them in our second model. The modeling of interpersonal bidirectional effects in dyadic research is described by what is known in social science as the actor–partner interdependence model (APIM: Kenny, 1996). The intrapersonal effect of one person’s causal variable on one’s own dependent attribute is referred to as ‘‘actor effect”, while the interpersonal effect of one person’s causal variable on the other individual’s dependent attribute is referred to as ‘‘partner effect”. Understanding one another is the PCM’s two-directional interpersonal construct and therefore ideally suited to show both actor and partner effects when employed as an independent variable in the APIM. The APIM is a well-established and widely used model in the interpersonal relations literature (Garcia et al., 2015) that uniquely differentiates between the bidirectional effects of the active and passive form of understanding (i.e., understanding and being understood), which is particularly pertinent for our study context. The use of this model in IS research has thus far been limited, though Kearns and Lederer (2000) employ an APIMlike model when distinguishing between the effects of the ‘‘alignment of IS plan with business plan” and the ‘‘alignment of business plan with IS plan” on the creation of competitive advantage through IS. We speciﬁcally relate the executives’ degree of understanding one another to both individuals’ perceived quality of collaboration (as depicted in Fig. 2). Collaboration quality is often discussed as a crucial factor in social alignment (Preston and Karahanna, 2009b; Kearns and Lederer, 2003) but largely omitted as construct in empirical alignment studies, which tend to link ‘mutual understanding’ directly to performance measures such as IT business value (see Table A1). Unlike CEO–CIO agreement, the impact of understanding one another (i.e., being able to accurately predict one another’s standpoint) on proximal, relational outcomes such as collaboration quality is hardly researched thus far and a distinction between the effects of the CEO’s understanding of the CIO and the CIO’s understanding of the CEO is not made in prior research. Support for why understanding of one another’s opinions matters comes from social relations research. In the context of marriages, Lewis and Spanier (1979) posit that spouses who have a better understanding for one another and a stronger ability to empathize are happier, more satisﬁed, and enjoy higher marital quality. In a professional setting, it has been shown that the same holds true for co-workers and managers who work closely together (e.g., Yakovleva et al., 2010; Bakker and Xanthopoulou, 2009). For example, executives who developed the ability to put themselves in each other’s position and accurately view situations from the other perspective collaborate better (Johnson and Lederer, 2010), resulting from both understanding the other individual’s view and being understood by the other person. Similarly, Feeny et al. (1992) note that a ‘‘common attribute of [. . .] CIOs with excellent relationships [is] their remarkable perception of [. . .] their CEO’s views” (p. 443). Earlier, we referred to Acitelli et al. (1993) who argue that in dyadic social relations where there is thought to be a power differential between partners, ‘‘the person with low power needs to be able to understand and predict the actions of the more powerful partner in order to salvage some modicum of control” (Acitelli et al., 1993, p. 8). Allen and Thompson (1984) furthermore ﬁnd a direct linkage between this ability and a couple’s perceived overall satisfaction with their relationship. If we apply these ﬁndings from personal relations research to the CEO–CIO partnership where the CEO is not only considered more powerful but also has fewer attentional resources available than the CIO, being understood by the CIO should contribute more to the CEO’s satisfaction than understanding the CIO. Although no previous study could ﬁnd empirical evidence that the inverse is true for the less powerful partner, we hypothesize that CIOs perceive better collaboration with their CEO when they understand the CEO as compared with being understood by their CEO. Taken together, we argue that Hypothesis H3a. The partner effect on the CEO’s perceived quality of collaboration is stronger than the actor effect from CEO–CIO understanding. Hypothesis H3b. The actor effect on the CIO’s perceived quality of collaboration is stronger than the partner effect from CEO–CIO understanding.
+
+If Hypotheses H3a and H3b are looked at conjunctly, one can conclude that on an aggregated level, the CIO’s understanding of the CEO is the crucial direction when using mutual understanding as a predictor for their quality of collaboration. CIOs need to understand the needs and perspectives of their CEO; in contrast, being understood by their CEO plays a subordinate role for CIOs (Hypothesis H3b). CEOs, who are in the more powerful role, appreciate CIOs who understand their views; understanding their CIO contributes less to their level of perceived collaboration quality (Hypothesis H3a). Therefore, the overall quality of collaboration between CEO and CIO should be better predicted by the CIO’s understanding of the CEO than the CEO’s understanding of the CIO. In a similar context, Armstrong and Sambamurthy (1999) likewise ﬁnd there to be indication that it is more important for CIOs than for CEOs to possess cross-domain business/IT knowledge. Allen and Thompson (1984) and Acitelli et al. (1993) argue in a similar manner, but their respective datasets only partially support this hypothesis on the aggregated level. They merely ﬁnd empirical evidence for a signiﬁcant impact of the less powerful partner’s
+
+110
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+CEO
+
+CEO’s Understanding of CIO
+
+Actor Eﬀect
+
+Quality of CollaboraƟon indicated by CEO
+
+IT ContribuƟon indicated by CEO
+
+Partner CIO CIO’s Understanding of CEO
+
+Eﬀects Quality of CollaboraƟon indicated by CIO IT ContribuƟon indicated by CIO
+
+Actor Eﬀect
+
+Fig. 2. APIM-based research model on the effects of CEO–CIO mutual understanding.
+
+understanding of the more powerful partner on the relationship quality perceived by the latter (comparable to our Hypothesis H3a). Yet, we suggest that Hypothesis H3c. Overall, the CIO’s understanding of the CEO contributes more to their aggregated quality of collaboration than does the CEO’s understanding of the CIO. Finally, we hypothesize that the quality level of the CEO–CIO collaboration will positively inﬂuence the business value that IT is believed to contribute. Connecting this subsequent output factor to our APIM-based model is important because it underscores the positive effects on the value-add of IT claimed by social alignment. The underlying logic is that the alignment of business and IT strategies can be assumed to proﬁt from good CEO–CIO collaboration which has also been supported in previous studies (Johnson and Lederer, 2010). If the two executives collaborate well and their collective decision making yields a high-quality set of business and IT plans, it is ensured that the IT organization’s resources are dedicated to highimpact projects which allow a high extent of IT contribution to the organization’s overall performance. Consistent with Tallon and Kraemer (2003), collaboration quality directly impacts the executives’ awareness of the other’s respective future business and IT needs. In line with this reasoning, we hypothesize that Hypothesis H4a. The CIO’s perceived quality of CEO–CIO collaboration positively impacts the value IT is presumed to contribute to the business.
+
+Hypothesis H4b. The CEO’s perceived quality of CEO–CIO collaboration positively affects the value IT is presumed to contribute to the business.
+
+Research methodology Survey sample and procedures In order to test our hypotheses, we designed a survey that contained a variety of items to measure the components of both of our theoretical models. Prior to launching the survey, we tested the survey with a small sample of business and IT leaders. A total of eight individuals (four senior business leaders and four senior IT leaders) participated in the pretests of the survey. The pretest interviews were conducted in person and took place in Germany and the U.S. All four IT leaders spearheaded their respective IT organizations and all four business leaders had some form of relationship with the IT organization in their companies. The individuals represented small, medium, and large size ﬁrms in various industries. The pretest interviews were conducted primarily to ﬁnd out if the questions in the perception part of the survey were commensurate, consistently understood, and comprehensively covering relevant topics. As an outcome of the pretest phase, some survey questions were added, others were dismissed, and in some instances the wording of statements was improved. The survey was then implemented as an online questionnaire. A total of 1000 CEO–CIO pairs from randomly selected companies in Germany were asked via email for their participation in the study. Their contact information was obtained from the Hoppenstedt ﬁrm database, one of the largest commercial business databases in Germany. We queried the database for companies with more than two million Euros in annual revenue before drawing the sample because smaller companies typically do not have their own separate IT organization and hence no individual in the CIO role. CEOs and CIOs received separate emails with instructions and unique match codes. In addition to the initial contact, two reminder notes were sent out via email during this period. Special attention was given to incoming responses with no matching response from the other member of the CEO–CIO dyad. Toward the end of the survey period, phone calls were placed in addition to two personalized reminder emails to those individuals whose response was missing to complete a dyad pair. To foster participation and reduce self-reporting bias, all participants were given the opportunity to receive an anonymized management report on the study results.
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126 Table 2 Survey items employed for measurement of latent variables. Construct Quality of collaboration Operationalization Please indicate your level of agreement with the below statements on a 7-point Likert scale, ranging from ‘‘strongly disagree” to ‘‘strongly agree”  I am highly satisﬁed with the collaboration between our CEO/CIOa and me  Overall, I maintain an excellent professional relationship with our CEO/CIOa  The collaboration between our CEO/CIOa and me yields best results  Our CEO/CIOa and I speak the same language Please indicate the extent IT has contributed to each of the following for your organization on a 7-point Likert scale, ranging from ‘‘not at all” to ‘‘very great extent”  Proﬁtability  Sales revenues  Market share  Operating efﬁciency  Customer satisfaction Inter- (actual agreement), intra- (perceived agreement) and cross- (understanding) dyad rating differences of statements about . . . Business Topicsb: IT Topicsb:  IT outsourcing  Strategic orientation  IT governance  Market aggressiveness  IT-related projects  Business operations  IT ﬂexibility  Business decision making  The IT organization Source Jones et al. (1995) and Preston and Karahanna (2009b)
+
+111
+
+IT contribution
+
+Johnson and Lederer (2010)
+
+Perceptual congruence facets Actual agreement
+
+Perceived agreement Understanding
+
+Gemino et al. (2008), Rouse (2008), Byrd et al. (2006), Ness (2005), Weill and Ross (2004), Peppard and Ward (1999), Gatignon and Xuereb (1997), and Venkatraman (1989)
+
+a b
+
+Depending on their role, respondents had to rate the quality of collaboration with their respective counterpart. The statements on business and IT topics are included in Tables A3 and A4 of Appendix A.
+
+The welcome page of the online questionnaire outlined the purpose of the survey. It also stated that conﬁdentiality and anonymity of the responses were ensured. Participating CEOs and CIOs were instructed to complete their surveys independently of each other. The incoming response data (including the order) for each dyadic pair were stored as one data entry in the dataset. Keeping the data paired was important for statistical testing, as tests concerning dyadic models like ours need to be based on the response pairs, not on the individual responses, due to non-independence of dyadic data (Yakovleva et al., 2010). We received responses from 176 of the 1000 contacted CEO–CIO pairs. Despite individualized reminder efforts, 36 CIO responses came back without a matching CEO response and 14 CEO responses remained without a matching CIO response. Additionally, 24 response pairs had to be dropped from the dataset because of insufﬁcient data quality. The ﬁnal set of 102 response pairs served as an input to our statistical analysis. The net response rate of 10.2% is comparable to that of similar studies employing matched pair CEO–CIO surveys (e.g., Preston and Karahanna, 2009b; Tallon and Kraemer, 2003). Table A2 and Figs. A1 and A2 in Appendix A describe the demographic and socio-economic characteristics and the frequency of communication (i.e., general interactions and strategic discussions) between CEOs and CIOs of companies in our survey sample. Measurement of variables and controls The CEO version and the CIO version of the survey contained the exact same items to measure the three facets of perceptual congruence, quality of collaboration, and the extent of IT contribution (see Table 2). The last section of the survey that asked for demographic and socio-economic information was slightly different depending on the role of the respondent. Quality of collaboration and IT contribution were reﬂectively measured by four and ﬁve survey items, respectively. The respondents were given a seven-point Likert scale (anchored at (1) = strongly disagree and (7) = strongly agree) to express their level of agreement with the statements that served as indicators for these two latent variables. Perceptual congruence of CEO and CIO opinions was measured by asking both dyad members to rate their own level of agreement with statements about different business and IT topics as well as the perceived opinion of the other person to those same topics. All statements were to be rated on a seven-point Likert scale. The perception part followed in its fundamentals the techniques
+
+112
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Table 3 Reliability statistics, validity statistics, and interconstruct correlations (APIM constructs). Construct (1) (2) (3) (4) (5) (6) CEO’s understanding of CIO CIO’s understanding of CEO Quality of collaboration indicated by CEO Quality of collaboration indicated by CIO IT contribution indicated by CEO IT contribution indicated by CIO
+
+qc
+0.769 0.795 0.954 0.964 0.963 0.966
+
+AVE 0.625 0.660 0.840 0.870 0.839 0.851
+
+Range of loadings 0.69–0.90 0.72–0.91 0.90–0.93 0.92–0.94 0.90–0.93 0.91–0.93
+
+(1) 0.79 0.66 0.14 0.13 0.14 0.17
+
+(2) 0.81 0.20 0.20 0.26 0.19
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+0.92 0.84 0.88 0.77
+
+0.93 0.77 0.89
+
+0.92 0.77
+
+0.92
+
+Notes: Diagonal elements are the square root of AVE. All factor loadings are signiﬁcant at least at the p < 0.05 level.
+
+developed by Laing et al.’s (1966) interpersonal perception method. We covered a broad range of business and IT topics in order to tap into a variety of areas of potential agreement or disagreement between a company’s chief executive and the head of IT. Exemplary statements were «In the future, compared to now, we need to gain market share, even if this means sacriﬁcing short-term proﬁtability» (Business topic area) and «The implementations of our IT governance principles are effective» (IT topic area). The four responses per dyad were then compared interpersonally and intrapersonally to derive the three perceptual congruence facets (see Fig. 1). Rather than using the absolute difference of two response scores, we followed the approach suggested by Acitelli et al. (1993). The applied numerical congruence scoring technique (see Table A5 in Appendix A) translated two seven-point Likert scale ratings to a congruence score between one and ten, assigning relatively lower congruence scores when two responses are in opposite sides of the answer spectrum and relatively higher congruence scores when both responses fall in the same side of the spectrum. According to this principle, answer scores of ﬁve (mildly agree) and seven (strongly agree), for example, are less incongruent than answer scores of three (mildly disagree) and ﬁve (mildly agree), although both pairs of scores are exactly two points apart. Consistent with previous CEO–CIO studies (Byrd et al., 2006), the perceptual congruence scores of each topic block (e.g., strategic orientation, IT outsourcing) were ﬁrst reﬂectively aggregated to the area they belonged to (i.e., business and IT topics), which were then rolled up to composite scores (covering both business and IT topics). Non-response bias was assessed by verifying that early and late respondents were not signiﬁcantly different in their characteristics (Armstrong and Overton, 1977). We compared both the CEO and the CIO sample based on their sociodemographic attributes and responses to the principal constructs in the study. t-tests for differences in the means of early (ﬁrst 50) and late (last 50) respondents showed no signiﬁcant differences (p > 0.05). Following extant guidelines in the literature (Sivo et al., 2006), we also drew on the Hoppenstedt ﬁrm database to compare the distributions of demographic and socio-economic characteristics (i.e., company size, annual revenue, and industry) of non-respondents with the distributions we found in our sample. The results showed the demographic and socio-economic variables of the ﬁrms had a similar distribution in the sample of non-respondents as those in our research sample (p > 0.05 for distributions on company size, annual revenue, and industry, respectively). Overall, these ﬁndings indicate that a result bias due to non-responses is unlikely in this study. We also checked the response order in the dyads (i.e., whether we received the CEO’s or CIO’s response ﬁrst), but we did not ﬁnd any signiﬁcant impact of response order on the results in our study. Furthermore, we included several control variables (e.g., company size and industry afﬁliation) but the patterns of results remained qualitatively unchanged. Such being the case, we will neglect the controls when reporting our statistical results in subsequent sections. Measurement model tests and common method bias We assessed construct reliability and validity for the constructs linked in the APIM-based research model. Table 3 exhibits reliability and validity statistics as well as interconstruct correlations. We assessed the psychometric properties of the measurement model results by examining internal consistency, convergent validity, and discriminant validity. The loadings of the measurement items on their respective latent variables were above the threshold value of 0.7 and all were signiﬁcant (p < 0.05). Furthermore, measurement items did not have cross loadings above 0.4 on the unintended constructs and the square roots of AVE were consistently larger than relevant interconstruct correlation coefﬁcients, suggesting discriminant validity (Hair et al., 2009).4 Internal consistency (qc) of all reﬂective constructs clearly exceeded the threshold of 0.70, implying acceptable reliability (Fornell and Larcker, 1981). Convergent validity is considered adequate when the average variance extracted (AVE) is 0.50 or more; this condition was satisﬁed in all cases. Given that all of our items were measured with the same method, we tested for common method variance using Harman’s one factor test (Podsakoff et al., 2003). We performed an exploratory factor analysis on all the variables, but no single
+
+4
+
+The results of an exploratory, principal components factor analysis are omitted here for brevity. They can be obtained from the authors upon request.
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+113
+
+CEO CEO’s Opinion 2 4 CEO’s PercepƟon of CIO’s Opinion
+
+1
+
+CIO CIO’s Opinion 3 CIO’s PercepƟon of CEO’s Opinion
+
+Construct 1 – Actual Agreement 2 – CEO’s Perceived Agreement 3 – CIO’s Perceived Agreement 4 – CEO’s Understanding of CIO 5 – CIO’s Understanding of CEO
+
+Mean 6.91 6.56 6.65 8.30 8.21
+
+Std. Dev. 1.48 1.53 1.64 0.83 0.78
+
+5
+
+N = 102
+
+Fig. 3. Perceptual congruence scores (means and standard deviations).
+
+CEO Opinion on Business Topics 6.26 (1.73) Perception of CIO’s Opinion 6.77 (1.94)
+
+C IO Opinion on Business Topics 6.70 (2.03) Perception of CEO’s Opinion
+
+CEO Opinion on IT Topics 6.86 (1.58) Perception of CIO’s Opinion 7.05 (1.64)
+
+C IO Opinion on IT Topics 6.73 (1.74) Perception of CEO’s Opinion
+
+N = 102
+Fig. 4. Scores of CEO–CIO perceptual congruence for business and IT topics.
+
+N = 102
+
+CEO
+
+CEO’s Understanding of CIO
+
+= 0.13
+
+Quality of CollaboraƟon indicated by CEO R2 = 0.12
+
+= 0.88***
+
+IT ContribuƟon indicated by CEO R2 = 0.78
+
+CIO
+
+CIO’s Understanding of CEO
+
+= 0.28*
+
+Quality of CollaboraƟon indicated by CIO R2 = 0.05
+
+= 0.90***
+
+IT ContribuƟon indicated by CIO R2 = 0.81
+
+* p<0.05
+
+** p<0.01 *** p<0.001
+
+N = 102
+
+Fig. 5. PLS results on APIM-based research model.
+
+factor was observed and no single factor accounted for a majority of the covariance in the variables. Further, a correlational marker technique was used, in which the highest variable from the factor analysis was entered as an additional independent variable (Richardson et al., 2009). This variable did not create a signiﬁcant change in the variance explained in the dependent variables. Both tests suggest that common-method bias is unlikely to have signiﬁcantly affected our results.
+
+Results Hypothesis tests related to the perceptual congruence model Hypotheses H1 and H2 were examined by pairwise comparisons between means. Paired one-tailed t-tests allowed the evaluation of differences in the means between perceptual congruence constructs and typically yield acceptable results for the purpose of comparing constructs in a perceptual congruence model (e.g., Acitelli et al., 1993; White, 1985). Fig. 3 shows sample means and standard deviations of all ﬁve dyadic perceptual congruence constructs. The t-test results for Hypothesis H1 presented the ﬁrst unexpected ﬁnding in our study. Not only did the data not support our hypothesis of perceived agreement transcending actual agreement (p > 0.05); there was even evidence of the inverse of Hypothesis H1. Between CEO and CIO responses, actual agreement was signiﬁcantly greater than perceived agreement in our sample. This was the case for the CEO’s perceived agreement compared to actual agreement (means of 6.56 and 6.91; p < 0.001) as well as for the CIO’s perceived agreement compared to actual agreement (means of 6.65 and 6.91; p < 0.01).
+
+114
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Unlike in marital relationships, there was no evidence whatsoever for the ‘‘false consensus effect” (Ross et al., 1977). Quite the contrary: the opinions of CEOs and CIOs in our sample were more similar than both perceived them to be. To test Hypothesis H2, we compared the level of understanding of one another that CEO and CIO each possess. The results showed an insigniﬁcant difference between the means of the CEO’s understanding of the CIO and the CIO’s understanding of the CEO on the composite level (means of 8.30 and 8.21; p > 0.05). Therefore, Hypothesis H2 was not supported. However, separate t-tests for the two topic areas’ understanding scores showed statistically signiﬁcant differences (see Fig. 4). In our sample, the CIOs were better able to predict their CEO’s responses to statements on business topics than the CEOs were able to predict their CIO’s responses to the same (means of 8.45 and 7.85; p < 0.001). For IT topics, the inverse case was signiﬁcant: CEOs understood their CIO better than CIOs understood their CEO (means of 8.56 and 8.16; p < 0.001). Accordingly, CEOs had a greater level of understanding of their CIO on IT topics than on business topics (means of 8.56 and 7.85; p < 0.001) and CIOs had a greater level of understanding of their CEO on business topics compared to IT topics (means of 8.45 and 8.16; p < 0.001). These post hoc ﬁndings are picked up later in the discussion part of this paper. Hypothesis tests related to the APIM-based model In our APIM-based model, we hypothesized differences in the strengths of actor effects and partner effects that connect mutual understanding of CEO and CIO with their individually perceived quality of collaboration. We used SmartPLS 2.0 (Ringle et al., 2005), a structural equation modeling (SEM) tool, to test the APIM-based model, which is strongly recommended when dyads are distinguishable (Kenny et al., 2006). The SEM-based estimation of the effects exhibited results that supported our hypotheses. The effects we hypothesized as stronger were signiﬁcant, while the effects hypothesized as weaker were not signiﬁcant (see Fig. 5). Thus, Hypotheses H3a and H3b were supported. Chi-squared tests to compare the size of two parameters within the APIM (Cook and Kenny, 2005), conﬁrmed the signiﬁcance of the differences between the magnitudes of actor and partner effects as hypothesized 2 (v2 CEO (N = 102, df = 1) = 4.93, p < 0.05; vCIO (N = 102, df = 1) = 5.34, p < 0.05). The CEO’s perceived quality of collaboration was signiﬁcantly affected only by how well he or she was understood by the CIO (partner effect, b = 0.26, p < 0.01) and the CIO’s perceived quality of collaboration was signiﬁcantly affected only by how well he or she understood the CEO (actor effect, b = 0.28, p < 0.05). In other words, the satisfaction of the CEOs in our sample was dependent upon them being understood (passive form of understanding), while the CIOs were more satisﬁed with the cooperation when they better understand (active form of understanding) the views of the CEO. Our empirical study thus showed that the CIO’s understanding of the CEO is the pivotal factor in improving and strengthening collaboration quality between CEOs and CIOs (as perceived by both parties). Hypothesis H3c was supported by the survey data as well. Partial least squares analysis of a slightly modiﬁed version of the APIM-based model (where quality of collaboration was aggregated to one composite construct) conﬁrmed the signiﬁcance of the CIO’s understanding of the CEO (b = 0.28, p < 0.01) and the insigniﬁcance of the CEO’s understanding of the CIO (b = À0.15, p > 0.05) in predicting a dyad’s aggregated quality of collaboration. Finally, the PLS results for the structural model also provided support for Hypotheses H4a and H4b (see Fig. 5). CEOs and CIOs who were more satisﬁed with the collaboration stated signiﬁcantly higher levels of IT contribution to the business in their organizations (bCEO = 0.88, bCIO = 0.90, both p < 0.001). This was an integral assumption to make the case for the relevance of the social dimension of business–IT alignment.
+
+Discussion Synopsis of key ﬁndings The ﬁndings from our empirical investigation raise several key points. First, our empirical study examined perceptual congruence between business and IT leaders, which constitutes a crucial socio-psychological aspect of strategic business– IT alignment. Contrary to our hypothesis, the sampled CEOs’ and CIOs’ opinions were actually more similar than both perceived them to be. This observation is not in line with marital relationship research where partners typically tend to succumb to the ‘‘false consensus effect” (Ross et al., 1977). We see this as an indicator of a high level of professionalism in the CEO–CIO partnership. Both executives do not shy away from conceptually confronting conﬂicts of opinions, so much so that more disagreement is perceived than actually existent. This extreme, on the other hand, is not describing a healthy relationship either. Individuals who perceive signiﬁcantly more disagreement than existent are most likely biased by negative prejudices and experience a lack of effective communication of each other’s viewpoints. Second, we focused on how well CEOs and CIOs in our sample were able to accurately predict (i.e., understand) one another’s opinions on relevant business and IT topics and we related their level of understanding to the quality of the two executives’ professional collaboration in an APIM-based model. We found that the CIO’s understanding of the CEO plays a more important role in the CEO–CIO partnership than the CEO’s understanding of the CIO. CEOs want to be understood while CIOs need to understand their counterpart. We explain these desires with a power differential in their roles by virtue of the organizational hierarchy. It is more important for the less powerful to understand the more powerful partner in order to maximize the satisfaction of both and bring about fruitful collaboration. As expected, quality of
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+115
+
+collaboration had a strongly signiﬁcant impact on the extent of IT contribution to the business indicated by both executives. Third, despite the disparity in importance, we found both executive groups in our sample were able to accurately predict their counterpart’s viewpoint on the composite level. When split by topic groups, however, we discovered signiﬁcant differences post hoc. On IT topics, the CEOs were better able to correctly perceive their CIO’s opinions, whereas on business topics, the CIOs were better able to predict their CEO’s responses. We explain this ﬁnding with mutual recognition of subject matter expertise, supporting Chan (2002), and a slight negligence of the other individual’s opinion on topics of one’s own respective domain. Hence, business leaders tend to listen to their CIO’s judgment of IT-related problems more than to the CIO’s opinion on business strategy (if he or she is asked at all to state an opinion). CIOs, on the other hand, pay closer attention to their CEO’s business direction than to the CEO’s opinion on IT-related questions. This is certainly a quite pragmatic speculation for the observed divergence of attention that needs to be veriﬁed in future research studies.
+
+Contributions to theory, research, and practice This study makes several contributions related to social business–IT alignment and interpersonal relations research. First, although previous social alignment research has advanced our knowledge of ‘mutual understanding’ between business and IT executives (e.g., Johnson and Lederer, 2010; Reich and Benbasat, 2000), prior work has largely focused on unitary concepts (e.g., ‘‘shared understanding” or ‘‘shared knowledge”)—which have been primarily measured based on the actual similarity of executives’ own perceptions—or just on one single direction of understanding such as ‘‘IT’s understanding of business” (Wagner et al., 2014; Feeny et al., 1992). Responding to strategic alignment scholars’ recognition of the importance of a more nuanced investigation of social alignment in general and ‘mutual understanding’ in particular (Coltman et al., 2015; Preston and Karahanna, 2009b), our study departs from and goes beyond an aggregated and undifferentiated view on CEO–CIO mutual understanding. Speciﬁcally, drawing on White’s (1985) perceptual congruence model, we propose a multifaceted perspective on the congruence of CEO–CIO perceptions by theoretically and empirically distinguishing between actual similarity of perceptions (i.e., actual agreement), intrapersonal perception of agreement (i.e., perceived agreement), and the interpersonal ability to accurately predict one another’s perceptions (i.e., understanding). In particular, the executives’ ability of taking their counterpart’s perspective is a crucial dimension in grasping the directionality and agency of understanding (i.e., ‘‘who understands whom”), yet has so far been largely overlooked as a vital factor in social alignment research. Thus, the PCM introduces a novel perspective on CEO–CIO perceptual congruence in its different facets, which particularly helps us examine the nature of CEO–CIO mutual understanding at a deeper level. Second, our ﬁnding that the importance of the CIO’s understanding of the CEO outweighs the importance of the CEO’s understanding of the CIO in affecting collaboration quality—and thus that the effects of understanding are unilateral rather than bilateral—is a valuable and useful insight that conﬁrms previous business–IT alignment research (e.g., Wagner et al., 2014; Armstrong and Sambamurthy, 1999; Feeny et al., 1992). By revealing the disaggregated effects and thus the disparate importance of the two directions of CEO–CIO understanding, our study not only highlights the relevance of a more ﬁnegrained view on the bidirectionality of understanding and the usefulness of the decompositional nature of Kenny’s (1996) actor–partner interdependence model. Our ﬁndings also suggest that studies framing social alignment’s antecedents solely as ‘‘mutual” or ‘‘shared understanding” between CEOs and CIOs without considering the two directions of interpersonal understanding will likely leave the salient role of the CIO’s understanding of the CEO unconsidered. Yet, although we found empirical evidence for the salient role of the CIO’s understanding of the CEO in this study, our post hoc ﬁnding on differences in understanding by topic group shows that we cannot ignore the other direction either. Had we only considered the CIO’s understanding of the CEO, the disparate importance of an active and passive role of understanding and the ﬁnding that bilateral understanding varies by subject would have been overlooked. In the same vein, we cannot rule out that the CEO’s understanding of the CIO has signiﬁcant effects on constructs other than CEO–CIO collaboration quality. As such, we conclude that mutuality indeed matters and both directions of CEO–CIO understanding should be considered in future research studies. Third, and more broadly, we make a theoretical contribution to interpersonal relations research by linking dual theories of intra-/interpersonal perceptual congruence and interdependence (i.e., the PCM and the APIM) as a way to garner a more comprehensive understanding of the bilateral nature of CEO–CIO understanding and its effects on partnership quality. Although the PCM and the APIM have been applied in isolation from one another in previous social and personal relationship research, including organizational contexts (e.g., Yakovleva et al., 2010; Bakker and Xanthopoulou, 2009), our study shows that linking both models can yield even deeper insights into the nature of perceptual congruence and the effects of bilateral understanding on collaboration quality. While the PCM allows examining perceptual congruence from various angles (e.g., by comparing perceived and actual agreement or the prediction accuracies of one another’s perceptions) and thus serves as useful source to capture both directions of understanding (being a crucial input to APIM), we deploy the APIM to focus on comparing the bidirectional effects of understanding and hence provide an important rationale for the raison d’être of the distinctions made in the PCM. There are also several practical implications for the partnership between business and IT leaders that can be inferred from the results of our study. First, we want to elaborate more on the unusual difference between perceived agreement and actual
+
+116
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+agreement we found in our sample. If, as found, CEOs and CIOs perceive each other’s opinions signiﬁcantly less similar than they actually are, this is an indication for the existence of negative prejudices and room for improvement when it comes to communication. We know from our pretest interviews and ongoing dialogues with practitioners that tensions between the business side and the IT side of an organization exist more often than not and perceptions of the players involved are a matter of importance. The mitigation or even removal of incorrectly perceived disagreement can act as an effective tool to improve poor business–IT relationships and ultimately lead to better alignment. Both business and IT executives should make sure their take on controversial topics are effectively communicated, especially when their relationship is troubled. Perceptions can only be accurate when topics are openly discussed and both agreement and disagreement are candidly communicated. Mid to long term, CIOs might be able to reduce or fully remove negative prejudices by demonstrating their high level of business understanding and proactively guiding business strategy, particularly by bringing in their perspective on emerging technology trends, IT-driven innovation, and digital transformation (Hess et al., forthcoming). Peppard et al. (2011) offer further recommendations on how to reduce prejudices (e.g., through more objective performance assessments or clear expectation management), especially as they stem from ambiguity of the CIO role due to differing perceptions among executives. Second, other studies frequently call for efforts to extend the CIO’s level of business knowledge (e.g., Chan et al., 2006; Hussin et al., 2002). Our results clearly indicate that the CIOs’ understanding of their chief executive ofﬁcer plays an important role for the productiveness of their partnership. Thus, the CIO’s ability to communicate in business terms and comprehend the ﬁrm’s business models is indeed imperative. At the same time, our data do not provide evidence of a prevalent lack of the CIOs’ ability to accurately perceive their CEO’s views on business topics. Finally, authors often call for CIO-orchestrated educational efforts that are meant to increase business executives’ knowledge about IT (e.g., Preston and Karahanna, 2009b). Our ﬁndings do not necessarily lead to this conclusion. We found a comparably high level of understanding that CEOs have of their CIO’s perspective on IT topics and we could show that the CEOs’ understanding of their CIO plays a non-signiﬁcant role for the fruitfulness of their partnership. Our advice to practitioners is that educating IT leaders on business yields more success in terms of strategic business–IT alignment than teaching CEOs about IT. CEOs expect their CIOs to understand them (and their business) and guide them in making IT-related decisions. CIOs can successfully accomplish becoming a CEO’s trusted advisor on IT questions by building this trust through a foundation of competence and credibility, which does not come from educating CEOs on IT but from demonstrating a thorough understanding of ongoing business and industry developments. CEOs, on the other hand, should not underestimate their CIO’s know-how in business. We were able to show that CEOs and CIOs in our sample actually stated signiﬁcantly more similar views on the course of the business than perceived by CEOs. Limitations, future research, and conclusion Our study is not without limitations, which also provide directions for future research. We obtained our data from an online CEO–CIO survey that allowed participants to skip questions. In order to work with the data, we had to eliminate a substantial segment of our sample because of incomplete dyadic data or low data quality. Although this procedure is common practice, it is possible, on the one hand, that our sample is subject to a bias from ﬁltering out the data of incomplete dyads and response pairs of insufﬁcient data quality; on the other hand, a smaller sample size tends to impact the results’ statistical signiﬁcance negatively. Altogether, the resulting sample size of 102 dyads is typical for research involving CEOs and CIOs (e.g., Kearns and Lederer, 2000; Tan and Gallupe, 2006) or CIOs and top management teams (e.g., Preston and Karahanna, 2009b). With respect to our results, we suggest that future research should continue to empirically test the propositions developed in this paper. It would be particularly interesting to ﬁnd out if future studies can replicate the phenomena that appeared in our study, such as actual agreement transcending perceived agreement and the CIO’s understanding of the CEO dominating over the CEO’s understanding of the CIO in explaining the quality of CEO–CIO collaboration. Likewise, future research should try to locate speciﬁc areas where disagreement is likely to occur (e.g., investment decisions, budget allocation, IT governance, or the role and responsibilities of IT) and investigate potential perception biases due to stereotypes. The survey-based data collection for our study happened at a single point in time from executives in a distinct geographic area (Germany). Different conclusions might have resulted from a longitudinal perspective, had we collected data at multiple points in time. As such, future research may beneﬁt from statistical analysis of longitudinal data to analyze the change in perceptual congruence and interdependence between CEOs and CIOs (Cook and Kenny, 2005). Furthermore, a potential geographic bias caused, for example, by economic conditions or regional attitudes could have been alleviated, had we included companies in other geographic areas. As for future research, launching a CEO–CIO survey that measures interpersonal and intrapersonal perceptions in countries other than Germany would certainly be of value in order to improve the generalizability of our ﬁndings. Resulting in a third limitation, the fear of negative consequences from rating the CEO–CIO partnership quality poorly while being easily identiﬁable in the survey sample might have led to positively biased CIO responses to the quality of collaboration items in the survey. This concern was indicated by one of the CIO pretest participants. Nevertheless, we compared CEO and CIO responses to the collaboration quality items and found no evidence for different rating behaviors of CIOs as compared to CEOs (p > 0.05). Both groups used the full spectrum of the seven-point scale. However, the representativeness of our sample in terms of collaboration quality remains an assumption. A potential bias due to non-responses from CEO–CIO
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+117
+
+dyads with poor partnership quality cannot be ruled out completely. Although we have no immediate concern, future research could mitigate this potential bias by obtaining collaboration quality measures from a neutral third party’s perspective (e.g., a third executive or human resource manager). In general, future research should explore the concept of perceptual congruence (i.e., of understanding in particular) between business and IT executives more fully. We revealed disparate importance of the two directions of understanding for CEO–CIO collaboration quality. Still, we did not pursue the identiﬁcation of any mediating factors or factors antecedent to understanding. It remains to be studied what generally enables and inhibits the executives’ ability to take the counterpart’s viewpoint and what underlying mediating mechanisms might be of importance. Furthermore, it remains to be examined what causes the uncommon divergence between actual and perceived agreement in the CEO–CIO partnership. Our theoretical explanation of this unexpected ﬁnding might seem plausible but is empirically unveriﬁed. Continued research in this area becomes increasingly important as the CIO’s responsibilities are expected to grow in an increasingly digital economy (Weill and Woerner, 2013) and closer (personal) partnerships between CEOs and CIOs are consequential. In conclusion, we hope that our results provide impetus for further analysis of the social dimension of strategic business– IT alignment and give food for thought to communities in practice. Notwithstanding the CEOs’ biased interest in consultation on information technology, CIOs can grow their role as strategic IT advisors and become trusted partners of their business counterparts while developing a relationship that allows businesses to gain an IT-enabled competitive edge through strategic alignment. Acknowledgements We thank the Senior Editor, Prof. Yolande Chan, and the anonymous reviewers for their very constructive suggestions on this paper. The ﬁrst author gratefully acknowledges ﬁnancial support from the Werner-Jackstaedt-Foundation in Germany (Grant No. 010103/56300720).
+
+Appendix A See Figs. A1 and A2 and Tables A1–A5.
+
+Consumer Services Consumer Goods Industrials Financials Technology Telecommunications Health Care Basic Materials Utilities Oil & Gas 0%
+3% 6% 6% 8% 8% 10% 15% 15% 14%
+
+17%
+
+2%
+
+4%
+
+6%
+
+8%
+
+10%
+
+12%
+
+14%
+
+16%
+
+18%
+
+Fig. A1. Industries represented in survey sample (N = 102).
+
+Fig. A2. Frequency of communication between CEOs and CIOs (N = 102).
+
+118
+
+Table A1 Empirical literature on the social dimension of business–IT alignment related to this study.a Reference Turban and Jones (1988) Study design and context Survey of N = 155 subordinates and their 25 supervisors at a rehabilitation center in the southwestern U.S. Survey of IS and business personnel at N = 48 departments of two U.S. divisions of a large multinational ﬁrm over ﬁve time periods Key social alignment construct(s) Perceptual congruence (i.e., similarity of perceptions) between supervisors and subordinates Operationalization of construct(s) (Reversed) sum of squared differences between supervisor and subordinate responses to the same set of questions about behaviors important in receiving a high merit pay increase Key antecedent(s) of construct(s) N/A Key consequent(s) of construct(s) Subordinate’s job satisfaction; performance rating of subordinate; pay rating of subordinate IT innovativeness Principal ﬁndings/major contributions Identiﬁcation of three types of supervisor–subordinate similarity: perceived similarity, perceptual congruence, and actual similarity; all three similarity types found to affect supervisor’s evaluations of subordinates Determination of convergence as a predictor of IT innovativeness; communication frequency and communication channel richness found to predict convergence
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Lind and Zmud (1991)
+
+Feeny et al. (1992)
+
+Boynton et al. (1994)
+
+Semi-structured interviews with N = 14 CEO–CIO pairs of U.K.-based organizations across industries Survey of N = 132 senior IT executives at ﬁrms across industries Survey of IS development project estimators and project implementers at N = 112 organizations across industries
+
+Convergence (i.e., mutual understanding) between technology providers and business personnel about the ﬁrm’s business activities and the importance of the technology in supporting those activities Shared understanding; particularly the CIO’s understanding of the CEO with respect to IT topics Managerial IT knowledge
+
+(Reversed) aggregated differences between the mean responses of IS providers and those of business users to the same sets of questions about 14 business activities and their utilization of IT
+
+Communication frequency; communication channel richness
+
+Congruence of executives’ responses or level of agreement on the same questions; CIO’s ability to correctly perceive CEO’s view on IT
+
+Lederer and Prasad (1995)
+
+Perceptual congruence about cost estimating between estimators and implementers
+
+Multiplication of senior IT executive’s assessment of both IT management’s knowledge of the business unit and line management’s knowledge of the value and potential of IT Mean differences between estimators’ and implementers’ ratings of the same set of statements related to cost estimating
+
+Executives’ personal proﬁles (career background, experiences, attitude, position, team role, etc.) IT management climate
+
+N/A
+
+Identiﬁcation of favorable CEO and CIO attributes as well as contributing organizational attributes that yield successful business-IS partnerships
+
+IT use
+
+N/A
+
+N/A
+
+Nelson and Cooprider (1996)
+
+Survey of N = 86 IS departments and their line customers in seven ﬁrms of different industries
+
+Shared knowledge (i.e., shared understanding and appreciation among IS and line managers for the technologies and processes that affect their mutual performance)
+
+Mean of IS department’s response and line organization’s response on the same questions about the level of shared understanding and appreciation
+
+Mutual trust; mutual inﬂuence
+
+IS performance
+
+Application of absorptive capacity theory to the domain of IT use; managerial IT knowledge found to be a dominant factor in explaining high levels of IT use Contrasting of estimators’ and implementers’ perceptions on the estimating process and its success; perceptions found to coincide on how estimating is done; perceptions on the importance of the estimate, the satisfaction with the estimating process, the estimating accuracy, and the causes of inaccurate estimates found to differ Deeper investigation of the nature and importance of shared knowledge as an organizational performance factor; the relationship between IS performance and mutual trust and inﬂuence found to be mediated by shared knowledge
+
+Reich and Benbasat (1996)
+
+Armstrong and Sambamurthy (1999)
+
+N = 57 semistructured interviews with 45 business and IS executives from 10 business units within three large Canadian life insurance companies; assessment of written plans Survey of N = 235 pairs of CIOs and top management team members of medium to large U.S. ﬁrms from eight industries
+
+Mutual understanding of business and IT missions, objectives, and plans (predictive of ‘‘short-term linkage”); shared vision for IT (predictive of ‘‘longterm linkage”)
+
+Average of IS executive’s understanding of business objectives/plans and business executive’s understanding of IT objectives/plans (scored by authors as an assessment of congruence between interviewee’s view and counterpart’s view as well as written plans)
+
+N/A
+
+Linkage (i.e., level of alignment)
+
+Distinction between the social and the intellectual dimension of alignment; validation of ‘‘understanding of current objectives” and ‘‘congruence of IT visions” to be predictive of business–IT alignment; distinction between short-term and long-term aspects of alignment
+
+Senior leadership knowledge (CIO IT knowledge, CIO business knowledge, TMT IT knowledge)
+
+CIO’s assessment of TMT member’s IT knowledge and TMT member’s assessment of CIO’s business and IT knowledge
+
+Systems of knowing; strategic IT vision
+
+IT assimilation (i.e., successful utilization of IT capabilities)
+
+Luftman et al. (1999)
+
+Reich and Benbasat (2000)
+
+Johnson and Lederer (2005)
+
+Survey of N = 1051 business and IT executives representing over 500 U.S. Fortune 1000 organizations over a timespan of ﬁve years N = 57 semistructured interviews with 45 business and IS executives from 10 business units within three large Canadian life insurance companies; assessment of written plans Survey of N = 202 CEO–CIO pairs of ﬁrms across industries in two adjacent states of the U.S.
+
+‘‘IT understands business” as one of 14 alignment enablers; ‘‘IT does not understand business” as one of 14 alignment inhibitors
+
+Business and IT executives’ (separate) identiﬁcation of the three key enablers and inhibitors to achieving alignment; responses gathered via an open-ended questionnaire
+
+N/A
+
+Level of alignment
+
+Examination of the inﬂuence of the antecedents of IT assimilation; CIOs’ business and IT knowledge found to signiﬁcantly inﬂuence their ﬁrms’ IT assimilation whereas senior business executives’ IT knowledge was not found to have a signiﬁcant inﬂuence on IT assimilation Identiﬁcation of enablers and inhibitors of business–IT alignment from the perspective of business executives versus IT executives
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Mutual understanding of business and IT missions, objectives, and plans (short-term alignment); shared vision for IT (long-term alignment)
+
+Average of IS executive’s understanding of business objectives/plans and business executive’s understanding of IT objectives/plans (scored by authors as an assessment of congruence between interviewee’s view and counterpart’s view as well as written plans)
+
+Shared domain knowledge; communication between business and IT executives
+
+N/A
+
+Deeper investigation of the social dimension of short-term and longterm linkage; shared domain knowledge and increased communication between business and IT executives found to lead to short-term strategic alignment; only shared domain knowledge found to lead to long-term alignment Application of communication theory to the CEO–CIO relationship; more frequent communication found to predict convergence about the current role, differentiation future role, and enhancement future role; use of richer channels found to predict convergence about the differentiation future role; convergence about the current role found to predict IS ﬁnancial contribution (continued on next page)
+
+CEO–CIO convergence (i.e., the degree of mutual understanding) about the current and future role of IT (split into: differentiation future role, enhancement future role, managerial support future role)
+
+Latent variable of the absolute differences between CEO and CIO responses for each item of the same set of questions
+
+Communication frequency; communication channel richness
+
+Financial contribution of IS
+
+119
+
+120
+
+Table A1 (continued) Reference Huisman and Iivari (2006) Study design and context Survey of N1 = 223 system developers and N2 = 73 IS managers of ﬁrms across industries in South Africa Key social alignment construct(s) Perceptual congruence between IS managers and IS developers Operationalization of construct(s) (Reversed) difference between the responses of IS developers and those of IS manager to the same sets of questions about the deployment of systems development methodologies Key antecedent(s) of construct(s) N/A Key consequent(s) of construct(s) N/A Principal ﬁndings/major contributions Evidence of existence of differences in perceptions between IS managers and developers; managers found to perceive methodology impact on productivity and quality as more important than do developers, whereas system developers perceive support for veriﬁcation and validation’ as more important than do managers Investigation of the effect of organization information management environment maturity and alignment on IS strategic planning success; both factors found to positively impact IS strategic planning success Examination of the cognitive basis of shared understanding; cognitive commonalities between business and IS executives found to be positively related to a higher level of alignment
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Li et al. (2006)
+
+Survey of N = 49 organizations across industries in China
+
+Common understanding (as part of the alignment construct)
+
+First order construct of the informant’s rating of top management’s IT/IS knowledge and the informant’s rating of ITIS professionals’ knowledge of business
+
+N/A
+
+Degree of IS strategic planning success
+
+Tan and Gallupe (2006)
+
+Stoel (2006)
+
+Interviews with N = 80 business and IS executives of six companies in the ﬁnancial services and health services industry in New Zealand Survey of N = 75 matched pairs of manufacturing informants and IS managers in large manufacturing companies
+
+Shared cognition (i.e., commonalities (similarities) and individualities (differences) in the executives’ cognitive maps) Shared Knowledge (split into: operational knowledge and strategic knowledge)
+
+Average ‘‘Weirdness index” of business and IS executive’s rating and sorting of 15 factors inﬂuencing alignment (modiﬁed ‘‘Repertory Grid Technique”)
+
+N/A
+
+Level of alignment
+
+Second order construct of manufacturing’s knowledge/understanding of IS (as perceived by manufacturing informant) and IS’ knowledge/understanding of manufacturing (as perceived by IS manager)
+
+Preston and Karahanna (2009b)
+
+Survey of N = 243 matched pairs of CIOs and top management team members of ﬁrms across industries
+
+Shared understanding about the role of IS
+
+Average of CIO’s and top management team member’s response to questions on the degree to which CIO and TMT members have a shared view and understanding about the role of IS within the organization
+
+Mutual trust; information dependence; clear corporate strategy; executive support for IS; organizational learning culture; formal IS-business interface; overlapping knowledge; joint IS management Shared language; shared domain knowledge; systems of knowing; relational similarities
+
+Business process performance; IS process performance
+
+Conceptualization of shared knowledge at the operational and the strategic level; factors that foster the development of shared knowledge found to differ across the two levels
+
+IS strategic alignment
+
+Development of a nomological network of various explanatory factors that predict shared understanding about the role of IT, which represents the social dimension of IS strategic alignment; social systems of knowing and experiential similarity found to not have a signiﬁcant effect on shared understanding
+
+Preston and Karahanna (2009a)
+
+Survey of N = 243 matched pairs of CIOs and top management team members of ﬁrms across industries
+
+Shared IT vision between the CIO and the top management team
+
+Not stated explicitly; most likely measured as the average of CIO’s and top management team member’s response to questions on the degree to which CIO and TMT members have a shared IT vision
+
+Johnson and Lederer (2010)
+
+Survey of N = 202 CEO–CIO pairs of ﬁrms across industries in two adjacent states of the U.S.
+
+Mutual understanding about the role of IT
+
+Latent variable of the absolute differences between CEO and CIO responses for each item of the same set of questions
+
+Six distinct visioning mechanisms (shared business language, visioning network hierarchy, CIO educational leadership, CIO–TMT commonalities, CIO strategic knowledge, CIO relational capital) N/A
+
+IS strategic alignment
+
+Identiﬁcation of ﬁve distinct conﬁgurations of visioning mechanisms that enable or inhibit shared vision between CIOs and top management team members, which predicts IS strategic alignment
+
+Johnson and Lederer (2013)
+
+Survey of N = 202 CEO–CIO pairs of ﬁrms across industries in two adjacent states of the U.S.
+
+Agreement on the contribution of IS to the organization
+
+Comparison of means between the CEO’s and the CIO’s responses to the same set of questions on IS contribution
+
+Karahanna and Preston (2013)
+
+Survey of N = 81 pairs of CIOs and top management team members of U.S. hospitals
+
+CIO–TMT cognitive social capital (consisting of shared cognition and shared language)
+
+Average of CIO’s and top management team member’s response to questions on the degree to which CIO and TMT members share a common language and have a shared understanding about the role of IS within the organization
+
+Eight distinct IS strategies (aggressiveness, analysis, internal defensiveness, external defensiveness, futurity, proactiveness, riskiness, innovativeness) CIO–TMT structural social capital
+
+Eight alignment dimensions (aggressiveness, analysis, internal defensiveness, external defensiveness, futurity, proactiveness, riskiness, innovativeness) N/A
+
+Mutual understanding between CEOs and CIOs about the role of IT found to impact seven out of eight alignment dimensions, whereof six out of eight dimensions predict IS contribution to the organization
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+CEOs and CIOs found to agree on the contribution of IS but disagree on how IS strategy produces that contribution; CEOs found to view analysis and proactiveness strategies as the two top keys, whereas CIOs view innovativeness and aggressiveness strategies at the top Identiﬁcation of three dimensions of social capital (structural, cognitive, and relational) as antecedents of IS alignment; cognitive and relational social capital found to directly inﬂuence IS strategic alignment but structural social capital found to exert its inﬂuence through its effects on cognitive social capital Application of distributed sensemaking theory; consensus among different business executives as to the business value of IT found to be a function of the CIO’s sensegiving activities that create an awareness or knowledge of IT (continued on next page)
+
+CIO–TMT relational social capital; IS strategic alignment; ﬁrm’s ﬁnancial performance
+
+Tallon (2014)
+
+Survey of N = 133 top-level business executives in 13 U.S.based Fortune 500 ﬁrms across eight industries
+
+Consensus among different business executives on the scale and locus of IT impacts
+
+‘‘Interrater reliability score” of executives’ perceptions of IT impacts on ﬁrm proﬁt and value chain
+
+CIO leadership; IT promotion; IS engagement; ISbusiness communications
+
+N/A
+
+121
+
+122 A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Table A1 (continued) Reference Wagner et al. (2014) Study design and context Survey of N = 136 mid-level managers of credit departments at German banks Key social alignment construct(s) Business understanding of IT (i.e., business domain knowledge of IT employees) Operationalization of construct(s) Business informant’s assessment of IT employees’ business domain knowledge Key antecedent(s) of construct(s) Social capital (along the three dimensions: cognitive linkage, structural linkage, relational linkage) Key consequent(s) of construct(s) IT utilization; IT ﬂexibility Principal ﬁndings/major contributions Application of social capital theory on the level of operational alignment; clariﬁcation that social capital is an enabler of business understanding of IT, with the cognitive dimension exerting the strongest inﬂuence
+
+a
+
+Construct names in this table as per the references; not necessarily in line with the terminology used in this article (see Table 1).
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126 Table A2 Descriptive survey sample characteristics.
+
+123
+
+Personal Characteristics Gender Age (SD) Highest Level of Education Less than 4-year Degree 4-year Degree Graduate or Prof. Degree Doctorate Degree Experience Years in Industry (SD) Years in Firm (SD) Years in Position (SD) Years in IT (SD) CIO Reporting Level Direct Report Two Levels below CEO Three Levels below CEO CIO Title CIO VP of IT IT Director Executive IT Officer
+
+CEOs 86% Male 50.8 (4.1) 2% 4% 50% 41% 27.5 (4.8) 18.9 (5.2) 5.7 (3.7) 1.8 (4.5) n/a n/a n/a n/a n/a n/a n/a
+
+CIOs 96% Male 46.9 (4.8) 1% 7% 70% 17% 23.0 (5.1) 16.2 (4.9) 4.1 (3.1) 14.0 (3.4) 45% 45% 11% 58% 26% 14% 2%
+
+Company Characteristics Annual Revenue in Million Euros <10 1% 10-49 28% 50-99 20% 100-499 38% 500-999 10% ≥1000 3% Total Assets in Million Euros <10 10% 10-49 30% 50-99 23% 100-499 30% 500-999 4% ≥1000 3% Number of Employees <100 2% 100-499 36% 500-999 27% 1,000-4,999 31% 5,000-9,999 3% ≥10,000 1%
+
+Table A3 Survey items on business topics assessed by CEOs and CIOs. Constructs and items (sources) CEO Own response Strategic orientation (Gatignon and Xuereb, 1997; Venkatraman, 1989) . . . adopt innovations earlier . . .be more on the lookout for businesses to acquire . . . focus more on divesting selected operations . . . develop better understanding of our industry and competitors Market aggressiveness (Venkatraman, 1989; Byrd et al., 2006) . . . become better at securing our present market position . . . become faster at introducing new products and services . . . gain market share, even if sacriﬁcing short-term proﬁtability . . . become faster at increasing our capacity Business operations (Byrd et al., 2006) . . . we need to reduce the riskiness of our business model . . . we need to devote more attention to improving the efﬁciency of our business operations . . . we need to improve coordination among functions . . . we need to start/intensify leveraging Business Process Outsourcing (BPO) companies to allow us to focus on our core business Business Decision Making (Byrd et al., 2006) We have sufﬁcient data to support our day-to-day decision making We adopt a rather conservative view when making major decisions We tend to be future-oriented (i.e., more focused on the long term than on the short term) when making major decisions We need to develop a more comprehensive analysis of the business situations faced, when confronted with major decisions
+a
+
+CIO CEO’s perception of CIO Own response CIO’s perception of CEO 5.58 5.64 5.70 5.63 5.73 5.55 5.67 5.77 (1.14) (1.18) (1.09) (1.17) (1.13) (1.10) (1.14) (1.12)
+
+In the future, 5.55 (0.97)a 5.71 (1.13) 5.54 (1.05) 5.65 (0.98) In the future, 5.68 (1.00) 5.54 (1.01) 5.59 (1.06) 5.68 (1.06)
+
+compared to now, we need to . . . 3.59 (1.21) 3.81 (1.48) 3.60 (1.39) 3.76 (1.42) 3.60 (1.31) 3.75 (1.39) 3.47 (1.32) 3.85 (1.51) compared to now, we need to . . . 3.47 (1.38) 3.90 (1.50) 3.53 (1.37) 3.72 (1.60) 3.57 (1.3”) 3.87 (1.50) 3.45 (1.49) 3.95 (1.55)
+
+In the future, compared to now, we need to . . . 4.26 (1.41) 3.70 (1.29) 3.58 (1.16) 5.44 (1.06) 3.72 (1.29) 3.94 (1.48) 5.51 (1.06) 5.45 (1.03) 3.75 (1.26) 3.77 (1.39) 4.05 (1.49) 4.11 (1.53)
+
+4.55 (1.37) 5.39 (1.10) 5.38 (1.12) 5.53 (1.22)
+
+5.51 (1.04) 2.74 (1.40) 5.52 (0.97) 5.64 (1.18)
+
+3.95 (1.34) 3.85 (1.31) 3.91 (1.40) 3.88 (1.43)
+
+3.92 (1.46) 3.79 (1.53) 4.07 (1.48) 4.06 (1.50)
+
+5.62 (1.13) 3.05 (1.60) 5.57 (1.10) 5.67 (1.07)
+
+Mean (standard deviation).
+
+124
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Table A4 Survey items on IT topics assessed by CEOs and CIOs. Constructs and items (sources) CEO Own response IT outsourcing (Rouse, 2008) Overall, we are satisﬁed with the beneﬁts from IT outsourcing We are satisﬁed with the value for money of our IT outsourcing arrangements The extent of IT outsourcing in our IT organization is too large (R) We outsource too many strategically important functions of our IT organization (R) IT governance (Weill and Ross, 2004; Weill and Woodham, 2002) The implementations of our IT governance principles are effective Our level of IT governance is mature Our IT governance needs stronger business ownership (R) Our IT organization is struggling with the various IT governance compliance requirements (R) IT projects (Gemino et al., 2008) . . . have appropriate business ownership . . . meet time & budget constraints . . . are worth it (i.e., pay off) . . . meet business requirements . . . deliver the expected beneﬁts IT ﬂexibility (Ness, 2005) Our IT structure can be upgraded to handle needs at a much higher scale Functionality can be quickly added to critical IT applications based on enduser requests Our IT ﬂexibility is impaired by legacy systems (R) Our IT ﬂexibility is impaired by our change management procedures (R) IT organization (Peppard and Ward, 1999; Rockart et al., 1996) Our IT budget is large enough to accomplish the IT organization’s goals Our IT budget is optimally utilized to accomplish the IT organization’s goals Our IT organization is staffed sufﬁciently to accomplish its goals Our IT organization is structured optimally to accomplish its goals
+a
+
+CIO CEO’s perception of CIO 5.53 (1.08) 5.43 (1.05) 5.71 (1.10) 5.42 (1.20) Own response 5.50 (1.02) 5.42 (1.16) 5.52 (1.12) 5.60 (1.18) CIO’s perception of CEO 3.60 (1.46) 3.79 (1.42) 3.71 (1.48) 3.73 (1.48)
+
+3.93 (1.22)a 3.82 (1.26) 3.87 (1.26) 4.13 (1.22)
+
+3.89 3.80 3.84 3.91
+
+(1.36) (1.28) (1.33) (1.43)
+
+5.58 5.49 5.57 5.48
+
+(1.25) (1.18) (1.24) (1.22)
+
+5.36 5.31 5.32 5.33
+
+(1.13) (1.06) (1.09) (1.21)
+
+3.55 3.61 3.65 3.67
+
+(1.60) (1.49) (1.49) (1.51)
+
+Our IT-related 4.48 (0.98) 3.38 (1.11) 4.20 (1.01) 4.27 (1.08) 4.31 (1.10) 4.45 (1.09) 4.35 (1.04) 3.75 (1.04) 3.70 (1.00) 5.40 4.33 5.32 4.35 (0.69) (0.87) (0.85) (0.83)
+
+projects . . . 5.79 (0.90) 4.94 (1.05) 5.50 (1.00) 5.53 (0.94) 5.60 (0.90) 5.83 (0.97) 5.79 (0.95) 2.42 (1.13) 2.22 (1.17) 4.55 5.63 4.65 5.70 (1.00) (1.43) (1.03) (1.37)
+
+5.41 4.24 5.11 5.27 5.30
+
+(0.87) (0.94) (0.88) (0.90) (0.95)
+
+4.29 3.18 4.00 4.06 4.13
+
+(1.34) (1.31) (1.18) (1.41) (1.38)
+
+5.61 (0.92) 5.60 (0.98) 2.25 (1.08) 2.25 (1.23) 4.50 5.52 4.45 5.58 (0.95) (1.34) (1.09) (1.21)
+
+4.30 (1.23) 4.33 (1.28) 3.75 (1.37) 3.67 (1.40) 5.25 4.09 5.16 4.19 (0.95) (1.04) (0.97) (1.11)
+
+Mean (standard deviation); (R) = Reverse coded.
+
+Table A5 Perceptual congruence scoring table.
+
+Response Person A Strongly Disagree 1 2 Response Person B Strongly Disagree 1 2 3 Neutral 4 5 Strongly Agree 6 7 10 9 7 5 3 2 1 9 10 9 6 4 3 2 Neutral 3 7 9 10 8 5 4 3 4 5 6 8 10 8 6 5 5 3 4 5 8 10 9 7 Strongly Agree 6 7 2 3 4 6 9 10 9 1 2 3 5 7 9 10
+
+References
+Acitelli, L.K., Douvan, E., Veroff, J., 1993. Perceptions of conﬂict in the ﬁrst year of marriage: How important are similarity and understanding? Journal of Social and Personal Relationships 10 (1), 5–19. Allen, A., Thompson, T., 1984. Agreement, understanding, realization, and feeling understood as predictors of communicative satisfaction in marital dyads. Journal of Marriage and the Family 46 (4), 915–921. Armstrong, C.P., Sambamurthy, V., 1999. Information technology assimilation in ﬁrms: the inﬂuence of senior leadership and IT infrastructures. Information Systems Research 10 (4), 304–327. Armstrong, J.S., Overton, T.S., 1977. Estimating nonresponse bias in mail surveys. Journal of Marketing Research 14 (3), 396–402. Avison, D., Jones, J., Powell, P., Wilson, D., 2004. Using and validating the strategic alignment model. Journal of Strategic Information Systems 13 (3), 223– 246.
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+125
+
+Bakker, A.B., Leiter, M.P., 2010. Work Engagement: A Handbook of Essential Theory and Research. Psychology Press. Bakker, A.B., Xanthopoulou, D., 2009. The crossover of daily work engagement: test of an actor–partner interdependence model. Journal of Applied Psychology 94 (6), 1562–1571. Bassellier, G., Benbasat, I., 2004. Business competence of information technology professionals: conceptual development and inﬂuence on IT–business partnerships. MIS Quarterly 28 (4), 673–694. Benlian, A., 2013. Effect mechanisms of perceptual congruence between information systems professionals and users on satisfaction with service. Journal of Management Information Systems 29 (4), 63–96. Bittner, E.A.C., Leimeister, J.M., 2014. Creating shared understanding in heterogeneous work groups: Why it matters and how to achieve it. Journal of Management Information Systems 31 (1), 111–144. Boynton, A.C., Zmud, R.W., Jacobs, G.C., 1994. The inﬂuence of IT management practice on IT use in large organizations. MIS Quarterly 18 (3), 299–318. Byrd, T.A., Lewis, B.R., Bryan, R.W., 2006. The leveraging inﬂuence of strategic alignment on IT investment: an empirical examination. Information & Management 43 (3), 308–321. Byrne, D., Blaylock, B., 1963. Similarity and assumed similarity between husbands and wives. Journal of Abnormal and Social Psychology 67 (6), 636–640. Chan, Y.E., 2002. Why Haven’t we Mastered Alignment?: The importance of the informal organization structure. MIS Quarterly Executive 1 (2), 97–112. Chan, Y.E., Reich, B.H., 2007a. IT alignment: What have we learned? Journal of Information Technology 22 (4), 297–315. Chan, Y.E., Reich, B.H., 2007b. IT alignment: an annotated bibliography. Journal of Information Technology 22 (4), 316–396. Chan, Y.E., Sabherwal, R., Thatcher, J.B., 2006. Antecedents and outcomes of strategic IS alignment: an empirical investigation. IEEE Transactions on Engineering Management 51 (3), 27–47. Collins, C.J., Clark, K.D., 2003. Strategic human resource practices, top management team social networks, and ﬁrm performance: the role of human resource practices in creating organizational competitive advantage. Academy of Management Journal 46 (6), 740–751. Coltman, T., Tallon, P., Sharma, R., Queiroz, M., 2015. Strategic IT alignment: twenty-ﬁve years on. Journal of Information Technology 30 (2), 91–100. Cook, W.L., Kenny, D.A., 2005. The actor–partner interdependence model: a model of bidirectional effects in development studies. International Journal of Behavioral Development 29 (2), 101–109. Feeny, D.F., Edwards, B.R., Simpson, K.M., 1992. Understanding the CEO/CIO relationship. MIS Quarterly 16 (4), 435–448. Fell, G.J., 2013. Decoding the IT Value Problem: An Executive Guide for Achieving Optimal ROI on Critical IT Investments. John Wiley & Sons Inc, New York. Finlay, P.N., Mitchell, A.C., 1994. Perceptions of the beneﬁts from the introduction of case: an empirical study. MIS Quarterly 18 (4), 353–370. Fornell, C., Larcker, D.F., 1981. Evaluating structural equation models with unobservable variables and measurement error. Journal of Marketing Research 18 (1), 39–50. Garcia, R.L., Kenny, D.A., Ledermann, T., 2015. Moderation in the actor–partner interdependence model. Personal Relationships 22 (1), 8–29. Gatignon, H., Xuereb, J.-M., 1997. Strategic orientation of the ﬁrm and new product performance. Journal of Marketing Research (JMR) 34 (1), 77–90. Gemino, A., Reich, B.H., Sauer, C., 2008. A temporal model of information technology project performance. Journal of Management Information Systems 24 (3), 9–44. Gerow, J.E., Grover, V., Thatcher, J., Roth, P.L., 2014. Looking toward the future of IT–business strategic alignment through the past: a meta-analysis. MIS Quarterly 38 (4), 1159–1186. Grant, A.M., Berry, J.W., 2011. The necessity of others is the mother of invention: intrinsic and prosocial motivations, perspective taking, and creativity. Academy of Management Journal 54 (1), 73–96. Hair, J.F., Black, W.C., Babin, B.J., Anderson, R.E., 2009. Multivariate Data Analysis. Prentice Hall, Upper Saddle River, NJ. Hansen, A.M., Kraemmergaard, P., Mathiassen, L., 2011. Rapid adaptation in digital transformation: a participatory process for engaging IS and business leaders. MIS Quarterly Executive 10 (4), 175–185. Henderson, J.C., Venkatraman, N., 1993. Strategic alignment: leveraging information technology for transforming organizations. IBM Systems Journal 32 (1), 4–16. Hess, T., Matt, C., Benlian, A., Wiesböck, F., 2016. To see the forest for the trees – exploring management’s options for the deﬁnition of a digital transformation strategy. MIS Quarterly Executive 15 (2) (forthcoming). Huisman, M., Iivari, J., 2006. Deployment of systems development methodologies: perceptual congruence between IS managers and systems developers. Information & Management 43 (1), 29–49. Hussin, H., King, M., Cragg, P.B., 2002. IT alignment in small ﬁrms. European Journal of Information Systems 11 (2), 108–127. Jiang, J.J., Klein, G., Balloun, J., 1998. Perceptions of system development failures. Information and Software Technology 39 (14–15), 933–937. Jiang, J.J., Sobol, M.G., Klein, G., 2000. Performance ratings and importance of performance measures for IS staff: the different perceptions of IS users and IS staff. IEEE Transactions on Engineering Management 47 (4), 424–434. Johnson, A.M., Lederer, A.L., 2005. The effect of communication frequency and channel richness on the convergence between chief executive and chief information ofﬁcers. Journal of Management Information Systems 22 (2), 227–252. Johnson, A.M., Lederer, A.L., 2010. CEO/CIO mutual understanding, strategic alignment, and the contribution of IS to the organization. Information & Management 47 (3), 138–149. Johnson, A.M., Lederer, A.L., 2013. IS strategy and IS contribution: CEO and CIO perspectives. Information Systems Management 30 (4), 306–318. Jones, M.C., Taylor, G.S., Spencer, B.A., 1995. The CEO/CIO relationship revisited: an empirical assessment of satisfaction with IS. Information & Management 29 (3), 123–130. Kahneman, D., Lovallo, D., Sibony, O., 2011. Before you make that big decision. Harvard Business Review 89 (6), 50–60. Kappelman, L.A., McLean, E., Johnson, V., Gerhart, N., 2014. The 2014 SIM IT key issues and trends study. MIS Quarterly Executive 13 (4), 237–263. Karahanna, E., Preston, D.S., 2013. The effect of social capital of the relationship between the CIO and top management team on ﬁrm performance. Journal of Management Information Systems 30 (1), 15–56. Kearns, G.S., Lederer, A.L., 2000. The effect of strategic alignment on the use of IS-based resources for competitive advantage. Journal of Strategic Information Systems 9 (4), 265–293. Kearns, G.S., Lederer, A.L., 2003. A resource-based view of strategic IT alignment: How knowledge sharing creates competitive advantage. Decision Sciences 34 (1), 1–29. Kenny, D.A., 1996. Models of non-independence in dyadic research. Journal of Social and Personal Relationships 13 (2), 279–294. Kenny, D.A., Kashy, D.A., Cook, W.L., 2006. Dyadic Data Analysis. Guilford, New York, NY. Laing, R.D., Phillipson, H., Lee, A.R., 1966. Interpersonal Perception: A Theory and a Method of Research. Springer, New York, NY. Larson, L., 1974. System and subsystem perception of family roles. Journal of Marriage and the Family 36 (1), 123–138. Lederer, A.L., Prasad, J., 1995. Perceptual congruence and systems development cost estimation. Information Resources Management Journal 8 (4), 16–27. Levinger, G., Breedlove, J., 1966. Interpersonal attraction and agreement: a study of marriage partners. Journal of Personality and Social Psychology 3 (4), 367–372. Lewis, R., Spanier, G., 1979. Theorizing about the quality and stability of marriage. In: Burr, W.E., Hill, R., Nye, F.I., Reiss, I.L. (Eds.), Contemporary Theories about the Family, vol. 2. Free Press, New York, NY, pp. 268–294. Li, D., Ji, S., Li, W., 2006. Information management environment, business strategy, and the effectiveness of information systems strategic planning. In: PACIS 2006 Proceedings. Paper 54. Lind, M.R., Zmud, R.W., 1991. The inﬂuence of a convergence in understanding between technology providers and users on information technology innovativeness. Organization Science 2 (2), 195–217. Luftman, J.N., Kempaiah, R., 2007. An update on business–IT alignment: ‘‘A line” has been drawn. MIS Quarterly Executive 6 (3), 165–177. Luftman, J.N., Kempaiah, R., Nash, E., 2005. Key issues for IT executives. MIS Quarterly Executive 5 (2), 81–101.
+
+126
+
+A. Benlian, I. Haffke / Journal of Strategic Information Systems 25 (2016) 104–126
+
+Luftman, J.N., Papp, R., Brier, T., 1999. Enablers and inhibitors of business–IT alignment. Communications of AIS 1 (11), 1–33. Matt, C., Hess, T., Benlian, A., 2015. Digital transformation strategies. Business & Information Systems Engineering 57 (5), 339–343. Morgan, R.B., 1993. Self- and co-worker perceptions of ethics and their relationships to leadership and salary. The Academy of Management Journal 36 (1), 200–214. Nelson, K.M., Cooprider, J.G., 1996. The contribution of shared knowledge to IS group performance. MIS Quarterly 20 (4), 409–432. Nelson, R.R., 1991. Educational needs as perceived by IS and end-user personnel: a survey of knowledge and skill requirements. MIS Quarterly 15 (4), 503– 525. Ness, L.R., 2005. Assessing the relationships among IT ﬂexibility, strategic alignment, and IT effectiveness: study overview and ﬁndings. Journal of Information Technology Management 16 (2), 1–17. Peppard, J., Edwards, C., Lambert, R., 2011. Clarifying the ambiguous role of the CIO. MIS Quarterly Executive 10 (1), 31–44. Peppard, J., Ward, J., 1999. ‘Mind the gap’: diagnosing the relationship between the IT organisation and the rest of the business. The Journal of Strategic Information Systems 8 (1), 29–60. Podsakoff, P.M., Mackenzie, S.B., Lee, J., Podsakoff, N.P., 2003. Common method biases in behavioral research: a critical review of the literature and recommended remedies. Journal of Applied Psychology 88 (5), 879–903. Preston, D.S., Karahanna, E., 2009a. How to develop a shared vision, the key to IS strategic alignment. MIS Quarterly Executive 8 (1), 1–8. Preston, D.S., Karahanna, E., 2009b. Antecedents of IS strategic alignment: a nomological network. Information Systems Research 20 (2), 159–179. Reich, B.H., Benbasat, I., 1996. Measuring the linkage between business and information technology objectives. MIS Quarterly 20 (1), 55–81. Reich, B.H., Benbasat, I., 2000. Factors that inﬂuence the social dimension of alignment between business and information technology objectives. MIS Quartely 24 (1), 81–113. Richardson, H.A., Simmering, M.J., Sturman, M.C., 2009. A tale of three perspectives: examining post hoc statistical techniques for detection and correction of common method variance. Organizational Research Methods 12 (4), 762–800. Ringle, C.M., Wende, S., Will, A., 2005. Smartpls 2.0 (m3) Beta. University of Hamburg. Rockart, J.F., Earl, M.J., Ross, J.W., 1996. Eight imperatives for the new IT organization. Sloan Management Review 38 (1), 43–55. Ross, L., Greene, D., House, P., 1977. The ‘‘false consensus effect”: an egocentric bias in social perception and attribution processes. Journal of Experimental Social Psychology 13 (3), 279–301. Rouse, A.C., 2008. Testing some myths about IT outsourcing: a survey of Australia’s top 1000 ﬁrms. In: Proceedings of the 16th European Conference on Information Systems. Galway, Ireland, pp. 1–13. Sillars, A.L., 1985. Interpersonal perception in relationships. In: Ickes, W. (Ed.), Compatible and Incompatible Relationships. Springer, New York, NY, pp. 277– 305. Sivo, S.A., Saunders, C., Chang, Q., Jiang, J.J., 2006. How low should you go? Low response rates and the validity of inference in IS questionnaire research. Journal of the Association for Information Systems 7 (6), 351–414. Stoel, M.D., 2006. The Antecedents and Consequences of Shared Business–IT Understanding: An Empirical Investigation. Ph.D. Dissertation, The Ohio State University, Columbus, OH, unpublished. Tallon, P., Kraemer, K.L., 2003. Using ﬂexibility to enhance the alignment between information systems and business strategy: implications for IT business value. Center for Research on Information Technology and Organizations (CRITO). Tallon, P.P., 2011. Value chain linkages and the spillover effects of strategic information technology alignment: a process-level view. Journal of Management Information Systems 28 (3), 9–44. Tallon, P.P., 2014. Do you see what I see? The search for consensus among executives’ perceptions of IT business value. European Journal of Information Systems 23 (3), 306–325. Tallon, P.P., Kraemer, K.L., Gurbaxani, V., 2000. Executives’ perceptions of the business value of information technology: a process-oriented approach. Journal of Management Information Systems 16 (4), 145–173. Tan, F.B., Gallupe, R.B., 2006. Aligning business and information systems thinking: a cognitive approach. IEEE Transactions on Engineering Management 53 (2), 223–237. Teo, T.S.H., King, W.R., 1997. An assessment of perceptual differences between informants in information systems research. Omega 25 (5), 557–566. Turban, D.B., Jones, A.P., 1988. Supervisor–subordinate similarity: types, effects, and mechanisms. Journal of Applied Psychology 73 (2), 228–234. Venkatraman, N., 1989. Strategic orientation of business enterprises: the construct, dimensionality, and measurement. Management Science 35 (8), 942– 962. Vetter, J., Benlian, A., Hess, T., 2011. Overconﬁdence in IT investment decisions: why knowledge can be a boon and bane at the same time. In: ICIS 2011 Proceedings, Paper 4, Shanghai, China. Wagner, H.-T., Beimborn, D., Weitzel, T., 2014. How social capital among information technology and business units drives operational alignment and IT business value. Journal of Management Information Systems 31 (1), 241–272. Weill, P., Ross, J.W., 2004. IT Governance. How Top Performers Manage IT Decision Rights for Superior Results. Harvard Business School Press, Boston, MA. Weill, P., Woerner, S.L., 2013. The future of the CIO in a digital economy. MIS Quarterly Executive 12 (2), 65–75. Weill, P., Woodham, R., 2002. Don’t just lead, govern: implementing effective IT governance. MIT Center for Information Systems Research, 1–17. White, J., 1985. Perceived similarity and understanding in married couples. Journal of Social and Personal Relationships 2 (1), 45–57. Wu, S.P.J., Straub, D.W., Liang, T.-P., 2015. How information technology governance mechanisms and strategic alignment inﬂuence organizational performance: insights from a matched survey of business and IT managers. MIS Quarterly 39 (2), 497-A7. Yakovleva, M., Reilly, R.R., Werko, R., 2010. Why do we trust? Moving beyond individual to dyadic perceptions. Journal of Applied Psychology 95 (1), 79–91.
+
+

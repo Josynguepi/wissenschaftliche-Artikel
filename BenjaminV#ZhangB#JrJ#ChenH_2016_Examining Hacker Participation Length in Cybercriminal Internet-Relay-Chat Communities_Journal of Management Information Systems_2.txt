@@ -1,0 +1,413 @@
+Journal of Management Information Systems
+
+ISSN: 0742-1222 (Print) 1557-928X (Online) Journal homepage: http://www.tandfonline.com/loi/mmis20
+
+Examining Hacker Participation Length in Cybercriminal Internet-Relay-Chat Communities
+Victor Benjamin, Bin Zhang, Jay F. Nunamaker Jr. & Hsinchun Chen
+To cite this article: Victor Benjamin, Bin Zhang, Jay F. Nunamaker Jr. & Hsinchun Chen (2016) Examining Hacker Participation Length in Cybercriminal Internet-Relay-Chat Communities, Journal of Management Information Systems, 33:2, 482-510, DOI: 10.1080/07421222.2016.1205918 To link to this article: http://dx.doi.org/10.1080/07421222.2016.1205918
+
+Published online: 05 Oct 2016.
+
+Submit your article to this journal
+
+Article views: 72
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at http://www.tandfonline.com/action/journalInformation?journalCode=mmis20 Download by: [Bibliotheek TU Delft] Date: 14 February 2017, At: 09:17
+
+Examining Hacker Participation Length in Cybercriminal Internet-Relay-Chat Communities
+VICTOR BENJAMIN, BIN ZHANG, JAY F. NUNAMAKER, JR., AND HSINCHUN CHEN
+VICTOR BENJAMIN (Victor.Benjamin@asu.edu; corresponding author) is an assistant professor at Arizona State University. He received his Ph.D. from the University of Arizona. He specializes in cybersecurity, machine learning, natural language processing, and web mining. BIN ZHANG (binzhang@arizona.edu) is an assistant professor at the University of Arizona. He received his Ph.D. from Carnegie Mellon University. He specializes in large social network analysis and statistical modeling of social network problems. His work also focuses on social media, technology diffusion, and business analytics. JAY F. NUNAMAKER, JR. (jnunamaker@cmi.arizona.edu), is Regents and Soldwedel Professor of MIS, Computer Science and Communication at the University of Arizona. He is director of the Center for the Management of Information and the Center for Border Security and Immigration. He received his Ph.D. in Operations Research and Systems Engineering from Case Institute of Technology. He obtained his professional engineer ’s license in 1965. He specializes in the fields of system analysis and design, collaboration technology, and deception detection. He has been inducted into the Design Science Hall of Fame and received the LEO Award for Lifetime Achievement from the Association of Information Systems. He has published over 368 journal articles, book chapters, books, and refereed proceedings papers. He has also cofounded five spin-off companies based on his research. HSINCHUN CHEN (hchen@eller.arizona.edu)is a regents professor of management information systems and Thomas R. Brown Chair in Management and Technology at the University of Arizona and director of the Artificial Intelligence Lab. He is a fellow of IEEE, ACM, and AAAS. He has received numerous awards for his research work. He is the author or editor of 20 books, 25 book chapters, 280 journal articles, and 150 refereed conference articles in the areas of web computing, search engines, digital library, intelligence analysis, biomedical informatics, data/text/web mining, and knowledge management.
+
+Color versions of one or more of the figures in the article can be found online at www.tandfonline. com/mmis
+Journal of Management Information Systems / 2016, Vol. 33, No. 2, pp. 482–510. Copyright © Taylor & Francis Group, LLC ISSN 0742–1222 (print) / ISSN 1557–928X (online) DOI: 10.1080/07421222.2016.1205918
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+483
+
+ABSTRACT: To further cybersecurity, there is interest in studying online cybercriminal communities to learn more about emerging cyber threats. Literature documents the existence of many online Internet Relay Chat (IRC) cybercriminal communities where cybercriminals congregate and share hacking tools, malware, and more. However, many cybercriminal community participants appear unskilled and have fleeting interests, making it difficult to detect potential long-term or key participants. This is a challenge for researchers and practitioners to quickly identify cybercriminals that may provide credible threat intelligence. Thus, we propose a computational approach to analyze cybercriminals IRC communities in order to identify potential long-term and key participants. We use the extended Cox model to scrutinize cybercriminal IRC participation for better understanding of behaviors exhibited by cybercriminals of importance. Results indicate that key cybercriminals may be quickly identifiable by assessing the scale of their interaction and networks with other participants. KEY WORDS AND PHRASES: community participation, cybercrime, cybercriminal community, Internet Relay Chat, participation duration modeling.
+
+Cybersecurity is one of the largest issues impacting the whole of society as individuals, industry, and government find themselves increasingly at risk of cyber attack. News reports concerning cybercriminals stealing consumer data and cybercrime committed against high-profile targets have recently become common occurrences. It is estimated that cybercrime costs the global economy about $445 billion a year, mostly due to theft of intellectual property within developed countries and sale of stolen personal information [28]. In 2011, the National Security and Technology Council released a report claiming that “methods to model cyber adversaries” is one critical yet unfulfilled research need [26, p. 11]. Further, many scientists consider that research that furthers our understanding of cybercriminals would greatly benefit the development of future cyber defenses [24]. The security of our cyberspace will remain a problem of large magnitude for the foreseeable future. As a result, researchers have begun to explore various aspects of cyber security [8, 9, 40]. Some of the early works investigating cybercriminals and their behaviors have identified that cybercriminals congregate within various online communities to share knowledge and form groups [54]. The scrutiny of data from such communities can lead to actionable intelligence for security professionals. For example, in early 2014, analysis of the Anonymous hacking group’s IRC community helped British cyber-security analysts reveal botnet operators actively participating in cyber attacks [29]. However, not all cybercriminal community members are equal. Different levels of cybercriminal capability, knowledge, and interest exist among participants [15]. Some possess little to no skill and may only have passing interest in cybercrime, while others ingrain themselves within a community and become long-term members. While expected, variance in participants can present a challenge for researchers and professionals. Researchers wanting to identify emerging cyber threats based on cybercriminal community data would have to scrutinize the credibility of observed participants. Threats and
+
+484
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Figure 1. #OperationGreenRights Recruiting Advertisement.
+
+claims made by long-term members and those who appear to be key participants in their community should be considered with more priority because such cybercriminals may be more successful in achieving their cybercriminal goals [13, 17, 25]. For example, Figure 1 contains a recruitment advertisement for #OperationGreenRights, a hacktivist campaign targeting corporations and organizations accused of significant environmental damage. This advertisement was propagated among cybercriminal IRC communities by many long-term participants, giving the hacktivist campaign more credibility, and thus potentially attracting more participants. For this reason, we are motivated to develop a system for collecting and analyzing cybercriminal IRC data in order to identify potential long-term and key cybercriminals. In particular, we examine individual participants’ networking and message content patterns to better understand the characteristics normally exhibited by such cybercriminals. That is, we can identify what specific IRC behaviors or features are unique to long-term participants and less attributed to shorter-term participants. Specifically, we make use of the Wang–Chang Kaplan–Meier estimator and extend Cox’s proportional hazards to model data from two popular cybercriminal IRC communities that appear representative of the greater cybercriminal community.
+
+Literature Review
+To form the basis for this work, we review literature from related areas of research. First, while the cybercriminal community research stream is young, existing studies are helpful for motivating our exploration and identifying research gaps. In particular, prior work can
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+485
+
+provide contextual information on cybercriminal communities. Next, we look to prior studies focused on more traditional virtual communities. The abundance of literature in this area can provide information on community identification, collection, and analysis procedures that may be helpful for guiding the formulation of a research design for this study. Lastly, we look at methods for conducting temporal analysis to help with model selection for our analysis. Specifically, duration modeling is one technique that appears to be used in prior virtual community studies for examining community participant behaviors.
+
+Cybercriminal Community Research
+Overview To develop proactive cyber-security capabilities, it is necessary to begin understanding cybercriminal behaviors and surveilling cybercriminal communities for knowledge of emerging threats. Unfortunately, current work on cybercriminal communities is limited. In Table 1, we provide a summary of some cybercriminal community literature from recent years. This list is by no means comprehensive, but is representative of the greater body of literature. Many of these works explore cybercriminal community contents, but use only manual qualitative analyses and basic metrics. Little work appears to make use of more scalable techniques, despite a need to focus on such methods. However, methodological limitations have not prevented researchers from observing similar findings across studies. First, cybercriminal communities serve as centers where participants seek collaborators and share cybercriminal assets such as hacking tools, malware, tutorials, and more [4, 27]. Thus, cybercriminal communities can provide researchers with data directly relevant to identifying emerging cyber threats and evolving cybercriminal techniques. Second, cybercriminal community participants vary widely in skill and knowledge [17, 37]. Some expert participants exist, but many cybercriminal community members possess little skill and provide little value to researchers and practitioners wanting to identify credible, emerging threats. In order to advance current cybersecurity capabilities, effort is needed in the area of accurate and quick extraction of the most credible cybercriminals and threats. Lastly, cybercriminal communities are known to exist across various geopolitical regions, and are especially common in the United States, China, Russia, and the Middle East [4, 25]. Development of new research methods in this space can potentially be applied to cybercriminal communities on a global scale.
+
+Cybercriminal Internet Relay Chat Communities Many cybercriminals congregate within various IRC communities [5, 25, 26]. IRC can support real-time chat among thousands of users simultaneously. It has traditionally been used for legitimate purposes, such as providing discussion and technical support groups for Linux distributions, but it has seen adoption by cybercriminals over time [18, 29]. To use
+
+486
+
+Table 1. A Summary of Recent Cybercriminal Community Studies Research
+Cybercriminal black markets Cybercriminal black markets Cybercriminal black markets Manual qualitative analysis of Russian cybercriminal forum postings
+
+Previous studies
+
+Data sources
+
+Analytical methods
+
+Findings
+
+Holt [14]
+
+Forums
+
+Yip [37]
+
+Forums
+
+Martin [23]
+
+Forums
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Benjamin and Chen [8]
+
+Forums
+
+Reputation in Cybercriminal Forums Cybercriminal social networks Cybercriminal skill in global hacking community General exploration
+
+Holt et al. [17]
+
+Forums
+
+Holt and Kilger [15]
+
+Forums and other cybercriminal web pages
+
+Motoyama et al. [25]
+
+Forums and IRC
+
+Price, customer service, and trust influence relationships between black market actors Combination of manual analysis and Underground trading facilitated by network analysis of two cybercriminal social networking, reputation, carding forums and quality control Manual analysis of the Silk Road Silk Road and similar cryptomarket and forums cryptomarkets will assume greater share of global trade of illicit drugs Content and network analysis to assess Contributions to the cognitive how cybercriminals gain reputation advancement of a community among peers lead to reputation gains among cybercriminals Manual qualitative analysis of Russian Cybercriminals practice a cybercriminal forum postings meritocratic culture, majority of participants are unskilled Manual qualitative analysis of contents and Global distribution of skill among networks found within cybercriminal cybercriminals is similar; few forums and other cybercriminal-related top-skilled cybercriminals, most web pages are unskilled Manual content analysis, some network General descriptions of analyses cybercriminal interactions in forums and IRC, existence of meritocratic structure
+
+Yip [36]
+
+Forums
+
+Manual analysis of two carding forums
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+Fallman et al. [10]
+
+Forums and IRC
+
+Cybercriminal black markets Cybercriminal black markets
+
+Underground trading facilitated by reputation and trust Implementation of collection system to Present usage statistics of gather information and measure usage of cybercriminal black markets, underground economies in cybercriminal describe collection system forums and IRC
+
+487
+
+488
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Figure 2. Internet Relay Chat (IRC) System Architecture
+
+this platform, an IRC-specific software client is needed to connect to existing IRC networks. Within an IRC network, several chat channels are open for users to freely join and participate within. Any messages that are posted by users are instantly broadcast to all other connected participants. This differs from forums, where individuals browsing messages may only do so by viewing one forum thread at a time. The broadcast nature of IRC ensures that all participants receive every single contributed message, while forum users will see messages only within threads they view manually. Figure 2 provides a visual summary of this architecture. IRC contains many unique features that make it a worthwhile platform to study. First, many traditional virtual communities, such as web forums, are divided into several subcategories that guide focused discussion. IRC generally lacks such subcategories, and instead has more of a free-flowing conversation. This leads to cybercriminals discussing a wider variety of topics within IRC, some of which may potentially not be discussed within specialized forums. Second, some virtual communities act as natural archives of data, where threads and posts are stored and can be easily accessed years later. Conversely, IRC contents must be collected in real time and are not normally archived anywhere for later retrieval. Any message posted within an IRC channel is broadcast to all connected users, and those not present have no way to retrieve the message later; this is an inherent design characteristic of the IRC architecture. This difference also impacts data source identification, as archived forum data can be indexed by search engines, while IRC channel contents cannot be. Lastly, the purpose of IRC is to support real-time chat, and thus it is not uncommon to see hundreds or thousands of short (i.e., one to two sentences) messages per day among participants [5, 18]. Thus, IRC experiences vastly greater message volume and supports more fluid discourse among participants when compared to other forms of virtual communities (e.g., forums).
+
+Example Cybercriminal IRC Contents We show an example of a cybercriminal IRC in Figure 3. In this example, we view IRC participants within the channel #Anonops on irc.anonops.org server. The
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+489
+
+Figure 3. Example of Internet Relay Chat Channel Activity and Contents
+
+#Anonops channel is considered one of the primary hacker IRC channels affiliated with the Anonymous hacking group. Here we witness one participant broadcasting a message that asks if any other participants have the URL to the underground black market Silk Road, which was temporarily taken offline by authorities in October 2013. Another IRC participant responds with a “.onion” link, a type of deep web address, which leads to the Silk Road forum and new website. Another example from the #Anonops channel includes discussion of a hacktivist campaign and denial of service attacks. #Anonops members organized a hacktivist operation called #Optestet, which blames and targets the French Ministry of Defense for causing environmental damage and for causing the death of a young environmentalist protestor. In particular, hackers involved with the campaign attempt to recruit other individuals and have even posted a recruitment video on YouTube (Figure 4). Many other communities exist besides #Anonops. The #Evilzone channel is the primary channel used on the Evilzone IRC network, a self-proclaimed hacking and security community. While the #Evilzone community is not as large as #Anonops, there exist unique discussions occurring with the #Evilzone channel that warrant deeper inspection. In particular, the #Evilzone community appears to host discussions concerning the identification and exploitation of vulnerabilities related to near-field communication (NFC) technology used in development in products such as RFID-enabled credit cards, automobiles, mobile phones, and more. In particular, we have observed #Evilzone participants discussing deep technical details of how to conduct attacks against NFC devices, including suggestions of tools and tutorials. Figure 5 includes a video tutorial of how to use a $300 tool to conduct NFC cracking against vulnerable systems. This video was shared among the #Evilzone community. In the video, the automobile seemingly has all of its electrical systems and ignition powered on by simply using the NFC interception device to emulate a legitimate wireless key. It is suggested
+
+490
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Figure 4. Recruitment Video for #Optestet Environmental Hacktivist Campaign
+
+Figure 5. Video Tutorial Shared in #Evilzone That Depicts Car Hijacking Using an NFC Interception Tool
+
+by the IRC participants that the same technique could be used to record and replay any RFID signals, leading to exploits such as fraudulent credit card charges. Overall, the #Evilzone community appears to host some individuals knowledgeable in NFC cracking and other cybercrime techniques.
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+491
+
+As observed previously in Table 1, the majority of the current cybercriminal community research experiments with forum data rather than IRC channel data. This may be due to easier accessibility of web-page-based forums than IRC channels requiring connection through a specific IRC client. Further, due to the lack of data archiving in IRC, search engines do not index IRC contents. Thus, researchers attempting to identify cybercriminal communities for study are more likely to come across cybercriminal forums than IRC channels. Nonetheless, the importance of IRC is evidenced by the real-world apprehension of cybercriminals [29]. More research is necessary on IRC-based cybercriminal communities.
+
+IRC Identification and Collection Techniques At the start of every cybercriminal community exploration, data sources must be identified and collected. There appear to be a few dominant methods used in past studies to identify cybercriminal communities. First, some researchers simply refer to third parties for information [25]. Some security-related organizations or experts may be helpful in identifying cybercriminal communities. Second, some researchers conduct keyword searches in attempts to find forums on their own [10, 16]. This approach is useful for identifying contents indexed by search engines, but will miss contents within IRC channels and deep web hidden services. Lastly, snowball sampling is incredibly fruitful in producing results, including those not indexed by common search engines [16]. A snowball sampling procedure consists of scrutinizing known cybercriminal communities for hyperlinks and references to other potential communities or hidden services. This procedure is one of the few reliable methods to identify unindexed data. After successful cybercriminal community identification, data can be collected through various means. As Table 1 shows, forum communities have often been collected manually. A computational approach can also be adopted by making use of automated crawlers to collect contents from web-page-based communities. For IRC contents, specialized listener programs can be developed to use the IRC protocol and sit in on known cybercriminal IRC channels [5, 16]. The listener programs can passively log all data transmitted between channel participants. After data are collected, they can be processed and analyzed. As Table 1 shows, the majority of existing studies make use of manual qualitative techniques or metricbased approaches for analyzing cybercriminal community contents. Research using more traditional virtual community data is useful for identifying analyses for conducting research on cybercriminals.
+
+Virtual Community Analysis Techniques
+With the advent of Web 2.0, researchers became interested in closely examining the behaviors of individuals in social media. The result is numerous studies that investigate the relationships between different virtual community participation
+
+492
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+behaviors, and thus may be useful for helping guide the formulation of a research design to study cybercriminal communities. In particular, we review a sample of literature from this research stream that may be helpful for providing methodology to ultimately conduct analyses of cybercriminal IRC contents. Virtual community research methodology generally revolves around network and content analyses. Network analyses can be used to understand group structure and participant interactions. Content analysis is useful to understand conversations among participants. Such methods are often automated or semiautomated for conducting statistical analyses over large data sets [1, 3]. Through automation, it is more feasible to scale analysis across multiple virtual communities, to account for temporal data, and perform other forms of analysis. Automated network analyses are generally operationalized by capturing and measuring interaction among virtual community participants. In many cases, interaction can include participants directly messaging each other, posting in the same forum thread, or becoming “friends” in a social network [39]. Capturing ties is helpful for understanding community structure, identifying relationships between community participants, and identifying key individuals. In the context of IRC, previous researchers have successfully built network ties based on direct addressing among users [30]. Specifically, messages transmitted in IRC channels are broadcast to all channel participants, and thus a common etiquette was developed for channel participants to explicitly mention each other ’s names in direct addresses. In addition, networks evolve; tenure within a community can impact interaction with other participants [4]. Individuals who remain active in a community may begin to be seen as more trustworthy or knowledgeable by other participants, which may drive more interaction. For content analyses, researchers often rely on methodologies rooted in statistics and natural language processing to understand discussions in virtual communities [12]. The most basic analysis methods include keyword counts, message volume calculation, and message length metrics. More advanced analyses include the use of machine learning classifiers to perform topic detection and categorization of virtual community contents [22]. A combination of these techniques can be used to assemble a profile on the types of discussions that virtual community participants engage in. For example, such techniques can be used to detect how often a cybercriminal IRC participant discusses a particular type of cyber attack. By applying content and network analyses to cybercriminal IRC data, we can extract characteristics for each participant, such as social interaction patterns with other cybercriminals, types of content posted, participation frequency, and more. In a sense, a profile is developed for each cybercriminal IRC participant. The profiles of long-term participating and key cybercriminals can then be evaluated and compared against less interesting participants in order to gain better understanding of which characteristics are unique to key cybercriminals. In addition, network and content analyses can be enhanced when combined with a technique that enables temporal analysis of data. By accounting for time, network analyses can be extended to investigate how a cybercriminal’s interactions with other
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+493
+
+IRC participants changes over time. For example, we can observe whether a cybercriminal becomes more embedded within the community over time by evaluating his/her interaction patterns. Similarly, content analyses can provide new insights when incorporating the time, such as evaluating whether a cybercriminal’s posting frequency increases or decreases over time. This type of analysis can help us determine between whether a particular cybercriminal is a key participant, or if simply someone with passing interest who posts less over time. A branch of statistics referred to as duration modeling can help with such analyses.
+
+Duration Modeling
+Duration modeling, also known as “survival analysis” and “event history model,” is useful for modeling data that involve prediction of an event at a given point in time [35]. In other words, the dependent variable in the model is duration or the time it takes for an event to happen, and it can be used to understand why a specific event occurs relative to time and other researcher-defined variables. It was used traditionally in the medical and health domains for multiple modeling problems of interest, for example, predicting when patient hospitalization might occur given age, weight, and smoking habits [21]. Duration modeling is also popular in economic and social science contexts, where it has helped produce helpful findings that described virtual community participation behaviors in contexts such as online health support groups and the volunteering habits of Wikipedia editors [33, 39]. A few features are necessary for operationalizing duration modeling. First, the time variable must be defined, which consists of the length of time until an event occurs (or the time between two events in recurrent event modeling). Next, the event variable must be defined, which means to code for whether an event happens for a particular record of data (e.g., patient experiences hospitalization in a longitudinal study on patient hospitalization rates). Some techniques for durational modeling can account for multiple different event variables, or multiple events of the same type for one record. Lastly, another important variable in duration modeling is the censor variable, or whether a record of data drops out of the sample without the event occurring (e.g., a patient who experiences no side effects for the entire duration of a clinical trial for a new pharmaceutical). To help operationalize duration modeling, we review two of the most widely used event modeling techniques. Each of the two techniques provides slightly different outputs and insights, but they can be paired effectively to develop deeper understanding of a given data set. The first technique, the Kaplan–Meier model, is useful for developing an overall perspective of how a modeled event occurs over time to observed records [6, 38]. The second technique is the Cox’s proportional hazards model, which is useful for going deeper and understanding what covariates can positively or negatively influence the probability of an event occurring to a particular record [20, 33, 35].
+
+494
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Kaplan–Meier The Kaplan–Meier model is most often used to calculate the “survival function” of records. That is, the Kaplan–Meier model is a decreasing step function useful for producing descriptive information about the average length of time a given record in the data will exist (i.e., “survive”) without experiencing the defined event variable. In the context of cybercriminal community participation, we can understand how long the typical member participates and what the likelihood is that they will stop participating at different time points.
+
+Cox’s Proportional Hazards Model However, while the Kaplan–Meier estimator helps formulate generalized perspectives about data, it fails to describe underlying features that would explain the survival function’s shape. The Kaplan–Meier estimator can help predict how long it takes for an event to occur on average, but does not provide an explanation as to why. Instead, the Cox proportional hazards model is useful as it helps provide an explanation by scrutinizing the relationship of any number of covariates and the event variable. The model is used within a regression framework in order to evaluate the effect of various independent, explanatory variables and hazard [7]. In other words, while the Kaplan–Meier is useful for exploration, the Cox model helps develop a deeper understanding. Specifically the Cox model will tell us what specific features positively and negatively affect event occurrence, providing some explanatory power to duration modeling. In the context of cybercriminal community research, it may help explain which cybercriminal behaviors might affect participation activity.
+
+Extended Models Traditional duration modeling is limited to capturing the occurrence of a given event only once per record. If one wants to track multiple events variables per record, the standard Kaplan–Meier and Cox models are insufficient. For example, tracking multiple participation events per individual within a virtual community is not possible under the standard models. More recent work has expanded both the Kaplan–Meier estimator and the Cox proportional hazards model to handle recurrent events. For the Kaplan–Meier, the Wang–Chang estimator is an extension that can handle multiple event variables per record [32]. Similarly, there exist extensions of the standard Cox model. For example, one extension allows the Cox model to be used for modeling the effect of covariates on survival at multiple discrete points [19]. Further, another extension allows the Cox model to handle recurrent events per subject by manipulating the input covariate matrix [34, 35]. By combining these variations, an extended Cox’s model can be used to handle multiple distinct records per subject, across multiple time spells.
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+495
+
+Both the Kaplan–Meier and Cox models are important tools for modeling virtual community participation data, as noted by previous work [38]. Each can present a unique perspective for understanding how participation occurs within cybercriminal communities. In particular, Cox’s model helps provide some explanatory power concerning which covariates (e.g., extracted features from IRC data) influence participation. Overall, duration modeling would provide great value when incorporated in researching investing cybercriminal community data.
+
+Research Gaps and Questions
+Based on our literature review, it appears that cybercriminal IRC communities can provide valuable information to security researchers and analysts concerning emerging security threats and cybercriminal behaviors. However, one of the largest problems with current research is that there is a lack of methods to quickly identify key cybercriminal community participants from other less interesting individuals who may possess only passing interest. In addition, key individuals are a more credible source of data regarding emerging threats and cybercriminal trends. For this reason, we are motivated to develop a computational method for identifying potential cyber adversaries and prominent cybercriminal community members within IRC communities. We operationalize this research by examining networks between cybercriminals and the contents they share, and by measuring such behaviors with overall participation length. Participation length and seniority can be an indicator of how credible a particular cybercriminal is [17]. This method would be valuable for aiding researchers and practitioners in quickly identifying credible data sources within cybercriminal communities. We posit a series of questions related to our research goals. How can key cybercriminal identification be operationalized in a scalable fashion? Which cybercriminal network and content characteristics may be important indicators useful for differentiating between key cybercriminals and those with passing interest? How do we study cybercriminal IRC data through a temporal perspective?
+
+Research Design
+A summary of our research design can be viewed in Figure 6. Similar to previous cybercriminal community research, we use keyword searches to identify potential cybercriminal IRC channels. Two queries we used include “carding IRC” and “blackhat IRC.” We examine cybercriminal forums that we discovered in prior work for links or mentions of existing cybercriminal IRC [4]. After manually identifying a set of IRC networks, we join each network and issue an IRC “/list” command. The “/list” command returns a set of all active IRC channels within a particular network, including each channel’s name and the number of active participants per channel. We use this feature to assess the activity level of a given IRC community, as well as to check which channels are the most populated.
+
+496
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Figure 6. Research Design
+
+When we identify an active cybercriminal IRC channel, we deploy automated IRC listening programs to the identified IRC channels. The IRC listening programs are viewed as normal clients by the IRC network, but the programs are designed to passively log all IRC channel contents. Each IRC listening program connects to only one IRC network, but can connect to multiple channels simultaneously within each network. Since the nature of IRC necessitates that data be collected in real time, we deployed multiple listeners using different IP addresses to the same IRC in order to ensure collection and to avoid gaps in data collection in case we experience dropped connections, bans, and so on. Since each IRC listening program is viewed as a normal client by the network, they must be assigned IRC nicknames; we change listener program nicknames upon every reconnection to help avoid removal from the channel due to long-term idling and to reduce suspicions of collection behavior. This is consistent with IRC collection strategies outlined in prior work [14]. The listener programs passively sat within IRC channels and did not transmit any messages or attempt interaction with any other channel participants. This type of “lurker” behavior is common in IRC as many participants remain connected when idling, and thus IRC users have no expectations that all connected users will be active in channel discussions. IRC data collection and analysis operations can be executed easily on any modern computer. As IRC is completely plaintext, it has low bandwidth and processing requirements; hundreds of IRC channels could be collected simultaneously on one machine. Further, Internet traffic generated by our chat listening programs is routed through the Tor peer-to-peer anonymity network and other proxy servers to hide researcher identity and university affiliation. Specifically, whenever an individual or listener program accesses cybercriminal IRC servers, the server will generate log files revealing IP addresses that are connected to the server. Thus, the origin IP address of researchers can be exposed, resulting in a significant security risk. Fortunately, proxy servers and anonymity networks can be used to reroute researcher web traffic through external connections, effectively concealing the identity of researcher machines from hacker forum servers. The Tor network is a peer-to-peer Internet traffic routing service with specific intentions to anonymize network packets generated by users. Internet packets that enter the Tor network are relayed to three or more volunteering peers that establish a circuit between the original sender and destination
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+497
+
+Table 2. Collection Summary Network
+irc.anonops.org irc.evilzone.org
+
+Channel
+#anonops #evilzone
+
+# of users
+5,311 1,059
+
+# of messages
+314,039 149,031
+
+Start date
+11/30/13 11/30/13
+
+End date
+10/31/14 10/31/14
+
+of the packet. Through this method, the IP address and details of the original sender are never relayed to the destination computer. Thus, we are able to use this service to anonymize the traffic we generate when connecting to cybercriminal communities. In some cases where servers belonging to the Tor network are blacklisted by a cybercriminal community, we route traffic through our own virtual private servers to conceal the origin of our network traffic. Making use of various cloud providers and data centers ensures that we use IP addresses from unique subnets. We observed captured data and selected our two largest IRC channels for this exploration, which can be viewed in Table 2. The two channels are largest in terms of both message volume and collection length. The #Anonops channel is part of the Anonymous hacking group’s community infrastructure. The #Evilzone community is another prominent hacking IRC channel we identified that at times possesses hundreds of participants simultaneously. To develop a preliminary understanding of cybercriminal IRC contents, we performed some simple content analyses based on keyword frequencies. Prior research highlights many technical and hacking terms discussed in cybercriminal forums [5]. For example, “trojan horse” and “keylogger” are two hacking terms of particular interest. We first computed the term frequency of each keyword used in prior works across our IRC collection. This provided us with a summary of how many times each keyword was used by cybercriminal IRC participants, helping us to identify the relevance of discussion toward hacking-related topics. This type of ranking is useful as it can provide a quick summary of overall conversation occurring within cybercriminal IRC communities. In addition, we tried to calculate the overall document frequency that each keyword appears in. This would provide us with information on how many distinct messages a keyword appears in, and not just overall frequency. However, IRC messages in our data set are typically short in length and rarely contain the same keyword more than once per message, thus resulting in term frequency and document frequency that have similar values. Instead of document frequency, we found it more helpful to compute the number of different IRC participants who discuss each keyword. This provides us with some information on how extensively a keyword was discussed among all users. Overall, we found a substantial amount of content relevant to cyber security and emerging threats. We showcase highly relevant examples in the results and discussion section of this study. After IRC data were logged and the relevance of collected contents were verified, data were preprocessed for further analysis with duration modeling. Specifically, we had to split our data into distinct time spells, and then extract data per individual participant for each time spell. We collected about eleven months of data for both
+
+498
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+IRC channels, and created two-week time spells for a total of twenty-five time spells. We did not find literature that helped in suggesting a size for our time spells, and thus we experimented with a few different experiment configurations regarding time-spell size. We chose two-week intervals as they seemed to provide an appropriate level of granularity to assess changes in participation activity over time. Within the context of this study, we consider only participants who appear within the first time spell. For example, if a new cybercriminal joins an IRC community within the second time spell, we do not include him/her in our analysis observing survival rates among cybercriminal IRC participants. However, we do still consider communications between participants featured in time spell 1 and those who joined after. We do this because we are interested in measuring network features of all participants featured in time spell 1, including those with new members. The IRC channels we observe possess no mechanism that excludes new members from interacting with more long-term participants, and thus all communications are relevant for identifying potential key members. Furthermore, if an individual participant becomes inactive only to reappear in a later time spell, we do not once again consider this participant as part of the surviving population. This is because we are primarily interested in observing features correlated with constant long-term participation. It is possible a cybercriminal may switch user names in the middle of the data collection period, but we do not control for this. Next, features had to be extracted for each participant in each time spell, including the event variable, censor variable, network features, and text content features. We defined the event variable as participation; it is measured by checking whether a participant posted at least once during the length of an observed time spell. Since we modeled recurrent events, we could assign a new event variable per time spell for each individual. Further, as the recurrent event we were tracking was participation, we did not consider an explicit censor variable as traditional duration models might contain. Instead, we assumed right-censoring of data for all individuals in our analysis; that is, we did not assign a censor variable to subjects within the duration of the study, but rather we assumed the censor variable would apply to all subjects at the end of the last time spell. This form of censoring was considered normal practice in recurrent event duration analysis [31]. We then extracted our network- and content-based features per individual per time spell. A summary of these time-variant features can be found in Table 3. To identify features for use as covariates for our Cox model, we scrutinized previous cybercriminal and virtual community studies. However, as we are focusing on IRC data, features identified from past works must be considered for their suitability within the IRC context. Overall, we identified a subset of both networkand content-based features that allow us to capture a complete picture of each participant’s activities within the #Anonops and #Evilzone communities. Concerning network features, past IRC research has used direct addressing between community participants in order to model network ties [12, 30]. Similar to past work, we considered both the total number of direct addresses and the number of different distinct ties among participants to capture how each participant interacts with his or her peers. Due to the plaintext nature of IRC chat, direct addressing appears to be the only way to
+
+Table 3. Extract Network- and Content-based Features Model designation Feature justification
+DirectAddressOut
+
+Category
+
+Feature
+
+Source
+Garas et al. [12] Sinha and Rajasingh [30]
+
+Network features
+
+Total direct addresses
+
+Garas et al. [12]; Sinha and Rajasingh [30] Garas et al. [12]; Sinha and Rajasingh [30]
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+Direct addressing is common in IRC channels and is an indicator of network ties. Individuals who commonly directly address others may feel interconnected and participate often. Total times DirectAddressIn Similarly, being addressed directly may increase addressed feelings of interconnectedness within a network and directly lead to increased participation. Total different UniqueAddressOut We also consider the total number of unique individuals individuals addressed, helping measure the total social directly interconnectedness of each participant in our addressed channel. Total times directly UniqueAddressIn The total number of times directly addressed by addressed by different individuals indicates the in-degree of social different interconnectedness, which may lead to increased individuals participation. Days participated DaysParticipated Number of days spent participating in community.
+
+Garas et al. [12]; Sinha and Rajasingh [30]
+
+Radianti [27]; Motoyama et al. [25] (continues)
+
+499
+
+500
+
+Table 3. Continued
+
+Category
+MsgVolume HackMsgs
+
+Feature
+
+Model designation Feature justification
+
+Source
+Motoyama et al. [25]; Benjamn and Chen [4] Holt and Lampke [16]; Benjamn and Chen [4]
+
+Text content features
+
+Total message volume Total number of hacking messages TechMsgs
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Holt and Lampke [16]; Benjamn and Chen [4] Radianti et al., [33]; Holt and Kilger [15] Radianti [27]; Benjamin and Chen [4]
+
+MarketMsgs
+
+Total number of technical messages Total number of black market messages Hyperlinks shared Hyperlinks
+
+Deep web hidden services shared
+
+HiddenServices
+
+Message volume is a commonly used indicator of participation rate, especially in the IRC context. Demonstrates hacking proficiency, which may indicate increased participation; Examples: Rootkit, CrossScripting Attack, SQL Injection, Denial of Service, shellcode. Demonstrates technical proficiency, which may indicate increased participation; Examples: SQL, C++, ASM, .Net, XML. Demonstrates market activity, perhaps indicating increased participation for black market purposes Examples: Bitcoin, E-Gold, WebMoney. Sharing of cybercriminal or technical resources, knowledge, or other information pertinent to community participants. May indicate greater investment of time and participation. Sharing of deep web hidden services, pertinent to community participants. May indicate greater investment of time and participation.
+
+Martin [23]
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+501
+
+capture ties between participants with a high degree of certainty. In addition, we captured the number of days each cybercriminal spent participating within the community, as seniority appears to be a notable characteristic of cybercriminals observed in prior studies [25, 27]. We measure tenure by keeping an incremental count of the total number of time spells a cybercriminal is active for. We omitted certain network features that many previous studies make use of, such as centrality measures like betweenness centrality and closeness centrality. We did not consider centrality measures suitable in our context as they are often used to abstract and understand how information can flow throughout a given network, rather than to model the explicit interaction activity between network nodes [11]. This form of modeling information flow was not helpful in the IRC context, as each participant message was broadcasted to all other users regardless of intended recipients. Thus, centrality measures became less informative than observing direct addressing among IRC participants. Concerning content features, the literature indicates that key cybercriminal community participants often contribute to the cognitive advancement of their community [16]. Such behavior includes sharing hacking tools, malicious source code, tutorials, malware, stolen data, and so forth. Cybercriminals contribute knowledge through frequent discussion of relevant topics without explicitly sharing external resources such as aforementioned hacking assets. Overall, these assets can be used for education on general topics or for malicious attacks. Should cybercriminals gain insight into systems and applications in an organization, they can identify vulnerabilities and potentially exploit them with assets found in IRC. For example, in Figure 7, we showcase a stolen data asset found in the #Anonops community. The stolen data asset is a product of the hacktivist campaign #OperationGreenRights, and it contains the account names and passwords for multiple e-mail addresses belonging to various victim organizations. A cybercriminal IRC participant could make use of such assets to conduct their own crime, motivated either by financial or political reasons.
+
+Figure 7. #OperationGreenRights Leaked E-mail and Password List
+
+502
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+Given the plaintext nature of IRC, it is not possible to embed images or attach files to messages. Instead, hyperlinks to external resources are the only way IRC participants can share resources with one another. Normal hyperlinks and hyperlinks to hidden services (for example, a “.onion” link to the Silk Road black market) may be shared to fulfill this need. Thus, we included counts of both normal hyperlinks and hyperlinks to “.onion” hidden services as measures to assess how much different participants contribute to their community. Beyond sharing assets through hyperlinks, cybercriminals may contribute to their community by participating in relevant discussions and passing along knowledge and relevant information to their peers. In particular, past research has identified some common topic categories that appear important and popular across multiple cybercriminal communities. First, much discussion revolves around sharing information hacking techniques [16, 37]. This includes discussion of exploits, malware, cryptology, and other cybercriminal behaviors. Another one of the major topic categories identified in the literature is a more general discussion about technology [4]. Conversations on this theme include discussing programming languages, operating systems, network technologies, and more within a nonhacking context. The last major topic category referenced by past research involves electronic black markets [15, 25, 27]. Overall, frequent participation in discussions of relevant themes may be indicative of more key participants. Regular contributions in these topic categories may lead individuals to interact with other interesting, key cybercriminals, which could potentially feed back into more active participation. For these reasons, it may be useful to develop features that represent how often each cybercriminal participates in discussions of relevant topic categories. Specifically, we observe the quantity of messages a participant contributes that are related to hacking, general technology, and the black market. As noted previously, machine learning classification is often useful for automatic topic categorization tasks, including categorization of virtual community data. To perform text classification for categorizing messages based on their relevance to hacking, technical, or black market topics, we must first train the classifier as stated in previous research [1, 2]. Training requires manual coding of messages based on their topic for the classifier to learn from. We defined four classes for categorizing IRC messages: hacking messages, technical messages, black market messages, and a general chatter category that can capture messages that are not relevant to the other classes. In order to select messages for manual coding, 500 messages containing keywords of interest were extracted through the following process. We first manually constructed three separate dictionaries containing 100 keywords related to hacking, technical, and black market discussion, respectively. Keywords used to construct the dictionaries were extracted from cyber-security literature and suggested by peers in the cyber-security community. Next, 500 messages containing words from these three dictionaries were extracted, with the intention of manually vetting extracted messages and categorizing them into classifier training data. The 500 messages were manually categorized into the hacking message, technical message, and black market
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+503
+
+Table 4. SVM Classification Evaluation Summary SVM evaluation summary Number of terms
+Hacking terms Technical terms Black market terms 22 21 7
+
+Precision, %
+100 91.30 100
+
+Recall, %
+90.91 100 100
+
+F1 score, %
+95.24 95.45 100
+
+message classes by two coders, with interrater reliability of 98.2 percent (492/500 messages). The coders then use the 500 messages to construct 150 message training sets for each of the three relevant machine learning classes. To construct training data for the general chatter class, 150 messages that do not contain any of the predefined keywords within dictionaries are randomly selected from the rest of the data set. This process thus results in using 450 messages of the total 500 coded for constructing training data, with each class containing 125 messages to be trained upon. The remaining 50 coded messages not used to construct training data can be used to test and evaluate our support vector machine (SVM). We provide summary results of our evaluation in Table 4. The 50 messages were classified into different categories and assessed for their correctness. Note that the 50 messages come from our pool of 500 messages with keywords; thus, we do not test any general chatter class messages. The rest of the participant messages were then categorized using the trained classifier. We made use of an SVM classifier with a linear kernel, as this configuration has frequently been successfully adopted in prior topic classification studies using virtual community data [22]. We then used the trained classifier to categorize messages of each participant per time period to gather topic feature counts. These counts are useful for our duration model. To conduct duration modeling, we make use of Cox’s proportional hazard model. The Cox model allows us to measure the effect of our explanatory variables in a statistically grounded test. To interpret a Cox model, we examined coefficients for each feature, much like a regression. However, the interpretation of Cox’s model results is somewhat unique; with Cox’s model, the presence of positive variable coefficients indicates that a particular variable contributes toward experiencing the modeled event variable in a shorter average duration than normal. Conversely, a negative coefficient indicates that a feature would promote a cybercriminal to participate within IRC communities for a longer amount of time than normal. Cox’s model would help us identify behavior differences among users that would result in different degrees of participation. After features were extracted per participant, we organized our data into a matrix for use with the Wang–Chang Kaplan–Meier and Cox models. All modeling work performed in R using the Survrec package for Wang–Chang Kaplan–Meier estimate and the Survival package for the extended Cox model with recurrent events. We
+
+504
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+performed a two-step analysis using the two models. First, we executed the extended Wang–Chang Kaplan–Meier model to gain a generalized perspective of the IRC channel population’s survival curve. This model helps provide the “big picture” on event occurrence over time within our observed IRC channels. Next, we used the extended Cox’s proportional hazards model to test the explanatory power of the various extracted content and network features. The Cox model would help us identify behavior differences among participant behaviors that would result in different magnitudes of participation.
+
+Results and Discussion
+We first performed the Wang–Chang Kaplan–Meier model to develop a high-level perspective of our data set [32]. Through the Wang–Chang estimator, we produced a matrix containing information on hazard and survival rates per time spell. An example of this matrix can be viewed in Table 5. When values from the resulting matrix were plotted, we were presented with a decreasing step-function that visualizes cybercriminal “survival,” or participation over time for the IRC channels (Figure 8). For the #Anonops community, we observe that 60 percent of our participants continue their participation after time spell 1, while only about 15 percent continue until time spell 25. One could deduce that the 15 percent of users who participate for almost a full year are the most ingrained within the hacking community. These users are likely to become potential cyber adversaries or community members with prominent roles [25, 27]. For #Evilzone, a greater number of participants appear active up until the end of our recorded data (about 20 percent). It may be that the #Anonops community is more popular since it has received media coverage, thus leading to more curious visitors with passing interest who do not remain participate in the community for very long. Some data supporting this conclusion reveal that the total average messages per participant is 140 messages in #Evilzone, but only 59 messages in #Anonops. After exploring our data with the Wang–Chang Kaplan–Meier estimate and producing a better understanding of the IRC channel’s survival curve, we aimed to further our understanding of which explanatory variables significantly affect survival over time. To do this, we made use of Cox’s proportional hazard model to measure the effect of our explanatory variables in a statistically grounded test. Our results using an extended Cox model with recurrent events for both the #Anonops and #Evilzone community are presented in Table 6. Table 5. Example Output of Wang–Chang Kaplan–Meier Survival Curve Matrix for the #Anonops Community Time period
+0 1 ... 22
+
+Survival rate
+0.5939 0.4699 ... 0.0736
+
+Std. error
+0.1279 0.0130 ... 0.0084
+
+Lower 95% CI
+0.5694 0.4451 ... 0.582
+
+Upper 95% CI
+0.6195 0.4961 ... 0.932
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+505
+
+Figure 8. Wang–Chang Kaplan–Meier Estimates with 95 Percent Confidence Bounds
+
+Table 6. Results of Extended Cox Model with Recurrent Events for #Anonops and #Evilzone #Anonops (n = 2,195) Feature
+MsgVolume HackMsgs TechMsgs MarketMsgs Hyperlinks HiddenServices DirectAddressOut DirectAddressIn UniqueAddressOut UniqueAddressIn DaysParticipated
+
+#Evilzone (n = 517) Coefficient
+–0.00004 0.01913 –0.00626 0.04713 –0.00002 –0.07220 0.00077 0.0005 –0.02985 –0.01092 –0.00645
+
+Coefficient
+0.0005 0.0043 –0.0106 0.0049 0.0018 –0.0043 –0.0003 0.00001 –0.0164 –0.0005 0.0045
+
+P-value
+0.356 0.813 0.493 0.147 0.419 0.905 0.815 0.180 0.0001** 0.022* 0.818
+
+P-Value
+0.895 0.232 0.552 0.527 0.998 0.836 0.575 0.131 0.00342** 0.0472* 0.561
+
+**Significant at the 0.01 level; *significant at the 0.05 level; #Anonops R2 = 0.219, #Evilzone R2 = 0.265.
+
+506
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+After observing the results of our model, it appears that only a small subset of covariates were helpful predictors of cybercriminal participation within IRC. For network features, both distinct in-degree and out-degree ties were significant. Participants who create many distinct ties are characterized by longer periods of active participation. It may be that such individuals are increasing their social interconnectedness by taking the time to engage numerous individuals in conversations, and thus increasing their length of stay in the cybercriminal IRC communities. To our surprise, no content features were found to be significant. We have performed robustness checks to confirm our results, and have manually scrutinized data to better understand this phenomenon. Checks included adding and removing regressors to observe changes in significant variables, and also grouping variables in the case of our term-based content features. It is plausible that many individuals with fleeting interest might focus on discussing technical or hacking-related topics upon joining a cybercriminal IRC channel, but then fail to become active for any significant length of time. Thus, simply talking about cybercrime, black markets, and related technical concepts is not necessarily exclusive to those who are longterm participants or key members of their community. Further, in the case of market transactions, there appears to be no “honor among thieves”—that is, we see instances where some cybercriminal IRC participants attempt to steal from others through fraudulent trades or by providing false information. These reasons could contribute to explaining why content features appear to be less important than network features in this context. The ability to quickly identify participants is crucial to security researchers and practitioners tasked with detection of emerging cyber threats. This capability can lead to better evaluation of threat credibility. While the results of our analysis appear simple, they provide a powerful capability of ways in which one can quickly highlight cybercriminal IRC participants who may be interesting to researchers and practitioners for closer examination. For example, one of the most highly networked individuals in our #Anonops data is a participant who goes by the username “Strudalz.” After manually scrutinizing messages broadcast by Studalz, we discovered they maintain a highly followed Twitter account used to spread propaganda and hacktivist recruitment advertisements (Figure 9). The Twitter account has nearly 1,500 followers and is used frequently to spread hacktivist propaganda and recruitment advertisements. Our investigation revealed that Strudalz appears to have been previously involved in DDoS attacks against China in support of Hong Kong protestors. The individual is a notable #Anonops community participant; their identification through analysis of participant networking features highlights the value of such methods. Network analyses have been conducted in many virtual community studies, but few have applied them to dark web communities. Overall, the techniques used and analysis results may be applicable to traditional IRC communities. However, there is value in applying these techniques to untraditional data sets, such as cybercriminal IRC. We have conducted an explanatory study, which contributes to a greater understanding of cybercriminals as well as to the science of cyber security.
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+507
+
+Figure 9. Twitter Account of #Anonops Participant “Strudalz”
+
+Conclusion and Future Research
+In this research, we attempt to explain differences in cybercriminal IRC participation activity based on participants’ behaviors. Specifically, we examine the contents posted by each individual IRC participant as well as the personal networks with which they communicate. Content features were extracted through a series of rule-based and machinelearning based methods. In particular, an SVM classifier was used to categorize participant messages for a number of content features; the SVM achieved F1 scores of 95–100 percent across classes. Network features are extracted by observing communication patterns and direct messaging between participants. By extracting user participation behaviors and incorporating them as covariates in duration modeling, we were able to measure the relationship between extracted covariates and participation. This provides us a method that enables deeper understanding of activity within cybercriminal IRC communities. Further, this can be used to quickly help identify the most long-term participating or key users within a community, filtering out noise generated from more benign users who may possess only passing interest. Our results reveal only network features to be significant. This makes sense insofar as IRC participants will quickly identify and communicate with community experts; we can piggyback such communication patterns to identify central and long-term participants. It appears that content features are less relevant in IRC, perhaps due to shorter individual message length. Further, keyword usage does not appear to be a reliable indicator of participant skill or expertise because newcomers and advanced cybercriminals tend to use similar terminology. We do not possess ground truth because we use real-world data from a live cybercriminal community; however, we manually verify results and provide anecdotal evidence.
+
+508
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+This research and future related work help contribute to our understanding of cybercriminal community participation behavior. With additional testing and model validation, cyber-security researchers and practitioners could use the results of this research to better predict the participation of cybercriminal IRC users and to quickly identify the most long-term and key participants in any given IRC channel. This can help us better identify credible cyber threats and better prepare cyber defenses. Future work can expand in multiple directions to extend this work. Additional cybercriminal IRC channels, or even forums, can be analyzed to observe participation trends across multiple cybercriminal communities. Examining IRC channels acting as hidden services and comparing them to more public channels may yield interesting results. Finally, incorporating cybercriminal communities from other geopolitical regions could help researchers draw new conclusions.
+
+Funding
+We would like to acknowledge that this work was funded by the National Science Foundation under Grant No. SES-1314631 and also under Grant No. DUE-1303362.
+
+REFERENCES
+1. Abbasi, A., and Chen, H. CyberGate: A design framework and system for text analysis of computer-mediated communication. MIS Quarterly, 32, 4 (2008), 811–837. 2. Abbasi, A.; Li, W.; Benjamin, V.; Hu, S.; and Chen, H. (2014). Descriptive analytics: investigating expert cybercriminals in web forums. Proceedings of the IEEE Joint Intelligence and Security Informatics Conference. The Hague, September 24–26, 2014, pp. 55–63. 3. Balahur, A.; Hermida, J.M.; Montoyo, A. Detecting implicit expressions of emotion in text: a comparative analysis. Decision Support Systems, 53, 4 (2010), 742–753. 4. Benjamin, V., and Chen, H. Securing cyberspace : Identifying key actors in cybercriminal communities. Proceedings of the IEEE Joint Intelligence and Security Informatics Conference. Washington, DC, June 11–14, 2012, pp. 24–29. 5. Benjamin, V., and Chen, H. Time-to-event modeling for predicting hacker IRC community participant trajectory. Proceedings of the IEEE Joint Intelligence and Security Informatics Conference. The Hague, September 24–26, 2014, pp. 25–32. 6. Bewick, V.; Cheek, L.; and Ball, J. Statistics review 12: Survival analysis. Critical Care, 8, 5 (2004), 389–394. 7. Cox, D.R. Regression models and life-tables. Journal of the Royal Statistical Society. Series B (Methodological), 34, 2 (1972), 187–220. 8. Cremonini, M., and Nizovtsev, D. Risks and benefits of signaling information system characteristics to strategic attackers. Journal of Management Information Systems, 26, 3 (2009), 241–274. 9. Dey, D.; Atanu, L.; Guoying, Z. Hacker behavior, network effects, and the security software market. Journal of Management Information Systems, 29, 2 (2012), 77–108. 10. Fallman, H.; Wondracek, G.; and Platzer, C. Covertly probing underground economy marketplaces. Proceedings of the Seventh International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA). Bonn, July 8–9, 2010, pp. 101–110. 11. Freeman, L.C. Centrality in social networks conceptual clarification. Social Networks, 1, 3 (1979), 215–239. 12. Garas, A.; Garcia, D.; Skowron, M.; and Schweitzer, F. Emotional persistence in online chatting communities. Scientific Reports, 2 (2012), 1–34.
+
+HACKER PARTICIPATION LENGTH IN CYBERCRIMINAL CHAT COMMUNITIES
+
+509
+
+13. Goel, S. Cyberwarfare: Connecting the dots in cyber intelligence. Communications of the ACM, 54, 8 (2011), 132–140. 14. Holt, T.J. Examining the forces shaping cybercrime markets online. Social Science Computer Review, 31, 2 (2013), 165–177. 15. Holt, T.J., and Kilger, M. Know your enemy: The social dynamics of hacking. Honeynet Project (2012), 1–17. 16. Holt, T.J., and Lampke, E. Exploring stolen data markets online: products and market forces. Criminal Justice Studies: A Critical Journal of Crime, Law, and Society, 23, 1 (2010), 33–50. 17. Holt, T.J.; Strumsky, D.; Smirnova, O.; and Kilger, M. Examining the social networks of malware writers and cybercriminals. International Journal of Cyber Criminology, 6, 1 (2012), 891–903. 18. Jones, S. (Ed.). Internet Relay Chat. Encyclopedia of New Media: An Essential Reference to Communication and Technology. New York, NY: Sage, 2002, p. 257. 19. Kalbfleisch, J.D., and Prentice, R.L. The Statistical Analysis of Failure Time Data. 2nd ed. Hoboken, NJ: Wiley-Interscience, 2002. 20. Lee, G., and Santanam, R. Determinants of mobile apps’ success: evidence from the App Store market. Journal of Management Information Systems, 31, 2 (2014), 133–170. 21. Lin, Y.-K.; Chen, H.; Brown, R.A.; Li, S.-H.; and Yang, H.-J. Time-to-event predictive modeling for chronic conditions using electronic health records. IEEE Intelligent Systems, 29, 3 (2014), 14–20. 22. Liu, X., and Chen, H. AZDrugMiner: An information extraction system for mining patient-reported adverse drug events. In Zeng, D., Yang, C.C., Tseng, V.S., Xing, C., Chen, H., Wang, F.-Y., and Zheng, X. (Eds.), Smart Health. Berlin: Springer, 2013, pp. 134–150. 23. Martin, J. Lost on the Silk Road: Online drug distribution and the “cryptomarket.” Criminology and Criminal Justice, 14, 3 (2013), 351–367. 24. Mahmood, A.M.; Siponen, M.; Straub, D.; Rao, H.R.; and Raghu, T.S. Moving toward black hat research in information systems security: An editorial introduction to the special issue. MIS Quarterly, 34, 3 (2010), 431–433. 25. Motoyama, M.; McCoy, D.; Levchenko, K.; Savage, S.; and Voelker, G.M. An analysis of underground forums. Proceedings of the ACM SIGCOMM Conference on Internet Measurement Conference. Berlin, November 2–4, 2011, pp. 71–80. 26. National Science and Technology Council (NSTC) Trustworthy cyberspace: Strategic plan for the Federal Cybersecurity Research and Development Program. Report of the National Science and Technology Council, Executive Office of the President (2011), 1–19. http://www.whitehouse.gov/sites/default/files/microsites/ostp/fed_cybersecurity_rd_strategic_ plan_2011.pdf 27. Radianti, J. A study of a social behavior inside the online black markets. Proceedings of the International Conference on Emerging Security Information, Systems and Technologies. Nice, July 24–28, 2010, pp. 88–92. 28. Sandle, P., and Char, P. Cyber crime costs global economy $445 billion a year: Report. Reuters , 2014. http://www.reuters.com/articl e/us-cybersecurity-mcafee-csisidUSKBN0EK0SV20140609 (accessed on October 10, 2014). 29. Schone, M.; Esposito, R.; Cole, M.; and Greenwald, G. (2014). War on anonymous: British spies attacked cybercriminals, Snowden docs show. NBC News, 2014. www.nbcnews. com/news/investigations/war-anonymous-british-spies-attacked-cybercriminals-snowdendocs-show-n21361 (accessed on February 6, 2014). 30. Sinha, T., and Rajasingh, I. Investigating substructures in goal oriented online communities: Case study of Ubuntu IRC. Proceedings of the IEEE International Advance Computing Conference (IACC). New Delhi, February 21–22, 2014, pp. 916–922. 31. Wang, H.; Chung, J.E.; Park, N.; McLaughlin, M.L.; and Fulk, J. Understanding online community participation: A technology acceptance perspective. Communication Research, 39, 6 (2011), 781–801. 32. Wang, M.C., and Chang, S.H. Nonparametric estimation of a recurrent survival function. Journal of the American Statistical Association, 94, 445 (1999), 146–153.
+
+510
+
+BENJAMIN, ZHANG, NUNAMAKER, AND CHEN
+
+33. Wang, Y.; Kraut, R.; and Levine, J.M. To stay or leave? The relationship of emotional and informational support to commitment in online health support groups. Proceedings of the ACM Conference on Computer Supported Cooperative Work. Seattle, WA, February 11–15, 2012, pp. 833–842. 34. Wei, L.J.; Lin, D.Y.; Weissfeld, L. Regression analysis of multivariate incomplete failure time data by modeling marginal distributions. Journal of the American Statistical Association, 84, 408 (1989), 1065–1073. 35. Van Den Berg, G.J. Duration models: Specification, identification, and multiple durations. In J.J. Heckman and E.E. Leamer (Eds.), Handbook of Econometrics, Vol. 5, Chapter 55, 2001 (pp. 3381–3460). 36. Yip, M. An investigation into Chinese cybercrime and the applicability of social network analysis. ACM Web Science Conference. Koblenz, June 14–17, 2011, pp. 1–4. 37. Yip, M.; Shadbolt, N.; and Webber, C. Why forums ? An empirical analysis into the facilitating factors of carding forums. ACM Web Science. Paris, May 2–4, 2013, pp. 453–462. 38. Zhang, D.; Prior, K.; and Levene, M. How long do Wikipedia editors keep active? Proceedings of the Eighth Annual International Symposium on Wikis and Open Collaboration. Linz, August 27–29, 2012, pp. 4–7. 39. Zhang, Q.; Wang, F.-Y.; Zeng, D.; and Wang, T. Understanding crowd-powered search groups: a social network perspective. PloS One, 7, 6 (2012), e39749. 40. Zhao, X.; Ling, X.; Whinston, A.B. Managing interdependent information security risks: Cyberinsurance, managed security services, and risk pooling arrangements. Journal of Management Information Systems, 30, 1 (2013), 123–152.
+
+

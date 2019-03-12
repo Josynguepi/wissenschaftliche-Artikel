@@ -1,0 +1,661 @@
+RESEARCH NOTE
+
+INDIVIDUALS’ INTERNET SECURITY PERCEPTIONS AND BEHAVIORS: POLYCONTEXTUAL CONTRASTS BETWEEN THE UNITED STATES AND CHINA1
+Yan Chen
+College of Business, Auburn University at Montgomery, 7071 Senators Drive, Montgomery, AL 36117 U.S.A. {ychen3@aum.edu}
+
+Fatemeh Mariam Zahedi
+Sheldon B. Lubar School of Business, University of Wisconsin, Milwaukee, P.O. Box 742, Milwaukee, WI 53201-0742 U.S.A. {zahedi@uwm.edu}
+
+Little is known about the context sensitivity of users’ online security perceptions and behaviors to national and individual attributes, and there is inadequate research about the spectrum of users’ behaviors in dealing with online security threats. In addressing this gap, this paper draws on two complementary theoretical bases: (1) the contextualization of the protection motivation theory (PMT) to online security behavior and (2) a polycontextual lens for the cross-national comparison of users’ security behaviors in the United States and China. The conceptualized model is tested based on 718 survey observations collected from the United States and China. The results support our model and show the divergence between the United States, an exemplar of modern Western society, and China, an exemplar of traditional Eastern society, in forming threat perceptions and in seeking help and avoidance as coping behaviors. Our results also uncovered the significant moderating impacts of espoused culture on the way perceptions of security threats and coping appraisals influence security behaviors. Our findings underline the importance of context-sensitive theory building in security research and provide insights into the motivators and moderators of individuals’ online security behaviors in the two nations. Keywords: Individual users, protection motivation theory, coping theory, security behaviors, seeking help, security self-efficacy, security response efficacy, cross-national research, espoused national culture, polycontextual lens
+
+Introduction1
+The behavioral aspect of security in both work and personal settings has recently drawn attention from IS researchers due
+
+1
+
+Soon Ang was the accepting senior editor for this paper. Andrew BurtonJones served as the associate editor. The appendices for this paper are located in the “Online Supplements” section of the MIS Quarterly’s website (http://www.misq.org).
+
+to the dramatic increase in Internet users worldwide (Internet World Stats 2014), the pervasive use of the Internet in all aspects of life, and the fact that individual users “represent a significant point of weakness in achieving the security of the cyber infrastructure” (Anderson and Agarwal 2010, p. 613). Furthermore, Internet security is interdependent technologically and behaviorally (Heal and Kunreuther 2007) in that the behaviors of one individual impact other users. For example, users’ computers have been used as “zombies” for launching distributed denial-of-service attacks. However,
+
+MIS Quarterly Vol. 40 No. 1, pp. 205-222/March 2016
+
+205
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+most published security studies have focused on individuals’ security behaviors based on a single context2—Western samples drawn mainly from the United States—whereas the Internet is a global community in which Internet security issues are interdependent (Heal and Kunreuther 2007) and many Internet security threats (such as phishing) target Internet users globally. This research focuses on individuals’ security behaviors through a polycontextual lens. We examine individual Internet users in the United States and China since these two countries represent the exemplars of distinct contextual differences and, as of June 2014, 30 percent of global Internet users resided in these two countries (Internet World Stats 2014). We distinguish individual Internet users, who access the web in non-work settings, from employee Internet users, who use the web in their work settings. Studies have found that most individual Internet users lack even a single core protective tool against certain types of Internet security threats (APWG 2009; Symantec 2009) and that they are not subject to organizational mandatory information security training and security rules and must acquire information about security threats and tools on their own (Anderson and Agarwal 2010). Consequently, users may not be able to take full advantage of the web for essential services due to their security concerns. We build on the core constructs of protection motivation theory (PMT) (Maddux and Rogers 1983; Rogers 1975, 1983; Witte et al. 1996). Based on the contextualization approach to theory development (Hong et al. 2014; Whetten 2009; Zahedi et al. 2015), we contextualize PMT to develop a context-sensitive model that includes two coping behaviors specific to online security: seeking help and avoidance. The model contrasts the United States and China by conceptualizing the moderating role of nation. The theoretical basis for this moderation is a polycontextual lens that includes cultural dimensions as well as multiple systems operating within a society (Brown 1991; Leung and Ang 2009; Shapiro et al. 2007; Tsui et al. 2007).3 To the best of our knowledge, this study is the first to investigate, on a relatively large scale, the differences in security behaviors between the United States public and the Chinese public based on a contextsensitive theory. Our results show that there are indeed significant polycontextual national and individual differences in
+
+perceptions of online security threats and ways to deal with them in these two exemplar countries, and yet there are also similarities between them.
+
+Security Behaviors: PMT and a Polycontextual Lens
+PMT and Security Behaviors
+PMT (Rogers 1983) and the technology threat avoidance theory or TTAT (Liang and Xue 2009) have been used in studying security behaviors (see Appendix A). Threat appraisal and coping appraisal are two primary cognitive processes in both PMT and TTAT. Threat appraisal reflects individuals’ assessment of their susceptibility to the threat and the perceived severity of the threat. We define perceived susceptibility as users’ beliefs about their level of vulnerability to Internet security attacks, whereas perceived severity is users’ beliefs about the significance or size of possible harm inflicted by online security threats. In the process of coping appraisal, users determine whether they have the ability to effectively deal with the threat by evaluating the effectiveness of protective actions (perceived response efficacy) and their own abilities to take such actions (perceived self-efficacy) (Johnston and Warkentin 2010; Liang and Xue 2009). Perceived threats motivate coping behaviors called adaptive coping behaviors in which individuals focus on problemsolving and seeking countermeasures to deal with the threat that will avert the potential harm or danger due to the threat (Rippetoe and Rogers 1987; Rogers 1983). The security behavior literature has focused on taking action or intention to take action (see the literature summary in Appendix A), and does not address other possible behaviors specific to online security. Thus, there is a gap in our knowledge about the range of users’ online security coping behaviors. To address this gap and the gaps discussed in the “Introduction,” this paper develops a theoretical model based on contextualizing PMT (Hong et al. 2014; Whetten 2009). The first part of contextualization is to study a spectrum of coping behaviors, including taking action, seeking help, and avoidance. Taking action refers to using protective tools. Seeking help focuses on users’ efforts to seek information and advice in dealing with security threats. Avoidance is defined as avoiding using the Internet in varying degrees, especially avoiding sensitive activities such as online banking, in order to avoid online security threats. The second part of contextualization is to use a polycontextual lens to explore differences between the United States and China. As shown in Appendix A, the
+
+2
+
+Context is defined as “stimuli and phenomena that surround and thus exist in the environment external to the individual, most often at a different level of analysis” (Mowday and Sutton 1993, p. 198).
+
+3 Both theory contextualization and polycontextual lens argue that the context within which individuals/entities operate must be theoretically accounted for in theory development.
+
+206
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+existing studies have a single-country focus and heavily rely on Western samples, indicating a lack of adequate attention to cross-national studies in the area of security behaviors.
+
+The Polycontextual Approach
+The polycontextual lens incorporates multiple contexts for “a holistic and valid understanding of any phenomenon” and uses “many senses of knowing” (Tsui et al. 2007, p. 463). This lens draws on cultural universals4 in cultural anthropology, which include economic, legal, political, technological, religious, and other systems (Brown 1991; Leung and Ang 2009), thus capturing multiple contexts by drawing on both quantitative and qualitative perspectives (Shapiro et al. 2007). In what follows, we provide a polycontextual comparison of the United States and China that lays the groundwork for our conceptual arguments in the next section. Cultural Context. The first context of our polycontextual lens includes three of Hofstede’s (1979) cultural dimensions— collectivism versus individualism (COL), power distance (PD), and uncertainty avoidance (UA).5 The masculinity versus femininity (MAS) and long-term orientation (LTO) dimensions were not included since the Hofstede data shows relatively close values of MAS for the United States and China and the LTO dimension has been subject to criticism (Feng 2003; Redpath and Nielsen 1997). Broader Cultural Context. National culture should also be viewed with the broader perspective of modern Western versus traditional East Asian societies (Inkeles 1975, Tsui et al. 2007; Zahedi and Bansal 2011). The United States and China are exemplars of these two types of societies. Compared to traditional East Asian societies, modern Western societies tend to have a shorter history, more abundant resources, and an upward trajectory of persistent economic, social, and educational changes (Zahedi and Bansal 2011). Moreover, modern societies are more urbanized, and people in such societies have a stronger sense of self-efficacy, adopt new technologies more quickly, and are more adaptive in dealing with challenges (Inkeles 1975).
+4
+
+Philosophical and Historical Context. China and the United States represent two distinct historical developments of thoughts and philosophy (Nisbett 2003). China, with its more than 5,000 years of history, has been steeped in the practical teachings of Confucianism, Taoism, and Buddhism, which have deeply influenced Chinese ways of life and coping mechanisms in dealing with challenges (Chen 2009; Nisbett 2003). Confucianism promotes harmony with others, collective responsibility, and achievement through self-regulation and education. Taoism, with its focus on harmony with nature and the release of ego, encourages people to flow with nature and accept limitations—a philosophy that encourages fatalism/pessimism, non-action, and avoidance (Chen 2009; Nisbett 2003). Buddhism promotes compassion for others in the community, and values supporting one another through inevitable challenges in life. These teachings have profoundly influenced how the Chinese cope with threats and challenges (Chen 2009; Nisbett 2003; Selmer 2002). In contrast, the United States way of life reflects Western philosophy, starting with Aristotle and other Greek philosophers and continuing with Judeo-Christian values, which emphasize free will, optimism, personal agency, initiative, responsibility, and action (Nisbett 2003). Such differences contribute to users’ perceptions and behaviors in dealing with Internet security threats. Political Context. The political structures of the two countries could modify or reinforce the cultural dimensions and their impacts on individuals’ perceptions of online security threats and coping strategies. The political structure in the United States has been stable and democratic. This stability—along with a history of reliance on a market-based economy—has promoted individual creativity and freedom, advanced development, urbanization, and easy access to technology-based tools and devices. The Chinese political structure is hierarchical and not democratic. In contrast to the United States, China has a lower level of urbanization, a one-party system, a planned economy, and a government that controls the activities of its citizens, including their education, movement, technology access, and Internet use (Winfield et al. 2000). Economic and Technological Contexts. There is a marked difference between the two nations in economic development and technology use, including Internet use. These factors contribute to divergence in the two societies and impact Internet security. The United States has higher per capita income than China. However, rapid economic growth has enabled China to invest heavily in its telecommunications infrastructure, which has facilitated the proliferation of the Internet and the addition of many new Internet users in recent years. However, there is a considerable gap between the United States and China when it comes to technology. In 2014, in the ranking of 148 countries based on their index of
+
+Cultural anthropology acknowledges that “each society has evolved a similar set of cultural systems known as cultural universals, to cope with various aspects of human functioning and adaptation to its environment” (Leung and Ang 2009, p. 31).
+
+Collectivism/individualism refers to a culture in which people belong to and look for care from groups that require their loyalty in return versus a culture in which people take care of themselves. Power distance refers to the accepted inequality of power within a society or organization. Uncertainty avoidance refers to the degree to which people feel discomfort about ambiguity and uncertainty (Carl et al. 2004; Hofstede 1997, 2001; Triandis 2001).
+
+5
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+207
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+information and communication readiness, the United States and China ranked 7th and 62th, respectively (Bilbao-Osorio et al. 2014). A shorter history of technology use and Internet exposure in China has made Chinese Internet users less technologically savvy than their U.S. counterparts. Moreover, the Chinese government is a dominant player in Chinese cyberspace. Since the preservation of harmony is a critical goal for the Chinese government, it exerts a tight central control over “sensitive” content on the Internet to ensure “a harmonious society” (Winfield et al. 2000). On the other hand, the Chinese Internet environment is plagued by security threats—China has the highest level of malicious activity on the Internet (Symantec 2011). In addition, software piracy is common in many traditional societies like China. The Business Software Alliance reported a software piracy rate of 80 percent in China and 20 percent in the United States (BSA 2009a), noting that “software piracy exposes users to unacceptable levels of cyber-security risk” (BSA 2009b, p. 25). As of 2014, China ranked 111th and the United States ranked 17th out of 148 countries in secure Internet servers per million of population (Bilbao-Osorio et al. 2014). These factors lead Chinese users to be less dependent on the Internet to conduct their daily essential activities (CNNIC 2010). In sum, there are significant polycontextual differences between the United States and China. In what follows, we rely on these polycontextual differences in the model conceptualization to draw distinctions between the ways users in these two nations perceive online threats, assess their own coping abilities, and adopt coping behaviors (as summarized in Table 1).
+
+of threat (Liang and Xue 2009; Rogers 1983). However, the extent of such impacts differs between U.S. and Chinese Internet users. Prior studies have shown that underlying cultural differences can affect how people form risk perceptions and appraise fear (Murray-Johnson et al. 2001; Weber and Hsee 2000). Weber and Hsee (2000) reported significant differences in the risk perception between North Americans and East Asians. In traditional societies with collectivism and high PD, protection responsibility is shared between the community and the governmental authorities, which by the nature of their social contracts bear the burden of protection and social order (Rousseau 1762; Wong et al. 2006). Confucianism also emphasizes collective responsibility (Chen 2009). Thus, compared to individuals in the United States, individuals in China are likely to be less sensitive to increases in the risks of attacks because they are more likely to have faith that the collective will have controls in place that reduce the likelihood of the attack being successful. As a result, susceptibility has less impact on their threat perceptions. Research in social psychology supports this argument and reports that the association between perceived likelihood of negative events and consequent perceptions and behaviors is stronger for North Americans than East Asians (Chang et al. 2001; Heine and Lehman 1995). Furthermore, with a constitution based on the principle of promoting societal harmony and high PD, the Chinese government controls the flow of negative information, including Internet security issues (Tang 2013). Therefore, compared to American users, Chinese users’ fear and threat perception is less impacted by their perceptions of susceptibility to security threats. Hypothesis 1: There is a positive association between individual users’ perceived threat susceptibility and their perceived threat, and this association is stronger in the United States than in China. Perceived severity has reverse differential impact in the United States and China. Using samples from Hong Kong, Taiwan, the Netherlands, and the United States, Bontempo et al. (1997) have found risk perception in the Western sample is more affected by the probability of loss (susceptibility in our PSB model), whereas risk perception in the Eastern sample is more impacted by the magnitude of loss (severity in our model). North Americans tend to be unrealistically optimistic about their ability to overcome negative events (Heine and Lehman 1995; Weinstein 1980). As a result, we expect North Americans to be less impacted by perceived severity than East Asians. Conversely, East Asians are generally more pessimistic (Heine and Lehman 1995), and so may overestimate the effect of a severe event. Even though Chinese people may feel that they will be supported by the collective (as we noted for H1), this is likely to be contingent on severity because in China, with a lower level of disposable
+
+Theory Development and Model Conceptualization
+In building a context sensitive theory, Hong et al. (2014) argue that when context pervasively impacts relationships, it should be used as a moderating factor. In our conceptualization of the individuals’ polycontextual security behaviors (PSB) model, we contextualize PMT and TTAT through the polycontextual lens, with country as a moderator (Figure 1). Our study involves three sets of constructs: perceived security threats, perceived coping efficacy, and coping behaviors. Perceived security threats involve two constructs: perceived susceptibility and perceived severity. Based on TTAT, we argue that perceived threat (which manifests as security concern) is impacted by perceived susceptibility and severity
+
+208
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table 1. Summary of Polycontextual Components used in Model Conceptualization
+Polycontextual Components Cultural context: Hofstede’s dimensions: COL, PD, UA Broader cultural context: modern Western vs. traditional East Asian Philosophical context: Western thoughts and philosophy vs. Confucianism, Taoism, and Buddhism Political context: democratic vs. hierarchical and central Economic and technological contexts: per capita income, software piracy and security issues, technological savvy and readiness, extent of dependence on the Internet H1      H2   H3      H4      H5    H6    H7    H8  
+
+
+
+Perceived Security Threats
+
+Coping Behaviors
+
+Perceived Susceptibility Perceived Severity
+
+H1 U>C H2 U<C
+
+Perceived Threat
+
+H3 U>C
+
+Protective Actions
+
+Perceived Coping Efficacy
+
+Perceived Security Response Efficacy Perceived Security SelfEfficacy
+
+H6 U<C H5 U<C H7 U<C
+
+H4 U<C
+
+Seeking Help
+
+H8 (-) |U|<|C|
+
+Avoidance
+
+US (U) vs. China (C)
+Control variables: espoused cultural dimensions, gender, age, education, loss experience with attacks. Thick-solid-line boxes are constructs which are not empirically tested in PMT or TTAT. Thick-dash-line box indicates the polycontextual lens of the study.
+
+Figure 1. Polycontextual Security Behaviors (PSB) Model
+
+income and limited access to resources, even a small perceived loss can lead to significant concerns. Thus, as severity increases, Chinese users are likely to be much more concerned than North Americans. Hence, Hypothesis 2: There is a positive association between individual users’ perceived threat severity and their perceived threat, and this association is stronger in China than in the United States. Based on TTAT and PMT, we argue that perceived security threat has a positive influence on taking protective actions
+
+(Liang and Xue 2009, 2010; Rogers 1983). However, there is a difference in the extent of impact between U.S. and Chinese users. Individuals in different societies choose different strategies to deal with fear and threats (Heppner et al. 2006; Murray-Johnson et al. 2001; Wong et al. 2006). People in modern societies, with their high individualism and principles of personal agency and initiative, tend to take action in dealing with their fear (Inkeles 1975). They have a strong sense of self-efficacy in dealing with challenges and they also have a proactive attitude toward such challenges. Individualists focus on actions and positive outcomes, whereas collectivists focus on avoiding problems and conflicts (Elliot
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+209
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+et al. 2001; Elliot et al. 2012). In addition, traditional cultures emphasize collective coping and reliance on authorities for protection. Collective coping “means the centered effort involving all members of a group to tackle the same problem” (Wong et al. 2006, p. 14), hence emphasizing the role of governments or authorities if a problem is faced by all. Research contrasting North Americans with East Asians has found that Asians even delay their actions as they wait for collective choices to be made (Lehman et al. 2004; Wong et al. 2006). Hence, we argue that U.S. users rely more on their own personal actions when they perceive high Internet security threats since they are more action-oriented and believe in self-success, whereas Chinese users are less reliant on individual actions because they wait for collective coping from the entire community and government, especially given that the Chinese society is a high PD society and the Chinese government exerts strong control over the Internet. In addition, many Chinese use pirated software, which makes them more vulnerable to Internet security threats (BSA 2009a). Chinese users are less technically savvy than those in modern societies (Economist Intelligence Unit 2010), which can make them feel overwhelmed by security threats and the consequent fear. However, such fear may not translate into more protective actions since Chinese users perceive individual actions as limited and inconsequential. Furthermore, Chinese are less resourceful in taking proactive actions, making the association between perceived threat and taking security action weaker in China than in the United States. Hypothesis 3: There is a positive association between individual users’ perceived threat and taking protective actions, and this association is stronger in the United States than in China. We argue that seeking help and advice is another salient coping strategy for dealing with online security threats. McCrae (1984) reported that, of 28 coping strategies, seeking help was the third most popular strategy for dealing with health-related issues. In both health and education contexts, it was found that seeking help is a coping behavior (Lazarus 1993; Newman 1998; Volet and Karabenick 2006). Before making a decision to deal with a threat, people seek information about the issue (Newell and Simon 1972), which is particularly true in the context of online threats where the state of knowledge is constantly changing. However, it is observed that sociocultural factors cause differences in “cultural affordances” for seeking help (Kitayama and Markus 1999; Volet and Karabenick 2006). In his extensive literature review, Lazarus (1993) has observed that seeking information and social support depends on the social context. Prior studies have compared East Asians and North Americans and have found that they differ in how they collect information before making decisions (Choi et al. 2003). In China, the
+
+Confucian and Buddhist teachings of self-regulation, education, and communal support promote seeking support from others in facing life challenges. This tendency is reinforced by a shorter history of using the Internet and less familiarity with the technology, which compel Chinese users to seek help and advice from their community. In contrast, U.S. users’ longer history of Internet use and more pervasive use of the Internet in their daily lives make them confident about their own ability to deal with Internet threats. Moreover, when facing a common threat, collectivists in general and Chinese in particular (who rely on Confucian and Buddhist teachings) have a greater tendency to maintain harmony by seeking information and guidance. As a result, threat perceptions prompt East Asians to collect more information and consult more from others than North Americans (Choi et al. 2003). This is exacerbated by government restrictions (high PD) on information about security issues that prompt Chinese to rely on their communities for information and advice. The comparatively less urbanized nature of communities in China facilitates such communal support. Hence, Hypothesis 4: There is a positive association between individual users’ perceived threat and seeking help, and this association is stronger in China than in the United States. We argue that a third salient coping strategy is to avoid using the Internet to various degrees, particularly for sensitive activities such as online banking. We have defined avoidance as a coping behavior that safeguards against the online security threat by not using the Internet, especially in sensitive contexts, such as banking. Our definition is different from emotional-focused coping (such as denial or helplessness) discussed in TTAT (Liang and Xue 2009). Challenging and difficult issues impact coping strategies differently across societies because of differences in attitudes (Lehman et al. 2004; Wong et al. 2006). Due to having fewer personal resources, Chinese users are more easily triggered to avoid the Internet based on their fear of security threats than American users since such threats involve potential economic loss. The Chinese are also influenced by the traditional Taoist philosophy of Chu Shi, which means escaping from the world. Taoist teaching in China promotes accepting life’s limitations and avoiding directly facing problems. Thus, Taoists tend not to directly deal with a problem. Instead, they escape from the environment where the problem exists, hoping that the problem will sooner or later resolve itself (Wong et al. 2006). Moreover, compared to Westerners, East Asians have a stronger avoidance motivation (Hamamura et al. 2009). The Internet in China has a much shorter history, and there is far less reliance on the Internet for day-to-day activities. Hence, unlike taking protective actions, avoidance has little or no
+
+210
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+impact on Chinese personal life and finance, and demands no technological skills. On the other hand, Western personal values and individualistic culture promote personal agency, self-reliance, and the importance of success (Lehman et al. 2004). These values combined with general familiarity and longer history with the Internet and over-confidence about ones’ abilities inhibit the choice of avoidance as a coping strategy. Hence, Hypothesis 5: There is a positive association between individual users’ perceived threat and avoidance, and this association is stronger in China than in the United States. PMT and TTAT posit that coping abilities influence individuals’ motivational behaviors (Johnston and Warkentin 2010; Liang and Xue 2009; Rogers 1983). The first source of perceived coping abilities is related to tools that are the basis for response efficacy. A meta-analysis on PMT literature has found that response efficacy and self-efficacy demonstrate “homogeneous effects” on behaviors (Witte and Allen 2000, p. 598). Hence we argue that response efficacy positively motivates users to take actions and that the extent of the association between response efficacy and taking protective actions is stronger among Chinese users than American users. Studies in the health context showed differences in response efficacy across nations. A multinational study of response efficacy and self-efficacy for dealing with severe acute respiratory syndrome (SARS) has reported significant differences between the European and Asian countries, including China (de Zwart et al. 2009). Prior research pointed out that due to their collectivist way of thinking, Chinese tend to use the recognition-based decision-making method—which is based on existing cases and classification—to make decisions and guide their behaviors (Choi et al. 2003; Weber and Hsee 2000). On the other hand, Americans more frequently use analytics and calculation-based decision-making methods since they are individualistic and self-centered (Choi et al. 2003; Weber and Hsee 2000). Thus we argue that response efficacy has a stronger influence on guiding Chinese users to take protective actions since the formation of response efficacy beliefs relies on experience and awareness (Pechmann et al. 2003). Moreover, people in a society with high PD show more respect and obedience toward authority than those in a society with lower PD. National cultural difference in high versus low PD also impacts people’s attitude toward automation and automation use (Hodgson et al. 2013). Compared to pilots from low PD nations, pilots from high PD nations reported more automation use if they have a positive attitude toward the safety of the automation since they normally do not question authority, in this case, automation (Hodgson et al. 2013). In other words, positive attitudes and
+
+beliefs toward automation have a stronger impact on automation use among people in high PD societies than people in low PD societies. Furthermore, using tools perceived as effective could prevent the social embarrassment of having been victimized, particularly if one has failed to use available effective protective tools. Since saving face is more important for Chinese users, a higher response efficacy should more strongly motivate them to take protective actions. Thus, we posit that the perceived security response efficacy of tools exerts a stronger impact on taking protective actions for Chinese users than U.S. users. Hypothesis 6: There is a positive association between individual users’ perceived security response efficacy and taking protective actions, and this association is stronger in China than in the United States. The other source of perceived coping ability is self that manifests as the perception of self-efficacy. Both PMT and self-efficacy studies have found self-efficacy is a salient predictor of motivational behaviors, which in our study is taking protective actions. Furthermore, we argue that the motivating influence of self-efficacy in taking protective actions differs between U.S. and Chinese users. This argument is supported by Bandura’s cross-cultural review, which argued that “how [efficacy beliefs] are developed and structured, the way in which they are exercised, the purposes to which they are put, vary cross-culturally” (Bandura 2002, p. 273). This observation has been confirmed by studies contrasting the consequences of self-efficacy in Eastern and Western societies. Collectivism tends toward modesty in selfefficacy while individualism shows optimism in judging selfefficacy. Chinese Taoism also emphasizes modesty (Wong et al. 2006). Not surprisingly, it has been found that selfefficacy beliefs are accurate and realistic, and yet they have a higher predictive power on consequent performance among Chinese than Western counterparts (Klassen 2004). Research also found that efficacy beliefs are “more predictive of subsequent functioning” including many motivational behaviors such as intention to choose a challenging career among Easterners (Klassen 2004, p. 205). When studying the influence of self-efficacy on perceived control of one’s job, Schaubroeck et al. (2000) found that while Chinese participants expressed lower self-efficacy scores than American participants, they had almost the same perceived control scores as American participants. Schaubroeck et al. thus argued that the cultural difference—collectivism versus individualism—plays an important role in the effects of selfefficacy. Again, the findings support that the association between self-efficacy and consequent behaviors is stronger among Chinese than Americans. Hence,
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+211
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Hypothesis 7: There is a positive association between individual users’ perceived security selfefficacy and taking protective actions, and this association is stronger in China than in the United States. As we just argued above, self-efficacy is more predictive of consequent behaviors among Chinese than Americans. By the same token, we expect the association between selfefficacy and avoidance behaviors to be stronger among Chinese users than their American counterparts. Moreover, Taoist teaching and Confusion philosophy emphasize the power of inner causes and self-improvement, which have a great impact on actions in the material world (Wong et al. 2006). Thus a higher level of self-efficacy could counter the sense of limitation and fear of failure in East Asian culture, and greatly reduce Chinese users’ avoidance. Conversely, in Western culture, avoidance is viewed as giving up and laziness—not a socially acceptable option. Therefore, for U.S. users, self-efficacy has a more limited role in countering avoidance since cultural forces discourage avoidance as an option. Hence, Hypothesis 8: There is a negative association between individual users’ perceived security selfefficacy and avoidance, and this association is stronger in China than in the United States. To account for individual differences in the model, we relied on the existing literature and selected salient control variables (CVs) as individuals’ espoused culture dimensions6 (COL, PD, and UA), experienced loss due to online security attacks, and personal demographics, such as age, gender, education (Dorfman and Howell 1988; Venkatesh and Morris 2000; Srite and Karahanna 2006; Elliot et al. 2001; Elliot et al. 2012; Hovav and D’Arcy 2012; Bansal et al. 2010, 2015).
+
+examples of attacks in each category, followed by questions about respondents’ experience from a list of different security countermeasures (see Tables C1 and C2 in Appendix C). All the constructs (reported in Table C3) were developed and refined based on one pretest and one pilot test using recommended procedures (Boudreau et al. 2001). The pretest and pilot test involved 8 and 10 participants, respectively, recruited at a Midwestern university. The instrument went through minor revisions after the pretest and the pilot test. The back translation method involved two Chinese professors and one Chinese Ph.D. student who translated the final English version of the instrument into Chinese and back into English.
+
+Methodology and Sample Data
+A web-based survey was administered in both the United States and China. In the United States, participants were recruited by students in undergraduate and graduate classes in a large Midwestern university. Students recruited at least three people from their networks of family, friends, and acquaintances to participate in the online survey, and received a small extra credit as an incentive. Recruiters were given instructions to ensure the quality of data collection and to reach a broad population. Based on e-mail addresses provided by students, 696 survey requests were sent out, which resulted in 489 responses. The response rate was a respectable 70.3 percent. In order to ensure the validity of responses, we examined and cleansed the data in two rounds. First, we removed records in which many questions were not answered. Then we examined the respondents’ time spent to complete the survey. Our pretests had shown that to answer the survey carefully, a minimum of five minutes was needed. We therefore removed all observations that were completed in less than five minutes. This was done to ensure that the sample represented thoughtful and careful responses. The final data set for the United States had a total of 480 usable observations. The demographic statistics of the United States sample are reported and discussed in Appendix D. In China, data was also collected through social networks. The survey link was sent to members of several private social groups (online and offline) through one researcher’s family members, friends, and acquaintances.7 A total of 1,198
+
+Research Methodology
+Scale Development
+The measurement scales for the constructs in the PSB model were developed based on an extensive literature review. Appendix B reports the construct definitions and key references. In order to level the understanding of respondents regarding security threats and security countermeasures, the instrument started by asking for respondents’ experience with a nine-item list of potential security attack categories with
+
+7
+
+6
+
+We have dropped the word national from individuals’ espoused national culture to avoid confusion with the national comparison in this study.
+
+The details of the China data collection through social networks are as follows: friends posted links to online private discussion groups with 180, 78, 158, and 207 members, respectively. A request was sent to a total of 262 students attending 5 classes in 2 colleges. Another request was sent to 2 government bureaus with 86 and 59 persons respectively. Personal e-mails were sent to recruit an additional 168 respondents. The total number of solicitations was 1,198.
+
+212
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+people were asked to participate in the survey; 333 responses were obtained. The response rate was 27.8 percent for the Chinese survey. After data cleansing, the China data set had 238 usable observations. The demographic statistics of the Chinese sample are also reported and discussed in Appendix D.
+
+convergent validity. The mean differences between the espoused cultural dimensions were also tested. Appendix G reports the results.
+
+The PSB Model Estimation
+The PSB model was estimated by using Mplus 5.0 group analysis with the mean-adjusted maximum likelihood method. Group analysis makes it possible to test for moderation (Qureshi and Compeau 2009). Figure 2 shows the estimation results. The fit indices (reported in Table 2) indicated satisfactory fit for the estimated model (Hu and Bentler 1999). Results for control variables are discussed in the next section. The R2 values of the six endogenous variables were statistically significant (Figure 2), indicating a reasonable explanatory power of the model. All path coefficients were significant in the two samples, providing a strong support for all hypothesized paths in H1–H8 and indicating the robustness of the PSB model in both countries. We carried out the stringent Wald χ2 test to test for the differences between the pair of path coefficients in the two groups (Table 3). The polycontextual moderation in H2 was supported directionally at p < 0.10, weakly indicating that perceived severity has a greater impact on perceived threat for Chinese than Americans. The moderation in H3 was also supported directionally, showing that perceived threat motivates Americans to take protective security actions more than it motivates Chinese. The polycontextual moderation in H4 was supported at p < 0.01, indicating that perceived threat motivates Chinese more than Americans to seek help. Polycontextual moderation in H5 was also supported at p < 0.001, indicating that perceived threat  avoidance has a far stronger association for Chinese than Americans. The moderation hypothesized in H6 was also supported at p < 0.05, showing that security response efficacy had a stronger impact on Chinese users’ choice of taking security protective actions as a coping behavior than it did for U.S. users. The differential impact of perceived self-efficacy on taking security protective actions (H7) was supported directionally, weakly indicating that perceived self-efficacy was more associated with taking security protective actions for Chinese users than for American users. The paths in H1 and H8 had the value differences for the United States and China as hypothesized, but the differences were not large enough to pass the Wald χ2 test.
+
+Data Analysis and Model Estimation Results
+Reliability and Validity Checks
+Both samples were checked in accordance with methodologies recommended in the literature (Moore and Benbasat 1991; Straub et al. 2004). Tables E1 and E2 in Appendix E report the results of the reliability checks of the constructs. All the Cronbach alpha values exceeded the cutoff value of 0.70 (Nunnally 1978), the composite factor reliability (CFR) values were above the threshold of 0.70, and the average variance extracted (AVE) values were above the cutoff value of 0.50 (Segars 1997). Hence, the reliability checks supported construct reliability in both samples. We checked the convergent and discriminant validity by carrying out exploratory factor analyses (Tables E3 and E4). There was no cross loading greater than 0.40 (McKnight et al. 2002). All items properly loaded on the corresponding latent variables. As shown in the correlation matrix (Table E5), for each construct, the square root of AVE was greater than the correlation values with other constructs. These results supported the discriminant validity (Fornell and Larcker 1981).8 The measurement model was estimated using the group analysis in MPlus 5.0. As Table 2 shows, the fit indices of the measurement model had satisfactory fit with SRMR # 0.08, RMSEA # 0.06, and an acceptable CFI of 0.945 (Hu and Bentler 1999). Appendix F reports factor loadings and t-values for the items in the measurement model. All the factor loadings were greater than 0.70 with significant t-values, indicating item significance (Muthén and Muthén 2003) and supporting
+8
+
+We checked whether the constructs were invariant across the two groups (Doll et al. 1998). We first examined the configural invariance, which tests for the same factor patterns across the two groups. No equal restrictions were put on the measurement matrices at this time. All model fit indexes are satisfactory, indicating the presence of the configural invariance across the two samples. Next we set up equal factor loadings across the two groups to test the metric invariance. The CFI was 0.977 for the configural invariance model and 0.975 for the metric invariance model. The change in CFI was 0.002, lower than the threshold 0.01 (Cheung and Rensvold 2002). Hence invariance was supported. To address the potential issue of common method variance, we purified the data with a marker and estimated the model. The results remained the same qualitatively.
+
+Discussions of Results
+Our findings strongly support the PSB model, validating the contextualization of PMT in terms of seeking help and avoidance as coping behaviors in the face of perceived online secu-
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+213
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table 2. Fit Indices
+Fit Index Normed χ² CFI (Comparative Fit Index) TLI (Tucker-Lewis Index) RMSEA (root mean square error of approximation) SRMR (standardized root mean square residual) Measurement Model 1.699 0.945 0.939 0.044 0.045 PSB Model 1.823 0.930 0.924 0.051 0.065
+
+Perceived Security Threats
+
+Coping Behaviors
+
+Perceived Susceptibility Perceived Severity
+
+H1: U>C 0.40*** 0.35*** H2: U<C 0.37*** 0.47***
+
+Perceived Theat
+= 0.39 *** 0.47*** R2
+
+H3: U>C 0.25*** 0.12*
+
+Protective Actions
+R2 = 0.35*** 0.49*** H4: U<C 0.43*** 0.66***
+
+Perceived Coping Efficacy
+
+Perceived Security Response Efficacy Perceived Security SelfEfficacy
+
+H6: U<C 0.19*** 0.30*** H7: U<C 0.49*** 0.57***
+
+Seeking Help
+R2 = 0.19*** 0.43***
+
+H5: U<C 0.22*** 0.49***
+
+H8 (-): |U|<|C| -0.08* -0.10*
+
+Avoidance
+R2 = 0.06* 0.24***
+
+*p < 0.05, **p < 0.01, ***p < 0.001, ns = insignificant. Path coefficients are on arrow lines, top value = US, bottom value = China
+
+Figure 2. Results of the Model Estimation
+
+Table 3. Wald χ² Tests for Significance of Path-Coefficient Differences between the United States and China
+Path Coefficient United States China 0.40 0.35 0.37 0.47 0.25 0.12 0.43 0.66 0.22 0.49 0.19 0.30 0.49 0.57 -0.08 -0.10 Diff. Sig. >ns <+ >+ <** <*** <* <+ <ns
+
+H1: H2: H3: H4: H5: H6: H7: H8:
+
+Hypotheses Susceptibility  Perceived threat (U > C) Severity  Perceived threat (U < C) Perceived threat  Protective actions (U > C) Perceived threat  Seeking help (U < C) Perceived threat  Avoidance (U < C) Response efficacy  Protective action (U < C) Self-efficacy  Protective action (U < C) Self-efficacy  Avoidance (|U| < |C|)
+
+Δχ2 0.74 3.04 3.02 10.46 16.86 4.83 2.93 0.17
+
+Supported? No Yes, directional Yes, directional Yes Yes Yes Yes, directional No
+
++p < 0.1 directional, *p < 0.05, **p < 0.01, ***p < 0.001, ns not significant; U = United States, C = China.
+
+214
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+rity threats. The significant results for both countries support the generalizeability of the model. In the polycontextual comparison, we found that in forming their threat perceptions, users in the United States and China are convergent when it comes to susceptibility of threat, but remain apart in the impact of severity on perceived threat. In explaining such convergence, we observe that to preserve societal harmony, while the Chinese government still controls the full disclosure of negative information, including security threat information online, the open nature of the Internet makes such control harder, resulting in Chinese users having more exposure to negative information. Such exposure makes Chinese more sensitive to the likelihood of the attack being successful. In contrast, we found that severity of threat impacts Chinese users far more than U.S. users, supporting the argument that Chinese users are more reactive to threat severity given their lower levels of economic resources and pessimistic perspectives. When it comes to coping behaviors, users in the two nations are far apart in seeking help and avoidance. Chinese users are significantly more disposed to seek help in the face of a threat. Our findings also confirm that the Chinese are inclined to adopt avoidance as a coping behavior. In contrast, U.S. users are less inclined to adopt avoidance as a coping strategy, which is considered as giving up and falling behind—not a socially desirable behavior in the United States. The impact of self-efficacy in reducing avoidance behaviors showed a tendency toward convergence. The convergence could be explained by the fact that China is experiencing a fast pace of urbanization. Urbanization changes self-efficacy belief and its impact on behaviors (Debies-Carl and Huggins 2009). The saying “city air makes free” illustrates people’s feelings of freedom and efficacy in urbanized culture (DebiesCarl and Huggins 2009, p. 343). Urbanization increases people’s reliance on global information. Furthermore, in the model without controls (see Table 4), the two nations were structurally different. Therefore, the lack of significant moderation could be due to the role of espoused culture and other individual differences. This result shows that an important path to counter avoidance and increase Internet use in China is through strategies that bolster individuals’ self-efficacy. The impact of perceived response efficacy of protective tools on security behaviors was significantly moderated by national differences. The results indicate that taking protective actions is a more routine behavior in the United States, whereas Chinese users need to be convinced of the effectiveness of tools before taking protective action. The results for selfefficacy  taking protective actions supported the significance of the polycontextual moderating role of nation, although this impact was directional. This result also supports
+
+the need for increasing Chinese users’ security self-efficacy to promote taking security protective actions.
+
+Control Variables and Post Hoc Analysis
+The role, use, and misuse of control variables (CVs) have been scrutinized recently (Carlson and Wu 2012; Spector and Brannick 2011).9 Carlson and Wu (2012) describe how researchers can account for CVs in three ways: purification, which removes the contaminated measurements; incremental prediction, which improves the overall predictive power of the estimation; and accounting for other meaningful variables, which includes CVs to better capture the desired relationships. They point out that “these are distinct objectives that require different types of information that typically cannot be derived from a single analytic approach” (p. 415). Since our unit of analysis is the individual user, we chose to include the CVs that account for effects of user characteristics. We deliberately conducted the analysis in multiple explorations to gain insights about the influence of the CVs in the model. In particular, we conducted three tests: (1) examining CVs’ direct effects on our model’s independent variables, (2) testing the espoused culture’s moderating effects in our pooled sample in the first post hoc analysis, and (3) investigating the espoused culture’s moderating effects in each country in the second post hoc analysis.
+
+Test 1. CVs’ Direct Effects
+Table 4 reports the direct effects of the CVs in the estimated model. The espoused cultural dimension COL had more impact for Chinese—positively influencing severity, security response efficacy, and security self-efficacy. For the United States users, COL had a positive association with security response efficacy. PD had positive impact on susceptibility for Chinese, whereas it had a negative impact on security response efficacy and security self-efficacy in the United States. The UA dimension of espoused culture showed little influence and was positively
+Carlson and Wu and Spector and Brannick strongly advise against what they call the “urban legend” (Spector and Brannick 2011) and “the universal CV playbook” (Carlson and Wu 2012) of including all CVs in the outcome regression. They discuss in detail that the relationship of IVs and CVs could distort the results, and they provide guidelines on how to report the CV results. We have followed their guidelines in analyzing CVs. We chose to report the model with controls on IVs since the existing literature points to the influence of culture, salient experience, and demographics as antecedents or moderators of individual beliefs (Bansal and Zahedi 2014; Bansal et al. 2010, 2015; Gefen et al. 2005; Sia et al. 2009; Srite and Karahanna 2006; Venkatesh and Morris 2000).
+9
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+215
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table 4. Model Estimation With and Without Control Variables and Wald χ2 Tests of Polycontextual Moderation
+No Controls Hypotheses and Controls H1: Susceptibility  Perceived threat (U > C) H2: Severity  Perceived threat (U < C) H3: Perceived threat  Protective actions (U > C) H4: Perceived threat  Seeking help (U < C) H5: Perceived threat  Avoidance (U < C) H6: Security response efficacy  Protective action (U < C) H7: Security self-efficacy  Protective action (U < C) H8: Security self-efficacy  Avoidance (|U| < |C|) COL  Severity COL  Security response efficacy COL  Security self-efficacy PD  Susceptibility PD  Security response efficacy PD  Security self-efficacy UA  Security response efficacy Loss  Susceptibility Loss  Severity Loss  Security response efficacy Gender  Susceptibility Gender  Security response efficacy Gender  Security self-efficacy Age  Security self-efficacy United States .38*** .34*** .25*** .44*** .23*** .10* .53*** ns China .28*** .47*** .10* .66*** .50*** .24*** .54*** -.10* Wald χ² Test >ns <
+ns
+
+Controls on IVs United States .40*** .37*** .25*** .43*** .22*** .19*** .49*** -.08* ns .11* ns ns -.09* -.14** ns .58*** .56*** -.13*** ns -.22*** -.22*** -.18*** China .35*** .47
+***
+
+Wald χ² Test >ns <+ >+ <** <*** <* <+ <ns
+
+>
+
++
+
+.12* .66*** .49*** .30*** .57*** -.10* .18*** .18* .31*** .10* ns ns .28** .68*** .54*** ns .11* -.15** -.13** ns
+
+<** <*** <ns <ns <
+sd
+
+Notes: Standardized path coefficients with p < 0.05 are shown in bold. ***p < 0.001, **p < 0.01; *p < 0.05, +p < 0.1 directional support; ns = not significant, sd = structural difference, one path is significant and the other insignificant; U = United States, C = China.
+
+associated with security response efficacy only for Chinese users. Loss experience positively and almost uniformly impacted the threat severity and susceptibility perceptions in both countries. This shows that once individuals experience loss due to security attacks, their perceptions of threats change regardless of where they live. However, the impact on coping efficacies varied by country: loss experience had a negative impact on security response efficacy only in the United States sample. Gender was positively associated with susceptibility only for Chinese users, indicating that Chinese women had a higher perception of susceptibility. Gender was negatively associated with security response efficacy and security selfefficacy in both countries, indicating that women in both
+
+countries had a lower perception of coping efficacies. Age was negatively associated with security self-efficacy in the United States, but not in China, indicating that older Americans feel less capable of dealing with security threats. We carried out two post hoc analyses of the moderating roles of espoused culture: in the pooled sample and within each country. These analyses allowed for the examination of the pervasive role of individual espoused culture (Hong et al. 2014; Qureshi and Compeau 2009). In both post hoc analyses, each espoused cultural dimension was dichotomized into the low/high groups (DeCoster et al. 2009; Farrington and Loeber 2000). The analyses were carried out separately for each dimension: COL, PD, and UA.
+
+216
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table 5. Post Hoc Analysis of the Moderation of Espoused Cultural Dimensions
+COL Standardized Path Coefficient1 Hypotheses H1: Susceptibility  Perceived threat H2: Severity  Perceived threat H3: Perceived threat  Protective actions H4: Perceived threat  Seeking help H5: Perceived threat  Avoidance H6: Response efficacy  Protective actions H7: Self-efficacy  Protective actions H8: Self-efficacy  Avoidance
+1
+
+PD Wald χ² Test Low vs. High2 ns ns ns ns ns ** *** sd Standardized Path Coefficient Low 0.37 0.40 0.25 0.39 0.16 0.15 0.60 -0.06 High 0.38 0.41 0.21 0.63 0.43 0.33 0.38 -0.07 Wald χ² Test Low vs. High2 ns ns ns *** *** ** *** ns
+
+UA Standardized Path Coefficient Low 0.30 0.41 0.22 0.51 0.31 0.17 0.57 -0.11 High 0.42 0.41 0.26 0.51 0.30 0.21 0.49 -0.05 Wald χ² Test Low vs. High2 ns ns ns ns ns ns ns sd
+
+Low 0.311 0.38 0.25 0.48 0.27 0.31 0.36 -0.18
+
+High 0.38 0.45 0.24 0.53 0.33 0.12 0.61 0.00
+
+Standardized path coefficients with p < 0.05 are shown in bold. 2 Wald χ² test with df = 1, testing the equality of the path coefficients for low and high levels of cultural dimension. ***p < .001, **p < .01, ns = not significant, sd = structurally different, one path is significant and the other insignificant.
+
+Test 2. Espoused Culture’s Moderating Effects in the Pooled Sample
+In this analysis, a dummy variable was used to control for country variation in the pooled sample. Table 5 reports the estimation results and the Wald χ2 test for the moderating effects of the three espoused cultural dimensions using the pooled sample. The results showed that espoused COL moderated the paths from security response efficacy and security self-efficacy  taking security protective actions (H6 and H7). Low COL had a much higher coefficient for security response efficacy  taking protective actions, whereas high COL increased the impact of self-efficacy  protective actions. COL had a moderating influence on self-efficacy  avoidance (H8) in that the path coefficient was negative and significant for low COL and not significant for high COL. Collectively, these results indicated that COL moderated the influence of coping efficacies (response and self) on taking protective actions and avoidance. Espoused PD also moderated the security behaviors by influencing the impacts of threat perceptions and coping efficacies on security behaviors. High espoused PD increased
+
+the influence of threat perception on seeking help and avoidance. High PD increased the influence of response efficacy on taking action whereas low PD increased the influence of self-efficacy on taking protective action. UA had minimal moderating influence in that low UA moderated the negative influence of self-efficacy on avoidance.
+
+Test 3. Espoused Culture’s Moderating Effects in Each Country
+In order to investigate the moderating influence of espoused culture in each country, we carried out the second post hoc analysis in which the differences in low versus high levels of espoused culture were compared within the two countries (low versus high in the United States and low versus high in China). Table 6 reports the results. PD and, to a lesser extent, UA had significant moderating influence on threat perception and coping paths. COL’s moderation was similar in the two nations and replicated the results in Test 2. However, the moderation impacts of PD and UA were varied and dissimilar in the two nations. Summing up our three tests, it is clear that individual differences had numerous effects in and across the two samples:
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+217
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table 6. Moderation of Espoused Cultural Dimensions Within Countries
+Standardized Path Coefficient1 China Low Model Paths H1: Sus  PercTr H2: Sev  PercTr H3: PercTr  Act H4: PercTr  Help H5: PercTr  Avoid H6: ResEf  Act H7: SelfEf  Act H8: SelfEf  Avoid H1: Sus  PercTr H2: Sev  PercTr H3: PercTr  Act H4: PercTr  Help H5: PercTr  Avoid H6: ResEf  Act H7: SelfEf  Act H8: SelfEf  Avoid .19 .45 .10 .68 .59 .44 .33 -.19 .13 .53 -.03 .63 .50 .40 .54 -.09 High .38 .48 .14 .66 .47 .19 .67 -.05 .51 .39 .20 .69 .50 .25 .60 -.08 United States Low .36 .34 .27 .41 .17 .27 .37 -.20 .41 .33 .25 .46 .22 .14 .58 -.12 High China2 .41 .40 .23 .45 .25 .11 .59 .04
+1
+
+Wald χ² Test Low vs. High2 United States3 ns ns ns ns ns * *** sd
+1
+
+Standardized Path Coefficient² China Low .10 .61 .16 .57 .30 .20 .80 -.06 High .47 .39 .11 .72 .57 .37 .46 -.14 United States Low .43 .34 .25 .36 .15 .14 .56 -.06 High
+
+Wald χ² Test China vs. United States2 China2 United States3 ns ns ns ** ns * *** ns
+
+Collectivism (COL)
+
+Power Distance (PD)1 .36 .38 .24 .57 .31 .35 .32 -.06
+
+ns ns ns ns ns * *** sd *** ns sd ns ns * ns ns
+
+sd ** ns ns *** ns *** sd
+
+Uncertainty Avoidance (UA)
+
+.40 .39 .24 .42 .22 .20 .44 -.04
+
+ns ns ns ns ns ns ns sd
+
+Standardized path coefficients with p value less than 0.05 are shown in bold. 2 Wald χ² test with df = 1, testing the equality of the path coefficient for low and high levels of cultural dimension in China. 3 Wald χ²test with df=1, testing the equality of the path coefficient for low and high levels of cultural dimension in the United States. ***p < .001, **p < .01, *p < .05, ns = not significant, sd = structurally different, one path is significant and the other insignificant. Sus = perceived susceptibility; Sev = perceived severity; Sec = perceived security threat; Act = protective action; Help = seeking help; Avoid = avoidance; ResEf = response efficacy; SelfEf = self-efficacy.
+
+on our independent variables, on the relationships in the pooled sample, and on the relationships in each separate sample. In short, the test results supported our overall model, and showed that individual differences exert significant and complex effects on security perceptions and behaviors.
+
+Implications
+This work has significant theoretical implications in IS research. Our research theorized about online security behaviors based on the contextualization of the protection motivation theory (PMT), arguing for a polycontextual lens to identify sources of divergence in perceptions of online security threats and choices of coping behaviors. Our work is the first to argue for a context-specific approach to study security behaviors by investigating the moderating influence of national differences as well as individual differences. This work responds to the call to develop context-sensitive approaches in theory building, particularly for United States/ Western versus China/Eastern behavioral scholarship (Hong et al. 2014; Tsui et al. 2007; Whetten 2009).
+
+This paper also contributes to the study of the spectrum of security coping behaviors. While taking protective actions has been studied in the literature, investigating seeking help and avoidance behaviors across national and individual contexts is new in this research and adds another component to contextualization of PMT as applied to online security behaviors. Our results show that there is major divergence in taking security protective actions, seeking help, and avoidance at the national and individual levels. Another major contribution of this paper is the pervasive role of individual attributes. Our work shows that individual attributes such as espoused culture (particularly COL and PD), gender, and age directly impact individuals’ perceptions of threat and coping efficacies. Moreover, our work contributes to the literature by showing how espoused culture moderates the impacts of threat perceptions and perceived coping efficacies on coping behaviors in the two nations. In sum, our work indicates that the investigation of online security perceptions and security behaviors across nations requires the inclusion of polycontextual factors at both national and individual levels.
+
+218
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+This work has practical implications for U.S. companies planning to reach the vast Chinese market on the Internet. First, our work provides insights about avoidance in China as a prevalent and acceptable behavior, and shows that it can be countered by promoting security efficacy in tools and self. Moreover, individuals’ security behaviors play an important role in reducing the success of cyber crimes and increasing the safety of the Internet environment. Therefore, private and public organizations should encourage individuals to adopt coping behaviors that promote safety and counter security threats. Our work provides insight into the factors that promote such behaviors. Moreover, distinct national differences could be utilized when developing strategies to promote protective behaviors. Organizations need to be aware of Chinese tendencies to seek help, indicating that social groups may be effective channels to inform and educate Chinese users. Significant roles of espoused culture, gender, and age provide another important insight for companies operating in cyberspace. Companies with knowledge about their customers’ characteristics could develop personalized strategies and interfaces to counter customers’ security anxieties and promote self-protection behaviors.
+
+The pervasive effects of individual characteristics, particularly espoused culture, suggest the need for further investigation of how the interplay of societal and individual factors shapes online security perceptions and behaviors. Future multination studies are needed to directly measure and test the influence of various contexts on online security perceptions and behaviors. Another interesting area for further research is the dynamic impact of coping behaviors at time t on threat appraisals and coping appraisals at time t+1 and onward. Avoidance coping behavior indicated some interesting outcomes that point to the unique nature of this behavior that should be studied further in different societal settings.
+
+Acknowledgments
+This work was funded in part by a grant from the U.S. National Science Foundation under Grant No. CNS-1049497. The authors would like to thank the senior editor, the associate editor, and the reviewers for their constructive comments on the earlier versions of this paper.
+
+References
+
+Conclusion
+Little work has been done to investigate individual security behaviors and their antecedents in a cross-national context. By contextualizing protective motivation theory and relying on the polycontextual lens, we developed a context-sensitive model to study online security behaviors across two nations: the United States and China. Our findings supported the conceptualized model, indicating the significant moderating influence of nation and the pervasive impacts of individual differences. There are limitations in this work. Our study used samples from the United States and China as exemplars of modern Western and traditional Eastern societies. Comparisons across additional societies and archetypal countries are necessary for a better understanding of Internet users’ security behaviors at a global level. Moreover, precaution should be taken when generalizing the results. We recruited respondents by reaching them through social networks, trying to reach a broad spectrum of the Internet user population in the two countries. The methods we used to reach respondents in the two countries were slightly different, and our samples represent a segment of Internet user populations in the two countries. Finally, CMV could still be a concern even though we did take precautions in data collection and repeating the analysis with the purified data did not contradict our findings.
+
+Anderson, C. L., and Agarwal, R. 2010. “Practicing Safe Computing: A Multimethod Empirical Examination of Home Computer User Security Behavioral Intentions,” MIS Quarterly (34:3), pp. 613-643. APWG. 2009. “Phishing Activity Trends Report 2nd Half 2008,” Anti-Phishing Working Group (http://www.antiphishing.org/). Bandura, A. 2002. “Social Cognitive Theory in Cultural Context,” Applied Psychology (51:2), pp. 269-290. Bansal, G., and Zahedi, F. M. 2014. “Trust–Discount Tradeoff in Three Contexts: Frugality Moderating Privacy and Security Concerns,” Journal of Computer Information Systems (55:1), pp. 13-29. Bansal, G., Zahedi, F. M., and Gefen, D. 2010. “The Impact of Personal Dispositions on Information Sensitivity, Privacy Concern and Trust in Disclosing Health Information Online,” Decision Support Systems (49:2), pp. 138-150. Bansal, G., Zahedi, F. M., and Gefen, D. 2015. “The Role of Privacy Assurance Mechanisms in Building Trust and the Moderating Role of Privacy Concern,” European Journal of Information Systems, Forthcoming.
+
+Bilbao-Osorio, B., Dutta, S., and Lanvin, B. (eds.). 2014. The Global Information Technology Report 2013. INSEAD and World Economic Forum (www3.weforum.org/docs/WEF_GITR_Report_2013.pdf).
+Bontempo, R. N., Bottom, W. P., and Weber, E. U. 1997. “CrossCultural Differences in Risk Perception: A Model-Based Approach,” Risk Analysis (17:4), pp. 479-488. Boudreau, M.-C., Gefen, D., and Straub, D. W. 2001. “Validation in Information Systems Research: A State-of-the-Art Assessment,” MIS Quarterly (25:1), pp. 1-16.
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+219
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Brown, D. E. 1991. Cultural Universals, New York: McGrawHill. BSA. 2009a. “Sixth Annual BSA and IDC Global Software Piracy Study,” Business Software Alliance (global.bsa.org/ globalpiracy2008/index.html). BSA. 2009b. “Software Piracy on the Internet: A Threat to Your Security,” Business Software Alliance (global.bsa.org/ internetreport2009/). Carl, D., Gupta, V., and Javidan, M. 2004. “Power Distance,” in Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies, R. J. House, P. J. Hanges, M. Javidan, P. W. Dorfman, and V. Gupta (eds.), Thousand Oaks, CA: Sage Publications, pp. 513-563. Carlson, K. D., and Wu, J. 2012. “The Illusion of Statistical Control: Control Variable Practice in Management Research,” Organizational Research Methods (15:3), pp. 413-435. Chang, E. C., Asakawa, K., and Sanna, L. J. 2001. “Cultural Variations in Optimistic and Pessimistic Bias: Do Easterners Really Expect the Worst and Westerners Really Expect the Best When Predicting Future Life Events?,” Journal of Personality and Social Psychology (81:3), pp. 476-491. Chen, H. 2009. A Cross-Cultural Study of Coping, unpublished doctoral dissertation, Ball State University. Cheung, G. W., and Rensvold, R. B. 2002. “Evaluating Goodnessof-Fit Indexes for Testing Measurement Invariance,” Structural Equation Modeling (9:2), pp. 233-255. Choi, I., Dalal, R., Kim-Prieto, C., and Park, H. 2003. “Culture and Judgment of Causal Relevance,” Journal of Personality and Social Psychology (84:1), pp. 46-59. CNNIC. 2010. “Statistical Survey Report on the Internet Development in China,” China Internet Network Information Center (http://www.cnnic.net.cn/uploadfiles/pdf/2009/10/13/94556.pdf). de Zwart, O., Veldhuijzen, I. K., Elam, G., Aro, A. R., Abraham, T., Bishop, G. D., Voeten, H. A. C. M., Richardus, J. H., and Brug, J. 2009. “Perceived Threat, Risk Perception, and Efficacy Beliefs Related to SARS and Other (Emerging) Infectious Diseases: Results of an International Survey,” International Journal of Behavioral Medicine (16:1), pp. 30-40. Debies-Carl, J. S., and Huggins, C. M. 2009. “‘City Air Makes Free’: A Multi-Level, Cross-National Analysis of Self-Efficacy,” Social Psychology Quarterly (72:4), pp. 343-364. DeCoster, J., Iselin, A. M. R., and Gallucci, M. 2009. “A Conceptual and Empirical Examination of Justifications for Dichotomization,” Psychological Methods (14:4), 349-366. Doll, W. J., Hendrickson, A., and Deng, X. 1998. “Using Davis’s Perceived Usefulness and Ease-of-Use Instruments for Decision Making: A Confirmatory and Multigroup Invariance Analysis,” Decision Sciences (29:4), pp. 839-869. Dorfman, P. W., and Howell, J. 1988. “Dimensions of National Culture and Effective Leadership Patterns: Hofstede Revisited,” Advances in International Comparative Management (Volume 3), E. McGoiun (ed.), Greenwich, CT: JAI Press, pp. 127-149. Economist Intelligence Unit. 2010. “Digital Economy Rankings 2010 Beyond E-Readiness” (http://www-935.ibm.com/services/ us/gbs/bus/pdf/eiu_digital-economy-rankings-2010_final_ web.pdf). Elliot, A. J., Chirkov, V. I., Kim, Y., and Sheldon, K. M. 2001. “A Cross-Cultural Analysis of Avoidance (Relative to Approach) Personal Goals,” Psychological Science (12:6), pp. 505-510.
+
+Elliot, A. J., Sedikides, C., Murayama, K., Tanaka, A., Thrash, T. M., and Mapes, R. R. 2012. “Cross-Cultural Generality and Specificity in Self-Regulation: Avoidance Personal Goals and Multiple Aspects of Well-Being in the United States and Japan,” Emotion (12:5), pp. 1031-1041. Farrington, D. P., and Loeber, R. 2000. “Some Benefits of Dichotomization in Psychiatric and Criminological Research,” Criminal Behaviour and Mental Health (10:2), pp. 100-122. Feng, T. 2003. “A Critique of Hofstede’s Fifth National Culture Dimension,” International Journal of Cross Cultural Management (3:3), pp. 347-368. Fornell, C., and Larcker, D. F. 1981. “Evaluating Structural Equation Models with Unobservable Variables and Measurement Error,” Journal of Marketing Research (18:1), pp. 39-50. Gefen, D., Rose, G. M., Warkentin, M., and Pavlou, P A. 2005. “Cultural Diversity and Trust in IT Adoption: A Comparison of Potential E-Vters in the USA and South Africa,” Journal of Global Information Management (13:1), pp. 54-78. Hamamura, T., Meijer, Z., Heine, S. J., Kamaya, K., and Hori, I. 2009. “Approach–Avoidance Motivation and Information Processing: A Cross-Cultural Analysis,” Personality and Social Psychology Bulletin (35:4), pp. 454-462. Heal, G., and Kunreuther, H. 2007. “Modeling Interdependent Risks,” Risk Analysis (27:3), pp.621-634. Heine, S. J., and Lehman, D. R. 1995. “Cultural Variation in Unrealistic Optimism: Does the West Feel More Invulnerable than the East?” Journal of Personality and Social Psychology (68:4), pp. 595-607. Heppner, P. P., Heppner, M. J., Lee, D.-G., Wang, Y.-W., Park, H.J., and Wang, L.-F. 2006. “Development and Validation of a Collectivistic Coping Styles Inventory,” Journal of Counseling Psychology (53:1), pp. 107-125. Hodgson, A., Siemieniuch, C. E., and Hubbard, E-M. 2013. “Culture and the Safety of Complex Automated Sociotechnical Systems,” IEEE Transactions on Human–Machine Systems (43:6), pp.608-619. Hofstede, G. 1997. Cultures and Organizations: Software of Mind, New York: McGraw-Hill. Hofstede, G. H. 2001. Culture’s Consequences: Comparing Values, Behaviors, Institutions and Organizations across Nations, Thousand Oaks, CA: Sage Publications. Hong, W., Chan, F. Y. K., Thong, J. Y. L., Chasalow, L. C., Dhillon, G. 2014. “A Framework and Guidelines for ContextSpecific Theorizing in Information Systems Research,” Information Systems Research (25:1), pp. 111-136. Hovav, A., and D’Arcy, J. 2012. “Applying an Extended Model of Deterrence Across Cultures: An Investigation of Information Systems Misuse in the U.S. and South Korea,” Information and Management (49:2), pp. 99-110. Hu, L., and Bentler, P. M. 1999. “Cut-Off Criteria for Fit Indexes in Covariance Matrix Analysis: Conventional Criteria Versus New Alternatives,” Structural Equation Modeling (6:1), pp. 1-55. Inkeles, A. 1975. “Becoming Modern: Individual Change in Six Developing Countries,” Ethos (3:2), pp. 323-342. Internet World Stats. 2014. (www.internetworldstats.com). Johnston, A. C., and Warkentin, M. 2010. “Fear Appeals and Information Security Behaviors: An Empirical Study,” MIS Quarterly (34:3), pp. 549-566.
+
+220
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Klassen, R. M. 2004. “Optimism and Realism: A Review of SelfEfficacy from a Cross-Cultural Perspective,” International Journal of Psychology (39:3), pp. 205-230. Kitayama, S., and Markus, H. R. 1999. “Yin and Yang of Japanese Self: The Cultural Psychology of Personality Coherence,” in The Coherence of Personality: Social Cognitive Bases of Personality Consistency, Variability, and Organization, D. Cervone and Y. Shoda (eds.), New York: The Guilford Press, pp. 242-302. Lazarus, R. 1993. “Coping Theory and Research: Past, Present, and Future,” Psychosomatic Medicine (55:3), pp. 234-247. Lehman, D. R., Chiu, Y., and Schaller M. 2004. “Psychology and Culture,” Annual Review of Psycholology (55), pp. 689-714. Leung, K., and Ang, S. 2009. “Culture, Organizations, and Institutions: An Integrative Review,” in Cambridge Handbook of Culture, Organizations and Work, R. S. Bhagat and R. M. Steers (eds.), New York: Cambridge University Press, pp. 23-45. Liang, H., and Xue Y. 2009. “Avoidance of Information Technology Threats: A Theoretical Perspective,” MIS Quarterly (33:1), pp. 71-90. Liang, H., and Xue Y. 2010. “Understanding Security Behaviors in Personal Computer Usage: A Threat Avoidance Perspective,” Journal of the Association for Information Systems (11:7), pp. 394-413. Maddux, J. E., and Rogers, R. W. 1983. “Protection Motivation and Self-Efficacy: A Revised Theory of Fear Appeals and Attitude Change,” Journal of Experimental Social Psychology (19:5), pp. 469-479. McCrae, R. R. 1984. “Situational Determinants of Coping Responses: Loss, Threat, and Challenge,” Journal of Personality and Social Psychology (46:4), pp. 919-928. McKnight, D. H., Choudhury, V., and Kacmar, C. 2002. “Developing and Validating Trust Measures for E-ommerce: An Integrative Typology,” Information Systems Research (13:3), pp. 334-359. Moore, G. C., and Benbasat. I. 1991. “Development of an Instrument to Measure the Perceptions of Adopting an Information Technology Innovation,” Information Systems Research (2:3), pp. 192-222. Mowday, R. T., and Sutton, R. I. 1993. “Organizational Behavior: Linking Individuals and Groups to Organizational Contexts,” Annual Review of Psychology (44:1), pp. 195-229. Murray-Johnson, L.,Witte, K., Liu, W.-Y., and Hubbell, A. P. 2001. “Addressing Cultural Orientations in Fear Appeals: Promoting AIDS-Protective Behaviors among Mexican Immigrant and African American Adolescents and American and Taiwanese College Students,” Journal of Health Communications (6:4), pp. 335-358. Muthén, B. O., and Muthén, L. 2003. The Comprehensive Modeling Program for Applied Researchers User Guide, Los Angeles: Muthén & Muthén. Newell, A., and Simon, H. A. 1972. Human Problem Solving, Englewood Cliffs, NJ: Prentice Hall. Newman, R. S. 1998. “Adaptive Help Seeking: A Role of Social Interaction in Self-Regulated Learning,” in Strategic Help Seeking, S. A. Karabenick (ed.), Mahwah, NJ: Lawrence Erlbaum, pp. 13-37. Nisbett, R. 2003. The Geography of Thought: How Asians and Westerners Think Differently and Why, New York: Simon and Schuster Publishers.
+
+Nunnally, J. 1978. Psychometric Theory, New York: McGrawHill. Pechmann, C., Zhao, G., Goldberg, M. E., and Reibling, E. T. 2003. “What to Convey in Antismoking Advertisements for Adolescents: The Use of Protection Motivation Theory to Identify Effective Message Themes,” Journal of Marketing (67:2), pp. 1-18. Qureshi, I., and Compeau, D. 2009. “Assessing Between-Group Differences in Information Systems Research: A Comparison of Covariance- and Component-Based SEM,” MIS Quarterly (33:1), 197-214. Redpath, L., and Nielsen, M.O. 1997. “A Comparison of Native Culture, Non-Native Culture and New Management Ideology,” Canadian Journal of Administrative Sciences (14:3), pp. 327-339. Rippetoe, P. A., and Rogers, R. W. 1987. “Effects of Components of Protection-Motivation Theory on Adaptive and Maladaptive Coping with a Health Threat,” Journal of Personality and Social Psychology (52:3), pp. 596-604. Rogers, R. W. 1975. “A Protection Motivation Theory of Fear Appeals and Attitude Change,” Journal of Psychology (91:1), pp. 93-114. Rogers, R. W. 1983. “Cognitive and Physiological Processes in Fear Appeals and Attitude Change: A Revised Theory of Protection Motivation,” in Social Psychophysiology, J. Cacioppo and R. E. Petty (eds.), New York: The Guilford Press, pp. 153-176. Rousseau, J. 1762. The Social Contract (G. D. H. Cole, trans.), The Constitution Society (www.constitution.org). Schaubroeck, J., Lam, S. S., and Xie, J. L. 2000. “Collective Efficacy Versus Self-Efficacy in Coping Responses to Stressors and Control: A Cross-Cultural Study,” Journal of Applied Psychology (85:4), pp. 512-525. Segars, A. H. 1997. “Assessing the Unidimensionality of Measurement: A Paradigm and Illustration Within the Context of Information Systems Research,” Omega (25:1), pp. 107-121. Selmer, J. 2002. “Coping Strategies Applied by Western vs. Overseas Chinese Business Expatriates in China,” International Journal of Human Resource Management (13:1), pp. 19-34. Shapiro, D. L., Von Glinow, M. A., and Xiao, Z. 2007. “Toward Polycontextually Sensitive Research Methods,” Management and Organization Review (3:1), pp. 129-152. Sia, C. L., Lim, K. H., Leung, K., Lee, M., Huang, W. W., and Benbasat, I. 2009. “Web Strategies to Promote Internet Shopping: Is Cultural-Customization Needed?,” MIS Quarterly (33:3), pp. 491-512. Spector, P. E., and Brannick, M. T. 2011. “Methodological Urban Legends: The Misuse of Statistical Control Variables,” Organizational Research Methods (14:2), pp. 287-305. Srite, M., and Karahanna, E. 2006. “The Role of Espoused National Cultural Values in Technology Acceptance,” MIS Quarterly (30:3), pp. 679-704. Straub, D., Boudreau, M.-C., and Gefen, D. 2004. “Validation Guidelines for IS Positivist Research,” Communications of the Association for Information Systems (13), pp. 380-426. Symantec. 2009. “Symantec Global Internet Security Threat Report Trends for 2008,” Volume XIV (www.symantec.com). Symantec. 2011. “Threat Activity Trends” (www.symantec.com). Tang, D. 2013. “China Claims Victory Over ‘Negative Energy’ on the Internet,” The Christian Science Monitor, November 30
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+221
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+(http://www.csmonitor.com/World/Latest-News-Wires/2013/ 1130/China-claims-victory-over-negative-energy-on-theInternet). Triandis, H. C. 2001. “Individualism–Collectivism and Personality,” Journal of Personality (69:6), pp. 907-924. Tsui, A. S., Nifadkar, S. S., and Ou, A. Y. 2007. “Cross-National, Cross-Cultural Organizational Behavior Research: Advances, Gaps, and Recommendations,” Journal of Management (33:3), pp. 426-478. Venkatesh, V., and Morris, M. G. 2000. “Why Don’t Men Ever Stop to Ask for Directions? Gender, Social Influence, and Their Role in Technology Acceptance and Usage Behavior,” MIS Quarterly (24:1), pp. 115-139. Volet, S., and Karabenick, S. A. 2006. “ Help Seeking in Cultural Context,” in Help Seeking in Academic Settings: Goals, Groups, and Contexts, S. A. Karabenick and R. S. Newman (eds.), Florence, KY: Psychology Press, pp. 117-150. Weber, E. U., and Hsee, C. K. 2000. “Culture and Individual Judgment and Decision Making,” Journal of Applied Psychology: An International Review (49:1), pp. 32-61. Weinstein, N. D. 1980. “Unrealistic Optimism about Future Life Events,” Journal of Personality and Social Psychology (39:5), pp. 806-820. Whetten, D. A. 2009. “An Examination of the Interface Between Context and Theory Applied to the Study of Chinese Organizations,” Management and Organization Review (5:1), pp. 29-55. Winfield, B. H., Mizuno, T., and Beaudoin, C. E. 2000. “Confucianism, Collectivism and Constitutions: Press Systems in China and Japan,” Communication Law and Policy (5:3), pp. 1081-680. Witte, K., and Allen, K. 2000. “A Meta-Analysis of Fear Appeals: Implications for Effective Public Health Campaigns,” Health Education and Behavior (27:5), pp. 591-615. Witte K., Cameron, K. A., McKeon, J. K., and Berkowitz, J. M. 1996. “Predicting Risk Behaviors: Development and Validation of a Diagnostic Scale,” Journal of Health Communication (1:4), pp. 317-342. Wong, P. T. P., Wong, L. C. J., and Scott, C. 2006. “Beyond Stress and Coping: The Positive Psychology of Transformation,” in Handbook of Multicultural Perspectives on Stress and Coping, P. T. P. Wong and L. C. J. Wong (eds.), New York: Springer, pp. 1-26.
+
+Zahedi, F. M., Abbasi, A., and Chen, Y. 2015. “Fake-Website Detection Tools: Identifying Elements that Promote Individuals’ Use and Enhance Their Performance,” Journal of the Association for Information Systems (16:6), pp. 448-484. Zahedi, F. M., and Bansal, G. 2011. “Cultural Signifiers of Website Images,” Journal of MIS (28:1), pp. 147-200.
+
+About the Authors
+Yan Chen is an assistant professor at the College of Business, Auburn University at Montgomery. She received her Ph.D. in MIS from the University of Wisconsin, Milwaukee. Her work has focused on information security, cyber espionage, privacy, and e-commerce. Her research has been published in journals including the Journal of Management Information Systems, Journal of the Association for Information Systems, and the Journal of Computer Information Systems, and a number of refereed conference proceedings. Fatemeh Mariam Zahedi is a professor and Roger L. Fitzsimonds Distinguished Scholar at the Sheldon B. Lubar School of Business, University of Wisconsin, Milwaukee. She received her doctoral degree from Indiana University. Her areas of research include design and behavior issues in web-based IT systems. She has served as senior and associate editor of MIS Quarterly, on the editorial board of Journal of MIS, and as an associate editor for Information Systems Research. She has published more than 120 referred papers in premier journals and conferences, including MIS Quarterly, Information Systems Research, Journal of Management Information Systems, Management Science, IEEE Transactions on Software Engineering, Operations Research, IEEE Transactions on Systems, Man, and Cybernetics-Part A, IIE Transactions, and the Review of Economics and Statistics, and others. Mariam has been the principal investigator of grants funded by NSF and other agencies. She is the author of two books, Quality Information Systems (Boyd and Fraser Publishing, 1995) and Intelligent Systems for Business: Expert Systems with Neural Network (Wadsworth Publishing, 1993). She has received several research, teaching and best paper awards. Her work has been featured in TV and print media.
+
+222
+
+MIS Quarterly Vol. 40 No. 1/March 2016
+
+RESEARCH NOTE
+
+INDIVIDUALS’ INTERNET SECURITY PERCEPTIONS AND BEHAVIORS: POLYCONTEXTUAL CONTRASTS BETWEEN THE UNITED STATES AND CHINA
+Yan Chen
+College of Business, Auburn University at Montgomery, 7071 Senators Drive, Montgomery, AL 36117 U.S.A. {ychen3@aum.edu}
+
+Fatemeh Mariam Zahedi
+Sheldon B. Lubar School of Business, University of Wisconsin, Milwaukee, P.O. Box 742, Milwaukee, WI 53201-0742 U.S.A. {zahedi@uwm.edu}
+
+Appendix A
+Literature Review on Security Behaviors in Non-Work Settings
+Study Anderson and Agarwal 2010 Liang and Xue 2010 Rhee et al. 2005 La Rose et al. 2008 Dinev and Hu 2007 Furnell et al. 2007 Lee and Kozar 2005 Liang and Xue 2009 Woon et al. 2005 Sample Study 1: 157 ISP subscribers, 94 students, and 343 from a purchased sample Study 2: 101 students 152 students 415 graduate students Country* USA Method Study 1: surveys Study 2: lab experiment Survey Survey Theory Study 1: PMT, Psychological Ownership Study 2: Message Goal Framing Technology Threat Avoidance Theory Social Cognitive Theory (Self-efficacy) PMT, Elaboration Likelihood Model, Social Cognitive Theory Theory of Planned Behavior NA Theory of Planned Behavior, IT Innovation PMT, Cybernetic Process Theory PMT Coping Behaviors Study 1: intention to perform security related behavior Study 2: security behavioral attitude Problem-solving coping behavior Use security technology, care behavior, and intention to strengthen the efforts Involvement, self-regulation, building good security habits Intention to use protective information technologies Safe behavior, knowledge-seeking behavior Adoption of an anti-spyware system Problem-focused and emotionfocused coping behavior Have enabled/ have not enabled a firewall on home wireless network
+
+USA USA
+
+206 students
+
+USA
+
+Experiment
+
+332 IS professionals and students 415 UK residents 212 Internet Users NA 189 students and faculty
+
+USA UK USA NA Singapore
+
+Survey Survey Survey Theory building Survey
+
+*The sample country was deduced based on the content of the paper.
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+A1
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Appendix B
+Constructs, Definitions, and Key References
+Constructs Perceived susceptibility Perceived severity Perceived security threat Perceived security selfefficacy Perceived security response efficacy Protective actions Seeking help Definitions Internet users’ belief about the degree of vulnerability to Internet security attacks. Internet users’ belief about the significance or magnitude of potential harm caused by Internet security attacks. Internet users’ degree of worry/fear about Internet security threats. It manifests as security concern. Internet users’ belief in their ability to take protective measures to avoid Internet security threats. Key References Liang and Xue 2009; Pechmann et al. 2003; Rogers 1975; Witte et al. 1996 Liang and Xue 2009; Pechmann et al. 2003; Rogers 1975; Witte et al. 1996 Leventhal et al. 1965; Liang and Xue 2009; Maddux et al. 1986; Rogers and Mewborn 1976 Compeau and Higgins 1995; Lam and Lee 2006; Liang and Xue 2009; Maddux et al. 1986; Maddux and Rogers 1983; Pechmann et al. 2003; Rogers 1975; Witte et al. 1996 Compeau and Higgins 1995; Lam and Lee 2006; Liang and Xue 2009; Maddux et al. 1986; Rogers and Mewborn 1976; Witte et al. 1996 Lazarus 1993; Liang and Xue 2009, 2010; McCrae 1984 Lazarus1993; McCrae 1984; Tobin et al. 1989
+
+Internet users’ belief about whether or not the recommended protective measure can effectively protect against Internet security attacks. Internet users’ one or more protective countermeasures to reduce or eliminate risk of Internet security attacks. Internet users’ interactions with others in seeking social support and assistance in dealing with Internet security threats. Avoiding the use of the Internet in various degrees, especially avoiding sensitive activities such as online banking, in order to avoid online security threats.
+
+Avoidance
+
+Lazarus 1993; Liang and Xue 2009, 2010; McCrae 1984
+
+A2
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Appendix C
+Internet Security Attacks, Protective Actions, and Survey Instrument
+Internet security attacks are malicious and intentional acts that would cause damages to your computer or illegally collect your information such as your personal and financial information or Internet behaviors. Note: The term your computer in this questionnaire indicates your personal or home computer.
+
+Table C1. List of Internet Security Attacks
+Malicious code attacks (e.g. viruses, worms and Trojan horses) Malicious email attachment (email attachments contain or hide malicious code) Spoofing and phishing attacks (you believe you are receiving e-mail from a trusted source, or are connected to a trusted web site, when that is not the case) Spyware attacks (software that is secretly installed on your computer and collects information about your without your knowledge) Scareware/rogueware attacks (e.g., fake anti-virus and anti-spyware software) Botnets attacks (e.g., your computer was controlled by malicious codes from the Internet to conduct malicious attacks) Social engineering attacks (e.g., you were deceived to give out confidential information) Unauthorized accesses to your computer from the Internet Other–Please specify [A text input box followed to allow respondents to add other attacks] Taking protective actions means taking one or more of the following security countermeasures to reduce the risk of Internet security attacks on your computer.
+
+Table C2. List of Protective Actions
+Installed antivirus software Installed antispyware software Installed spam-filter software Have a firewall Have enabled security settings for my browser (e.g., block cookies, scripts, and pop-ups) Commonly use long and complex passwords Regularly update my operating system manually or automatically (e.g., Windows) Regularly update my Internet browser manually or automatically (e.g., Internet Explorer) Regularly update my security software manually or automatically (e.g., Norton AntiVirus) Have enabled scanning function of security software (e.g., antivirus software) Regularly turn off the Internet connection when not using it Other–Please specify [A text input box followed to allow respondents to add other attacks Source: www.cert.org
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+A3
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table C3. Survey Instrument
+Construct Item Name sus1 sus2 sus3 sev1 sev2 self1 self2 self3 self4 Item When it comes to the likelihood of Internet security attacks, I believe that my risks of getting Internet security attacks are (very low/very high) the likelihood that I would be a target of security attacks is (very low/very high) the extent of my vulnerability to security attacks is (very low/very high) When it comes to severity of Internet security attacks, I believe that the consequences of security attacks for me is (not serious at all/very serious) in general, the severity of security attacks for me is (very low/very high) When it comes to my ability in dealing with Internet security attacks, I believe that my knowledge for taking preventive actions is (not adequate at all/very adequate ) my ability to get appropriate advice on how to take protective actions is (very low/very high) my level of access to people who can help me is (very low/very high) for me, taking protective actions is (very difficult/very easy) When it comes to the effectiveness of protective actions against Internet security attacks, I believe that the success rate of protective actions is (very low/very high) the chance of stopping security attacks by taking protective actions is (very low/very high) the likelihood to neutralize Internet security threats is (very low/very high) my confidence in effectiveness of protective actions is (very low/very high) When it comes to my feelings and concerns about Internet security attacks, I believe that my fear of exposure to Internet security attacks is (very low/very high) the extent of my worry about Internet security attacks is (very low/very high) the extent of my anxiety about potential loss due to Internet security attacks is (very low/very high) When it comes to increasing my knowledge about Internet security attacks, I believe that my frequency of asking for help has been (very low/very high) my frequency of seeking professional advice has been (very low/very high) my frequency of seeking support from others has been (very low/very high) My actions to protect me against Internet security attacks can be characterized as no actions at all/frequent actions no plan at all/well-planned no precautions at all/many precautions When it comes to avoiding the Internet environment where Internet security threats exist, I have not avoided using Internet at all/avoided using Internet not reduced my reliance on Internet at all/reduced my reliance on Internet not reduced frequency of my use of Internet at all/reduced frequency of my use of Internet When it comes to my relationship with the groups I belong to, for me compared to having autonomy, being accepted as a member of a group is (not important at all/very important for sure) compared to individual success, group success is (not important at all/ very important for sure) compared to individual freedom, belonging to a group is (not important at all/very important for sure) compared to receiving personal rewards, taking care of group welfare is (not important at all/very important for sure) compared to personal gain, being loyal to a group is (not important at all/very important for sure)
+
+Susceptibility
+
+Severity
+
+Self-efficacy
+
+Response efficacy
+
+reff1 reff2 reff3 reff4 sc1 sc2 sc3 sh1 sh2 sh3 act1 act2 act3 avd1 avd2 avd3 col1 col2
+
+Perceived security threat
+
+Seeking help
+
+Action
+
+Avoidance
+
+Collectivism
+
+col3 col4 col5
+
+A4
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table C3. Survey Instrument (Continued)
+Construct Item Name Item When it comes to my views on power distribution in the society, for me, having people in higher positions making all decisions on their own is (not acceptable at all/highly acceptable for sure) not consulting those below them is (not acceptable at all/highly acceptable for sure) having all decision-making power is (not acceptable at all/highly acceptable for sure) not allowing those below them to question their decisions is (not acceptable at all/highly acceptable for sure) When it comes my tolerance of uncertainty and ambiguity in my workplace, for me having rules and regulations telling me exactly what are expected from me is (not important at all/very important for sure) compared to having less structure that allows for flexibility, having a highly structured work environment with clarity of job description is (not important at all/very important for sure) compared to having general directions, having detailed instructions on how to do my job is (not important at all/very important for sure) compared to an ambiguous environment that allows for personal innovation, having standardized job description is (not important at all/very important for sure) The extent of damage you have suffered due to the above [listed in the survey] security attacks has been time and efforts spent to get rid of problems (none/very high) psychological tension, stress and anxiety (none/very high) In general, compared to my short-term plans, my long-term plans for my future are (not important at all/very important). (This variable was used for purification of data to check if possible common method variance could change the results. It did not.)
+
+Power distance
+
+pd1 pd2 pd3 pd4
+
+ua1 Uncertainty avoidance ua2 ua3 ua4 Experienced loss due to security attacks Marker variable
+
+loss1 loss2
+
+All items were measured on a continuous semantic differential scale from 1 to 10.
+
+Appendix D
+Participant Profiles
+United States (n = 480) Profile Variables Age Education* Time spent on Internet daily (hours) Years of experience using the Internet (years)** Gender Mean 34.1 3.7 3.7 12.6 Male (%) 46.3% STD 15.0 1.3 1.3 4.9 Female (%) 53.8% China (n = 238) Mean 25.2 3.7 4.0 7.4 Male (%) 73.9% STD 9.9 1.7 1.5 4.6 Female (%) 26.1%
+
+*Education scales: 1 = Some school, no degree; 2 = High school graduate; 3 = Some college, no degree/college students; 4 = Professional degree/two-year associate degree; 5 = Bachelor’s degree; 6 = Master’s degree; 7 = Doctoral degree. **The large difference between the years of experience in the United States and China samples supports our argument that the Chinese users have less experience with the Internet.
+
+In the U.S. sample, the mean age was 34.1, with 33 percent of respondents above and 67 percent at or below 45 years of age. Although younger
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+A5
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+respondents still dominated our sample population, the age distribution was relatively close to the age distribution of the U.S. adult Internet users, in which 46 percent are above and 54 percent at or below 45 years of age (Pew Internet 2009). Males and females were almost equally distributed in this sample, with percentages of 46.3 and 53.8, respectively. In the China sample, the mean age was 25.2, with 24 percent of respondents above and 76 percent at or below 30 years of age. This age distribution is close to the published report that only 29 percent of the Internet population is above 30 years old in China (CNNIC 2010). Male and female distributions were 73.9 percent and 26.1 percent, respectively. Although the percentage of males is higher, CNNIC (2010) reports a similar gender disparity.
+
+Appendix E
+Reliability Checks
+Table E1. Reliability Checks
+United States Constructs Susceptibility Severity Self-efficacy Response efficacy Perceived threat Action Seeking help Avoidance Cronbach Alpha 0.87 0.90 0.88 0.92 0.95 0.91 0.89 0.94 CFR 0.88 0.92 0.88 0.92 0.94 0.92 0.89 0.94 AVE 0.71 0.85 0.64 0.73 0.85 0.79 0.73 0.84 Cronbach Alpha 0.85 0.85 0.87 0.90 0.88 0.93 0.90 0.94 China CFR 0.84 0.85 0.88 0.90 0.87 0.92 0.87 0.94 AVE 0.63 0.74 0.64 0.70 0.70 0.80 0.70 0.85
+
+Notes: CFR=composite factor reliability, AVE=average variance extracted
+
+Table E2. Reliability Checks for Control Variable Constructs
+United States Constructs Collectivism Power distance Uncertainty avoidance Loss due to security attacks Cronbach Alpha 0.87 0.90 0.87 0.90 CFR 0.87 0.90 0.87 0.90 AVE 0.57 0.71 0.64 0.82 Cronbach Alpha 0.94 0.86 0.91 0.84 China CFR 0.94 0.86 0.91 0.84 AVE 0.76 0.62 0.71 0.72
+
+Notes: CFR=composite factor reliability, AVE=average variance extracted
+
+A6
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table E3. Exploratory Factor Analysis
+Constructs Level 1 Item sus1 Susceptibility sus2 sus3 sev1 Severity sev2 Level 2 Items self1 self2 Self-efficacy self3 self4 reff1 reff2 Response efficacy reff3 reff4 sc1 Perceived sc2 threat sc3 Level 3 Items act1 Protective act2 action act3 sh1 Seeking help sh2 sh3 avd1 Avoidance avd2 avd3 United States 1 .882 .860 .837 .271 .278 1 .295 .316 .232 .383 .825 .855 .838 .823 -.031 -.061 -.088 1 .866 .051 -.001 .128 .160 .068 .926 .951 .940 2 .764 .844 .816 .765 .339 .310 .264 .348 -.067 -.050 -.028 2 .888 .919 .905 .227 .131 .215 .050 .036 .017 2 .269 .261 .246 .922 .920 3 -.016 -.043 -.091 -.036 -.048 -.067 -.005 -.147 .938 .958 .941 3 .220 .196 .147 .880 .876 .877 .091 .113 .143 1 .876 .838 .779 .278 .287 1 .203 .273 .152 .389 .818 .862 .827 .809 .157 .106 -.033 1 .034 .091 .046 .290 .234 .200 .920 .899 .928 2 .844 .867 .741 .778 .371 .237 .121 .332 -.017 .110 .087 2 .932 .902 .931 .123 .200 .106 .065 .082 .033 China 2 .205 .287 .330 .893 .888 3 .031 .077 .044 .089 .083 .033 .126 .057 .867 .902 .907 3 .155 .151 .093 .850 .839 .873 .232 .231 .252
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+A7
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table E4. Exploratory Factor Analysis of Constructs for Controls
+1 Constructs Items col1 col2 col3 col4 col5 pd1 pd2 pd3 pd4 ua1 ua2 ua3 ua4 loss1 loss2 .852 .816 .805 .752 .751 .029 .043 .012 .070 .143 .222 .170 .109 .048 .039 2 3 United States -.013 .105 -.049 .115 .166 .122 -.069 .228 .150 .139 .923 -.011 .889 .015 .867 -.025 .829 .146 .039 .871 .038 .838 .168 .824 -.096 .796 -.002 .024 .036 .030 4 .008 .061 -.001 .112 -.045 .024 .013 -.006 .011 .015 .007 .058 -.004 .950 .949 1 .870 .866 .844 .839 .823 .312 .263 .403 .382 -.050 -.020 .114 .239 .120 .045 2 China .270 .314 .299 .243 .295 .837 .831 .799 .781 .105 -.013 .158 .151 .021 .006 .055 .032 .056 .118 .076 .054 .192 .114 .124 .870 .858 .844 .752 .063 .131 .061 -.013 .038 .107 .102 .079 -.045 .040 -.020 .080 .088 .037 .039 .921 .918 3 4
+
+Collectivism
+
+Power distance
+
+Uncertainty avoidance
+
+Experienced loss due to security attacks
+
+A8
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Table E5. Construct Correlations, AVE, Means, and Standard Deviations of Constructs
+United States 1. Loss 2. Susceptibility 3. Severity 4. Self-efficacy 5. Response efficacy 6. Perceived threat 7. Protective action 8. Seeking help 9. Avoidance 10. COL 11. PD 12. UA 13. Gender 14. Age 15. Education China 1. Loss 2. Susceptibility 3. Severity 4. Self-efficacy 5. Response efficacy 6. Perceived threat 7. Protective actions 8. Seeking help 9. Avoidance 10. COL 11. PD 12. UA 13. Gender 14. Age 15. Education 1 0.90 0.58 0.56 -0.04 -0.12 0.44 0.07 0.19 0.10 0.09 0.04 0.07 0.00 0.00 0.00 1 0.85 0.70 0.58 0.17 0.05 0.52 0.17 0.34 0.24 0.18 0.21 0.09 0.00 0.00 0.00 0.80 0.43 0.11 0.02 0.55 0.13 0.36 0.26 0.13 0.25 0.03 0.12 0.09 0.00 0.86 0.14 0.09 0.62 0.18 0.41 0.29 0.26 0.24 0.18 0.07 0.06 0.04 0.80 0.14 0.10 0.62 0.07 -0.05 0.30 0.10 0.22 -0.13 0.07 0.07 0.84 0.05 0.38 0.03 0.01 0.39 0.18 0.43 -0.15 0.00 -0.01 0.84 0.19 0.66 0.48 0.17 0.20 0.10 0.08 0.06 0.02 0.90 0.20 0.10 0.30 0.13 0.26 -0.11 0.04 0.04 0.83 0.57 0.11 0.13 0.06 0.05 0.04 0.01 0.92 0.05 0.09 0.02 0.05 0.02 0.00 0.87 0.20 0.72 0.00 0.00 0.00 0.78 0.31 0.00 0.00 0.00 0.84 0.00 0.00 0.00 na 0.05 0.15 na 0.44 na 0.84 0.34 -0.03 -0.07 0.53 0.11 0.23 0.12 0.05 0.06 0.03 -0.06 0.08 0.09 2 0.92 -0.05 -0.07 0.50 0.09 0.22 0.11 0.09 0.10 0.10 0.02 0.07 0.08 3 0.80 0.09 -0.03 0.50 -0.01 -0.09 0.06 -0.14 0.01 -0.22 -0.19 -0.01 4 0.86 -0.05 0.23 -0.02 -0.02 0.11 -0.10 0.10 -0.22 -0.08 0.04 5 0.92 0.23 0.43 0.22 0.06 0.06 0.05 -0.02 0.06 0.07 6 0.89 0.32 0.10 0.06 -0.07 0.04 -0.15 -0.10 0.02 7 0.86 0.30 0.02 0.03 0.02 -0.01 0.03 0.03 8 0.92 0.01 0.02 0.01 0.01 0.03 0.02 9 0.75 0.09 0.41 0.00 0.00 0.00 10 0.84 0.09 0.00 0.00 0.00 11 0.80 0.00 0.00 0.00 12 na 0.04 0.00 13 na 0.33 14 na 15 4.17 4.09 5.08 5.44 5.81 4.95 5.68 4.71 4.06 6.77 5.02 6.53 1.26 25.20 3.73 2.84 2.32 2.63 2.53 2.23 2.49 2.33 2.40 2.42 1.94 1.81 1.79 0.44 9.87 1.72 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Mean 3.21 4.03 4.36 6.23 6.54 4.26 5.50 4.25 3.64 6.47 3.62 6.51 1.54 34.10 3.74 Std 2.93 2.33 2.84 2.57 2.18 2.53 2.29 2.47 2.50 1.75 2.03 1.83 0.50 15.02 1.34
+
+Notes: The boldface values on the diagonal are the square roots of AVEs. na = Single item variable.
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+A9
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Appendix F
+Standardized Factor Loadings in the Measurement Model Including Latent Control Variables
+United States Constructs Susceptibility Severity Items sus1 sus2 sus3 sev1 sev2 self1 self2 self3 self4 reff1 reff2 reff3 reff4 sc1 sc2 sc3 act1 act2 act3 sh1 sh2 sh3 avd1 avd2 avd3 col1 col2 col3 col4 col5 pd1 pd2 pd3 pd4 ua1 ua2 ua3 ua4 loss2 loss3 Loading 0.89 0.83 0.80 0.90 0.94 0.75 0.87 0.77 0.82 0.88 0.89 0.79 0.87 0.89 0.95 0.92 0.88 0.92 0.86 0.88 0.84 0.85 0.86 0.95 0.94 0.81 0.74 0.77 0.74 0.76 0.84 0.92 0.82 0.72 0.83 0.84 0.80 0.86 0.89 0.83 t-value 50.80 41.12 36.18 49.18 65.78 36.59 55.85 38.17 46.55 61.80 68.42 37.59 59.04 77.53 91.26 84.93 56.36 81.12 53.31 61.86 44.24 43.86 48.07 85.45 90.61 43.65 38.11 38.14 29.88 36.81 33.10 75.00 32.76 24.81 41.03 44.30 40.56 42.15 50.80 41.12 Loading 0.84 0.82 0.72 0.87 0.86 0.78 0.90 0.70 0.82 0.88 0.85 0.77 0.84 0.80 0.87 0.84 0.92 0.89 0.89 0.87 0.79 0.84 0.92 0.89 0.95 0.91 0.84 0.87 0.88 0.73 0.82 0.83 0.76 0.82 0.88 0.84 0.83 0.81 0.84 0.82 China t-value 28.68 29.76 23.89 36.03 32.07 31.03 64.03 27.90 38.73 45.14 39.64 30.60 49.84 32.56 39.19 37.76 65.41 44.56 52.54 40.78 30.09 30.50 72.25 44.63 107.72 70.83 45.61 48.65 58.95 23.65 32.38 36.68 27.52 34.94 52.04 34.22 26.06 34.97 28.68 29.76
+
+Self-efficacy
+
+Response efficacy
+
+Perceived threat
+
+Protective action
+
+Seeking help
+
+Avoidance
+
+Collectivism
+
+Power distance
+
+Uncertainty avoidance
+
+Loss due to security attacks
+
+A10
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Appendix G
+Test of Mean Differences in the Espoused Cultural Dimensions for the United States and China
+Espoused Cultural Dimension COL PD UA Means United States 6.466 3.617 6.506 China 6.774 5.019 6.532 t-value -2.137 -9.027 -0.180 p-value (2-tailed) .033 .000 .857 Mean Difference -0.308 -1.402 -0.026 Std. Error Difference .144 .155 .144
+
+Notes: Calculations are based on mean value of items in each dimension.
+
+The tests indicated the statistically significant mean differences in espoused COL and PD dimensions between the China and U.S. samples. Hofstede (2001) does not report statistical differences between national cultural dimensions across countries. However, the differences in mean values of espoused culture were in the same directions as those in Hofstede’s (2015) latest data for cultural dimensions for the United States and China—Individualism: U.S. = 90, China = 20, PD: U.S. = 40, China = 80. The mean difference of espoused culture UA in the United States and China was not statistically significant. The difference between the United States and China in the Hofstede’s national dimension of UA is far less than that of COL and PD (U.S. = 46, China = 30). This difference may not be large enough to result in statistical significance for individual espoused culture.
+
+References
+Anderson, C. L., and Agarwal, R. 2010. “Practicing Safe Computing: A Multimethod Empirical Examination of Home Computer User Security Behavioral Intentions,” MIS Quarterly (34:3), pp. 613-643. CNNIC. 2010. “Statistical Survey Report on the Internet Development in China,” China Internet Network Information Center (http://www.cnnic.net.cn/uploadfiles/pdf/2009/10/13/94556.pdf). Compeau, D. R., and Higgins, C. A. 1995. “Computer Self-Efficacy: Development of a Measure and Initial Test,” MIS Quarterly (19:2), pp. 189-211. Dinev, T. and Hu, Q. 2007. “The Centrality of Awareness in the Formation of User Behavioral Intention toward Protective Information Technologies,” Journal of the Association for Information Systems (8:7), pp. 386-408. Furnell, S. M., Bryant, P., and Phippen, A. D. 2007. “Assessing the Security Perceptions of Personal Internet Users,” Computers and Security (26:7-8), pp. 410-417. Hofstede, G. H. 2001. Culture’s Consequences: Comparing Values, Behaviors, Institutions and Organizations across Nations, Thousand Oaks, CA: Sage Publications. Hofstede, G. H. 2015. The Hofstede Centre (http://geert-hofstede.com/countries.html; accessed May 2015). La Rose, R., Rifon, N. J., and Enbody, R. 2008. “Promoting Personal Responsibility for Internet Safety,” Communications of the ACM (51:3), pp. 71-76. Lam, J. C. Y., and Lee, M. K. O. 2006. “Digital Inclusiveness—Longitudinal Study of Internet Adoption by Older Adults,” Journal of Management Information Systems (22:4), pp. 177-206. Lazarus, R. 1993. “Coping Theory and Research: Past, Present, and Future,” Psychosomatic Medicine (55:3), pp. 234-247. Lee, Y., and Kozar, K. A. 2005. “Investigating Factors Affecting the Adoption of Anti-Spyware Systems,” Communications of the ACM (48:8), pp. 72-77. Leventhal, H., Singer, R., and Jones, S. 1965. “Effects of Fear and Specificity of Recommendation upon Attitudes and Behavior,” Journal of Personality and Social Psychology (2:1), pp. 20-29. Liang, H., and Xue Y. 2009. “Avoidance of Information Technology Threats: A Theoretical Perspective,” MIS Quarterly (33:1), pp. 71-90. Liang, H., and Xue Y. 2010. “Understanding Security Behaviors in Personal Computer Usage: A Threat Avoidance Perspective,” Journal of the Association for Information Systems (11:7), pp. 394-413. Maddux, J. E., Norton, L. W., and Stoltenberg, C. D. 1986. “Self-Efficacy Expectancy, Outcome Expectancy, and Outcome Value: Relative Effects on Behavioral Intentions,” Journal of Personality and Social Psychology (51:4), pp. 783-789.
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+A11
+
+Chen & Zahedi/Internet Security Perceptions and Behaviors
+
+Maddux, J. E., and Rogers, R. W. 1983. “Protection Motivation and Self-Efficacy: A Revised Theory of Fear Appeals and Attitude Change,” Journal of Experimental Social Psychology (19:5), pp. 469-479. McCrae, R. R. 1984. “Situational Determinants of Coping Responses: Loss, Threat, and Challenge,” Journal of Personality and Social Psychology (46:4), pp. 919-928. Pechmann, C., Zhao, G., Goldberg, M. E., and Reibling, E. T. 2003. “What to Convey in Antismoking Advertisements for Adolescents: The Use of Protection Motivation Theory to Identify Effective Message Themes,” Journal of Marketing (67:2), pp. 1-18. Pew Internet. 2009. “Generations Online in 2009,” The Pew Research Center (http://www.pewinternet.org/search/generations+ online+in+2009/?site=pewinternet). Rhee, H., Rhu, Y., and Kim, C. 2005. “I Am Fine But You Are Not: Optimistic Bias and Illusion of Control on Information Security,” in Proceedings of the 26th International Conference on Information Systems, D. Avison, D. Galletta, and J. I. DeGross (eds.), Las Vegas, December 11-14, pp. 381-394. Rogers, R. W. 1975. “A Protection Motivation Theory of Fear Appeals and Attitude Change,” Journal of Psychology (91:1), pp. 93-114. Rogers, R. W., and Mewborn, C. R. 1976. “Fear Appeals and Attitude Change: Effects of a Threat’s Noxiousness, Probability of Occurrence, and The Efficacy of the Coping Responses,” Journal of Personality and Social Psychology (34:1), pp. 54-61. Tobin, D. L., Holroyd, K. A., Reynolds, R. V., and Wigal, J. K. 1989. “The Hierarchical Factor Structure of the Coping Strategies Inventory,” Cognitive Therapy and Research (13:4), pp. 343-361. Witte K., Cameron, K. A., McKeon, J. K., and Berkowitz, J. M. 1996. “Predicting Risk Behaviors: Development and Validation of a Diagnostic Scale,” Journal of Health Communication (1:4), pp. 317-342. Woon, I. M. Y., Tan, G. W., and Low, R. T. 2005. “A Protection Motivation Theory Approach to Home Wireless Security,” in Proceedings of the 26th International Conference on Information Systems, D. Avison, D. Galletta, and J. I. DeGross, Las Vegas, December 11-14, pp. 367-380.
+
+A12
+
+MIS Quarterly Vol. 40 No. 1—Appendices/March 2016
+
+Copyright of MIS Quarterly is the property of MIS Quarterly and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

@@ -1,0 +1,481 @@
+Journal of Management Information Systems
+
+ISSN: 0742-1222 (Print) 1557-928X (Online) Journal homepage: http://www.tandfonline.com/loi/mmis20
+
+Trust Development in Globally Distributed Collaboration: A Case of U.S. and Chinese Mixed Teams
+Xusen Cheng, Shixuan Fu & Douglas Druckenmiller
+To cite this article: Xusen Cheng, Shixuan Fu & Douglas Druckenmiller (2016) Trust Development in Globally Distributed Collaboration: A Case of U.S. and Chinese Mixed Teams, Journal of Management Information Systems, 33:4, 978-1007, DOI: 10.1080/07421222.2016.1267521 To link to this article: http://dx.doi.org/10.1080/07421222.2016.1267521
+
+Published online: 10 Feb 2017.
+
+Submit your article to this journal
+
+Article views: 9
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at http://www.tandfonline.com/action/journalInformation?journalCode=mmis20 Download by: [Bibliotheek TU Delft] Date: 14 February 2017, At: 09:24
+
+Trust Development in Globally Distributed Collaboration: A Case of U.S. and Chinese Mixed Teams
+XUSEN CHENG, SHIXUAN FU, AND DOUGLAS DRUCKENMILLER
+XUSEN CHENG (xusen.cheng@gmail.com; corresponding author) is an associate professor and chair of the E-Business Department in the School of Information Technology and Management at the University of International Business and Economics, Beijing, China. He received his Ph.D. in informatics at the University of Manchester. His research focuses on trust development in virtual teams and online communities, collaboration processes and system design, and the integration of behavior and design issues in information systems. His articles have appeared in Information Technology and People, Group Decision and Negotiation, Computers in Human Behavior, and others. His work has also been presented at leading conferences, including the International Conference of Information Systems (ICIS) and Hawaii International Conference on System Sciences (HICSS). SHIXUAN FU (shixuanfu0612@gmail.com) is a Ph.D. candidate in the School of Information Technology and Management at the University of International Business and Economics. Her interests focus on user behaviors in online communities, sharing economy, team collaboration and trust. Her publications have appeared in Computers in Human Behavior, Information Technology and People, and several conference proceedings, such as HICSS. DOUGLAS DRUCKENMILLER (DA-Druckenmiller@wiu.edu) is a professor of information systems in the School of Computer Sciences at Western Illinois University. He received his Ph.D. in management information systems from Kent State University. His research focuses on collaborative systems and virtual teaming technologies. He has published in the Journal of the Association of Information Systems, International Journal of Intelligence, Technology and Planning, FUTURES, and others. His research has also been presented at leading conferences, such as Group Decision and Negotiation (GDN) and HICSS. ABSTRACT: Trust is frequently investigated as an indicator of a mutual relationship. Trust is especially important for globally distributed collaboration in light of the lack of face-toface interactions. As the perception of trust is a dynamic process, however, little research is conducted measuring trust development. Whether facilitation intervention is beneficial for trust development is also unknown. In order to fill the research gaps, we followed a design science approach and incorporated collaboration engineering into the design of the treatment. Data were collected in a series of experiments with Chinese and U.S. mixed teams, including a longitudinal survey, interviews, and documentation. Through the comparison of the treatment group with the control group, we found that trust was significantly improved in the treatment group. In addition, several trust antecedents were found to explain the development. The power of facilitated collaboration is also
+Journal of Management Information Systems / 2016, Vol. 33, No. 4, pp. 978–1007. Copyright © Taylor & Francis Group, LLC ISSN 0742–1222 (print) / ISSN 1557–928X (online) DOI: 10.1080/07421222.2016.1267521
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+979
+
+validated as helpful for trust development. This research makes several implications, such as proposing a series of trust antecedents, a treatment design of a collaboration engineering (CE) approach for trust improvement, and a new context application of CE. This research could also help the practitioners in globally distributed collaboration who want to improve trust over time. KEY WORDS AND PHRASES: collaboration engineering, design science research, globally distributed collaboration, thinkLets, trust development.
+
+With the rapid development of information technology (IT) for communication and online collaboration, many organizations, including schools and companies, choose collaborative work in distributed teams to improve work efficiency [4]. Trust is widely defined as the willingness to be vulnerable and having confident expectations of the other party [45, 48, 62]. As one of the factors influencing collaboration, trust has played an increasingly significant role in teams. Distributed teams need the support of information technology [13], and also the level of trust in the team can be key to the team’s success. If team members lack trust in collaboration, they will waste more time and have to make a greater effort to collaborate [42, 58]. On the other hand, global virtual teams are geographically distributed and culturally diversified, which calls for a higher level of trust because of the absence of face to face interaction [27, 32]. Trust has been discussed frequently in distributed research settings, where a high level of trust is positively correlated with team performance [17, 19, 65], group work efficiency and effectiveness [56], team member satisfaction [25], and knowledge-sharing behavior [71]. However, all this research treats trust as a state of mind and ignores the process nature of trust dynamics. To follow the dynamics of collaboration behavior through interactions, trust development is a great indicator. Some of the studies that treat trust as a process focus on the initial stage of trust relationships, such as trust-building mechanisms and antecedents [28, 37, 44], but they do not address the measurement of dynamic trust, especially the longitudinal study of trust development. Some report on trust dynamics over time in virtual teams and face-toface teams [13, 75], but that still leaves open the question of whether facilitation intervention can improve trust, and the issue of how intervention principles help trust improvement is still unsolved [20, 21, 51]. It would be useful to know more about trust development over time (e.g., the role of facilitation intervention on trust development), since trust is proposed to be intertwined with the relationship development process [32]. Facilitation intervention with a collaboration engineering (CE) approach provides comprehensive guidelines covering six collaboration patterns [6]. Collaboration engineering can be considered as a combination of facilitation, models, and repeatable process deployment that aims to design a process for recurring high-value collaborative tasks using facilitation techniques and technology [5, 40]. This research is motivated by the intervention of a collaboration engineering process, and aims to explore the influence of facilitated collaboration on trust in globally distributed teams. This study
+
+980
+
+CHENG, FU, AND DRUCKENMILLER
+
+contributes toward a complete understanding of trust development by comparing differences in trust dynamics in facilitated collaboration teams and traditional teams. Thus, we set out to investigate the following questions: (1) Does the development of trust behave differently in conventional collaborative teams and process-guided teams (control group and treatment group)? (2) What are the trust antecedents in longitudinal globally distributed collaboration? (3) How has trust development been influenced by the use of facilitated collaboration in globally distributed collaboration? In order to answer these three questions, we followed a design science research approach to design the facilitated collaboration process. Then we conducted experiments in U.S. and Chinese mixed distributed teams to test the role of facilitation intervention in trust development.
+
+Research Background Understanding Trust
+Trust is a frequently investigated construct in the issue of mutual relationships. Especially in online settings, lack of trust is often blamed for individuals’ lack of interest in distributed interactions [37]. A factor-analytic study proposed by Hoy and Tschannen-Moran [31] demonstrated that different aspects converge to form a coherent construct of trust. A considerable amount of literature has been published on trust dimensions [9, 15, 44, 52]. However, due to the diverse research perspectives and disciplines, there is no unified agreement on the definition of trust, trust antecedents, and consequences. Generally, there are two widely accepted definitions of trust from different perspectives. On the one hand, trust is regarded as the willingness to take risks and the acceptance of vulnerability [48]. On the other hand, trust is mostly related to confidence and positive expectation of another party [62]. That is to say, perceived risk and perceived benefit are two important streams that constitute trust [34, 49, 64]. Perceived risk is the recognized possibility of hazard or harm [18, 69]. In the context of online teamwork, risk is an intentional interaction undertaken with uncertainty [53]. The mostly widely accepted definition of trust also refers to vulnerability to taking a risk [48]. Perceptions of risk likelihood and the impact of risk play a role in the observed variations in trust. While trust refers to an assessment of the likelihood of desirable behaviors in another party, risk mostly shows the assessed probability of not achieving satisfactory results. Therefore, the lower the risk perception, the higher the trust [9]. Trust is regarded as an expectation of a positive (or, at least, nonnegative) outcome in uncertain circumstances [62]. Previous studies have also highlighted ability, confidence, assurance and integrity as antecedents of trust [3, 33, 44, 59, 63]. In teamwork, trust is the reciprocal outcome of trust propensity that is related to reliable behaviors [74]. We incorporate these findings into the concept of perceived benefit. Perceived benefit is defined as belief in the extent to which a person will be better off as a result of interactions [26, 36], and can be regarded as the positive expectation and mutual confidence in the outcome due to other parties’ ability, benevolence,
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+981
+
+and integrity [10]. The higher the value of perceived benefit, the higher the trust perception [9]. From the analysis above, the dimensions of trust come down to a lower level of risk and a higher level of perceived benefit. In other words, a low level of perceived risk and a high level of estimated benefits contribute to the improvement of trust [38, 45, 50]. In our understanding, in distributed team collaboration, trust can be defined as team members’ perceived likelihood of risk and the assessment of benefit in a collaborative relationship. Therefore, based on the trust dimensions and relative trust studies, we aim to investigate trust from the perspective of perceived risk and perceived benefit.
+
+Trust Development
+The understanding of trust is a dynamic process grounded in long-term interactions. Many studies have focused on the development of trust types as ongoing collaboration—for example, some research has found that cognition-based trust is salient in the initial stage and knowledge-based trust plays a dominant role in the later stages [41]. Others have investigated the dynamics of trust from the perspective of trust-type transformation, from individual-level trust to interpersonal trust and organizational trust [35, 66]. Moreover, the dynamic account of trust is also investigated from the perspective of different approaches, such as the behavioral approach and unidimensional, two-dimensional, and transformational approaches [43, 75]. Specifically, in online distributed collaborations, trust also evolves with the dynamics of mutual relationships. Some researchers find trust development of importance and and use it as a foundation for their research [12, 43, 54]. Generally, these literatures are composed of three directions: first, the comparison of trust development trends between computer-mediated teams and face-to-face teams [76]; second, approaches to manage dynamic trust relationships in implementation projects [61]; and third, the development of certain trust factors in distributed virtual collaboration [13]. Together, these studies provide important insights into the issue of trust development. However, few studies have been conducted on the influence of facilitation intervention, especially the IT-enabled collaboration process of trust development. In team collaboration studies, teams using collaboration technologies and process guidance may produce higher-quality ideas than individuals who do not use such support [21, 55]. Therefore, we aim to investigate the influence after careful review of the facilitated collaboration interventions.
+
+Facilitated Collaboration Using thinkLets
+Collaboration engineering (CE) is an approach that has a practical focus on taskspecific work practices. Generally, three roles exist in the theory of collaboration engineering: the collaboration engineer, the facilitator, and the practitioner [39]. Practitioners are the task executors who accomplish the predictable collaboration
+
+982
+
+CHENG, FU, AND DRUCKENMILLER
+
+deliverables with their special skills. The facilitators generally enable efficient group collaboration, and skilled facilitators can often be very expensive [1], while collaboration engineers design the collaboration process to enable in-group members to collaborate efficiently through facilitation intervention. In other words, CE provides the possibility for nonexperts to realize their potential to execute a well-designed collaboration process after quick training [6]. For each collaboration group, one of the in-group members can be selected as the facilitator based on the well-designed collaboration process. The collaboration engineer should coordinate with practitioners to design the facilitation intervention process that users find useful. A collaboration process is composed of a series of thinkLets. ThinkLets are the packaged facilitation interventions that serve as the building blocks for a repeatable collaboration process [5], and specify the rules and technology affordances that group members work with to execute their tasks [22]. Through the five iterated steps of collaboration process design, task diagnosis, activity decomposition, task-thinkLet choice, agenda building, and design validation, a task-related collaboration process is designed that can be executed with the help of group support systems [39]. There are several thinkLets, such as Brainstorming, PopcornSort, StrawPoll, and FastFocus. CE identifies six collaboration patterns, including generation, reduction, clarification, organization, evaluation, and building a consensus [7]. A certain thinkLet corresponds to the patterns of collaboration. Consequently, thinkLets modules and collaboration processes are considered to be beneficial for the improvement of trust antecedents over time, and the trust antecedents in turn lead to trust development from the perspective of risk and benefit. For example, it has been observed that improving the quality of collaborative work through thinkLets leads to better knowledge sharing [2, 30], and knowledge-sharing behavior is positively correlated with reciprocal benefit and trust [30]. Meanwhile, cognitive costs can be reduced and, as a result, group productivity can be improved according to an IT-enabled CE process [5]. An improvement in group productivity may lead to an increase in benefit that finally facilitates trust [78]. In the practical project of risk management, the CE process also plays a positive role in mitigating risks [40]. Moreover, other researchers have found that communication, coordination and motivation are all improved after executing the idea of creating a framework of thinkLets [46]. More specifically, members’ activeness and passion in participation may be improved after the adoption of a CE process [14], while research has studied the positive relationships among communication, motivation, participation, and trust [32].
+
+Research Framework
+Our literature review reveals that the CE intervention has been widely investigated in terms of team collaboration outcomes. We synthesize a number of trust dimensions that have been identified in previous literature from the perspective of risk and benefit. Combining these two aspects, we propose a research framework that illustrates the influencing path of facilitated collaboration to collaboration outcomes.
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+983
+
+Longitudinal influence
+
+Treatment
+ThinkLets modules Collaboration process
+
+Risk Trust antecedents Benefit Trust
+
+Trust consequences
+Satisfaction
+
+Figure 1. Research Framework
+
+Figure 1 presents our research framework. In summary, we argue that repeatable facilitated processes using thinkLets are beneficial for the improvement of several trust antecedents that help minimize risk and maximize benefit. As the collaboration progresses, the development of trust will ultimately have a positive effect on the collaborative performance of the distributed team.
+
+Research Method and Data Collection
+Our study serves as a design science research initiative founded on the logic of exploratory research. Following the guidelines for design science in information systems research [73], a facilitated-intervention process was designed to help with trust development in team collaboration, satisfying the deliverables. To measure the influence of facilitated collaboration principles on trust development in global virtual collaboration, this study conducted a series of experiments targeting the case of U.S. and Chinese mixed teams. Students in a Chinese university and a U.S. university students took part in the experiments. Overall, we conducted a longitudinal experiment with repeated investigations of the same participants over three stages of collaboration. During the experiment, one group is the treatment group, and the other is the control group. The treatment group was instructed to use well-designed software based on principles of collaboration engineering. The control group received no guidance in any IT-enabled collaborative process.
+
+Participants
+A total of 172 undergraduate students participated in our case experiment. They received course credits for participating. The students were divided into two separate case groups, 84 students in the control group and 88 students in the treatment group. Both groups’ courses lasted nine weeks. The participants’ average age was 21.9 in the control group and 21.8 in the treatment group. There was no significant difference between the two groups in terms of age, educational background, or gender composition.
+
+984
+
+CHENG, FU, AND DRUCKENMILLER
+
+In the control group, 46 students were from a university in China and 38 students from a university in the United States in the form of a distance education course. They were divided randomly into nine hybrid subgroups to complete a team project over nine weeks. Each subgroup consisted of four or five Chinese students and three or four U.S. students. For the treatment group, a total of 88 students took part in the experiment. Among those, 39 were from a U.S. university and 49 in a Chinese university. Also, we randomly divided these students into nine subgroups. The principle when grouping the students was to ensure the same percentage of U.S. students and Chinese students within each group.
+
+Procedures
+Over the nine weeks, the students (both the control group and the treatment group) were asked to collaborate to work on a cross-border e-business website analysis. The task was exactly the same for the control group and the treatment group. Students collaborated in the form of subgroups in both cases to simulate consulting teams. Group decision making was required to explore international logistics management problems in the e-business and finally to reach decisions about solutions and recommendations for solving the problems. The two cases (treatment group and control group) were conducted in two consecutive semesters in sequence. We first conducted the experiment with the control group, then conducted another case experiment with the treatment group in the following semester. Despite the different course time, the two groups shared certain similarities in terms of the teachers, course content, and collaboration task. In the experiment, in both groups, Chinese students were allowed to interact faceto-face with their Chinese teammates but students in the U.S. university were not able to collaborate with them face-to-face due to the restrictions of the online course environment. Instead, distributed students used several software tools to support their collaboration, such as WeChat (group chatting software), e-mail, and Skype. The difference between the treatment group and the control group lay in the process control and collaboration tools. The control group received no process guidance: the collaboration process was disorganized, with the teams using only WeChat and Skype. For the treatment group in our case experiment, one student was selected from each of the nine collaboration subgroups to be the facilitator of the teamwork. We demonstrated the facilitated collaboration process to the facilitators and instructed them to use the Discussion system, a self-developed professional collaboration tool designed according to the principles of CE. The facilitator was responsible for being the timekeeper and group leader of the collaboration. The participants used their own computers to register the Discussion system. Once logged in, guidelines were provided on use of the system. The distributed team members in the treatment group were asked to use the system to collaborate and work toward their deliverables to solve the problems the company faced.
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+985
+
+Design of Treatment
+In this section, we aim to elaborate the CE process design for this study. We developed a collaboration process to support participants’ collaborative tasks. The process design was based on the general principles proposed by Kolfschoten and Vreede [40]. Based on the tasks, an example of the collaboration process can be seen in Figure 2. We labeled the sequence number, pattern of collaboration, activity name, and time setting for each thinkLet. The facilitation process model (FPM) links the collaboration agenda and thinkLets, and contains the step number, the activity, the thinkLet name, the pattern of collaboration, and the duration of each activity [6, 22]. In Figure 2, the FPM sequence demonstrates the collaboration process. For each FPM, the sequence number is the order in the collaboration process, which is indicated in the left-upper field, while the pattern of collaboration is given in the lower-left corner. In the lower-right corner, we explain the activity name of the particular thinkLet that conveys what is supposed to be achieved in this step. In the upperright corner, we add the required time for each thinkLet module. During the execution of the collaboration, the countdown function was used to ensure the duration of each thinkLet module. Because the process can be used repeatedly, we merely designed the duration instead of the exact clock time. Facilitators and group members could set the starting time for each task themselves.
+End Begin
+
+1
+Generate
+
+Free brainstorming
+
+15 min.
+
+6
+Build consensus
+
+Crowbar
+
+5 min.
+
+6 PointCounterpoint 5 min.
+To find common ground between polarized factions in a debatable situation. In a badly conflicted group
+Build consensus
+5 min.
+5 min.
+
+Team members brainstorm their ideas freely.
+
+To output a prioritized list of items and help members know others.
+
+When the group has some unshared opinions
+
+2
+Reduce
+
+FastFocus
+
+5 min.
+
+5
+Evaluate
+
+StrawPoll
+
+To remove some invaluable ideas and pick up some reasonable ones.
+
+To measure the consensus within a group and rank the ideas.
+
+3
+Organize
+
+PopcornSort
+
+5 min.
+
+4
+Evaluate
+
+Bucketwalk
+
+To validate the convergence and quickly categorize ideas.
+
+To validate the results of a PopcornSort.
+
+Figure 2. An Example of a Facilitated Collaboration Process Using thinkLets
+
+986
+
+CHENG, FU, AND DRUCKENMILLER
+
+The participants in the treatment group were asked to use the collaboration tool, the Discussion platform, designed according to the thinkLets–enabled collaboration process. The Discussion platform was self-developed to be available in Windows, Apache, MySQL, and PHP (WAMP) environments so that each participant could use his or her personal computer as the server [11]. During the collaboration of every subgroup in the treatment group, each team selected one member to be the facilitator. The facilitators were trained in terms of what to monitor and what instructions to give in terms of collaboration. Moreover, the collaboration process is intended to be used frequently, as CE provides the possibility of designing a repeatable process that can be used for recurring tasks [5, 7] or within the task.
+
+Data Collection
+We conducted the study by having participants in different countries interact and collaborate with one another and then measuring the data at the individual level over time. Quantitative data collection (a survey) showed some findings concerning the general trust development trend and the comparison between different groups. However, statistical results among variables alone cannot uncover the evidence of causal relationships. Furthermore, the mechanism of why trust develops cannot be solved with survey data alone. Qualitative data (e.g., interviews and documentation) are better able to describe a phenomenon and identify the inner structures. Therefore, we adopted a mixed data collection method. Specifically, in the data collection for the experiment, we used three approaches: survey, interview, and documentation. Triangulation of data sources provides greater accuracy and improves the robustness of the research results [72, 77].
+
+Survey
+We used two separate questionnaires (one to measure trust, the other to measure the collaboration process) designed by prior researchers to conduct our survey investigation [7, 12, 33]. For the questionnaire of trust adapted from Cheng et al. [12] and Jarvenpaa and Leidner [33], we measured three constructs related to trust: risk, benefit, and overall level of trust. For the questionnaire on the facilitated collaboration process adopted from Briggs et al. [7], four constructs were measured, including satisfaction with process (SP), satisfaction with outcome (SO), tool difficulty (TOOLDIF), and process difficulty (PROCDIF). All constructs were measured through multiple items. The items were presented in the form of several statements. For each item, a five-point Likert scale was used with anchors from 1 to 5. Among them, 1 represented the strongest disagreement and 5 the strongest agreement. For both groups, we administered the trust questionnaire three times to track the development of trust over the whole project: the initial stage, middle stage, and final stage. At the initial stage, we delivered the questionnaires to the participants as soon as we divided them into several collaboration groups. The majority of the students
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+987
+
+Table 1. Testing for Nonresponse Bias Test for equality of two groups of respondents
+Respondents who completed questionnaires at all three stages Respondents who did not complete the latter two survey stages Wilks’s lambda = 0.98
+
+Gender
+0.45
+
+Collaboration experience
+2.43
+
+0.54
+
+2.29
+
+F = 0.51
+
+t = –0.83
+
+t = 0.72
+
+had no prior collaboration experience. We allocated the collaboration task to the participants and collected data when the participants finished their initial collaboration interaction. We then asked the students to continually collaborate within the group and, in the fifth week of the case—namely, the second stage—we asked the students to complete the same questionnaires based on their four-week collaboration experience. Later, in the final stage, we conducted follow-up surveys with the same participants in the ninth week before the course finished. We delivered trust questionnaires three times in the control group in total. For the treatment group, since a facilitated collaboration process was used, we not only delivered trust questionnaires three times but also delivered the collaboration process questionnaire in the final stage of their team collaboration. All the participants completed the questionnaires in the initial stage. However, in the second stage, the response rate decreased to 94 percent in the control group and 91 percent in the treatment group. Later, in the final stage, the response rate was even lower, with 88 percent responding in the control group and 87 percent in the treatment group. In order to test the nonresponse bias in our research, we conducted a comparison of participant characteristics between those who failed to deliver questionnaires in the latter two stages and those who finished all the questionnaires at the three stages. The results indicated no significant differences in terms of demographic variables of gender and collaboration experience: thus nonresponse bias does not exist in this study (see Table 1).
+
+Interview
+At the end of the project, we successfully interviewed 22 students in the control group and 25 students in the treatment group individually. Interview protocols were designed based on our research models, and are pertinent themes in trust development and collaboration literature [5, 36]. Specifically, we mainly asked the informants about the dynamic mechanisms of several interesting findings from the survey results. The interview questions took the form of four parts. First, we inquired about the demographic features of the participants and their roles in the team collaboration.
+
+988
+
+CHENG, FU, AND DRUCKENMILLER
+
+Second, we asked about their collaboration experiences and how they conducted the deliverables. Third, we asked about their perceived trust dynamics, perceived risk and benefits through team collaboration. Fourth, we conducted semistructured interviews with open-ended questions. The interviews were audio recorded with the agreement of the interview participants. For each collaboration group in both cases, two or three members from each group were asked to participate in the interviews. Each interview took between half an hour and an hour, depending on the participants’ responses. The interviews were conducted by two of our authors together. One interviewer asked the general questions according to the interview transcripts while the other raised questions about the incidental findings. Once recorded, these interviews were transformed into text transcripts as soon as possible. Clarifications and follow-up questions were asked if any of the text transcripts were thought to be ambiguous. We addressed potential informant bias in several ways. First, participants in each collaboration group were involved in the interviews, including the facilitator in the group collaboration and other team members. Second, open-ended questions were involved in the interview transcripts, which help limit recall bias [47]. Third, participants only received course credits for taking part. Their names and group numbers were coded and we gave the interviewees anonymity so that they could speak freely. Fourth, the interviewers (two of our authors) were trained professionally to prompt interviewees to provide more details about their distributed group collaboration but to avoid leading questions and apparent answers.
+
+Documentation
+Documentation was gathered mostly from the U.S. students concerning their overall feelings about the distributed collaboration of culturally mixed groups. The documentation was about lessons learned from the mixed distributed collaboration and best practices in accomplishing the project. We collected the documentation at the end of the project in the form of a home assignment. The documentation serves as a supplement to the qualitative interview data [23].
+
+Data Analysis
+This study used a multimethod approach to collect data. Through statistical analysis of longitudinal surveys, we evaluated the general changing trend in trust development over time. Through qualitative analysis of interview data, we further investigated the in-depth mechanisms from the perspective of influencing factors. In this study, the multimethod approach minimized the threat of monomethod variance, enabling us to investigate the mechanism of the trust development trend and the effect of facilitated collaboration on trust dynamics and group performance.
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+989
+
+Table 2. Reliability and Validity Results of the Survey Spearman– Brown coefficient
+0.866 0.831 0.745 0.855 0.842 0.730 0.874 0.853 0.886 0.821
+
+Variables
+Control group Treatment group Evaluation of process Risk (RA) Benefit (BA) Overall trust (TA) Risk (RB) Benefit (BB) Overall trust (TB) Satisfaction with process (SP) Satisfaction with outcome (SO) Tool difficulty (TOOLDIF) Process difficulty (PROCDIF)
+
+Composite reliability (CR) AVE
+0.782 0.731 0.883 0.737 0.807 0.732 0.912 0.835 0.841 0.882 0.701 0.694 0.675 0.604 0.660 0.596 0.691 0.762 0.729 0.689
+
+Quantitative Results
+Reliability and Validity of the Instrument We adopted reliability tests to measure the inter-item consistency of both questionnaires. The Spearman–Brown coefficients of each construct are shown in Table 2. Moreover, we used exploratory factor analysis (EFA) and confirmatory factor analysis (CFA) to check the convergent validity of the constructs measured in the questionnaires. The rotated factor matrix results through SPSS showed that the measurement items for constructs in our questionnaires were acceptable: all the items’ factor loadings are over 0.5 on the corresponding constructs. Furthermore, we computed the average variance extracted (AVE) for each construct. The CFA results showed that every indicator loads signiﬁcantly (p < 0.01) on the expected construct and that all loadings are above 0.5. Overall, the results indicate that all the values of the constructs were greater than the thresholds, indicating that the scales were acceptable for this research. For detailed results, see Table 2.
+
+Control Group All the U.S. and Chinese participants were asked to complete questionnaires at three stages during the project, the initial, the middle and the end. We calculated the arithmetic mean value of all the variables of each group at the three stages, and then calculated mean values of all the participants. Table 3 shows the trust values at the three stages of the collaboration project in the control group. We can see that the average level of risk increased from 2.03 to 2.24. As for the mean values of benefit, we find that benefits decrease from Stage 1 to Stage 2, and increase from Stage 2 to Stage 3. For the overall level of trust, we find that the mean value of trust continued to decrease from Stage 1 to Stage 3.
+
+990
+
+CHENG, FU, AND DRUCKENMILLER
+
+Table 3. Descriptive Results of Trust Development in Control Group Median (Stage 1→2→3)
+Risk Benefit Overall trust 2.26→2.26→2.25 4.00→4.00→4.17 4.00→4.00→4.00
+
+Mean (Stage 1→2→3)
+2.03→2.13→2.24 4.08→3.92→4.01 3.98→3.79→3.77
+
+SD (Stage 1→2→3)
+0.60→0.64→0.67 0.61→0.69→0.67 0.85→0.85→0.76
+
+Treatment Group Similarly, we calculated the mean value, standard deviation, and the median value from Stage 1 to Stage 3 of the treatment group in our experiment case. The experiment group was instructed to use the facilitated collaboration tools to help with their teamwork. Table 4 presents an overview of the descriptive results of the treatment group. We first analyzed the mean value results. It is apparent that risk decreases over time, while benefit and overall level of trust continues to increase from Stage 1 to Stage 3. Moreover, the median value of each construct shows the same trend. Table 5 shows the results obtained from the preliminary analysis of students’ perception of the facilitated collaboration process. From the results, the score for participants’ satisfaction with the process (SP) ranges from 1 to 5, with a mean value of 3.89. The mean value of SO is 4, which is the same as its median value. For TOOLDIF, the mean value is 3.87, almost the same as the median value of 3.83. Moreover, participants’ perception of the ease or difficulty of the collaboration process ranged from 1 (very difficult) to 5 (very easy), with a mean of 3.85. Overall, the result of the process survey is satisfying.
+
+Table 4. Descriptive Results of Trust Development in Treatment Group Median (Stage 1→2→3) Mean (Stage 1→2→3) SD (Stage 1→2→3)
+Risk Benefit Overall trust 2.11→2.00→1.79 4.33→4.33→4.50 4.00→4.00→4.00 2.01→1.98→1.82 4.17→4.24→4.36 4.03→4.08→4.13 0.65→0.63→0.69 0.64→0.66→0.72 0.86→0.82→0.89
+
+Table 5. Results of Collaboration Outcome in Treatment Group Median
+Satisfaction with process (SP) Satisfaction with outcome (SO) Perceived ease or difficulty of tools (TOOLDIF) Perceived ease or difficulty of work process (PROCDIF) 4.00 4.00 3.83 4.00
+
+Mean
+3.89 4.00 3.87 3.85
+
+SD
+0.77 0.74 0.81 0.68
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+991
+
+Comparison of the Two Groups Comparing the statistical results in the two case groups, one interesting question arose—whether applying the CE process to team collaboration is more useful to improve trust (with a lower level of risk and a higher level of benefit). Since the results of the two groups separately indicate the general development trend, we aim to compare the data further to ascertain the significance of the changes. First, repeated measures of analysis of variance (ANOVA) were conducted to evaluate the longitudinal differences between the two groups. The resulting design is 2 (type of groups) by 3 (stages). The facilitated process served as a between-groups factor while the others were within-subject or repeated measures factors. As for risk, the result for Mauchly’s test indicated that the assumption of sphericity was met, χ2(2) = 0.469, p = 0.291. The results showed no significant effect of stages on risk perception, F(2,308) = 2.269, p = 0.105. However, the interaction effect of stage and intervention (treatment group vs. control group) had statistical significance on risk perception, F(2,308) = 6.279, p = 0.002. In the meantime, the effect of intervention on risk was also significant, with F(1,154) = 18.042, p = 0.000. For benefit, the results of Mauchly’s test suggested that sphericity was also met, χ2(2) = 1.949, p = 0.377. There was a significant effect of intervention on benefit perception, F (1,154) = 16.645, p = 0.000. However, the other two effects were not significant. For trust, Mauchly’s test indicated that the assumption of sphericity was also met, χ2(2) = 3.238, p = 0.198. Both the main linear effect of group (F [1,154] = 10.942, p = 0.001) and the interaction effect of group and stage (F [2,308] = 2.584, p = 0.077) had statistical significance on trust perception (see Table 6). In order to display the trust development trend in the two research groups visually, we drew a column diagram using mean value (Figure 3). The results of trust development in the control group are shown on the left, while the results of the treatment group are shown on the right. The graph shows a gradual decline in the value of risk and steady increases in the values of benefit and overall trust in the treatment group. Notably, the comparison between two groups demonstrates changing trends in trust development. Since the main effect of group on all three indicators (risk, benefit, and trust) showed significant differences, pairwise comparisons were conducted to explore which pairs of variables were significantly different through difference stages. In Table 7, we only picked those pairs that were significant among stages. The results of the survey data reveal several interesting findings:
+●
+
+From the perspective of risk, risk continues to decrease in the treatment group and increase in the control group over time. The fluctuation of risk is the most obvious whether in the control group or treatment group. Statistical evidence shows that the longitudinal development of risk was significant.
+
+992
+
+CHENG, FU, AND DRUCKENMILLER
+
+Table 6. Repeated-Measures ANOVA for Stages and Facilitated Intervention Source
+Risk: Sphericity assumed (p = .291) Stages Stages*Group Error(Stages) Group Error(Group) Stages Stages*Group Error(Stages) Group Error(Group) Stages Stages*Group Error(Stages) Group Error(Group)
+
+Type III sum of squares
+1.362 3.771 92.491 8.660 73.915 .891 1.516 104.747 7.597 70.291 .424 2.597 154.773 7.383 103.907
+
+df
+2 2 308 1 154 2 2 308 1 154 2 2 308 1 154
+
+Mean square
+.681 1.885 .300 8.660 3.480 .446 .758 .340 7.597 .456 .212 1.298 .503 7.383 .675
+
+F
+2.269 6.279**
+
+Sig.
+.105 .002
+
+18.042*** .000 1.310 2.229 .271 .109
+
+Benefit: Sphericity assumed (p = .377)
+
+16.645*** .000 .422 2.584* .656 .077
+
+Trust: Sphericity assumed (p = .198)
+
+10.942*** .001
+
+Notes: ns: not significant; *p < 0.1; **p < 0.05; ***p < 0.01.
+
+Figure 3. Trust Development Column Diagram (Left: Control Group; Right: Treatment Group)
+
+●
+
+From the perspective of benefit, benefit constantly increases from Stage 1 to Stage 3 in the treatment group. The role of facilitation intervention in benefit development showed statistical significance. ● From the perspective of overall trust, trust significantly decreased in the control group. However, the trend of trust development in the treatment group is not significant. ● The differences between groups (treatment group vs. control group) for risk, benefit, and trust were all significant.
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+993
+
+Table 7. Pairwise Comparisons 95% confidence interval for difference Indicators (Group): (I–J) Stages
+Risk(Treatment group): 1–3 Benefit(Treatment group): 1–3 Trust(Control group): 1–3 Risk(Control group): 1–2 Risk(Control group): 1–3
+
+Mean difference (I–J)
+0.195** –.186** .212* –.294** –.208**
+
+Std. error
+0.072 0.075 .123 .091 .098
+
+Sig.
+.014 .015 .089 .002 .037
+
+Lower bound
+.041 –.334 –.034 –.476 –.404
+
+Upper bound
+.349 –.037 .458 –.112 –.013
+
+Notes: ns: not significant; *p < 0.1; **p < 0.05; ***p < 0.01.
+
+Qualitative Analysis
+In order to find the in-depth mechanism of the aforementioned quantitative results, we also conducted interviews and documentation studies. We analyzed the qualitative data concurrently as we collected them [23]. Following the data analysis principles, we carefully analyzed the qualitative data based on the theoretical lens and multisourced data. The main purpose of the qualitative data analysis was to find the detailed influencing mechanism that led to trust development over time. We assessed the influencing mechanism in trust development from informants’ interview statements. These statements emerged in two ways. The first was in response to our interview protocol, where we directly asked about each trust dimension—for example, “Were there any problems in your team, and if so, what were they? How were they resolved?” The second was in response to our openended questions, where respondents expressed their overall feelings over the whole period of team collaboration. The qualitative data were transcribed and coded manually. Two of our authors participated in the coding process. Each coder separately categorized themes from the interview transcripts and documentation. Review and discussion between the two authors continued until they agreed on the key words to include in each category. Since our research purpose was to investigate the trust antecedents that accounted for trust development over time, we focused on the key words and sentences that might illustrate trust dynamics while coding. The whole coding process was iterative to improve insights and generalities [70].
+
+Trust Antecedents Related to Risk In this section, we display mainly the qualitative results from the control group data. We found three main factors of risk (antecedents of trust) through qualitative analysis—time zone difference, language and cultural difference, and communication.
+
+994
+
+CHENG, FU, AND DRUCKENMILLER
+
+1. Time Zone Difference Time zone difference is a natural problem when many people work across continents [24]. Teams may face greater complexity when members work across multiple time zones, largely because of the difficulty of instant communication [67]. By analyzing participants’ interviews and documentation, we identified three negative effects (subfactors) of time zone difference that correlate with risk and are negatively associated with trust and collaboration. Subfactor 1: Difficulty in Communicating and Scheduling Work. Time zone difference has a relationship with the difficulty in communicating and scheduling work, thus correlating with the level of risk. Most participants had at least ten hours’ time difference, so the time difference was obvious and difficult to coordinate. For example, there is a comment in the documentation: “The biggest problem was time difference. Most of the discussions among the Chinese students are after 11pm because it was daytime for them. The main issue we had was the time difference since they would talk to us so late in the day here, we would just answer when we could.” Subfactor 2: Information Delay. Acquiring information was postponed, so information delay was another negative effect correlated with risk. Due to different time zones, there are always problems in acquiring information promptly, which is gradually related to the level of risk over time. Talking about this issue, an interviewee said: Inevitably there are questions that don’t get answered until the following day because of the time difference. Sometimes I feared whether or not they really devoted themselves to our collaborative task as a result of the delayed response. After several weeks’ interaction, my motivation to the task is lower than the very beginning, because of the existence of a sense of cold-shoulder. Subfactor 3: No In-depth Discussion. The time zone difference is a barrier to conducting in-depth discussion. Choosing an exact time when everyone in the team is free is usually difficult, but especially in globally distributed teams. As one interviewee put it: “The time difference did make it a bit difficult to have real lengthy discussions, however, so often we would post and they would answer much later and vice versa.” Most collaboration discussions could not be organized for a long time, such as over two hours, and too many short collaboration sessions will reduce efficiency and slow the project schedule. As problems arise, time zone difference has a positive relationship with risk in distributed team collaborations, thus correlating to collaboration trust. 2. Language and Culture Difference Virtual team settings are more likely to include members who represent different cultures than teams with collocated members [10]. Culture is a set
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+995
+
+of values shared by a group of people and can be used to distinguish one group from another [68]. Cultural values act as a filter, reflecting the surrounding environment and guiding people’s behavior in decision making and social interaction [54]. Language, as one cultural characteristic, is particularly relevant to distributed teams [16]. After data analysis, we identified some problems (subfactors) in language and culture differences that positively correlate with risk. Subfactor 1: Language Proficiency. Differences in language proficiency among distributed team members created barriers to effective communication and collaboration. Generally, team members with less proficient language skills may suffer a confidence deficiency in their communication. They may voice their opinions infrequently and sometimes misunderstand the meanings expressed by others. A Chinese individual stated: “It was difficult at times to get an idea across to them, possibly only because we weren’t sure how to express the idea in a manner they would understand.” Subfactor 2: Habitual Behavior. Moreover, habitual behavior is different because of the diverse national contexts, which also has a positive relationship with the level of risk. Hofstede and Bond [29] identified five dimensions of culture. In our case, individualism versus collectivism is the most obviously relevant dimension. Students in a U.S. university value personal freedom and achievement more and are more task-oriented, while Chinese students may believe the group is more important than the individual and ascribe greater value to good relationships with others. Comments include: “We try to keep friendly relationships with foreign students,” and “They [United States] always issue their ideas individually, but we [China] always discuss within the Chinese group and have a common idea to propose.” 3. Communication Virtual team environments are made possible by information and communication technologies (ICT), so communication is a key factor [32]. Distributed teams depend heavily on computer-mediated communication (CMC), which allows team members to engage in collaborative activities [33]. The reliance on CMC in distributed collaboration relates to members’ perceived risk, which ultimately has a negative association with the development of trust [60]. Subfactor 1: Collaboration Media. Even in terms of collaboration media, participants in different countries have different habitual communication tools. For example, some communication tools, such as Google+ and Facebook, are not available in China, but U.S. students are not accustomed to using WeChat. One interviewee reported: “While something [WeChat] here is simple and easy to use, they found it inconvenient and not very useful. I had hardly heard of WeChat before collaborating with the Chinese.”
+
+996
+
+CHENG, FU, AND DRUCKENMILLER
+
+Subfactor 2: Information Integration. Another problem is that it is not easy for users to integrate information. Everyone in the team presents information in separate parcels and it is difficult to capture key points. Especially for later information integration, this creates extra work. There are some comments such as: “I made lots of efforts to integrate information and it is too scattered. I have to download all the chatting records of our group and read the records thoroughly to find the valuable information. It’s time consuming and lowers our collaboration efficiency.”
+
+Trust Antecedents Related to Benefit We also display the qualitative data analysis results in the control group. We focused on the factors related to benefit in this section. Generally, we found that task accomplishment and leadership serve as two main factors influencing benefit during collaboration. 1. Task Accomplishment Subfactor 1: Job Finished on Time. When the group collaboration tasks were allocated to each member, the team members were required to report periodical deliverables to others. If all the participants within a group attach importance to this collaboration task and accomplish their work on time, the perceived benefit will change correspondingly. As one interviewee said, “When a team member stated they would do or complete a task, if they followed through with it that is what allowed me to trust.” Subfactor 2: Effort on the Tasks. In the middle stage of team collaboration, some team members failed to hand in their work on time: their strong focus was on other issues, so the overall level of benefit was relatively low in the middle stage of team collaboration. As one interviewee in the United States put it: “We started meeting up and talking about the project early on, but then I think we all got busy with other things and did very little work for quite a while. So then we had to put a lot of effort in at the end to finish the project.” 2. Leadership The role of leader and leadership ability serve as contributors to the improvement of benefit. We further discussed two aspects of leadership from the qualitative data in this research. Subfactor 1: Task Allocation. We divided each research case into several collaborative subgroups, the leadership in different groups varied. For some of the subgroups, one member was selected to be the team leader: responsible leaders normally allocated tasks clearly, and guided other members to discuss the tasks efficiently. However, for other groups, the team collaboration was
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+997
+
+relatively disorganized, the perceived benefit was thus relatively low. As one interviewee put it: I think that we also had a bit of trouble with not having a “leader.” I think it took a long time before somebody stepped into the leader role and started pushing us to get the project done. Once the leader stepped up, then it only took us a couple of days to pull everything together. Subfactor 2: Powerful Leaders. On the other hand, powerful leaders have the ability to gather team members together and facilitate within-group interactions, especially the cross-cultural collaboration that broadens the vision of the participants. Because the cross-cultural collaboration experience serves as an important source of benefit, the leader who enables members to know each other is very important. For example, one participant said: I have never claimed to have superior knowledge or ability to influence others and am always grateful for the opportunity to work with others and learn from others, thanks to our team leader who gathered us together. New experiences are always a plus in my book, this was definitely a new experience.
+
+Risk Reduction through CE In the previous two sections, we mainly discussed five trust factors that may influence risk or benefit in the case of the control group. For each trust factor, we elaborated several second-tier subfactors to illustrate the influencing mechanisms. In the case of the treatment group, we mainly investigated the effect of a thinkLets– enabled collaboration process on trust development. Following the trust factors and the corresponding subfactors, we emphasized the influence of the CE process on trust improvement. In this section, we begin by discussing the first aspect of trust, risk, based on the qualitative results of the control group. 1. After the adoption of the CE process, members have greater potential to conduct in-depth discussions. Group productivity is improved using the experiment process, even though time zone difference is an inherent problem in globally distributed collaboration and becomes a barrier to conducting indepth discussion. Through the use of a facilitated collaboration process in the treatment group, team members gathered together within a fixed period. The countdown function embedded in the Discussion platform enables members to concentrate on the collaboration while working together, which facilitates in-depth discussion and further leads to the improvement of group productivity. As one interviewee put it: “After longitudinal collaboration and the use of the Discussion platform, I don’t think the time zone difference is a major problem. The facilitated collaboration guided by our team leader enables our collaboration to be accomplished efficiently.”
+
+998
+
+CHENG, FU, AND DRUCKENMILLER
+
+2. Habitual behavior caused by cultural difference is minimized through a welldesigned process. Although individualism versus collectivism exists in different cultural backgrounds, our experiment helped weaken the influence of cultural differences. This can be further explained through the thinkLets modules of Crowbar and PointCounterpoint. These thinkLets help with the process of building a consensus. That is to say, no matter what their culture’s tradition, team members should all vote for the solutions and discuss with one another until conclusions are finally reached and agreed with other members. For example, one U.S. student commented: “We have to follow the collaboration process, no matter how we collaborated with native team members before.” 3. Information integration became easier after the adoption of the CE process. Lack of ease in integrating information was an indicator of the communication barrier proposed by the control group, while in the eyes of the treatment group members, the designed process helped remove invaluable ideas and the final decision was the outcome agreed by most team members. Therefore, communication was improved through the CE process, leading to the decrease of risk. As one informant noted: “I think it [the Discussion platform] is great! Although we [the Americans and Chinese] all [are] not familiar with the tool, some of the functions are useful and effective for our virtual communication. ”
+
+Benefit Promotion through CE As for the benefit factor, we also found several advantages in the experiment process compared with the control group of using regular collaboration tools and processes. 1. The leaders became more powerful and organized due to the CE process. On the one hand, the facilitators serve as the team leaders who guide the collaboration process, reserve time for the group discussion, and ensure members’ participation. The experiment process does not require a professional facilitator because the tool is easy to use and it is easy to grasp how to be a facilitator in the Discussion platform. One member who served as a facilitator said: “After the training that included a demonstration and practice of each thinkLet by a professional facilitator, I think I am able to lead our collaboration process using the Discussion platform.” 2. The motivation to collaborate changed due to the CE process, and so had a positive relationship on the effort put into the tasks. Although the experiment clearly may not have had a direct influence on task accomplishment, team members valued the whole collaboration highly and their motivation in the task was relatively high as a result of the ordered collaboration process, which may in turn promote task accomplishment. When talking of
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+999
+
+motivation, a U.S. student commented: “The members of the Chinese team we talked to on a regular basis seemed to be reliable and gave us great brainstorming ideas for the project. We are motivated to get the work done.”
+
+Discussion Summary of the Results
+In order to answer the three research questions proposed in the introduction section, we conceptualized and empirically tested a research model relating to the influencing mechanism from trust antecedents to consequences. Specifically, there are four major findings in our present study. We present the findings according to each of the research questions. Research Question 1: Does the development of trust behave differently in conventional collaborative teams and process-guided collaborative teams? Trust development in the control group and treatment group shows different trends. Specifically, risk significantly increases in the control group and decreases in the treatment group, while benefit significantly increases in the treatment group, trust significantly decreases in the control group. Among these, the effects of group types on trust development were all significant on all three indicators (risk, benefit, and trust). Of all the trust dimensions, the change of risk was the most significant whether in the control group or the treatment group. Therefore, these findings through the analysis of longitudinal data answer RQ1. The trust development trends are different in conventional collaborative teams and process-guided collaborative teams. Compared with the ideal development trend of lower risk and higher benefit [38], the process-guided collaborative teams (i.e., the treatment group) have more satisfying collaboration results from the perspective of trust dynamic. Research Question 2: What are the trust antecedents in longitudinal globally distributed collaboration? Five factors were found to be the antecedents of trust in longitudinal globally distributed collaboration: these factors are time zone difference, language and cultural difference, communication, task accomplishment, and leadership. In sum, these five antecedents help answer our second research question. The former three factors serve as the influencing factors of risk, while the latter two factors were found to have an influence on the perceived benefit. Furthermore, for each trust antecedent, we also see several second-tier subantecedents that clarify the in-depth reason that a certain factor is regarded as a trust antecedent in our study. The antecedents found in this research are all in line with previous studies [24, 32, 54], although the influencing mechanisms are slightly different in various research settings. The relationships of the antecedents are shown in Figure 4.
+
+1000
+
+CHENG, FU, AND DRUCKENMILLER
+
+Information delay
+
+No in-depth discussion
+
+Job finished on time
+
+Collaboration media
+
+Time zone difference
+
+Leadership
+Difficulty in communicating Effort on the tasks
+
+Communication
+
+Risk
+
+Benefit
+Powerful leaders
+
+Information integration
+
+Language and cultural difference
+Language proficiency Habitual behavior
+
+Trust
+Task accomplishment
+
+Task allocation
+
+Figure 4. Proposed Relationships of Trust Antecedents
+
+Research Question 3: How has trust development been influenced by using facilitated collaboration? The well-designed CE process enabled trust improvement in the treatment group. In order to answer the third research question, we deliberately reviewed the interview transcripts and the documentation to find the influence of CE on trust development. Several thinkLets modules were found to contribute to the improvement of trust. For example, the designated duration of each activity causes team members to concentrate on the collaboration and improves group productivity, thus helping to weaken the influence of time zone difference. Also, some thinkLets modules helped to weaken the influence of cultural diversity and communication barriers, such as Crowbar to create a prioritized list and PopcornSort to concentrate ideas. As CEenabled collaboration provides the possibility of repeating the collaboration process for recurring tasks [5], the influence of the thinkLets can be a longitudinal process. Just using the process once may not influence the level of trust significantly, but the cumulative influence over time serves as a catalyst for trust improvement in globally distributed collaboration. Moreover, from the perspective of the collaboration process, the designed process is organized and enables team members to reach a consensus within the scheduled time. The facilitator role helps to improve leadership skills through guided scripts. The improvement in leadership also facilitates an improvement in trust after long-term team collaboration. In total, we have found five attractions of CE theory that help with risk reduction and benefit improvement that ultimately contribute to trust development over time. Each attraction is associated with a single trust subfactor, as discussed above. Finally, through the measurement of trust consequences, the average value of SO, PO, TOOLDIF, and PROCDIF are all around 4. This reflects a relatively satisfying
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+1001
+
+collaboration outcome through the improvement of trust using the CE process. The Discussion platform is relatively easy to use (mean value of TOOLDIF = 3.87) and the designed process is easy to follow (mean value of PROCDIF = 3.85). The participants’ outcome expectations are generally met (mean value of SO = 4), and they are generally satisfied with the collaboration process we designed (mean value of PO = 3.89).
+
+Contribution to Research
+This research fills gaps by making the following theoretical contributions. First, based on the perspectives of risk and benefit, we found several trust antecedents and their corresponding subfactors. Although previous studies have examined several antecedents of trust (e.g., [9, 15, 24, 44, 54]), few were conducted from the perspective of subfactors. The present study contributes to the theory of trust antecedents in the context of globally distributed collaboration [33, 52], and elaborates the influencing mechanism through the detailed description of trust subfactors from the perspectives of risk and benefit, respectively [36, 48, 63]. Generally, the trust antecedents found in our study are all in line with previous studies that have identified the relationships of leadership, communication, cultural difference, time zone difference, and task accomplishment with trust [24, 32, 54, 60]. Moreover, in our research, several corresponding subfactors help clarify various aspects of influencing mechanisms of the antecedents to trust, providing more detailed explanations to further understand trust antecedents in the context of globally distributed collaboration. Second, this study contributes to the literature on trust development research [13, 76] and the literature on trust dynamics by applying CE principle to help with trust improvement. While prior trust research has often regarded trust as a dynamic construct, few investigations have been conducted from the development perspective [48]. Although some focus on the dynamics influencing antecedents of trust, few have been conducted based on the facilitation of intervention in trust development. Among various facilitation interventions, CE provides a repeatable collaboration process that can be used in recurring tasks [7, 39, 40]. In turn, the repeatable use of the process contributes to successful trust improvement over time. Therefore, compared with previous literature, such as that on trust dynamics of trust-type transformation [35], trust development in implementation projects [61], trust development in computer-mediated local teams [12], and face-to-face collaboration [76], this research attempts another new approach that not only describes trust development but also improves trust development through in-depth investigations on the application of CE [5, 39]. In doing so, this study complements work on the dynamic view of trust [10, 76] from the perspective of facilitation intervention [8]. Finally, this study conducted CE application in the context of globally distributed collaboration. The CE principle was validated as being helpful for shared understanding [4], idea generation [39], and risk assessment [22] in the context of heterogeneous work groups, technology-supported groups [8], and project
+
+1002
+
+CHENG, FU, AND DRUCKENMILLER
+
+management teams [40]. In this study, the new research context of globally distributed collaboration has broadened the research domain of CE [7]. Moreover, through the longitudinal experiment cases of both the control group and the treatment group, our study highlighted the feasibility of introducing the CE principle to help improve trust in cross-cultural research settings involving participants from China and the United States. The cross-cultural dimension also serves as a future research direction for further applying CE to more complex research settings.
+
+Practical Implications
+This research has practical implications for globally distributed collaboration, especially for those who need to improve their trust longitudinally. The research could be used by team leaders/managers to improve their skills and manage their team with better understanding of the trust antecedents, as well as facilitating collaboration intervention in order to help improve trust development in globally distributed teams. Moreover, global team members always have various norms and habitual cultural traditions, and mutual communication also faces problems compared with traditional face-to-face collaboration. It is suggested that practitioners design a collaboration process that helps minimize cultural and linguistic influences—for example, conducting an iterative democratic vote that avoids the contradiction of the individualism versus collectivism culture. Furthermore, for recurring and complex tasks, practical workers are also advised to adopt a wider range of thinkLets according to the requirements of the tasks. In addition, we have discussed in depth the reason why time zone difference is a problem, and found that lack of instant interaction is the major contributor. Global collaboration practitioners are encouraged to reserve a fixed time with countdown functions to facilitate effective collaboration. Wellorganized collaboration process guidance can help save time and reach satisfying collaboration outcomes through effective and in-depth discussions.
+
+Limitations and Future Research
+As with all research, there are some limitations. First, the participants in our special case context are all university students who lack work experience: because of differences between students and practical workers, global collaboration may be more complex in a real business,. Moreover, we tested globally distributed collaboration only in U.S. and Chinese universities, so the tested population is limited. Therefore, it would be useful to generalize our study to additional experiments with various subject demographics in different research settings in future studies. Another future research direction relates to differences in trust development in terms of multicultural participants in globally distributed collaboration. Though cultural diversity is widely investigated, such research is seldom conducted in terms of facilitation intervention, especially the evaluation of CE theory in
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+1003
+
+longitudinal trust improvement in different cultural settings. Whether the influence of CE on the collaboration outcome has the same results in different cultural backgrounds is an interesting question. Extending the principle of collaboration engineering and integrating it into a comparison of culturally diversified team collaboration will be of theoretical and practical significance.
+
+Conclusions
+This study investigated the role of facilitated intervention in trust development. Following the design science research approach, collaboration engineering principles were used to design a collaboration process for the treatment group. Survey results showed that the changing trust trend in the treatment group was more positive than in the control group. Qualitative data explained the in-depth mechanism of trust development in the two groups. From the results, time zone difference, language and cultural difference, communication, leadership, and task accomplishment all serve as contributors to trust development. Moreover, the treatment group that adopted the CE process mitigated the influence of the aforementioned factors through several thinkLets modules and the collaboration process, and thus positively correlated with trust over time.
+Acknowledgments: We would like to thank all the participants. We gratefully acknowledge constructive feedback and suggestions from the anonymous reviewers and editors, which have helped us to strengthen the study. We also thank the National Natural Science Foundation of China (Grant no. 71571045) and the Beijing Higher Education and Teaching Reform Project (2015-ms080) for providing funding for part of this research.
+
+REFERENCES
+1. Anson, R.; Bostrom, R.; and Wynne, B. An experiment assessing group support system and facilitator effects on meeting outcomes. Management Science, 41, 2 (1995), 189–208. 2. Arduin, P.E.; Grundstein, M.; and Rosenthal-Sabroux, C. From knowledge sharing to collaborative decision making. International Journal of Information and Decision Sciences, 5, 3 (2013), 295–311. 3. Awad, N.F., and Ragowsky, A. Establishing trust in electronic commerce through online word of mouth: An examination across genders. Journal of Management Information Systems, 24, 4 (2008), 101–121. 4. Bittner, E.A.C., and Leimeister, J.M. Creating shared understanding in heterogeneous work groups: Why it matters and how to achieve it. Journal of Management Information Systems, 31, 1 (2014), 111–144. 5. Briggs, R.O.; Vreede, G.J. de.; and Nunamaker, J.F. Jr. Collaboration engineering with thinkLets to pursue sustained success with group support systems. Journal of Management Information Systems, 19, 4 (2003), 31–64. 6. Briggs, R.; Kolfschoten, G.; Vreede, G.J. de.; and Douglas, D. Defining key concepts for collaboration engineering. Proceedings of the Twelfth Americas Conference on Information Systems. Acapulco, 2006, pp. 121–128. 7. Briggs, R.O.; Kolfschoten, G.L.; Vreede, G.J. de.; Lukosch, S.; and Albrecht, C. Facilitator-in-a-box: Process support system to help practitioners realize the potential of collaboration technology. Journal of Management Information Systems, 29, 4 (2013), 159–199.
+
+1004
+
+CHENG, FU, AND DRUCKENMILLER
+
+8. Briggs, R.O.; Reinig, B.A.; and Vreede, G.J. de. Meeting satisfaction for technologysupported groups: An empirical validation of a goal-attainment model. Small Group Research, 37, 6 (2006), 585–611. 9. Cheng, X.; Fu, S.; Sun, J.; Han, Y.; Shen, J.; and Zarifis, A. Investigating individual trust in semi-virtual collaboration of multicultural and unicultural teams. Computers in Human Behavior, 62 (2016), 267–276. 10. Cheng, X.; Li, Y.; Sun, J.; and Huang, J. Application of a novel collaboration engineering method for learning design: A case study. British Journal of Educational Technology, 47, 4 (2016), 803–818. 11. Cheng, X.; Li, Y.; Sun, J.; and Zhu, X. Easy collaboration process support system design for student collaborative group work: A case study. Proceedings of the 47th Hawaii International Conference on System Science (HICSS). Waikoloa, 2014, pp. 453–462. 12. Cheng, X.; Macaulay, L.; and Zarifis, A. Modeling individual trust development in computer mediated collaboration: A comparison of approaches. Computers in Human Behavior, 29, 4 (2013), 1733–1741. 13. Cheng, X.; Nolan, T.; and Macaulay, L. Don’t give up the community: A viewpoint of trust development in online collaboration. Information Technology and People, 26, 3 (2013), 298–318. 14. Cheng, X.; Yin, G.; Azadegan, A.; and Kolfschoten, G. Trust evolvement in hybrid team collaboration: A longitudinal case study. Group Decision and Negotiation, 25, 2 (2016), 267–288. 15. Chiu, C.M.; Hsu, M.H.; Lai, H.; and Chang, C.M. Re-examining the influence of trust on online repeat purchase intention: The moderating role of habit and its antecedents. Decision Support Systems, 53, 4 (2012), 835–845. 16. Chudoba, K.M.; Wynn, E.; Lu, M.; and Watson‐Manheim, M.B. How virtual are we? Measuring virtuality and understanding its impact in a global organization. Information Systems Journal, 15, 4 (2005), 279–306. 17. Colquitt, J.A.; LePine, J.A.; Piccolo, R.F.; Zapata, C.P.; and Rich, B.L. Explaining the justice–performance relationship: Trust as exchange deepener or trust as uncertainty reducer? Journal of Applied Psychology, 97, 1 (2012), 1–15. 18. Das, T.L., and Teng, B.S. The risk-based view of trust: A conceptual framework. Journal of Business and Psychology, 19, 1 (2004), 85–116. 19. De Jong, B.A., and Elfring, T. How does trust affect the performance of ongoing teams? The mediating role of reflexivity, monitoring, and effort. Academy of Management Journal, 53, 3 (2010), 535–549. 20. Dean, D.L.; Hender, J.M.; Rodgers, T.L.; and Santanen, E. Identifying good ideas: Constructs and scales for idea evaluation. Journal of Association for Information Systems, 7, 10 (2006), 646–699. 21. Dennis, A.R.; Minas, R.K.; and Bhagwatwar, A.P. Sparking creativity: Improving electronic brainstorming with individual cognitive priming. Journal of Management Information Systems, 29, 4 (2013), 195–216. 22. Vreede, G.J. de.; Briggs, R.O.; and Massey, A.P. Collaboration engineering: Foundations and opportunities. Editorial to the special issue of the Journal of the Association for Information Systems, 10, 3 (2009), 121–137. 23. Eisenhardt, K.M. Building theories from case study research. Academy of Management Review, 14, 4 (1989), 532–550. 24. Espinosa, J.A.; Nan, N.; and Carmel, E. Temporal distance, communication patterns, and task performance in teams. Journal of Management Information Systems, 32, 1 (2015), 151–191. 25. Fang, Y.; Qureshi, I.; Sun, H.; McCole, P.; Ramsey, E.; and Lim, K.H. Trust, satisfaction, and online repurchase intention: The moderating role of perceived effectiveness of e-commerce institutional mechanisms. MIS Quarterly, 38, 2 (2014), 407–427. 26. Gefen, D.; Karahanna, E.; and Straub, D.W. Trust and TAM in online shopping: An integrated model. MIS Quarterly, 27, 1 (2003), 51–90. 27. Gulati, R. Does familiarity breed trust? The implications of repeated ties for contractual choice in alliances. Academy of Management Journal, 38, 1 (1995), 85–112. 28. Hardwick, J.; Anderson, A.R.; and Cruickshank, D. Trust formation processes in innovative collaborations: Networking as knowledge building practices. European Journal of Innovation Management, 16, 1 (2013), 4–21.
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+1005
+
+29. Hofstede, G., and Bond, M.H. Hofstede’s culture dimensions an independent validation using Rokeach’s value survey. Journal of Cross-Cultural Psychology, 15, 4 (1984), 417–433. 30. Horwitz, S.K., and Santillan, C. Knowledge sharing in global virtual team collaboration: Applications of CE and thinkLets. Knowledge Management Research and Practice, 10, 4 (2012), 342–353. 31. Hoy, W.K., and Tschannen-Moran, M. Five faces of trust: An empirical confirmation in urban elementary schools. Journal of School Leadership, 9 (1999), 184–208. 32. Jarvenpaa, S.L.; Knoll, K.; and Leidner, D.E. Is anybody out there? Antecedents of trust in global virtual teams. Journal of Management Information Systems, 14, 4 (1998), 29–64. 33. Jarvenpaa, S.L., and Leidner, D.E. Communication and trust in global virtual teams. Journal of Computer‐Mediated Communication, 3, 4 (1998), 791–815. 34. Jarvenpaa, S.L.; Shaw, T.R.; and Staples, D.S. Toward contextualized theories of trust: The role of trust in global virtual teams. Information Systems Research, 15, 3 (2004), 250–267. 35. Jones, G.R., and George, J.M. The experience and evolution of trust: Implications for cooperation and teamwork. Academy of Management Review, 23, 3 (1998), 531–546. 36. Kim, D.J.; Ferrin, D.L.; and Rao, H.R. A trust-based consumer decision-making model in electronic commerce: The role of trust, perceived risk, and their antecedents. Decision Support Systems, 44, 2 (2008), 544–564. 37. Kim, H.W.; Xu, Y.; and Koh, J. A comparison of online trust building factors between potential customers and repeat customers. Journal of the Association for Information Systems, 5, 10 (2004), 392–420. 38. Kramer, R.M. Trust and distrust in organizations: Emerging perspectives, enduring questions. Annual Review of Psychology, 50, 1 (1999), 569–598. 39. Kolfschoten, G.L.; Briggs, R.O.; Vreede, G.J. de.; Jacobs, P.H.; and Appelman, J.H. A conceptual foundation of the thinkLet concept for collaboration engineering. International Journal of Human–Computer Studies, 64, 7 (2006), 611–621. 40. Kolfschoten, G.L., and Vreede, G.J. de. A design approach for collaboration processes: A multimethod design science study in collaboration engineering. Journal of Management Information Systems, 26, 1 (2009), 225–256. 41. Kuo, F.Y., and Yu, C.P. An exploratory study of trust dynamics in work‐oriented virtual teams. Journal of Computer-Mediated Communication, 14, 4 (2009), 823–854. 42. Lee, D.; Moon, J.; Kim, Y.J.; and Mun, Y. Antecedents and consequences of mobile phone usability: Linking simplicity and interactivity to satisfaction, trust, and brand loyalty. Information and Management, 52, 3 (2015), 295–304. 43. Lewicki, R.J.; Tomlinson, E.C.; and Gillespie, N. Models of interpersonal trust development: Theoretical approaches, empirical evidence, and future directions. Journal of Management, 32, 6 (2006), 991–1022. 44. Lu, B.; Zhang, T.; Wang, L.; and Keller, L.R. Trust antecedents, trust and online microsourcing adoption: An empirical study from the resource perspective. Decision Support Systems, 85 (2016), 104–114. 45. Malhotra, D., and Lumineau, F. Trust and collaboration in the aftermath of conflict: The effects of contract structure. Academy of Management Journal, 54, 5 (2011), 981–998. 46. Marques, M., and Ochoa, S.F. Improving teamwork in students’ software projects. IEEE Proceedings of the 27th Conference on Software Engineering Education and Training (CSEE&T). Klagenfurt, Austria, 2014, pp. 99–108. 47. Martin, J.A., and Eisenhardt, K.M. Rewiring: Cross-business-unit collaborations in multibusiness organizations. Academy of Management Journal, 53, 2 (2010), 265–301. 48. Mayer, R.C.; Davis, J.H.; and Schoorman, F.D. An integrative model of organizational trust. Academy of Management Review, 20, 3 (1995), 709–734. 49. Maznevski, M.L., and Chudoba, K.M. Bridging space over time: Global virtual team dynamics and effectiveness. Organization Science, 11, 5 (2000), 473–492. 50. McKnight, D.H.; Cummings, L.L.; and Chervany, N.L. Initial trust formation in new organizational relationships. Academy of Management Review, 23, 3 (1998), 473–490. 51. Michinov, N. Is electronic brainstorming or brainwriting the best way to improve creative performance in groups? An overlooked comparison of two idea‐generation techniques. Journal of Applied Social Psychology, 42, 1 (2012), 222–243.
+
+1006
+
+CHENG, FU, AND DRUCKENMILLER
+
+52. Mortensen, M., and Neeley, T.B. Reflected knowledge and trust in global collaboration. Management Science, 58, 12 (2012), 2207–2224. 53. Nidumolu, S. The effect of coordination and uncertainty on software project performance: Residual performance risk as an intervening variable. Information Systems Research, 6, 3 (1995), 191–219. 54. O’Leary, M.B.; Wilson, J.M.; and Metiu, A. Beyond being there: The symbolic role of communication and identification in perceptions of proximity to geographically dispersed colleagues. MIS Quarterly, 38, 4 (2014), 1219–1243. 55. Paulus, P.B.; Kohn, N.W.; Arditti, L.E.; and Korde, R.M. Understanding the group size effect in electronic brainstorming. Small Group Research, 44, 3 (2013), 332–352. 56. Pavlou, P.A., and Gefen, D. Building effective online marketplaces with institutionbased trust. Information Systems Research, 15, 1 (2004), 37–59. 57. Piccoli, G., and Ives, B. Trust and the unintended effects of behavior control in virtual teams. MIS Quarterly, 27 (2003), 365–395. 58. Qu, W.G.; Pinsonneault, A.; Tomiuk, D.; Wang, S.; and Liu, Y. The impacts of social trust on open and closed B2B e-commerce: A Europe-based study. Information and Management, 52, 2 (2015), 151–159. 59. Ridings, C.M.; Gefen, D.; and Arinze, B. Some antecedents and effects of trust in virtual communities. Journal of Strategic Information Systems, 11, 3 (2002), 271–295. 60. Robert, L.P.; Denis, A.R.; and Hung, Y.T.C. Individual swift trust and knowledge-based trust in face-to-face and virtual team members. Journal of Management Information Systems, 26, 2 (2009), 241–279. 61. Rose, J., and Schlichter, B.R. Decoupling, re‐engaging: Managing trust relationships in implementation projects. Information Systems Journal, 23, 1 (2013), 5–33. 62. Rotter, J.B. A new scale for the measurement of interpersonal trust. Journal of Personality, 35, 4 (1967), 651–665. 63. Rusman, E.; Van Bruggen, J.; Sloep, P.; and Koper, R. Fostering trust in virtual project teams: Towards a design framework grounded in a trustworthiness antecedents (TWAN) schema. International Journal of Human–Computer Studies, 68, 11 (2010), 834–850. 64. Sarker, S.; Ahuja, M.; Sarker, S.; and Kirkeby, S. The role of communication and trust in global virtual teams: A social network perspective. Journal of Management Information Systems, 28, 1 (2011), 273–310. 65. Schaubroeck, J.; Lam, S.S.; and Peng, A.C. Cognition-based and affect-based trust as mediators of leader behavior influences on team performance. Journal of Applied Psychology, 96, 4 (2011), 863–871. 66. Schilke, O., and Cook, K.S. A cross-level process theory of trust development in interorganizational relationships. Strategic Organization, 11, 3 (2013), 281–303. 67. Schweitzer, L., and Duxbury, L. Conceptualizing and measuring the virtuality of teams. Information Systems Journal, 20, 3 (2010), 267–295. 68. Shachaf, P. Cultural diversity and information and communication technology impacts on global virtual teams: An exploratory study. Information and Management, 45, 2 (2008), 131–142. 69. Shrivastava P. Ecocentric management for a risk society. Academy of Management Review, 20, 1 (1995), 118–137. 70. Smith, W.K. Dynamic decision making: A model of senior leaders managing strategic paradoxes. Academy of Management Journal, 57, 6 (2014), 1592–1623. 71. Staples, D.S., and Webster, J. Exploring the effects of trust, task interdependence and virtualness on knowledge sharing in teams. Information Systems Journal, 18, 6 (2008), 617–640. 72. Venkatesh, V.; Brown, S.A.; and Bala, H. Bridging the qualitative-quantitative divide: Guidelines for conducting mixed methods research in information systems. MIS Quarterly, 37, 1 (2013), 21–54. 73. Von Alan, R.H.; March, S.T.; Park, J.; and Ram, S. Design science in information systems research. MIS Quarterly, 28, 1 (2004), 75–105. 74. Walther, J.B., and Bunz, U. The rules of virtual groups: Trust, liking, and performance in computer‐mediated communication. Journal of Communication, 55, 4 (2005), 828–846.
+
+TRUST DEVELOPMENT IN GLOBALLY DISTRIBUTED COLLABORATION
+
+1007
+
+75. Wildman, J.L.; Shuffler, M.L.; Lazzara, E.H.; Fiore, S.M.; Burke, C.S.; Salas, E.; and Garven, S. Trust development in swift starting action teams: A multilevel framework. Group and Organization Management, 37 (2012), 137–170. 76. Wilson, J.M.; Straus, S.G.; and McEvily, B. All in due time: The development of trust in computer-mediated and face-to-face teams. Organizational Behavior and Human Decision Processes, 99, 1 (2006), 16–33. 77. Yakovleva, M.; Reilly, R.R.; and Werko, R. Why do we trust? Moving beyond individual to dyadic perceptions. Journal of Applied Psychology, 95, 1 (2010), 79–91. 78. Zaheer, A.; McEvily, B.; and Perrone, V. Does trust matter? Exploring the effects of interorganizational and interpersonal trust on performance. Organization Science, 9, 2 (1998), 141–159.
+
+

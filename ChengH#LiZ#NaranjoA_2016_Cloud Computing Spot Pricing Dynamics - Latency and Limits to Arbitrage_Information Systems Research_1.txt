@@ -1,0 +1,720 @@
+This article was downloaded by: [130.89.97.167] On: 17 February 2017, At: 11:22 Publisher: Institute for Operations Research and the Management Sciences (INFORMS) INFORMS is located in Maryland, USA
+
+Information Systems Research
+Publication details, including instructions for authors and subscription information: http://pubsonline.informs.org
+
+Research Note—Cloud Computing Spot Pricing Dynamics: Latency and Limits to Arbitrage
+Hsing Kenneth Cheng, Zhi Li, Andy Naranjo
+
+To cite this article: Hsing Kenneth Cheng, Zhi Li, Andy Naranjo (2016) Research Note—Cloud Computing Spot Pricing Dynamics: Latency and Limits to Arbitrage. Information Systems Research 27(1):145-165. http://dx.doi.org/10.1287/isre.2015.0608 Full terms and conditions of use: http://pubsonline.informs.org/page/terms-and-conditions This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval, unless otherwise noted. For more information, contact permissions@informs.org. The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support of claims made of that product, publication, or service. Copyright © 2016, INFORMS Please scroll down for article—it is on subsequent pages
+
+INFORMS is the largest professional society in the world for professionals in the fields of operations research, management science, and analytics. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Information Systems Research
+Vol. 27, No. 1, March 2016, pp. 145–165 ISSN 1047-7047 (print) ISSN 1526-5536 (online) http://dx.doi.org/10.1287/isre.2015.0608 © 2016 INFORMS
+
+Research Note
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Cloud Computing Spot Pricing Dynamics: Latency and Limits to Arbitrage
+Hsing Kenneth Cheng
+Hough Graduate School of Business, Warrington College of Business Administration, University of Florida, Gainesville, Florida 32611, hkcheng@uﬂ.edu
+
+Zhi Li
+Technology, Operation and Information Management Division, Babson College, Babson Park, Massachusetts 02457, zli@babson.edu
+
+Andy Naranjo
+Hough Graduate School of Business, Warrington College of Business Administration, University of Florida, Gainesville, Florida 32611, andy.naranjo@warrington.uﬂ.edu
+
+his study examines cloud computing spot pricing dynamics and the inﬂuence of latency on those pricing dynamics. Using the Amazon Elastic Compute Cloud U.S. East and West market spot instance pricing and latency intraday data from April 9, 2010, to May 22, 2011, we ﬁnd considerable time variation in spot instance prices, and prices are often persistently higher in the West. Bivariate vector autoregressive model results show that within-market autoregressive pricing effects are larger than across-market effects. We also document that over 70% of the relative price discovery occurs in the East market. Our regression results further show that East–West latency differentials have a signiﬁcantly positive effect on East–West pricing differentials. Latency creates a dynamic pricing wedge that widens or narrows conditional on the latency differentials. Using an error correction model, the speed of adjustment from long-run pricing convergence errors causes the short-run price differential to narrow, but the adjustment does not completely offset the price differential. Keywords : cloud computing; spot pricing; pricing dynamics; latency; arbitrage History : Rahul Telang, Senior Editor; Subodha Kumar, Associate Editor. This paper was received on October 13, 2013, and was with the authors 9 months for 3 revisions. Published online in Articles in Advance February 18, 2016.
+
+T
+
+1.
+
+Introduction
+
+Cloud computing has garnered signiﬁcant attention as an increasingly important computing environment that will continue to grow over time. According to conservative estimates by Ried and Kisker (2011), the global cloud computing market will grow from $40.7 billion in 2011 to $241 billion in 2020. The cloud has various forms, including SaaS (software as a service), PaaS (platform as a service), and IaaS (infrastructure as a service). It has succinctly been deﬁned as an information technology (IT) service model where computing services (both hardware and software) are delivered on demand to customers over a network in a self-service fashion, independent of device and location (Cheshire 1996).1 A majority of ﬁrms now use some form of cloud computing for IT (Cohen 2013).
+1
+
+Cloud computing providers offer basic computing and storage resources at relatively low prices. Amazon’s Elastic Compute Cloud (Amazon EC2) is the major cloud service provider; in fact, it has been called the Coke of cloud computing in terms of market share and “there isn’t yet a Pepsi.”2 The price of an EC2 instance is based on the service center where the instance is running. Customers can purchase EC2 instances
+for cloud computing will rise to $150 billion by 2013 (Plummer et al. 2008b).
+2
+
+Similarly, Gartner (Plummer et al. 2008a) describes the cloud as a style of computing where massively scalable IT-related capabilities are provided “as a service” using Internet technologies to multiple external customers. They estimate that the annual global market 145
+
+In a Wall Street Journal article (Clayton 2011), William Fellows, principal analyst of the 451 Group, states that “in terms of market share Amazon is Coke and there isn’t yet a Pepsi.” The article further reports that UBS Investment Research estimated that Amazon Web Services revenue for its cloud division reached $500 million in 2010, rising to $750 million in 2011, and could hit $2.5 billion in 2014. Indeed, Gartner estimates suggest that Amazon Web Services already generated nearly $3 billion in 2013. Jeff Bezos, Amazon’s CEO, also told the company’s shareholders that Amazon Web Services had the potential to be as big as the ﬁrm’s retail business, which had total sales of over $24.5 billion in 2009.
+
+146 through on-demand instances, reserved instances, and spot instances.3 Spot instances are a relatively new method as of December 2009 to both purchase and consume Amazon EC2 instances. They allow customers to bid on unused Amazon EC2 capacity and run those instances for as long as their bid exceeds the current spot price. Customers whose bids exceed the current spot price gain access to the available spot instances. Historically, customers using spot instances have received signiﬁcant price discounts beyond ondemand prices for no commitments past one hour. The Amazon EC2 spot market uses the Vickrey-style auction, where customers submit sealed bids, and the provider computes a market clearing price (Mazzucco and Dumas 2011). All winning customers pay the same price, which is the value of the lowest winning bid. Research indicates that this mechanism is a truthful auction given that the supply level can be adjusted ex post (Zhang et al. 2011).4 However, a conundrum arises when one examines Amazon EC2 spot prices, because a visual inspection of the spot prices reveals that Amazon western EC2 center spot prices are consistently and signiﬁcantly higher than those of the eastern center across Amazon’s computing platforms. Since cloud computing services from the West and East centers for the same computing platform are identical goods, the consistently positive price differentials between the West and East centers presents a seemingly clear arbitrage opportunity for cloud computing customers and raises a fundamental question about the market efﬁciency of cloud computing. The consistently positive spot price differentials cannot be systematically attributed to either the supply or demand of Amazon EC2 cloud computing services; that is, if the sources for the observed pricing differentials were in greater supply (lower supply) in the eastern (western) center or greater demand (lower demand) in the western (eastern) center, Amazon EC2 customers could easily alter their spot bids from a dropdown
+To initiate Amazon EC2 cloud instances, there are two basic steps. First, choose the instance type(s), and then start, terminate, and monitor as many instances as needed using the Web service application programming interfaces or the variety of management tools provided. Second, determine whether to run the instance in multiple locations. There are six main groups of instance types: standard, micro, high-memory, high-CPU, cluster compute, and cluster GPU. They are divided by different characteristics for speciﬁc work requirements. Although cloud computing has dominated discussions of corporate computing strategy, the prior literature provides little guidance on how to optimally price the cloud computing services to ensure allocational efﬁciency and fairness. Das et al. (2011) and Du et al. (2012) examine the effects of providing a spot market with dynamic prices and forward contracts to hedge against the risk of demand stochasticity and unused (and thus wasted) capacity for an Internet storage provider.
+4 3
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+menu to select the center with the cheaper persistent pricing. Knowing that the cloud computing service is cheaper at the Amazon eastern center, customers could easily switch their bids to the eastern center. This, in turn, would create more demand at the eastern center, which then would drive up the spot prices on the eastern center to reach the same level as the western center over time. This equivalent pricing equilibrium, however, has not materialized as the price differentials are persistent. A fundamental research question concerning cloud computing market efﬁciency is, therefore, what is the source of the pricing differentials, and does it manifest itself as a pricing wedge that limits arbitrage? Furthermore, given that Amazon EC2 customers only observe spot price information and do not know the supply nor the demand of the spot market, what can they glean from the pricing dynamics of the cloud computing spot market, and how might they better react to that information? We use various econometric modeling approaches to carefully address the aforementioned fundamental questions. We employ vector autoregressive (VAR) models to measure and test spot instance pricing dynamics both within and across the Amazon EC2 East and West regions. To measure the price discovery for Amazon EC2 cloud computing spot instances across the East and West regions, we employ the two most widely accepted price discovery measures developed by Hasbrouck (1995) and Gonzalo and Granger (1995). Finally, we use both regression procedures and an error correction model (ECM) to measure and test the effect of latency on the documented East and West pricing differential dynamics. For the most fundamental question on cloud computing market efﬁciency, we show that network latency, deﬁned as the total elapsed time from the time a request is sent via the Internet to the time a response is received (O3b Networks 2008), is the key factor contributing to the persistent positive spot price differentials between the Amazon EC2 West and East regions. Our study is the ﬁrst to provide convincing evidence to explain this intriguing and perplexing cloud computing market efﬁciency issue. Brynjolfsson and Smith (2000) ﬁnd that branding, awareness, and trust are important sources of heterogeneity in pricing among Internet retailers, whereas Brynjolfsson et al. (2009) document the importance of geography on the competition between the Internet channel and local stores.5 We further show that even with the same cloud
+5
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Ba et al. (2012) propose a competitive model to explain the existence and persistence of price dispersion for identical products in online markets. Their game-theoretic analysis suggests that differences in online retailers’ service and recognition levels are associated with prices.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+147 we ﬁnd that over 70% of the relative price discovery occurs in the East market. What explains these pricing dynamic differentials across the East and West markets? We ﬁnd that both the East and West latency differentials have a signiﬁcantly positive effect on the pricing differential, suggesting that larger (smaller) latency effects result in larger (smaller) pricing differentials; that is, latency creates a dynamic pricing wedge, similar to a varying transaction cost, that widens or narrows conditional on the latency differentials. From the ECM results, we also ﬁnd that the speed of adjustment from long-run pricing convergence errors causes the short-run price differential to narrow, but the adjustment is only partial. The rest of this paper is organized as follows. Section 2 provides our hypothesis development and empirical testing framework, whereas §3 provides information on our data and some descriptive statistics. Section 4 provides the core of our results starting with a VAR model of the dynamic within- and across-market pricing effects, to measuring where price discovery is occurring and ending with using both regression procedures and an error correction model to explain pricing differential effects. Section 5 provides a discussion of the managerial implications of our study, whereas §6 provides some concluding remarks.
+
+computing provider and computing platform (i.e., same provider and same good), price heterogeneity still exists due to latency differentials across markets. Arguably, why should seconds of delay created by network latency matter? In one of the earliest studies on the response time effect on user behavior, Miller (1968) showed that 10 seconds is the threshold for user attention. However, this user attention threshold has reduced to 2 seconds in today’s e-commerce environment because consumers have become impatient when Web pages take longer than 2 seconds to load (Forrester Consulting 2009).6 These user attention thresholds are important because a subpar Web experience results in lost revenue and unfavorable customer perceptions of the company. For example, an increase of 100 ms in response time can result in a 1% drop of sales at Amazon (Mazzucco 2010), and Google’s trafﬁc will drop by 20% for a half-second increase in returning search results (Mayer 2009). Latency is a key issue not only for ﬁrms offering products and services to consumers over the Internet but also for corporations considering the adoption of cloud computing. In fact, it has been dubbed the “Achilles heel of cloud computing” (Minnear 2011). As a further example of the management relevancy and larger contribution of our study, the chief cloud architect for Netﬂix, Adrian Cockcroft, recently stated in an interview (Babcock 2013) that “[m]astering these business tradeoffs of weighing the cost and latency penalties, when they exist, against your business goals is one of the fundamental challenges of cloud computing.” Cockcroft used a rough equation to formulate the trade-off: “How many dollars should you spend to reduce customer latencies by 50% if that increases your conversion rate by 10%?” However, there is a scarcity of research examining the impact of latency on various aspects of cloud computing implementation, including no research that we are aware of that examines the effects of latency on pricing dynamics both within and across markets. We ﬁnd that across operating system (OS) platforms and spot instance types, there is a considerable time variation in the pricing dynamics. We also ﬁnd that prices in the West are often persistently greater than prices in the East over our sample period. Our bivariate VAR model results suggest that there are signiﬁcant dynamic pricing relations both within and across the East and West markets. The within-market effect is larger than the across-market effect, but there are also signiﬁcantly pronounced across-market pricing effects. Using both Hasbrouck’s (1995) and Gonzalo and Granger’s (1995) price discovery methodologies,
+6
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+2.
+
+Hypothesis Development and Empirical Testing Framework
+
+Cheshire (1996) argues that 100 ms should be the maximum target response time for network interactions as delays longer than this create very stilted interactions.
+
+2.1. Hypothesis Development Underlying our theoretical and empirical motivation is the well-established economic proposition regarding the law of one price (LOP). In a nutshell, the LOP states that identical goods or securities should sell for identical prices, accounting for consumer’s transport (transaction) costs. The LOP is the basic building block of most economic theorizing. The logic of why it should hold is simple: if the same good or asset is selling for two different prices simultaneously, then consumers will simply buy in the cheaper market, resulting in the price rising in the cheaper market or, alternatively, in the higher-priced market closing. Price differences are both the necessary and sufﬁcient statistic to test the LOP. The LOP is either violated or not violated, and if so, the follow-on question is, what explains the violation? It is a very important question that addresses market efﬁciency and the efﬁcient allocation of goods, capital, and resources. In many ways, this fundamental question lies at the heart of a market-based economy. Consider a company selling the same product in two markets, W and E. Suppose that the price for this product in W Pw is more than its price in E Pe such that Pw > Pe . Given Pw > Pe , a proﬁt-seeking individual (an arbitrager) in a competitive market setting could buy in
+
+148 E and sell in W, buying in the low price market and reselling proﬁtably in the higher priced market without sharing proﬁts with the original ﬁrm. This strategy is proﬁtable as long as Pw − Pe − T > 0, where T is the total transaction cost that includes transportation costs. This two-sided arbitrage scenario is common for physical goods such as commodities as well as for ﬁnancial assets, where arbitragers buy low and sell high until prices equilibrate across markets after accounting for total transaction costs. In an integrated and efﬁcient competitive market, the price convergence will occur rapidly. Note that arbitrage stops becoming a signiﬁcant price equating force once Pw − Pe − T ≤ 0 (i.e., the no arbitrage condition). If T = 0, Pw = Pe is a sufﬁcient no arbitrage condition. This price equilibrating condition could also occur through consumer implementation of only one-side of the arbitrage condition (i.e., buying in the low priced market without also selling in the high priced market); that is, all else equal, if consumers simply purchased in the cheaper priced market instead of the higher priced market, prices would rise in the cheaper market or, alternatively, the prices would fall in the higher priced market—resulting in the prices being equilibrated but for total transactions costs. Consider instead digital goods such as cloud computing. Could a user take advantage of price differentials between, for instance, Amazon’s EC2 West and East regions? A common assumption is that moving data over the Internet is virtually costless (i.e., T = 0). We argue that this virtually costless assumption is incorrect, and instead T = 0 due to latency; that is, there are latency effects in data traveling from W and E such that T > 0. Since ﬁrms and other customers bid on their pricing conditional on their ﬁrm’s exposure to latency effects, this latency allows Pw − Pe > 0, and yet Pw − Pe − T ≤ 0. We formally test the following hypothesis: Hypothesis 1. Pw − Pe / T > 0. The pricing differential between Amazon’s EC2 West and East spot pricing widens as West–East latency-related transaction costs rise. We hypothesize that T > 0 due to latency and test this hypothesis in a conditional framework to show that E Pw − Pe T = 0, where represents a vector of explicit and implicit controls such as within and between market differences, server and platform types, and event indicators. Consistent with the adage “time is money,” we also provide evidence on the following corollary C1 : Firms respond to latency effects through their willingness to pay higher spot prices and locating facilities near Internet and exchange hubs to reduce their latency related transactions costs. From a managerial perspective, bidding on the relatively lower priced cloud computing location is optimal if latency is not an
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+important customer concern. However, if latency exposure is an important concern, then the ﬁrm’s optimal cloud computing location selection should factor in pricing-latency effects—in terms of both cloud bidding location and potentially longer-term ﬁrm operational computing location choices. 2.2. Basic Empirical Testing Framework We employ a two-part empirical framework to test our hypothesis that latency affects cloud computing pricing across markets. In the ﬁrst part, we establish and test the relation between Amazon EC2 East and West spot instance pricing dynamics and price discovery across these markets. In the second part, we measure and test the extent to which latency and other factors affect our documented pricing differential dynamics from the ﬁrst part. Although ﬁgures and descriptive statistics are useful in providing some preliminary evidence on pricing dynamics within and across Amazon EC2 spot instance markets, they are incomplete because they are unable to directly measure and test the pricing dynamics and do not control for other factors that inﬂuence those pricing dynamics. In our analysis, we use several standard time series econometric procedures to both examine the pricing dynamics and test for the effect of latency on the pricing dynamics.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+3.
+
+Data and Descriptive Statistics
+
+3.1. Amazon EC2 Spot Instance Pricing Data We use Amazon EC2 East and West spot instance intraday pricing data over the April 9, 2010, to May 22, 2011, sample period. The begin and end dates of our sample period correspond to the availability of the latency data for our analysis. We collect these incurred transaction interval pricing data from Amazon’s application programming interface (API), which provides these data for ﬁve regions, six instance types, six computing capacities, and two OS platforms.7 In our primary analysis, we use standard m1.xlarge spot instance prices across the East and West U.S. regions for both Windows and Linux/Unix operating platforms.8 Our results are
+7 The Amazon EC2 spot price instance regions are the U.S. East (Virginia, August 2006), the U.S. West (Northern California, December 2009), Europe (Ireland, December 2008), Asia Paciﬁc (Singapore, April 2010), and Asia Paciﬁc (Tokyo, March 2011). The instance types are standard, micro, high-memory, high-CPU, cluster compute, and cluster GPU, whereas the computing capacities are small, medium, large, xlarge, 2xlarge, and 4xlarge. The OS platforms are Windows, Linux/Unix. See http://aws.amazon.com/ec2/instance-types/. 8
+
+Each instance has a type describing its computational resources as follows: m1.small, m1.large, and m1.xlarge respectively denote small, large, and extra large “standard” instances; m2.xlarge, m2.2xlarge, and m2.4xlarge respectively denote extra large, double extra large, and quadruple extra large “high-memory” instances; and c1.medium and c1.xlarge respectively denote medium and extra-large high-CPU
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+149 obtain correspond to the measured latency between 18 backbone nodes from cities throughout the United States to Amazon EC2 US-west and US-east. Similar to the spot pricing data, the time-stamped latency data are synchronized to a uniﬁed GMT, and we also convert the measured latency interval data to an hourly frequency by interpolating the in-between latency measures with the most recent measured latency. This again enables us to time match both our price series as well as our latency time series. In our analysis, we use city-level (i.e., 18 nodes) latency data. We also aggregate the city-level latency data into three regions as follows: East = average Newark + Atlanta + Boston + NY + Philadelphia + DC + Reston West = average San Jose + Mesa + Denver + LA + San Diego + Seattle Central = average Dallas + Houston + Kansas City + St. Louis + Chicago Since we hypothesize that the spot instance pricing differentials across the East and West markets are affected by the latency differentials across these markets, we create the following latency difference variables (deﬁned at each time t): DL_Cityit : LEastToEast : t LEastToWest : t Average latency to Amazon West EC2 center at city i minus average latency to Amazon East EC2 center at city i Average latency from East region backbone nodes to Amazon East EC2 center Average latency from East region backbone nodes to Amazon West EC2 center Average latency from West region backbone nodes to Amazon East EC2 center Average latency from West region backbone nodes to Amazon West EC2 center Average latency from Central region backbone nodes to Amazon East EC2 center Average latency from Central region backbone nodes to Amazon West EC2 center LEastToWest − LEastToEast LWestToEast − LWestToWest LCentralToWest − LCentralToEast
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+robust to alternative instance types.9 The East and West U.S. regions are chosen to keep the pricing analysis within one country, and the time-stamped price data across the two regions are synchronized to a uniﬁed Greenwich mean time (GMT). For our analysis, we also convert the incurred transaction interval data (both price and latency) to an hourly frequency by interpolating them in between incurred transaction prices with the most recent incurred transaction price. This allows us to time match both our price series as well as our latency time series. Our results are robust to alternative timing frequencies. 3.2. Latency Data The latency data measured in seconds are collected from CloudSleuth.com over the April 9, 2010, to May 22, 2011, sample period. CloudSleuth records and compares the performance of PaaS and IaaS providers from around the world. The latency data we collected from CloudSleuth.com measure the total elapsed time of a standard benchmark test of downloading two Web pages developed by Gomez Performance Network from each of the 18 Internet backbone nodes in the United States to Amazon’s EC2 East and West centers. The same benchmark test, termed “identical sample application,” commonly used in the industry, is used to measure and collect the latency data to ensure that the latency data will not be impacted by the types of jobs running at the Amazon EC2 centers (e.g., running a long time-consuming job versus running a short job, or different types of jobs from different industry sectors). Throughout each day at approximately 30 minute to 1 hour intervals, CloudSleuth monitors latency from many backbone nodes. The latency data that we
+instances. For each progression, the computational resources are scaled up by a factor of 2. For example, the standard xlarge instance (API name, m1.xlarge) features are 15 GB memory, eight EC2 compute units (four virtual cores with two EC2 compute units each), 1,690 GB instance storage, 64 bit platform, high I/O performance, 1,000 Mbps EBS-optimized connection available. These computational resources are twice as large as for the m1.large instance. An instance is purchased within a geographical region. We use data from Amazon’s two U.S. EC2 regions, US-east and US-west, which correspond to Amazon’s data centers in Virginia and California.
+9
+
+LWestToEast : t LWestToWest : t LCentralToEast : t LCentralToWest : t DLEast : t DLWest : t DLCentral : t
+
+Standard instances are well suited for most applications. Micro instances (t1.micro) provide a small amount of consistent CPU resources and are well suited for lower throughput applications and websites that require additional compute cycles periodically. High-memory instances offer large memory sizes for high throughput applications, including database and memory caching applications. High-CPU instances have proportionally more CPU resources than memory (RAM) and are well suited for compute-intensive applications. Cluster compute instances provide proportionally high CPU resources with increased network performance and are well suited for high-performance compute applications and other demanding network-bound applications. Cluster GPU instances provide generalpurpose graphics processing units (GPUs) with proportionally high CPU and increased network performance for applications beneﬁtting from highly parallelized processing.
+
+3.3. Control Indicator Variables As additional control variables, we create a series of indicator variables corresponding to a series of Amazon
+
+150
+Table 1 Summary Statistics Windows P Obs. Mean Median Std. dev. Max Min Obs. Mean Median Std. dev. Max Min Correlation P East Correlation P West
+East
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+Linux/Unix P
+West
+
+P
+
+East
+
+P West 5,343 0 319 0 318 0 010 0 336 0 304 9,816 0 320 0 319 0 010 0 336 0 304 −0 00492 0 6263 1 00000
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Panel A: Spot prices: m1.xlarge at incurred transaction interval 6,407 5,440 6,384 0 400 0 532 0 246 0 402 0 529 0 242 0 016 0 017 0 056 0 960 0 560 1 000 0 380 0 506 0 228 Panel B: Spot prices for m1.xlarge at 60 minute intervals 9,816 9,816 9,816 0 400 0 532 0 245 0 401 0 530 0 241 0 014 0 016 0 045 0 960 0 560 1 000 0 380 0 506 0 228 1 00000 0 00279 1 00000 0 7826 0 00279 1 00000 −0 00492 0 7826 0 6263
+
+Notes. This table provides summary statistics for the Amazon EC2 (standard) m1.xlarge intraday spot instance price data on Windows and Linux/Unix platforms from April 9, 2010, to May 22, 2011. P East corresponds to the intraday spot prices at the US-east region, whereas P West corresponds to the spot prices at the US-west region. Both price series are measured in dollars per hour and are winsorized at the 1% level to address potential outlier issues. The mean, median, standard deviation, max, min, and correlation matrix are given for each series. Panel A provides descriptive statistics on the prices at their incurred transactions, whereas Panel B provides descriptive statistics on spot prices at 60 minute intervals.
+
+EC2 events that might inﬂuence the spot instance pricing dynamics. In particular, we create the following indicator variables that take on a value of one at their begin event dates and zero otherwise: Micro: Singapore: CC: Free: CG: Reduced: Tokyo: Micro instances (announced September 9, 2010) Asia Paciﬁc Region (Singapore; announced April 29, 2010)10 Cluster compute instances (Linux only; announced July 13, 2010) Amazon Web Services (AWS) Free Usage Tier (introduced October 21, 2010) Cluster GPU instances (announced November 15, 2010) m2.2xlarge and m2.4xlarge on-demand reserved price (reduced September 1, 2010) Asia Paciﬁc Region (Tokyo; announced March 2, 2011)
+
+3.4. Descriptive Statistics Table 1 provides summary statistics for the Amazon EC2 standard xlarge intraday spot instance price data on Windows and Linux/Unix platforms from April 9, 2010, to May 22, 2011. The term P East corresponds to the
+10
+
+intraday spot prices at the US-east region, whereas P West corresponds to the spot prices at the US-west region. Both are measured in dollars per hour. The mean, median, standard deviation, max, min, and correlation matrix are given for each series. Panel A provides descriptive statistics on the prices at their incurred transactions, whereas Panel B provides descriptive statistics on spot prices at 60 minute intervals.11 In Panel A of Table 1, we show that the average and median prices at their incurred transaction intervals across both the Windows and Linux/Unix platforms are higher in the West relative to the East over our sample period. The average price differences are $0.132 per hour for the Windows platform and $0.073 per hour for the Linux/Unix platform. Looking across the OS platforms, we also ﬁnd that the Linux/Unix prices are lower than the Windows platform prices. For the Windows platform, the standard deviation is higher for the West relative to the East at 0.017 versus 0.016. However, there is substantially more price variation using the Linux/Unix platform, and especially so for East prices, where we document standard deviations of 0.056 and 0.010 for the East and West, respectively. In Panel B of Table 1 we report the spot instance prices for standard xlarge at 60 minute intervals. The
+11
+
+Note that the Singapore indicator variable spans a large portion of the sample period, but its inclusion is not problematic because the constant is suppressed to avoid singularity problems. In effect, the Singapore indicator is a constant.
+
+The price data are winsorized at the 1% level to address potential outlier issues. The results are also robust to 3% and 5% winsorization levels.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+151
+
+Figure 1
+
+(Color online) (Panel A) Weekly Price Differential of m1.xlarge.windows, P D = P West − P East , and (Panel B) Weekly Price Differential of m1.xlarge.unix P D = P West − P East
+
+Panel A
+0.138
+
+0.136
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+0.134
+
+0.132
+
+0.130
+
+0.128
+
+0.126
+
+0.124 04/09/10
+
+05/14/10
+
+06/18/10
+
+07/23/10
+
+08/27/10
+
+10/01/10
+
+11/05/10
+
+12/10/10
+
+01/14/11
+
+02/18/11
+
+03/25/11
+
+04/29/11
+
+Panel B
+0.090 0.085 0.080 0.075 0.070 0.065 0.060 0.055 0.050 0.045 04/09/10
+
+05/14/10
+
+06/18/10
+
+07/23/10
+
+08/27/10
+
+10/01/10
+
+11/05/10
+
+12/10/10
+
+01/14/11
+
+02/18/11
+
+03/25/11
+
+04/29/11
+
+mean, median, and standard deviations of the 60 minute interval prices are nearly identical to the incurred level prices, indicating that the distribution of the incurred and 60 minute interval prices are very similar. The 60 minute interval prices also allow us to examine the correlation of the aligned prices. Interestingly, the contemporaneous intraday East and West price correlations across both OS platforms are not different from zero.12 Our documented East and West pricing
+12
+
+These results are robust across a range of time pricing intervals, including from 1, 5, 10, and 15 minute time intervals.
+
+differences coupled with their insigniﬁcant correlations provides some preliminary unconditional evidence suggesting that there may be some persistence in the pricing differentials across these markets. To examine the time-varying characteristics of the pricing differentials, we provide a time series plot of the West minus East pricing differentials for the Windows platform in Panel A of Figure 1 and for the Linux/Unix platform in Panel B. Given the high frequency of the data, we plot the pricing differentials at the average weekly level (using daily averages based on the intraday 60 minute interval prices) for depiction
+
+152 purposes. In both panels of Figure 1, we can see that there is indeed persistence in the pricing differential whereby West prices are consistently higher than East prices over time across both OS platforms. Furthermore, the plots show that there is signiﬁcant time variation in the pricing differentials. These results suggest that there is a dynamic relation in the pricing differentials, which we address in our conditional analysis.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+4.
+4.1.
+
+Results
+
+Measuring and Testing the Dynamic Relations Between Amazon EC2 Spot Instance East and West Prices Using a Bivariate VAR Model The descriptive statistics and price differential ﬁgures suggest that East and West prices vary over time, but this unconditional analysis is incomplete because it is unable to directly measure and test the pricing dynamics and does not control for other factors that inﬂuence those pricing dynamics. To examine these pricing dynamics in an appropriate conditional framework, we use a bivariate VAR model to test the price relations within and across the East and West Amazon EC2 spot instance pricing markets. The VAR framework provides a systematic modeling approach to capture rich conditional dynamics in multiple time series, and these models are among the most widely used to measure and test interdependencies among multiple time series such as our Amazon EC2 spot instance pricing across markets (e.g., Hamilton 1994). VAR models have proven to be especially useful in describing the dynamic behavior of economic and ﬁnancial time series as well as the prices of assets, commodities, and other goods, often providing superior forecasts to those from elaborate theory-based simultaneous equations models. In its simplest form, a VAR model is composed of a system of regressions where two or more dependent variables are expressed as linear functions of their own and each other’s lagged values, as well as other potential exogenous control variables. In more technical terms, a vector autoregressive model is the unconstrained reduced form of a dynamic simultaneous equations model. An unrestricted pth-order Gaussian VAR model can be represented as Yt = +
+1 Yt −1
+
++
+
+2 Yt −2
+
++···+
+
+p Yt −p
+
++ et
+
+(1)
+
+where Yt is a vector of variables; is a p × 1 vector of intercepts; 1 2 p are p × p matrices of parameters with all eigenvalues of having moduli less than one so that the VAR model is stationary; and et is a vector of uncorrelated structural shocks ∼ NID 0 . A problem arises with the VAR framework if the
+
+variables in the system are nonstationary, which we test. To further capture both long- and short-run dynamics and address nonstationarity problems, we also employ error correction models as discussed in §4.2. We obtain maximum likelihood estimates of and using iterated least squares. The number of lags is chosen based on examination of the Akaike information criteria (AIC), Schwarz Bayesian information criteria (SBIC), and the likelihood ratio selection criteria for various choices of p. In a two-equation framework consisting of only East and West pricing as endogenous variables, the diagonal coefﬁcients of represent conditional momentum in East and West pricing (lagged prices affecting current prices, controlling for other within- and across-market lagged pricing effects), whereas the off-diagonal coefﬁcients of represent conditional positive feedback and anticipation effects (changes in West prices following changes in East prices and vice versa, controlling for other within- and across-market lagged pricing effects). Table 2 provides results from the estimation of the bivariate VAR model using the 60 minute interval data and ﬁve lags as suggested by the AIC, the SBIC, and the likelihood ratio selection criteria for various lag choices. We report p-values in parentheses for individual coefﬁcient signiﬁcance. To examine the cumulative effects, we also report the sum of the estimated lagged coefﬁcients and p-values associated with Wald tests of joint signiﬁcance. The results in Table 2 show that the autoregressive component within each market is highly signiﬁcant, but the cross-market effects are largely muted. These results are consistent with our reported low contemporaneous correlations of the East and West prices. In particular, looking at the Windows platform results, we ﬁnd that prices in the East are signiﬁcantly related to prior East prices at a largely decreasing rate for up to four hours. At the same time, the East prices are weakly related to West prices—except at the ﬁve hour lag where we ﬁnd a signiﬁcant effect at the 3% level. Turning to the West prices with the Windows platform, we again ﬁnd a signiﬁcant diminishing autoregressive effect of lagged West prices inﬂuencing current West prices. However, we do not ﬁnd evidence of a signiﬁcant relation between lagged East prices inﬂuencing West prices using the Windows platform. Both the individual East and West within- and across-market price effects are also conﬁrmed when we look at their joint signiﬁcance in the bottom panel. In the joint signiﬁcance panel, we ﬁnd strong within-market effects and insigniﬁcant across-market effects. In the right panel of Table 2, we report the bivariate VAR model results between East and West prices using the Linux/Unix OS platform. We again ﬁnd a signiﬁcant relation between current and lagged East prices for up to four hours at a largely diminishing rate over time.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+153
+
+Table 2
+
+The Dynamic Relations Between East and West Prices Using a Bivariate VAR Model Windows P
+East
+
+Linux/Unix P
+West
+
+P
+
+East
+
+P West 0 211 0 0001 −0 003 0 264 −0 006 0 0787 0 004 0 2776 0 005 0 1288 0 001 0 6477 0 329 0 0001 −0 009 0 4184 0 032 0 0024 −0 014 0 1836 0 000 0 9695 0 581 9,816
+
+Constant
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+PtEast −1 PtEast −2 PtEast −3 PtEast −4 PtEast −5 PtWest −1 PtWest −2 PtWest −3 PtWest −4 PtWest −5 Adjusted R2 Obs.
+
+0 319 0 0001 0 110 0 0001 0 030 0 0028 0 071 0 0001 −0 023 0 0229 −0 002 0 8383 0 001 0 9339 0 015 0 1254 −0 013 0 1868 −0 012 0 2161 0 020 0 0265 0 020 9,816
+
+0 358 0 0001 −0 004 0 7354 0 004 0 7025 0 008 0 4685 −0 010 0 3879 −0 007 0 5178 0 305 0 0001 −0 002 0 8861 0 042 0 0001 −0 028 0 0073 0 015 0 1349 0 096 9,816 Joint signiﬁcance Windows
+
+0 027 0 1093 0 471 0 0001 0 085 0 0001 0 180 0 0001 0 107 0 0001 0 016 0 1195 −0 088 0 0072 0 036 0 2966 −0 044 0 2011 0 082 0 0177 0 036 0 2725 0 109 9,816
+
+Linux/Unix P West −0 009 0 907 0 332 0 000 P East 0 859 0 000 0 022 0 011 P West 0 001 0 190 0 338 0 000
+
+Variables PtEast −1 to t −5 PtWest −1 to t −5
+
+P East 0 186 0 000 0 011 0 205
+
+Notes. This table presents results obtained from estimating unrestricted VAR models using Amazon EC2 m1.xlarge spot prices at 60 minute intervals over the April 9, 2010, to May 22, 2011, sample period (N = 9 816). An unrestricted pth-order Gaussian VAR model can be represented as Yt = + 1 Yt −1 + 2 Yt −2 + · · · + p Yt −p + et We estimate a bivariate model where the lag length of the vector autoregression is chosen by the AIC, SBIC, and likelihood ratio criterion for various choices of p. We ﬁnd that ﬁve periodic 60 minute lags provide the best ﬁt. To examine the cumulative effects, we also report the sum of the estimated lagged coefﬁcients and p-values associated with Wald tests of joint signiﬁcance. The p-values are reported in parentheses.
+
+However, unlike the Windows platform results, we ﬁnd that lagged West prices have a signiﬁcant inﬂuence on East prices within one hour and also at higherlevel lags. The positive and signiﬁcant joint effect of lagged West prices on East prices in the bottom of the panel suggests an overall positive dynamic relation between West prices and East prices. Similarly, for the West prices under the Linux/Unix platform, we ﬁnd a signiﬁcant effect of lagged West prices on current West prices. However, in contrast to the Windows platform results, we ﬁnd that lagged East prices have a signiﬁcant inﬂuence on West prices, as shown by the two hour lag effect of East prices on current West prices, but their joint effect is insigniﬁcant. The ﬁt of the West
+
+price market as measured by the adjusted R2 is also signiﬁcantly higher relative to the other price ﬁts. Taken together, our bivariate VAR model results suggest that there are signiﬁcant dynamic pricing relations both within and across the East and West markets. The within-market effect is larger than the across-market effect, but there are also signiﬁcantly pronounced across-market pricing effects.13
+13 As a robustness check, we also tried some nonlinear speciﬁcations. These tests yielded similar results to those we report in Table 2 since the price levels and their nonlinear transformations are highly correlated in our high frequency data. Moreover, test speciﬁcations that included nonlinear transformations had signiﬁcant multicollinearity problems.
+
+154 Price Discovery in East and West Markets Using Information Shares The bivariate VAR analysis provides a formal test on the pricing relation dynamics between East and West markets, but those tests do not measure where price discovery occurs across these markets. An important function of markets is price discovery, which is the process through which closely related markets for a good attempt to reach an equilibrium price for that good. Although price discovery may be assumed to be immediate in perfectly competitive markets and frictionless Walrasian models of trading behavior, such assumptions are far from realistic in most markets. Prices of assets and goods evolve in markets, and price discovery involves the incorporation of new information into those prices. When homogeneous or closely linked goods trade in multiple markets, determining where the incorporation of new information (price discovery) occurs is important for market participants in determining market efﬁciency, pricing of the good or asset, and effective bidding and investment strategies. Measuring the price discovery process across Amazon EC2 East and West spot instance pricing markets is therefore important to understanding the pricing dynamics across these markets. There are two standard approaches, developed by Hasbrouck (1995) and Gonzalo and Granger (1995), used to examine the relative rates of price discovery for the same good traded across markets.14 Both approaches assume that an underlying good trading in multiple markets has a common implicit efﬁcient price, and the approaches build on the idea that prices for the same good converge to this common efﬁcient price in the long run, but deviate in the short run because of various market frictions. The market with the largest information shares leads the other markets by reacting to new information ﬁrst. If the innovations in a market drive the reaction of the other markets, this market is informationally dominant in the price discovery process. Importantly, the results from using Hasbrouck’s (1995) versus Gonzalo and Granger’s
+Although those by Hasbrouck (1995) and Gonzalo and Granger (1995) are the two most widely accepted price discovery measures, there is some debate in the literature about how price discovery across markets should be measured and what procedures should be implemented (Lehmann 2002). Baillie et al. (2002) and De Jong (2002) argue that both the Hasbrouck (1995) and Gonzalo and Granger (1995) deﬁnitions of contribution to price discovery have their merits. Hasbrouck’s (1995) approach measures the extent of the common efﬁcient price variation explained by the price innovation (new price change) in each market; that is, it focuses on the proportional contribution of a market’s price innovation to the innovation in the common efﬁcient price. By contrast, Gonzalo and Granger’s (1995) approach decomposes the price into a long-run permanent price and transitory components, with the price discovery weight deﬁned as the change in the permanent component with respect to the information shock.
+14
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+4.2.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+(1995) approach differ at times, and we therefore apply both methodologies in our analysis to determine the information shares generated by East and West Amazon EC2 spot instance pricing markets. In its simplest form, one can think of the information shares as capturing the extent to which pricing relevant information on a good traded in different markets is incorporated into the price; that is, it measures in simple terms the market (location) where the pricing relevant information is being incorporated—which is subsequently incorporated in other markets for that same good. As an illustrating example, a Canadian stock may be cross-listed on both the Toronto Stock Exchange (TSE) and the New York Stock Exchange (NYSE). The new earning information of the stock may affect the stock price on the domestic market (TSE) more than the foreign market (NYSE), whereas the greater competition on the NYSE may lead to a greater contribution of NYSE to the price discovery. The basic idea is that observed prices impound an efﬁcient implicit price that is common to the markets where the good trades. Sources of variation in this price can be attributed to different markets. Therefore, the proportion of the price innovation that can be attributed to each market is that market’s information share—its contribution to price discovery. The information shares provide a useful summary measure of each market’s contribution to the price discovery of the same good traded in different markets. Both Hasbrouck’s (1995) information share model and Gonzalo and Granger’s (1995) common factor model are based on the following vector error correction (VEC) model:
+k
+
+Pt =
+
+Pt−1 +
+j =1
+
+j
+
+Pt−j + et
+
+(2)
+
+where is the error correction term. The error term et is a zero-mean vector of serially uncorrelated innovations with a covariance matrix =
+2 1 2 1 1 2 1 2 2 2
+
+2 and 2 are the variances of e1t and e2t , and is the correlation coefﬁcient. The ﬁrst term on the right-hand side of (2), Pt−1 , represents the long-run equilibrium of two price time series, whereas the second term on the right-hand side of (2), k j =1 j Pt −j , describes short-run deviations due to imperfect market conditions. Hasbrouck (1995) converts the VEC model to obtain a vector moving average representation, which is Pt = ∗ L et and Pt = 1 t L et . As discussed by s =1 es + Hasbrouck (1995), the long-run impact of a disturbance on each of the prices is intuitively given by 1. The row differences of this coefﬁcient matrix are then checked. If the differences are all less than 0.001, we consider the rows of 1 to be identical and use only
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+155 In Panel B of Table 3, we provide descriptive statistics on the daily information shares using the Gonzalo and Granger (1995) methodology. Consistent with the Hasbrouck (1995) information share results, we again ﬁnd that the East market has greater price information processing relative to the West. The average daily price information shares are 70.9% in the East and 29.1% in the West for the Windows OS, and 78.9% and 21.1% for the East and West price information shares, respectively, using the Linux/Unix OS. The median price information share results also suggest that the East price information processing is larger than the West across both OS platforms. Overall, the information share results using both Hasbrouck (1995) and Gonzalo and Granger (1995) and across both OS platforms suggest that a large portion of the relative price discovery across markets occurs in the East market—it leads the West market by reacting to new information ﬁrst and is informationally dominant in the price discovery process for Amazon EC2 cloud computing spot instances. 4.3. Latency and East vs. West Price Differences
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+the ﬁrst row of the coefﬁcient matrix. We use to denote the ﬁrst row vector in 1 , = 1 2 . Thus, t ∗ Pt = l L et , where l = 1 1 ’. Hasbrouck s =1 es + (1995) deﬁnes et as the common factor component of two market prices with variance . When e1t and e2t are uncorrelated, the information share of the j th market is ISj = j2 j2 / , j = 1 2. When e1t and e2t are correlated, Cholesky factorization is used to remove the error caused by the correlation. In this case, the information share of the j th market is ISj = M j 2/ , where M= m11 m12 0 m22 =
+1 2 2
+
+0 1−
+
+2 1/2
+
+Since the Cholesky factorization is sensitive to ordering of the variables, we estimate the upper and lower bounds for each of the markets using both possible order permutations of the East and West Amazon EC2 prices. We use intraday ﬁve minute intervals to estimate daily information shares. Our reported results are robust to alternative intraday frequencies. The ﬁrst several steps of the Gonzalo and Granger (1995) information model are similar to Hasbrouck’s (1995) information shares approach. We again use intraday ﬁve minute intervals to estimate daily market price discovery shares. The East and West prices, p1 and p2 , are then “shocked” (perturbed) with a unit impulse. We estimate a VEC model using 20 lags pt−1 + A1 pt−1 + A1 pt−1 + · · · + A20 pt−20 + et (3) where = 1 2 is the speed of price correction when the price in one market deviates from that in the other market. The Gonzalo and Granger (1995) price discovery measures for p1 and p2 are deﬁned as GG1 = − 2 / 1 − 2 , and GG2 = 1 / 1 − 2 . In Table 3, we provide descriptive statistics on the relative price discovery across the East and West markets for both OS platforms. Panel A provides the means, medians, and standard deviations of daily Hasbrouck (1995) information shares over our sample period, whereas Panel B provides the same descriptive statistics for our estimated daily Gonzalo and Granger (1995) information shares. Looking ﬁrst at the Hasbrouck (1995) information share results in Panel A of Table 3, we ﬁnd that a large portion of the relative price discovery occurs in the eastern market relative to the western market. The average daily information shares using the Windows platform prices are 78.8% in the East and 21.2% in the West. By comparison, the Linux/Unix platform results in the right panel also indicate that a signiﬁcant portion of the information processing occurs in the East market at an average of 72.3% and in the West market at an average of 27.7%. The median results further conﬁrm that price discovery predominantly occurs in the East market relative to the West. pt =
+
+4.3.1. Price Difference Regressions. The earlier reported descriptive statistics and price differential ﬁgures suggest that Amazon EC2 East and West spot price instances vary over time, whereas our VAR model results suggest that there are signiﬁcant within- and across-market pricing dynamic relations. The information shares further suggest that the East market is informationally dominant in the price discovery process relative to the West market. In our hypothesis development, we hypothesize that latency is a key determinant of the pricing differentials over time. To test this hypothesis, we use regression procedures whereby we regress latency differences and various event indicator controls on the differences in prices between the West and East markets. We ﬁrst use various ordinary least squares (OLS) regression speciﬁcations to test for the inﬂuence of latency and other factors on the pricing differentials across East and West Amazon EC2 spot instance pricing over time.15 In particular, we employ the following
+If the price level series are stationary, the OLS model is appropriate. In general, a series is nonstationary if its mean, autocovariances or other higher moments are time dependent. For example, if the mean of a series varies with respect to time, it is likely to be nonstationary. The problem is that if a series is nonstationary, then simple time-series techniques can result in misleading (or spurious) values of inferential statistics (e.g., t -statistics, R2 , and Durbin-Watson statistic) of a type that will cause one to erroneously conclude that a meaningful relation exists among the regression variables. Simply stated, the test for a unit root (nonstationarity) in a time series is the test that a regression of a series on itself lagged one period yields a coefﬁcient of one. This test is complicated by several features arising from the nonstationarity of the series under the null hypothesis.
+15
+
+156
+Table 3
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+Price Discovery in East and West Markets Using Information Shares Windows P
+East
+
+Linux/Unix P
+West
+
+P
+
+East
+
+P West 409 0.277 0.162 0.298 409 0.211 0.424 4.341
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Obs. Mean Median Std. dev. Obs. Mean Median Std. dev.
+
+409 0.788 0.866 0.222
+
+Panel A. Hasbrouck’s (1995) information shares 409 0.212 0.134 0.222
+
+409 0.723 0.838 0.298
+
+Panel B. Gonzalo and Granger’s (1995) information shares 409 409 409 0.709 0.291 0.789 0.597 0.403 0.576 2.901 2.901 4.341
+
+Notes. This table provides descriptive statistics for daily information shares using intraday ﬁve minute pricing time intervals. Panel A provides the means, medians, and standard deviations of Hasbrouck’s (1995) daily information shares ISj = ISj = M =
+2 2 j j
+
+when e1t and e2t are correlated
+2 j
+
+M m11 m12
+
+when e1t and e2t are uncorrelated and where 0 m22 =
+1 2 2
+
+0 1−
+
+2 1/2
+
+Since the Cholesky factorization is sensitive to ordering of the variables, we estimate the upper and lower bounds for each of the markets using both possible order permutations of the East and West Amazon EC2 prices. For each market, we calculate the daily midrange of the upper and lower bounds, and we provide descriptive statistics on these daily Hasbrouck (1995) information shares over our sample. Panel B provides the means, medians, and standard deviations of the daily information shares using the Gonzalo and Granger (1995) model − 2 1 GG1 = and GG2 = 1− 2 1− 2 For each region, we report the statistics for information shares: P East corresponds to the information share for the region US-east, whereas P West corresponds to the information share for the region US-west. The sample period is from April 9, 2010, to May 22, 2011.
+
+four intraday pricing differential regression models: PDt = PDt =
+0 0
+
++ +
+7
+
+East 1 DLt East 1 DLt di Di
+
++ +
+t
+
+West 2 DLt West 2 DLt
+
++ +
+
+Central 3 DLt Central 3 DLt
+
++
+
+t
+
+(4)
+
++
+i=1
+
++
+
+(5) + (6)
+di Di i=1
+
+18
+
+PDt = PDt =
+
+0+ i=1 18 0
+
+i DL_City it
+
+t 7
+
++
+i=1
+
+i DL_City it
+
++
+
++
+
+t
+
+(7)
+
+where PDt = PtWest − PtEast is the pricing differential between West and East Amazon EC2 spot instance pricing at time t ; DLEast , DLWest , and DLCentral are corret t t sponding average regional latency differences at time t ; DL_Cityit are corresponding average city-level latency differences at time t ; and Di are various event indicator variables (i.e., introductions of new Amazon computing instances, locations, and reserved pricing changes). We include all three regions or all 18 cities of the Internet backbone in our base regression estimates and
+
+therefore suppress the constant, 0 , to avoid singularity problems—particularly those associated with event indicator variables that span a large portion of the sample period. We also perform reverse causality tests to conﬁrm that latency is driving the pricing differential, and not vice versa, as well as use an instrumental variable (IV) approach to further conﬁrm and identify that latency is causal in affecting the price differentials. Table 4 provides a description of the variables that we use in the regression analysis. We use both citylevel latency differential measures and regional latency differential measures derived from the city measures. We also include a series of Amazon event indicator explanatory variables. The intraday summary statistics associated with the regional latency differential variables are shown in Table 5 at 60 minute intervals.16 We ﬁnd that the East latency differential is on average smaller than the West latency differential. The median results further conﬁrm that the East latency differentials are smaller than the West latency differentials. Both the
+16
+
+The latency data are winsorized at the 1% level to address potential outlier issues. The results are also robust to 3% and 5% winsorization levels.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+157
+
+Table 4 PD DL_City it LEastToEast t LEastToWest t LWestToEast t LWestToWest t LCentralToEast t LCentralToWest t DLEast t DLWest t DLCentral t Micro Singapore CC Free CG Reduced Tokyo
+
+Description of Regression Variables Used to Explain the Price Differential P West − P East Average latency to Amazon West EC2 center at city i minus average latency to Amazon East EC2 center at city i Average latency from East region backbone nodes to Amazon East EC2 center Average latency from East region backbone nodes to Amazon West EC2 center Average latency from West region backbone nodes to Amazon East EC2 center Average latency from West region backbone nodes to Amazon West EC2 center Average latency from Central region backbone nodes to Amazon East EC2 center Average latency from Central region backbone nodes to Amazon West EC2 center LEastToWest − LEastToEast LWestToEast − LWestToWest LCentralToWest − LCentralToEast Micro instances announced (September 9, 2010) Asia Paciﬁc Region (Singapore) announced (April 29, 2010) Cluster compute instances (Linux/Unix Only) announced (July 13, 2010) AWS Free Usage Tier introduced (October 21, 2010) Cluster GPU instances announced (November 15, 2010) m2.2xlarge and m2.4xlarge on-demand reserved price reduced (September 1, 2010) Asia Paciﬁc Region (Tokyo) announced (March 2, 2011)
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Notes. In our analysis, we use city-level (i.e., 18 node) latency data measured in seconds. We also aggregate the city-level latency data into three regions as follows: East = average Newark + Atlanta + Boston + NY + Philadelphia + DC + Reston West = average San Jose + Mesa + Denver + LA + San Diego + Seattle Central = average Dallas + Houston + Kansas City + St. Louis + Chicago This table provides a description of the variables used in the regressions with price differential as the dependent variable.
+
+standard deviations and range suggest that there is some substantial variability in the latency differentials over time. The central latency differentials are the smallest of the regional latency differentials by design in that they are more centrally located between the East and West markets, and hence the latency differential results in a smaller latency difference. Also, as expected, based on the formulation of the East–West latency variables, there is a negative correlation between the East and West latency differentials.
+
+Table 5
+
+Latency Summary Statistics DLEast DLWest 9,816 6 082 5 925 2 675 47 773 −66 279 −0 512 <0 0001 1 000 −0 457 <0 0001 DLCentral 9,816 0 765 0 445 2 970 118 104 −23 651 0 586 <0 0001 −0 457 0 6263 1 000
+
+Obs. Mean Median Std. dev. Max Min Correlation DLEast Correlation DLWest Correlation DLCentral
+
+9,816 4 908 4 796 2 286 94 739 −21 664 1 000 −0 512 <0 0001 0 586 <0 0001
+
+Notes. Intraday latency data were measured at 60 minute intervals and winsorized at the 1% level to address potential outlier issues. Latency data are in seconds.
+
+As some additional visual motivation, we plot in Figure 2, Panels A and B, the pricing differentials along with the East and West latency differentials aggregated at the weekly level. In Panel A we report the Windows platform pricing differentials, whereas in Panel B we report the Linux/Unix platform pricing differentials. From both panels in Figure 2, one can see that there is signiﬁcant time variation in the latency differentials and that the pattern of the latency differentials and pricing differentials is similar over time. In many cases, the pricing differentials are also bounded by the latency differentials. Although the visual evidence is helpful in understanding the relation between latency and pricing over time, it is not a formal test of that relation. To formally measure and test the relation between the pricing and latency differentials, we use regression procedures with various model speciﬁcations to insure that our results are robust. Table 6 provides the results from estimating our four different regression speciﬁcations across the Windows and Linux/Unix platforms. These two panels show the results of regressing the price differentials on latency differentials and various event indicator variables. The left panel of the table contains the regression results using the Windows platform, whereas the right panel contains the results using the Linux/Unix platform. For Model 1, we include the regional latency differentials in the regression speciﬁcation, whereas for Model 2
+
+158
+Figure 2
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+(Color online) (Panel A) Weekly Price Differential of m1.xlarge.windows and Latency Differential and (Panel B) Weekly Price Differential of m1.xlarge.linuxunix and Latency Differential
+
+Panel A
+0.138 7.5
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+0.136
+
+7.0
+
+6.5 0.134 6.0 0.132 5.5 0.130 5.0 0.128 4.5
+
+0.126
+
+4.0
+
+0.124 04/09/10
+
+3.5 05/14/10 06/18/10 07/23/10 08/27/10 10/01/10 11/05/10 12/10/10 01/14/11 02/18/11 03/25/11 04/29/11
+
+Panel B
+0.085 7.5
+
+0.080
+
+7.0
+
+6.5 0.075 6.0 0.070 5.5 0.065 5.0 0.060 4.5 0.055
+
+4.0
+
+0.050 04/09/10
+
+3.5 05/14/10 06/18/10 07/23/10 08/27/10 10/01/10 11/05/10 12/10/10 ld_West 01/14/11 02/18/11 03/25/11 04/29/11
+
+Pd_m1.xlarge.windows
+
+ld_East
+
+we augment the regional latency differentials with the event indicator variables. Model 3 uses city-level latency differentials, whereas Model 4 augments the city-level latency differentials with the event indicator variables. The results in Table 6 show that latency differentials have a signiﬁcant effect on the pricing differential. For Model 1, we ﬁnd that both the East and West latency
+
+differentials have a signiﬁcantly positive effect on the pricing differential, suggesting that larger (smaller) latency effects result in larger (smaller) pricing differentials; that is, latency creates a dynamic pricing wedge, similar to a varying transaction cost, that widens or narrows conditional on the latency differentials as discussed in §2. Although signiﬁcant, the central latency differential has a much more muted effect (less
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+159
+
+Table 6
+
+Price Differential Regressions Windows Model 1 Model 2 6 420 0 0001 5 550 0 0001 −0 273 0 0639 0 356 0 0001 0 799 0 0001 1 250 0 0001 2 590 0 0001 0 744 0 0001 2 830 0 0001 3 040 0 0001 −0 372 0 0001 −1 910 0 0001 −1 300 0 0001 −3 650 0 0001 −1 660 0 0001 −1 670 0 0001 0 509 0 0001 −0 017 0 8200 0 064 0 1940 −0 155 0 0132 0 623 0 0001 0 038 0 7153 0 466 0 0001 0 586 0 0001 1 580 0 0001 0 379 0 0001 1 710 0 0001 2 060 0 0001 −0 222 0 0001 −1 460 0 0001 −0 713 0 0001 −2 160 0 0001 −0 878 0 0001 −0 924 0 0001 0 545 0 0001 −0 080 0 3015 −0 069 0 1836 −0 255 0 0001 0 441 0 0001 Model 3 Model 4 Model 1 7 480 0 0001 5 780 0 0001 −1 120 0 0001 Linux/Unix Model 2 4 000 0 0001 3 310 0 0001 −0 227 0 2995 −0 520 0 0001 0 775 0 0001 0 687 0 0001 1 930 0 0001 0 434 0 0001 1 660 0 0001 1 830 0 0001 −0 192 0 0054 −0 933 0 0001 −0 869 0 0001 −1 980 0 0001 −1 060 0 0001 −0 878 0 0001 0 063 0 4049 0 037 0 7459 −0 287 0 0001 0 108 0 2592 0 366 0 0029 −0 623 0 0001 0 515 0 0001 0 355 0 0051 1 450 0 0001 0 238 0 0001 1 150 0 0001 1 290 0 0001 −0 134 0 0506 −0 642 0 0001 −0 603 0 0001 −1 260 0 0001 −0 684 0 0001 −0 508 0 0001 0 361 0 0001 −0 012 0 9315 −0 164 0 0375 −0 092 0 3369 0 447 0 0003 Model 3 Model 4
+
+DLEast
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+DLWest DLCentral East DL_Atlanta DL_Boston DL_DC DL_Newark DL_NY DL_Philly DL_Reston West DL_Denver DL_LA DL_Mesa DL_SD DL_SJ DL_Seattle Central DL_Chicago DL_Dallas DL_Houston DL_KC DL_St. Louis
+
+12 770 0 0001 10 400 0 0001 −0 841 0 0001
+
+than one-tenth the size) on the pricing differential as expected given the relative distances and consequent latencies, though it has an unexpected negative effect. In Model 2 under the Windows platform, where we now include the event indicator variables, we again ﬁnd that the East and West latency differentials have a signiﬁcantly positive effect on the pricing differential. The central latency differential is again also much more muted in its impact, but it is now only marginally signiﬁcant at the 10% level. Interestingly, the introduction of a reduction in the m2.2xlarge and m2.4xlarge on
+
+demand reserved prices has a negative effect on the pricing differentials, as does the later introduction of the Tokyo Asia Paciﬁc region. By contrast, the earlier introduction of the Singapore Asia Paciﬁc region has a positive effect on the pricing differential. As additional robustness checks, we include various additional variables in our speciﬁcations. Our results are robust to their inclusion. In particular, including Amazon EC2 East center’s failure on April 21, 2011, does not alter our results—the event is not statistically signiﬁcant in our estimates. If we include a lagged dependent
+
+160
+Table 6 (Continued) Windows Model 1 Indicators Micro Model 2 0 777 0 7351 70 560 0 0001 −1 450 0 2108 −0 789 0 6040 2 060 0 7726 −4 820 0 0373 −3 840 0 0001 0 950 9,816 Model 3
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+Linux/Unix Model 4 0 892 0 6664 54 840 0 0001 0 304 0 7488 −0 315 0 8126 0 260 0 3071 −2 670 0 2151 −3 390 0 0001 0 957 9,816 Model 1 Model 2 9 030 0 0158 26 610 0 0001 7 680 0 0001 −0 578 0 8114 −1 830 0 2818 −4 280 0 2458 −0 813 0 5688 0 706 9,816 Model 3 Model 4 8 320 0 0255 15 910 0 0001 8 020 0 0001 −0 251 0 9153 −3 050 0 1035 −1 830 0 6182 −0 566 0 6886 0 714 9,816
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Singapore CC Free CG Reduced Tokyo Adjusted R2 Obs. 0 928 9,816
+
+0 946 9,816
+
+0 692 9,816
+
+0 707 9,816
+
+Notes. This table provides regression results of the price differentials P West − P East on the latency differentials and various event indicator variables. The variable deﬁnitions are provided in Table 4. The regressions use intraday data measured at 60 minute intervals, and the sample period runs from April 9, 2010, to May 22, 2011. All estimates are multiplied by 1,000.
+
+variable in our speciﬁcations, we again obtain similar results. Models 3 and 4 provide the results using the citylevel latency differentials and augmented model with event indicator variables. Recall that the city-level latency differentials are measured as the average latency to Amazon West EC2 center at city i minus the average latency to Amazon East center at city i. As expected, across both Models 3 and 4, we ﬁnd that the city-level latency differentials have a signiﬁcant effect on the pricing differentials. The positive signs on the eastern city differentials are as expected, as are the negative signs on the western city differentials, given how we deﬁne the city-level latency differentials; that is, the western cities will have lower latencies to the west by design given their location, resulting in a negative latency differential given the larger latency to the east. The interpretation of the negative latency differential on the price differential deﬁned as P West − P East in this case would result in an inverse relation. As expected, several of the central city latency differentials do not have a signiﬁcant effect on the pricing differential given that their latencies are often similar to the West and East markets. In Model 4, augmented with the event indicator variables, we again ﬁnd that the introduction of Tokyo and Singapore results in negative and positive price differential effects, respectively. However, the reduced indicator event is no longer signiﬁcant when the city-level latency differentials are used. The Linux/Unix platform results are reported in the right columns of Table 6. Similar to the Windows platform results, we again ﬁnd that latency differentials
+
+(except central latency differential) have a signiﬁcant effect on the pricing differentials for both the differential latencies measured at the regional or city level. The indicator event effects are also very similar to those discussed for the Windows platform results, with the exception that the Tokyo introduction and reduced indicator event do not have a signiﬁcant effect across any of our model speciﬁcations with the Linux/Unix platform. We have shown that both the East and West latency differentials have a signiﬁcant effect on the pricing differentials. However, some may argue that there might be differences in the prevalent industry sectors in the two coasts, and these industry differences (or other factors), rather than the latency, drive the price differential. This “other factors” question can be best answered both conceptually and empirically. Conceptually, no other factors can reasonably explain the persistent price differentials but for latency, by envisioning the counterfactual of a world without latency. Suppose there is no latency (the counterfactual part) and there are persistent price differentials between the spot prices of the Amazon EC2 West and East centers (the West prices are always 30% higher). In the absence of latency, the prevalent industry sectors in the two coasts cannot explain the persistent price differentials. Since any company in any industry sector can effortlessly bid in either Amazon’s East or West center, no industry sector will bid for spot instances in the persistently higher West market. As a result, the persistently higher-priced spot market in the West center will cease to exist without latency.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+161 results are exactly the same as in Table 6, except we use instrumented latency (predicted latency with distance as the instrument) from the ﬁrst stage estimates in place of latency. Looking at the ﬁrst stage results in Table 7, we see that distance is a strong instrument for latency, with signiﬁcant coefﬁcient estimates, F -tests, and high R2 values in the ﬁrst stage regressions. The weaker ﬁt for the central estimates are not surprising since there is signiﬁcantly less variation in both latency and distance among central cities to Amazon East and West centers. In our second stage regressions, we obtain results that are very similar to the results reported in Table 6. These results further strongly conﬁrm and identify that latency causally affects the price differentials. To capture both long-run and short-run pricing dynamics, we also employ an ECM. The ECM model is appropriate if the series are nonstationary and cointegrated. Unit root test results suggest that the Windows East and West prices are nonstationary at the 10% signiﬁcance level and are cointegrated (P West , ADF P -value = 0.08; P East , ADF P -value = 0.04; ADF is the augmented Dickey–Fuller unit root test). The ECM framework allows us to model the East and West pricing relations as an adjustment process around their long-run equilibrium price convergence. Error correction models are based on the idea that two or more time series exhibit a long-run time-varying equilibrium to which the system tends to converge. This long-term convergence in pricing is a reasonable assumption given that long-run pricing in both the East and West should be similar or users would shift their computing to the lower priced market through negative feedback and error correction, with the latency differential playing an important role in the potential pricing convergence. Following the Engle and Granger (1987) two-step method, a long-run price model is speciﬁed in levels. The second stage, short-run adjustment model is speciﬁed in ﬁrst differences and includes a long-run error correction term from the estimation of the long-run, equilibrium model (the residuals from the ﬁrst stage model as an error correction term). In the ﬁrst stage, theory and econometric evidence are used to determine whether the East and West Amazon EC2 spot instance price series contain unit roots and are cointegrated. If the pricing series are cointegrated, a long-run equilibrium relation (i.e., a cointegrating regression) can be speciﬁed in levels as PtWest =
+0
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Empirically, to insure that our results are robust, we performed numerous additional tests, as discussed throughout this paper and are available in the online appendix (available as supplemental material at http:// dx.doi.org/10.1287/isre.2015.0608). Our reported results are robust to numerous additional tests, including varying speciﬁcations, nonlinear speciﬁcations, outlier tests, additional control variables, additional latency lags, and alternative instance samples and frequencies. We also ran reverse causality regressions and found no evidence of a simultaneity or endogeneity issue of pricing dynamics inﬂuencing latency. In §4.3.2, we further use two-stage least squares (2SLS) instrumental variable procedures to address potential omitted variable bias issues. 4.3.2. Additional Identiﬁcation Tests and Shortand Long-Run Price Differential Dynamics: 2SLS Regressions and Error Correction Models. As an additional strong identiﬁcation test, we used 2SLS IV procedures. Although employing IV procedures can often be challenging because of the limited availability of ideal exogenous instruments, we have an ideal instrument in this setting that is clearly correlated with latency and cannot be affected by price or an omitted variable—physical distances (the straight line distances between the center of city i and Amazon EC2’s data center locations); that is, distance is clearly exogenous to price or any other possible latent factor. Physical distances cannot be affected by any of these variables. In this set of tests, we use 2SLS IV procedures whereby we regress distances at the city level against the corresponding latencies and take the ﬁtted values (predicted values) as an instrument for latency in our second stage pricing regressions. In the ﬁrst stage, we run regression models where we regress Distance_Cityi _to_East (or West or Central) against Latencyt _Cityi _to_East (or West or Central) for each hour and every city within each region. From these regressions, we obtain predicted hourly city-level latencies based on distance as an IV. This dynamic estimation approach allows for hourly variation in the associated coefﬁcient estimates on distance and time-varying citylevel latency estimates.17 With the predicted city-level latencies from the ﬁrst stage regressions, we calculate average regional-level latencies and take these variables into the original model to perform the second stage regression—price difference with IVs. Table 7 provides the results from our 2SLS regression procedures. In the ﬁrst stage, we report the regression statistics for the median estimate results from the time-varying estimates. For clarity of ﬁt purposes, we chose to report the results at their medians, but presenting the results for the averages also yields similar inferences. The speciﬁcations for second stage
+17
+
++
+
+East 1 Pt
+
++
+
+t
+
+(8)
+
+The results are robust to alternative estimation frequencies.
+
+where PtWest and PtEast are the Amazon EC2 spot instance price levels in the West and East, respectively. From this regression, we can estimate residuals as the differences between the actual and estimated equilibrium values of
+
+162
+Table 7 Additional Identiﬁcation Test: 2SLS Instrumental Variables Approach
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+First stage regression statistics at median: Latency Median coefﬁcient (p-value) To East Distance East Distance West Distance Central To West Distance East Distance West Distance Central 0 0030 0 0575 0 0048 0 0768 0 0023 0 4153 0 0032 0 1036 0 0015 0 0483 0 0032 0 3880 Median F -statistic (p-value) 15 2113 0 0114 5 6135 0 0640 0 8887 0 3891 3 6927 0 1127 6 6844 0 0491 1 0142 0 3601 Median R2 0.75 0.58 0.23
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+0.43 0.66 0.25
+
+Second stage regression: Price difference with latency IV Windows Model 1 East_IV_Latency West_IV_Latency Central_IV_Latency Micro Singapore CC Free CG Reduced Tokyo Adjusted R2 Obs. 0 9601 9,816 15 59 <0 0001 8 080 <0 0001 0 671 0 0001 Model 2 11 980 <0 0001 6 330 <0 0001 0 442 0 0019 2 020 0 3137 34 750 <0 0001 −2 530 0 0096 −0 672 0 6032 5 480 <0 0001 −594 0 0026 −4 420 <0 0001 0 9637 9,816 Model 1 8 930 <0 0001 4 800 <0 0001 −0 524 0 0150 Linux/Unix Model 2 7 190 <0 0001 3 910 <0 0001 0 505 0 0344 10 010 0 0028 4 180 0 0380 9 000 0 0022 −0 498 0 8183 0 308 0 8716 −6 560 0 0470 −0 969 0 4493 0 7540 9,816
+
+0 7508 9,816
+
+Notes. In this additional identiﬁcation test, we employ 2SLS procedures. In the ﬁrst stage, we run regression models where we regress Distance_Cityi _to_East (or West or Central) against Latencyt _Cityi _to_East (or West or Central) for each hour and every city within each region. From these regressions, we obtain predicted hourly city-level latencies based on distance as an instrumental variable. This dynamic estimation approach allows for hourly variation in the associated coefﬁcient estimates on distance and time varying city-level latency estimates. With the predicted city-level latencies from the ﬁrst stage regressions, we calculate average regional-level latencies and take these variables into the original model to perform the second stage regression—price difference with IV. Below we report the results from our 2SLS instrumental variables procedures. In the ﬁrst stage, we report the regression statistics for the median estimate results from the time-varying estimates. The speciﬁcation for second stage results are exactly the same as Table 6, except we use instrumented latency (predicted latency with distance as the instrument) from the ﬁrst stage estimates in place of latency.
+
+the price levels. If the residuals from Equation (8) are stationary, they may be used as error correction terms in the short-run price difference model as follows:
+n
+
+PDt =
+
+0+ i=1
+
+i
+
+Xit − ˆt−1 +
+
+t
+
+(9)
+
+where PDt = PtWest − PtEast is the pricing differential between West and East Amazon EC2 spot instance pricing in time t , Xit are ﬁrst differences of the explanatory variables (i.e., differences in latency in time t ), ˆt−1 is the error correction term (i.e., the lagged residuals from the long-run cointegrating regression), and all
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+163 speed of adjustment parameter is both signiﬁcant and negative, suggesting that a wider disequilibrium (i.e., larger errors) from the long-run price convergence causes the short-run price differential to narrow, but the adjustment is only partial at −0 544.
+
+Table 8 Variable Intercept P East
+
+Short- and Long-Run Price Differential Dynamics Using an Error Correction Model Parameter estimate Panel A: Stage 1, PtWest = 0 531 3 200 Panel B: Stage 2, P Dt =
+0
+
+Pr > t
+East 1 t
+
++
+
+P
+
++
+
+t
+
+<0 0001 0 7826
+i
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+lagpd DLEast DLWest DLCentral lagres
+
+n 0+ i =1 0 849 1 590 1 860 −0 085 −0 544
+
+Xit − ˆt −1 + t , <0 0001 <0 0001 <0 0001 0 3901 <0 0001
+
+5.
+
+Managerial Implications
+
+Notes. This table provides ECM estimates using the Windows platform prices. Unit root tests suggest that the Windows East and West prices are nonstationary at the 10% signiﬁcance level and are cointegrated (P West , ADF P -value = 0.08; P East , ADF P -value = 0.04; ADF is the augmented Dickey–Fuller unit root test). Following the Engle–Granger two-step method, we specify a long-run price model in levels. In the short-run second stage adjustment model, the variables are speciﬁed as ﬁrst differences and include the residuals from the ﬁrst stage model as an error correction term. The variable deﬁnitions are provided in Table 4. The term Xit are ﬁrst differences of the explanatory variables (i.e., differences in latency in time t ), ˆt −1 is the error correction term (i.e., the lagged residuals from the long-run cointegrating regression, lagres), and all of the difference terms are stationary. The regressions use intraday data measured at 60 minute intervals, and the sample period runs from April 9, 2010, to May 22, 2011. Price and latency differential estimated coefﬁcients are multiplied by 1,000.
+
+of the difference terms are stationary. Estimation of Equation (9) provides evidence on short-run pricing dynamics related to latency differentials (the i ’s) and adjustments to the previous disequilibrium in the longrun relation, (the speed of adjustment parameter). Consistent with our prior empirical speciﬁcations, the variable of interest is the cross-market price dynamic. We chose to be more conservative in our approach by using both price difference regressions and a modiﬁed ECM model to further show the robustness of our results if one was concerned with potential nonstationarity problems. However, our fundamental results in this paper do not hinge on the ECM model results, and the ECM model results are robust to alternative ECM model speciﬁcations. Table 8 reports the results from estimating the ECM model using the Windows platform instance prices. In Panel A, we ﬁnd that East prices have a positive long-run relation on West prices, though the standard errors of the equilibrium estimate are large. In Panel B, we ﬁnd that lagged price differentials have a positive and signiﬁcant inﬂuence on current price differentials, suggesting some persistence in the pricing differentials. We also ﬁnd that the East and West latency differentials continue to have a positive and signiﬁcant inﬂuence on the pricing differentials. This suggests that latency plays an important role in the short-run pricing dynamics across the East and West markets, consistent with our proposed hypothesis. Looking at the error correction term, lagres, we ﬁnd that the
+
+The key takeaway from our study is that companies should factor in their latency tolerance in deciding how much to bid for cloud computing spot instances. The apparent arbitrage opportunity for Amazon EC2 cloud computing spot instances no longer exists after taking latency effects into account; that is, for latencysensitive ﬁrms, the total cost, including the price of the spot instance and latency, for a company on the West Coast using the Amazon West EC2 center is comparable to that of the Amazon East EC2 center. In the short term, companies should take into account their latency tolerance in their spot instance bidding strategies. In the long term, corporations currently using or those considering the adoption of cloud computing should collect baseline latency metrics and their latency tolerance and determine how much they want to pay for reducing latency—which undoubtedly depends on the cost and beneﬁt trade-offs of doing so. The statement by the chief cloud architect for Netﬂix, Adrian Cockcroft, in a recent interview, “How many dollars should you spend to reduce customer latencies by 50% if that increases your conversion rate by 10%?,” exempliﬁes a good rough equation to formulate the trade-off (Babcock 2013). For industries sensitive to latency, such as ﬁnance (e.g., investment banking and ﬁnancial services ﬁrms), entertainment (e.g., Netﬂix), and multiplayer online games (e.g., Blizzard Entertainment, publisher of World of Warcraft), it is often imperative to reduce latency by strategically locating their facilities. Stibel (2013), for example, argues that traders have gone to great lengths to improve their speeds: “some have gone so far as to move their computer networks to be in close physical proximity to the data centers of the stock exchange and news outlets, paying hundreds of millions of dollars for direct access.” A recent real estate transaction further illustrates how much reducing latency by colocation can be worth, where One Wilshire, an ofﬁce building in downtown Los Angeles, sold for a record $437.5 million since it is one of the three leading telecommunications interconnect hubs in the world (Vincent 2013).
+
+6.
+
+Conclusion
+
+Our research is the ﬁrst to examine the effects of latency on pricing dynamics both within and across different spot markets and provides convincing evidence that even with the same cloud computing provider and computing platform, price heterogeneity still exists
+
+164 because of latency differentials across markets. We further address other key questions in this paper. First, what are the stylized pricing dynamics for Amazon EC2 spot instance pricing both within and across East and West market regions? Second, what explains the observed pricing dynamics and pricing differentials across the East and West markets? Third, what effect does latency have on the across-market pricing differentials? In addressing the ﬁrst question, we document that across Windows and Linux/Unix OS platforms as well as spot instance types, there is considerable time variation in spot prices. We also ﬁnd that prices in the West are often persistently greater than prices in the East over our sample period. Results from using a bivariate VAR model of East and West spot instance prices suggests that there are signiﬁcant dynamic pricing relations both within and across the East and West markets. We ﬁnd that the within-market autoregressive pricing effect is larger than the across-market effect, but there are also signiﬁcantly pronounced across-market pricing effects. Using both Hasbrouck’s (1995) and Gonzalo and Granger’s (1995) price discovery methodologies, we also ﬁnd that over 70% of the relative price discovery occurs in the East market relative to the West market. To explain the observed time-varying pricing differentials across the East and West markets (i.e., addressing our second and third questions), we use both regression procedures and an error correction model. We ﬁnd that both the East and West latency differentials have a signiﬁcantly positive effect on the pricing differentials. These results suggest that larger (smaller) latency effects result in larger (smaller) pricing differentials. Similar to a time-varying transaction cost band, latency creates a dynamic pricing wedge that widens or narrows conditional on the latency differentials, consistent with our proposed hypothesis. From the ECM results, we also ﬁnd that the speed of adjustment from longrun pricing convergence errors causes the short-run price differential to narrow, but the adjustment is only partial. Interestingly, our results suggest that data in some ways behaves similar to physical goods in that longer latencies from the cloud result in larger total transaction costs (transportation costs in physical goods). From a managerial perspective, bidding on the relatively lower priced cloud computing location is optimal if latency is not an important customer concern. However, if latency exposure is an important concern, then the ﬁrm’s optimal cloud computing location selection should factor in pricing-latency effects, both in terms of cloud bidding location as well as potentially longer-term ﬁrm operational computing location choices. The results from our paper can also be viewed in a broader context and provide a framework for some additional follow-on research questions. From a broader
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+context, our research provides some further evidence and insights into market-based pricing dynamics and market efﬁciency issues in a burgeoning new market with unique characteristics, including latency effects. Although markets have become increasingly integrated due to technological innovations and reductions in barriers across markets, several studies show that geographical distance still matters in behavioral, economic, and ﬁnancial outcomes. These studies establish the relevance of geographical proximity to consumer’s costs of acquiring information, which in turn inﬂuences the behavior of both consumers and ﬁrms. The effects of distance manifest themselves through higher search costs often related to information acquisition problems (e.g., degree of information asymmetry and uncertainty as well as other information and market impediments) and behavioral biases (e.g., anchoring and loss aversion). Both higher search costs and behavioral biases may lead to the payment of higher prices for a given good. In this regard, our research on latency effects provides some evidence consistent with the role of market impediments playing a fundamental role in the cloud pricing dynamics. At the same time, consumers may suffer from behavioral biases, which may cause them to “anchor” their expectations on local or personal circumstances and prior decisions. Further research on understanding the nature of these potential factors in the pricing dynamics of cloud computing could yield some additional interesting insights. Supplemental Material
+Supplemental material to this paper is available at http://dx .doi.org/10.1287/isre.2015.0608.
+
+Acknowledgments
+The authors thank Lloyd Bloom, Sanjukta Das Smith, Dick Elnicki, Anuj Kumar, Mahendrarajah Nimalendran, Liangfei Qiu, Suprateek Sarker, three anonymous reviewers, the associate editor, the senior editor, and seminar and conference participants at Babson College, Florida International University, University of Florida, University of Illinois, University of Maryland, University of Notre Dame, the 2013 Taiwan Summer Workshop on Information Management, and the 2014 Information Systems and International Management Forum. The authors also thank Compuware for providing data for this project. The ﬁrst author gratefully acknowledges the support of John B. Higdon Eminent Scholar Chair of the University of Florida and the Distinguished Overseas Professorship of the School of Information Management and Engineering, Shanghai University of Finance and Economics.
+
+References
+Ba S, Stallaert J, Zhang Z (2012) Research note—Online price dispersion: A game-theoretic perspective and empirical evidence. Inform. Systems Res. 23(2):575–592.
+
+Cheng, Li, and Naranjo: Cloud Computing Spot Pricing Dynamics
+Information Systems Research 27(1), pp. 145–165, © 2016 INFORMS
+
+165
+Hamilton JD (1994) Time Series Analysis (Princeton University Press, Princeton, NJ). Hasbrouck J (1995) One security, many markets: Determining the contributions to price discovery. J. Finance 50(4):1175–1199. Lehmann BN (2002) Some desiderata for the measurement of price discovery across markets. J. Financial Markets 5(3):259–276. Mayer M (2009) In search of a better, faster, stronger Web. Proc. Velocity. Mazzucco M (2010) Towards autonomic service provisioning systems. Proc. 10th IEEE/ACM Internat. Conf. Cluster, Cloud Grid Comput. (IEEE Computing Society, Washington, DC), 273–282. Mazzucco M, Dumas M (2011) Achieving performance and availability guarantees with spot instances. IEEE 13th Internat. Conf. High Performance Comput. Comm. Proc. (IEEE, Piscataway, NJ), 296–303. Miller RB (1968) Response time in man-computer conversational transactions. ACM AFIPS Proc. Fall Joint Comput. Conf. (ACM, New York), 267–277. Minnear R (2011) Latency: The Achilles heel of cloud computing. Accessed January 29, 2016, http://cloudcomputing.sys-con.com/ node/1745523. O3b Networks (2008) What is network latency and why does it matter? White paper, O3b Networks, Ltd., St. John, Jersey. Plummer DC, Cearley DW, Smith DM (2008a) Cloud computing confusion leads to opportunity. Report, Gartner, Stamford, CT. Plummer DC, Bittman TJ, Austin T, Cearley DW, Smith DM (2008b) Cloud computing: Deﬁning and describing an emerging phenomenon. Report, Gartner, Stamford, CT. Ried S, Kisker H (2011) Sizing the cloud—A BT futures report. Report, Forrester Research, Inc., Cambridge, MA. Stibel J (2013) Will the Internet destroy the stock market? Harvard Business Rev. Accessed January 29, 2016, https://hbr.org/2013/ 08/will-the-internet-destroy-the/. Vincent R (2013) One Wilshire sells for record $437.5 million. Los Angeles Times (July 18), http://articles.latimes.com/2013/jul/18/ business/la-ﬁ-0718-property-report-20130718. Zhang Q, Zhu Q, Boutaba R (2011) Dynamic resource allocation for spot markets in cloud computing environments. Proc. Fourth IEEE Internat. Conf. Utility Cloud Comput., Victoria, NSW, Australia, 178–185.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 11:22 . For personal use only, all rights reserved.
+
+Babcock C (2013) Netﬂix’s 5 secrets for maximizing Amazon cloud value. InformationWeek (April 8), www.informationweek.com/ cloud/infrastructure-as-a-service/netﬂixs-5-secrets-for-maximizing -amazon-cloud-value/d/d-id/1109453. Baillie RT, Geoffrey Booth G, Tse Y, Zabotina T (2002) Price discovery and common factor models. J. Financial Markets 5(3):309–321. Brynjolfsson E, Smith MD (2000) Frictionless commerce? A comparison of Internet and conventional retailers. Management Sci. 46(4):563–585. Brynjolfsson E, Hu YJ, Rahman MS (2009) Battle of the retail channels: How product selection and geography drive cross-channel competition. Management Sci. 55(11):1755–1765. Cheshire S (1996) It’s the latency, stupid. Report, Stanford University, Stanford, CA. Clayton N (2011) Meet the rainmakers. Wall Street Journal (February 14), http://www.wsj.com/articles/SB10001424052748704 739504576067580949404062. Cohen R (2013) The cloud hits the mainstream: More than half of U.S. businesses now use cloud computing. Forbes (April 16), http://www.forbes.com/sites/reuvencohen/2013/04/16/the -cloud-hits-the-mainstream-more-than-half-of-u-s-businesses -now-use-cloud-computing/#1262226467c2. Das S, Du AY, Gopal R, Ramesh R (2011) Risk management and optimal pricing in online storage grids. Inform. Systems Res. 22(4):756–773. De Jong F (2002) Measures of contributions to price discovery: A comparison. J. Financial Markets 5(3):323–327. Du AY, Das S, Ramesh R (2012) Efﬁcient risk hedging by dynamic forward pricing: A study in cloud computing. INFORMS J. Comput. 25(4):625–642. Engle RF, Granger CW (1987) Co-integration and error correction: Representation, estimation, and testing. Econometrica 55(2): 251–276. Forrester Consulting (2009) eCommerce Web site performance today: An updated look at consumer reaction to a poor online shopping experience. White paper, Akamai Technologies Inc., Cambridge, MA. Gonzalo J, Granger C (1995) Estimation of common long-memory components in cointegrated systems. J. Bus. Econom. Statist. 13(1):27–35.
+
+

@@ -1,0 +1,549 @@
+European Journal of Information Systems (2016) 25, 170–186
+© 2016 Operational Research Society Ltd. All rights reserved 0960-085X/16
+www.palgrave-journals.com/ejis/
+
+EMPIRICAL RESEARCH
+
+Handle mergers and acquisitions with care: the fragility of trust between the IT-service provider and end-users
+Susan A. Brown1, Anne P. Massey2 and Kerry W. Ward3
+Eller College of Management, University of Arizona, Tucson, United States; 2Kelley School of Business, Indiana University, Bloomington, United States; 3University of Nebraska, Omaha, United States Correspondence: Susan A. Brown, Management Information systems, University of Arizona, 1130 E. Helen St., Tucson, Arizona, 85721, United States. Tel: +520-626-8330; Fax: +520-621-2433; E-mail: suebrown@eller.arizona.edu
+1
+
+Abstract Information technology (IT) implementation continues to be a challenging process for many organizations. The challenge is heightened when systems are changed due to mergers and acquisitions (M&A). The recent focus on IT-service management highlights the importance of having positive relationships between IT-service providers and end-users. In an M&A situation, there is often little history, and thus limited basis for trust in the IT organization, yet systems often need to be changed in these situations. The current study examines the IT-service provider’s relationship with the end-user to ascertain the factors that influence that relationship and ultimately influence end-user attitudes toward the new system. We study a mandated implementation following an acquisition in the banking industry. The results highlight the important and fragile nature of trust in the IT-service provider. In addition, the results demonstrate that there are significant differences in what matters at what time during the implementation process. European Journal of Information Systems (2016) 25(2), 170–186. doi:10.1057/ejis.2015.10; published online 4 August 2015
+Keywords: IT-service provider; mandatory system use; mergers and acquisitions; trust
+
+Introduction
+Over the last two decades, intense merger and acquisition (M&A) activity has occurred in many industries. According to the FDIC Banking Proﬁle, the U.S. banking industry has experienced a sustained and unprecedented level of activity (see Appendix). Driven by regulatory changes and competition, many banking acquisitions are based on the pursuit of economies of scale and other efﬁciencies. Evidence suggests that acquiring banks are typically more efﬁcient than the acquired banks, resulting in the potential for the combined organization to be more efﬁcient (Evanoff & Ors, 2002; Cornett et al, 2006; Sherman & Rupert, 2006; Behr & Heid, 2011; Busquets, 2015). One way to reduce costs and achieve superior operating efﬁciencies is the implementation of uniform information systems (IS) across the combined organization (Busquets, 2015). However, in service industries such as banking, efﬁciency beneﬁts may be offset if there is a degradation in performance, particularly as it relates to the quality of service delivered to the customer. For employees, implementations often involve outcome uncertainty and risk associated with concerns over how the new system will alter their jobs. In addition, service employees such as those working in the banking industry will be concerned with how the new system will affect
+
+Received: 24 September 2013 Revised: 03 March 2015 Accepted: 01 May 2015
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+171
+
+their ability to achieve results for customers. Thus, an information technology (IT) function charged with the implementation must not only deliver technology, but also help mitigate employees’ perceptions of uncertainty and risk (Joshi, 1991; Scott & Vessey, 2002; Lapointe & Rivard, 2005). Recent interest in IT service management reﬂects the notion that providers of IT services must focus on their relationships with end-users, rather than solely on technology or their internal organization (Jia et al, 2008; Montoya et al, 2010). One important aspect of that relationship – namely, trust – has been suggested as a major issue in determining implementation success (Hart & Saunders, 1997; Nah et al, 2001; AmoakoGyampah, 2004). Trust deals with the belief that the trusted party will fulﬁll its commitments despite the trusting party’s dependence (Rotter, 1971; Luhmann, 1979). Trust is most often associated with situations involving outcome uncertainty and risk (Nyhan & Marlowe, 1997) and is particularly relevant to system implementations. Prior IS research has examined the inﬂuence of initial trust on perceptions and/or use of technology (Jarvenpaa & Todd, 1997; Pavlou & Gefen, 2004; Wang & Benbasat, 2005; Li et al, 2008). Although focused on preimplementation and voluntary adoption contexts, ﬁndings suggest that initial trust in a new system is essential for promoting intention and/or adoption. Surprisingly, however, little is known about mandated system implementations in newly merged or acquired ﬁrms. A mandated situation is one in which users are required to use a speciﬁc technology or system in order to keep and perform their jobs (Brown et al, 2002). In a mandated use situation, use is perceived to be organizationally compulsory; in contrast, a voluntary use environment is one in which users perceive the use decision to be a wilful choice and under their volitional control (Hartwick & Barki, 1994; Agarwal & Prasad, 1997; Venkatesh & Davis, 2000). However, even when employees are required to use a system, the requirement does not always translate into appropriate or effective use. In fact, employees can exercise resistance to the system in a number of ways, while still adhering to the letter of the law regarding use (Lapointe & Rivard, 2005). In these cases, trust can be an important factor in determining just how faithful the employees will be to the implementation. Recent research has suggested that the trust end-users have in the implementation team (e.g., the internal IT-service provider) can impact employee resistance (Rivard & Lapointe, 2012). However, although IS research has examined trust in the technology itself, trust between consumers and e-vendors, and trust among members of virtual teams, little is known about the role of trust between employees and IT-service providers. Our study addresses this gap and leverages trust research focused on interpersonal relationships; in our case, the trustee is the internal IT service organization and the trustor is the employee (user). In the current study, we examine the implementation of a mandated system by two afﬁliates of a bank holding
+
+company (BHC) in the Midwest United States. Formed as a result of 30 acquisitions, BHC sought to reduce overall costs and improve operating efﬁciencies by standardizing technology platforms and implementing a common banking system (CBS) across all afﬁliate banks. To accomplish this objective, a subsidiary – IS Service Corporation (ISSC) – was created. The ﬁrst objective of our study is to examine the relationship between trust in the IT-service provider and key employee perceptions – speciﬁcally, how the system changed their jobs and how it affected their ability to deliver service to bank customers. Second, we explore how all three factors (job change, system beneﬁts, and trust) shape end-user attitudes toward the mandated system. Each of these variables, however, takes time to form and may evolve in different ways, and thus may have differential effects at different points in time (e.g., Ancona et al, 2001; Massey et al, 2001). Thus, our last objective is to capture the evolving nature of these variables and the relationships among them. To do so, we conduct a longitudinal study in which we examine pre- and (multi-point) post-implementation perspectives. In the following sections, we review the relevant literature and develop our research model and associated research hypotheses. We then describe our methodology and discuss the ﬁndings of our empirical study. We conclude with a discussion of directions for future research and implications for practice.
+
+Background
+We draw from extensive prior research regarding expectation (dis)conﬁrmation and IT implementation. Expectations are particularly relevant as implementers – here, the internal IT-service provider – are essentially marketing the system and their services to users (Szajna & Scamell, 1993; Jiang et al, 2012). Expectation (dis)conﬁrmation theory has its roots in organizational behavior (e.g., Ilgen, 1971), social psychology (e.g., Weaver & Brickman, 1974), and consumer psychology (e.g., Oliver, 1977). IT implementation research has examined the relationships between expectations and attitude formation (e.g., Venkatesh & Goyal, 2010; Brown et al, 2014) as well as the impact of expectation (dis)conﬁrmation on satisfaction (e.g., Ginzberg, 1981; Lyytinen, 1988; Szajna & Scamell, 1993; Bhattacherjee, 2001; Brown et al, 2008) and behavior (Brown et al, 2012). Generally, the examination of expectations in IS research has focused on overall expectations regarding the system and the subsequent impact on satisfaction and performance (e.g., Brown et al, 2008). For example, Bhattacherjee (2001) examined expectation conﬁrmation with regard to the voluntary use of an IS. His ﬁndings indicated that satisfaction with IS use was predicted primarily by conﬁrmation of user expectations and secondarily by perceived usefulness. Recent research has called for greater depth and breadth with regard to the targets of expectations (Thong et al, 2006; Brown et al, 2012). Underlying much of the recent expectations research in IS is the technology acceptance model (TAM: Davis et al,
+
+European Journal of Information Systems
+
+172
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+1989), with its primary constructs of ease of use and usefulness. TAM is founded on the theory of reasoned action (TRA: Fishbein & Ajzen, 1975) that views attitudes and subjective norms as being predictive of behavior through one’s intention to perform the behavior. TRA does not, however, consider the degree to which an individual has control over actually performing the behavior (i.e., the theory was based on the assumption that the behavior, such as system use, was volitional). Ajzen (1985) overcame this limitation by acknowledging and incorporating an individual’s perceptions of behavioral control as a predictor of one’s behavioral intentions in the Theory of Planned Behavior (TPB: Ajzen, 1985, 1991). In the end, TPB offers a predictive relationship between three independent variables (attitudes, social norms, and perceived behavioral control) and the dependent variable – behavioral intention. However, in mandatory contexts, such as in the current study, prior research suggests that subjective norms and perceived behavioral control are not signiﬁcant predictors of intentions or behavior as users have little or no choice regarding their behaviors or the behavior of others (Brown et al, 2002). Yet, an end-user’s attitude toward the system can have positive or negative organizational consequences including not only satisfaction, but also the employee’s ability to meet customer needs and, in turn, drive performance. Attitudes are a function of beliefs and reﬂect an individual’s positive or negative feelings toward some object (Ajzen & Fishbein, 1980). Consistent with expectation conﬁrmation theory, attitude toward a system is a function of the product of pre-implementation beliefs (i.e., expectations) and post-implementation evaluations (i.e., experiences). System implementations typically require that either the system is customized or users alter their current ways of working to adapt to the new system. Here, attitude reﬂects a user’s affective (favorable or unfavorable) response toward the system. This is particularly relevant when we consider that although employees may use a system, they may also experience low morale, attempt to sabotage the system, or provide poor customer service and blame (poor) performance on the system (Beaudry & Pinsonneault, 2005; Lapointe & Rivard, 2005). In developing the research model, we focus on three factors for which users develop beliefs – trust, job change, and system beneﬁts – that may inﬂuence attitudes toward mandated system use and, in turn, implementation success. Each represents a target of expectation evaluation that may differentially inﬂuence subsequent attitudes. We further acknowledge that these factors can (and do) change over time. Thus, we conclude our discussion with the role time plays in the implementation process.
+
+this section with a discussion of how these relationships are expected to change over time (i.e., from pre- to postimplementation). The research model is depicted in Figure 1.
+
+Trust Trust may be deﬁned as ‘the willingness of a party (trustor) to be vulnerable to the actions of another party (trustee) based on the expectation that the other will perform a particular action important to the trustor, irrespective of the ability to monitor or control the other party’ (Mayer et al, 1995, p. 712). Prior studies have shown that relational trust can spur bonds and collaboration in new endeavors (Kramer & Tyler, 1996; Rousseau et al, 1998; Bradley, 2003; Stahl & Mendenhall, 2005). Trust may be even more paramount in M&A when IT change is often mandated for one or more of the combined entities. Research has shown that trust in the (parent) organization can foster receptivity and use of IT capability (Barney, 1991; Brynjolfsson & Hitt, 2000; Harper & Utley, 2001; Dedrick et al, 2003). Although representing only one dimension of complex organizational change, the success of a mandated system implementation may serve to enable or hinder overall M&A success. Yet, although prior research points to the importance of interorganizational trust as well as the importance of the IT services (e.g., system operation and maintenance, employee support and training), little research has examined end-user trust in the IT-service provider itself. Of relevance to M&A, trust can be formed even without prior knowledge of those being trusted and it can change over time as new information is acquired (McKnight & Chervany, 2006). A substantial body of research has examined the effect of trust on various attitudes (e.g., Robinson, 1996; Rousseau & Tijoriwala, 1999; Spreitzer & Mishra, 1999; Dirks & Ferrin, 2001; Gefen et al, 2008; McCole et al, 2010; Shin, 2010). In the context of IT, trust in the technology artifact (e.g., website, system, etc.), particularly prior to actual deployment, has been shown to inﬂuence user attitudes (Gefen et al, 2003). Gefen (2004) found that end-user trust in external enterprise resource planning systems customization vendors also inﬂuenced user attitudes toward the system. The vendor essentially represents the system to the end-users. In this way, trust in the vendor paves the way for users to
+
+System Benefits H3
+
+H2
+
+Trust in IT Service Provider H5 H4
+
+H1 Attitude
+
+Mandated System Use
+
+Model development
+In this section, we develop hypotheses relating trust in the IT-service provider to attitudes toward a mandated system. In addition, we examine how job change and system beneﬁts are associated with trust and attitudes. We conclude
+
+Job Change
+
+Time (H6, H7)
+
+Figure 1
+
+Research model.
+
+European Journal of Information Systems
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+173
+
+ultimately trust, and use, the system. We posit that user trust in the internal IT-service provider will behave the same way and be a key factor driving attitudes. That is, if the provider is trusted, the end-user will form a more favorable attitude toward the mandated system. Stated formally: H1: Trust in the IT-service provider is positively related to attitudes toward the mandated system.
+
+System beneﬁts We deﬁne system beneﬁts as the ability to deliver service to customers. This deﬁnition is roughly equivalent to performance expectancy or usefulness (e.g., Venkatesh et al, 2003) in a service context where the IT system is the primary vehicle through which customer service is provided. System beneﬁts are frequently offered by management as key reasons for new implementations (e.g., Massey et al, 2001; Brown et al, 2014). Although beneﬁts can be measured in a variety of ways such as increased proﬁtability or goal attainment, ultimately their measurement should be a function of the context (DeLone & McLean, 1992, 2003). In the context of service organizations, employees are the primary interface to customers. For IT-intensive service industries such as banking, new systems (and even upgrades) can signiﬁcantly impact operational-level employees’ jobs and their ability to achieve results for customers. For example, productivity can be disrupted due to changes in job functions and business processes (Edmondson et al, 2001; Davenport, 2005; Sykes et al, 2014). Achieving results involves both workﬂow, the sequence of internal operations involving employee-to-employee interactions, and external operations involving employee-to-customer interactions (Mills & Moberg, 1982). Thus, service employees might expect (and ultimately experience) beneﬁts (or costs) relative to their ability to deliver service to customers (Montoya et al, 2010). System beneﬁts play an important role in inﬂuencing an individual’s intention to use and use behavior associated with an IS (Davis et al, 1989; Venkatesh et al, 2003). Much prior research has argued that user expectations of beneﬁts can have a signiﬁcant impact on users’ satisfaction with (or attitude toward) a system (e.g., Ginzberg, 1981; Szajna & Scamell, 1993; Brown et al, 2008; Brown et al, 2012). Preimplementation expectations lay the ground work for how the new system will be perceived post-implementation. Coughlan & Connolly (2001) argue that satisfaction assessments are based on evaluating some experience in light of expectations associated with the experience. Although there is some disagreement in the literature regarding the actual role that expectations play in altering user attitudes, it is generally believed that as long as expectations are met or exceeded, there will be a positive impact on some outcome variable of choice (Anderson, 1973; Yi, 1990; Szajna & Scamell, 1993; Brown et al, 2008; Brown et al, 2012). Stated formally:
+H2: Expectations/perceptions of system beneﬁts are positively related to attitudes toward the mandated system.
+
+For the IT-service provider, system implementation involves not only technology delivery, but also training and on-going support such that employees understand and can realize system beneﬁts (Bostrom et al, 1990; Taylor & Todd, 1995). Pre- and post-implementation, these activities provide an observational and relational platform between employees and the IT-service provider. Ultimately, as noted above, system beneﬁts are judged by employees based on their ability to deliver ongoing or new service to their customers. The actions and behaviors of the IT-service provider lie beneath these judgments as end-users see the IT-service provider as the system’s representative. Thus, expectations and evaluations that the new system enhances customer service will increase employees’ assessment that the IT-service provider is delivering as promised, leading to enhanced levels of trust. Stated formally: H3: Expectations/perceptions of system beneﬁts are positively related to trust in the IT-service provider.
+
+Job change How a system alters one’s job will likely serve to inﬂuence attitudes toward a mandated system. Speciﬁcally, job change reﬂects an individual’s perception of whether or not the work tasks and the required social interactions change as a result of the system implementation. When examining the impact of technological change, it is important to consider job changes at the individual level (Majchrzak & Cotton, 1988). Employee perceptions of job change are rooted in the job redesign literature. Typically, job redesign is an intentional process resulting from the desire to increase effectiveness or employee enrichment. Not surprisingly, employees who view redesign as enriching their jobs have an overall positive view of the change (Hackman & Oldham, 1976; Seeborg, 1978; Latak & Foster, 1985; Millman & Hartwick, 1987). Generally, job change is viewed positively when it increases freedom, responsibility, autonomy, or decision-making ability for the employee (Hackman & Oldham, 1976; Millman & Hartwick, 1987). It is also perceived as positive when employees are actively involved in the redesign (Seeborg, 1978; Latak & Foster, 1985). Job change, however, is not always perceived as positive. Resistance to job change is likely to occur if employees perceive their jobs are at risk (Parker & Wall, 1998), as in an IT implementation (Lapointe & Rivard, 2005). Resistance may also occur when the change is so great it requires employees to acquire skills or knowledge they perceive as unattainable. Job changes that restrict decision making or that place heavier demands on the employee are likewise viewed as negative (Karasek, 1979). Job change can have other consequences including project failures, the ﬁring of top management, and even the failure of M&A (Beeson & Rowe, 2001). Although job redesign is typically viewed as an intentional process, it is often imposed on an organization when new technology is implemented (Savino, 2009).
+
+European Journal of Information Systems
+
+174
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+These new systems can require jobs to change to accommodate business processes embedded in them, rather than because of an intent to make the individual’s job better. After conducting a meta-analysis of organizational change, Robertson et al (1993) concluded that technology change reduces performance and has a negative overall impact on employee behavior, particularly when automation reduces the need for skilled labor (Wagner et al, 2008). Research also suggests several negative changes including loss of power (Jiang et al, 2000; Lapointe & Rivard, 2005), increased employee effort due to poor system quality (Joshi, 1991; Martinko, 1996), or the need to learn new ways of working (Zuboff, 1988). The implementation of an enterprise system, such as CBS, is known to cause changes to business processes (e.g., tasks, workﬂows) and, in turn, jobs (Mullarkey et al, 1997; Liang et al, 2007; Morris & Venkatesh, 2010; Bala & Venkatesh, 2013). There is a link between resistance to enterprise systems and fear of job change (Sykes et al, 2014). Job change resulting from enterprise implementations can lead to periods of decreased productivity (Edmonson et al, 2001; Davenport, 2005; Sykes et al, 2014) and can inﬂuence employee satisfaction (Bala & Venkatesh, 2013). Morris & Venkatesh (2010) also found that an enterprise system implementation can alter the relationship between job characteristics (i.e., skill variety, autonomy, and feedback) and satisfaction. Perhaps most interesting in their results is that there is a negative interaction term, suggesting that despite positive job characteristics, a new system can dampen the effects, leading to reduced job satisfaction. Recently, Bala & Venkatesh (2013) determined that, during the shakedown phase, employees experience substantial change in job demands and job control. As noted above, loss of job control in particular is known to lead to negative views of job change. Given all this, we expect that end-users’ perceptions of job change will have an inverse effect on attitudes toward the mandated system. In this study, employees were not involved in the redesign of their jobs. Instead the job redesign was a forced change resulting from the implementation of the CBS. Furthermore, by placing all the subsidiary banks on a common system, the implementation led to a loss of autonomy that is associated with negative perceptions of job change. Consistent with prior research, job change resulting from technology implementation in which the job change is the result of forced redesign is likely to be perceived negatively. Given the role of expectations in evaluating experiences and outcomes, expectations of job change should have an effect similar to experienced job change. Stated formally: H4: Expectations/perceptions of job change are negatively related to attitudes toward the mandated system. We also expect an inverse relationship between job change and trust in the IT-service provider. Relational trust results from repeated interactions between the user(s) and
+
+IT-service provider, and the basis of the trust is formed from information available to the user (Pavlou & Gefen, 2004). As noted earlier, information shared via training and on-going support facilitates an understanding of the beneﬁts of the new system and how to achieve them. Users assess (purported) beneﬁts in light of their experiences with the prior (or current) system. However, in addition to assessing the relative beneﬁts of the change, users also assess its relative costs (Kim & Kankanhalli, 2009). Some costs occur during implementation (e.g., learning), while others are more permanent and occur as a result of the implementation (e.g., change in job content that may impact the ability to deliver service to customers). In an M&A context, since the reputation of the IT-service provider is often absent, negative expectations and evaluations of costs may make users less trusting of the information source (Joshi et al, 2007). In fact, Kramer (1999) argues that individuals in lower-status positions (such as operational employees) are more attentive to trust-related issues due to their greater dependence on the organization. Stated formally: H5: Expectations/perceptions of job change are negatively related to trust in the IT-service provider.
+
+Time Time plays an important role in systems implementation as individual employees have both experiences with past systems and expectations of the new system (George & Jones, 2000; Brown et al, 2008; Brown et al, 2012). In considering the role of time, we draw from Markus & Tanis’ (2000) theoretical framework for analyzing the enterprise system experience and facets of success. Speciﬁcally, they argue that an organization’s system implementation experience can be described as moving through sequential phases: chartering, project, shakedown, and onward and upward. Each phase is characterized by key players, activities, problems, metrics, and a range of possible (optimal, suboptimal) outcomes (c.f., Besson & Rowe, 2001; Bernroider, 2013; Veiga et al, 2014). The chartering phase is focused on organizational decision making regarding the business need to be addressed and the space from which the solution can be drawn. Typically involved in this process are vendors, consultants, executives, and representatives of the IT organization. This is the point when the business case is developed and budgets are approved. The project phase consists of activities intended to get the system ‘up and running’, including development/ conﬁguration, integration, testing, data conversion, training, and ﬁnally rollout. Typically involved in this process are members of the business units and IT, as well as vendors and consultants as needed. During this phase, the software is conﬁgured and tested, data are converted from old systems to the new system, and training is conducted. These early phases are important because activities now inﬂuence post-implementation proﬁciency with the new system (Veiga et al, 2014).
+
+European Journal of Information Systems
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+175
+
+The period immediately post-implementation is referred to as the shakedown phase and ends when ‘normal operations’ have been achieved. According to Markus & Tanis (2000), this is the phase where prior errors are felt and new errors arise. Finally, during the onward and upward phase, use becomes routine and the organization is focused on capturing expected beneﬁts. At this point, IT support personnel are largely involved for maintenance and improvement activities. This phase persists until the system is upgraded or replaced. As an organization moves through these phases over time, what happens in one phase inﬂuences what happens in subsequent phases (George & Jones, 2000; Besson & Rowe, 2001; Bernroider, 2013; Veiga et al, 2014). Past research argues that the depth and complexity of interactions among IT systems, individuals, and the organizational context cannot be fully anticipated in advance of implementation (von Hippel, 1988; Brynjolfsson & Hitt, 1996). Thus, substantial individual and organizational learning must occur over time before the full ramiﬁcations of an implementation are known (Dos Santos & Peffers, 1995; Peffers & Dos Santos, 1996; Orlikowski & Hofman, 1997; Beeson & Rowe, 2001). In the following, we frame our consideration of the role of time in light of pre-implementation (chartering, project) and post-implementation (shakedown, onward and upward) phases (Markus & Tanis, 2000). During the chartering phase, internal communications market the holistic beneﬁts of the new system in order to justify the change, with minimal (if any) discussion of the potential for job changes (Nah et al, 2001; Akkermans & van Helden, 2002). During the project phase, the IT-service provider and end-users engage in more extensive and intensive communications as efforts center on getting both the system (e.g., conﬁguration, data conversion) and end-users (e.g., training) up and running (Ward et al, 2005). In addition to allowing users to explore a system in a ‘hands-on’ manner from technical and functional standpoints (Bostrom et al, 1990), training is at least partially intended to further shape and reinforce users’ perceptions (e.g., beneﬁts will be positive and job change minimal) of the impending change. These pre-implementation perceptions, as argued earlier, inﬂuence trust and attitudes toward the mandated system. Given the organization’s goal that the system be successful, internal marketing and the opportunities to play (vs work) with the system should lead to more positive attitudes. Post-implementation, perceptions continue to evolve as a function of actual use. Directly following implementation, during the shakedown phase, efforts focus on stabilizing the system with the goal of achieving normal operations (Markus & Tanis, 2000; Nah et al, 2001). The impact of changes to business processes (and hence jobs) are greatest during the shakedown phase (Besson & Rowe, 2001; Morris & Venkatesh, 2010). According to Beeson & Rowe (2001), during this phase job and governance conﬂicts often emerge, resulting in organizational goals for the system not being realized. Job conﬂicts arise, in part, from
+
+employee concerns about whether or not they will be able to perform jobs altered by the new system (Beeson & Rowe, 2001). Bala & Venkatesh (2013) found that as employees experience change in job demands and control during the shakedown phase, these changes negatively inﬂuence employee satisfaction. Given common problems (e.g., poor system performance, negative reactions from end-customers, and job conﬂict) and the nature of shakedown activities (e.g., eliminating ‘bugs’, revising practices and procedures, retraining users, etc.), we posit that users will perceive beneﬁts to be signiﬁcantly less positive and job change signiﬁcantly more substantial than expected preimplementation. These deviations, in turn, will lead to signiﬁcant and negative impacts on trust in the IT-service provider and overall attitudes toward the mandated system itself. Stated formally: H6: Perceptions of (a) system beneﬁts, trust in the IT-service provider, and attitudes toward the mandated system will be lower, and (b) perceptions of job change will be higher during the shakedown phase than pre-implementation.
+
+Time continues to play a role as perceptions evolve during the onward and upward phase. In reality, this phase is where the majority of beneﬁts is achieved and results only after users have learned how to use the system well (Galletta et al, 1995; Markus & Tanis, 2000; Yi & Davis, 2001). As a result of shakedown, normal operations are evident in the onward and upward phase. Given this and the nature of activities during this phase (e.g., ongoing operation and maintenance, planning for upgrades, continuous improvement of user skills etc.), we posit that users will perceive beneﬁts to be signiﬁcantly more positive and job change signiﬁcantly less extensive than during shakedown. As a result, we expect that trust in the IT-service provider and attitudes toward the mandated system will likewise improve. Stated formally: H7: Perceptions of (a) system beneﬁts, trust in the IT-service provider, and attitudes toward the mandated system will be higher, and (b) perceptions of job change will be lower during the onward and upward phase than during the shakedown phase.
+
+Research method
+The context for this research is a $5 billion multi-BHC, comprised of 30 acquired bank afﬁliates, employing approximately 3000 people in nearly 130 ofﬁce locations. Throughout the acquisitions, BHC purposefully supported each afﬁliate’s retention of its autonomy. Historically, BHC outsourced most of its data processing needs, while the various afﬁliates were free to choose whatever platforms and banking systems they felt met their speciﬁc needs. However, in an effort to improve internal efﬁciencies, BHC created an IS subsidiary – ISSC – responsible for data processing and operations. Subsequently, ISSC developed a plan for standardizing the hardware and software platform across all bank afﬁliates. ISSC was charged with
+
+European Journal of Information Systems
+
+176
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+providing support, installing Windows-based PCs and LANs, and developing a WAN infrastructure. In addition, ISSC was charged with converting the afﬁliate banks to a standardized computer banking system (CBS), and training employees to use the new CBS platform. Our study focuses on the mandatory adoption of CBS by two of the bank afﬁliates. For each afﬁliate undergoing conversion to CBS, during the 2 months prior to the announced cutover date, upgrades to the existing infrastructure were made, with data (e.g., customer records) and processes mapped from the banking system currently in place into CBS. Employees also received ISSC-led weeklong training sessions according to job function. On the weekend of the cutover, the old system was completely removed and the new CBS system installed. From that point forward, employees had no option but to use the new system. We developed a survey to capture each of the model constructs shown in Figure 1. Although there are tradeoffs across research methods, survey methodology is particularly appropriate for addressing our research objectives because it allows us to capture data about unobservable constructs (e.g., trust, perceptions) (Bhattacherjee, 2012). It also allows us to understand how these perceptions play out in the real world, in contrast to a laboratory setting, for example. Finally, the nature of our engagement with the organization did not allow us to conduct an in-depth case study, but it did enable us to send surveys to all relevant employees. For all but one construct (i.e., system beneﬁts), we used items that had been validated in prior research. For system beneﬁts, we used interviews to identify the key factors and adapted prior items accordingly. The items used to measure each construct are presented in Table 1. Items for attitude were adapted from Karahanna et al (1999). Items for trust were adapted from Cummings & Bromiley (1996). Items for job change were adapted from Hackman & Oldham (1980) and items for system beneﬁts were developed based on interviews with BHC management and a review of related literature (e.g., Venkatesh et al, 2003). During the interviews BHC management was asked to identify the reasons for implementing the CBS and its expected beneﬁts. The analysis of the interviews identiﬁed four speciﬁc expected beneﬁts of implementing a standardized computerized banking system across the afﬁliated banks: increased level of customer service, increased consistency of service across the afﬁliated banks, increased quality of information available to customers, and increased timeliness of information to customers. All constructs are reﬂective as the items are designed to reﬂect the constructs being measured. Our approach is consistent with the measurement sources indicated above and current guidelines regarding reﬂective vs formative constructs (e.g., Petter et al, 2007). The survey was distributed to tellers and lenders who, as primary interfaces to retail and commercial customers, were required to use CBS on a daily basis in order to perform their job tasks. Since these employees are
+
+Table 1
+Construct System benefits Items
+
+Survey items
+
+1. CBS will increase our bank’s level of customer service. 2. CBS will improve the consistency of our service to our customers. 3. CBS will increase the quality of information we are able to provide to our customers. 4. CBS will increase the timeliness of information we are able to provide to our customers. 1. CBS will change my job. 2. CBS will change the way other people’s jobs relate to mine. 3. CBS will change the way my job relates to other people’s jobs. 1. 2. 3. 4. I think ISSC keeps commitments. I think ISSC is dependable. I think ISSC meets its obligations. In my opinion, ISSC is reliable.
+
+Job change
+
+Trust
+
+Attitude
+
+1. I am enthusiastic about using CBS. 2–4. All things considered my continuing to use CBS in my job is … Extremely negative …… … Extremely positive Extremely good ……… Extremely bad Extremely pleasant ……… Extremely unpleasant
+
+Notes: 1. All items were measured on 7 point Likert scales; items for system benefits, job change, trust, and attitude item 1 were on a scale from 1 to 7 where 1 is strongly disagree and 7 is strongly agree. Items 2–4 for attitude were measured on 7 point scales with the anchors as listed with the items. 2. Pre-implementation items were measured as expectations (using future tense) while post-implementation items were measured as perceptions/ experiences (using current tense).
+
+customer-facing, they do not have ready access to email during the work day. Thus, the survey was distributed via internal BHC mail at four time periods: immediately prior to implementation, and at three post implementation periods, that is, 3, 6, and 12 months. For each of these periods, we examined ISSC’s activities relative to Markus & Tanis’ (2000) framework. At 6 months post-implementation, ISSC remained engaged in various shakedown activities (e.g., error-ﬁxing, additional training). By 12 months, ISSC and both afﬁliates deemed that routine operations had been achieved, thus constituting the onward and upward phase. The surveys were accompanied by a letter from management encouraging employees to participate and distributed with postage-paid mailers pre-addressed to the researchers. At each time period, a total of 130 surveys were sent to the two afﬁliates (60 to bank 1 and 70 to bank 2). The response rates were 32, 41, 33, and 52% across the four time periods. All respondents were employed by
+
+European Journal of Information Systems
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+177
+
+BHC prior to the implementation (i.e., at the time of survey 1). In order to assess non-response bias, early respondents were compared to late respondents. No systematic differences in responses or demographics were identiﬁed.
+
+Data analysis
+SmartPLS (Ringle et al, 2005) was used to test the research model. Partial least squares (PLS) is well-suited for the analysis of small data sets (Chin, 1998) and is more appropriate for predictive applications and theory building than is covariance-based SEM (Gefen et al, 2000). The sample size requirement is 10 times the number of items in the most complex construct in the model (Barclay et al, 1995; Gefen et al, 2000). The most complex construct in this study is represented by four items and the sample size for the lowest response rate (time 1) is 41. Hence, the sample size requirements for testing the model using PLS were met. Prior to conducting the data analysis, we performed the Harman’s single factor test to determine if method bias was a concern (Podsakoff et al, 2003). The results showed that no single factor was dominant; four factors emerged, and across the time periods they represented from 78 to 83% of the variance, with the ﬁrst factor accounting for less than half of the explained variance in each time period. As an added test, we used the marker variable technique on the data from time 1 (Malhotra et al, 2006). Since we did not have a marker variable, per se, we used the smallest correlation among the constructs (0.044). The results with and without the marker variable were consistent. We thus concluded that method bias was not a concern in our data. Descriptive statistics for the construct measures at each of the four time periods (pre- and post-implementation) are presented in Table 2, with a visual illustration of changes over time shown in Figure 2. Table 2 contains the standard deviation (SD) and internal consistency reliability (ICR) values for the constructs. All survey items demonstrate acceptable levels of reliability and validity. The ICR values are well above acceptable cut-off limits, indicating adequate reliability. Table 2 also contains the inter-construct correlations and the average variance extracted (AVE). The square root of the AVE is on the diagonal of Table 2. To assess discriminant validity, the values for the square root of the AVE should be an order of magnitude larger than the correlations for those constructs. This requirement is satisﬁed in all four time periods, providing evidence of adequate discriminant validity. Finally, Table 3 shows the factor loadings for the constructs across the time periods. All values are over 0.7, indicating that the items converge on the appropriate constructs. Model testing results are shown in Figure 3. H1 hypothesized a positive relationship between enduser trust in the IT-service provider and attitude toward the mandated system. This relationship held for times 2 and 3 (i.e., shakedown), but not for times 1 or 4 (i.e., pre-
+
+implementation and onward and upward phases, respectively). H2 and H3 predicted system beneﬁts would be positively related to attitude and trust. These relationships held for all four time periods. H4 hypothesized that job change would negatively impact attitude. This relationship held only for time 1. H5 hypothesized a negative relationship between job change and trust. Although the relationship was signiﬁcant in all four time periods, it was negative only in time 2. The results of the PLS analysis demonstrate that the model explains a great deal of the variance in user attitudes toward the system, ranging from a low of 20.4% in time 1 to a high of 74.7% in time 2. To test H6 and H7, we conducted a repeated measures Manova (see Table 4). Regarding H6 (i.e., a comparison of pre-implementation and shakedown perceptions), the results show signiﬁcant differences between pre-implementation (time 1) and shakedown (at time 2) for system beneﬁts and job change. For trust, signiﬁcant differences were found between preimplementation (time 1) and shakedown (at both times 2 and 3). All differences were in the hypothesized directions. In concert, these results provide partial support for H6. Regarding H7 (i.e., a comparison of shakedown and onward and upward perceptions), the results show that only system beneﬁts have a signiﬁcant difference from times 2 to 4. The difference is in the hypothesized direction. The results provide limited support for H7. Although not hypothesized, the results also show that trust in the IT-service provider was signiﬁcantly higher prior to implementation (time 1) than at any other time postimplementation.
+
+Discussion and implications
+Our study, set in the context of a banking and ﬁnancial services industry M&A, has two distinctive characteristics: (1) it involves the implementation of a complex IT system where for each acquired organization, conversion was required and employee use was mandated; and (2) endusers at the acquired organizations had no prior working history with the internal (corporate) IT-service provider charged with the implementation effort. Thus, the setting allows us to examine initial and on-going beliefs and attitudes associated with a mandated implementation. We examined the relationships among system beneﬁts, job change, trust in the IT-service provider, and attitudes toward the system, across four time periods. Our results show that system beneﬁts have a positive impact on attitudes and trust in the IT-service provider throughout the implementation process, while expectations and experiences associated with job change have little effect on attitudes and unanticipated effects on trust. We observed varying levels associated with all of our factors over time; however, they did not all move in the same directions. Speciﬁcally, although all other factors return to pre-implementation levels, trust in the IT-service provider does not. For organizations to achieve desired outcomes, particularly in M&A, there is an inherent need for end-users to
+
+European Journal of Information Systems
+
+178
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+Table 2
+Time 1 System benefits Job change Trust Attitude Time 2 System benefits Job change Trust Attitude Time 3 System benefits Job change Trust Attitude Time 4 System benefits Job change Trust Attitude
+a b
+
+Descriptive statistics, correlations, reliability, and average variance extracted
+SDa 1.469 1.666 1.131 1.097 SD 1.647 1.427 1.363 1.430 SD 1.465 1.511 1.351 1.264 SD 1.569 1.520 1.403 1.264 ICRb 0.954 0.903 0.974 0.943 ICR 0.958 0.964 0.966 0.955 ICR 0.968 0.968 0.978 0.956 ICR 0.944 0.961 0.977 0.944 System benefits 0.915 0.207 0.057 0.641 System benefits 0.922 0.344 0.546 0.719 System benefits 0.909 0.239 0.508 0.789 System benefits 0.941 0.204 0.653 0.760 Job change 0.871 0.279 −0.044 Job change 0.949 0.076 0.288 Job change 0.954 0.278 0.136 Job change 0.944 0.359 0.251 Trust Attitude
+
+Mean 4.738 3.951 5.396 5.224 Mean 3.929 4.707 4.549 5.036 Mean 4.276 4.461 4.545 5.011 Mean 4.704 4.189 4.631 5.045
+
+0.951 0.065 Trust
+
+0.897 Attitude
+
+0.936 0.618 Trust
+
+0.918 Attitude
+
+0.958 0.582 Trust
+
+0.919 Attitude
+
+0.957 0.559
+
+0.899
+
+Standard deviation. Internal consistency reliability. Notes: Values on the diagonals represent the square root of the average variance extracted (AVE).
+
+6
+
+5.5 Mean Values
+
+5
+
+4.5
+
+4
+
+3.5
+
+System Benefits Trust
+
+Job Change Attitude
+
+Figure 2
+
+Change in perceptions over time.
+
+trust the IT-service provider. However, such situations are wrought with risk and uncertainty for end-users because they do not know what to expect of the provider or the new system. If the implementation is not well-managed, factors such as job satisfaction, employee outlook toward
+
+managers, and organizational loyalty can be negatively impacted. Although a great deal of research has documented the importance of trust between service providers and customers (Coulter & Coulter, 2002), little research has focused on end-user trust in IT-service providers, let alone under the conditions in this study. Moreover, expectation (dis)conﬁrmation research has not considered how a priori user trust expectations and a posteriori evaluations of the trust relationship inﬂuence attitude. This is important in light of recent research calling for more studies to understand how expectations and experiences associated with critical components of the implementation process inﬂuence behavior (see Brown et al, 2014). As hypothesized, our results indicate that perceptions of system beneﬁts have a signiﬁcant and positive impact on trust throughout all time periods. Since employees judge system beneﬁts based on the ability to deliver ongoing or new service to customers, perceived (expected and evaluated) enhancements to customer service increase the assessment that the IT-service provider is fulﬁlling its commitments. The uncertainty of working with the unknown provider is reduced as end-users look for and ﬁnd evidence of service quality, in essence, drawing inferences about the IT-service provider and its related services (e.g., training, support) from the system they ‘see’ (Kotler, 1997). Contrary to our hypothesis that job change would always be negatively related to trust, its impact actually
+
+European Journal of Information Systems
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+179
+
+varies over time. Prior to implementation, expectations of job change positively inﬂuence trust, although immediately post-implementation the relationship becomes negative. Based on prior research, our presumption was that
+
+Table 3
+Construct/items System benefits (SB) SB1 SB2 SB3 SB4 Job change (JC) JC1 JC2 JC3 Trust Trust1 Trust2 Trust3 Trust4 Attitude (Att) Att1 Att2 Att3 Att4 Time 1 0.9215 0.9509 0.9234 0.8625
+
+Factor loadings
+Time 2 0.9442 0.9194 0.9178 0.9000 Time 3 0.9107 0.9080 0.9262 0.9059 Time 4 0.9493 0.9489 0.9221 0.9229
+
+0.7462 0.9275 0.9251
+
+0.8725 0.8691 0.9106
+
+0.7279 0.9889 0.9793
+
+0.8733 0.9612 0.9275
+
+people prefer to avoid change, in order to, maintain their current work situation (Samuelson & Zeckhauser, 1988). It may be, however, that employees are actually receptive to change in the nature of their work and expect, based on messaging delivered by the IT-service provider prior to implementation, that switching beneﬁts would be positive. For BHC, this may be the case. During the ISSC-led weeklong training sessions, employees were told (and shown to the degree possible) how their work would improve as a result of CBS. Therefore, their expectations regarding the degree of change and its beneﬁts were largely set as a result of training-based communication. However, immediately post-implementation, not only were the changes found to be major, end-users perceived them to be less positive, or beneﬁcial, than anticipated, thus negatively impacting trust. Little communication ensued from ISSC immediately following implementation; rather, attention turned to providing on-going technical and
+Table 4
+
+Differences over time
+Specific differences Time 1, Time 2 Time 2, Time 4 Time 1, Time 2 Time 1, Time 2 Time 1, Time 3 Time 1, Time 4 N/A Significance 0.005 0.040 0.041 0.032 0.047 0.046 N/A
+
+0.9198 0.9696 0.9726 0.9419
+
+0.9583 0.9567 0.9626 0.9655
+
+0.9487 0.9826 0.9610 0.9816
+
+0.9274 0.9650 0.9779 0.9642
+
+Construct System benefits Job change Trust in IT-service provider Attitude
+
+Overall F (sig.) 4.620 (0.004) 2.774 (0.043) 3.474 (0.017)
+
+0.8415 0.9484 0.9094 0.8415
+
+0.8302 0.9680 0.9576 0.9205
+
+0.8394 0.9293 0.8855 0.9254
+
+0.8790 0.9473 0.9172 0.8404
+
+0.892 (0.447)
+
+a
+System Benefits 0.188** 0.451***
+
+c
+System Benefits 0.468*** 0.066 Attitude R2=0.204 Trust in IT Service Provider R2=0.284 0.265*** Attitude R2=0.675 0.678***
+
+0.288**
+
+Trust in IT Service Provder R2=0.147
+
+0.166**
+
+Job Change
+
+-0.153*
+
+Job Change
+
+-0.099
+
+b
+System Benefits 0.590*** 0.648***
+
+d
+System Benefits 0.604*** 0.260** Attitude 2 R =0.695 0.867***
+
+-0.127*
+
+Trust in IT Service Provider R2=0.313
+
+0.238**
+
+Trust in IT Service Provider 2 R =0.479
+
+-0.038
+
+Attitude R2=0.747
+
+Job Change
+
+0.045
+
+Job Change
+
+0.087
+
+Figure 3 a–d. Results. (a) Time 1 – Pre-implementation; (b) Time 2 – Shakedown; (c) Time 3 – Shakedown; (d) Time 4 – Onward and upward;
+
+European Journal of Information Systems
+
+180
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+live-use support. Thus, interestingly, the relationship turns positive again during the latter period of shakedown and during the onward and upward phase, suggesting that continued learning (via actual system use) may have led users to perceive that the job change was not as substantial (or as negative) as initially perceived at the beginning of the shakedown phase. These ﬁndings highlight the need for future research to delve more deeply into the nature of job changes. For example, research could examine whether or not employees think job change will occur, the speciﬁcs of the job change such as those associated with the Hackman & Oldham (1976) characteristics, whether the anticipated changes are perceived as good or bad, the nature and time of communication regarding the change, and additional changes that would be perceived favorably. In doing so, research would provide additional insight into the link between magnitude of job change, nature of job change, and trust in the IT-service provider. Furthermore, we hypothesized that the relationship between job change and attitude would be negative throughout the process, yet our ﬁndings show the impact is negative only before implementation and has no signiﬁcant effect post-implementation. In contrast, as discussed above, pre-implementation expectations of job change positively inﬂuenced trust in the IT-service provider. Prior to implementation, although end-users may have been receptive to changing the nature of their work, the system (not the IT-service provider) may have represented the broader realities of a loss of organizational autonomy and acquisition by another entity. Post-implementation, however, end-users connected ‘pain’ – speciﬁcally perceptions of job change – with the IT-service provider and not the system as the IT-service provider represents the system. In concert, these ﬁndings further emphasize the need for research to untangle the complexities of what job change actually means to users, as well as the need to understand the relationship between the IT-service provider and the system in users’ minds. Finally, using Markus & Tanis’ (2000) framework, we examined our constructs over time via comparisons of pre-implementation and shakedown perceptions, and shakedown and onward and upward perceptions. Prior work in technology acceptance has often taken snapshots of user beliefs and attitudes, sometimes followed by a post-implementation usage assessment (e.g., Venkatesh et al, 2003). Despite research suggesting that different elements are important at various times in the adoption and implementation process (e.g., Karahanna et al, 1999; Brown et al, 2007), very little research has focused on the role of time. In the current study, the phases proposed by Markus & Tanis (2000) were adapted using months, with the shakedown period lasting approximately 12 months. This time period is consistent with prior applications of Markus and Tanis’s model (e.g., Gattiker & Goodhue, 2005; Morris & Venkatesh, 2010). Although other mappings are possible, we believe the results clearly demonstrate the value of incorporating time/phases in implementation studies. Since our results
+
+demonstrate that timing inﬂuences both the magnitude and the direction of the relationships, we encourage researchers to be explicit in discussing the timing of observations with respect to system implementation. Most importantly, the results of the time-based analyses highlight the very fragile nature of trust in the IT-service provider. Although prior work has examined trust from a variety of perspectives, very little has examined trust in the IT-service provider and, surprisingly, most trust research has examined trust as a static construct (Schweitzer et al, 2006). Limited prior research that has considered trust’s dynamic nature suggests that lost trust may take a long time to rebuild and, in some situations, may never be restored (Slovic, 1993; Lewicki & Bunker, 1996; Lewicki & Wiethoff, 2000). Here, we found that trust in the IT-service provider was signiﬁcantly higher prior to implementation than any other time period following implementation. Although perceptions of system beneﬁts dropped and job change rose signiﬁcantly immediately following implementation, both rebounded thereafter to be at pre-implementation levels, suggesting that actual experiences were ﬁnally matching expectations. In contrast, trust in the IT-service provider remained low, suggesting that damaged trust may be more persistent than other perceptions over time. Given this ﬁnding, longitudinal research is needed to shed light on trust repair and recovery processes. For example, should the IT-service provider seek full trust repair or a more limited response? How much trust is actually required? Interventions to repair trust may involve substantial time, effort, and resources. Such diversion of resources may impede the competence of the IT-service provider in other areas. It will also be important to understand the long-term consequences of the negative impacts on trust. Do they endure, rendering the next implementation more difﬁcult? Future research attempting to understand mandatory system rollout needs to account for the a priori user IT-service provider relationship in order to fully understand what is happening. Prior to discussing the practical implications, it is important to identify the limitations of this study. First, it focuses on one speciﬁc system being introduced at BHC. Although two acquired banks were used in this study, thus introducing some organizational diversity, the system and the IT-service provider group were the same. The generalizability of our ﬁndings is also limited to an M&A context. Future research should examine the impact of different systems and IT-service provider arrangements on these relationships and examine them in additional contexts. The sample size of this study is also small (but it should be noted that the population is also not large), thus rendering it difﬁcult for us to interpret the non-signiﬁcant relationships. Future research should test this model in larger organizations. Finally, we limited the items and constructs in the model to accommodate the sample size. Future research should consider additional user IT-service provider relationship elements that could be leveraged to understand the nature of this relationship in more depth.
+
+European Journal of Information Systems
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+181
+
+From a practical perspective, falling trust and trust recovery represent important problems for the IT-service provider. The importance of the problem may be heightened in M&A and mandatory use situations. Coupled with other organizational changes, damaged trust may raise overall distress and uncertainty. Too often, organizations respond poorly to trust failures, acting too late and with inappropriate equivocation (Gillespie & Dietz, 2009). Given the newness of the organizational relationship, damaged trust could portend a broader organizational-level failure. More narrowly, the inability to regain trust in the internal IT-service provider may impact not only continued maintenance of the system but the ability to gain buy-in and effect change management in future implementations. It is thus important for an internal IT-service provider to take steps to manage their image within the ﬁrm. Since users are often inﬂuenced by their direct manager, the IT-service provider should work closely with these inﬂuencers to (re)build trust (Dickson et al, 2001). Practically, communicating the reasons for change takes on intensiﬁed importance when the status quo is perceived to be quite satisfactory. Although communicating potential beneﬁts of change is important (e.g., the vision of how work will improve), it may be necessary to also offer broader motivating reasons or drivers to explain the importance and urgency of the IT innovation (e.g., the organization is responding to a competitive threat). Given the impact of job change and system beneﬁts on trust, we anticipate that demonstrating the value of the job changes and improving the user experience with the system will have a positive impact on trust over time. As prior expectation (dis)conﬁrmation research suggests, it is critical for IT-service providers to set expectations accurately (Brown et al, 2008; Brown et al, 2012) and to be mindful of the signiﬁcant impact that job change and beneﬁts can have, not only on the attitude toward the system, but also on the relationship with the IT-service provider. Although the reasons for change may be uniformly communicated, managers of IT-enabled change must be aware that endusers may differ in their interpretations of the magnitude of the change. It is important to recognize that anxiety about change is not reduced by protecting end-users from impending change; rather it may lead to expectations that ultimately cannot be met. Expectations are better
+
+managed by communicating what is known, what is unknown, and what is perceived. Managing expectations may increase conﬁdence in the IT-service provider, thereby making users more understanding and accepting of emergent changes and unforeseen events, particularly during shakedown. System beneﬁts have a consistent and positive impact as hypothesized. In contrast, the impacts of trust and job change on attitude vary over time. Although we hypothesized that trust would positively inﬂuence attitude pre- and post-implementation, it did not do so until after implementation and then only during shakedown. From a practical perspective, these ﬁndings demonstrate the heightened importance of a solid working relationship during the shakedown phase. The more users trust that the provider delivers during this intense period of working to stabilize and achieve normal operations, the more likely they are to have positive attitudes toward the system.
+
+Conclusion
+Trust between users and IT-service providers and perceptions of organizational impacts are important determinants of user attitudes toward mandated systems. Organizations faced with the need to implement a mandatory use system as a consequence of an M&A need to be aware that users’ perceptions of the system’s beneﬁts impact on their jobs, and user’s trust in the IT-service provider will impact not only the success of the implementation, but also the overall success of the M&A. The social implications of user attitudes and a loss of trust may result in longer-term damage to the relationship between the parent and acquired company. The damage to users’ attitudes and loss of trust may have implications for the next technology implementation or even the ability to successfully realize the expected value from the M&A. The current study illustrates that an organization should focus on the relationship between users and IT-service providers, particularly during the earliest stages of the implementation process. Here, trust will not only enhance user attitudes toward a system, but it should also mitigate the uncertainties and risks often associated with M&A, and help establish the bonds necessary for future collaborations.
+
+About the Authors
+Susan A. Brown is the McClelland Professor of Management Information Systems in the Eller College of the University of Arizona. She completed her Ph.D. at the University of Minnesota and an M.B.A. at Syracuse University. Prior to receiving her M.B.A., she worked as a programmer/analyst and IS manager in a hospital. Her research interests include technology implementation, individual adoption, computer-mediated communication, technology-mediated learning, and related topics. She has received funding for her research from the National Science Foundation, and other public and private organizations. Her work has appeared in leading journals, including MIS Quarterly, Information Systems Research, Organizational Behavior and Human Decision Processes, Journal of Management Information Systems, Journal of the Association for Information Systems, and others. She has served as an AE at MIS Quarterly, Information Systems Research, Journal of the Association for Information Systems, and Decision Sciences, and is currently an SE at MIS Quarterly. Anne Massey is the Associate Vice President for University Academic Planning and Policy at Indiana University. She
+
+European Journal of Information Systems
+
+182
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+is also the Dean’s Research Professor at the Kelley School of Business. She received her Ph.D. from Rensselaer Polytechnic Institute. Professor Massey’s research centers on computer-mediated communication, collaborative systems and processes, and IT implementation. Her research has been published in the European Journal of Information Systems, Journal of Management Information Systems, MIS Quarterly, and Decision Sciences, among others. She is a member of the IEEE, Academy of Management, AIS, INFORMS and the Decision Sciences Institute.
+
+Kerry W. Ward is an associate professor at the University of Nebraska – Omaha. He received his Ph.D. from Indiana University. His research interests include IS strategy, knowledge transfer, technology-mediated learning and research methods. His research has been published in leading journals including the European Journal of Information Systems, Journal of AIS, and IEEE IT Professional.
+
+References
+AGARWAL R and PRASAD J (1997) The role of innovation characteristics and perceived voluntariness in the acceptance of information technologies. Decision Sciences 28(3), 557–582. AJZEN I (1985) From intentions to actions: a theory of planned behavior. In Action Control: From Cognition to Behavior (KUHL J and BECKMAN J, Eds), pp 11–39, Springer Verlag, New York. AJZEN I (1991) The theory of planned behavior. Organizational Behavior and Human Decision Processes 50(2), 179–211. AJZEN I and FISHBEIN M (1980) Understanding Attitudes and Predicting Social Behavior. Prentice Hall, New Jersey. AKKERMANS H and VAN HELDEN K (2002) Vicious and virtuous cycles in ERP implementation: a case study of interrelations between critical success factors. European Journal of Information Systems 11(1), 35–46. AMOAKO-GYAMPAH K (2004) ERP implementation factors: a comparison of managerial and end-user perspectives. Business Process Management Journal 10(2), 171–183. ANCONA D, GOODMAN P, LAWRENCE B and TUSHMAN M (2001) Time: a new research lens. Academy of Management Review 26(4), 645–663. ANDERSON R (1973) Consumer dissatisfaction: the effect of disconfirmed expectancy on perceived product performance. Journal of Marketing Research 10(1), 38–44. BALA H and VENKATESH V (2013) Changes in employees’ job characteristics during an enterprise system implementation: a latent growth modeling perspective. MIS Quarterly 37(4), 1113–1140. BARCLAY D, HIGGINS C and THOMPSON R (1995) The partial least squares (PLS) approach to causal modeling: personal computer adoption and use as an illustration. Technology Studies 2(2), 285–309. BARNEY J (1991) Firm resources and sustained competitive advantage. Journal of Management 17(1), 99–120. BEAUDRY A and PINSONNEAULT A (2005) Understanding user reponses to information technology: a coping model of user adaptation. MIS Quarterly 29(3), 493–524. BEHR A and HEID F (2011) The success of bank mergers revisited. An assessment based on a matching strategy. Journal of Empirical Finance 18(1), 117–135. BERNROIDER E (2013) Effective ERP adoption processess: the role of project activators and resource Investments. European Journal of Information Systems 22(2), 235–250. BESSON P and ROWE F (2001) ERP project dynamics and enacted dialogue: understanding perceived leeway, and the nature of taskrelated conflicts. The DATA BASE for Advances in Information Systems 32(4), 47–66. BHATTACHERJEE A (2001) Understanding information systems continuance: an expectation-confirmation model. MIS Quarterly 25(3), 351–370. BHATTACHERJEE A (2012) Social Science Research: Principles, Methods, and Practices. Createspace, Seattle, WA. BOSTROM R, OLFMAN L and SEIN M (1990) The importance of learning style in end-user training. MIS Quarterly 14(1), 101–119. BRADLEY L (2003) Mergers and acquisitions as collaborative challenges, in (ed.) Advances in Interdisciplinary Studies of Work Teams (Advances in Interdisciplinary Studies of Work Teams, Volume 9), Emerald Group Publishing Limited, pp. 233–246, http://www.emeraldinsight.com/ action/doSearch?ContribStored=Bradley%2C+L. BROWN SA, CHERVANY NL and REINICKE BA (2007) What matters when introducing new information technology? Communications of the ACM 50(9), 91–96. BROWN SA, MASSEY A, MONTOYA-WEISS M and BURKMAN J (2002) Do I really have to? User acceptance of mandated technology. European Journal of Information Systems 11(4), 283–295. BROWN SA, VENKATESH V and GOYAL S (2012) Expectation confirmation in technology use. Information Systems Research 23(2), 474–487. BROWN SA, VENKATESH V and GOYAL S (2014) Expection confirmation in information systems research. A test of six competing models. MIS Quarterly 38(3), 729–756. BROWN SA, VENKATESH V, MASSEY A and KURUZOVICH J (2008) Expectation confirmation: an examination of three competing models. Organizational Behavior and Human Decision Processes 105(1), 52–66. BRYNJOLFSSON E and HITT L (1996) Paradox lost? Firm-level evidence on the returns to information systems spending. Management Science 42(4), 541–558. BRYNJOLFSSON E and HITT L (2000) Beyond computation: information technology, organizational transformation and business performance. Journal of Economic Perspectives 14(4), 23–48. BUSQUETS J (2015) Discovery paths: exploring emergence and IT evolutionary design in cross-border M&As. Analyzing groupo Sandtander’s acquisition of abby (2004–2009). European Journal of Information Systems 24, 178–201. CHIN WW (1998) Issues and opinion on structural equation modeling. MIS Quarterly 22(1), vii–xvi. CORNETT MM, MCNUTT JJ and TEHRANIAN H (2006) Performance changes around bank mergers: revenue enhancements versus cost reductions. Journal of Money, Credit, and Banking 38(4), 1013–1050. COUGHLAN R and CONNOLLY T (2001) Predicting affective responses to unexpected outcomes. Organizational Behavior and Human Decision Processes 85(2), 211–225. COULTER KS and COULTER RA (2002) Determinants of trust in a service provider: the moderating role of length of relationship. The Journal of Services Marketing 16(1), 35–50. CUMMINGS LL and BROMILEY P (1996) The organizational trust inventory (OTI): development and validation. In Trust in Organizations (KRAMER RM and TYLER TR, Eds), Sage Publications, Thousand Oaks, CA. DAVENPORT TD (2005) The coming commoditization of processes. Harvard Business Review 83(6), 100–108. DAVIS F, BAGOZZI R and WARSHAW P (1989) User acceptance of computer technology: a comparision of two theoretical models. Management Science 35(8), 982–1003. DEDRICK J, GURBAXANI V and KRAEMER KL (2003) Information technology and economic performance: a critical review of the empirical evidence. Computing Surveys 35(1), 1–28. DELONE WH and MCLEAN ER (1992) Information systems success: the quest for the dependent variable. Information Systems Research 3(1), 60–95. DELONE WH and MCLEAN ER (2003) The DeLone and McLean model of information systems success: a ten-year update. Journal Of Management Information Systems 19(4), 9–30. DICKSON M, SMITH D, GROJEAN M and EHRHART M (2001) An organizational climate regarding ethics: the outcome of leader values and the practices that reflect them. Leadership Quarterly 12(2), 197–217. DIRKS KT and FERRIN DL (2001) The role of trust in organizational settings. Organization Science 12(4), 450–467. DOS SANTOS BL and PEFFERS K (1995) Rewards to investors in innovative information technology applications: first movers and early followers in ATMs. Organization Science 6(3), 241–259.
+
+European Journal of Information Systems
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+183
+
+EDMONDSON AC, BOHMER RM and PISANO GP (2001) Disrupted routines: team learning and new technology implementation in hosptials. Administrative Science Quarterly 46(4), 685–716. EVANOFF D and ORS E (2002) Local Market Consolidation and Bank Productive Efficiency. Federal Reserve Bank of Chicago FRB of Chicago Working Paper No. 2002-25, http://ssrn.com/abstract=367200. FDIC (2015) [WWW document] https://www.fdic.gov/bank/statistical/ stats/2014dec/FDIC.pdf, accessed 29 April 2015. FISHBEIN M and AJZEN I (1975) Belief, Attitude, Intention, and Behavior: An Introduction to Theory and Research. Addison-Wesley, Reading, MA. GALLETTA D, AHUJA M, HARTMAN A, TEO T and PEACE G (1995) Social influence and end-user training. Communications of the ACM 38(7), 70–79. GATTIKER TF and GOODHUE DL (2005) What happens after ERP implementation: understanding the impact of inter-dependence and differentiation on plant-level outcomes. MIS Quarterly 29(3), 559–585. GEFEN D (2004) What makes an ERP implementation relationship worthwhile: linking trust mechanisms and ERP usefulness. Journal of Management Information Systems 21(1), 263–288. GEFEN D, BENBASAT I and PAVLOU PA (2008) A research agenda for trust in online environments. Journal of Management Information Systems 24(4), 275–286. GEFEN D, KARAHANNA E and STRAUB D (2003) Inexperience and experience with online stores: the importance of TAM and trust. IEEE Transactions on Engineering Management 50(3), 307–321. GEFEN D, STRAUB D and BOUDREAU M (2000) Structural equation modeling techniques and regression: guidelines for research practice. Communications of AIS 7(7), 1–78. GEORGE J and JONES G (2000) The role of time in theory and theory building. Journal of Management 26(4), 657–684. GILLESPIE N and DIETZ G (2009) Trust repair after an organization-level failure. Academy of Management Review 34(1), 127–145. GINZBERG M (1981) Early diagnosis of MIS implementation failure: promising results and unanswered questions. Management Science 27(4), 459–478. HACKMAN R and OLDHAM G (1976) Motivation through the design of work: test of a theory. Organizational Behavior and Human Performance 16(2), 250–279. HACKMAN JR and OLDHAM GR (1980) Work Redesign. Reading, MA, Addison-Wesley. HARPER GR and UTLEY DR (2001) Organizational culture and successful information technology implementation. Engineering Management Journal 13(2), 11–16. HART P and SAUNDERS C (1997) Power and trust: critical factors in the adoption and use of electronic data interchange. Organization Science 8(1), 23–42. HARTWICK J and BARKI H (1994) Explaining the role of user participation in information system use. Management Science 40(4), 440–465. ILGEN DR (1971) Satisfaction with performance as a function of the initial level of expected performance and the deviation from expectation. Organizational Behavior and Human Performance 6(3), 345–361. JARVENPAA SL and TODD PA (1997) Consumer reactions to electronic shopping on the world wide web. Journal of Electronic Commerce 1(2), 59–88. JIA R, REICH B and PEARSON M (2008) IT service climate: an extension to IT service quality research. Journal of the Association for Information Systems 9(5), 294–321. JIANG JJ, HSU MK, KLEIN G and LIN B (2000) E-commerce user behavior model: an empirical study. Human Systems Management 19(4), 265. JIANG JJ, KLEIN G and SAUNDERS C (2012) Discrepancy theory models of satisfaction in IS research. In Information Systems Theory: Explaining and Predicting Our Digital Society (DWIVEDI YK, WADE MR and SCHNEBERGER SL, Eds), Vol. 1, pp 355–381. JOSHI KD (1991) A model of users’ perspectives on change: the case of information systems technology implementation. MIS Quarterly 15(2), 229–240. JOSHI KD, SARKER S and SARKER S (2007) Knowledge transfer within information systems development teams: examining the role of knowledge source attributes. Decision Support Systems 43(2), 322–335. KARAHANNA E, STRAUB D and CHERVANY N (1999) Information technology adoption across time: a cross-sectional comparison of pre-adoption and post-adoption beliefs. MIS Quarterly 23(2), 183–207. KARASEK RA (1979) Job demands, job decision latitude, and mental strain: implications for job redsign. Administrative Science Quarterly 24(2), 285–311.
+
+KIM HW and KANKANHALLI A (2009) Investigating user resistance to information systems iimplementation: a status quo bias perspective. MIS Quarterly 33(3), 567–582. KOTLER P (1997) Marketing Management: Analysis, Planning, Implementation and Control, Vol. 9, Prentice Hall, Upper Saddle River, NJ. KRAMER RM (1999) Trust and distrust in organizations: emerging perspectives, enduring questions. Annual Review of Psychology 50, 569–598. KRAMER RM and TYLER TR (1996) Trust in Organizations: Frontiers of Theory and Research. Sage Publications, Thousand Oaks, CA. LAPOINTE L and RIVARD S (2005) A multilevel model of resistance to information technology implementation. MIS Quarterly 29(3), 461–491. LATAK JC and FOSTER LW (1985) Implementation of compressed work schedules: participation and job redesign as critical factors for employee acceptance. Personnel Psychology 38(1), 75–92. LEWICKI RJ and BUNKER BB (1996) Developing and maintaining trust in work relationships. In Trust in Organizations: Frontier of Theory and Research (KRAMER RM and TYLER TR, Eds), pp 114–139, Sage Publicatons, Thousand Oaks, CA. LEWICKI RJ and WIETHOFF C (2000) Trust, trust development, and trust repair. In The Handbook of Conflict Resolution: Theory and practic (DEUTSCH M and COLEMAN P, Eds), pp 86–107, Jossey-Bass, San Fransico, CA. LIANG HG, SARAF N, HU Q and XUE Y (2007) Assimilation of enterprise systems: the effect of institutional pressures and the mediating role of top management. MIS Quarterly 31(1), 59–87. LI X, HESS T and VALACICH J (2008) Why do we trust new technology? A study of trust formation with organizational information systems. Journal of Strategic Information Systems 17(1), 39–71. LUHMANN N (1979) Trust and Power. John Wiley and Sons, Chichester. LYYTINEN K (1988) Expectation failure concept and systems analysts’ view of information system failure: results of an exploratory study. Information & Management 14(1), 45–56. MAJCHRZAK A and COTTON J (1988) A longitudinal study of adjustment to technological change: from mass to computer-automated batch production. Journal of Occupational Psychology 61(1), 43–66. MALHOTRA NK, KIM SS and PATIL A (2006) Common method variance in IS research: a comparison of alternative approaches and a reanalysis of past research. Management Science 52(12), 1865–1883. MARKUS ML and TANIS C (2000) The enterprise systems experience – from adoption to success. In Framing the Domains of IT Research: Glimpsing the Future Through the Past (ZMUD RW, Ed), pp 173–207, Pinnaflex Educational Resources, Cincinnati, OH. MARTINKO MJ (1996) An attributional explanation of individual resistance to the introduction of information technologies in the workplace. Behaviour & Information Technology 15(5), 313–330. MASSEY A, MONTOYA-WEISS M and BROWN S (2001) Reaping the benefits of innovative IT: the long and winding road. IEEE Transactions on Engineering Management 48(3), 348–357. MAYER RC, DAVIS JH and SCHOORMAN FD (1995) An integrative model of organizational trust. Academy of Management Review 20(3), 709–734. MCCOLE P, RAMSEY E and WILLIAMS J (2010) Trust considerations on attitudes towards online purchasing: the moderating effect of privacy and security concerns. Journal of Business Research 63(9), 1018–1024. MCKNIGHT DH and CHERVANY NL (2006) Reflections on an initial trust building model. In Handbook of Trust Research (BACHMANN R and ZAHEER A, Eds), pp 29–51, Edward Elgar, Cheltenham, UK. MILLMAN Z and HARTWICK J (1987) The impact of automated office systems on middle managers and their work. MIS Quarterly 11(4), 479–491. MILLS P and MOBERG D (1982) Perspectives on the technology of service operations. Academy of Management Review 7(3), 467–478. MONTOYA M, MASSEY A and KHATRI V (2010) Connecting IT services operations to services marketing practices. Journal of Management Information Systems 26(4), 65–85. MORRIS M and VENKATESH V (2010) Job characteristics and job satisfaction: understanding the role of enterprise resource. MIS Quarterly 34(1), 143–161. MULLARKEY S, JACKSON PR, WALL TD, WILSON JR and GREY-TAYLOR SM (1997) The impact of technology characteristics and job control on worker mental health. Journal of Organizational Behavior 18(5), 471–489. NAH F, LAU J and KUANG J (2001) Critical factors for successful implementation of enterprise systems. Business Process Management 7(3), 285–296. NYHAN R and MARLOWE H (1997) Development and psychometric properties of the organizational trust inventory. Evaluation Review 21(5), 614–635.
+
+European Journal of Information Systems
+
+184
+
+Handle M&A with care
+
+Susan A. Brown et al
+
+OLIVER RL (1977) Effect of expectation and disconfirmation on postexposure product evaluations: an alternative interpretation. Journal of Applied Psychology 62(4), 480–486. ORLIKOWSKI WJ and HOFMAN JD (1997) An improvisational model for change management: the case of groupware technologies. Sloan Management Review 38(2), 11–21. PARKER SK and WALL TD (1998) Job and Work Design. Sage, London. PAVLOU PA and GEFEN D (2004) Building effective online marketplaces with institution-based trust. Information Systems Research 15(1), 37–59. PEFFERS K and DOS SANTOS BL (1996) Performance effects of innovative IT applications over time. IEEE Transactions on Engineering Management 43(4), 381–392. PETTER S, STRAUB D and RAI A (2007) Specifying formative constructs in information systems research. MIS Quarterly 31(4), 623–656. PODSAKOFF PM, MACKENZIE S, LEE JY and PODSAKOFF NP (2003) Common method biases in behavioral research: a critical review of the literature and recommended remedies. Journal of Applied Psychology 88(5), 879–903. RINGLE CM, WENDE S and WILL A (2005) SmartPLS. Hamburg, Germany. RIVARD S and LAPOINTE L (2012) Informatino technology implementers’ responses to user resistance: nature and effects. MIS Quarterly 36(3), 897–920. ROBERTSON P, ROBERTS D and PORRAS J (1993) Dynamics of planned organizational change: assessing empirical support for a theoretical model. Academy of Management Journal 36(3), 619–634. ROBINSON SL (1996) Trust and breach of the psychological contract. Administrative Science Quarterly 41(4), 574–599. ROTTER JB (1971) Generalized expectancies for interpersonal trust. American Psychologist 26(5), 1–7. ROUSSEAU DM, SITKIN SB, BURT RS and CARMERER C (1998) Not so different after all: a cross-discipline view of trust. Academy of Management Review 23(3), 393–404. ROUSSEAU DM and TIJORIWALA SA (1999) What’s a good reason to change? Motivated reasoning and social accounts in organizational change. Journal of Applied Psychology 84(4), 514–528. SAMUELSON W and ZECKHAUSER R (1988) Status quo bias in decision making. Journal of Risk & Uncertainty 1(1), 7–59. SAVINO DM (2009) The role of technology as an enabler in job redesign. Journal of Technology Management & Innovation 4(3), 15–23. SCHWEITZER ME, HERSHEY JC and BRADLOW ET (2006) Promises and lies: restoring violated trust. Organizational Behavior & Human Decision Processes 101(1), 1–19. SCOTT J and VESSEY I (2002) Managing risks in enterprise systems implementations. Communications of the ACM 45(4), 74–81. SEEBORG IS (1978) The influence of employee participation in job redesign. The Journal of Applied Behavioral Science 14(1), 87–98. SHERMAN HD and RUPERT T (2006) Do bank mergers have hidden or foregone value? Realized and unrealized operating synergies in a bank merger. European Journal of Operations Research 168(1), 253–268. SHIN DH (2010) The effects of trust, security and privacy in social networking: a security-based approach to understand the pattern of adoption. Modelling User Experience – An Agenda for Research and Practice 22(5), 428–438. SLOVIC P (1993) Perceived risk, trust, and democracy. Risk Analysis 13(6), 675–682.
+
+SPREITZER GM and MISHRA AK (1999) Giving up control without losing control: trust and its substitutes’ effects on managers’ involving employees in decision making. Group and Organizational Management 24(2), 155–187. STAHL G and MENDENHALL M (2005) Mergers and Acquisitions: Managing Culture and Human Resources. Stanford University Press, Stanford, CA. SYKES TA, VENKATESH V and JOHNSON JL (2014) Enterprise system implementation and employee job performance: understanding the role of advice networks. MIS Quarterly 38(1), 51–72. SZAJNA B and SCAMELL R (1993) The effects of information system user expectations on their performance and perceptions. MIS Quarterly 17(4), 493–516. TAYLOR S and TODD PA (1995) Understanding information technology usage: a test of competing models. Information Systems Research 6(2), 144–176. THONG J, HONG S and TAM K (2006) The effects of post-adoption beliefs on the expectation-confirmation model for information technology continuance. International Journal of Human-Computer Studies 64(9), 799–210. VEIGA JF, KEUPP MM and KELLERMANNS FW (2014) The longitudinal impact of enterprise system users’ pre-adoption expectations and organizational support on post-adoption proficient usage. European Journal of Information Systems 23(6), 691–707. VENKATESH V and DAVIS FD (2000) A theoretical extension of the technology acceptance model: four longitudinal field studies. Management Science 46(2), 186–204. VENKATESH V and GOYAL S (2010) Expectation disconfirmation and technology adoption. Polynomial Modeling and Response Surface Analysis 34(2), 281–303. VENKATESH V, MORRIS M, DAVIS GB and DAVIS F (2003) User acceptance of information technology: toward a unified view. MIS Quarterly 27(3), 425–478. VON HIPPEL E (1988) The Sources of Innovation. Oxford University Press, Oxford. WAGNER H, DAINTY A, HAGUE R, TUCK C and ONG MH (2008) The effects of new technology adoption on employee skills in the prosthetics profession. International Journal of Production Research 46(22), 6461–6478. WANG W and BENBASAT I (2005) Trust in and adoption of online recommendation agents. Journal of the Association for Information Systems 6(3), 72–101. WARD KW, BROWN S and MASSEY A (2005) Organisational influences on attitudes in mandatory system use environments: a longitudinal study. International Journal of Business Information Systems 1(1–2), 9–30. WEAVER D and BRICKMAN P (1974) Expectancy, feedback, and disconfirmation as independent factors in outcome satisfaction. Journal of Personality and Social Psychology 30(3), 420–428. YI Y (1990) A critical review of consumer satisfaction. In Review of Marketing (ZEITHAML V, Ed), pp 68–123, American Marketing Association, Chicago, IL. YI M and DAVIS F (2001) Improving computer training effectiveness for decision technologies: behavior modeling and retention enhancement. Decision Sciences 32(3), 521–544. ZUBOFF S (1988) In the Age of the Smart Machine. Basic Books, New York.
+
+European Journal of Information Systems
+
+Appendix
+
+Table A1
+
+U.S. Federal Deposit Insurance Corporation (FDIC) Banking proﬁle – historical statistics (FDIC, 2015)
+Statistics at a glance Historical trends – as of 31 December 2014
+
+Dollar amounts in billions Commercial banks New reporters Mergers Savings institutions New reporters Mergers Problem institutions Number Assets $ Combined dep. ins. fund Fund balance $ Insured deposits $ Reserve ratio % Number failed institutions Failed assetsa$ Number assisted institutions Assisted assetsa$ Estimated losses(DIF)b$ Resolution receivablesc$
+European Journal of Information Systems
+
+2014 5642 0 240 867 0 34
+
+2013 5876 1 204 936 1 28
+
+2012 6096 0 172 987 0 36
+
+2011 6291 3 166 1066 0 30
+
+2010 6530 9 184 1128 2 13
+
+2009 6840 25 152 1172 6 27
+
+2008 7087 89 261 1218 9 32
+
+2007 7284 164 282 1250 17 39
+
+2006 7401 178 305 1279 16 37
+
+2005 7526 166 269 1307 13 41
+
+2004 7631 122 261 1345 6 58
+
+2003 7770 110 224 1411 8 49
+
+2002 7888 91 276 1466 4 56
+
+Handle M&A with care
+
+291 87 62.8 6204 1.01 18 2.914 0 0.000 0.439 18.181 6631
+
+467 153 47.2 6011 0.79 24 6.044 0 0.000 1.334 16.345 7253
+
+651 233 33.0 7405 0.45 51 11.617 0 0.000 2.676 23.120 7479
+
+813 319 11.8 6973 0.17 92 34.923 0 0.000 7.076 28.549 7973
+
+884 390 −7.4 6302 −0.12 157 92.085 0 0.000 17.075 29.533 8150
+
+702 403 −20.9 5408 −0.39 140 169.709 8 1917.482 27.908 38.409 6557
+
+252 159 17.3 4751 0.36 25 371.945 5 1306.042 18.293 15.766 4988
+
+76 22 52.4 4292 1.22 3 2.615 0 0.000 0.162 0.808 4532
+
+50 8 50.2 4154 1.21 0 0.000 0 0.000 0.000 0.482 4476
+
+52 7 48.6 3891 1.25 0 0.000 0 0.000 0.000 0.533 4514
+
+80 28 47.5 3622 1.31 4 0.170 0 0.000 0.004 0.722 5078
+
+116 30 46.0 3453 1.33 3 0.947 0 0.000 0.063 0.784 5311
+
+136 39 43.8 3384 1.29 11 2.873 0 0.000 0.426 0.793 5430
+
+Susan A. Brown et al
+
+Number of FDIC employeesd (Includes RTC before 1996)
+
+Statistics at a glance Historical trends – as of 31 December 2014 Dollar amounts in billions Commercial banks New reporters Mergers 2001 8080 126 354 2000 8315 190 452 1999 8580 230 416 1998 8774 188 557 1997 9143 187 598 1996 9528 145 552 1995 9941 102 606 1994 10,452 50 548 1993 10,959 58 501 1992 11,463 72 425 1991 11,921 105 443 1990 12,343 163 389
+
+185
+
+European Journal of Information Systems
+
+186
+
+Table A1: (Continued ) Statistics at a glance Historical trends – as of 31 December 2014 Dollar amounts in billions Savings institutions New reporters Mergers Problem institutions Number Assets $ Combined dep. ins. fund Fund balance $ Insured deposits $ Reserve ratio% Number failed institutions Failed assetsa$ Number assisted institutions Assisted assetsa$ Estimated losses(DIF)b$ Resolution receivablesc$ Number of FDIC employeesd (Includes RTC before 1996)
+a b
+
+2001 1534 20 63
+
+2000 1589 33 81
+
+1999 1642 40 80
+
+1998 1690 33 114
+
+1997 1780 12 127
+
+1996 1926 12 108
+
+1995 2030 9 116
+
+1994 2152 18 109
+
+1993 2262 9 111
+
+1992 2390 8 84
+
+1991 2561 9 72
+
+1990 2815 28 64
+
+114 40
+
+94 24
+
+79 10
+
+84 11
+
+92 6
+
+117 12
+
+193 31
+
+318 73
+
+575 348
+
+1066 601
+
+1430 837
+
+1496 647
+Handle M&A with care
+
+41.4 3217 1.29 4 1.822 0 0.000 0.306 1.429 6167
+
+41.7 3055 1.37 7 0.410 0 0.000 0.032 0.354 6452
+
+39.7 2869 1.38 8 1.592 0 0.000 0.614 0.805 7266
+
+39.4 2850 1.38 3 0.290 0 0.000 0.223 0.757 7359
+
+37.7 2746 1.37 1 0.028 0 0.000 0.005 1.114 7793
+
+35.7 2690 1.33 6 0.233 0 0.000 0.061 4.45 9151
+
+28.8 2664 1.08 8 1.226 0 0.000 0.113 4.143 11,856
+
+23.8 2589 0.92 15 1.601 0 0.000 0.191 8.197 17,526
+
+14.3 2603 0.55 50 9.977 0 0.000 0.900 13.396 20,994
+
+0.2 2678 0.01 179 89.555 2 0.033 6.909 27.824 22,459
+
+−6.9 2733 −0.25 268 143.455 3 0.079 14.624 18.675 22,586
+
+4.1 2785 0.15 381 146.586 1 0.014 18.838 12.935 19,247
+
+Susan A. Brown et al
+
+Prior years have been revised to reflect failed/assisted assets as reported on the call report for the quarter prior to failure/assistance. Includes RTC resolutions from 1990 to 1995, excludes Transaction Account Guarantee program (TAG) losses from inception in 2008 until the program ended in 2011. c Includes remaining receivership assets from prior years. d Beginning in 2008, FDIC began reporting the number of FDIC employees based on a new, full-time equivalent methodology. Prior years have been revised to reflect the number of employees as reported in the FDIC Annual Report. Last updated: 24 February 2015.
+
+

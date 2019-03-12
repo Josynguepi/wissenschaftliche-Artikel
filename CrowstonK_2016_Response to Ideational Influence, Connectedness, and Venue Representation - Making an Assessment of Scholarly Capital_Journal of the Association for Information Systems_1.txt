@@ -1,0 +1,94 @@
+J
+Dialog
+
+ournal of the
+
+A
+
+ssociation for
+
+I
+
+nformation
+
+S
+
+ystems
+ISSN: 1536-9323
+
+Response to “Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital”
+Kevin Crowston
+School of Information Studies, Syracuse University, crowston@syr.edu
+
+Abstract:
+I respond to Cueller, Takeda, Vidgen & Truex (2016), who proposes three measures of scholarly output: “1) the extent to which other scholars take up the scholar’s work (ideational influence), 2) who the scholar works with (connectedness), and 3) how well the scholar publishes in venues in the scholar’s field (venue representation)” (p. 3). These are not novel and valid measures of research output. Ideational influence is operationalized as counting citations, which improve current practice but is not novel. Connectedness assesses position in a co-authorship network and rewards the cronies of central players without assessing their output. Venue representation involves counting papers in a different basket, which commits an ecological fallacy. Connectedness and venue representation are based on a common misinterpretation of network centrality measures. Adopting either of these measures in practice would distract from actual impact and so be negative for our field. Keywords: Scholarly Capital, Altmetrics, Ecological Fallacy, Network Centrality.
+
+Volume 17
+
+Issue 1
+
+pp. 29 – 34
+
+January
+
+2016
+
+30
+
+Response to “Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital”
+
+1
+
+Response
+
+In this paper, I respond to “Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital” by Cueller, Takeda, Vidgen & Truex (2016), who note the limitations of counting papers in a few selected journals as a measure of scholarly research output and proposes a new scholarly capital model. The model includes three measures of output: “1) the extent to which other scholars take up the scholar’s work (ideational influence), 2) who the scholar works with (connectedness), and 3) how well the scholar publishes in venues in the scholar’s field (venue representation)” (p. 3.). To begin, I completely agree with Cueller et al.’s (2016) rejection of counting journal titles to assess research output and am sympathetic with the goal of finding more-valid ways to measure output. There is an entire field—altmetrics—devoted to developing improved measures of researcher impact. Unfortunately, Cueller et al. (2016) do not engage with that literature and their proposed measures suffer from serious flaws. The first measure’s name—ideational influence—suggests that it measures the spread of ideas —the stuff of academic output. However, Cueller et al. (2016) in fact propose counting citations. Counting citations instead of publications to assess output is a good idea but not a novel one even if it is still not widely adopted. They use institutional theory to make a new argument to support the measure, but scholars already accept the approach, so a novel argument does not seem necessary. On the other hand, the authors’ other two measures—connectedness and venue representation—are not valid measures of scholarly research output. For connectedness, Cueller et al. (2016) suggest that “the network connections a scholar makes can be important in determining their ability to perform in the academic arena” and note that “scientists interact with each other to help flesh out theories or test these theories either formally through the publication process or informally through interactions at conferences and other meetings or through media such as telephone and email” (p. 8). Assessing the value researchers create through interaction is an interesting idea. However, Cueller et al. (2016) do not actually suggest that one measure these interpersonal interactions and influences. Rather, they assess connectedness by measuring an author’s centrality in a co -authorship network. To justify why one should examine publication s instead of interactions, they argue that “informal interactions sometimes create formalized relationships” (p. 8) in the form of papers, but that connection seems hopelessly indirect. At best, the measure leaves out all the interactions that are not so formalized; at worst, the relations that are formalized are chosen not at random, which introduces serious bias into this measure. A further problem is that only authors in the main component of the co-authorship network have a connectedness score. The authors suggest that co-authored papers are becoming more common, but that does not justify leaving out anyone not connected to the “old boys”. For venue representation, Cueller et al. (2016) argue that one can assess a researcher’s output by the “kind of resource that arises from the publishing venues in which a scholar's work appears” (p. 9), but this approach commits the exact ecological fallacy that they purportedly seek to avoid; namely, attributing a group’s average characteristics (the average contribution of an author in JAIS) to all of the group’s members (each author in JAIS). If it's wrong to simply count how many papers an author has in the basket of eight, it is equally wrong to count the number in some other basket no matter how chosen or weighted. Further, the authors operationalize venue representation as the centrality of a scholar’s chosen journals in their field’s co-publication network, but such centrality does not seem to capture the notion of contribution at all. For example, given its size and scope, the Sprouts Working Paper Repository is likely to be quite central to the information systems publication network, but I doubt that the papers it includes (as interesting as they are) are the most important contributions to our field. The most egregious problem with Cueller et al. (2016) is that they base their two proposed measures on a serious but all too common misinterpretation of the network measures (i.e., degree centrality, betweenness centrality, and closeness centrality) they use. Degree simply means count: an author has contributed more if they have published with more co-authors; a journal is more important if has papers by authors who have published in more other journals. I do not believe either claim, but at least they are sensible. On the other hand, the arguments Cueller et al. make for betweenness and closeness centrality are fallacious. They state that betweenness indicates the “extent to which a scholar plays a linking role between other scholars” (p. 8) and that scholars with high closeness centrality “may be able to spread their ideas more quickly” (p. 9). However, these interpretations are only true in networks in which the link measures the flow of communication (Borgatti, 2005). One cannot transfer this interpretation to non-communication networks or to co-authorship networks in particular. For authors to be able to control the flow of ideas as Cueller et al.
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+31
+
+(2016) suggest, we would have to believe that authors receive ideas only via their co-authors, which is not credible. One might believe that the centrality scores in the co-authorship network are highly correlated with the scores in the hypothesized communications network, but Cueller et al. (2016) offer no evidence supporting this belief. Finally, Cueller et al. (2016) justify their developing their measures by arguing that they are somehow more democratic, objective, efficient, comprehensive, and fair. However, counting publications in target journals is also entirely objective and efficient; indeed, it is much more efficient than the proposed techniques. (This efficiency is likely the main reason for the measure’s continued use in the face of its known defects.) Cueller et al. argue that current identification of “target” journals (e.g., the basket of eight journals) i s arbitrary and creates a bias in evaluating scholars’ scholarly activity. However, the proposed techniques—and, indeed, any possible evaluation technique —also rely on arbitrary decisions (e.g., which scholars to include as the starting point for picking journals, which cluster of journals to include in the analysis and which to exclude, which component of authors to include and which to exclude, which centrality measures to adopt, and so on). Subjecting these arbitrary decisions to algorithmic processing whitewashes their origin but does not render the process unbiased, objective, or democratic. In summary, Cueller et al. (2016) are correct in their critique of current evaluation approaches based on counting journal titles, but they fail to develop novel and valid measures of research output. Counting citations is not novel, though it would improve on current practice. The two new measures are not valid but rather embody the worst of current evaluation practices. Rather than rewarding scholars for their contributions’ content, connectedness rewards those who publish with central players, favoring their students and followers, which is exactly the kind of cronyism that “objective” measures ought to avoid. Rather than rewarding good ideas regardless of where they appear, venue representativeness incentivizes academic fields to continue to fetishize select journals. Adopting either of these measures in practice would distract from actual impact and so be negative for our field.
+
+Volume 17
+
+Issue 1
+
+32
+
+Response to “Ideational Influence, Connectedness, and Venue Representation: Making an As sessment of Scholarly Capital”
+
+References
+Borgatti, S. P. (2005). Centrality and network flow. Social Networks, 27(1), 55-71. Cuellar, M. J., Takeda, H., Vidgen, R., & Truex, D. (2016). Ideational influence, connectedness, and venue representation: Making an assessment of scholarly capital. Journal of the Association for Information Systems, 17(1), 1-28.
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+33
+
+About the Author
+Kevin Crowston is a Distinguished Professor of Information Science in the School of Information Studies at Syracuse University. He received his Ph.D. (1991) in Information Technologies from the Sloan School of Management, Massachusetts Institute of Technology (MIT). His research examines new ways of organizing made possible by the extensive use of information and communications technology. Specific research topics include the development practices of Free/Libre Open Source Software teams and work practices and technology support for citizen science research projects, both with NSF support, as well as open publishing and research data management.
+
+Copyright © 2016 by the Association for Information Systems. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and full citation on the first page. Copyright for components of this work owned by others than the Association for Information Systems must be honored. Abstracting with credit is permitted. To copy otherwise, to republish, to post on servers, or to redistribute to lists requires prior specific permission and/or fee. Request permission to publish from: AIS Administrative Office, P.O. Box 2712 Atlanta, GA, 30301-2712 Attn: Reprints or via e-mail from publications@aisnet.org.
+
+Volume 17
+
+Issue 1
+
+34
+
+Response to “Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital”
+
+Volume 17
+
+Issue 1
+
+Copyright of Journal of the Association for Information Systems is the property of Association for Information Systems and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

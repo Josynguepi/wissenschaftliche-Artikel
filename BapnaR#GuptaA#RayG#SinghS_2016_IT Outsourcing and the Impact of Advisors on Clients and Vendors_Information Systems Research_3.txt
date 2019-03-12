@@ -1,0 +1,324 @@
+This article was downloaded by: [130.89.97.167] On: 17 February 2017, At: 07:02 Publisher: Institute for Operations Research and the Management Sciences (INFORMS) INFORMS is located in Maryland, USA
+
+Information Systems Research
+Publication details, including instructions for authors and subscription information: http://pubsonline.informs.org
+
+Research Note—IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Ravi Bapna, Alok Gupta, Gautam Ray, Shweta Singh
+
+To cite this article: Ravi Bapna, Alok Gupta, Gautam Ray, Shweta Singh (2016) Research Note—IT Outsourcing and the Impact of Advisors on Clients and Vendors. Information Systems Research 27(3):636-647. http://dx.doi.org/10.1287/isre.2016.0645 Full terms and conditions of use: http://pubsonline.informs.org/page/terms-and-conditions This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval, unless otherwise noted. For more information, contact permissions@informs.org. The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support of claims made of that product, publication, or service. Copyright © 2016, INFORMS Please scroll down for article—it is on subsequent pages
+
+INFORMS is the largest professional society in the world for professionals in the fields of operations research, management science, and analytics. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Information Systems Research
+Vol. 27, No. 3, September 2016, pp. 636–647 ISSN 1047-7047 (print) ISSN 1526-5536 (online) http://dx.doi.org/10.1287/isre.2016.0645 © 2016 INFORMS
+
+Research Note
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Ravi Bapna, Alok Gupta, Gautam Ray
+Carlson School of Management, University of Minnesota, Minneapolis, Minnesota 55455 {rbapna@umn.edu, alok@umn.edu, rayxx153@umn.edu}
+
+Shweta Singh
+Indian Institute of Technology, Kanpur 208016, India, singh@iitk.ac.in
+
+T
+
+here is signiﬁcant information asymmetry in the information technology (IT) outsourcing market. Clients are uncertain about vendors’ capabilities and vendors are uncertain about clients’ requirements. Prior literature has examined many devices to reduce such information asymmetry, e.g., vendor reputation, client-vendor prior relationship, vendors’ Capability Maturity Model (CMM) rating, vendor location, and technological diversity of the vendor. We examine the impact of (to our knowledge) a hitherto unconsidered device, i.e., the use of an advisor. In the context of global sourcing, third-party advisors, with their accumulated knowledge of client requirements and the vendor landscape, can mitigate the information asymmetry between clients and vendors. However, in an extensive data set of IT outsourcing contracts going back two decades we found use of advisors to be rare (less than 5% of contracts go through an advisor). This motivates us to rigorously analyze their impact on clients and vendors as an open empirical question. Using a data set of 753 large IT outsourcing contracts, and through a series of econometric speciﬁcations and robustness tests, we establish that the presence of an advisor is associated with higher revenue for vendors and more positive contract outcomes. This analysis presents what is to our knowledge the ﬁrst concrete evidence that third-party advisors can mitigate the information asymmetry in the IT outsourcing market and lead to better matching that beneﬁts clients as well as vendors. Keywords : IT outsourcing; advisor; information asymmetry; propensity score matching; coarsened exact matching History : Anandhi Bharadwaj, Senior Editor; Anandasivam Gopal, Associate Editor. This paper was received on September 22, 2011, and was with the authors 3 years for 5 revisions. Published online in Articles in Advance August 5, 2016.
+
+1.
+
+Introduction
+
+Information technology (IT) outsourcing is a very large industry. Gartner’s 2012 analysis estimated the worldwide IT services market at $991 Billion per annum. However, different industry reports suggest that about half of IT outsourcing contracts are renegotiated (Gartner 2005, Flinders 2012). Similarly, other industry studies indicate that a very large proportion of outsourcing contracts are cancelled. Industry reports commonly blame poor customer service, lack of vendor ﬂexibility, and hidden costs for clients’ inability to achieve the goals of outsourcing initiatives (Craig and Willmort 2005, McDougall 2006). Poor service, lack of ﬂexibility, and hidden costs can be attributed to the tension in a typical outsourcing relationship wherein the client seeks a service at lower than the in-house cost and the vendor wants to maximize its proﬁts (Tadelis 2007). Given this natural tension between the client and the vendor, the IT outsourcing vendor must be carefully
+636
+
+selected and the outsourcing contract must be assiduously designed. However, there is signiﬁcant information asymmetry in the IT outsourcing market, which makes the selection of vendors and contracting for IT projects especially challenging. For instance, clients’ may understand their requirements (although this varies by the sophistication of their IT function and process maturity) but face signiﬁcant uncertainty about the capabilities of different vendors to meet their requirements. Similarly, vendors may have an understanding about their capabilities, but face signiﬁcant information asymmetry about the requirements, intentions, contexts, and motivations of different (potential) clients. If the vendor does not have the capabilities to satisfy the client’s requirements, the outcome may be renegotiation or cancellation of the contract. In this paper, we examine the (to our knowledge) hitherto unexplored role of third-party advisors, a growing cottage industry, in mitigating such information asymmetry.
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+637
+
+Before this research, different tools and devices have been studied to mitigate the information asymmetries in the IT outsourcing market. For example, prior relationship with a vendor, and experience and reputation of a vendor may mitigate a client’s information asymmetry about a vendor’s capabilities (Gao et al. 2010). The vendor location/distance may also reduce information asymmetry. For example, U.S.-based clients may have lower information asymmetry about U.S.-based vendors compared to overseas vendors (Gao et al. 2010). Similarly, thirdparty certiﬁcation of vendors, e.g., Capability Maturity Model (CMM) ratings (Gopal and Gao 2009) may mitigate the information asymmetry about the vendor’s software development capabilities. The IT outsourcing literature has examined how vendors can use devices such as prior relationship with clients, vendors’ experience and reputation, vendors’ location, service diversiﬁcation, and CMM certiﬁcation to signal quality and reduce information asymmetry (Gao et al. 2010, Gopal and Gao 2009). We add to this stream of research by examining the role of third-party advisors, such as TPI, Avasant, and speciﬁc divisions of Ernst and Young and KPMG, for example,1 in reducing information asymmetry in IT outsourcing. The information asymmetry between clients and vendors and the difﬁculties in deﬁning the scope and performance of outsourced work give rise to opportunities for specialist third-party advisors to intermediate between clients and vendors. Third-party advisors can use their accumulated knowledge of the vendor space to match client requirements with vendor capabilities, help clients choose which global location matches their needs, help design appropriate outsourcing contracts, and get the best deal available in the market for clients and vendors. If third-party advisors, by virtue of their market knowledge, can match clients with the right vendors and design appropriate contracts, then even when advisors work on behalf of clients, advisors can help vendors secure more outsourcing contracts and help clients and vendors achieve more positive contracting outcomes. Yet, despite the presence of big players (such as KPMG) in a rapidly growing IT outsourcing industry, actual use of third-party advisors is in low single digit percentages over the last two decades. This suggests uncertainty in their value proposition and motivates us to address the issue of quantifying their impact as an open empirical question using a variety of econometric speciﬁcations. In particular, this paper investigates the impact of third-party advisors on vendors’ revenue and contract outcomes.
+1
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Our analysis, using 753 large IT outsourcing contracts from 1989–2009, suggests that an advisor can reduce information asymmetry between clients and vendors, and thus beneﬁt clients and vendors. The presence of an advisor is associated with higher annual revenue for vendors. Furthermore, the presence of advisors is associated with higher likelihood of contract extension and expansion. The remainder of the paper is organized as follows. Section 2 details the institutional context and the various tensions that could drive outcomes for clients and vendors in different directions; Section 3 presents the data, empirical approach, and results; and Section 4 examines the implications of our ﬁndings for future research.
+
+2.
+
+Institutional Background
+
+A large body of IT outsourcing literature (Han et al. 2011, Koh et al. 2004, Susarla 2012, Susarla et al. 2010) recognizes the difﬁculties in writing IT outsourcing contracts and suggests that these contracts are inevitably incomplete. In many cases the agency issues in IT outsourcing contracts arise due to information asymmetry between clients and vendors. While clients lack the ability to judge vendors’ capabilities, vendors lack the ability to signal their capabilities to clients (Gopal and Gao 2009, Spence 1973). The literature has examined how vendors could use devices such as their experience and reputation, prior relationship with clients, location/distance from the client, and their CMM rating to signal quality (Gao et al. 2010, Gopal and Gao 2009). Given the information asymmetry between clients and vendors, and the difﬁculties in deﬁning the scope and performance of outsourced work, specialist third-party advisors, such as TPI, Everest, and NeoIT are sometimes used by clients to set up outsourcing engagements. Thirdparty advisors with knowledge of the IT outsourcing market can match clients’ speciﬁc requirements with vendors with the right capabilities to meet those requirements (Chan 1983, Bailey and Bakos 1997). Table 1 summarizes the activities of advisors and the mechanisms through which they may reduce information asymmetry and create value in the IT outsourcing market. 2.1. Impact of Advisor on Vendors Prior work has examined how rating information such as CMM ratings, vendor location, service diversiﬁcation, prior relationship with the client, and reputation can mitigate information asymmetry. As summarized in Table 1 the presence of an advisor can also act as a tool to reduce information asymmetry between client and vendor. This may beneﬁt vendors in two distinct ways. First, in the presence of advisors, high quality vendors may receive contracts from
+
+See http://www.iaop.org/content/19/165/3880 for an exhaustive list.
+
+638
+Table 1
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+Summary of Advisor Activities and the Mechanisms Through Which Advisors Reduce Information Asymmetry and Create Value References Vashistha and Vashistha (2006)
+
+Dimension of value creation by advisors A. Vendor capability assessment • Third-party advisors, by being close to vendors, and through site visits, can reduce uncertainty about vendors’ capabilities such as speciﬁc technological capabilities, business continuity plans, human capital development strategies, attrition management strategies, management skills for geographically separated projects, and ﬁnancial stability. B. Facilitate price discovery • Advisors may inﬂuence the bidding process by increasing the number of bidders. Such an increase casts downward competitive pressure on prices, and could have a negative effect on vendor revenue as well as contract outcomes as vendors may reallocate resources to more proﬁtable projects. • Related to the above point, advisors can also have an “entry effect” given that the probability of winning a contract decreases with an increase in the number of potential bidders. As there is a cost associated with submitting a bid, increase in the number of potential bidders could reduce a bidder’s incentive to join the bidding process. If high quality vendors are dissuaded from participating, there could be an impact on project outcome. C. Client-vendor matching and contracting • Advisors screen vendors and match client requirements with vendors’ with appropriate capabilities. They use their market knowledge to reduce the transaction space and match clients and vendors at lower transaction costs. • Furthermore, given the role of contract alignment in achieving desirable outcomes, advisors use their knowledge of client (such as in-house costs), vendor, and market characteristics to design optimal contracts. D. Moral hazard reduction • Advisors help clients to monitor the vendors as the contract gets underway, reducing opportunistic behavior and shirking. Advisors cast a shadow on the future of the vendors thus affecting their behavior; vendors know that in the presence of advisors, higher quality vendors may be chosen in the future. E. Economies of scale • Because the information about each vendor is useful for multiple clients, there are economies of scale in advisors’ operations, even when the information search and evaluation cost is the same for clients and advisors.
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Hong and Shum (2002), Li and Zheng (2009)
+
+Susarla (2012), Susarla et al. (2010)
+
+Bailey and Bakos (1997)
+
+Chan (1983), Bailey and Bakos (1997)
+
+clients that they do not receive in markets with no advisors. In this way, advisors may enable vendors to receive “new matches” that increase vendors’ revenue. Second, in the presence of advisors, vendors may receive larger contracts as advisors may ﬁnd clients with higher value for a vendor’s capabilities. In this way advisors may secure “better matches” for the vendor thus increasing vendors’ revenue. Clients often want to reduce their costs by outsourcing IT work. Thus, one goal of advisors is to help clients assess the in-house cost of IT work and use the information to secure a good deal for the client. As detailed in Point B of Table 1, advisors may strive to secure a good deal for the client by making the bidding process more competitive by attracting a larger number of vendors to the bidding process. Conversations with executives at leading vendors suggest that “bidding wars” are often associated with deals that materialize through advisors. If advisors make the bidding process overly competitive, then vendors may receive lower revenue from contracts than when no advisors are used by clients. Thus, advisors can also reduce vendors’ revenue. Whether advisors have a positive or negative impact on vendor revenue is thus an open empirical question.
+
+2.2. Impact of Advisor on Contract Outcome The IT outsourcing literature has examined the drivers of outsourcing success, speciﬁcally the impact of and the balance between formal/structural controls such as reporting arrangements and penalty clauses, and informal controls such as trust and interpersonal relationships (Choudhury and Sabherwal 2003, Gopal and Gosain 2010, Kirsch 2004, Levina 2005, Levina and Vaast 2005). Sabherwal (1999) argues that structural and informal controls are vital for contract performance. Furthermore, the balance between formal and informal control improves outcomes; too much focus on either can hurt performance. The IT outsourcing literature has also examined customer satisfaction with IT outsourcing (e.g., Mani et al. 2012) and project proﬁtability for the vendor (e.g., Gopal et al. 2003). However, while contracting has been studied at the point of signing the contract, large IT outsourcing contracts are not transactional; rather they are long-term relationships. Outcomes realized over longer time horizons are important for study in the context of complex interorganizational relationships. Thus, in this paper we study the outcomes of large contracts (average of approximately $350 Million) in the long-term.
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+639
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+It is believed that the likelihood of contract success depends on a number of project, client, and vendor characteristics. By controlling for these characteristics, the presence of an advisor may also inﬂuence project success. See Table 1 which discusses the speciﬁc activities of advisors and the mechanisms through which they may create value and affect contract outcomes. Examples of ways in which advisors may improve contract outcome include selecting a vendor with the technological capabilities to meet the client’s requirements; designing an appropriate contract that takes into account project, client, vendor, and market characteristics; and monitoring vendor behavior. However, clients often want to reduce their costs by outsourcing IT work. Thus advisors, as discussed in Point B of Table 1, may strive to make the bidding process more competitive to secure a good deal for their client. Nevertheless, there is a ﬁne line between securing a good deal for the client and achieving a win–win project outcome for the client and the vendor. If high quality vendors are not the most cost effective, they may be dissuaded from entering into the bidding process when advisors are involved in vendor selection. By discouraging high quality vendors from participating, advisors may negatively impact contract outcome. Thus, whether an advisor has a positive or negative impact on contract outcome is an open empirical question.
+
+3.
+
+Data and Measures
+
+We rely primarily on the International Data Corporation (IDC) Services Contract Database (SCD) for our data. Additional data about CMM certiﬁcations and vendor age were obtained from public sources such as company websites. The IDC database includes over 22,000 large IT outsourcing contracts signed between 1989 and 2009. Our analysis includes 753 contracts wherein the outcome of the outsourcing contract, i.e., whether the contract was extended, expanded, renegotiated or cancelled, is indicated. We measure Contract Outcome as a binary variable. A contract is coded as one if it was extended or expanded and is coded as 0 if it was renegotiated or cancelled. It is believed that if a project/contract is going well and the vendor is performing, the contract is likely to be extended or expanded, which is a good outcome for the client and the vendor. However, if a contract is not going well for either party (or both), the contract is likely to be cancelled or renegotiated, which is not a good outcome for the client or the vendor. We exclude contracts from the data set if the contract status is unknown. The database indicates the name of the advisor, if an advisor was used in the contract. Project/Contract Variables. The size of the project is measured as the dollar value of the contract (ContractValue). EngagementTypeComplexity is a categorical variable that measures the complexity of the project. This
+
+variable takes a value of 3 for Application Development, Business Consulting, IT Consulting, and Systems Integration Engagements; a value of 2 for Learning and Education, IT Education and Training, and Business Outsourcing; and a value of 1 for Deploy and Support, Contract Labor and Capacity Engagement, and Business Support Engagements. This classiﬁcation follows Susarla (2012). NumberofSubsegments is the number of distinct IT tasks/activities involved in the outsourcing project. The presence of an advisor (AdvisorY/N) is a binary variable that takes the value of 1, if an advisor was used in the contract. The strength of the client and vendor relationship before signing the contract (ExistingRelationshipStrength) is measured as the count of the number of different projects the vendor had done for the client before signing the contract under consideration. CompetitiveY/N measures the competitive intensity of the bidding process. This is a binary variable coded as 1 if the bidding process for the contract was competitive bidding, and coded as 0 if the contract was awarded to the incumbent or if the contract was sole-sourced. The database indicates whether the contract was more like a ﬁxed price contract (FixedPriceY/N) or more like a time and material contract. The number of outsourcing partners (NumberofMultisourcingPartners) is the number of primary contractors on the project. Client Variables. The client’s experience with IT outsourcing (CustomerOutsourcingExperience) is measured as the dollar value of all of the projects outsourced by the client before signing the contract under consideration. The resources a client can bring to a project are likely to be inﬂuenced by the size of the client. Thus, ﬁrm size measured as customer revenue (CustomerRevenue) is used as a proxy for the client resources that can be brought to the project. Vendor/Advisor Variables. The capabilities, revenue, and reputation of the vendor is measured as the annual dollar value (VendorRevenue) of all of the IT contracts signed by the vendor in the signing year of the contract under consideration. The claim here is that vendors with lower information asymmetry about their capabilities will have a higher annual value of contracts signed by the vendor. Age is the numerical age of the vendor in years at the time of signing the contract. The process maturity of the vendor is assessed as the CMM rating (CMMRating). Most clients in the data are U.S.-based. The cultural and physical distance of the vendor is a binary variable that takes a value of 1 for U.S.-based vendors and a value of 0 for non-U.S.-based vendors. Diversity is a measure of the different kinds of projects or tasks executed by a vendor (Gao et al. 2010). It is computed every year based on the number of subsegments a vendor has worked on in that year. It is the average of NumberofSubsegments (which is a proxy for distinct IT tasks involved in the outsourcing project) of all of
+
+640
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+(2)
+
+Equation (1) is the advisor selection model. This model captures the likelihood that a client i may choose an advisor based on how experienced they are at IT outsourcing at time t (CustomerOutsourcingExperiencei t ), how large (ContractValuek t ) and complex (EngagementTypeComplexityk t ) the project is, and how many different tasks and activities are involved in the project (NumberofSubsegmentsk t ). We expect clients to use advisors when they lack IT outsourcing experience and thus are less familiar with the vendor landscape. We also expect clients to use advisors for large and complex projects, and projects that involve a number of distinct tasks and activities. Equation (2) is the vendor revenue model. A vendor’s revenue j is a function of different devices available to reduce information asymmetry about the vendor. Thus, we predict vendor revenue based on how long the vendor has been in business (Agej t ), the vendor’s technological capabilities (Diversityj t ), the maturity of the vendor’s software development process (CMMRatingj t ), whether the vendor is U.S.-based (USY/Nj t ), and the strength of the client-vendor prior relationship (ExistingRelationshipStrengthk t ), if any. We expect the information asymmetry about the vendor to be lower (and vendor revenue to be higher) when the vendor is older and has been in business longer, the vendor has the experience to execute projects that include different types of tasks and activities, the
+
+1 0 03 0 01 0 12∗ −0 01 −0 01 −0 01 0 08 0 10∗ 0 05 0 08 0 08 0 0 05 0 05 −0 09 Notes. b, Billion; m, Million. ∗ Correlation coefﬁcients signiﬁcant at the 10% level or better. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. AdvisorY/N CompetitiveY/N VendorRevenue ContractValue EngagementTypeComplexity ExistingRelationshipStrength CustomerRevenue NumberofMultisourcingPartners NumberofSubsegments CustomerOutsourcingExperience CMMRating USY/N FixedPriceY/N Diversity VendorAge Outcome 0 03585 0 5905 29 5b 358m 1 291 1 4023 22 1b 0 0066 2 3358 114m 1 79 0 64 0 39 2 34 31 64 0 787 0 1860 0 4920 49 1b 823m 0 5537 0 9792 65 7b 0 0812 1 4232 466m 1 51 0 47 0 48 1 09 27 96 0 409
+
+Summary Statistics and Correlations
+
+Construct
+
+Table 2
+
+Mean
+
+Std. dev.
+
+1
+
+1 0 03 0 09 0 02 −0 25∗ 0 05 0 06 −0 03 −0 20∗ 0 02 −0 09 0 03 −0 04 0 03 −0 17∗
+
+2
+
+1 0 19∗ −0 11 0 08 0 −0 04 0 14∗ 0 19∗ 0 34∗ 0 35∗ −0 07 0 22∗ 0 01 −0 01
+
+3
+
+1 −0 11∗ 0 0 19∗ 0 0 14∗ 0 12∗ 0 03 0 09 −0 15∗ 0 09∗ 0 07 −0 12∗
+
+4
+
+1 0 01 −0 02 −0 01 −0 31∗ −0 02 0 −0 05 −0 05 −0 30∗ −0 08 −0 07
+
+VendorRevenuej t = 0 + 1 AdvisorY /N k t + 2 ExistingRelationshipStrengthk t + 3 CMMRatingj t + 4 USY /N j t + 5 Diversityj t + 6 Agej t + 2
+
+5
+
+1 0 03 0 0 06 0 46∗ 0 02 0 11∗ 0 09∗ 0 04 0 04 0 04
+
+6
+
+1 0 10 −0 11∗ 0 03 −0 02 −0 04 0 02 −0 12∗ 0 02 −0 01
+
+AdvisorY /N k t = 0 + 1 CustomerOutsourcingExperiencei + 2 ContractValuek t + 3 EngagementTypeComplexityk t + 4 NumberofSubsegmentsk t + 1
+
+t
+
+(1)
+7
+
+1 −0 03 1 −0 02 0 07 1 −0 04 −0 03 0 04 −0 07 0 17∗ 0 08 0 0 01 −0 06 −0 06 0 76∗ 0 03 0 06 0 08 0 07 −0 03 0 06 0 01
+
+8
+
+9
+
+10
+
+3.1. Econometric Model and Results We ﬁrst examine the relationship between the presence of an advisor in project k (AdvisorY /N k t and vendor j ’s revenue (VendorRevenuej t in period t deﬁned as the year in which the contract was signed. We treat advisor selection as endogenous and use a two-stage least squares (2SLS) model to predict vendor revenue
+
+1 0 15∗ 0 02 −0 04 −0 04 −0 11∗
+
+11
+
+1 −0 08 0 22∗ −0 06 0 03
+
+12
+
+1 0 01 0 01 0 04
+
+13
+
+1 0 11∗ 0 05
+
+the projects executed by the vendor in the year of the project under consideration. Table 2 presents the summary statistics and correlations between the key variables.
+
+14
+
+1 −0 01
+
+15
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+641
+
+Table 3
+
+Two-Stage Least Squares Model to Study the Impact of an Advisor on Vendor Revenue (1) AdvisorY/N (2) VendorRevenue 0 803∗∗ 0 320 0 045 0 045 0 033 0 038 0 109∗∗∗ 0 037 0 087∗∗ 0 039 0 036 0 036 0 210∗∗∗ 0 051 0 246∗∗∗ 0 051 0 148∗∗∗ 0 047 −0 024 0 048 −0 001 0 044 753
+
+Variables AdvisorY/N
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+ExistingRelationshipStrength EngagementTypeComplexity ContractValue NumberofSubsegments CustomerOutsourcingExperience USY/N CMMRating Diversity VendorAge Constant Observations 0 001 0 036 753
+
+Outcomek t = 0 + 1 ContractValuek t + 2 EngagementTypeComplexityk t + 3 NumberofMultisourcingPartnersk t + 4 AdvisorY /N k t + 5 CompetitiveY /N k t + 6 FixedPriceY /N k t + 7 ExistingRelationshipStrengthk t + 8 CustomerOutsourcingExperiencei t + 9 CustomerRevenuei t + 10 VendorRevenuej t + 11 CMMRatingj t + 12 USY /N j t + 13 Diversityj t + 14 Agej t + 4 (4) Equation (4) is the project outcome model. This model suggests that the likelihood of a contract success depends on a number of project, client, and vendor characteristics. It is believed that larger (ContractValuek t ) and more complex (EngagementTypeComplexityk t ) projects are less likely to be successful. Similarly, if a project has a large number of vendors involved (NumberofMultisourcingPartnersk t ) then the project is less likely to be successful. On the other hand, prior relationship between the client and the vendor (ExistingRelationshipStrengthk t ) gives the vendor a better understanding of what the new project entails and is likely to be associated with contract success. However, if the project contract was won after a competitive bidding process (CompetitiveY/Nk t ), it is likely that the competitive bidding process may have reduced a vendor’s proﬁt margin, thereby negatively affecting the project’s likelihood of success. Similarly, because vendors face less risk in Time and Material contracts, a Fixed Price (FixedPriceY/Nk t ) contract is less likely to be successful. Project success is likely to be inﬂuenced by client characteristics. Larger clients (CustomerRevenuei t ) may have more resources to devote to projects. This may increase the likelihood of project success. Similarly, client’s with signiﬁcant IT outsourcing experience (CustomerOutsourcingExperiencei t ) may have developed routines to contract for and monitor IT projects executed in partnership with external vendors, and thus are likely to achieve higher rates of project success. It is also natural to expect that vendor capabilities inﬂuence contract success. For example, larger vendors (VendorRevenuej t ) may have a reputation and future business to protect. Larger vendors may also have more resources to devote to contracts until they are successful. Similarly, vendor process maturity (CMMRatingj t ) is likely to be positively associated with contract success. Likewise, the diversity of other projects (Diversityj t ) signiﬁes the technological capabilities of the vendor and is likely to be positively associated with contract success. Finally, it is likely that physical and cultural proximity of the
+
+Notes. Standard errors are in parentheses. Adjusted R2 = 0 531. ∗ p < 0 1; ∗∗ p < 0 05; ∗∗∗ p < 0 01.
+
+vendor is U.S.-based, and the client and vendor have worked with each other in the past such that the client is aware of the vendor’s capabilities, and the vendor understands the client’s requirements. We are most interested in the relationship between the presence of an advisor in a project and vendor revenue. Results from the 2SLS model (see Table 3) indicate that larger contracts (ContractValue) and contracts with a higher number of distinct IT tasks and activities (NumberofSubsegments) are more likely to use an advisor. The vendor revenue model indicates that the presence of an advisor (AdvisorY/N) is associated with an increase in vendor revenue. Consistent with prior research (Gao et al. 2010) this analysis also indicates that CMM rating (CMMRating), location, the physical and cultural distance of the vendor (USY/N), and task diversity (Diversity) are positively associated with vendor revenue. Next we examine the relationship between the presence of an advisor in project k and project outcome. We again treat advisor selection as endogenous and use a bivariate probit model (see Equations (3) and (4)) to predict project outcome. Equation (3) is the advisor selection model. It is the same as Equation (1) AdvisorY /N k t = 0 + 1 CustomerOutsourcingExperiencei + 2 ContractValuek t + 3 EngagementTypeComplexityk t + 4 NumberofSubsegmentsk t + 3
+
+t
+
+(3)
+
+642
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+vendor with the client (USY/Nj t ) may inﬂuence contract success. However, the key variable of interest is the advisor (AdvisorY/Nk t ). We are interested in the relationship between the presence of an advisor and contract outcome. Equations (3) and (4) are estimated as a bivariate probit model; results are presented in Table 4. The analysis indicates that larger contracts (ContractValue) with distinct IT tasks (NumberofSubsegments) are more likely to use an advisor. The outcome model indicates that the presence of an advisor is associated with contract extension or expansion. The outcome model also indicates that projects with larger vendors (VendorRevenue) improve project outcomes. However, larger (ContractValue), competitively intense (CompetitiveY/N), and more complex (EngagementTypeComplexity) projects with higher vendor CMM rating are more likely to be renegotiated or cancelled. Customer experience (CustomerOutsourcingExperience) is also negatively associated with contract outcome.
+Table 4 Bivariate Probit Model to Study the Impact of an Advisor on Contract Outcome (1) AdvisorY/N (2) Outcome 1 513∗∗∗ 0 142 0 030 0 060 −0 178∗ 0 099 −0 001∗∗∗ 0 001
+
+Variables AdvisorY/N ExistingRelationshipStrength EngagementTypeComplexity ContractValue NumberofSubsegments NumberofMultisourcingPartners CompetitiveY/N FixedPriceY/N CustomerRevenue CustomerOutsourcingExperience USY/N CMMRating Diversity VendorAge VendorRevenue Constant Observations
+
+In the data set an advisor is used in about 5% of the contracts. The small number of contracts with advisors may bias the results of the analysis examining the relationship between the presence of an advisor and contract outcome. According to King and Zeng (2001a, b, 2002) when faced with rare events (e.g., wars, senate conﬁrmation denials, etc.) standard logit models face the issue of prediction bias and underestimate the probability of rare events. To mitigate this concern King and Zeng (2001a, b, 2002) propose a rare event logit model. In this approach data collection involves collecting data on all possible occurrences of the binary outcome “1” reﬂecting the presence of an advisor, coupled with an equal random selection of the binary outcome “0” reﬂecting the absence of an advisor from the sample. This approach is called choice based sampling. We then apply the relogit procedure (Tomz et al. 1999) on the choice based sample to correct for the prediction bias issue faced by standard logit models. Column 1 in Table 5 shows the results with the basic logit procedure; column 2 shows the results with the rare event logit procedure applied to correct the bias. Results of the rare event logit model (column 2) are consistent with the bivariate probit analysis. This analysis indicates that though around 5% of the contracts in the data set used an advisor, advisors have a positive impact on contract outcome. 3.2. Robustness Analyses We conduct a series of robustness analysis using alternative approaches and ﬁnd consistency in the direction and signiﬁcance of our main results.2 We begin by using a three-stage least squares (3SLS) speciﬁcation and follow that by showing the same results using a propensity score matching (PSM) framework as well as a coarsened exact matching (CEM) procedure with attractive statistical properties. We then repeat our analysis by dropping contract renegotiation as a negative outcome; it can be argued that some contracts are better off being renegotiated (e.g., to account for technological change). We are motivated to consider the 3SLS speciﬁcation as it can be argued that advisor selection, vendor revenue, and project outcomes are simultaneously determined. Thus, we treat advisor selection (Equation (1)), vendor revenue (Equation (2)), and contract outcome (Equation (4)) as endogenous and use a 3SLS model to examine the impact of an advisor on vendor revenue and contract outcomes. The 3SLS procedure derives the parameters of the full system because endogenous variables in some equations of the model are used
+2
+
+0 005 0 179 0 001∗∗∗ 0 001 0 130∗∗∗ 0 047
+
+0 001 0 001
+
+−2 281∗∗∗ 0 294 753
+
+0 529 0 410 −0 450∗∗∗ 0 109 0 114 0 097 0 001 0 001 −0 001∗ 0 001 0 161 0 112 −0 094∗∗∗ 0 032 −0 017 0 050 −0 001 0 002 0 002∗ 0 001 1 332∗∗∗ 0 254 753
+
+Notes. Standard errors are in parentheses. Pseudo R2 = 0 436. ∗ p < 0 1; ∗∗ p < 0 05; ∗∗∗ p < 0 01.
+
+While direction and signiﬁcance are consistent, speciﬁc effect size may vary by speciﬁcation for instance due to varying coverage afforded by various matching schemes in estimating treatment effects.
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+643
+
+Table 5
+
+Logit and Rare Event Logit Models to Study the Impact of an Advisor on Contract Outcome Outcome (Logit model) 0 367 0 356 0 005 0 034 −0 037∗ 0 176 −0 004∗ 0 035 0 158 0 037 −0 916∗∗ 0 132 0 024 0 047 0 073 0 002 0 058 0 003 0 039 0 037 0 068 0 024 0 018 0 036 0 001 0 027 0 004∗∗ 0 003 0 002 0 001 753 Outcome (Rare-events logit model) 0 779∗∗∗ 0 449 0 065 0 128 −0 389∗ 0 189 −0 098∗∗ 0 121 0 374 0 328 −0 939∗∗∗ 0 276 0 671 0 891 0 891 0 780 0 090 0 430 0 391 0 224 0 181 0 678 0 027 0 100 0 008 0 090 0 008∗∗∗ 0 700 0 487 0 497 64
+
+Variables AdvisorY/N
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+ExistingRelationshipStrength EngagementTypeComplexity ContractValue NumberofMultisourcingPartners CompetitiveY/N FixedPriceY/N CustomerRevenue CustomerOutsourcingExperience USY/N CMMRating Diversity VendorAge VendorRevenue Constant Observations
+
+cates that larger contracts (ContractValue) and experienced customers (CustomerOutsourcingExperience) are positively associated with use of advisors. The vendor revenue model (model (2)) indicates that advisors are associated with increased vendor revenue.3 CMM rating, vendor location, physical and cultural distance of the vendor (USY/N), and task diversity (Diversity) are also positively associated with vendor revenue. The outcome model (model (3)) indicates that the presence of an advisor improves project outcomes. The ﬁndings of the 3SLS analysis are thus broadly consistent with the ﬁndings of the 2SLS analysis, the bivariate probit analysis, and the rare event logit model. Next we test the robustness of our ﬁndings using an alternative “counterfactual” based approach that compares the “treatment” effect of working with an advisor (or not) for statistically and observably4 similar IT outsourcing contracts. 3.2.1. Propensity Score Matching. To further demonstrate robustness of our results we use PSM, a technique that allows the researcher to reduce model dependence in making inferences about treatment effects (Ho et al. 2007). PSM corrects the estimation of treatment effect after controlling for the existence of other confounding factors, based on the idea that the bias is reduced when the comparison of outcomes is performed using similar treated and controlled observations (Rosenbaum and Rubin 1983, Dahejia and Wahba 2002). The propensity score is the probability, ˜ (Equation (5)), of receiving treatment denoted by p (in our case an advisor), denoted by T = 1 in Equation (5), conditional on the observable covariates, X. The idea is to compare entities who, based on observables, have a very similar probability of receiving treatment (i.e., a similar propensity score), except that one of them received the treatment and the other did not. Technically, our preprocessed propensity scored data set will be a subset of the observed sample for which the treatment group and control group denoted by T = 0 in Equation (5) below will have the same background characteristics ˜ X T =1 =p ˜ X T =0 p (5) We then have reason to believe that we obtain an accurate causal effect that is relatively model free (Ho et al. 2007). First we compute the propensity score (see Table A2 in the online appendix) using the same variables used earlier in Equation (1) for advisor selection, as we expect clients to use advisors when they lack
+3
+
+Notes. Standard errors are in parentheses for logit model and robust standard errors are in parentheses for rare events logit model. Pseudo R2 (of the logit model) = 0 381 a a Relogit is designed to minimize the bias, not to obtain the best ﬁt of the model. Thus the ﬁt statistic of relogit is worse than that of the logit model. For the same reason, it is not reported or compared with the ﬁt statistic of the logit model (King and Zeng 2001a, 2002). ∗ p < 0 1; ∗∗ p < 0 05; ∗∗∗ p < 0 01.
+
+as explanatory variables in other equations. In such systems of equations it is likely that the error terms across the equations are correlated. Thus, predicted or instrumented values of the endogenous variables are generated using all exogenous variables in the system. Second, a cross-equation covariance matrix is estimated. Third, the equation with the contract outcome as the dependent variable is estimated with generalized least squares using the exogenous variables as well as the estimated covariance matrix. In summary, 3SLS combines 2SLS and seemingly unrelated regression (SUR) to account for endogenous regressors and cross-equation correlation of errors. Table A1 in the online appendix (available as supplemental material at http://dx.doi.org/10.1287/ isre.2016.0645) presents the results of the empirical analysis. The advisor selection model (model (1)) indi-
+
+We also calculate vendor revenue by excluding the value of the contract under consideration from vendor revenue and re-run the 2SLS and 3SLS analysis. These analyses produce very consistent results.
+4
+
+It is a known limitation of matching based treatment effect methodologies that they cannot handle unobservables.
+
+644
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+IT outsourcing experience, for large and complex projects, and projects that involve a number of distinct tasks and activities. Next we use the Kernel matching estimator (Heckman 1997, Heckman et al. 1998, Mithas and Krishnan 2009), which uses multiple control contracts to construct each of the matched contracts leading to reduced variance of the estimator. The idea of Kernel matching is to obtain counterfactuals by weighted average of all control contracts where weights are inversely proportional to the distance between the propensity scores of treatment and control contracts. We compare the average treatment effect of contracts with an advisor to contracts without an advisor but within the common support region. The results suggest that contract success is 24% more likely with the presence of an advisor and that vendor revenue is likely to be higher by approximately $6 Billion (see Table A3 in the online appendix). Note that this estimate is based on the average treatment effect representing the total vendor revenue that can be attributed to advisors for all matched contracts where the average contract size is over $358 Million. While our inference does not extend to smaller contracts, it is likely that for such contracts the role of the advisor is not pertinent. 3.2.2. Treatment Effect Heterogeneity. An added advantage of the propensity score pre-processing is that it allows us to assess the treatment effect heterogeneity (Dahejia and Wahba 2002). Speciﬁcally, we answer the following two questions: (1) Do all contracts beneﬁt equally by the presence of an advisor? and (2) Do advisors impact the revenue of all vendors equally? To answer these questions, we classiﬁed the sample into three strata in which the propensity score for contracts with and without an advisor are not signiﬁcantly different. Intuitively, the differences among strata are in terms of number of subsegments. Strata 1 has approximately two subsegments; strata 2 has approximately three subsegments; and strata 3 has approximately ﬁve subsegments. Table A4 in the online appendix presents the mean of treatment (with an advisor) and control group (without an advisor) before matching; Table A5 in the online appendix presents the mean of treatment (with an advisor) and control group (without an advisor) after matching. Means reported in Table A5 show that contracts with and without an advisor are similar in terms of their characteristics after matching. This similarity allows us to directly compare the impact of an advisor on contract outcome as well as vendor revenue. Table A6 in the online appendix shows the impact of an advisor on outcome and vendor revenue for each stratum. Our results suggest that in stratum 1, contract success is 22% more likely and that vendor revenue is higher by $6.23 Billion with an advisor. In stratum 2, contract success is 26% more likely and vendor
+
+revenue is higher by $5.87 Billion with an advisor. In stratum 3, contract success is 34% more likely and vendor revenue is higher by $5.43 Billion with the advisor. It seems that as the number of subsegments increases, the treatment effect of an advisor increases the likelihood of contract success, though as the number of subsegments increase the presence of an advisor results in lower vendor revenue increases. 3.2.3. Sensitivity Analysis. To examine the impact of unobserved factors on the probability that a contract is in the treatment group we conduct sensitivity analysis (Rosenbaum 1999) to measure how strongly an unobservable impacts the selection process. We construct the log odds ratio gamma ( ) to check the extent to which unobserved factors inﬂuence advisor selection. Gamma measures the level of selection bias from unobservable factors. If there are no such factors that impact the advisor selection, equals 1. However, in reality we do not know the true value of . Thus, we conduct a sensitivity analysis by changing the values of and examine the impact on advisor selection. Based on Rosenbaum (1999), we conduct the Wilcoxon sign-rank test, a nonparametric test used to compared two related samples to assess whether their population mean ranks differ. The test statistics suggest (see Table A7 in the online appendix) that for our estimates for the contract outcome an unobserved variable would have to change the odds of selection into the treatment group by at least 75% ( = 1 75) to nullify the effect of interest. Similarly, for the vendor revenue outcome, an unobserved variable would have to change the odds of selection into the treatment group by at least 100% ( = 2) to nullify the effect of interest. Thus, we believe that we have captured most key variables that drive advisor selection and that our results are not driven by unobserved variables. 3.2.4. Coarsened Exact Matching. To further examine the robustness of our results, we examine an alternative matching approach that is considered superior when the researcher does not have a clear knowledge of the correct functional model of how the users are assigned to the treatment. In particular, we apply the CEM procedure (Iacus et al. 2011, 2012) which, as the name suggests, coarsens the observed covariates and performs an exact match on the coarsened data. In the next step the original uncoarsened but matched data is used to perform the analysis (Blackwell 2009). This method can generate matches with lower estimation error compared to PSM (Iacus et al. 2011). CEM (Iacus et al. 2012) is part of a general class of methods known as the “monotonic imbalance bounding” (MIB) and has beneﬁcial statistical properties compared to methods under the umbrella of equal percent bias reducing (EPBR) models (Rubin 1976), of which PSM is an example. CEM works differently than
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+645
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+PSM as it chooses a ﬁxed level of imbalance ex ante with the expectation that the number of observations left as a result of the procedure is sufﬁciently large. On the other hand, PSM chooses a ﬁxed number of observations ex ante with the expectation of imbalance reduction as a part of the procedure. Table A8 in the online appendix summarizes the output after the CEM procedure. Here we focus on four key variables that impact the advisor selection: EngagementTypeComplexity, ContractValue, NumberofSegments, and CustomerOutsourcingExperience. Next, we repeat the 2SLS, bivariate probit, and 3SLS analyses on the CEM sample. The results are included in Tables A9–A11 in the online appendix. The results are consistent with the primary analysis, suggesting that use of advisors is associated with positive contract outcome and higher vendor revenue. 3.2.5. Renegotiation. The analysis in Sections 3.1 and 3.2 consider contract extension and expansion as positive project outcomes and contract cancellation and contract renegotiation as negative outcomes. It may be argued that contract renegotiation is not necessarily a bad outcome if, for example, the client and vendor renegotiate the contract as technologies or client requirements change (Susarla et al. 2010). Thus, as a robustness check we repeat all of the 2SLS, bivariate probit, rare event logit, and 3SLS analysis by considering contract extension and expansion as positive project outcomes and contract cancellation as negative project outcome. These analyses again suggest that the presence of an advisor is positively related to vendor revenue and that the presence of an advisor has a positive impact on contract outcome. These results are available from the authors.
+
+4.
+
+Discussion and Conclusion
+
+There is signiﬁcant information available on asymmetries in IT outsourcing between clients and vendors. Yet IT outsourcing projects are hard to scope, which gives rise to opportunities for third-party advisors to intermediate between clients and vendors. Such advisors can help clients by using their knowledge of the vendor space to match client requirements with vendor capabilities and design appropriate contracts. However, whether and how advisors create value in IT outsourcing has not (to our knowledge) been addressed in the literature. Our empirical analysis suggests that advisors can reduce information asymmetry between clients and vendors. We ﬁnd evidence that supports the expectation that by appropriately matching client requirements with vendor capabilities, advisors are associated with higher revenue for vendors and higher likelihood of contract success. A number of devices have been discussed in the literature on how to mitigate information asymmetry: CMM ratings, vendor location, vendor reputation,
+
+technological diversity, etc. The key contribution of this paper is examination of the presence of an advisor in mitigating this information asymmetry. In the models examining the impact of an advisor on contract outcome, the competitive intensity of the bidding process has a negative impact on contract outcome. This suggests that if advisors make the bidding process more competitive to secure a good deal for the client, the client may pay the price at the back end of the project. In other words, advisors must balance between ﬁnding a vendor to satisfy the client’s technical requirements, helping the client specify an appropriate contract, and monitoring vendor behavior. The goal is to secure a good ﬁnancial deal for the client using a competitive bidding process. This study has certain limitations that suggest avenues for future research. The study is limited in that we do not have access to contract outcomes for all of the contracts in the SCD. The mean contract value for the data used in this analysis is $359 million, whereas the mean contract value for the entire data set excluding the data used in the analysis is $71.4 million. Thus, caution may be used when extending the ﬁndings of the current analysis to small and midsize projects. It is likely that our ﬁndings hold only for larger projects where advisors are more likely to be used. However, we ﬁnd evidence that links contract value and contract failure, thus it is reasonable to assume that these high value contracts would have been under greater scrutiny at the time of signing and would have attracted higher managerial attention compared to the average contract in the SCD data. The same factor furthers the salience of the analysis. Note that the practice of restricting attention to high stakes contracts has been prevalent in the IT outsourcing literature. (For example, Barua et al. 2016 restrict their attention to the 100 top IT and Business Process Outsourcing (BPO) deals between 1995 and 2006.) At the expense of generalizability, our analysis provides an opportunity for a deeper examination of an interesting phenomenon that (to our knowledge) has not been examined by the prior literature. This study examines the impact of advisors on vendor revenue and contract outcomes. However, many other questions remain unanswered. For example, there is an issue of allegiance: Who hires and pays the advisor: the client or the vendor? It is likely that advisors strive to meet the goals of the party that hires them, typically the client. The analysis seems to suggest that if the advisor focuses on a good match between client requirements and vendor capabilities, advisors are associated with higher revenue for vendors, and better contract outcomes, which beneﬁt clients and vendors. However, if advisors make the bidding process more competitive, it may hurt vendor revenue and facilitate project outcomes that do not beneﬁt the client or the vendor. Table 1
+
+646
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+summarizes the advisor activities that help to mitigate information asymmetry. However, the empirical analysis does not disentangle the contribution of individual force/mechanisms. It is important to examine the speciﬁc force/mechanisms through which advisors affect vendor revenue and contract outcome. It is likely that vendor capability assessment and clientvendor matching inﬂuences vendor revenue, whereas client-vendor matching and moral hazard reduction inﬂuence contract outcome. The issue of what affects vendor revenue and what inﬂuences contract outcome warrants further research. Two of our ﬁndings also raise questions for future research. The analysis suggests that CMM ratings are positively associated with vendor revenue. This is consistent with prior research that CMM ratings reduce information asymmetry about the maturity of vendors’ software development methodology and thus are positively related with vendor revenue. However, CMM rating has a negative impact on contract outcome. Though prior research suggests that CMM ratings are associated with lower error rates, CMM ratings are also associated with longer development time and effort (Harter et al. 2000). It is plausible that a longer development time and effort may lead to contract cancellation or renegotiation. Nevertheless, this ﬁnding warrants further investigation. In the contract outcome models, the client outsourcing experience has a negative impact on contract outcome. Our prior expectation was that clients with signiﬁcant outsourcing experience would have developed routines to monitor projects executed in partnership with vendors and therefore would be more likely to achieve positive contract outcome. However, results indicate that client outsourcing experience has a negative impact on contract outcome. One possible explanation is that as clients with more IT outsourcing experience are more likely to use an advisor such clients have less experience with IT projects. This is another ﬁnding that warrants further investigation. Supplemental Material
+Supplemental material to this paper is available at http://dx .doi.org/10.1287/isre.2016.0645.
+
+Acknowledgments
+The authors would like to thank the senior editor, the associate editor, and three anonymous reviewers for their guidance, support, and encouragement throughout the review process. All errors remain ours.
+
+References
+Bailey J, Bakos Y (1997) An exploratory study of the emerging role of electronic intermediaries. Internat. J. Electronic Commerce 1(3):7–20.
+
+Barua A, Mani D, Whinston A (2016) IT outsourcing contracts and equity prices. Inform. Systems Res. Forthcoming. Blackwell M, Iacus SM, King G, Porro G (2009) CEM: Coarsened exact matching in Stata. Stata J. 9(4):524–546. Chan Y (1983) On the positive role of ﬁnancial intermediation in allocation of venture capital in a market with imperfect information. J. Finance 38(5):1543–1568. Choudhury V, Sabherwal R (2003) Portfolios of control in outsourced software development projects. Inform. Systems Res. 14(3):291–314. Craig D, Willmort P (2005) Outsourcing grows up. McKinsey Finance 14:1–6. Dahejia RH, Wahba S (2002) Propensity score matching methods for nonexperimental causal studies. Rev. Econom. Statist. 84(1): 151–161. Flinders K (2012) Renegotiating outsourcing contracts to ﬁt new reality. ComputerWeekly (October 22), http://www.computerweekly .com/news/2240168932/Renegotiating-outsourcing-contracts -to-ﬁt-new-reality. Gao G, Gopal A, Agarwal R (2010) The contingent effects of quality signaling: Evidence from the Indian offshore IT services industry. Management Sci. 27(5):373–384. Gartner (2005) Gartner says vendors must be prepared to renegotiate outsourcing contracts (April 26), http://www.gartner.com/ newsroom/id/492133. Gopal A, Gao G (2009) Certiﬁcation in the Indian offshore IT services industry. Manufacturing Services Oper. Management 11(3): 471–492. Gopal A, Gosain S (2010) The role of organizational controls and boundary spanning in software development outsourcing: Implications for project performance. Inform. Systems Res. 21(4): 960–982. Gopal A, Sivaramakrishnan K, Krishnan MS, Mukhopadhyay T (2003) Contracts in offshore software development: An empirical analysis. Management Sci. 49(12):1671–1683. Han K, Kauffman RJ, Nault BR (2011) Returns to information technology outsourcing. Inform. Systems Res. 22(4):824–840. Harter DE, Krishnan MS, Slaughter SA (2000) Effects of process maturity on quality, cycle time, and effort in software product development. Management Sci. 46(4):451–467. Heckman JJ (1997) Instrumental variables: A study of implicit behavioral assumptions used in making program evaluations. J. Human Resources 32(3):441–462. Heckman JJ, Ichimura H, Todd P (1998) Matching as an econometric evaluation estimator. Rev. Econom. Stud. 65(2):261–294. Ho DE, Imai K, King G, Stuart EA (2007) Matching as nonparametric preprocessing for reducing model dependence in parametric causal inference. Political Anal. 15(3):199–236. Hong H, Shum M (2002) Increasing competition and the winner’s curse: Evidence from procurement. Rev. Econom. Stud. 69(4):871–898. Iacus SM, King G, Porro G (2011) Multivariate matching methods that are monotonic imbalance bounding. J. Amer. Statist. Assoc. 106(493):345–361. Iacus SM, King G, Porro G (2012) Causal inference without balance checking: Coarsened exact matching. Political Anal. 20(1):1–24. King G, Zeng L (2001a) Logistic regression in rare events data. Political Anal. 9(2):137–163. King G, Zeng L (2001b) Estimating risk and rate levels, ratios, and differences in case-control studies. Statist. Medicine 21: 1409–1427. King G, Zeng L (2002) Explaining rare events in international relations. Internat. Organ. 55(3):693–715. Kirsch LJ (2004) Deploying common systems globally: The dynamics of control. Inform. Systems Res. 15(4):374–395. Koh CS, Ang S, Straub DW (2004) IT outsourcing success: A psychological contract perspective. Inform. Systems Res. 15(4): 356–373. Levina N (2005) Collaborating on multiparty information systems development projects: A collective reﬂection-in-action view. Inform. Systems Res. 16(2):109–130.
+
+Bapna et al.: IT Outsourcing and the Impact of Advisors on Clients and Vendors
+Information Systems Research 27(3), pp. 636–647, © 2016 INFORMS
+
+647
+
+Downloaded from informs.org by [130.89.97.167] on 17 February 2017, at 07:02 . For personal use only, all rights reserved.
+
+Levina N, Vaast E (2005) The emergence of boundary spanning competence in practice: Implications for implementation and use in information systems. MIS Quart. 29(2):335–363. Li T, Zheng X (2009) Entry and competition in ﬁrst price auctions: Theory and evidence from procurement auctions. Rev. Econom. Stud. 76(4):1397–1429. Mani D, Barua A, Whinston A (2012) An empirical analysis of the contractual and information structures of business process outsourcing relationships. Inform. Systems Res. 23(3):618–634. McDougall P (2006) In depth: Customers analyze outsourcing vendors and strategies. Inform. Week (June 19), http://www .informationweek.com/in-depth-customers-analyze-outsourcing -vendors-and-strategies/d/d-id/1044341?. Mithas S, Krishnan MS (2009) From association to causation via a potential outcomes approach. Inform. Systems Res. 20(2):295–313. Rosenbaum PR (1999) Choice as an alternative to control in observational studies. Statist. Sci. 14(3):259–304. Rosenbaum PR, Rubin DB (1983) The central role of the propensity score in observational studies for causal effects. Biometrika 70(1):41–55.
+
+Rubin DB (1976) Multivariate matching methods that are equal percent bias reducing, I: Some examples. Biometrics 32(1): 109–120. Sabherwal R (1999) The role of trust in outsourced IS development projects. Comm. ACM 42(2):80–86. Spence M (1973) Job market signaling. Quart. J. Econom. 87(2): 355–374. Susarla A (2012) Contractual ﬂexibility, rent seeking, and renegotiation design: An empirical analysis of information technology outsourcing contracts. Management Sci. 58(7):1388–1407. Susarla A, Subramanyam R, Karhade P (2010) Contractual provisions to mitigate holdup: Evidence from information technology outsourcing. Inform. Systems Res. 21(1):37–55. Tadelis S (2007) The innovative organization: Creating value through outsourcing. California Management Rev. 50(1):261–277. Tomz M, King G, Zeng L (1999) RELOGIT: Rare Events Logistic Regression, Version 1.1. Harvard University, Cambridge, MA. Vashistha A, Vashistha A (2006) The Offshore Nation: Strategies for Success in Global Outsourcing and Offshoring (McGraw-Hill, New York).
+
+

@@ -1,0 +1,617 @@
+J
+Research Paper
+
+ournal of the
+
+A
+
+ssociation for
+
+I
+
+nformation
+
+S
+
+ystems
+ISSN: 1536-9323
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+Greg Dawson
+W. P. Carey School of Business, Arizona State University, USA gregorySdawson@gmail.com
+
+Richard T. Watson
+Terry College of Business, University of Georgia, USA rwatson@terry.uga.edu
+
+Marie-Claude Boudreau
+Terry College of Business, University of Georgia, USA mcboudre@gmail.com
+
+Leyland F. Pitt
+Beedie School of Business, Simon Fraser University, Canada
+
+lpitt@sfu.ca Abstract: In many professional exchanges, information asymmetry is bilateral, which means that both parties hold information that the other party lacks and, as a result, both parties have the means to be opportunistic. To counter this asymmetry, both parties signal and screen information as they negotiate a consulting engagement. In this paper, we report on how a professional service provider and recipient typically use signaling and screening. The findings highlight that both parties signal and screen and withhold information and that the extent of project knowledge (tacit or explicit) affects how they do so. Tacit knowledge-centric projects have more signaling and screening events than explicit knowledge-centric projects but many of these signals actually increase the amount of information asymmetry. Keywords: Screening, IS Consulting, Theory of Relationship Constraints, Opportunism, Information Asymmetry.
+Glenn Browne was the accepting senior editor. This paper was submitted on June 17, 2013, and went through three revisions.
+
+Volume 17
+
+Issue 2
+
+pp. 77 – 106
+
+February
+
+2016
+
+78
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+1
+
+Introduction
+
+Opportunism—that is, self-interest seeking with guile—is often seen in business (Williamson, 1993), and opportunistic individuals knowingly make promises that they do not intend to keep (Williamson, 1975). While opportunism includes lying, cheating, and stealing, it also includes failing to respect informationsharing obligations (Williamson, 1975). Because opportunism has been a continuing and common occurrence for thousands of years 1 , defensive mechanisms have evolved including signaling and screening, laws and courts, contracts, and codes of behavior. These mechanisms limit opportunism prior to a relationship (e.g., signaling and screening) or when executing the relationship (e.g., a contract). Because signaling and screening are processes for exchanging information between a buyer and seller to effect a transaction, they fit in the broad definition of an IS: “a set of entities and shared patterns that enable goal attainment through the processing of information” (Watson, 2014, p. 520). Parties that are ineffective at signaling and screening run the risk of receiving less than they want due to an inability to properly exchange information. Signaling is the process by which the seller, who typically holds an information asymmetry advantage over the buyer, conveys relevant personal and product information to induce the buyer to purchase (Spence, 1973), while screening is the process by which the buyer attempts to uncover information that the seller would prefer not to reveal (Stigler, 1961). It is not clear how the signaling and screening processes interact during negotiation (Dawson, Watson, & Boudreau, 2011). The extant literature suggests that signal recipients tend to view signals as trustworthy (Heil & Robertson, 1991), which may be a dubious assumption in situations that lend themselves to opportunistic behaviors, such as when stakes are high. Additionally, recipients perceive signaling and screening to operate consistently regardless of the type of knowledge that is central to the engagement and despite evidence that negotiating strategies, positioning, timing, and stages are not universal and can vary widely (Adair & Brett, 2005). In any transaction, the two parties can unequally share relevant information (i.e., information asymmetry) (Sharma, 1997). Organizations use signaling and screening to reduce their information asymmetry (Heil & Robertson, 1991), and one can use the patterns of these signals to infer the quality of the product/service that the company provides (DeKinger & Kohli, 2008). High levels of information asymmetry increase the chance of successful opportunistic behavior (Gefen, Wyss, & Lichtenstein, 2008) since the party with the information asymmetry advantage can deceive the other party by dint of its information advantage, which undermines the notion of a “contract as a promise” (Williamson, 1979). Opportunism in the IS consulting context presents several circumstances that other domains do not commonly see. First, classic economics and contracting studies generally assume that only one party has an information asymmetry advantage and so only one party needs to screen (Heil & Robertson, 1991). IS consulting, however, typically employs co-production (or co-creation) in which the consultant and the client cooperate in producing the product. Without the coordinated efforts of both, they do not successfully produce the work product (Namasivayam, 2004). This allows bilateral information asymmetry since both parties have an information asymmetry advantage although over different information. Second, IS consulting is different from many other professions, such as accounting, that have a certification body (e.g., AICPA) that issues (and can revoke) a mandatory professional certification (e.g., CPA). Thus, if a service provider in a discipline that issues certifications is opportunistic, the client has a “hammer” to punish opportunism. This “hammer” is missing in IS consulting since the discipline does not issue certifications. Yet a third difference focuses on the type of knowledge used in consulting, which adds a layer of complexity to the signaling and screening process. IS consulting projects, like many consulting projects, use varying levels of both tacit and explicit knowledge, which could influence both the timing and content of signaling and screening. In summary, IS consulting is one of few domains that often uses coproduction, has bilateral information asymmetry, includes both tacit and explicit knowledge, and in which clients (and consultants) are not subject to formal censure by their peers. Further, no known prior analysis has defined the sequencing of signaling and screening that occurs when negotiating an IS consulting engagement. Given all of these issues, we ask: RQ1: What phases and steps do IS consultants and clients undertake to signal, screen, and withhold information when negotiating an engagement?
+
+1
+
+Numerous historical documents including the 4,000-year-old Babylonian code of Hammurabi contain strictures against opportunism.
+
+Volume 17
+
+Issue 2
+
+Journal of the Association for Information Systems
+
+79
+
+RQ2: How does knowledge type impact this negotiation process? Adopting an interpretive orientation, we conducted a field study to understand how IS consultants and clients use signaling and screening to address bilateral information asymmetry during contract negotiation. While this problem is not unique to IS consulting, it provides a valid contextualization of the problem and potentially allows generalization to other arenas that also have co-production, bilateral information asymmetry, and no formal censuring body. By using the IS consulting domain, we shed light on an often ignored area of IS research (Whinston & Geng, 2004) that represents an annual worldwide spend of over US$119 billion and an annual growth rate of 4.5 percent (Heng, Blackmore, & Short, 2014). This paper proceeds as follows. In Section 2, we examine the literature on information asymmetry, negotiation, signaling and screening, and knowledge type. In Section 3, we describe the research methodology. In Section 4, we present our results, and, in Section 5, we discuss them. Finally, in Section 6, we conclude the paper.
+
+2
+2.1
+
+Literature Review
+Information Asymmetry as the Root Cause of Opportunism
+
+Information asymmetry is a facilitating condition for opportunism (Wathne & Heide, 2000) since a lack of suitable information limits the disadvantaged party’s ability to detect (and ultimately deter) opportunistic acts (Kirmani & Akshay, 2000). Without fear of detection, an opportunistically individual or group will more likely engage in deceit. Hence, control of opportunism requires addressing the problem of information asymmetry. Scholars commonly view information asymmetry as favoring the seller (i.e., a situation in which the seller holds all of the relevant information necessary in the exchange). In this case, information asymmetry is unilateral. Although absolute unilateral information asymmetry is rare, in the case of many professional services, one provides the service to the client and the client is little more than a passive recipient of the service. For example, while a client needs to provide the relevant financial data to a tax accountant, the client is not involved in any meaningful manner in preparing a tax return. Because the client often knows something about the required service (e.g., silly deductions are not allowed), absolute unilateral information asymmetry rarely exists. Co-production can create bilateral information asymmetry. Under co-production, clients are indispensable to delivering consulting service, since “[the] output emerges from a coordinated effort of both the service employee and the customer; it comes from a social situation that involves at least an exchange of information” (Mills & Morris, 1986, pp. 726-727). This exchange of information means that information asymmetry is bilateral and that, to perform the service, each party needs access to the other’s knowledge (Chesbrough & Spohrer, 2006). For example, while the consultant organization may have an information asymmetry advantage about the quality of its personnel and its skill in performing its services, the client organization has an information asymmetry advantage about its participants’ quality and skills and its organizational ability and readiness to perform the work. Because knowledge is unequally distributed between the client and the consultant, information asymmetry is bilateral. Under co-production, both parties have a means and an incentive to be opportunistic. For example, a consultant’s pursuit of performance incentives (e.g., promotions or bonuses) can motivate an opportunistically inclined consultant to engage in opportunism if the consultant believes that withholding (or selectively sharing) information can increase the chance of winning the engagement. Similarly, a client’s desire to obtain the service for a lower cost may tempt an opportunistically inclined client to withhold information about the client firm that may increase the price of the work (e.g., the client firm’s workers are unionizing, which will likely influence the change readiness activities that the consulting firm would perform). While not every client or consultant will be opportunistic, it is difficult to predict a priori who will engage in opportunism, so both clients and consultants should take steps to minimize information asymmetry.
+
+2.2
+
+Negotiation
+
+Recognizing their information asymmetry disadvantage, firms engage in negotiations and evidence discovery to reduce the risk of selecting the wrong partner (Gefen et al., 2008). Scholars have characterized negotiations with a various number of stages: two stages (competitive then cooperative) (Pruitt, 1971, 1981), three stages (spirited conflict, tactical maneuvering, and reducing alternatives) (Morely & Stephensen, 1977), and four stages (relational positioning, problem identification, solution
+
+Volume 17
+
+Issue 2
+
+80
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+generation and agreement achievement) (Adair & Brett, 2005). Additionally, one can distinguish models as normative (describing how things should work) or as positive (describing how things actually work). For example, Adair and Brett (2005) develop a normative model describing negotiations for syndication rights, and Morely and Stephensen (1977) develop a positive model based on negotiations on an industrial matter. Negotiations also have numerous motivations (e.g., power orientation, cooperation, coordination, and mixed motivations) (Adair & Brett, 2005). IS scholars have frequently discussed negotiation in the context of outsourcing, in which a client makes a business decision to have a consulting firm perform some of its work (Levina & Ross, 2003). Firms most commonly outsource to reduce operating costs (Slaughter & Ang, 1996), improve management focus, or to provide access to otherwise unavailable technical talent (Lacity, 1995). However, in practice, IS outsourcing is an omnibus term for describing a wide variety of instances of transferring work to a consulting firm. Given the variability in negotiating strategies, processes, and timing (Adair & Brett 2005), it is important to differentiate the outsourcing negotiations for simple and straightforward tasks such as cabling a new building from tasks such as operating a data center, planning IS strategy, and implementing complex systems. Echoing Adair and Brett (2005), it is doubtful that the processes would be identical across all outsourcing variations. Research suggests that negotiators may not become more cooperative over time. Rather, even after receiving some information from the other party (reducing the other party’s information asymmetry advantage), negotiators continue to compete to try to claim a greater share of the value for themselves (Lytle, Brett, & Shapiro, 1999). Even late in the process, both parties may engage in competitive negotiation to claim more of the ultimate agreement (Olekalns & Walsh, 2000), which suggests that signaling, screening, and possibly withholding information may continue throughout a negotiation cycle as both parties try to improve their competitive position.
+
+2.3
+
+Signaling and Screening
+
+When negotiating, a seller who holds an information asymmetry advantage engages in signaling by deliberately conveying relevant information with the expectation that this sharing will induce the buyer to pay a higher price (Spence, 1973). For example, in a consulting negotiation, a top-ranking consultant (who has an information asymmetry advantage) will signal to the client the relevant aspects of its quality in an attempt to educate the client (reduce information asymmetry) to induce a higher price for its services. By giving up some portion of its information asymmetry advantage (e.g., disclosing the substantial expertise of the firm’s staff), the consultant might command a higher price if the client believes that the consultant’s expertise has a direct relationship to the service’s quality and value. In short, signaling can be a tactic that a consulting firm can use to convince clients that it fundamentally differs from other such firms (Sanders & Boivie, 2004). In the negotiation, a consultant is unlikely to give up all of its information asymmetry advantage; rather, it wants to signal only enough information to sell its services at a price premium. For example, a consultant is unlikely to signal its staff’s flaws (e.g., too junior, overbooked on other engagements, not trained) or its plans to phase out a service area (Bhardwau, Chen, & Godes, 2008). As such, a consultant is willing to signal only information that accomplishes its goal—selling services at a price premium—rather than disclose all relevant information (Akerlof, 1970). A consultant will most likely not signal any information that is detrimental to it. Current research acknowledges that, rather than signaling being a single event, there are a series of signals (flow) that adapt to the changing needs of the situation; as one signaling point is made (e.g., we are a credible company), other signaling points follow (e.g., our product is strong or our price is good) (DeKinger & Kohli, 2008). As such, signaling continues to keep the focus on what the seller believes to be relevant to the buyer at different points in their developing a relationship and in which reducing information asymmetry will benefit the seller. The party who has an information asymmetry disadvantage engages in screening (Stigler, 1961). Far more than a simple feedback in response to signaling, screening involves uncovering information that the seller may prefer not to disclose. One can screen by querying the seller or by gathering third party information about the seller. The screening party typically views third party information as highly legitimate since the seller does not filter it (Sanders & Boivie, 2004), and, as a result, numerous markets have sprung up to allow screeners to find relevant information about consultants (e.g., Gartner’s rankings of service providers in the IS domain).
+Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+81
+
+We have little understanding of how signaling and screening interact in the presence of bilateral information asymmetry. The theory of relationship constraints (TRC) suggests that a circular relationship between signaling/screening and the level of disadvantageous information asymmetry exists (Dawson et al., 2011). Under TRC, the party with the disadvantage will screen and analyze signals in an attempt to minimize its handicap. While TRC asserts that this process is circular, no research has explored the interaction between signaling and screening. Further, TRC, despite its knowledge orientation, does not differentiate knowledge type with regards to signaling and screening.
+
+2.4
+
+Knowledge Type
+
+We contend that the type of information exchanged during signaling and screening could be a key explanatory variable for process differences. Negotiating IS consulting contracts requires the exchange of the information and facts related to the practical understanding of an IS problem, and such problems require explicit and tacit knowledge. On the one hand, one can capture explicit knowledge codify it into documents, procedures, or databases (Bassellier, Reich, & Benbasat, 2001). One can think of it as a usable body of facts necessary to perform a particular job but that does not require much hands-on experience prior to use (Bassellier et al., 2001). On the other hand, one gains tacit knowledge through hands-on experience, and tacit knowledge includes technical and cognition dimensions (Nonaka, 1994). Experience is often a proxy for technical tacit knowledge (Bassellier et al., 2001). All things being equal, a person with greater experience is likely to have more technical tacit knowledge than one with less experience even though experience and expertise are not interchangeable. However, the intensity of an individual’s experiences increases the individual’s technical knowledge (Bassellier et al., 2001). Tacit knowledge is more than simply doing things: it also includes cognition (Bassellier et al., 2001). Cognition allows an IS executive to see the synergy and interconnected relationship between information systems and business processes (Sambamurthy & Zmud, 1994). Higher levels of tacit knowledge support moving beyond a simple understanding of tasks to a more holistic view of how the tasks link to processes and how the processes support the organization (Bassellier et al., 2001). Tacit and explicit knowledge mutually coexist; they are co-dependent and reinforcing (Alavi & Leidner, 2001). IS consulting services can provide varying mixtures of these two knowledge types. Given that they co-exist, information asymmetry can be based on either (or both types) of knowledge. Given that one can gain tacit knowledge only through relevant and suitably intense experience, information asymmetry should more commonly exist for projects that have high tacit knowledge and explicit knowledge-based information asymmetry should be more easily resolved. Knowledge type also presents challenges for signaling and screening. Given that one can codify explicit knowledge, it should be relatively easier to confirm if the explicit knowledge being signaled is correct. For example, if a consultant signals that a software package runs on a certain type of hardware, a client should be able to validate this assertion using external sources. However, high levels of tacit knowledge may be more challenging to verify. It is more difficult to signal/screen tacit knowledge since it is based on experience. Thus, it may be hard to assess if a consultant has sufficient tacit knowledge (experience) to perform the proposed work with the required competence. Given that knowledge type is a potential differentiator of the type of IS consulting services bought and sold, it is appropriate to investigate its effect on signaling and screening. In summary, the current literature almost exclusively focuses on unilateral information asymmetry, and no known research has taken a knowledge-centric view of bilateral information asymmetry: a common situation in IS consulting. While many researchers have examined the processes of signaling or screening, few have considered how two parties can engage simultaneously in these processes or how knowledge type influences the signaling or screening occurring in a given negotiation process. We fill in these gaps.
+
+3
+
+Methodology
+
+We apply a process perspective that looks at the type, sequence, and order of events that unfold through the IS consulting negotiation process to describe how information exchanges evolve over time. While the constructs of interest (signals and screens, tacit and explicit knowledge, and withholding) existed from the onset of our study (suggesting a positivist approach), we considered these constructs as we created a process model based on our interpretation of the events shared by the respondents (which indicates an interpretive strategy).
+
+Volume 17
+
+Issue 2
+
+82
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+3.1
+
+Research Domain
+
+The negotiation of an IS consulting engagement will likely have multiple points of signaling and screening. Thus, we adopt the flowing signaling (and screening) concept (DeKinger & Kohli, 2008) whereby we examine the process of signaling (and screening) rather than limiting the focus to a single event. Our unit of analysis is the negotiation process (made of multiple interactions) preceding a given IS consulting engagement.
+
+3.2
+
+Data Collection
+
+To collect data, we interviewed consultants and reviewed supporting documentation (when available). We used a critical incident-based approach for understanding signaling and screening. Critical incidents are: any observable human activity that is sufficiently complete in itself to permit inferences and predictions to be made about the person performing the act. To be critical, an incident must occur in a situation where the purpose or intent of the act seems fairly clear to the observer and where its consequences are sufficiently definite to leave little doubt concerning its effects. (Flanagan, 1954, p. 327) A critical incident-based approach is especially valuable as an exploratory method when one poorly understands the topic (Grove & Fisk, 1997). One can gather critical incidents in several ways, but, in service-related research, the most common approach is to ask respondents to relate a story about an experience that they have had (Gremler, 2004). Scholars have used critical incident-based studies for both qualitative and quantitative assessment, and such studies generally exhibit good reliability and validity (Andersson & Nilsson, 1964; Ronan & Latham, 1974). We asked each participant to describe the signaling and screening incidents associated with a negotiation process for a recent engagement. Our participants likely could not recall every single signaling and screening episode, particularly if an incident was minor. However, we believe they remembered and shared with us the most critical incidents due to their saliency. Since practitioners do not typically use the terms “signaling” and “screening”, we described signaling (e.g., “what information did you choose to provide the other party”) and screening (e.g., “what information did you seek from the other party”) in everyday business language in the interview guide. None of the respondents appeared to have difficulty in recalling critical incidents, which provides support for the chosen methodology. To ensure anonymity, we did not ask participants to reveal either the consulting firm(s) or client firm(s) involved in the negotiation but did gather basic information on the engagements that they discussed. In total, we gathered data on 228 signaling/screening events (19 participants times an average of 12 signaling/screening/withholding events for each participant). The participants had between five and 45 years’ experience, which meant that they were able to provide significant context for each negotiation process and the level of detail necessary for good critical incident studies (Gremler, 2004). We did not a priori establish the number of respondents to interview but rather conducted interviews until we reached theoretical saturation. Interviews lasted between 30 and 120 minutes, and we conducted them via phone due to geographic constraints. Specifically, the first author conducted the interviews from January 2012 through April 2012. We audio-recorded all interviews (with participant knowledge and permission) and later transcribed them. The interviews were semi-structured to allow for greater discovery and to avoid restricting participants from disclosing key insights. Appendix A summarizes the interview guide, and Appendix B summarizes respondents’ demographic information and each project’s categorization. Respondents focused on the negotiation process of projects that had either high tacit knowledge, high explicit knowledge, or both high tacit and explicit knowledge. No respondent provided information on projects that were low in both tacit and explicit knowledge. We also reviewed the contact logs for nine consultants. Given that all the respondents (such as most senior level consultants) were simultaneously working on multiple projects for multiple potential clients, many used some sort of contact log to plan and then document every discussion with a prospective client, and we asked for a download of it for a single client and analyzed and coded it. With these logs, we both prepared for our interview and followed up with the consultant to better understand key points, which provided a rich source of secondary data to study the evolution and development of the negotiation process preceding an IS
+
+Volume 17
+
+Issue 2
+
+Journal of the Association for Information Systems
+
+83
+
+engagement. As far as we can ascertain, the contact logs covered every email, telephone, and in-person contact with the client. Appendix C shows insights from our analyzing the contact logs.
+
+3.3
+
+Data Analysis
+
+We analyzed data as we collected it. We followed a four-step process. In step 1, we developed an initial coding scheme based on the signaling, screening, and information asymmetry literature. In step 2, we examined the transcripts based on the respondent’s role as a client or a consultant. This step was necessary to determine whether process variations and their causes existed. In step 3, we coded the transcripts using the original codes and further distinguished more-specific signaling and screening attributes in relation to the type of knowledge. Finally, in step 4, once we collected and analyzed the data (step 2 and 3), we interpreted the interviews and documented those findings in a comprehensive model (Einsenhardt, 1989 Yin, 1993). The first author and a second independent person (who was blind to the study’s goals) coded the data using the Coding Analysis Toolkit (CAT). Agreement on appropriate coding exceeded 97 percent, and Cohen’s kappa was .95. Both scores are higher than indices reported in other critical incident studies (such as Gremler (2004): .850 and .745, respectively) and are generally considered acceptable (Gremler, 2004). Because the two codes had few disagreements, we excluded the statements with differing codes. The second and third coauthors reviewed both the transcripts and the coding. Appendix D shows the initial coding scheme. Based on the wording the respondents used relative to our coding scheme (Appendix D), we derived exemplars of a project under each condition for each knowledge type (see Appendix E).
+
+4
+4.1
+
+Results
+Antecedent Condition: Existence of Bilateral Information Asymmetry
+
+From the onset, when a consultant and a client engage in an exchange about the potential purchase of the consultant’s services, both parties are typically aware of their respective information asymmetries. In general, consultants hold an information asymmetry advantage about the skills and availability of their staff, their ability to deliver, and their prior project success. Consultants are also aware that most clients have little knowledge about the true cost to perform the work or the actual amount of time that is necessary to execute it. They also seem to be aware of clients’ relative naiveté and how that naiveté factors into the signaling and screening process. By contrast, clients are aware of the ease or difficulty of completing the project, including past project challenges, organizational limitations, and obstructionist staff members. Clients also hold an information asymmetry advantage about their true budget for the project, expected timing requirement, and the existence of competing consultants. We examined the results and compared them to the previously established models of negotiation. In line with Olekains and Walsh (2000), our respondents remained competitive throughout the process. However, the emerging pattern of interactions did not fit with any of the known models, and so we describe the process revealed by the data (see Figure 1). Both consultants and clients agree that a time and a place to signal or screen exists, and both try to adhere to it. The time and place vary, however, based on the knowledge central to the project. The model also reflects the fundamental conflict of the negotiation process: each party is intent on protecting its information advantage. From the discussion of the engagements, we developed a model of a first engagement between a client and a consultant (when neither party knows each other). In subsequent business relationships, some steps may be shortened or even elongated based on those prior interactions and the established relationship. The process model has four phases, each inclusive of signaling and screening events initiated by either the consultant or the client. It is a positive model (describing how the process actually works) and not a normative one. In developing this model, we depict signaling and screening events as two-way interactions to report the exchanges that occur. The model shows the flow for both high tacit and high explicit-knowledge projects. Projects that are high in both knowledge types operated identically to high tacit-knowledge projects.
+
+Volume 17
+
+Issue 2
+
+84
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+Figure 1. Process Flow of the IS Negotiation Process Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+85
+
+4.2
+
+Phase 1: Preening: Broadcast Fit to Partner
+
+In the preening phase, the consultant aims to broadcast its fitness as a partner, which enables the client to reduce the market from a wide set of service providers down to a smaller group that the client can actively manage.
+
+4.2.1
+
+(A) Consultant Signals Expertise and Interest
+
+The consultant broadcasts the first signaling event for both tacit knowledge- and explicit knowledgecentric projects; however, the attributes signaled for the two project types differ. For tacit knowledgecentric projects, the initial broadcast signal addresses the consultant’s subject matter expertise. One consultant, who is a nationally known expert in his domain, described presentations to industry groups and trade organizations by saying, “We did three national webinars to really educate our client base to basically strengthen demand”. He added other rationales for a broadcast signal: [One] reason [was to demonstrate] that we are experts in this space. The [next] was…to produce a demand for a face-to-face discussion to really talk through the implications of what we were sharing in the webinar to their specific needs and issues. To him, the payback from these speaking engagements did not need to be immediate. Rather, his goal was to signal that he was a nationally known expert and a wise client should consider hiring him for a pressing problem. Consultants also intend this broadcast signal to reach other consulting firms. The same consultant talked about how he used his national presence and reputation to scare off other competitors. He wanted another consulting firm to realize that it was out of its depth. He said: at the same time, I let it be known to [the other consultants] that I knew as much about how [the client] did the work as [the client] did…. I adopted the strategy of trying to convince the other proposers that they probably shouldn’t bid on this because I had all of the subject matter expertise. The tacit knowledge-centric project signaler will generally not share any price signals even if sharing such information is favorable to it because many consultants view discussions about money to be inconsistent with professional services, and, if price is discussed, it devalues the service. For explicit knowledge-centric projects, the message is different. Several consultants used a variation of the phrase that “everyone in the market knows” that consultant X is a low-price service provider. For an explicit knowledge-centric project, the signal is almost entirely about price. Both explicit and tacit knowledge-centric project signalers withhold information that does not reflect favorably on their credibility. An explicit-centric project consultant, while signaling a low price, will never signal any limitations on that low price or any delivery related issues. Neither type of bidder will signal any of its weaknesses (e.g., previous failed projects). Regardless of the information transmitted, a client has to receive a signal and then act on it. Thus, until the client has a need, the signal is likely to lie fallow. As a result, the consultant needs to continuously signal to catch the client when the client may detect the signal above the noise of many other broadcasts. In this step, only the consultant signals. Tacit-knowledge and explicit knowledge-centric projects have clear differences, particularly in terms of the shared information and the exchange process.
+
+4.2.2
+
+(B) Client Screens Consultant’s Credibility
+
+When the client has a need, it will start to pay attention to market signals and screen them for credibility. Clients are aware that the broadcast signal will not include any negative information about the consultant and so the goal is to determine whether the consultant (and its broadcast signal) are credible. If the broadcast signal is about an explicit knowledge-centric project, the client is likely to screen (e.g., search for information) to determine whether the broadcast price is favorable. Numerous sources, including pricing guides, are available to validate the fidelity of the broadcasted price. Additionally, clients will search to determine whether the consulting firm has the subject matter expertise and delivery credibility.
+
+Volume 17
+
+Issue 2
+
+86
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+Validating the signal becomes more difficult for a tacit knowledge-centric project, and clients look for richer sources to verify a signal. Industry research firms, which go well beyond simple buyer’s guides, play a key role, and clients increasingly rely on them to validate broadcast signals related to subject matter expertise. If the consultant’s signal correlates with industry research data, clients will tend to view the signal as credible. One client said about validation: “There was quite a bit of research articles and things out there that were from a third party who actually confirmed what [the consultant] had been telling us.”. Explicit knowledge can be codified (and then discovered by those seeking validation), whereas the only way to validate tacit knowledge is to engage in discussions with experts however time-consuming and imprecise this may be. Regardless of knowledge type, if the client does not view a consultant as credible, the client will stop considering it. At the end of this step, the client has only slightly reduced the consultant’s information asymmetry advantage. The only information that the signaler has exchanged is at an aggregate level, which does little to curtail disadvantageous information asymmetry.
+
+4.2.3
+
+(C) Client Signals Interest
+
+Once the client has determined that the consultant is credible, the client needs to signal to the consultant its interest in learning more about the consultant’s services. This signal is straightforward and direct and applies to both tacit knowledge-centric and explicit knowledge-centric projects. The client is likely to know that the consultant will not take the signal seriously if the client has an unrealistic timeframe to do the work or shows itself to be difficult to work with, and so the client omits such signals. In contrast to the consultant’s broadcast signal, the client’s signal is narrow and directed toward a single consultant. The client intends this narrow signal to convey precise yet sparse information. Basically, the client merely wants to engage the consultant for an initial conversation but does not want to tip its hand regarding actual timing, budget, level of interest, organizational issues, or even potential competitors. The signal simply conveys a desire to learn rather than anything deeper. As such, the client withholds a great deal of information. For example, the client knows that a consultant will not want to move forward with a project if the client’s timeline is unreasonable. Thus, the client needs to signal decision readiness even if it does not yet know the timeline. Normally, one would see signaling as reducing information asymmetry, but, in this case, information asymmetry is in some ways lowered (by the shared information) but also increased (by the misrepresented information).
+
+4.2.4
+
+(D) Consultant Screens Client’s Credibility
+
+The consultant is typically pleased with the client’s initial signal but also dubious. Consultants are always concerned about a client who wants “free consulting” work, which is when a client repeatedly requests information from the consultant and holds numerous meetings with a firm’s experts but never hires the consultant. The consultant attempts to manage its exposure to free work by screening the client’s credibility in detail. This step works the same for both tacit knowledge-centric and explicit knowledge-centric projects, although the items screened for vary somewhat between the two project types. Specifically, for tacit knowledge-centric projects, the consultant attempts to gain the information that the client withheld in the previous step (timing, budget, true level of interest, ease of working together, and potential competitors) since this information is salient in predicting paid work. For explicit knowledgecentric projects, the consultant screens to determine the actual level of interest, budget, and timing. At this stage, the explicit knowledge-centric project is not yet concerned with ease of working together or existence of competitors. This lack of concern occurs since other competitors are known to exist and because the two parties can learn how to better work together later in the process, while poor interest, low budget, and unrealistic timing expectations are more difficult to change. For example, a client may need to have the work done in the next 72 hours, but the consulting firm may not have any staff available for the next month. In that case, it behooves the consulting firm to simply walk away from the potential engagement regardless of competitors or how easily the consulting firm and client would work together. It is only after solving interest, budget, and timing issues that competitors and ease of working together become salient. Consultants screen clients in two ways. First, consultants look in their firm to see if the client is “connected” to it in other ways. If the consulting firm already does work for the client, the consultant deems the client to
+Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+87
+
+be legitimate and credible and the information asymmetry is partially resolved. As one consultant described the process: One guy [who worked for us] had worked in the past at [another] vendor with one of the key stakeholders at that customer. [He could] mutually validate that, number one, yes we’re serious about going after the deal…as well, yes, the customer is serious about looking at us and, no, they’re not just trying to get a better [price] with their incumbent. Second, the consultant scours publicly available information to determine whether the client fits the profile of someone who would purchase this kind of service. Typically, the consultant does so using credit agency reports to validate the client’s financial standing. As one consultant said: If I have a million dollar project [opportunity], I would be having a direct conversation with my [CFO] from the very start. He will then use all of the tools at his discretion – Dun and Bradstreet, Hoover’s, industry magazines, industry newsletters, forum sites, [and so on] .... If the consultant determines that the client is credible, the process will move forward. Otherwise, the consulting firm may simply ignore the client’s signal or will offer to send information rather than meet in person.
+
+4.2.5
+
+Client Signal (C) / Consultant Screen (D)—Recursive
+
+If the consultant perceives the information from its screening the client to be ambiguous, the consultant will continue to request more information from the client (C) and will screen it (D) until it resolves the ambiguity.
+
+4.3
+
+Phase 2: Courtship—Engage Partner
+
+In courtship, a consultant focuses attention on the clients with the most engagement promise. One consultant noted: I’m trying to make the client fluent [in our capabilities] and I’m trying to become fluent myself…. Making them fluent on our capabilities, the trends in the market, what we have experienced, what we’ve done before, what might be a good fit for them and fluency toward us and us understanding their unique issues, context and culture.
+
+4.3.1
+
+(E) Consultant Signals Expertise and Interest
+
+After receiving a signal of interest from the client (step C) and vetting the client’s credibility (step D), the consultant signals directly and specifically to the prospective client. Based on a screening of the likelihood of an engagement (step D), an initial meeting could take several forms depending on whether the project is a tacit knowledge- or explicit knowledge-centric project. For tacit knowledge-centric projects, consults and clients will often meet in person at the client’s office. The consultant will further signal its seriousness based on the number and level of the people that it takes to the meeting. For example, the consultant makes a strong signal about its interest if it flies in several senior people from another city. If the consultant does not have a high degree of confidence in the client’s business potential, it may setup a conference call or, as a middle point, fly a few consultants into a meeting and have a few others join via telephone. If the consultant has misjudged the client’s level of interest as being too low, it effectively sends the wrong signal and might lose potential business or retard its progress in building a relationship with a client. The consultant, in addition to signaling its interest, also uses this opportunity to accentuate its expertise. Most consultants will prepare a high-level “slide deck” to guide the conversation about key scoping questions and to highlight the consultant’s expertise in performing the work (subject matter expertise and delivery credibility) and ease of working together. These slide decks appear highly customized but they are generally generic marketing “fluff”’ documents with no real personalization. As one consultant said, “[We] had some canned collateral, but then customized it based on some phone discovery”. The conversation and the slide deck for tacit knowledge-centric projects focus on the consultant’s capability in terms of personnel, approach, prior work, and third party “gloat quotes” about the consultant’s skills. In these meetings, consultants strenuously avoid discussing negative experiences, such as failed
+
+Volume 17
+
+Issue 2
+
+88
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+prior work, unhappy prior clients, missing personnel, or overly long projects. As one consultant said, “The whole purpose of that initial deck and the initial meeting is to number one, establish credibility and number two, make them want to engage in further discussions with us.”. As one client observed, “None of them ever offered anything in terms of a negative [about their ability to deliver]. Even I would have put a qualifier in saying this might not be our sweet spot.”. Equally important, most consultants on tacit knowledge-centric projects try to avoid signaling any explicit information such as price or delivery timing. Consultants generally feel it is better for clients to offer their price/timing expectations first (as part of step F) since the consultant runs the risk of blowing the deal if it misunderstands what the client envisions. For explicit knowledge-centric projects, consultants also direct the signal at establishing capabilities, but the information shared or withheld differs. Unless the consultant believes that the proposed project has a high budget and warrants travel, these meetings usually occur via a conference call and generally only include the sales leader from the consulting firm. The consultant on an explicit knowledge-centric project often shows its credibility using a variety of signals such as work approach, prior work, and “gloat quotes”. Also, the consultant will rarely mention anything about its personnel: it simply isn’t relevant for explicit knowledge-centric work. The bulk of the conversation is on explicit knowledge-centric factors— specifically price and ability to deliver in a certain time frame. One client described this initial meeting with consultants on an explicit-centric project by saying: A lot of times they would bring in a lot of glossies that basically showed their product and some sort of product reviews by different vendors or technical magazines where they had been rated or gotten awards for their product. Others basically used a tactic that they tarnished their competitors and brought articles about the competitors to highlight how their product was better. A consultant on an explicit knowledge-centric project might also withhold information. For example, it might omit unfavorable client history or an inability to deliver in the necessary timeframe. Additionally, despite talking about it, the consultant is generally not sure that it can deliver the goods at a given price until it checks with its suppliers. However, the consultant does not readily share any of this information with the client. At the end, for both tacit knowledge- and explicit knowledge-centric projects, the consultant will continually test to see whether the client received the signal. That is, if the client appears to believe in the consultant’s signal, the consultant will be able to start screening (see step F). Until that point, the consultant will continue to signal and test until it believes that the client accepts the consultant as viable.
+
+4.3.2
+
+(F) Consultant Screens Client for Project Success Factors
+
+In this step, the consultant on either a tacit knowledge- or explicit knowledge-centric project will screen the client for project success factors. For a tacit knowledge-centric project, the consultant will screen to determine five things: client interest, project budget, project timing, any issues about working together and other competitors. Initially, the screening will be “soft”, which means that the consultant will ask open-ended questions to gauge the client’s interest and to uncover the client’s budget and timing. If the client refuses to divulge price/timing issues, the consultant may become increasingly direct with their screening to make the client better understand the project’s true size. One consultant described how she handled a client who would not offer a speculative budget: “We gave him a ballpark figure on the high side just to see what the reaction would be, and he said it sounded reasonable to him.”. The consultant is particularly concerned with the client’s expectations about working together and will screen to determine whether the client will be easy or difficult. One consultant said, “I think through the conversations [and I got the sense] that he [was going to be] easy to work with.”. Another consultant said, “I definitely came out of this whole process having a very good sense of the attitude of the client and whether or not they would be a jerk or not.”. The consultant on an explicit knowledge-centric project focuses primarily on budget, timing, and ease of working together. The consult rarely considers other items, such as interest and other competitors, to be important. The consultant will push aggressively for a contract at this point.
+
+Volume 17
+
+Issue 2
+
+Journal of the Association for Information Systems
+
+89
+
+4.3.3
+
+(G) Client Screen Consultant for Expertise and Ease of Cooperation
+
+In this step, the client screens the consultant for its expertise (only for tacit knowledge-centric projects), ability to deliver, and ease of working together. In this screening, the client tries to determine how much of the consultant’s signaling is real versus simple “puffery”. In practice, most clients have several ways during a meeting to distinguish a consultant’s capabilities. For both tacit knowledge-centric and explicit knowledge-centric projects, the client most often relies on a “hunch” to determine credibility. If the client determines that the consultant is not credible, it will cut the meeting short and no further actions will occur. As one client said, “if I sense that I’m getting jerked around or I sense that [consultants] are not being truthful, that’s going to be a quick exit out of this process”. There are substantial differences in the intensity of the screening for expertise and fit for tacit knowledgeversus explicit knowledge-centric projects. For example, for explicit knowledge-centric projects, ease of working together, while still somewhat important, is likely to be less important compared to tacit knowledge-centric projects, which often require closer cooperation. However, the concept of subject matter expertise is only relevant for tacit knowledge-centric projects: it is simply no longer important for explicit knowledge-centric projects.
+
+4.3.4
+
+(H) Client Signals Budget, Timing, and Existence of Other Competitors
+
+If the client determines that the consultant is credible, it is likely to modestly signal its timing, budget, and the existence of other competitors. The signals are generally the same for tacit knowledge- and explicit knowledge-centric projects. The client appears to relinquish some of the information asymmetry that it holds about its budget and timing but rarely is the information fully accurate. The client might present an unrealistically low budget and short timeframes. Some clients feel that this will engender a better price and schedule. Thus, while the client appears to give up some information asymmetry advantage, in truth, it rarely does since the signaled information is often incorrect. One client, talking about withholding his budget information from consultants, said: The fact is that I had to get it done and I didn’t want to tip my hand to them by saying…here is what I was budgeting. I know from a consultant standpoint, if they can do it for less [than the budgeted amount] that it wouldn’t matter. They would do it right up to my budgeted amount. Clients also falsely signal the existence of other competitors in the hope of receiving a better price or schedule due to perceived competition. In the case of explicit knowledge-centric projects, other competitors are almost certainly present given the more fungible nature of these projects. Regardless of the type of project, both parties want to negotiate, from their perspective, a favorable deal and will likely send false signals to achieve this goal.
+
+4.3.5
+
+(I) Consultant Screens for Client Interest and Next Step
+
+At the end of this initial meeting for a tacit knowledge-centric project, a consultant will generally do a “soft close” and suggest the next step. If the meeting has been successful (meaning that the consultant thinks the two parties agree on issues of budget, project timing, and ease of working together), the consultant will generally suggest that it prepares a “soft proposal” (also referred to as a draft proposal) as the next step in the discussion. Consultants use this soft proposal to determine whether the client is serious and ready to move ahead. As such, it is a significant screening of the client’s interest. Even if the consultant is aware that competitors exist, it will still push to deliver a soft proposal. Consultants believe that clients often lack the resources to act quickly, and the first consultant to deliver a credible soft proposal can direct the process because the client will likely use the proposal to create a request for proposal (RFP), which will guide the remainder of the sales cycle. One consultant reported: Can you [the consultant] put something together for me, and we came back to them with about a probably four page document…. It was three or four pages long, and it was basically here’s our understanding of your current situation. Here are some three or four recommendations on what we would do to improve the situation, and here’s how we would implement that for that piece of work. We figured…what they were doing was gathering information that they were going to turnaround into a limited release RFP, which is exactly what they did.
+
+Volume 17
+
+Issue 2
+
+90
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+If a client substantially resists a soft proposal, the consultant will not likely continue negotiations with the client. By contrast, the screening for an explicit knowledge-centric project is more focused. Since the consultant for such a project is negotiating only price and timing, they do not need to provide a soft proposal, so the process bypasses the commitment phase and moves to step N. In both cases, the client often tries to withhold precisely the information that the consultant seeks because the client could be having this courtship (signaling and screening in steps E, F, G, H, and I) with multiple consulting firms.
+
+4.4
+
+Phase 3: Commitment (Tacit-centric Only)—Create Mutual Engagement
+
+In this phase, the consultant and client of a tacit knowledge-centric project try to create a mutual commitment. At this point, both parties disclose much of their previously withheld information.
+
+4.4.1
+
+(J) Consultant Signals Interest with Soft Proposal (Tacit-centric Only)
+
+Based on the success of step I, the consultant will prepare a soft proposal. In its preparation, the consultant rarely gives up any of its information asymmetry advantage. The consultant already knows most of the information signaled in the proposal (firm history, client motivation, high-level work plan, nonbinding resumes). One consultant described its soft proposal process by saying: So we took the deck that was presented at the meeting and made that the working document and annotated with, by the way, here are the things that we discussed. These are the takeaways. There are your key pain points 2. These are your opportunities you’re trying to achieve and, by the way, this is how we can go ahead and address those. In other words, the consultant wants to preserve its upper hand. Additionally, the consultant will rarely insert a price into a soft proposal. Withholding this information keeps the focus on the proposal’s tacit elements and not on “mere” cost. Generally speaking, the consultant is fully capable of accurately estimating the cost but simply chooses to withhold price to maintain an advantage. As one consultant said: We left the price out of the [soft proposal] and gave it to him verbally…. We just didn’t put it in [the draft proposal] just for the case that, if it was going out for bid, then we didn’t want to have that in writing. The consultant will also include “representative” resumes in the proposal, which are generally the firm’s stars. While the consultant may plan to use a small slice of time of these outstanding individuals, the consultant includes their resumes to signal credibility. Buried in the fine print is generally an assumption that indicates that these people are representative of the project team’s members but may not be the actual team. This deception likely foretells difficulty in working together (4). Clients often miss this critical “fine print”, but it is to the consulting firm’s detriment if the client catches them trying to play games with their staff. One client reported a conversation with a consultant: I need to work with you and get some assurances on resources were key to me. So if you put in front of me these folks who you say are going to do the work, then I’m expecting those folks to be there. Not the bait and switch. Ultimately, the signal at this step is twofold: credibility and responsiveness. The proposal enhances credibility and is generally thematically consistent with the consultant’s entire prior screening events. Responsiveness is trickier since the consultant needs to signal that it heard what was important to the client at prior interactions, which consultants emphasize in the proposal. As one consultant said: In fact, that’s one of the key things that comes out of that delivery of that [soft proposal], sort of the “we’ve heard what you said”. So not just reiterating or regurgitating what they said. Not only have we heard what you’ve said, we’ve digested it so to speak and we believe that this is the best way for you to proceed.
+
+2
+
+“Pain points” is a frequently used term in consulting to refer the problems that the client is trying to solve with the project.
+
+Volume 17
+
+Issue 2
+
+Journal of the Association for Information Systems
+
+91
+
+4.4.2
+
+(K) Client Screens Soft Proposal (Tacit-centric Only)
+
+The client screens the soft proposal to determine how closely the consultant perceived its prior signaling. If the client emphasized a requirement in prior conversations, it looks for a clear linkage in the proposal. As one consultant described: “Well, since we had a pretty good idea of what their problems were and what their challenges were, our themes came back to ‘this is your problem’ and ‘here’s how we’re going to solve it’.”. Rarely is this screening complicated. By this stage, the client acknowledges the consultant’s credibility. By receiving a responsive soft proposal, the client can screen for how well the consultant had listened. Based on reviewing the soft proposal, a client is able to quickly determine whether to move forward or not with the consultant.
+
+4.4.3
+
+(L) Client Signals Status (Tacit-centric Only) / (M) Consultant Screens Status (Tacitcentric Only)
+
+These two steps are closely aligned, so we jointly describe them. The signal that the client gives at this step is extremely nuanced and difficult to interpret. In addition, the client withholds a substantial amount of information. First, if the soft proposal is responsive and the client is not in discussions with any other consulting firms, the client signals to the consultant to proceed to the final proposal stage. This signal is rarely without a host of caveats and misleading information. Typically, the client will indicate that either the timing or, more commonly, the price is out of range. The client advises the consultant to “sharpen its pencil” in submitting a final proposal. Clients mislead about their interest (asserting it to be higher than it actually was to entice the consultant), the ease of cooperating (suggesting that it would be much easier and so the price should be lower), and even the existence of competition. Alternatively, if the soft proposal is not responsive, the consultant has missed the mark and the client is disappointed or upset. In this case, the consultant may have to respond with a second soft proposal (back to step J) or the client may even eliminate the consultant from consideration.
+
+4.5
+
+Phase 4: Culmination—Create a Contract
+
+In this phase, the parties culminate their relationship with a contract or by walking away. Based on the signaling and screening during negotiation, both parties are better prepared to decide whether to move forward or walk away from the deal.
+
+4.5.1
+
+(N) Consultant Signals Interest with Proposal
+
+The consultant intends its signal to be unmistakable. For both tacit- and explicit knowledge-centric projects, the consultant, who believes that all meaningful issues have been overcome, now entirely focuses on responding to the client’s needs, particularly price- and delivery-related issues. As such, the proposal rarely contains any new information, although the consultant continues to signal its subject matter expertise and ease of working together continues for tacit knowledge-centric projects. As before, a consultant, unless forced, will not disclose any negative aspects about itself in the proposal (particularly about an ability to deliver) in both tacit knowledge- and explicit knowledge-centric projects. A consultant might continue to withhold key facts, and a client noted: It would be later on, in this particular project that we realized that they were subcontracting some of the work and that was actually not in the proposal…. It was quite shocking when we found out because…we should have been told that. Additionally, consultants in tacit knowledge-centric projects will often continue to withhold or mislead on price and ease of working together, although explicit knowledge-centric projects rarely involve such things. Some consulting firms try to hide some aspects of their solution even if it may be critical to the client. One client described how she wound up killing a project because the consultant concealed important details. She recalled: Yeah, because what I found was that…they were going to use managed servers that would be under our control and then they had hidden some place in the vendor provider stuff—and I’m saying hidden because there was no talk of them using it in the body of any of the documents. I
+
+Volume 17
+
+Issue 2
+
+92
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+did a search of the entire package afterwards and they use a little tiny asterisk in one of the diagrams that said virtual…. That was the only mention throughout the whole document that they were planning to use this. Some clients have taken to precisely specifying the formal proposal’s format and content. They note that they intend such specification to help compare proposals, but, in addition, they also specify the formal proposal’s format and content to force the consultant to share information it might otherwise withhold. We asked several clients why they waited until this late step to ask for this information since asking for it earlier could potentially weed out poorly performing consultants. All of the clients had the same reasoning: the proposal is the first legally binding document between the two parties and, thus, is the first time that there are legal consequences for the consultant to not disclose requested information. As one consultant told us, “The proposal is where the [explicative] gets real.”.
+
+4.5.2
+
+(O) Client Screens Final Proposal / (P) Client Signals Winning Consultant
+
+As with step K, the client screens proposals almost entirely based on how well it believes the consultant has heard its needs. A savvy consulting firm will highlight, often in its cover letter, the points that the client has previously made. This emphasis makes the client’s screening very easy: a goal both share. One may think that, at this point in the negotiation process, the two parties have revealed all of the salient information, but that is rarely the case. While consultants both signal and withhold information in preparing the proposal (step N), clients also do both when reviewing and then signaling the winning consultant. A client will signal the winning consultant about what is important for both tacit knowledge- and explicit knowledge-centric projects. The client continues, however, to withhold key pieces of information. One consultant wryly noted: We structured our agreement such [that] we were there to assist…but once we got into the deal, they reacted [to] it very much as if it were a fixed price deal for a specifically defined body of work. It is not unusual for last-minute client demands to arise, which is consistent with the client’s information asymmetry advantage regarding the fee and its determining information. One consultant described the final negotiation on a US$1 million deal: At the last minute, we were told that we needed to give back. It was an inconsequential amount. It was like 2-3 percent to seal the deal. But they had to take something back to the contract people that said we beat these people down…and show us that they were tough negotiators. In addition, clients will often falsely suggest that viable competitors still exist to negotiate a better price. For tacit knowledge-centric projects, clients continue to withhold information on ease of working together since, for this project type, this factor can have major price consequences. If a client can successfully withhold such information, it will generally result in a lower price. One consultant said of the information asymmetry still held by a client at the start of the work: I don’t think the deadlines were as hard they were making them sound. I think also they had more budget than they exposed throughout the sales cycle, but that’s no surprise. People always want a good price for something, but they did have more budget and more time. In short, even at the start of a recently negotiated engagement, both clients and consultants both maintain some level of information asymmetry advantage. While signaling and screening during the negotiating of professional services lowers information asymmetry for both parties, some remains, so clients and consultants have to invoke opportunism-constraining mechanisms to address the remnants and those that arise during execution of the contract.
+
+4.6
+
+Summary
+There’s a mutual discovery process that’s going on. There’s a dance that occurs. You choose what you know, you decide what you’re going to reveal. Sometimes you reveal a little more than you intended… You pick up signals for the other and all the way up to the begging..; there’s a number of exit points that anyone could drop off if it looks like it’s just not the right fit or you may
+Volume 17 Issue 2
+
+One of the consultants summarized the process best:
+
+Journal of the Association for Information Systems
+
+93
+
+decide, alright, let’s give it a shot kind of thing. Then, even after that, there’s yet another cycle…of discovery that occurs and then you decide if you’re going to [move forward].
+
+5
+
+Discussion
+
+We found that signaling and screening for tacit knowledge- and explicit knowledge-centric projects differ on four major factors. We discuss each factor in Sections 5.1 to 5.3.
+
+5.1
+
+Duration of Negotiation Process / Number of Events
+
+There are differences in the duration and number of events in the IS consulting negotiation process based on knowledge type (see Appendix E). In general, explicit knowledge-centric projects have fewer events and a shorter process. Explicit information requires little interpretation. For example, if a consultant asserts that the price of a service will cost $x, the client has to determine whether $x is acceptable or reasonable. Little additional judgment is necessary other than determining the price’s reasonableness. By contrast, judging the quality and experience of a potential project manager for a large ERP engagement (high tacit knowledge) requires a great deal of reflection, and the client needs to judge whether a proposed person is good enough. The client needs to assess the project manager’s capabilities, prior experience, and so on. As a result, the number of items to be shared and understood is usually higher for tacit knowledge-centric than for explicit knowledge-centric projects. This creates a longer cycle with more events for tacit knowledge-centric projects. For explicit knowledge-centric projects, a buyer can often determine the quality of the purchase prior to buying or after consumption. At some point, the client will be able to sufficiently evaluate the service received. Because the client is ultimately capable of objectively judging quality, the client can force the consultant to re-perform the service or even receive a refund if the service doesn’t meet expectations. With tacit knowledge-centric projects, the client may not know, even after project completion, whether it has received a high-quality service. As a result, the client must accept the consultant’s word about the delivered service’s quality, which makes the client vulnerable to deception. Thus, the client will want to perform due diligence to reduce the inherent risk, which takes longer and requires more interactions for the client to feel comfortable about entering an agreement. We suspect that the primary drivers of the length and number of events are related to the relative levels of uncertainty and equivocality that exist. Differentiating between uncertainty and equivocality is important. Uncertainty refers to simply a lack of knowledge (e.g., missing information), while equivocality refers to having ambiguous information (Koufteros, Vonderembse, & Jayaram, 2005). While uncertainty and equivocality are related, only equivocality assumes messy or unclear data (Weick, 1979). While new data may reduce uncertainty, it does not reduce equivocality, which is only reduced through narrowing the question (Weick, 1979). For explicit knowledge-centric projects, uncertainty is high but equivocality is low. The uncertainty can be readily resolved through sufficient searching, and, since the information is relatively clear (e.g., price is good), equivocality is low. Thus, the underlying goal of searching for explicit knowledge-centric projects is to reduce uncertainty. Tacit knowledge-centric projects are different. They have both high uncertainty and high equivocality. While uncertainty can be resolved with sufficient searching, high equivocality is a greater challenge. For example, suppose a client uncovers that a consulting firm had a failed project. Uncertainty is reduced but equivocality can remain high since the client has to determine whether the cause of the failure was a difficult-to-work-with client, a poorly performing project manager who has since left the firm, lack of quality control by the consulting firm, or other reasons. Resolving equivocality is critical since correctly understanding the true cause of the failure may drive a very different interaction with the potential consulting firm.
+
+5.2
+
+Timing of Signals and Screens
+
+Signaling and screening starts early and continues throughout the negotiation for explicit knowledgecentric projects. These signals focus on price since it best differentiates a consulting firm for these types of projects. Having an early discussion on price also benefits the consulting firm. Some clients have
+
+Volume 17
+
+Issue 2
+
+94
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+dramatically unrealistic expectations of price and, by stating a price very early in the process, the consultant can establish basic price parameters. For tacit knowledge-centric projects, price signals are rare and generally occur late in the process for two primary reasons. First, for the consultant, a discussion on price moves the interaction away from service quality, which is harder to compare than prices. A consultant can scale up (or down) the scope of services based on the client’s budget. By not discussing price, the consultant maintains flexibility and the ability to maximize profit. Second, the client, who has a substantial information asymmetry disadvantage, often has little idea about the scope or the cost of delivering a requested service. Rather than display ignorance, the client is often content to allow the consulting firm to fully describe the services it will perform even if the client suspects that its budget is inadequate. Once it knows the full scope of services, the client can ask for a price and start negotiating from that point. As such, price discussions take place early for explicit knowledge-centric projects but later for tacit knowledge-centric projects.
+
+5.3
+
+False Signals
+
+Clients and consultants can both engage in false signaling. The motivation for a client’s false signals is simple: induce the consultant to provide the work for a lower price. For example, if the client falsely signals that its budget is lower than it actually is, the consultant may try to get under the client’s budget ceiling simply by cutting its profit margin. Consultants also send false signals for an equally simple reason: to increase the probability of winning the bid. By signaling false information, a consultant can increase its chance of winning. While true signals reduce information asymmetry, false signals maintain or increase it. The signaling and screening literature generally focuses on signals as disclosures made to favorably reduce disadvantageous information (Connelly, Certo, Ireland, & Reutzel, 2011), which implicitly suggests that signals are true. Indeed, signal recipients tend to view signals as something that they can trust (Heil & Robertson, 1991). False signaling, while giving the appearance of reducing information asymmetry, can increase it. Whether the signal is true or false, the other party’s belief in its veracity will influence the reduction of information asymmetry. Signals can be inadvertent. For example, if a consultant is unable to provide resources for a client meeting, it may unintentionally signal that it has staffing related issues. Conversely, a client who insists that all communications be written and funneled through a procurement officer (rather than a member of the functional or executive team) may view its actions as showing that it is fair. Nevertheless, it might also be unwittingly signaling that it has little flexibility and may be overly formal. Inadvertent signals may also be incorrect. In the case of the consultant not sending a key staff member to a client meeting, the person could simply be completing another project and, by the time the new project starts, would have full availability. Similarly, the client firm, while specifying a specific communication protocol, could be flexible on most other matters. As such, in sum, we can create a 2x2 typology of signaling (see Table 1).
+Table 1. Typology of Signals
+
+Signal veracity High Deliberate Signal intention Inadvertent
+Traditional signals Decreases the recipient’s information asymmetry
+
+Low
+Opportunistic signals Increases the recipient’s information asymmetry
+
+Inadvertent disclosure signals Mixed signals Decreases the recipient’s information Increases or decreases the recipient’s asymmetry information asymmetry
+
+Traditional signals are both deliberate and true. These signals fit current theory that sees signaling as deliberately intended to reduce information asymmetry that favors the signaler. For example, a consultant could present at a national conference on a topic on which the consultant has great expertise. By speaking at the event, the consultant engages in traditional signaling with a true message (expertise in the subject matter) and does so to reduce the information asymmetry that faces the client (recipient). Similarly, a client could engage in traditional signaling by deliberately engaging the prospective consultant
+Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+95
+
+with a truthful demonstration of its willingness and interest. Assuming in both cases that the perceived veracity is high, these actions reduce the disadvantageous information asymmetry of the other party (Connelly et al., 2011; Spence, 1973). Opportunistic signals deliberately convey false information. For example, a client might consciously and inaccurately assert to the consultant that it has no resistance to a new information system to gain a lower bid. Similarly, a consultant could propose a project manager knowing that the project manager has already resigned from the firm. False signals increase the disadvantageous information asymmetry of the other party despite, on the surface, appearing to reduce it. Inadvertent disclosure signals are those that unintentionally transmit something that is true. For example, one consultant described how a competitor listed an unusually high 50 pages of assumptions for a system’s implementation project while the consultant’s company listed only three assumptions. The client interpreted the consulting firm as not being confident in its ability to deliver and as trying to lay the groundwork to shift blame to the client if the project failed. The 50 pages of assumptions inadvertently reduced the client’s information asymmetry. Mixed signals unintentionally transmit false information. The receiver can assess this misleading signal as true or false (mixed). Such signaling happens most commonly during verbal interactions between the parties when one asks a question and the other unknowingly and unthinkingly responds falsely. One receiver might accept the response as true while another might be sufficiently aware to detect a falsehood. As a result, the consequence of a mixed signal may increase or decrease the receiver’s disadvantageous information asymmetry. Clearly, consultants’ and clients’ ability to clearly, accurately, and truthfully convey key signals to each other is critical to reducing information asymmetry. While these signals might be deliberate or inadvertent, their underlying perceived veracity of a signal is the most important facet for reducing information asymmetry.
+
+6
+6.1
+
+Concluding Thoughts
+Contributions
+
+With this study, we contribute to the literature by analyzing signaling, screening, and withholding in the negotiation of IS consulting services when bilateral information asymmetry exists and when both parties could act opportunistically. We found several key findings. First, the process of signaling and screening differs based on knowledge type. Tacit knowledge-centric projects have more signaling and screening events than explicit knowledge-centric projects. Additionally, those elements common to both project types (e.g., price and timing) differ as to when they are signaled and screened. In general, explicit knowledge-centric projects feature signaling and screening of price and timing far earlier and more prominently, while tacit knowledge-centric projects have a much greater focus on ability to deliver much earlier and only discuss price and timing late in the process. We do not assert that these dimensions are the only ones that may cause the signaling and screening to differ. We need additional research needs to understand what additional elements may explain differences. Second, significant differences exist between the stage models found in other domains and the one that evolved from this research. This finding aligns with Adair and Brett (2005) who argue that the stages of negotiation vary in different domains. It is unclear whether the differences are driven by the nature of IS consulting, the particular types of firms involved in the study, or the specific projects that were discussed. As such, this is a fruitful and interesting direction for future research, which may potentially refine our proposed process model. Additionally, as we note previously, we focused on the first engagement between a client and a consultant. In subsequent engagements, issues related to trust and reputation are likely to be more important and, hence, offer an interesting avenue for future research. Third, not all signals are created equal, and we observed differences based on the signal’s intentionality and veracity. Both dimensions have important ramifications for the person receiving the signal, particularly if signal recipients tend to believe them (Heil & Robertson, 1991). An inability to distinguish between different dimensions of signaling may allow an opportunistic signaler to flourish since the actual information asymmetry remains high although the signal recipient is likely to believe that it is lower. We believe that this typology will be helpful for future researchers to better understand signaling, although we need more work on this topic.
+
+Volume 17
+
+Issue 2
+
+96
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+Fourth, signaling and screening are not limited to communications between the primary actors. Some signals (e.g., credibility signals by service providers) have two targets: the client and other service providers. Similarly, both service providers and clients use other sources (e.g., research firms) to screen. This suggests that signaling and screening do not constitute a simple dyadic conversation between the buyer and seller but rather constitute a rich and interconnected extended conversation. Accordingly, we need to study signaling and screening in professional exchanges from a network rather than a dyadic perspective. Finally, this research provides support for examining signaling and screening from a flow perspective rather than a single-event perspective. While one may scrutinize any signal/screen, an examination of the flow of signals and screens provides a great deal of additional information and context for the individual events. This study contributes to theory by highlighting the differences and inter-connections of signaling and screening based on knowledge type. First, it shows substantial differences based on the type of knowledge, and these differences directly concern those who research knowledge-centric topics. It illustrates the need to consider knowledge type in theories that incorporate aspects of communication between negotiating parties. Second, this investigation adds to theory by highlighting the possibility of falseness in signaling and screening. Such signals increase rather than decrease information asymmetry, whereas scholars have typically presented signaling and screening as information asymmetry-reduction processes. Third, this work shows that parties actively push or withhold information at certain points in the process with the timing based on the type of knowledge. Fourth, as one respondent noted, signaling and screening are an elaborate dance between the client and the consultant, and this work details its choreography. No known research provides this level of detail into this rich and interconnected process. While the depicted process model needs further validation beyond this initial study, we believe it contains all the major steps, and the model should be applicable to a wide variety of settings. Thus, the study contributes to several disciplines that professionals also dominate. As such, it should have applicability across domains and generate attention from future research. This study advances practice by detailing and explaining signaling and screening in the negotiation of IS consulting services. Service providers and clients can benefit from this knowledge. In particular, one can use the process flow model to guide interactions between practicing service providers and clients to better optimize the sharing of information. It will also enable the service providers and clients to understand what information each party is potentially withholding at each step and take concrete actions to uncover relevant information. Additionally, it alerts both parties to the possibility of false signaling and offers ways to mitigate its damage.
+
+6.2
+
+Limitations
+
+As with all exploratory studies, the specific domain and the expertise of those interviewed limit this research. As such, we present numerous signaling and screening events based on the IS consulting domain. These events do not represent the entire universe of possibilities that exist in all arenas of professional services. However, the goal of case-based research is not to obtain statistical generalizability but analytical generalizations (Yin, 1993). The proposed negotiation process model is likely to have variations in different contexts, and one can expect such variation for process models (Mohr, 1982). Another limitation is that we only examined cases in which the information asymmetry was bilateral and acknowledge that one may glean different insights from unilateral information asymmetry. Moreover, we used a critical incident approach and have no way to ensure that all the recollections of every respondent were correct even though we validated some of the memories using the associated contact logs. However, given the traditional validity of critical incidents in prior research and the consistency in our findings, we believe that this limitation is not significant. Finally, the respondents discussed only projects that were high in at least one dimension of knowledge. Therefore, our model does not incorporate situations in which both knowledge types are low.
+
+6.3
+
+Conclusions
+
+The IS consulting marketplace is a high-stakes one (US$119b worldwide in 2013), and, according to a recent survey, over 82 percent of U.S. clients plan to increase or hold steady their spending on consultants in the coming year (Sager, 2013). As such, the tremendous amount of money and growth is likely to present an enticing opportunity for both clients and consultants to behave opportunistically, which
+Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+97
+
+emphasizes the need to successfully signal and screen. This research, by taking a knowledge-centric view of signaling and screening, provides the tools for consultants and clients to better understand the process and, ultimately, to advance the efficacy of consulting engagements.
+
+Acknowledgments
+We are grateful for the excellent and insightful comments provided by the Senior Editor and the three anonymous reviewers.
+
+Volume 17
+
+Issue 2
+
+98
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+References
+Adair, W. L., & Brett, J. M. (2005). The negotiation dance: Time, culture, and behavioral sequences in negotiation. Organization Science, 16(1), 33-51. Akerlof, G. (1970). The market for “lemons”: quality uncertainty and market mechanisms. Quarterly Journal of Economics, 84, 488-500. Alavi, M., & Leidner, D. E. (2001). Knowledge management and knowledge management systems: Conceptual foundations and research issues. MIS Quarterly, 25(1), 107-136. Andersson, B. E., & Nilsson, S. G. (1964). Studies in the reliability and validity of the critical incident technique. Journal of Applied Psychology, 48(6), 398 - 403. Bassellier, G., Reich, B., & Benbasat, I. (2001). Information technology competence of business managers: A definition and research model. Journal of Management Information Systems, 17, 159-182). Bhardwau, P., Chen, Y., & Godes, D. (2008). Buyer-initiated vs. seller-initiated information revelation. Management Science, 54(6), 1104-1115. Chesbrough, H. W., & Spohrer, J. (2006). A research manifesto for services science. Communications of ACM, 49(7), 35-40. Connelly, B. L., Certo, S. T., Ireland, R. D., & Reutzel, C. R. (2011). Signaling theory: A review and assessment. Journal of Management, 37(1), 39-67. Dawson, G. S., Watson, R. T., & Boudreau, M. C. (2011). Information asymmetry in information systems consulting: Toward a theory of relationship constraints. Journal of Management Information Systems, 27(3), 145-180. DeKinger, J. S., & Kohli, A. K. (2008). Flow signals: How patterns over time affect the acceptance of startup firms. Journal of Marketing, 72, 84-97. Eisenhardt, K. M. (1989). Building theories from case study research. Academy of Management Review, 14(4), 532-550. Flanagan, J. C. (1954). The critical incident technique. Psychological Bulletin, 51(4), 327-358. Gefen, D., Wyss, S., & Lichtenstein, Y. (2008). Business familiarity as risk mitigation in software development outsourcing contracts. MIS Quarterly, 32(3), 531 - 551. Gremler, D. D. (2004). The critical incident technique in service research. Journal of Service Research, 7(1), 65-89. Grove, S. J., & Fisk, R. P. (1997). The impact of other customers on service experiences: a critical incident examination of “getting along”. Journal of Retailing, 73, 63-85. Heil, O., & Robertson, T. S. (1991). Toward a theory of competitive market signaling: a research agenda. Strategic Management Journal, 12(6), 403-418. Heng, J., Blackmore, D., & Short, J. (2014). Market share analysis: Consulting worldwide, 2013. Gartner. Retrieved from https://http://www.gartner.com/doc/2733920/market-share-analysis-consulting-services. Kirmani, A., & Akshay, R. (2000). No pain, no gain: A critical review of the literature on signaling unobservable product quality. Journal of Marketing, 64(2), 66-79. Koufteros, X., Vonderembse, M., & Jayaram, J. (2005). Internal and external integration for product development: The contingency effects of uncertainty, equivocality, and platform strategy. Decision Sciences, 36(1), 97-133. Lacity, M. (1995). IT outsourcing: Maximize flexibility and control. Harvard Business Review, 73(3), 84-93. Levina, N., & Ross, J. W. (2003). From the vendor's perspective: Exploring the value proposition in information technology outsourcing MIS Quarterly, 27(3), 331-364. Lytle, A. L., Brett, J. M., & Shapiro, D. L. (1999). The strategic use of interests, right and power to resolve disputes. Negotiation Journal, 15(1), 31-49.
+Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+99
+
+Mills, P. K., & Morris, J. H. (1986). Clients as “partial” employees of service organizations: Role development in client participation. Academy of Management Review, 11(4), 726-735. Mohr, L. (1982). Approaches to explanation: Variance theory and process theory explaining organizational behavior (pp. 35-70). San Francisco: Jossey-Bass. Morely, I. E., & Stephensen, J. M. (1977). The social psychology of bargaining. London, UK: Allen & Unwin. Namasivayam, K. (2004). Action control, proxy control, and consumers' evaluations of the service exchange. Psychology and Marketing, 21(6), 463-480. Nonaka, I. (1994). A dynamic theory of organizational knowledge creation. Organization Science, 5(1), 14-37. Olekalns, M. P., & Walsh, T. (2000). Understanding optimal outcomes: The role of strategy sequences in competitive negotiations. Human Communication Research, 26(4), 527-557. Pruitt, D. G. (1971). Indirect communications and the search for agreement in negotiation. Journal of Applied Social Psychology, 1, 205-239. Pruitt, D. G. (1981). Negotiation behavior. New York: Academic Press. Ronan, W. W., & Latham, G. P. (1974). The reliability and validity of the critical incident technique: A closer look. Studies in Personnel Psychology, 6(1), 33-64. Sager, I. (2013). Where the growth is in management consulting. Bloomberg Business. Retrieved from http://www.bloomberg.com/bw/articles/2013-06-13/where-the-growth-is-in-management-consulting. Sambamurthy, V., & Zmud, R. W. (1994). IT management competency assessment: A tool for creating business value through IT. Morristown, NJ: Financial Executives Research Foundation. Sanders, W. G., & Boivie, S. (2004). Sorting things out: Valuation of new firms in uncertain markets. Strategic Management Journal, 25, 167-186. Sharma, A. (1997). Professional as agent: Knowledge asymmetry in agency exchange. Academy of Management Review, 22(3), 758-798. Slaughter, S., & Ang, S. (1996). Employment outsourcing in information systems. Communications of the ACM, 39, 47-54. Spence, M. (1973). Job market signaling. The Quarterly Journal of Economics, 87(3), 355-374. Stigler, G. (1961). The economics of information. Journal of Political Economy, 69(3), 213-225. Wathne, K. H., & Heide, J. B. (2000). Opportunism in interfirm relationships: Forms, outcomes, and solutions. Journal of Marketing, 64(4), 36-51. Watson, R. T. (2014). A personal perspective on a conceptual foundation for information systems. Journal of the Association for Information Systems, 15(8), 514-535. Weick, K. (1979). Cognitive processes in organizations. In B. M. Staw (Ed.), Research in organizational behavior B2—research in organizational behavior (Vol. 1, pp. 41-74). Greenwich, CT: JAI Press. Whinston, A. B., & Geng, X. (2004). Operationalizing the essential role of the information technology artifact in information systems research: Gray area, pitfalls, and the importance of strategic ambiguity. MIS Quarterly, 28(2), 149-159. Williamson, O. E. (1975). Markets and hierarchies, analysis and antitrust implications: A study in the economics of internal organization. New York: Free Press. Williamson, O. E. (1979). Transaction-cost economics: The governance of contractual relations. Journal of Law and Economics, 22(2), 233-261. Williamson, O. E. (1993). The economic analysis of institutions and organisations, in general and with respect to country studies. Paris: Organisation for Economic Co-operation and Development. Yin, R. K. (1993). Applications of case study research B2—applications of case study research. Thousand Oaks, CA: Sage.
+
+Volume 17
+
+Issue 2
+
+100
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+Appendix A: Interview Guide
+The purpose of this interview is to understand how consultants and clients communicate in the time leading up to a contract being signed. In particular, we are interested in knowing what information you provide to the other party (i.e., signaling) and what information you seek from the other party (i.e., screening). We are also interested in what information you choose to hold back from the other party. I want to confirm that you received my letter describing the research and that you agree to be interviewed and understand that this interview is being recorded. At no time will I call you by your full name nor will I ask you to identify the company you work for or the company that you were negotiating with. Do you agree to participate? If not: Thank you for your time and this concludes the interview. If so…….
+
+Background information on participant: • Years of experience as consultant • Years of experience as client
+
+For each project, please identify: • Type of project (e.g. strategy, implementation etc.) • General dollar size of project • Is this a small, medium or large project for your company? For the other company? • What is your role (consultant vs client)? • How long have you interacted with the other party (i.e., previous experience with the other party)?
+
+Discussion questions for a CONSULTANT: • Did you win the work? o At a premium or discount? • If you didn’t win the work, why not? • Prior to selling the project, what information did you want to share (e.g. capabilities of your firm, unique skills, project manager experience etc.)? o How much of that information were you ultimately able to share? o Was it shared directly or via a third party? • Prior to selling the project, what information did you not want to share (e.g. staffing issues, desired profit margin, etc.)? o How much of that information were you ultimately able to guard? o Was any of the information released by a third party? • Prior to selling the project, what information did your client have that you wanted (e.g. timing, technology, price, other competitors etc.)? o How much of it were you ultimately able to obtain? o Did you obtain the information from the client directly or via a third party?
+
+Discussion questions for a CLIENT: • Was the work awarded? o At a premium or discount? • How many consulting firms were in the initial mix? • Prior to awarding the project, what information did you want to share (e.g. acceptance of project, client commitment etc.)? o How much of that information were you ultimately able to share? o Was it shared directly or via a third party? • Prior to awarding the project, what information did you not want to share (e.g. staffing issues, staff resentment etc.)?
+Volume 17 Issue 2
+
+Journal of the Association for Information Systems
+
+101
+
+•
+
+o How much of that information were you ultimately able to guard? o Was any of the information released by a third party? Prior to awarding the project, what information did the consulting firms have that you wanted (e.g. timing, technology, price, other competitors etc.)? o How much of it were you ultimately able to obtain? o Did you obtain the information from the client directly or via a third party?
+
+Rich story solicitation Please walk me through the intervening time between when you first became aware of this potential deal and when the deal was signed. I am looking for details on when you contacted the other party, what information you were trying to convey or gather, how you did it (e.g., phone, person, email, etc.) and how effective it was. How many times did you make contact?
+
+Thank you and conclusion.
+
+Volume 17
+
+Issue 2
+
+102
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+Appendix B: Demographic Information and Events
+Table B1. Participant and Contract Background Category Perspective Years of experience Highest educational attainment Current companies represented Contract size Duration of signaling/screening process Participants’ background Consultant: 8 Client: 6 Both: 5 5-45 (median = 18) Bachelors degree: 4 Masters degree: 14 (all MBAs) Doctoral degree: 1 15 US$250k - >100 mil (median = $1 mil) 2-14 months (median = 6 months)
+
+Volume 17
+
+Issue 2
+
+Journal of the Association for Information Systems
+
+103
+
+Appendix C: Insights from the Contact Logs
+The contact logs provided a rich and varied view of the relationship between the consulting respondents and their clients. We saw great variation in signaling and screening based on the type of project, the knowledge used on the project, the consultant’s history with the client, and the timing in the negotiation process. For some projects, signaling and screening occurred in a tight flurry of communications before the deal was dropped or completed. These projects were generally lower-dollar projects or ones in which the services were explicit knowledge centric or non-customized. As one of these respondents said, “If I don’t see movement on a project every single week, I drop them.”. For this respondent, the sale was essentially a take-it-or-leave-it. That is, the respondent had little ability to tailor the services or adjust the price, so the only question was if the client would accept the proposed deal. For other projects, mostly commonly higher-dollar projects with very tacit knowledge-centric components, the events spread over longer periods, often several years. In one case, the respondent spent over four years working with the client to try to land a very large deal (over US$10 million). In this case, the respondent spent the vast majority of his time working with the client’s project manager to understand the roadblocks, identify the business value, and persuade other stakeholders of the value of the proposed professional services. While the timing and cost of the project were certainly incorporated into the business value effort, it was clear that they were minor or secondary factors. Finally, we consistently saw last-minute changes, usually pricing related, in the contact logs. It appears that clients often encourage consultants to “think big” about the project and its scope. At the end, it seems that they consistently cut the scope to fit in a previously unknown client budget, which suggests that the client was either withholding budget information or it simply did not disclose this essential information to the consultant. Invariably, these factors result in downsizing of the scope of the negotiation process at the very last moment.
+
+Volume 17
+
+Issue 2
+
+104
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+Appendix D: Initial Coding Scheme
+Table D1. Initial Coding Scheme Code Assumption Attribute Theoretical basis • • • • • Sample coding phrases Told Conveyed Wrote Communicated Emailed
+
+Signaling
+
+Both clients and consultants signal
+
+Client signaling Consultant signaling
+
+Heil & Robertson (1991)
+
+Screening
+
+Both clients and consultants screen Both clients and consultants withhold information
+
+Client screening Consultant screening
+
+• Asked Sanders & Boivie (2004) • Looked up • Searched Dawson, Watson, & Boudreau (2011) • • • • Deferred Didn’t share Didn’t offer Didn’t disclose
+
+Withheld
+
+Client withheld Consultant withheld
+
+Knowledge type*
+
+Both knowledge types are present
+
+High tacit knowledge Low tacit knowledge High explicit knowledge Low explicit knowledge
+
+Bassellier et al. (2001)
+
+Explicit • Looked up • Database • Read Tacit • Experience • Process • Vision • Change • Projection Process
+
+* Knowledge type refers to the level/amount of knowledge that is necessary to perform the work (in the opinion of the speaker), so we viewed it as a dimension of the project (rather than a competence exhibited by consultant/client). Said differently, a person’s competence with a certain knowledge type does not define the level of tacit/explicit knowledge necessary to perform the work.
+
+Volume 17
+
+Issue 2
+
+Journal of the Association for Information Systems
+
+105
+
+Appendix E: Sample Projects under Each Dimension*
+Table E1. Typology of Signals Tacit Low • • • • • Low No projects discussed High Security readiness assessment Data analytics assessment Project Management Office (PMO) standup 5 projects discussed Average number of: o Client signals: 3 o Client screens: 2 o Client withholds: 2 o Consultant signals: 3 o Consultant screens: 4 o Consultant withholds: 2 ERP Implementation Medicaid system implementation Cloud computing implementation 12 projects discussed Average number of: o Client signals: 3 o Client screens: 3 o Client withholds: 2 o Consultant signals: 5 o Consultant screens: 8 o Consultant withholds: 2
+
+Explicit
+
+• • • • •
+
+High
+
+IT costing of various computer towers using a costing database Telecommunications installation Hardware sales 7 projects discussed Average number of: o Client signals: 2 o Client screens: 2 o Client withholds: 1 o Consultant signals: 4 o Consultant screens: 1 o Consultant withholds: 1
+
+• • • • •
+
+* The number of signals, screens, and withholds add up to more than our 228 total events since some of the signals were false signals (signals that were also withholds).
+
+Volume 17
+
+Issue 2
+
+106
+
+A Knowledge-centric Examination of Signaling and Screening Activities in the Negotiation for Information Systems Consulting Services
+
+About the Authors
+Gregory Dawson is an Assistant Professor at the W.P. Carey School of Business at Arizona State University and is also a Research Fellow at the Center for Organization Research and Design (CORD) within the College of Public Programs also at Arizona State University. He was awarded his PhD in Information Systems from the Terry College of Business at the University of Georgia. Prior to becoming an academic, He was a Partner in the Management Consulting Practice at PricewaterhouseCoopers joining PwC (formerly Coopers & Lybrand) in the Washington DC office and later relocating to Sacramento, California. He was a leader in the field of public sector outsourcing as well as information systems implementation. After leaving PwC, he was a Director at Gartner, working in the state and local government practice. His research has been published numerous academic and practitioner outlets and he has won numerous teaching awards in the graduate and undergraduate teaching platforms. Richard Watson is a Regents Professor and the J. Rex Fuqua Distinguished Chair for Internet Strategy in the Terry College of Business at the University of Georgia. He is the current Research Director for the Advanced Practices Council of the Society of Information Management and a former AIS President. In 2011, he received the AIS LEO award. As a visiting researcher at Viktoria Swedish ICT, he is engaged in establishing and applying Maritime Informatics to the European shipping industry. He is an Honorary Visiting Professor at Xi'an Jiaotong University. He has published over 170 journal articles and written books on electronic commerce, data management, and energy informatics. His work has been accepted by leading academic and practitioner journals and has been translated into several languages. He has made contribution on themes such as group support systems, information service quality, website quality, U-constructs, frugal IS, energy informatics, dominant logic, digital data streams, and episodic tight coupling. Dr. Watson has given invited presentations to practitioners and academics in more than 30 countries. Marie-Claude Boudreau is an MIS Associate Professor in the Terry College of Business at the University of Georgia and Chair of the MIS Department. Her research is focused on organizational change phenomena, often examining the consequences (expected or not) associated with the implementation and use of information systems/technologies in work settings. Her teaching interests include the design and management of databases, business intelligence, R, and business process management. Leyland Pitt is the Dennis F. Culver EMBA Alumni Chair of Business, Beedie School of Business, Simon Fraser University, Vancouver, Canada, and affiliate Professor of Marketing at the Royal Institute of Technology (KTH), Stockholm, Sweden. He has also taught on programs at major international business schools such as the Graham School at the University of Chicago, Graduate School of Business, Columbia University, London Business School, and the Wirtschafts Universitat Vienna/ Carlsson School of Management, University of Minnesota. The author of over 300 papers in peer-reviewed journals, his work has been accepted for publication in The Journal of Advertising Research, The Journal of Advertising, Information Systems Research, Journal of the Academy of Marketing Science, Sloan Management Review, California Management Review, and MIS Quarterly (which he also served as Associate Editor), amongst others. In 2002, he was awarded the Outstanding Marketing Teacher of the Academy of Marketing Science, and in 2010 he was named the Pearson-Prentice Hall Solomon Marshall Stuart Innovative Marketing Teacher of the Year.
+
+Copyright © 2016 by the Association for Information Systems. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and full citation on the first page. Copyright for components of this work owned by others than the Association for Information Systems must be honored. Abstracting with credit is permitted. To copy otherwise, to republish, to post on servers, or to redistribute to lists requires prior specific permission and/or fee. Request permission to publish from: AIS Administrative Office, P.O. Box 2712 Atlanta, GA, 30301-2712 Attn: Reprints or via email from publications@aisnet.org.
+Volume 17 Issue 2
+
+Copyright of Journal of the Association for Information Systems is the property of Association for Information Systems and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+

@@ -1,0 +1,544 @@
+J
+Research Paper
+
+ournal of the
+
+A
+
+ssociation for
+
+I
+
+nformation
+
+S
+
+ystems
+ISSN: 1536-9323
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+Michael J. Cuellar
+Information Systems, Georgia Southern University, USA mcuellar@georgiasouthern.edu
+
+Hirotoshi Takeda
+Département des systèmes d'information organisationnels, Université Laval, Quebec, Canada hirotoshi.takeda@fsa.ulaval.ca
+
+Richard Vidgen
+UNSW Business School, University of New South Wales, Australia r.vidgen@unsw.edu.au
+
+Duane Truex
+CIS, Georgia State University, USA dtruex@gsu.edu
+
+Abstract:
+Assessing the research capital that a scholar has accrued is an essential task for academic administrators, funding agencies, and promotion and tenure committees worldwide. Scholars have criticized the existing methodology of counting papers in ranked journals and made calls to replace it (Adler & Harzing, 2009; Singh, Haddad, & Chow, 2007). In its place, some have made calls to assess the uptake of a scholar’s work instead o f assessing “quality” (Truex, Cuellar, Takeda, & Vidgen, 2011a). We identify three dimensions of scholarly capital (ideational influence (who uses one’s work?), connectedness (with whom does one work?) and venue representation (where does one publish their work?)) in this paper as part of a scholarly capital model (SCM). We develop measurement models for the three dimensions of scholarly capital and test the relationships in a path model. We show how one might use the measures to evaluate scholarly research activity. Keywords: Affiliation Network Analysis, Bibliometrics, Citation Analysis, Connectedness, Hirsch Family Indices, Ideational Influence, IS Research Evaluation, Scholarly Capital, Scientometrics, Social Network Analysis, Venue Representation.
+John Mingers was the accepting senior editor. This paper was submitted on October 2, 2013 and went through three revisions.
+
+Volume 17
+
+Issue 1
+
+pp. 1 – 28
+
+January
+
+2016
+
+2
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+1
+
+Introduction
+
+In most academic institutions, judgments about scholars’ capability to produce and publish research at a sufficiently high level make up a key part of decisions about recruiting, retaining/re-appointing, promoting, funding, and granting tenure to them. This evaluation process has pragmatic consequences when comparing the abilities of one researcher or of a set of researchers to others. Indeed, scholarly evaluation impacts the very survival of academic programs, academic departments, and individual faculty. Historically, stakeholders have evaluated information systems (IS) researchers—as individuals and as collectives—by counting the number of publications they have published in “quality” venues with publications in the highest-ranked journals carrying the heaviest weighting. This journal-ranking approach seems logical. Those researchers active in a field, together with the editors and editorial board members of the field’s journals, have a sense of the relative quality of the many publication venues relevant to the field. Certainly, people in the field know it better than someone from outside it who may be charged with evaluating a scholar to, for example, hire them or decide if they should receive tenure. Someone making such a judgment may reasonably seek a warrant or indicator as to the value of a scholar’s work. Thus, many institutions refer to informed and composite journal rankings. Relying on such journal rankings saves evaluation committees from having to examine and judge individual scholars ’ merits in detail themselves (i.e., journal ranking lists provide them with a ready evaluative shorthand). However, two issues arise in adopting this ranking approach. First, one can question the methods for determining what constitutes the “best” journals. Scholars have proposed various ways of establishing journal quality (e.g., journal impact factor and citation counts), but perhaps the most widely used technique in use today is the journal ranking mechanism. Journal rankings are typically determined via surveys of researchers or by relying on the opinions of expert panels, such as the Academic Journal Quality Guide that the Association of Business Schools produces (Harvey, Kelley, & Rowlinson, 2010). A body of literature concerned about the subjectivity of such rankings exists, and this literature has voiced a growing concern over ways in which these “received” measures are biased or are merely schemes to preserve power regimes already in place (Chua, Cao, Cousins, & Straub, 2002; Gallivan, 2009; Hardgrave & Walstrom, 1997; Singh et al., 2007; Truex, Cuellar, Vidgen, & Takeda, 2011b). In a recent paper, Mingers and Willmott (2013) detail the consequences of using journal lists “to correct the biases ascribed to evaluators of research quality” (p. 2) and describe the controversy these lists have generated in the UK and Commonwealth countries because using such lists somewhat “shoehorns horizontal diversity of research and scholarship into a single, seemingly authoritative vertical order… , privileging the research agendas of those journals and devaluing research published elsewhere, irrespective of its content and contribution” (p. 2). Second, current research has shown that the concept of quality itself is one which has not been well theorized. To date, no field has adopted a “theory of academic literature quality”, nor has anyone even proposed one (Dean, Lowry, & Humpherys, 2011; Locke & Lowe, 2002; Straub & Anderson, 2010). As a consequence, the literature has become a battleground over developing a gold standard for academic venues. The situation has become one in which different groups use different surrogate measures to compare the “quality” of one venue to another. They use measures such as rejection rates, citation counts, impact factors, and other bibliometrics to assert the supremacy of a particular publication venue, all of which scholars have shown to be biased measures (Chua et al., 2002; Hardgrave & Walstrom, 1997). Even then, once one decides on the venue list, studies have shown these top journals are not effective at identifying papers that their respective field will highly use (Singh et al., 2007). In short, the discourse is one in which journal “quality” becomes self-enforcing via a kind of reification by repetition (Truex, Cuellar, & Takeda, 2009). Reviewers and editors expect that manuscripts under review include those publication venues featured in ranking lists in their citations and bibliographies, which further cements these journals’ position. Therefore, in this paper, we argue that—given that we lack a theory of academic quality or clearly accepted criteria of academic quality and the problems that highly ranked venues have in identifying papers that go on to become highly influential —one should base hiring, promotion, and tenure decisions not on whether a scholar’s work is of sufficient quality but whether the scholar possesses sufficient scholarly capital to enable the scholar’s organization to achieve its research goals. This change allows us to move from the quixotic quest to identify quality in scholarly output to the more realizable and pragmatic exploration of what measurable scholarly capital an academic brings to their organization.
+Volume 17 Issue 1
+
+Journal of the Association for Information Systems
+
+3
+
+To assess a scholar’s capital, we propose the scholarly capital model (SCM). The SCM is based on the idea that, when evaluating a scholar’s research capabilities as part of making hiring, promotion , and tenure decisions, organizations should consider three things: 1) the extent to which other scholars take up the scholar’s work (ideational influence), 2) who the scholar works with (connectedness), and 3) how well the scholar publishes in venues in the scholar’s field (venue representation). These three dimensions make up the capital that a scholar possesses to perform scholarly activity. Scholars need favorable results in each dimension to impact their field and, thus, provide their institution(s) with increased research capability and prestige. Taken together, these three dimensions represent the extent to which one can say a researcher has scholarly capital, which we argue provides a more rounded and democratic view of a scholar’s impact than a simple count of papers in a small set of high ly ranked journals. As such, in this paper, we explain and test the SCM via rigorously developing the model’s concepts and relationships and empirically examining these relationships by testing a set of hypotheses that we draw from the model. A useful practical outcome of this research is a method for profiling the capital of individual scholars that one can automate. This paper proceeds as follows. In Section 2, we define and describe the SCM and the sub-constructs of scholarly capital: ideational influence, connectedness, and venue representation. In Sections 3 through 7, we show how one can operationalize and automate each sub-construct, and we illustrate these relationships by applying them to a set of scholars drawn from the information systems research field. Finally, in Sections 8, we show how one can use the measures of ideational influence, connectedness, and venue representation to compare and contrast individual scholars in terms of their relative capital. In Section 9, we conclude with the research’s limitations and potential for future work.
+
+2
+
+Scholarly Capital
+
+With this paper, we continue an on-going academic discourse exploring the nature of academic scholarship and the way it is evaluated. Previous work has identified that the current method of evaluating scholarly output (i.e., counting publications in ranked journals) is problematic (Singh et al., 2007; Truex et al., 2009; Truex et al., 2011a). Quality as a concept is under theorized (Locke & Lowe, 2002; Straub & Anderson, 2010) and has, therefore, been used in the context of evaluating scholarly output in an implicit manner. The method individuals choose to select and rank journals is often biased (Chua et al., 2002; Hardgrave & Walstrom, 1997), and top-ranked journals often fail to publish what the field believes are important papers (Singh et al., 2007). We further recognize that journal lists have performative effects. Research becomes “homogenized” to meet the standards of the highly ranked journals to the detriment of substantive contributions and diversity. Originality is no longer as important as the ability to produce research that conforms to the standards of normal science (Mingers & Willmott, 2013). As a result, some have called for changing how we evaluate scholars. As Adler and Harzing document: Lawrence (2003, p. 261) unambiguously recommends that “we can all start to improve things by toning down our obsession with the journal. The most effective change by far would be…to place much less trust in a quantitative audit that reeks of false precision.” Lawrence (2002, p. 835) urges academia to “stop measuring success by where scientists publish and [to] use different criteria, such as whether the work has turned out to be original, illuminating and correct.” Starbuck (2005, p. 205) likewise concludes that those evaluating scholars for promotion and tenure need to stop ignoring the randomness of article placement in journals, and more importantly, stop basing evaluations “on one myopic measure.” Bennis and O’Toole (2005) similarly worry that the current emphasis on journal rankings is directly responsible for retarding the publication of relevant management knowledge. Scholars seeking to publish in top journals “tend to tailor their choice of topics, methods, and theories to the perceived tastes of these journals’ gatekeepers. A likely result…is stagnation in the advancement of management knowledge and a disconnection from the needs of the business community”. (Adler & Harzing, 2009, p. 78) Given the present system ’s deleterious effects, we recommend that we should evaluate scholars’ scholarly capital instead of publication quality. As we show in Section 3, the SCM provides a well-defined set of concepts and measures that makes it amenable to automating when one needs to evaluate scholars’ research ability. SCM moves the evaluation mechanism beyond one myopic measure to a profile of multiple measures that represent scholarly capital in terms of a scholar’s ideational influence, connectedness, and representation in their field’s venues.
+
+Volume 17
+
+Issue 1
+
+4
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+2.1
+
+Scholarly Capital
+
+As we discuss in Section 3, scholarly capital is the collection of capabilities and reputational assets that a scholar brings to an organization. It represents the bank of capital that the scholar has to develop and spread their ideas throughout a field. Truex et al. (2011a) identifies two forms of capital: ideational influence (passive: who is using one’s work?) and what they term social influence (active: who does one work with?). Yan and Ding (2009) also observe a correlation between citation counts and centrality measures and suggest that citations measure papers’ impact while network centrality measures authors’ impact. In this paper, we rename “social influence” to “connectedness” to better describe the construct. To these two forms of capital we add a third type: venue representation (where is one’s work published?). The scholarly capital model (see Figure 1 below) shows the relationship of these three types of capital.
+
+Figure 1. Scholarly Capital Model (SCM)
+
+One should view the SCM as embedded in a larger and dynamic context (see Figure 2 below). The inner part of the causal map diagram represents the reciprocal relationships between the three parts of the SCM. The outer part of the diagram shows research funding, impact on practice, and impact on career. Although the outer part of the diagram is outside our scope here, it is useful in showing the SCM ’s boundaries and in identifying areas for further development (e.g., how can we measure a scholar's impact on practice?). The figure also shows the ability to attract research funding, impact practice, and scholarly impact as enablers of academic advancement. The influence diagram shows all relationships as positive in the sense that, as levels in one rise or fall, levels in the connected concept rise or fall in the same direction. Although beyond our scope, by extending the diagram to incorporate negative relationships, one could model virtuous and vicious circles in the dynamics of academic life.
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+5
+
+Ability to attract research funding
+
+Impact on policy and practice
+
+Ideational influence Scholarly capital Career advancement
+
+Connected -ness
+
+Venue representation
+Figure 2. Scholarly Capital Model (SCM) in Context
+
+For our purposes here, we focus on the inner part of Figure 2 (i.e., scholarly capital).
+
+3
+
+Model Development
+
+In this section, we further develop the SCM by providing a theoretical account of scholarly capital, how it arises, and how one can measure it. The model starts from defining the field (i.e., those scholars who are most concerned with developing the IS paradigm) (Kuhn, 1996). Having defined the field, one can discuss the theoretical roots of each of the three types of capital, how they arise, and how one can operationalize them.
+
+3.1
+
+Defining the IS Field
+
+To define the field, we begin by establishing publication venues as institutions that are the field’s “outposts”. We view publication venues—principally journals and conference proceedings —as institutions because, as North (1991) indicates, the venues are human-devised structures that enable and constrain interaction in fields. The idea of the “institution” has a well-established literature and theoretical base (see Delbridge and Edwards (2007) for a review). North (1991) defines institutions as: …the humanly devised constraints that structure political, economic and social interaction. They consist of both information constraints (sanctions, taboos, customs, traditions, and codes of conduct), and formal rules (constitutions, laws, property rights). Throughout history, institutions have been devised by human beings to create order and reduce uncertainty in exchange. In our research, publication venues represent the major repository of explicit knowledge in a research field and serve to reduce uncertainty through peer review and editorial processes, which allow one to address questions such as: “can this research be trusted?”, “is it credible?”, “is it relevant?”, and, “is it well executed?”. Venues provide these benefits to scholars in exchange for those scholars accepting the constraints that the peer-review and editorial processes provide. Publication venues as academic institutions both constrain and enable the actions of organizations and individual actors. As institutions, publication venues constrain because, when individual researchers and departments seek to gain legitimacy by aligning themselves with specific venues, they are subject to coercive, normative, and mimetic institutional pressures (DiMaggio & Powell, 1983). Coercive pressures arise from standards and processes (such as the review process), such as when editors and reviewers request certain changes in the authors’ proposed publication. Normative pressures arise from professionalization in networks of researchers with similar educational backgrounds and aspirations. Mimetic pressures arise as researchers and departments model themselves on other researchers and on
+
+Volume 17
+
+Issue 1
+
+6
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+departments that they see as successful (e.g., those capable of publishing in the venues that the research field values). Following this argument, publications venues both legitimize and define a field’s boundaries. Accordingly, we propose that one way to define a field is by identifying the set of publication venues— typically journals and conferences—that constitute that field’s institutions that disseminate knowledge. A field’s research paradigm (Kuhn, 1996) describes what the field believes about the nature of reality, the prescribed methods for researching that reality, and the approved/preferred venues for publishing research findings. Publishing in these venues confers legitimacy on the research findings of academics wishing to contribute to their field’s body of knowledge. Through publishing in their field’s venues, IS academics both establish themselves as part of the IS field and simultaneously create that field.
+
+3.1.1
+
+Operationalizing the IS Field
+
+Although no definitive list of IS venues exists, one can identify venues by considering sources such as the IS Senior Scholars’ journal recommendations (www.aisworld.org), listings produced by national research councils (e.g., the Australian Research Council gives each journal a “field of reference” code or codes for evaluating research output by subject area), and other journal listings (e.g., the U.K. Association of Business Schools listing includes an IS section). However, such an approach runs counter to our mission of developing a data-driven approach that one can automate. Mingers and Leydesdorff (2014) show that one can identify academic fields by analyzing the cross-citations between journals. Using factor analysis, Mingers and Leydesdorff identify clusters of journals that correspond with different subfields in business and management. We propose that one can use such an approach to automate the selection of the venues that constitute a field such as IS. Having defined and operationalized the research field (i.e., the publication venues that constitute that field), we now consider three different forms of scholarly capital.
+
+3.2
+
+Ideational Influence
+
+One may measure a scholar’s productivity in terms of how many papers they publish. Raw publication counting is, however, an incomplete measure because, although having been published (i.e., being productive) is a necessary prerequisite to being cited, a scholar's capital derives not just from publishing their ideas alone or even in having a continuing stream of ideas published and available to others but in having those ideas considered (taken up) and acknowledged by others in the form of citations. If a scholar’s research is rigorously executed and flawlessly written but is unknown, then it is as if the research were never done. Therefore, part of a scholar’s capital derives not just from the number of works published but more importantly if (and how) others acknowledge and use those works. Truex et al. (2009) define ideational influence as a field’s uptake of a scholar's ideas. We limit the concept of ideational influence to mean the uptake of a scholar’s ideas via published research. This definition distinguishes it from social influence or other means of spreading their ideas. It follows that, if a scholar’s research is influential or speaks to a topic in a way other scholars deem relevant, other scholars will draw on it in their research (and, presumably, cite it in that research). Thus, the extent to which a field takes up a scholar’s ideas is a key pointer to the field’s direction and what the field considers to be important. Therefore, one finds ideational influence in a field’s use of published literature, and the process by which ideational influence arises is at the heart of the research process. In the course of their work, a scholar accesses previously published work perhaps as part of a literature review, perhaps as part of an effort to support their arguments in developing their paper, or perhaps in responding to a review. Latour (1987) argues that scholars use published literature for just this reason: to buttress one’s arguments against those who argue against their point. He further suggests that scholars proactively use published work to preempt and ward off attacks to their papers’ argument and premises, which is one reason why practitioners find it so difficult to read scientific papers. Scholars also cite literature in critiquing previous research (e.g., to argue that a previous paper is incorrect and should be refuted). Indeed, a solid literature review is a necessary requirement for any academic publication (Rowe, 2014). The process by which one selects and includes literature in a paper is key to ideational influence’s development (Rowe, 2014; Sutton & Staw, 1995; Webster & Watson, 2002; Weick, 1989, 1995). First, previous research must be visible to the author; that is, the author must know that the research exists and where it is. One can accomplish visibility in various ways. If the literature is published in a “notable” venue (i.e., one that is well known to the field), it will be more visible than one that is published in an obscure
+Volume 17 Issue 1
+
+Journal of the Association for Information Systems
+
+7
+
+journal that is known only by a small number of people. However, this issue is declining in importance with the rise of automated search mechanisms such as Google Scholar, Web of Science, and Scopus. These automated tools level the playing field by making all publications more visible. Second, once visible to the author, the research must be appropriate; that is, it must add value to the citing paper (e.g., to defend or ward off attacks on it) (Latour, 1987). Third, the previous research must be credible; it must be appropriately argued and not easily dismissed by opponents. Credibility is derived from the source’s trustworthiness and expertise (Pornpitakpan, 2004). Trustworthiness means that the source can be relied on to make truthful assertions. Expertise refers to one’s having the background and skills to make an accurate statement. In the context of academic literature, the proposed source should conform to the canons of normal science. Kuhn (1996) argues that, for a scientific field to enter a period of normal science requires: 1) a paradigm, an established understanding of the world’s nature, appropriate research questions, and agreed-on methods for studying the questions. Therefore, during periods of normal science, scientists will choose literature that conforms to their understanding of normal science in their field to cite. Only in dealing with anomalies, findings that cast doubt on existing understandings, does the scientist elect to cite literature that contradicts normal science. Therefore, assessing expertise is based on how well a publication being considered for citation conforms to the methods agreed on in normal science. Thus, for a publication to exert ideational influence, the publication must be visible, appropriate, and credible. One can then include such a publication in their literature review to support their own arguments or to critique and/or refute other arguments. When this process occurs, we can say that the referenced paper influences the field. In most academic fields, such as information systems, citation counting and citation patterns are the primary way that the fields express ideational influence. Of course, there are times when this standard is broken and scholars cite papers that do not meet the criteria for ideational influence. This situation occurs, for example, when journal editors require certain citations as a condition for publication (Bjorn-Andersen & Sarker, 2009; Crews, McLeod, & Simkin, 2009; Janz, 2009; Romano, 2009; Straub & Anderson, 2009). While citation patterns might be distorted as a result of such practices, the distortion is sufficiently small such that citation data is still the most appropriate proxy for a field’s uptake of a scholar’s ideas.
+
+3.2.1
+
+Operationalizing Ideational Influence
+
+Scholars have operationalized ideational influence with the Hirsch family of indices (Egghe, 2006; Hirsch, 2005; Sidiropoulos, Katsaros, & Manolopoulos, 2006) for both scholars and journals (Cuellar, Takeda, & Truex, 2008; Truex et al., 2009; Truex et al., 2011a). Scholars have used three of the Hirsch family indices to assess scholars’ ideational influence. The first h-statistic proposed is the “native h-index” or simply “hindex”. Hirsch (2005, p. 16569) developed the h-index to “quantify the cumulative impact and relevance of an individual’s scientific research output”. Although promising, naively using the “native-h” statistic is problematic, and some have challenged it as being “biased” in several ways (Mingers, 2009; Mingers, Macri, & Petrovici, 2012; Truex et al., 2009). For example, consider a scholar who produces a paper that garners a large number of citations but whose other papers are poorly cited. The native h-index is insensitive to the number of citations to a paper once it has received a number of citations higher than the h-index itself. The question asked is: when given two scholars with the same h-index, does not the one having a higher number of citations to their papers have greater influence? To address this concern and adjust for this difference, Egghe has proposed the “gindex” (Egghe, 2006). The g-index gives greater weight to highly cited papers. Some have also criticized the h-index for favoring older publications. Papers that have been in print for a longer period of time have had more of a chance to gain citations. Newer papers may be as influential or become more influential than older papers given sufficient time. To address this concern, scholars have proposed the contemporary h-index or hc-index (Sidiropoulos, Katsaros, & Manolopoulos, 2006). The hcindex weights citations to more recent papers more highly. By using the hc-index, we can compensate for the effects of time and create comparability between papers of different ages. By using all three of these indices—h, hc, and g—we can build a profile of scholars’ ideational influence that one can use to compare their relative influence. One aspect that previous research consistently highlights is that one should not rely on a single metric when assessing a researcher’s impact; rather, one should use a set of metrics to measure the researcher’s impact (Bornmann, Mutz, & Daniel, 2008; Mingers et al., 2012). In compliance to this call for multiple measures, we contend that using a set of hfamily measures will provide a more rounded and reliable measure of a scholar’s ideational influence.
+
+Volume 17
+
+Issue 1
+
+8
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+3.3
+
+Connectedness
+
+Scholars have established that the development of scientific knowledge is a social phenomenon (Bhaskar, 1997; Bourdieu, 1984; Kuhn, 1996; Pinch & Bijker, 1984). Bourdieu (1984) discusses the importance of social interaction in as an item of capital in the domain of “the academy”. He analyzes academic sociology and explores how social networks contribute to the building and exercising of power. For Bourdieu, the nature and structure of these social networks is critically important. According to Field (2003, p. 1), Bourdieu’s central thesis is that: relationships matter. By making connections with one another, and keeping them going over time, people are able to work together to achieve things that they either could not achieve by themselves, …People connect through a series of networks and they tend to share co mmon values with other members of these networks; to the extent that these networks constitute a resource, they can be seen as forming a kind of capital…. This stock of capital can often be drawn on in other settings. Thus, we see the network connections a scholar makes can be important in determining their ability to perform in the academic arena. In interpreting findings or developing theories, scientists interact with each other to help flesh out theories or test these theories either formally through the publication process or informally through interactions at conferences and other meetings or through media such as telephone and email. These interactions mold and shape the ideas of those interacting and eventually help foster the consensus that determines what the field regards as “truth” (Habermas, 1985). By connecting with other scholars, scholars form of their social capital, which they can draw on to interact with and impact their field. The closer they are to key influencers, the more they are able to have their ideas accepted and spread through the field. Through their connectedness in social networks, scholars are able to build and leverage scholarly capital.
+
+3.3.1
+
+Operationalizing Connectedness
+
+As social interactions occur, the informal interactions sometimes create formalized relationships. One may instantiate this formalization by co-authoring a paper, becoming a doctoral student-advisor, joining a faculty and becoming co-workers on the same faculty, or forming virtual research teams. These formalized relationships can produce co-authored papers that report on scholars’ research collaborations. The scholars’ joint vested interest in seeing the fruits of their shared research labor published in the most suitable venue further cements the relationship. These papers, therefore, represent the result of joint activity between scholars, and one can use co-authorships to represent the overall scholarly social network and the connectedness of individual scholars. To capture and assess connectedness, we analyze co-authorship relationships using social network analysis (SNA) (Vidgen, Henneberg, & Naude, 2007). Among other things, SNA assesses network centrality: the types and quantity of connections that one member of the network has to other members of the network. By examining the centrality measures of the various members of the community, one can arrive at a set of measures that assess the connectedness of each member of a research community. In its simplest form, a network comprises nodes and edges. A node is a point on the network (Barbasi & Albert, 1999; Coleman, 1988; Kleinberg, 2000; Travers & Milgram, 1969). In co-authorship networks, the authors are the nodes. An edge in a network is a line connecting two nodes (Barbasi & Albert, 1999; Coleman, 1988; Kleinberg, 2000; Travers & Milgram, 1969). An edge can be non-directional, directional, or bidirectional. Co-authorship relationships are modeled as non-directional. SNA provides three principal measures of centrality (degree, betweenness, and closeness) to analyze the aggregate distances between one author and the rest of the network (Freeman, 1979; Wasserman & Faust, 1994):  Degree centrality of a node is concerned with the number of edges coming into (in-degree) or out of (out-degree) the node. With a non-directional relationship, such as co-authorship, indegree and out-degree are the same. Degree centrality indicates how many co-authorship interactions a particular scholar has with other scholars. Betweenness centrality represents the number of times a node intersects the shortest path between two other nodes, which indicates the extent to which a scholar plays a linking role
+Volume 17 Issue 1
+
+
+
+Journal of the Association for Information Systems
+
+9
+
+between other scholars. Scholars with high betweenness centrality are likely to be necessary conduits linking scholars in disparate parts of the network. Closeness centrality is the reciprocal of farness, which is the sum of a node’s shortest distance to all other nodes. The higher a scholar’s closeness centrality, the lower its total distance to all other nodes. Scholars with high closeness centrality may be able to spread their ideas more quickly. By computing each of these centrality measures, we can arrive at a profile of connectedness that is useful for comparing scholars one to another. 
+
+3.4
+
+Venue Representation
+
+The place in which a scholar’s work is published is a further source of capital for scholars. We refer to the kind of resource that arises from the publishing venues in which a scholar's work appears as venue representation. A scholar accrues venue representation through publishing in venues that are central to their field’s body of knowledge; the more central a venue to the research field, the greater the capital accruing to a scholar who publishes in that venue. Venue representation derives from the visibility that a research artifact receives by virtue of being published in a research venue. Visibility and accessibility of research artifacts increases with the number of scholars who publish in that venue; as a venue gains more scholars, it gains more visibility to other scholars and, thus, a paper has more opportunity to be seen and the ideas taken up.
+
+3.4.1
+
+Operationalizing Venue Representation
+
+We operationalize venue representation using the affiliation network. An affiliation network is a two-mode network with a single set of actors where the second mode is a set of events, such as a club or a social gathering to which the actors belong. In the affiliation network, the links are not between the actors but between actors and events: an affiliation network is a network in which actors join together by being members in a group (Sasson, 2008). A subset of actors engage in each of the events, and, thus, the event describes the subset of actors and the actors describe the subset of events to which they belong (Wasserman & Faust, 1994). One can then define the group by the events and the interrelatedness of the events and actors. By using an affiliation network, one can classify actors by events, and the actions of those actors define the value of the affiliation. Mediating organizations facilitate the events and create value for the affiliates by enabling the events. The structural embeddedness of mediating organizations (Granovetter, 1985) affects the value that accrues both to affiliates and to mediators. The duality of the nested structure of affiliation implies that the behavior and performance of actors in the affiliation affects the behavior and performance of mediators and vice versa (Breiger, 1974; Sasson, 2008). Mediators, in the case of this research, are publishing venues —typically academic journals and conferences. Events occur when actors (an academic or a group of academics) publish in a venue. The duality of this nested arrangement is apparent: venues are sustained by the academics that publish in those venues, while academic profiles are created by those same venues without which there would be no h-indices or co-authorship arrangements. Therefore, the affiliation network is a simple but effective way of capturing the idea of publishing venues as the institutions that create and are created by the academic community of a research field.
+
+3.4.2
+
+Assessing Venue Representation
+
+One can picture an affiliation matrix as one in which the rows represent scholars and the columns represent publication venues, which is clearly not the same as the square co-authorship matrix. For illustration purposes, Figure 3 shows an affiliation matrix comprising six scholars (S1 through S6) and four publication venues (V1 through V4) in which, for example, scholar S2 has published three times in venue V2 and once in venue V4. The affiliation matrix is represented graphically on the right side of Figure 3 in which the scholars are represented by circles and the publication venues by squares. The repetition of ties between scholar and venue are labeled with the number of times the scholar has published in that venue.
+
+Volume 17
+
+Issue 1
+
+10
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+Figure 3. Illustration of Affiliation Network Matrix and Graph
+
+To analyze the affiliation matrix to find out which scholars are closest to the publication venues that are central to the field, one transforms the affiliation matrix into a bipartite matrix in which the scholars and venues are kept together in a square matrix that one can then subject to a range of standard networkanalysis techniques. Although one can represent any affiliation network as a bipartite graph, Borgatti and Everett (1997) note that, in this case, normalizing the scores would not be valid. Borgatti and Everett (1997) propose a routine that provides appropriately scaled results by normalizing the scores against the maximum possible scores in an equivalently sized connected affiliation network. This algorithm produces scaled measures of degree, closeness, and betweenness for affiliation networks and is implemented in the UCINET social network analysis package (Borgatti, Everett, & Freeman, 2002) (and is the set of measures we use in this research). Although we adopt the same types of measures of network centrality for venue representation as we use for connectedness, we apply them to different networks (scholars and publication venues rather than co-authorships (scholars with scholars)) and to different network forms (an affiliation, two-mode network, rather than the one-mode network used in co-authorships).
+
+4
+
+Research Approach
+
+In this section, we test the scholarly capital model’s (SCM) internal linkages and measurement model. Based on the SCM, we propose three hypotheses of how the three constructs are related, and we test them through a PLS (partial least squares) analysis of a sample of data drawn from the IS field. As we use PLS path modeling, we cannot model the reciprocal associations and dynamic relationships of Figure 2. As such, we develop our hypotheses by arguing for connectedness as an antecedent, ideational influence as an outcome, and venue representation as an intermediary. However, a benefit of using PLS is that one can report correlations between the three constructs and evaluate the measurement model’s validity and reliability.
+
+5
+
+Research Model and Hypotheses
+
+In Section 3, we suggest that the visibility and legitimacy that arises by becoming central to the field by publishing in many venues of a field constitutes venue representation. Research has shown that publications are increasingly moving from being solo authored to co-authored (Peffers & Hui, 2003). To achieve publication requires the ability to frame arguments in forms that a field accepts. Those scholars who have high levels of connectedness are more likely to have access to the innermost researchers in their community (i.e., those researchers who have a demonstrated ability to publish according to the field’s norms). This connection to other researchers can also open up more opportunities to publish in the form of invitations and can create a positive disposition on the part of editors and reviewers toward their papers. Thus, we would expect those scholars with high levels of connectedness to have good access to the publishing venues that are core to the knowledge base of the field. Therefore, we hypothesize that: H1: Scholars with higher levels of connectedness are associated with higher levels of venue representation.
+
+In Section 3, we propose that ideational influence is partially created by a belief that the scholar’s research is credible. Prior research has shown that belief in the credibility of the research is formed by an impression of the author’s trustworthiness and expertise (Pornpitakpan, 2004). The extent to which a scholar is “well connected” to central authors in their field provides an indication of their reputation, trustworthiness, and expertise. Higher levels of connectedness further help a scholar to increase the
+Volume 17 Issue 1
+
+Journal of the Association for Information Systems
+
+11
+
+volume of their scholarly output (as compared with working alone), which reflects the trend toward multiauthored research (Peffers & Hui, 2003). Therefore, we hypothesize that: H2: Scholars with higher levels of connectedness are associated with higher levels of ideational influence.
+
+We argue in Section 3 that, in addition to credibility, a paper needs to be visible for it to have ideational influence. One promotes their visibility by publishing in higher-viewed venues. Venue representation measures the centrality of scholars to the venues of their field. A scholar who publishes in venues central to their field will tend to have higher visibility than scholars who do not do so. Additionally, scholars have found that scholars who publish in venues that are central to the ir field’s knowledge base to be those who have high ideational influence (Truex et al., 2009). Scholars who published in both North American- and European-based journals have tended to be those with high h-indices (Truex et al., 2009). Therefore, we expect that scholars publishing in the venues that are most central to their field will be more visible to the field and, thus, that their papers will tend to have more citations. Therefore, we hypothesize that: H3: Scholars with higher levels of venue representation are associated with higher levels of ideational influence.
+
+Figure 4. Research and Measurement Model
+
+Figure 4 shows the research model with hypotheses, constructs, and measures. The model shows ideational influence as the dependent variable; that is, while connectedness and venue representation are important, their ultimate relevance is in their contribution to ideational influence. Further, there is a pragmatic motivation for treating ideational influence as the outcome: the leading methodologies for the ranking of universities use citations as a measure of research influence. The QS world ranking of universities (www.topuniversities.com) gives citations a 20 percent weighting when calculating its ranking, while the Times Higher Education (THE) weights “research influence” at 30 percent; the latter argues: Our research influence indicator is the flagship. Weighted at 30 per cent of the overall score, it is the single most influential of the 13 indicators, and looks at the role of universities in spreading new knowledge and ideas. (Times Higher Education, 2012) It also states that: The citations help show us how much each university is contributing to the sum of human knowledge: they tell us whose research has stood out, has been picked up and built on by other scholars and, most importantly, has been shared around the global scholarly community to push further the boundaries of our collective understanding, irrespective of discipline. (Times Higher Education, 2012) The research model also shows the measurement items. For connectedness and venue representation, we use the most widely adopted network measures (closeness centrality, betweenness centrality, and degree centrality), which we describe in Section 3. For ideational influence, we use the three most
+Volume 17 Issue 1
+
+12
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+common H-family statistics: h, hg, and hc (see Section 3). The measurement model is particularly important in this research since we seek to create scholarly capital profiles; as such, our measurement model should be reliable and three constructs in Figure 4 should have discriminant validity.
+
+6
+
+Data Collection and Analysis
+
+In Table 1, we summarize the six steps required to collect data and to analyze scholarly capital. The datacollection and analysis method (labeled “ideal” ) has the following steps: 1) define the academic field with reference to its knowledge base, 2) identify scholars in that field, 3) calculate h-family indices for the scholars, 4) conduct co-authorship social network analysis, 5) conduct venue-affiliation analysis, and 6) produce reports. This is the ideal method —one that would be implemented as a commercial or community development project for production use by a field. Such a task is beyond our resources and scope here, and, thus, in the column labeled “proof of concept”, we show the method used in this paper to first demonstrate the SCM and its measures and second test the research hypotheses in Figure 4.
+
+6.1
+
+Step 1: Define the Academic Field
+
+In Section 3, we define an academic field as comprising a set of publication venues that represent the body of knowledge in that field. We test our hypotheses with the information systems (IS) field. The academic community has recognized the IS field since the 1970s when researchers from various fields recognized there was a space where technology, people, and organizations meet. As Table 1 shows, one method of identifying the venues that constitute a field would be to follow Mingers and Leydesdorff’s (2014) proposed approach in which one subjects journal cross-citations to factor analysis to identify clusters of journals that correspond with different subfields in business and management (in our case, IS). However, because this method is not automated at this point in time, we adopt here a smaller and simpler method using a convenience sample since we establish a “proof of concept” rather than a fully operational application of the SCM.
+Table 1. Data Collection and Analysis Ideal Proof of concept
+
+Step 1 Define the academic field
+
+Convenience sample of all the IS venues (journals and conferences) Apply Mingers & Leydesdorff’s (2014) that are on existing lists and for which approach to identify those venues an Endnote database of papers was (journals and conferences) that available. We identified 17,049 constitute the IS field. authors (this includes variations on author names). Include any scholar who has published in a venue that step 1 identifies as part of the IS field. Analyze all scholars identified in step 2 for h indices. We reduced the 17,049 authors from step 1 to the set of 448 leading scholars that Clarke et al. (2009) identify. We analyzed the 448 scholars from step 2 for h indices. Once we excluded sole authors, we reduced the 448 authors from step 2 to 390. Of these, the SNA included the 384 authors that comprised the main component. We analyzed 438 authors jointly with the venues in Table 2. This number is more authors than step 4 because we included sole authors. It is less than step 2 because step 1 does not include all of Clarke et al.’s (2009) venues. We produced scholar and venue profiles and rankings. Issue 1
+
+Step 2 Identify scholars Step 3 Calculate h-family indices
+
+Calculate network scores for all authors identified in step 2 who are part of the Step 4 main component. Those who have only Conduct co-authorship social network sole authorships will have a analysis connectedness score of zero for the academic field defined in step 1.
+
+Step 5 Conduct venue affiliation analysis
+
+Include all venues from step 1 and all scholars from step 2 in the venueaffiliation analysis.
+
+Step 6 Produce reports Volume 17
+
+Produce scholar and venue profiles and rankings.
+
+Journal of the Association for Information Systems
+
+13
+
+We consulted existing lists of IS venues and collected publication and authorship data where that data was available (e.g., data in the form of an Endnote database). Table 2 shows the resulting coverage of IS venues and incorporates major journals and conferences. We consolidated the individual Endnote databases into a single file of publications. We then exported the Endnote database to text and wrote a conversion program to break the records into their constituent parts to load them into a database. The database is fully normalized to allow one to flexibly use the publication data. Unsurprisingly, several the Endnote records were inaccurate (e.g., fields were missing and author names mistyped). The conversion routine successfully loaded 18,747 publications and identified 17,049 distinct author identifiers, although, as we show, these do not necessarily reflect a one-to-one mapping of author identifier with individual researcher.
+Table 2. Publication Sources (Venues) Journals  Communications of the Association for Information Systems (1999-2010)  European Journal of Information Systems (1993-2007)  Information Systems Journal (1991-2010)  Information Systems Research (1990-2009)  Journal of the Association for Information Systems (2000-2010)  Journal of Information Technology Theory and Application (1999-2010)  Journal of Management Information Systems (1984-2009)  The Journal of Strategic Information Systems (1991-2009)  Management Information Systems Quarterly (1977-2010)  Scandinavian Journal of Information Systems (1989-2009) Conferences  Australian Conference on Information Systems (2001-2008)  AIS Transactions on Human-Computer Interaction (2009)  Americas Conference on Information Systems (1998-2009)  Bled Conference on E-Commerce (20012009)  International Conference on Information Resources Management (2008)  European Conference on Information Systems (1993-2009).  ICT and Global Development (2008)  International Conference on Decision Support Systems (2007)  International Conference on Information Systems (1994-2009)  International Research Workshop on IT Project Management (2006-2009)  Mediterranean Conference on Information Systems (2007-2008)  Midwest Association for Information Systems Conference (2006-2009)  Pacific Asia Journal of the Association for Information Systems (2009)  Pacific Asia Conference on Information Systems (1993-2009)  Revista Latinoamericana Y Del Caribe De La Associacion De Sistemas De Informacion (2008-2009)  Special Interest Group on Human Computer Interaction Conference (20032009)
+
+6.2
+
+Step 2: Identify Scholars
+
+The second step is to identify uniquely the authors (scholars) in the database. This step proved to be a non-trivial task given that the database contained 17,049 authors. Closer inspection revealed that an author could be entered into Endnote in many different ways (e.g., with a single initial, with first and middle initials, with variations such as “Bob” for “Robert”, and with various misspellings). For example, if a researcher’s name was John Quincy Public, we would find entries such as John Quincy Public, J. Q. Public, John Q. Public, John Public, J. Quincy Public, J. Public, and John Q. P. Disambiguating all the author names in the database was neither feasible nor essential given we wanted to develop a set of measures and to test our hypotheses. Therefore, we decided to use a subset of IS scholars. To do so, we took the most prominent 448 IS scholars that Clarke, Warren, and Au (2009) identify. We do not claim that this table is a definitive list of the top IS scholars but that it represents scholars from both the US and Europe who have high venue prominence in the IS field. For the high-scoring 448 authors, we
+
+Volume 17
+
+Issue 1
+
+14
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+cleaned the data in the database by searching for parts of their family name and then combining the variants into a single author code.
+
+6.3
+
+Step 3: Calculate H-Family Indices
+
+We computed the h-index for each of the “top 448” scholars using the Publish or Perish (PoP) tool (Harzing, 2011). PoP is a tool that one can use to measure a researcher’s bibliometric properties, including the hindex. While the tool is proficient at finding the bibliometric measures, we did find similar data errors as in step 2 (i.e., the disambiguation of author names). As with cleaning the Endnote data, we manually corrected authors’ names. We collected the h-family index measures (h, hg, hc) in May and June, 2010. PoP uses the Google Scholar (GS) database as its data source. Some have criticized GS on the basis of inaccurate data, incorrect citations, and missing data. However, recently, several studies have addressed GS’s suitability as a source for citation data. Mingers and Lipitakis (2009) found that GS was superior to Web of Science (WoS). While having reasonable coverage in social science, WoS found less than half of the papers that GS identified. Similarly, Harzing (2013) found that GS displayed considerable stability over time, that it compared fields in a less-biased way, and that poorly represented areas (e.g., physics and chemistry) were rapidly improving. In a follow on study, Harzing (2014, p. 1) found that “[t]he increased stability and coverage might make Google Scholar much more suitable for research evaluation and bibliometric research purposes than it has been in the past”.
+
+6.4
+
+Step 4: Conduct Co-authorship Social Network Analysis
+
+We extracted all the publications in the database that matched the high-scoring 448 authors and had two or more authors from the database to input them into the social networking-analysis software UCINET. Not all authors had co-authored with others in the top 448, which resulted in our extracting 390 authors. We then extracted the main component to arrive at a population of 384 authors (six authors were not connected to the main group of authors), which formed the basis for the subsequent analysis. We operationalized the concept of connectedness by using three SNA centrality measures as we describe in Section 3, degree, betweenness, and closeness. In this research, the social network is the set of authors who have co-authored papers in the IS field. The network takes the set of all papers submitted to IS journals and conferences in which there is co-authorship. Sole-authored papers are, therefore, not part of the network, and, thus, we did not include them in analyzing connectedness.
+
+6.5
+
+Step 5: Conduct Venue Affiliation Analysis
+
+We constructed an affiliation matrix for the 448 authors representing the venue where they had published. We extracted 438 authors —more than in the co-authorship network since the affiliation network captured the sole authorships. To ensure consistency in the path analysis, we used only the 384 authors that were common to both co-authorship and venue affiliation analysis. In UCINET, we used the affiliation network centrality analysis feature, which calculates degree, closeness, and betweenness for the authors and their affiliations to venues. Although we were primarily interested in the author affiliation centrality scores, the venue analysis is also of interest since it shows which publication venues are most central to the information systems field (i.e., it can provide a novel journal ranking based on the closeness of a venue to the IS field).
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+15
+
+7
+7.1
+
+Results
+Descriptive Findings
+
+Table 3 illustrates the results. The table uses a single measure for each of the three types of scholarly capital to identify the twenty highest-scoring scholars in each dimension. Ideational influence is represented by the h-index (the hc and hg are also calculated), connectedness by co-author closeness centrality (degree and betweenness centrality are also calculated), and venue representation by venue closeness centrality (venue degree and betweenness centrality are also calculated).
+Table 3. Ideational Influence, Connectedness, and Venue Representation: Top 20-Scoring Scholars H index* AalstWVanDer WhinstonAB BenbasatI ChenK RobeyD GroverV KraemerKL DennisAR LyytinenKJ StraubDW HirschheimRA KingJL SmithMA MarkusML WatsonRT AgarwalR ValacichJS WalshamG KeilM KauffmanRJ * As of May/June 2010 56 55 54 50 50 47 44 44 42 41 41 41 38 38 38 37 36 35 34 34 WatsonRT DavisGB ZmudRW KingJL MarkusML GalliersRD BaskervilleRL DavisFD WhinstonAB IvesB ValacichJS BeathC DennisAR GrayP MarchS GeorgeJ HirschheimRA KraemerKL ClemonsEK McLeanE Co-author closeness 40.67 40.33 40.29 40.00 40.00 39.51 39.43 39.31 39.00 38.73 38.73 38.50 38.50 38.42 38.27 38.09 38.05 38.01 37.97 37.90 LyytinenKJ HirschheimRA WatsonRT SambamurthyV TanBCY BenbasatI WhinstonAB BaskervilleRL HuangWW LoebbeckeC GeorgeJ HuffSL IraniZ KraemerKL MarkusML TeoTSH DhillonG GuptaA IivariJ LeeCC Venue closeness 0.9730 0.9709 0.9689 0.9626 0.9626 0.9606 0.9606 0.9586 0.9586 0.9586 0.9565 0.9565 0.9565 0.9565 0.9565 0.9565 0.9545 0.9545 0.9545 0.9545
+
+Volume 17
+
+Issue 1
+
+16
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+Figure 5 shows the co-authorship network. In Figure 5, the blue squares show the core 20 researchers identified in Table 3 as measured by closeness centrality.
+
+Figure 5. Co-authorship Social Network (Main Component)
+
+Figure 6 shows the affiliation of authors and publication venues. The squares represent venues and the circles authors. One can clearly see the less influential publication venues and scholars can in the periphery of the network.
+
+Figure 6. Venue Representation (Squares are Venues, Circles are Authors)
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+17
+
+7.2
+
+Test of the Research Model
+
+We analyzed the data using the partial least squares (PLS) technique with reflective indicators in SmartPLS 2.0 (Ringle, Wende, & Will, 2008). The PLS technique has become increasingly popular in management research over the last decade or so in large part due to its flexibility. In particular, PLS does not require a normal distribution in the data and is able to handle small- to medium-sized samples (Chin, 1998). PLS also combines the assessment of the measurement model with the structural model, which simplifies the analytical work in comparison with ordinary least squares regression. Following Petter, Straub, and Rai (2007), we considered the variables to be reflective rather than formative. We make this determination first because the indicators are manifestations of the variables. The various Hirsch indices reflect ideational influence. Changes in the latent construct ideational influence would be reflected in the indicators rather than vice versa. Similarly, social and venue representation are reflected in the values of the centrality measures. Second, the indicators will covary with each other. The Hirsch indices are based on the same underlying citation pattern and, while they put different emphasis on the nature of that pattern, they should vary in the same direction. Similarly, the centrality measures are also based on the same underlying co-authorship and venue-affiliation patterns. Finally, the antecedents of the Hirsch indices and the centrality measures, while they tap into different aspects of their constructs, are the same. The Hirsch indices all stem from the same causal factors because scholars read and are influenced by the ideas contained in the papers. The citation pattern analyzed by the Hirsch indices indicate the casual factors. Similarly, these co-authorships, which the centrality measures analyze, reflect the social relationships that effect co-authorships. To test the constructs, we performed a confirmatory factor analysis and reliability analysis. The loadings and cross-loadings in Table 4 demonstrate that the scale items exhibited high levels of convergent validity—the extent to which theoretical scale items were empirically related. The loadings of the measures on their respective constructs in the model ranged from 0.789 to 0.979, with all being significant at the p < 0.1% level.
+Table 4. Loadings and Cross-loadings Ideational influence H Hg Hc CoauthClose CoauthBetween CoauthDegree VenueClose VenueBetween VenueDegree 0.979 0.956 0.970 0.453 0.503 0.543 0.273 0.344 0.486 Connectedness 0.555 0.581 0.484 0.873 0.885 0.919 0.404 0.453 0.612 Venue representation 0.432 0.423 0.413 0.559 0.418 0.553 0.789 0.858 0.959
+
+To assess construct reliability of the reflectively modeled constructs, we examined composite reliability and the average variance extracted (AVE) for each construct (see Table 5).
+Table 5. Construct Reliability Construct Ideational Connectedness Venue Composite reliability .978 .923 .904 AVE .938 .797 .760
+
+The reliability measures were well above the cut-offs of 0.70 and 0.80 that scholars typically advise for building strong measurement constructs (Nunnally, 1978; Straub & Carlson, 1989). All items were higher than the cut-off of 0.50 for AVE that Fornell and Larcker (1981) recommend.
+
+Volume 17
+
+Issue 1
+
+18
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+Table 6. Correlations Between Constructs* Ideational Ideational Social Venue 0.969 0.561 0.437 0.893 0.575 0.872 Social Venue
+
+* Diagonal elements are square roots of average variance extracted (AVE)
+
+Table 6 shows the extent to which question items measured the construct intended rather than other constructs (i.e., discriminant validity). We used Fornell and Larcker’s (1981) standard test for discriminant validity, which compares the square root of average variance extracted for each construct with the correlations between it and other constructs; discriminant validity is demonstrated if the square root is higher than the correlations. Table 4 clearly indicates each construct shared greater variance with its own measurement items than with other constructs with different measurement items with a good margin of difference. As an additional test for discriminant validity, we used the cross-loading method that Chin (1998) recommends. The method requires measurement items to load higher on a construct than the scale items for other constructs and for no crossloading to occur. Item loadings in the relevant construct columns were all higher than the loadings of items designed to measure other constructs; similarly, when looking across the rows, the item loadings were considerably higher for their corresponding constructs than for other constructs (Table 4). Overall, the evaluation of the measurement model SCM suggests that, while the constructs were correlated (as Figure 2 suggests), they were sufficiently distinct (discriminant validity) and their measurement was sufficiently reliable.
+
+7.2.1
+
+Tests of Hypotheses
+
+The results show support for the theoretical research model (Figure 7). We found strong support for the association of connectedness with venue representation with H1 supported at the p<.001 level. We found strong support for H2 (p<.001); that is, that connectedness is associated with ideational influence. H3 was also supported (p<.01); that is, that venue representation is associated with ideational influence. Together, connectedness and venue representation explained 33.4 percent of the variation in ideational influence.
+
+Figure 7. Path Model Results
+
+8
+
+Discussion
+
+In this paper, we propose that we should assess the scholarly capital of researchers using a combined set of measures representing ideational influence, connectedness, and venue representation (Figures 1 and 2). Each of these different sets of indices focuses on a different area of scholarly capital. While we would
+Volume 17 Issue 1
+
+Journal of the Association for Information Systems
+
+19
+
+expect all three aspects of capital to be interrelated and reinforcing, with the research model’s giving connectedness precedence (Figure 4), we recognize the fundamental role of the ability to build connectedness and give primacy to ideational influence as the outcome. However, we also recognize the associations are not one way: scholars with high levels of venue representation and ideational influence are likely to be popular as co-authors and, thus, accrue further connectedness (Figure 2). We can only speculate about why some researchers have a higher level of capital than others. One factor may be their ability. Since scholars are not uniform in their capabilities, we can readily assume that different scholars have different abilities to perform research, to write research, to social network, and so on. Differences in scholars ’ ability to perform these functions may explain why some researchers have more capital than others. For example, a scholar may have a great ability to conceptualize an idea and write research in a clear and compelling manner (Davis, 1971). These capabilities would tend to create research that other researchers would more likely cite than researchers who could not produce such wellwritten accounts of their work. These capabilities would also tend give them a greater capability to be published in the venues central to their field. It might also increase their ideational influence because they would socialize using their ideas, which might predispose others to accept them once in published form. Clearly, there will be a range of further factors, such as gender, PhD supervisor, academic institution, and access to field data, that contribute to a scholar’s influential capability.
+
+8.1
+
+A New Way of Ranking Journals?
+
+We begin this paper by questioning how one can evaluate the scholarly capital that an individual researcher possesses. During conference and colloquia presentations of this research program of which this paper is a part, many scholars challenged us with “so what?” questions, often ones expressing concerns about the continuing “metrification” of academic output. With this paper, we offer a more comprehensive and fair way to assess a scholar’s research capital. In previous publications , we have challenged the extant methods as being one dimensional and power laden. We are aware that, even though we think a portfolio approach is better than the most common met ric (i.e., tallying “hit counts” in a small number of journals), even a portfolio approach could be abused if applied without care. Further, we recognize the value of venue as a source of capital and seek to find a more useful and democratic measure of this concept. The venue affiliation analysis produces a journal ranking and a scholar ranking—those venues that are core to a field will be more highly ranked than those that are peripheral (see the visualization in Figure 6). Those venues that emerge as most central from the affiliation analysis will be the ones that scholars seek to publish in (which, in turn, reinforces those scholars’ centrality). This duality of scholars and venues reflects the way scholars create the venues (as institutions) by publishing in them and the way those same venues define the scholars as part of the IS community by virtue of publishing their papers. Rather than relying on expert opinions or on surveys (with problems of response rates and bias), we can automate the production of a journal ranking list through affiliation analysis in which IS scholars can be said to “vote” for the venue of their choice simply by the act of where they choose to submit their research.
+
+8.2
+
+Profiling Researchers
+
+Returning to the paper’s original point, appropriately using the portfolio of measures proposed by the SCM would be to use the range of measures proposed with an inclusive list of publication venues (i.e., a set of venues) that can be said to represent the IS field. One can automatically produce this set of measures using methods such as those proposed by Mingers and Leydesdorff (2014) and can use it to support personal planning, individual career assessment, or the evaluation and comparing of the productivity of collections of scholars in an academic unit. We argue that one can use the citation, co-authorship centrality, and venue affiliation measures to create a profile of a scholar’s scholarly capital. Such a profile provides a sense of where a researcher is in their career and how closely woven into a field they are with regards to venues (where they publish) and co-authors (who they work with). One could use such profiles to shape departments and to identify “strengths” and likely trajectories of potential personnel placements. To illustrate the point, Figure 8 shows profiles for researchers with different scholarly capital outcomes. We provide the profiles of researchers from our dataset that score well on one of ideational influence (8b), connectedness (8c), and venue representation (8d) and also one profile that scores particularly highly on all three dimensions (8a). The researcher Figure 8a depicts scores well in all three dimensions: they are highly cited, publish in the core venues, and have an extensive co-authorship network. Few researchers can achieve this profile, and
+Volume 17 Issue 1
+
+20
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+those that do are typically highly experienced academics who have spent many years working in a field. The researcher in Figure 8b scores as well as the one in Figure 8a with regard to h-index but has more sole-authored papers and, thus, may have less connectedness. Researcher 8c scores well in terms of coauthorship and venue, but their research has yet to become truly influential in terms of ideational influence (something that may change with time). Researcher 8d scores highly for venue representation through publishing in a wide range of IS venues; they score well on co-authorship closeness but, in common with researcher 8c, their work scores lower on ideational influence. If these profiles are in part the products of intentional personal choices and are correlated with amount of time in academic life, hiring committees and departmental leaders may use such data in considering a portfolio management approach to hiring and promotion. We suggest the portfolio management approach because depictions, such as those illustrated in Figure 8, answer the questions: 1) is one a part of the field (i.e., does one publish in IS venues?), 2) does one have connectedness among the researchers in their field?, and 3) are others using one’s work and taking up their ideas? Figure 8 shows a scholar’s relative “well-roundedness” (or not) at a given point of time in their career. An area of concern with this methodology would be evaluating early-career scholars because it takes time, even once one is published, for others to read and cite a published work, and there is a natural lag in growing these measures. Accordingly, one needs to interpret the profiles produced in Figure 8 with care for early-career scholars. Regardless, Hirsch (2007) has shown the h-index to be a good predictor of its future values. For use in tenure cases, a faculty can compare a scholar’s profile in ideational influence to those of well-established scholars at their point of tenure to indicate whether this particular scholar is projected to be the kind of scholar that the faculty would desire.
+
+Figure 8. Illustrative Researcher Profiles
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+21
+
+8.3
+
+Limitations to this Research
+
+This research has several limitations, which include how we tested the model, the data we used, and how we operationalized the constructs. As Figure 2 shows, we tested only the model’s internal aspects, which showed that the three components of scholarly capital are related as the model describes. We did not test the external components, the impact of scholarly capital on career advancement, ability to attract grants, and so on. Second, despite having good coverage of the publication venues for the IS field, the dataset analyzed in this research only comprises the 448 leading information systems academics that Clarke, Warren, and Au (2009) identify. Although an important group of scholars, this group clearly does not cover all research-active scholars in the IS field. Future research should strive to analyze all IS scholars and all relevant venues (i.e., applying the ideal method in Table 1). In this paper, we only illustrate the method to prove the scholarly capital model concept. We used the citation information in Google Scholar. While scholars consider this dataset to be superior in representing the IS field compared to Web of Science or Scopus, its content it is still subject to omissions and errors. Also, we operationalized the dimensions of scholarly capital using a variety of measures. We operationalized ideational influence using three h-index variants (see below) calculated from citations drawn from Google Scholar, which have limited applicability. First, it is difficult to compare scholars across fields. The difficulty in comparing across fields exists because fields may have differences that defeat equivalence across them. One field may have many more scholars in it than another (e.g., management versus IS). In this case, there are many more scholars who might cite a management paper than an IS paper, which leads to generally higher h-indices in management than in IS. Fields also have different authoring cultures. In the physical sciences, for example, papers may list many more authors than in the social sciences. Similarly, the standards for what one cites can vary across fields, which will lead to non-equivalence in h-indices across fields, which prevents direct comparison but allows relative comparison. For instance, the spider diagram (Figure 8) shows a given scholar’s in-field influence, which one can use to compare scholars in a field. The relative scaling (0 to 100) in the spider diagram suggests that one might use it to compare scholars across fields, although we need further work to investigate this application. Another issue with the h-indices is that it takes time for citations to build up for a paper, which makes evaluating early-career scholars difficult when using the h-index. The time lag factor, however, is not necessarily the case because Hirch (2007) has shown the h-index to be a good predictor of itself, which allows one to set levels of the Hirsch index to evaluate scholars for promotion and tenure purposes. As Hirsch (p. 19197) says, “we found that the h index appears to be better able to predict future achievement than the other three indicators—number of citations, number of papers, and mean citations per paper — with achievement defined by either the indicator itself or the total citation count ”. He concludes: “the h index is also effective in discriminating among scientists who will perform well and less well in the future ” and “the h index is a useful indicator of scientific quality that can be profitably used (together with other criteria) to assist in academic appointment processes and to allocate research resources ” (p. 19198). Finally, some papers are so widely cited that they become “black boxed” (Latour, 1987). For example, consider Cronbach’s 1951 paper on his alpha (Cronbach, 1951), which was so widely cited that scholars today automatically accept the alpha and no longer cite the original paper. As Latour notes, papers move from being fully described and cited to being summarily described and cited to simply cited and finally not cited at all when their assertions are accepted as facts or “black boxed”. Thus, a small number of blackboxed papers may not be fully reflected in our scholarly-capital measures. For connectedness, we used social network analysis. Scholars who do not co-author will not be included in the connectedness network. Further, closeness and betweenness scores for co-authorship are calculated only for those scholars in the main component. In a sense this fact is not a limitation; rather, it is useful information about the connectedness of a scholar being evaluated for promotion or tenure. For example, consider the case of Peter Checkland. Most of his influence comes through citations to his books on soft systems methodology. He did not co-author much, and his books don’t show up in the venue representation network as central venues. In his case, he would have a high ideational influence but low connectedness and venue representation. Those evaluating his scholarly capital should conclude that his capital is in his books. If they were looking for capital in the form of connectedness, then perhaps they would need to look elsewhere. Thus, one gains valuable information for making decisions about the capital a scholar brings by examining the profile of their measures.
+Volume 17 Issue 1
+
+22
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+Scholars who traverse fields will appear to be less connected and less well represented when one focuses on a single field. For example, a scholar may have published in venues classified as marketing and software engineering and in IS venues. One can achieve a fuller picture of a scholar’s capital by analyzing their capital in all the fields in which they publish, which allows one to produce a field profile (e.g., this scholar is 70% IS, 20% marketing, 5% software engineering, and 5% “other”). The availability of such a profile would again be useful to hiring committees wanting to understand the makeup of an applicant’s research and answer the question: “to what extent is this person an IS researcher?” .
+
+8.4
+
+Future Work
+
+Future work related to developing the SCM falls into three different areas: further testing and developing the theory, improving the operationalization of the constructs, and using design science research in practically applying the theory.
+
+8.4.1
+
+Further Testing and Development of the Model
+
+As we indicate in Section 4, we tested only the internal components of the model in Figure 2. We need additional work to assess the impact of scholarly capital on career advancement, on attracting grants, and on policy and practice. Further developing the model involves researching the antecedents of ideational influence, connectedness, and venue representation. How do these constructs arise and what are the causal relationships between them? Also, we need further theorization and empirical examination in each of these antecedents. For example, one could research the social antecedents of scholarly capital. Other research (e.g., Gallivan & Benbunan-Fich, 2007) has shown that women and minorities have less capital than “old, white men”. An important extension to the current work would be to investigate the causes of this differential lack of capital. We may hypothesize this difference exists because of the preponderance of North American men in IS at the beginning who now control the field. We might expect that, as more researchers originating from non-North American geographic locations, women, and minorities rise up the ladder, the discrepancy may change. Some have also assumed that those who hold divergent views from the majority may have less influence due to their difficulty in getting published. We need future research to address this concern as well. Another area for investigation is the “fragmented ad-hocracy” of the IS field (Banville, Landry, & Kling, 1989). The IS field comprises many different subfields such as design science, management of the information resource, adoption and diffusion of technology, and so on. The implication here is that being a member of these subfields will have an effect on one’s capital. Further research should be done on how being in a particular subfield affects a scholar’s capital and on how to effectively compare these researchers across the subfields (i.e., to consider not only field but intra-field capital and inter-field (interdisciplinary) capital).
+
+8.4.2
+
+Improving the Operationalization of the Constructs
+
+This area includes research into the methods of automating the analysis and additional methodologies and measures that one might use. To automate the analysis in the ideal method such as in the one that Mingers and Leydesdorff (2014) describe, one would uniquely identify each scholar (e.g., with a scholar ID such as found in Scopus and Google Scholar) and reliably assign publications to scholars. This process would allow one to benchmark all scholars with regard to their peers. Further, the resulting venue centrality list would be a truer reflection of which journals are most important to any given field. However, such work is beyond the reach of an academic research project and would require a commercial organization or community project to implement. We note that Google Scholar already has much of this data and that scholars can establish a Scholar webpage that shows their h-family indices and co-authors. The Wirtschaftsinformatik-Genealogie German Language project (Wirtschaftsinformatik-Genealogie) whose goal is documenting “the history of publishing in the discipline of computer science” and its genealogical database of works spanning nearly a century is another step in this direction. Such organizations could make a small step to uniquely identify scholars and venues in a given field and produce all of the field-level and scholar-level profiles reported in this paper. At such a time, we would expect to see appointment and funding decisions go beyond simple journal “ hit counts” and begin to be supplemented with automated scholarly capital profiles, particularly given the emphasis put on citations by the world university rankings (Times Higher Education, 2012). One could also use additional methods to assess scholarly capital. For example, one could use data-mining techniques from the Natural Language Processing field, such as latent semantic indexing and other text mining technologies, to assess scholars’ ideational influence. Previous IS studies have used such analysis techniques. Culnan (1986, 1987) and
+Volume 17 Issue 1
+
+Journal of the Association for Information Systems
+
+23
+
+Culnan and Swanson (1986) used co-citation analysis to perform a clustering analysis of the publication topics in the IS field at that time. For a two-day conference honoring for Heinz Klein in 2007, we used Leximancer to identify the topics on which the late Klein wrote and which scholars wrote of Klein’s work. Alternatively, one could use developments such as the altmetrics movement (www.altmetrics.org). Altmetrics argues for greater diversity in measuring impact in the scholarly ecosystem and in developing new forms of filter to sift through the large volumes of research being generated and disseminated in nontraditional media (e.g., blogging). While we used measured connectedness using SNA analysis of coauthorships, emerging social media sites for scholars, such as ResearchGate (www.researchgate.net) allow one to more widely assess connectedness and impact. Some have suggested enhancing the assessment of capital outside of the academy by considering other kinds of measures. For example, Aguinis, Suarez-Gonzalez, Lannelongue and Joo (2012) argue that we should use measures such as references in Google pages. Fenner and Lin (2014) propose using HTML views and PDF downloads. Bar-Ilan et al. (2012) investigate using social bookmarking sites, such as Mendeley (www.mendeley.com), to use bookmarks to assess impact. Other measures for evaluating research ability could be proposed: for example, research funding, such as grants (see Figure 2). All of these different measures are valuable and can be used to give insight into impact, influence, and ability in different ways and represent valuable future research directions for expanding this model.
+
+8.4.3
+
+Creating a Methodology for Using the SCM in Practice
+
+Finally, we need to develop a specific methodology for using the SCM in practice. This effort would be a design science activity that would result in a methodology to perform SCM analysis in different kinds of organizations. Organizations would use the methodology to describe to practitioners how to set up an analysis regime that: 1) accurately defines the fields of study for which the scholar will be evaluated, 2) establishes the levels of capital required for all three constructs needed to meet the organization ’s research goals, 3) collects information for the field or fields of interest to the organization, 4) computes the metrics, and 5) renders the portfolio for the scholar to be compared against the organization’s standards.
+
+9
+
+Conclusion
+
+This work contributes to a growing discourse in many fields of inquiry about how to compare scholars’ ability in and across fields. We begin the paper by observing that evaluating scholarly research ability is a key concern for academia. Many believe the present method, counting papers published in ranked journals, to be suboptimal for this purpose. Consequently, we propose a method for evaluating scholarly capital that provides a set of measures for profiling scholars. One can automate the generation of the set of measures and use the measures to provide a fair, open, and transparent method for evaluating scholarly research capital.
+
+Acknowledgements.
+We thank the senior editor and the anonymous reviewers for their valuable feedback, which helped us to improve the paper. While engaged in this research program, Duane Truex served as Professor of Industrial Economics at Mid Sweden University (Mittuniversitetet, Sundsvall Sweden).
+
+Volume 17
+
+Issue 1
+
+24
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+References
+Adler, N. J., & Harzing, A.-W. (2009). When knowledge wins: Transcending the sense and nonsense of academic rankings. Acadmy of Management Learning and Education, 8(1), 72-95. Aguinis, H., Suarez-Gonzalez, I., Lannelonge, G., & Joo, H. (2012). Scholarly impact revisited. Academy of Management Perspectives, 26(2), 105-132. Banville, C., Landry, M., & Kling, R. (1989). Can the field of MIS be disciplined? Communications of the ACM, 32, 48-60. Barbasi, A.-L., & Albert, R. (1999). Emergence of scaling in random networks. Science, 286(5439), 509-512. Bar-Ilan, J., Haustein, S., Peters, I., Priem, J., Shema, H., & Terliesner, J. (2012). Beyond citations: Scholar's visibility on the social Web. Retrieved from http://arxiv.org/abs/1205.5611 Bennis, W. G., & O'Toole, J. (2005). How business schools lost their way. Harvard Business Review, 83(5), 96-104. Bhaskar, R. (1997). A realist theory of science (Vol. 9, 2nd. Ed.). London: Verso. Bjorn-Andersen, N., & Sarker, S. (2009). Journal self-citation IX: The power of the unspoken in journal referencing. Communications of the Association for Information Systems, 25, 79-84. Borgatti, S. P., & Everett, M. G. (1997). Network analysis of 2-mode data. Social Networks, 19, 243-269. Borgatti, S. P., Everett, M. G., & Freeman, L. C. (2002). Ucinet for Windows: Software for social network analysis. Harvard, MA: Analytic Technologies. Bornmann, L., Mutz, R., & Daniel, H.-D. (2008). Are there better indices for evaluation purposes than the h index? A comparison of nine different variants of the h index using data from biomedicine. Journal of the American Society for Information Science and Technology, 59(5), 830-837. Bourdieu, P. (1984). Homo academicus. Palo Alto, CA: Stanford University press. Breiger, R. L. (1974). The duality of persons and groups. Social Forces, 53, 181-190. Chin, W. W. (1998). The partial least squares approach to structural equaltion modeling. In G. A. Marcoulides (Ed.), Modern methods for business research (pp. 295-335). Mahwah, NJ: Lawrence Erlbaum Associates, Inc. Chua, C., Cao, L., Cousins, K., & Straub, D. (2002). Measuring researcher-production in information systems. Journal of the Association of Information Systems, 3(1), 145-215. Clark, J. G., Warren, J., & Au, Y. A. (2009). Assessing researcher publication productivity in leading information systems journals: A 2003-2007 update. Communications of the Association for Information Systems, 24, 225-254. Coleman, J. S. (1988). Social capital in the creation of human capital. The American Journal of Sociology, 94, S95-S120. Crews, J., McLeod, A., & Simkin, M. G. (2009). Journal self-citation XII: The ethics of forced journal citations. Communications of the Association for Information Systems, 25 , 97-110. Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16(3), 297-334. Cuellar, M. J., Takeda, H., & Truex, D. P. (2008). The Hirsch family of bibliometric indices as an improved measure of IS academic journal impact. Paper presented at the 14th America's Conference on Information Systems, Toronto, Ontario, Canada. Culnan, M. J. (1986). The intellectual development of management information systems, 1972-1982: A cocitation analysis. Management Science, 32(2), 156-172. Culnan, M. J. (1987). Mapping the intellectual structure of MIS, 1980-1985: A co-citation analysis. MIS Quarterly, 11(3), 341-353. Culnan, M. J., & Swanson, E. B. (1986). Research in management information systems 1980-1984: Points of work and reference. MIS Quarterly, 10(3), 289-302.
+Volume 17 Issue 1
+
+Journal of the Association for Information Systems
+
+25
+
+Davis, M. S. (1971). That's interesting! Towards a phenomenology of sociology and a sociology of phenomenology. Philosophy of Social Science, 1(2), 309-344. Dean, D. L., Lowry, P. B., & Humpherys, S. L. (2011). Profiling the research productivity of tenured information systems faculty at U.S. institutions. MIS Quarterly, 35(1), 1-15. Delbridge, R., & Edwards, T. (2007). Reflections on developments in institutional theory: Toward a relational approach. Scandanavian Journal of Management, 23(2), 191-205. DiMaggio, P., & Powell, W. W. (1983). The iron revisited: Institutional isomorphism and collective rationality. American Sociological Review, 48(2), 147-160. Egghe, L. (2006). Theory and practice of the g-index. Scientometrics, 69(1), 131-152. Fenner, M., & Lin, J. (2014). Novel research impact indicators. LIBER Quarterly, 23(4), 300-309. Field, J. (2003). Social capital. London: Routledge Taylor & Francis Group. Fornell, C., & Larcker, D. (1981). Evaluating structural models with unobservable variables and measurement error. Journal of Marketing Research, 18, 39-40. Freeman, L. C. (1979). Centrality in social networks: 1. Conceptual clarification. Social Networks, 1, 215-239. Gallivan, M. J. (2009). Unpacking the journal “impact factor” and its effect on IS research: Does it do more harm than good?. Paper presented at the America's Conference on Information Systems, San Francisco, CA. Gallivan, M. J., & Benbunan-Fich, R. (2007). Analyzing IS research productivity: An inclusive approach to global IS scholarship. European Journal of Information Systems, 16(1), 36-53. Granovetter, M. (1985). Economic action and social structure: The problem of embeddedness. The American Journal of Sociology, 91(3), 481-510. Habermas, J. (1985). The theory of communicative action, volume two: Lifeworld and system: A critique of functionalist reason (T. McCarthy, Trans.). Boston, MA: Beacon Press. Hardgrave, B. C., & Walstrom, K. A. (1997). Forums for MIS Scholars. Communications of the ACM, 40(11), 119-124. Harvey, C., H., M., Kelley, A., & Rowlinson, M. (2010). Academic journal quality guide: Version 4. London: Association of Business Schools. Harzing, A.-W. (2011). Publish http://www.harzing.com/pop.htm or perish (Version 2.8.3774). Retrieved from
+
+Harzing, A.-W. (2013). A preliminary test of Google Scholar as a sourse for citation data: A longitudinal study of Nobel Prize Winners. Scientometrics, 93(3), 1057-1075. Harzing, A.-W. (2014). A longitudinal study of Google Scholar coverage between 2012 and 2013. Scientometrics, 98(1), 565-575. Hirsch, J. E. (2005). An index to quantify an individual's scientific research output. Proceedings of the National Academy of Sciences of the United States of America, 102(46), 16569-16572. Hirsch, J. E. (2007). Does the h index have predictive power? Proceedings of the National Academy of Sciences of the United States of America, 104(49), 19193-19198. Janz, B. D. (2009). Journal self-citation XIV: Right versus right—gaining clarity into the ethical dilemma of editorial self-referencing. Communications of the Association for Information Systems, 25, 115-120. Kleinberg, J. (2000). The small-world phenomenon: An algorithmic perspective. Paper presented at the Annual ACM Symposium of Theory of Computing. Kuhn, T. S. (1996). The structure of scientific revolutions (3rd ed.). Chicago: The University of Chicago Press. Latour, B. (1987). Science in action. Cambridge, MA: Harvard University Press. Lawrence, P. A. (2002). Rank injustice: The misallocation of credit is endemic in science. Nature, 415, 835-836.
+
+Volume 17
+
+Issue 1
+
+26
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+Lawrence, P. A. (2003). The politics of publication: Authors, reviewers and editors must acto to protect the quality of research. Nature, 422, 259-261. Locke, J., & Lowe, A. (2002). Problematising the construction of journal quality: an engagement with the mainstream. Accounting Forum, 26(1), 45-71. Mingers, J. (2009). Measuring the research contribution of management academics using the Hirsch index. Journal of the Operational Research Society, 60 (8), 1143-1153. Mingers, J., & Leydesdorff, L. (2014). Identifying research fields within business and management: A journal cross-citation analysis. Journal of the Operational Research Society, 66, 1370-1384. Mingers, J., & Lipitakis, L. (2009). Counting the citations: A comparison of Web of Science and Google Scholar in the field of management. Canterbury, UK: Kent University Business School. Mingers, J., & Willmott, H. (2013). Taylorizing bu siness school research: On the “one best way” performative effects of journal ranking lists. Human Relations, 66(8), 1051-1073. Mingers, J., Macri, F., & Petrovici, D. (2012). Using the h-index to measure the quality of journals in the field of business and management. Information Processing & Management, 48(2), 234-241. North, D. (1991). Institutions. Journal of Economic Perspectives, 5(1), 97-112. Nunnally, J. C. (1978). Psychometric theory. New York: McGraw-Hill. Peffers, K., & Hui, W. (2003). Collaboration and author order: Changing patterns in IS research. Communications of the Association for Information Systems, 11, 166-190. Petter, S., Straub, D., & Rai, A. (2007). Specifying formative constructs in information systems research. MIS Quarterly, 31(4), 623-656. Pinch, T. J., & Bijker, W. E. (1984). The social construction of facts and artefacts: Or how the sociology of science and the sociology of technology might benefit each other. Social Studies of Science, 14, 399-441. Pornpitakpan, C. (2004). The persuasiveness of source credibility: A critical review of five decades’ evidence. Journal of Applied Social Psychology, 34(2), 243-281. Ringle, C. M., Wende, S., & Will, A. (2008). SmartPLS (Version 2.0 beta). Hamburg, Germany: University of Hamburg. Retrieved from http://www.smartpls.de Romano, N. C. (2009). Journal self-citation V: Coercive journal self-citation—manipulations to increase impact factors may do more harm than good in the long run. Communications of the Association for Information Systems, 25, 41-56. Rowe, F. (2014). What literature review is not: diversity, boundaries and recommendations. European Journal of Information Systems, 23i(3), 241-255. Sasson, A. (2008). Exploring mediators: Effects of the composition of organizational affiliation on organization survival and mediator performance. Organization Science, 19(6), 891-906. Sidiropoulos, A., Katsaros, D., & Manolopoulos, Y. (2006). Generalized h-index for disclosing latent facts in citation networks. Scientometrics, 72(2), 253-280. Singh, G., Haddad, K. M., & Chow, C. W. (2007). Are articles in “top” management journals necessarily of higher quality. Journal of Management Inquiry, 16(4), 319-331. Starbuck, W. H. (2005). How much better are the most-prestigious journals. Organization Science, 16(2), 180-200. Straub, D., & Anderson, C. (2009). Journal self-citation VI: Forced journal self-citation—common, appropriate, ethical. Communications of the Association for Information Systems, 25, 57-66. Straub, D., & Anderson, C. (2010). Editor's comments: Journal quality and citations: Common metrics and considerations for their use. MIS Quarterly, 34(1), iii-xii. Straub, D., & Carlson, C. L. (1989). Validating instruments in MIS research. MIS Quarterly, 13(2), 147-169. Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40, 371-384.
+
+Volume 17
+
+Issue 1
+
+Journal of the Association for Information Systems
+
+27
+
+Times Higher Education. (2012). The essential elements in our world-leading formula. Retrieved from http://www.timeshighereducation.co.uk/world-university-rankings/2012-13/worldranking/methodology Travers, J., & Milgram, S. (1969). An experimental study of the small world probl em. Sociometry, 32(4), 425-443. Truex III, D. P., Cuellar, M. J., & Takeda, H. (2009). Assessing scholarly influence: Using the Hirsch indices to reframe the discourse. Journal of the Association of Information Systems, 10(7), 560-594. Truex III, D. P., Cuellar, M. J., Takeda, H., & Vidgen, R. (2011a). The scholarly influence of Heinz klein: Ideational and social measures of his impact on IS research and IS scholars. European Journal of Information Systems, 20(4), 422-439. Truex, D. P., III., Cuellar, M. J., Vidgen, R., & Takeda, H. (2011b). Emancipating scholars: Reconceptualizing scholarly output. Paper presented at the The Seventh International Critical Management Studies Conference, Naples, Italy. Vidgen, R., Henneberg, S., & Naude, P. (2007). What sort of community is the European Conference on Information Systems? A social network analysis 1993-2005. European Journal of Information Systems, 16, 5-19. Wasserman, S., & Faust, K. (1994). Social network analysis: Methods and applications (1st ed.). Cambridge, UK: Cambridge University Press. Webster, J., & Watson, R. (2002). Analysing the past to prepare for the future: Writing a literature review. MIS Quarterly, 26(2), xiii-xxii. Weick, K. E. (1989). Theory construction as disciplined imagination. Academy of Management Review, 14(4), 516-531. Weick, K. E. (1995). What theory is not, theorizing is. Administrative Science Quarterly, 40, 385-390. Yan, E., & Ding, Y. (2009). Applying centrality measures to impact analysis: A coauthorship network analysis. Journal of the American Society for Information Science, 60(10), 2107-2118.
+
+Volume 17
+
+Issue 1
+
+28
+
+Ideational Influence, Connectedness, and Venue Representation: Making an Assessment of Scholarly Capital
+
+About the Authors
+Michael Cuellar is an Assistant Professor in the Information Systems department of Georgia Southern University. He received his PhD in 2009 from Georgia State University. His research interests are focused on the areas of project management and organizational change, critical realism as applied to Information Systems and the nature of scholarly capital. He has published in the European Journal of Information Systems, the Journal of the Association for Information Systems, and the European Journal of Operations Management, as well as the ICIS, AMCIS, and other conferences. He is Managing Editor for the Journal of the Southern AIS and a Senior Editor for JISE and on the editorial boards of Database and BISE. He has been the secretary for the AIS SIG ITPM from 2009 to present. Hirotoshi Takeda is an Assistant Professor of Management Information Systems at Laval University in Quebec City, Canada. He has seven years of industry experience in telecommunications, semiconductor manufacturing, and IT consulting. After his career in industry, he graduated with a PhD in Computer Information Systems from Georgia State University and a PhD in Management from the University of Paris Dauphine. He has degrees in electrical engineering and computer science from UC Irvine, a Masters of Electrical Engineering from the Georgia Institute of Technology and his MBA from Southern Methodist University. His research interests include discourse analysis, mobile computing, bibliometrics, virtual communities, knowledge management, supply chain management, and green IS. His research has appeared in the Journal of the Association for Information Systems , European Journal of Information Systems, Information Systems Educators Journal, and the proceedings of the ICIS, AMCIS, SAIS, UKAIS, ISECON, and IFIP WG 8.2. Richard Vidgen is Professor of Business Analytics at the University of New South Wales Business School, Australia. Following fifteen years working in the IT industry he has held professorial positions at the University of Bath and the University of Hull in the UK. His research interests include (1) business analytics and data science, (2) the evaluation of technology and its use in supporting behavior change for pro-societal benefit, and (3) the application of complex adaptive systems theory, ideas, and models to the study of information systems and analytics. Duane Truex holds joint appointments in the Computer Information Systems Department and in the Institute of International Business of the J. Mack Robinson College of Business at the Georgia State University where he also serves as the Program Director for the GSU’s University of Nantes (France) Academic Exchange program. He has held additional academic appointments in Sweden (as Professor of Industrial Economics at the Mid Sweden University, in France (as a Research Professor at Université de Nantes) and in England as a former Leverhulme Fellow (at Salford University). In addition to his inquiries into the nature of scholarly influence, his research explores the emergent and performative properties of language as instantiated in information systems development (ISD) and in the design of enterprise systems, the effect of organizational emergence on systems architectures and post-implementation governance of enterprise-wide systems (ES), and the social impacts of information systems (IS) on society.
+
+Copyright © 2016 by the Association for Information Systems. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and full citation on the first page. Copyright for components of this work owned by others than the Association for Information Systems must be honored. Abstracting with credit is permitted. To copy otherwise, to republish, to post on servers, or to redistribute to lists requires prior specific permission and/or fee. Request permission to publish from: AIS Administrative Office, P.O. Box 2712 Atlanta, GA, 30301-2712 Attn: Reprints or via email from publications@aisnet.org.
+Volume 17 Issue 1
+
+Copyright of Journal of the Association for Information Systems is the property of Association for Information Systems and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.
+
+
